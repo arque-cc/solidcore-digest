@@ -1,0 +1,70 @@
+name: digest
+
+on:
+  schedule:
+    # 05:37 UTC: el dia UTC anterior ja està tancat i el digest d'ahir es genera sencer.
+    - cron: "37 5 * * *"
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Dia UTC (AAAA-MM-DD). Buit = ahir."
+        required: false
+      backfill_from:
+        description: "Primer dia d'un interval a regenerar (AAAA-MM-DD). Buit = només un dia."
+        required: false
+
+permissions:
+  contents: write   # per fer commit de data/ i digests/
+  pages: write      # per publicar public/ a GitHub Pages
+  id-token: write   # ho demana actions/deploy-pages
+
+concurrency:
+  group: digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Clon filtrat: tot l'historial, només els blobs que calguin (els dos worktrees
+      # del dia). Triga ~1 min i és el que l'script espera (--name-only, sense --numstat).
+      - name: Clonar tangency-labs/solidcore
+        run: git clone --quiet --filter=blob:none https://github.com/tangency-labs/solidcore.git /tmp/solidcore
+
+      - name: Generar el digest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if [ -n "${{ inputs.backfill_from }}" ]; then
+            TO="${{ inputs.date }}"; [ -z "$TO" ] && TO=$(date -u -d yesterday +%F)
+            python3 digest.py backfill --repo /tmp/solidcore --from "${{ inputs.backfill_from }}" --to "$TO"
+          elif [ -n "${{ inputs.date }}" ]; then
+            python3 digest.py run --repo /tmp/solidcore --date "${{ inputs.date }}"
+          else
+            python3 digest.py run --repo /tmp/solidcore
+          fi
+          python3 digest.py site
+
+      - name: Desar data/ i digests/ al repositori
+        run: |
+          git config user.name "solidcore-digest"
+          git config user.email "actions@users.noreply.github.com"
+          git add data digests
+          git diff --cached --quiet || git commit -m "digest: $(ls digests | tail -1 | sed 's/.md//')"
+          git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - id: deploy
+        uses: actions/deploy-pages@v4
