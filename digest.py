@@ -50,7 +50,10 @@ def cmd_backfill(args: argparse.Namespace) -> int:
     rc = 0
     while d0 <= d1:
         args.date = d0.isoformat()
-        rc |= cmd_run(args)
+        try:
+            rc |= cmd_run(args)
+        except SystemExit as e:  # un dia sense commits (abans de l'inici del repo): s'omet
+            print(f"{d0}: omès ({e})")
         d0 += timedelta(days=1)
     return rc
 
