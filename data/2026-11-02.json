@@ -1,0 +1,6138 @@
+{
+ "day": "2026-11-02",
+ "generated_at": "2026-11-03T19:55:53+00:00",
+ "window": {
+  "start": "2026-11-02T00:00:00+00:00",
+  "end": "2026-11-03T00:00:00+00:00",
+  "start_sha": "e4e363388e482b86d7ed98f96ea168238bf1f3a4",
+  "end_sha": "ac1db2c162950352aaabbf5832adb1cbf01c2754"
+ },
+ "summary": {
+  "commits": 256,
+  "merges": 197,
+  "claims": 50,
+  "prs_merged": 89,
+  "authors": 12,
+  "top_authors": [
+   [
+    "Brett Lawson",
+    107
+   ],
+   [
+    "Alex Lytvynenko",
+    39
+   ],
+   [
+    "Ahmad Khan",
+    35
+   ],
+   [
+    "Karl Von Richter",
+    20
+   ],
+   [
+    "Markus Reichart",
+    19
+   ],
+   [
+    "bherbruck",
+    9
+   ],
+   [
+    "jyviko",
+    7
+   ],
+   [
+    "Logan Night",
+    6
+   ]
+  ],
+  "ai_coauthored": 184,
+  "files_touched": 674
+ },
+ "by_module": {
+  "geom": {
+   "commits": 1,
+   "files": 1
+  },
+  "nurbs": {
+   "commits": 7,
+   "files": 18
+  },
+  "curve": {
+   "commits": 2,
+   "files": 6
+  },
+  "surface": {
+   "commits": 12,
+   "files": 165
+  },
+  "topology": {
+   "commits": 1,
+   "files": 6
+  },
+  "query": {
+   "commits": 2,
+   "files": 2
+  },
+  "offset": {
+   "commits": 2,
+   "files": 13
+  },
+  "boolean": {
+   "commits": 3,
+   "files": 24
+  },
+  "blend": {
+   "commits": 51,
+   "files": 311
+  },
+  "kernel": {
+   "commits": 4,
+   "files": 15
+  },
+  "tests": {
+   "commits": 60,
+   "files": 114
+  },
+  "step": {
+   "commits": 6,
+   "files": 11
+  },
+  "difftest": {
+   "commits": 19,
+   "files": 91
+  },
+  "plan": {
+   "commits": 19,
+   "files": 29
+  },
+  "docs": {
+   "commits": 7,
+   "files": 295
+  },
+  "altres": {
+   "commits": 10,
+   "files": 0
+  }
+ },
+ "by_kind": {
+  "fix": 46,
+  "port": 2,
+  "test": 71,
+  "difftest": 17,
+  "plan": 7,
+  "docs": 9,
+  "perf": 3,
+  "chore": 1,
+  "altres": 50
+ },
+ "commits": [
+  {
+   "sha": "8a5763b31f81e51785c344cb5eb218f42e7a50dd",
+   "short": "8a5763b31",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-03T00:03:39+01:00",
+   "subject": "test: select a non-seam trim gap and require a later pcurve",
+   "kind": "test",
+   "module": "step",
+   "modules": [
+    "step"
+   ],
+   "files": 1,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "69f0d7bf7e15288be0eb50590b94123dd77d2a6c",
+   "short": "69f0d7bf7",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-02T23:53:11+01:00",
+   "subject": "fix: keep a wall's loop edges when its optional UV trim is missing",
+   "kind": "fix",
+   "module": "step",
+   "modules": [
+    "step"
+   ],
+   "files": 2,
+   "watch": [
+    "step"
+   ],
+   "ai": false
+  },
+  {
+   "sha": "13c1f3294cf1dd55287d4501f2c87116f653baee",
+   "short": "13c1f3294",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-02T23:51:27+01:00",
+   "subject": "fix: treat overflowing srf knot counts as the Input mismatch",
+   "kind": "fix",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "723eded361cb408549f988888c3c99f477adca31",
+   "short": "723eded36",
+   "author": "Markus Reichart",
+   "date": "2026-11-02T23:51:08+01:00",
+   "subject": "test: rustfmt wr490_equal_rods_and_tubes.rs",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5dc38cba74c14475ae64de5809efda35e2621a10",
+   "short": "5dc38cba7",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-02T23:50:05+01:00",
+   "subject": "test: a cylinder wall without optional UV trims keeps its loop edges",
+   "kind": "test",
+   "module": "step",
+   "modules": [
+    "step"
+   ],
+   "files": 1,
+   "watch": [
+    "step"
+   ],
+   "ai": false
+  },
+  {
+   "sha": "4541c6481827e98271c7ac7750c2cca7621a673f",
+   "short": "4541c6481",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-02T23:48:41+01:00",
+   "subject": "test: pin srf overflowing knot counts to Input mismatch",
+   "kind": "test",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "08defcd90bed115b86b9c6a4c57b4a07431669d6",
+   "short": "08defcd90",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-02T23:40:38+01:00",
+   "subject": "fix: reject overflowing fitting counts without panicking",
+   "kind": "fix",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "9ac2ec129212951206e273986b354523d654f224",
+   "short": "9ac2ec129",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-02T23:40:38+01:00",
+   "subject": "test: reproduce fitting count overflow panics (red)",
+   "kind": "test",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "9b2201281907044206d5c935d679a244aa9e2d54",
+   "short": "9b2201281",
+   "author": "Markus Reichart",
+   "date": "2026-11-02T23:38:31+01:00",
+   "subject": "plan: WR-490 addenda: the boolean triggers agree by default at v1.0.1",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5043cf24561d0ea878b5d03535430e4c1701d8ea",
+   "short": "5043cf245",
+   "author": "Markus Reichart",
+   "date": "2026-11-02T23:38:31+01:00",
+   "subject": "test: WR-490's boolean triggers at operation level, flag off and on (#1954)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3fc775970cc5fe232e9f5f0435e6c1e2effb25c1",
+   "short": "3fc775970",
+   "author": "Markus Reichart",
+   "date": "2026-11-02T23:04:21+01:00",
+   "subject": "test: allow needless_range_loop for the seam graph's elimination, as its source file does",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "04d46e51e2fa4441231d12a3b478f0ec87cd244c",
+   "short": "04d46e51e",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-02T23:00:49+01:00",
+   "subject": "test: run pinned reader regressions without an upstream checkout",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "6d1d1131ddf338047df203c6c34251363a38bd05",
+   "short": "6d1d1131d",
+   "author": "Logan Night",
+   "date": "2026-11-02T14:57:17-07:00",
+   "subject": "difftest: point the #11320 case's pr at #2458",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ff91d8f4a5baea149e121dde305dd5809b3bdffd",
+   "short": "ff91d8f4a",
+   "author": "Logan Night",
+   "date": "2026-11-02T14:56:45-07:00",
+   "subject": "difftest: SolidCraft #11320 case (a half-turn tool cut from a block with a rod over it)",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c20ae2c8af5d2e1d3c0f5ef9bd97f8a2db3b06e0",
+   "short": "c20ae2c8a",
+   "author": "Markus Reichart",
+   "date": "2026-11-02T22:48:45+01:00",
+   "subject": "test: the fork's variable rounds by their definitions (smlib 64e5632, 8f145ee; #2273)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8e686e86f89239ff48fa73a787ea016dbb66d415",
+   "short": "8e686e86f",
+   "author": "Markus Reichart",
+   "date": "2026-11-02T22:40:44+01:00",
+   "subject": "test: the fork's equal-area wedge cases, sharp and twisted (smlib#79 b9d6a72, 04e49b9, #2273)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7c2316acbb51886d7c7725c3b82bffc46ce4012c",
+   "short": "7c2316acb",
+   "author": "bherbruck",
+   "date": "2026-11-02T16:29:19-05:00",
+   "subject": "perf: index a ray solve's lazy copies by arena slot, not a per-solve map",
+   "kind": "perf",
+   "module": "query",
+   "modules": [
+    "query"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ea23ef39c32c1f1357f68c05a879e0907d5180bc",
+   "short": "ea23ef39c",
+   "author": "bherbruck",
+   "date": "2026-11-02T16:29:18-05:00",
+   "subject": "fix: query.loop — ContainsUVPoint ignores a failed trim-curve evaluation, as upstream",
+   "kind": "fix",
+   "module": "query",
+   "modules": [
+    "query"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2997d030fe9b3ea5b8008b1e90e6b76db18e7f09",
+   "short": "2997d030f",
+   "author": "PapaEcho13",
+   "date": "2026-11-02T16:18:05-05:00",
+   "subject": "perf: share finished curve data when callers reuse it",
+   "kind": "perf",
+   "module": "geom",
+   "modules": [
+    "geom"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3864597580d5dccca1f62b655575b16512bcfbaa",
+   "short": "386459758",
+   "author": "PapaEcho13",
+   "date": "2026-11-02T15:44:43-05:00",
+   "subject": "test: require saved curve trees to share finished data",
+   "kind": "test",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "geom"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "703caa5465d81d70b576e6a5710dfccb765974a8",
+   "short": "703caa546",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T20:45:51+01:00",
+   "subject": "fillet: a collapsed offset's chain end that runs on into another blend closes its zone (#2401)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "docs",
+    "plan",
+    "tests"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e03d8b65b2613dfd35153a1c5b6d809b0bd207d1",
+   "short": "e03d8b65b",
+   "author": "Logan Night",
+   "date": "2026-11-02T12:22:57-07:00",
+   "subject": "difftest: point the #10971 case's pr at #2450",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9ea4ae4d4dc441a01a8b21219934b152156c22e6",
+   "short": "9ea4ae4d4",
+   "author": "Logan Night",
+   "date": "2026-11-02T12:22:25-07:00",
+   "subject": "difftest: SolidCraft #10971 case (a round cut whose circle touches an opening's faces)",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "de2d353c2ce190b7c8e68a94edc50f7a9d15f44c",
+   "short": "de2d353c2",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-02T20:19:50+01:00",
+   "subject": "test: WR-501 torus major radius is observable through the public reader",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "plan",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "82be17e75a9793ea0d90ab2887ed175b9783dbf0",
+   "short": "82be17e75",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-02T20:02:42+01:00",
+   "subject": "test: WR-266 record-attribution and probe hardening from the review",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "plan",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "45161c4cc6af93ed81dd012ff667e27016693b3b",
+   "short": "45161c4cc",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-02T19:57:43+01:00",
+   "subject": "test: WR-266/WR-268 public heal stage-3 failure outcome (#1954)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "plan",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "bfbc3145424b501a0c38a8eda6aedabdfcbb1074",
+   "short": "bfbc31454",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-02T19:30:59+01:00",
+   "subject": "test: WR-211 correct the record cross-reference and sample wording",
+   "kind": "test",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b605a9e32156fb7c382d4ad8a3b0d7dc5b6f9973",
+   "short": "b605a9e32",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T19:30:54+01:00",
+   "subject": "test: the draft cone wall's profile is an array (clippy useless_vec)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "185466afc25545fc7327103aca1b1f669a458ac7",
+   "short": "185466afc",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-02T19:26:06+01:00",
+   "subject": "test: pin WR-211's full-turn step interval on public ellipses",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "plan",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "a2fb6dda6b055c2a602df531b0b3e7defac07943",
+   "short": "a2fb6dda6",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-02T19:24:55+01:00",
+   "subject": "test: WR-73 proto-vertex miss is observable through a public union",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "plan",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "0b6a8d13395217ab8f9a7666672e93e429484fe7",
+   "short": "0b6a8d133",
+   "author": "PapaEcho13",
+   "date": "2026-11-02T13:23:19-05:00",
+   "subject": "Test whole-body bounds over a wire edge’s curve interval",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "plan",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9e36df38076c61a9496f2e2ee409c6c4893f5be6",
+   "short": "9e36df380",
+   "author": "PapaEcho13",
+   "date": "2026-11-02T13:18:18-05:00",
+   "subject": "Claim whole-body bounds coverage for WR-474",
+   "kind": "altres",
+   "module": "altres",
+   "modules": [],
+   "files": 0,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9c8a2ce1c02291f86b40e2c0d3c400f43b2892a0",
+   "short": "9c8a2ce1c",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-02T19:15:52+01:00",
+   "subject": "test: WR-260 state the file-import route in the record limit",
+   "kind": "test",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b1fd222d8d83de8d40589152d1dd00a99dc75940",
+   "short": "b1fd222d8",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-02T19:12:12+01:00",
+   "subject": "test: WR-406 run the axis-aligned control in the test",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "plan",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7ae7d57fc93141b0fa0dabfd3f0c893a46ee4b1d",
+   "short": "7ae7d57fc",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T19:09:01+01:00",
+   "subject": "test: a drop from a guess does not take a stalled local solve (#2405 item 6)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ed1726981bb9fba5859c2b57ef2dd4cc8c0c1b6d",
+   "short": "ed1726981",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-02T19:07:46+01:00",
+   "subject": "test: WR-260 failed reversal is observable on a public box edge",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "plan",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "8fee449e5009c43753c859f253fec02812de03bf",
+   "short": "8fee449e5",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T19:03:24+01:00",
+   "subject": "fix: a face made from exact pcurves keeps them (WR-722, #2405 item 5)",
+   "kind": "fix",
+   "module": "kernel",
+   "modules": [
+    "kernel",
+    "plan",
+    "primitive",
+    "tests",
+    "topology"
+   ],
+   "files": 5,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "80b85af8a98c23860eb9df63cda31fd3eaf1b6e6",
+   "short": "80b85af8a",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T19:03:24+01:00",
+   "subject": "test: re-pin the r 5 rounds' corner patch after the exact line spine (#2405 item 1)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "cf299ddf2bf7c593b956acaf04dcebf2b7a72287",
+   "short": "cf299ddf2",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-02T18:57:59+01:00",
+   "subject": "test: a bored plate's exact hole trims pass the check only with the WR-406 fix (#1954)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "plan",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "b26d5ee0c9880d7951ea8629b98c8097a6c85605",
+   "short": "b26d5ee0c",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-02T18:53:24+01:00",
+   "subject": "test: WR-533 disambiguate the off refusal from the fork's 1006",
+   "kind": "test",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5783e4f3782892be63c48ff6384807e3799be98e",
+   "short": "5783e4f37",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-02T18:46:59+01:00",
+   "subject": "test: WR-533 pin the public union's exact topology with the fix (#1954)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "plan",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "37b6131f792097b8dbc75f96c6e7e523d24c3398",
+   "short": "37b6131f7",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-02T18:33:55+01:00",
+   "subject": "test: WR-469 check-state, provenance and record wording from the review",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "plan",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3655bc49a24629c2f4d0085af317a42d1c80d0ad",
+   "short": "3655bc49a",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-02T18:18:28+01:00",
+   "subject": "test: WR-263 measure the failed-trim gap through the public operation",
+   "kind": "test",
+   "module": "plan",
+   "modules": [
+    "plan",
+    "tests"
+   ],
+   "files": 3,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "b1a48ec030e7754a88f63010ba50f3a0c95b75f6",
+   "short": "b1a48ec03",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T18:17:39+01:00",
+   "subject": "fillet: the remaining refusal classes name a size from their own geometry (#2401)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "docs",
+    "kernel",
+    "plan",
+    "tests"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f0466b61a539a959995f329e2e3e83339827a0e0",
+   "short": "f0466b61a",
+   "author": "Logan Night",
+   "date": "2026-11-02T10:07:10-07:00",
+   "subject": "difftest: point the #11005 case's pr at #2434",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e8d698477bd026496fdf6be4ffa868519d064717",
+   "short": "e8d698477",
+   "author": "Logan Night",
+   "date": "2026-11-02T10:06:39-07:00",
+   "subject": "difftest: SolidCraft #11005 case (a pipe tee's branch bore cut through the main pipe's wall)",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f2ceaba235229498f4f11e72a6b69844007ea6f2",
+   "short": "f2ceaba23",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T18:05:30+01:00",
+   "subject": "fix: a plane meets a torus in its exact circles with the plane first too (WR-721, #2405 item 2)",
+   "kind": "fix",
+   "module": "surface",
+   "modules": [
+    "kernel",
+    "plan",
+    "surface",
+    "tests"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fcd67ca15bdf6834c0c71d19e9fa6163d71878ea",
+   "short": "fcd67ca15",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-02T18:02:09+01:00",
+   "subject": "test: WR-263 public UV-domain reaches the failed-trim gap guard (#1954)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "plan",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "c977389f906a1ac06a45ccf0f8d60c61023fd475",
+   "short": "c977389f9",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-02T17:50:43+01:00",
+   "subject": "test: WR-469 isolated flag grows eight pleated-union vertex tolerances (#1480)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "plan",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [
+    "loft-skin"
+   ],
+   "ai": false
+  },
+  {
+   "sha": "7ffd9dd5a081ab5a6edd082d560add563f870460",
+   "short": "7ffd9dd5a",
+   "author": "Ahmad Khan",
+   "date": "2026-11-02T22:13:13+05:30",
+   "subject": "fix: both pieces of a split conic end at the same knot with WR-575 on (#2424)",
+   "kind": "fix",
+   "module": "nurbs",
+   "modules": [
+    "nurbs",
+    "plan",
+    "tests"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "cefef57fc2b69c43bc36ad2587e06823a7f87c64",
+   "short": "cefef57fc",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T17:42:39+01:00",
+   "subject": "fix: a tangent chain over an earlier round's end curve ends on the corner ball (#2403)",
+   "kind": "fix",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "docs",
+    "kernel",
+    "plan",
+    "tests"
+   ],
+   "files": 9,
+   "watch": [
+    "ball-patch"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "9c44f2332d7eda18b77e8043c01ecea3715dd2c2",
+   "short": "9c44f2332",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T17:40:50+01:00",
+   "subject": "fix: a line-spine round's cylinder is built on its exact spine and keeps that frame (WR-669, #2405 item 1)",
+   "kind": "fix",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "kernel",
+    "plan",
+    "tests"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c46efe5d66b5a0c43a509ee0af08cecf169036a0",
+   "short": "c46efe5d6",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T17:34:52+01:00",
+   "subject": "fix: blend refusals size the remaining classes and refuse the collapsed offset (#2401)",
+   "kind": "fix",
+   "module": "altres",
+   "modules": [],
+   "files": 0,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9b2fac75cf8450a40f12ed45545ca44106c388f6",
+   "short": "9b2fac75c",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T17:33:31+01:00",
+   "subject": "tests: #2404's kernel helper sets its fixes after construction, as clippy asks",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "64808fe24e1ddc2c26b954a0658b2fe95dd503b4",
+   "short": "64808fe24",
+   "author": "Ahmad Khan",
+   "date": "2026-11-02T21:59:49+05:30",
+   "subject": "test: the round on a round's count gate follows main's counts after #2274",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8208b986c61bb34b6f22e37a93a53160667c406f",
+   "short": "8208b986c",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-02T17:29:36+01:00",
+   "subject": "test: WR-405 pin the default kernel and state the 6+6 corroboration",
+   "kind": "test",
+   "module": "surface",
+   "modules": [
+    "plan",
+    "surface"
+   ],
+   "files": 2,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "5a42051b052bff95f671f433f909567d1c687818",
+   "short": "5a42051b0",
+   "author": "Ahmad Khan",
+   "date": "2026-11-02T21:51:35+05:30",
+   "subject": "test: a lip swept flush round a rounded block's corner joins it only with the WR-533 fix",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "plan",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b2e49f3b0de4de8a986a91a74b7cc4d331d2f2fc",
+   "short": "b2e49f3b0",
+   "author": "Ahmad Khan",
+   "date": "2026-11-02T21:51:00+05:30",
+   "subject": "test: both pieces of a conic split next to its knot end at the same parameter with WR-575 on (#2424)",
+   "kind": "test",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f629f800bca113eb8f97de1450c61ad31317393d",
+   "short": "f629f800b",
+   "author": "Ahmad Khan",
+   "date": "2026-11-02T21:38:59+05:30",
+   "subject": "blend: the definition box's zero term is made only when it is needed, for main's or_fun_call lint",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4886215746c7286f3071f06a7b979e39856aa58e",
+   "short": "488621574",
+   "author": "Ahmad Khan",
+   "date": "2026-11-02T21:36:19+05:30",
+   "subject": "test: joining #1529's tubes with WR-575 on adds check failures at gaps 1e-6 and 1e-7 (#2424)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "31f69cded6942a17609c921a431b3ef0f75c8d4e",
+   "short": "31f69cded",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T17:05:40+01:00",
+   "subject": "port: an open ellipse arc near its seam keeps its end angle (fork cbeb14b, WR-719)",
+   "kind": "port",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "kernel",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [
+    "step",
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "d8e7e0f195f3547ed8285a5cd08ffd99a6a13046",
+   "short": "d8e7e0f19",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-02T17:04:34+01:00",
+   "subject": "test: WR-405 the touching-hole sweep's default off result measured (#892)",
+   "kind": "test",
+   "module": "surface",
+   "modules": [
+    "plan",
+    "surface"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "1eba2e388615936c306c5d98c2c24cbb827a10f3",
+   "short": "1eba2e388",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T17:01:56+01:00",
+   "subject": "fillet: keep features sweeps a boss's walls in a body of their own (#2404)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "plan",
+    "tests"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d8d710d54ec27cef06aa63458b2ad4bc96004c19",
+   "short": "d8d710d54",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T17:00:00+01:00",
+   "subject": "docs: reflow the Mixed corner module's deviations line",
+   "kind": "docs",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 1,
+   "watch": [
+    "mixed-corner"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "07a3cb70dd995d4a48b3e1f02c0ff0a0ff520703",
+   "short": "07a3cb70d",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T16:59:44+01:00",
+   "subject": "port: the Mixed corner's leaving tangent by the edge's own sense (fork b785227)",
+   "kind": "port",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [
+    "mixed-corner"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "08879448f2f0f8c2fd8747de6debc73c46bdea50",
+   "short": "08879448f",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T16:42:20+01:00",
+   "subject": "fix: blend follow-ups: exact frames, exact plane∩cylinder/torus edges, the rail UV line's end, pcurves, DropPoint's test (#2405)",
+   "kind": "fix",
+   "module": "altres",
+   "modules": [],
+   "files": 0,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "339a63914c0c28e22d3e7a0e88b1665a9555adf1",
+   "short": "339a63914",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T16:23:20+01:00",
+   "subject": "test: a tangent chain over an earlier round's end curve ends on the corner ball (#2403)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "73941a9f0909ee334d0a0292cda95b238abc1c3d",
+   "short": "73941a9f0",
+   "author": "Ahmad Khan",
+   "date": "2026-11-02T20:53:02+05:30",
+   "subject": "test: WR-440 a revolved line's seam through the whole-body check (#1954)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "plan",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "de8d26bff65abb238ea1e79f6d39387c77739100",
+   "short": "de8d26bff",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T16:20:52+01:00",
+   "subject": "fix: a traced curve's short last span is merged only when the merged span keeps the trace's accuracy (WR-697 addendum)",
+   "kind": "fix",
+   "module": "tests",
+   "modules": [
+    "intersect",
+    "plan",
+    "tests"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3cd0834c4fd4eea0c9881a0ef76182eab51b200b",
+   "short": "3cd0834c4",
+   "author": "Ahmad Khan",
+   "date": "2026-11-02T20:45:28+05:30",
+   "subject": "test: WR-450 box minus a rational NURBS cylinder through a boolean (#1954)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "plan",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [
+    "loft-skin"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "9bfa647f357406eac5dbc629a30a2159395f16b3",
+   "short": "9bfa647f3",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T16:10:29+01:00",
+   "subject": "fix: a round built near its refusal's size bound builds (#2404)",
+   "kind": "fix",
+   "module": "altres",
+   "modules": [],
+   "files": 0,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2790a2370672a7ce9abd7cf1edf81337ede12ea1",
+   "short": "2790a2370",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T16:09:03+01:00",
+   "subject": "offset: S1 of the one shell construction, certified offset sheets and the fold refusal (opt-in, WR-718)",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "kernel",
+    "offset",
+    "plan",
+    "tests"
+   ],
+   "files": 10,
+   "watch": [
+    "upstream-fixes"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "9c425c8482d44b08f2eccd94612d77d09034848d",
+   "short": "9c425c848",
+   "author": "jyviko",
+   "date": "2026-11-02T10:03:39-05:00",
+   "subject": "docs: layers, one job in one place; the kernel computes, ops decides and sequences",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 3,
+   "watch": [
+    "step"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "dd4e96dc25e8660279ce1bb3263966f9498ad975",
+   "short": "dd4e96dc2",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T15:54:53+01:00",
+   "subject": "records: SmBallPatch::IsOnSphere checked against the fork's efb8007 code (WR-697)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f7d4e4885cd72f6645f3882a5e89c1b02b02463b",
+   "short": "f7d4e4885",
+   "author": "jyviko",
+   "date": "2026-11-02T09:49:10-05:00",
+   "subject": "docs: a resolved case's render shows its issue, a view chosen for it, not a fixed angle",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8a55a9b905f2e0c030894c6105889d54192e577a",
+   "short": "8a55a9b90",
+   "author": "jyviko",
+   "date": "2026-11-02T09:49:10-05:00",
+   "subject": "docs: solidcore goes its own way from SMLib; the blend page names solidcore issues only; resolved cases come with their render",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3e3ec1aee501075b7d33ab3f908ce532cea09346",
+   "short": "3e3ec1aee",
+   "author": "jyviko",
+   "date": "2026-11-02T09:49:10-05:00",
+   "subject": "docs: the difftest shows parity when the maintainers run it; it is not the gate (#2398)",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d8320135ba0c31b26ff87c00ebe307391fe465a8",
+   "short": "d8320135b",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T15:48:13+01:00",
+   "subject": "fix: a tangent chain over an earlier round's curved end curve builds as a rolling-ball corner (#2403)",
+   "kind": "fix",
+   "module": "altres",
+   "modules": [],
+   "files": 0,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c30e9da9ea25fc4881d1b47834687939f2c609d4",
+   "short": "c30e9da9e",
+   "author": "Ahmad Khan",
+   "date": "2026-11-02T20:13:16+05:30",
+   "subject": "test: WR-588 trimmed-face tight box through a boolean cut and the body box (#1954)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "plan",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "12a0fe574811d7e0ce02f1cc72d4475bdf789c46",
+   "short": "12a0fe574",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T15:36:49+01:00",
+   "subject": "test: the peg's two chamfers end as the fork's with the blend corner, as the base's without",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 3,
+   "watch": [
+    "chamfer"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "4f8429f6572a5caab49936aa49d95b3e3851d650",
+   "short": "4f8429f65",
+   "author": "Karl Von Richter",
+   "date": "2026-11-03T00:33:49+10:00",
+   "subject": "blend(test): grade procedural rounds in the current-fixes comparison",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "plan",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "af66d0ad530feead90933bae7425dad08b8abc3e",
+   "short": "af66d0ad5",
+   "author": "Ahmad Khan",
+   "date": "2026-11-02T19:54:33+05:30",
+   "subject": "Gate WR-505 through a revolve and the whole-body check (#1954)",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "plan",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9733bbbe7e4dd8b3cf7cea90c25313f4f2e0bffe",
+   "short": "9733bbbe7",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T15:21:31+01:00",
+   "subject": "fix: the Ball corner's face is an SmBallPatch, its sphere as its definition (WR-697, fork f8e6709, efb8007)",
+   "kind": "fix",
+   "module": "surface",
+   "modules": [
+    "blend",
+    "difftest",
+    "intersect",
+    "kernel",
+    "offset",
+    "plan",
+    "query",
+    "ssi",
+    "step",
+    "surface",
+    "tests",
+    "topology"
+   ],
+   "files": 59,
+   "watch": [
+    "ball-patch"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "3ac48696f47f61928e81c9b7543138426f929049",
+   "short": "3ac48696f",
+   "author": "Ahmad Khan",
+   "date": "2026-11-02T19:46:37+05:30",
+   "subject": "Drop the unused four-argument hermite_points",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a0e1a2d80b4ade315689e86791f0286e3f66a432",
+   "short": "a0e1a2d80",
+   "author": "Karl Von Richter",
+   "date": "2026-11-03T00:09:03+10:00",
+   "subject": "step(docs): record validated topology after the main update",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [
+    "step"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "82ef281239033f26119e81d330dba949dcbe63d1",
+   "short": "82ef28123",
+   "author": "Ahmad Khan",
+   "date": "2026-11-02T19:37:06+05:30",
+   "subject": "findings: smlib#120's warning fixes checked against the port (#2362)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6d57aa54e2ceec59dbee617c1869dbfc7ec54485",
+   "short": "6d57aa54e",
+   "author": "jyviko",
+   "date": "2026-11-02T09:05:45-05:00",
+   "subject": "docs: the fork is the reference, flags only during a port, the old code deleted; CONTRIBUTING, concurrency, and the blend page synced with the fork",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 3,
+   "watch": [
+    "upstream-fixes"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "e4b7a26bde6271dc7174d0d862ab39f04b532951",
+   "short": "e4b7a26bd",
+   "author": "Karl Von Richter",
+   "date": "2026-11-03T00:00:08+10:00",
+   "subject": "step(fix): preserve exported orientations and validate the R70 reconstruction",
+   "kind": "altres",
+   "module": "step",
+   "modules": [
+    "plan",
+    "step"
+   ],
+   "files": 3,
+   "watch": [
+    "step"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "c48dee8272a83c3f7b0f5a06708cfe2c74e06ee9",
+   "short": "c48dee827",
+   "author": "Karl Von Richter",
+   "date": "2026-11-02T23:21:50+10:00",
+   "subject": "step(test): propagate fixture helper errors through results",
+   "kind": "altres",
+   "module": "step",
+   "modules": [
+    "step"
+   ],
+   "files": 1,
+   "watch": [
+    "step"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "0b88de0cb0182cfe5d5196de6df9aaa761861ae7",
+   "short": "0b88de0cb",
+   "author": "Karl Von Richter",
+   "date": "2026-11-02T23:20:36+10:00",
+   "subject": "blend(docs): record pinned C++ operand validation control",
+   "kind": "docs",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [
+    "step"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "5dd1c78ed987367653a6f79b4053282519dbf75d",
+   "short": "5dd1c78ed",
+   "author": "Karl Von Richter",
+   "date": "2026-11-02T23:14:30+10:00",
+   "subject": "step(test): preserve Discord top-rim fillet regression",
+   "kind": "altres",
+   "module": "step",
+   "modules": [
+    "plan",
+    "step"
+   ],
+   "files": 3,
+   "watch": [
+    "step"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "6f0fc8a3e065e3e4db4d16bd0d4e56ce5e54d0cc",
+   "short": "6f0fc8a3e",
+   "author": "Karl Von Richter",
+   "date": "2026-11-02T23:09:58+10:00",
+   "subject": "step(test): claim Discord top-rim fillet regression",
+   "kind": "altres",
+   "module": "altres",
+   "modules": [],
+   "files": 0,
+   "watch": [
+    "step"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "ec456430ded414ff566e3470e0c46858285b9dee",
+   "short": "ec456430d",
+   "author": "MateuszSychXpl",
+   "date": "2026-11-02T14:05:48+01:00",
+   "subject": "difftest: #4859 summary says the QMC check agrees within two standard errors",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "85977abe17d22e5c02c3aaed8618e8ca3d2744ea",
+   "short": "85977abe1",
+   "author": "MateuszSychXpl",
+   "date": "2026-11-02T13:54:01+01:00",
+   "subject": "difftest: SolidCraft #4859 case (a chamfer in an inside corner of a thin ring)",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [
+    "chamfer"
+   ],
+   "ai": false
+  },
+  {
+   "sha": "af8ee54185b7cf3c908337eea045088f073f81d6",
+   "short": "af8ee5418",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T13:44:14+01:00",
+   "subject": "test: the rounds together at r 5 keep the pinned patch under 9bebf34's profile, which has no blend corner",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [
+    "mixed-corner"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "14a2a48328bf057ffa41ea9ef05eb9bfa03c2743",
+   "short": "14a2a4832",
+   "author": "MateuszSychXpl",
+   "date": "2026-11-02T12:30:12+01:00",
+   "subject": "difftest: pick the #5747 boss circle once (one closed edge on solidcore)",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "eb6be5c24580bc3b91b2539e9719845ec8cc31ab",
+   "short": "eb6be5c24",
+   "author": "Karl Von Richter",
+   "date": "2026-11-02T21:27:18+10:00",
+   "subject": "fix: a cliff overflow's crease along the crossed face's edge is that edge, opt-in (WR-717, #2385)",
+   "kind": "fix",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "kernel",
+    "plan",
+    "tests"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b5d21ee3a91f2d11b0c6aa7380e52596806c4818",
+   "short": "b5d21ee3a",
+   "author": "MateuszSychXpl",
+   "date": "2026-11-02T12:23:33+01:00",
+   "subject": "difftest: SolidCraft #5747 case (a cove round a boss in a joined slab)",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "451ab835e57e21a25b8eae644cbb747fd68fe6b1",
+   "short": "451ab835e",
+   "author": "Karl Von Richter",
+   "date": "2026-11-02T21:22:36+10:00",
+   "subject": "check(test): pin WR-382 through whole-body wire validation",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "plan",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7a3c0af8ac8dccfcfdb0ef2148290c7f4ebbaa28",
+   "short": "7a3c0af8a",
+   "author": "Ahmad Khan",
+   "date": "2026-11-02T16:32:35+05:30",
+   "subject": "records: the smlib#113 findings' checks, re-run after merging main",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7ae17cce6569e38f1ee123593fd8b8ae643f49c4",
+   "short": "7ae17cce6",
+   "author": "Karl Von Richter",
+   "date": "2026-11-02T20:28:45+10:00",
+   "subject": "check(test): claim WR-382 whole-body regression",
+   "kind": "altres",
+   "module": "altres",
+   "modules": [],
+   "files": 0,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "acb75edf7ccf353b32562122005b714a2a0e49e9",
+   "short": "acb75edf7",
+   "author": "Ahmad Khan",
+   "date": "2026-11-02T15:56:09+05:30",
+   "subject": "The perforated plate's 2D boolean is gated on counted work, not on time (smlib#122)",
+   "kind": "altres",
+   "module": "boolean",
+   "modules": [
+    "boolean",
+    "kernel",
+    "plan",
+    "tests",
+    "topology"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7af8c4d635ac8ba4f62828e127176f124e4ca8ff",
+   "short": "7af8c4d63",
+   "author": "Karl Von Richter",
+   "date": "2026-11-02T19:22:29+10:00",
+   "subject": "test: drop the tangent-end marks' unused FailsOtherwise, which fails clippy on main",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a04144a089dfbce9ec7bc626d004577aa938ebef",
+   "short": "a04144a08",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T10:04:58+01:00",
+   "subject": "fix: keep features that keep nothing give the sheet back its geometry owners (#2370)",
+   "kind": "fix",
+   "module": "tests",
+   "modules": [
+    "blend",
+    "tests"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5f733e71e414a441a6b270c5ddb55879ec15a7e6",
+   "short": "5f733e71e",
+   "author": "bherbruck",
+   "date": "2026-11-02T03:50:24-05:00",
+   "subject": "plan: finding, surface-attribute copy hazards (owner names alias engine vertex keys; persisted surface attributes)",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c7ab356db3e6609450fd9c088dc52d6f9b8e9b9b",
+   "short": "c7ab356db",
+   "author": "bherbruck",
+   "date": "2026-11-02T03:49:47-05:00",
+   "subject": "fix: blend.feature_executive — the patch copies carry attributes without taking a destination face's list",
+   "kind": "fix",
+   "module": "boolean",
+   "modules": [
+    "blend",
+    "boolean",
+    "difftest",
+    "topology"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1fe76644e0958507f997cb457b514fb38a62765d",
+   "short": "1fe76644e",
+   "author": "bherbruck",
+   "date": "2026-11-02T03:49:46-05:00",
+   "subject": "fix: heal stage 3 — ClassifyLoops reads SmTArray's zeroed slack past the target loops (op 22 seam splits)",
+   "kind": "fix",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "heal",
+    "plan",
+    "query"
+   ],
+   "files": 4,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "9ad53c673811780cc89fe911623ef605ba2d0fde",
+   "short": "9ad53c673",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T09:05:00+01:00",
+   "subject": "fix: the Mixed corner, a convex and a concave blend meeting G1 across a tangent seam (from smlib#82, opt-in)",
+   "kind": "fix",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "kernel",
+    "plan",
+    "tests"
+   ],
+   "files": 16,
+   "watch": [
+    "mixed-corner",
+    "corner-blend",
+    "chamfer",
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "50d2cb275f082b8586beb97898022474f2de99fa",
+   "short": "50d2cb275",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T08:54:55+01:00",
+   "subject": "plan: WR-521 addendum records the tangent peg's blends on its cone walls",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7098c851dd4a4e1398d2c2dd4cf72127b9142741",
+   "short": "7098c851d",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T08:54:32+01:00",
+   "subject": "tests: the tangent rule's drafted peg now blends on its cone walls (fork 3ae7bfa, WR-521)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ee51e60a2b8617c6137257fb5f7ee711f9da6c50",
+   "short": "ee51e60a2",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T08:33:59+01:00",
+   "subject": "cover: read a UV-swapped surface's seam closure in the step's direction (fork dda881f, WR-599)",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "plan",
+    "surface",
+    "tests"
+   ],
+   "files": 3,
+   "watch": [
+    "step",
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "460a6bf87505611f241570b2712f8d4d8b4740ac",
+   "short": "460a6bf87",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T08:33:59+01:00",
+   "subject": "draft: a drafted arc's wall is its exact cone, its seams' pcurves cut at the cone's spans (fork 3ae7bfa)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan",
+    "primitive"
+   ],
+   "files": 3,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "8a9e755a43fdc9a78bea8be5b85789a469d2a2e6",
+   "short": "8a9e755a4",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T08:31:47+01:00",
+   "subject": "fix: FilletVertexType Precomputed = 14 (fork value), JoinSection = 16",
+   "kind": "fix",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6d639e184f7d39300761022f5d16daa38577168c",
+   "short": "6d639e184",
+   "author": "Ahmad Khan",
+   "date": "2026-11-02T12:53:41+05:30",
+   "subject": "kernel: the blend corner flag's doc back as on main",
+   "kind": "altres",
+   "module": "kernel",
+   "modules": [
+    "kernel"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "703fd9725a2361c64ee8a166929ed5629f1f1795",
+   "short": "703fd9725",
+   "author": "Ahmad Khan",
+   "date": "2026-11-02T12:53:16+05:30",
+   "subject": "fillet corner: the Turn's tangent check in its own statement, after the Ball and Swept one",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 1,
+   "watch": [
+    "setback"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "5e17490a20b792e57cc200bfd08bcc0527962f56",
+   "short": "5e17490a2",
+   "author": "Ahmad Khan",
+   "date": "2026-11-02T12:40:42+05:30",
+   "subject": "records: smlib#113 in solidcore: what is ported, and what stays and why (WR-697 addendum)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "kernel",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "31884d12e9f9a129a9111edb4fd2705d7682cba3",
+   "short": "31884d12e",
+   "author": "Ahmad Khan",
+   "date": "2026-11-02T12:40:42+05:30",
+   "subject": "fix: a blend corner's Turn makes no tangent adjustment, opt-in (fork 34288e5, smlib#113)",
+   "kind": "fix",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fd989be7d56dcd4e8e79c894a8e3686294b5b589",
+   "short": "fd989be7d",
+   "author": "Ahmad Khan",
+   "date": "2026-11-02T12:40:42+05:30",
+   "subject": "fix: a blend corner's Turn at four edges is the two blends mitred, opt-in (fork e4083c8, smlib#113)",
+   "kind": "fix",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f58fef8cb9ea2dfe1a177e1049e8a28a2c274c82",
+   "short": "f58fef8cb",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T07:56:08+01:00",
+   "subject": "Claim #2350",
+   "kind": "altres",
+   "module": "altres",
+   "modules": [],
+   "files": 0,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "817dec15034415cb4ad25e32e91bdba904dbe304",
+   "short": "817dec150",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T07:55:19+01:00",
+   "subject": "test: the Ball on the D prism, the D pocket and the cone frustum against their closed forms (smlib#110 9a5a8ce, 3969288)",
+   "kind": "test",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "plan",
+    "tests"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6d654033ba20a9b002b482d7decab9e2b46c4cc7",
+   "short": "6d654033b",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T07:45:21+01:00",
+   "subject": "fix: the Ball on curved faces: planes, cylinders, cones and spheres meet at the faces' triple offset point (smlib#110 7048946, opt-in)",
+   "kind": "fix",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6782d14b21f3e09e7ded105b63fd38cb4752959f",
+   "short": "6782d14b2",
+   "author": "Ahmad Khan",
+   "date": "2026-11-02T12:13:22+05:30",
+   "subject": "test: a corner patch's seam angle from the cross product, not acos (smlib#119)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 3,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "916ad5b902b4dbb04f8d0d3d45db8cf2c55286d2",
+   "short": "916ad5b90",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T07:43:19+01:00",
+   "subject": "plan: WR-697 4d addendum names the tabbed plate's rim End",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e6b85a3107bf47aabe4bb5d0458d2347906e35a7",
+   "short": "e6b85a310",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T07:42:19+01:00",
+   "subject": "blend corner: the Setback event, its members on the corner and its dispatch (smlib#104 61547af)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 6,
+   "watch": [
+    "setback"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "54968a8ba6483d5c36a7e1812a0ba1fc0a538cc3",
+   "short": "54968a8ba",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T07:27:22+01:00",
+   "subject": "test: the all-fixes plate and tangent-end tests under the blend corner's End (WR-697)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f7049534f23ece3fb82f3e7fb07afe07396d6211",
+   "short": "f7049534f",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T07:09:49+01:00",
+   "subject": "fix: pass the edge context to CalcRailIntEndSurface as it is, now that main takes it shared",
+   "kind": "fix",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f8ef8bca11ebad0a9def8272029f32784d31b7d2",
+   "short": "f8ef8bca1",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T07:06:26+01:00",
+   "subject": "fix: the blend corner's End and the Join's shared section, opt-in (WR-697)",
+   "kind": "fix",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "kernel",
+    "plan",
+    "tests"
+   ],
+   "files": 20,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1beec5ccc04742f3dab2bdbda3198ee544ac0bbf",
+   "short": "1beec5ccc",
+   "author": "Ahmad Khan",
+   "date": "2026-11-02T11:35:20+05:30",
+   "subject": "blend: a round of one radius on a round by its definition is its definition, the inner definition enclosed over the certificate's boxes, opt-in (WR-714, smlib#101 c5b6bb7, #2298)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "kernel",
+    "plan",
+    "surface",
+    "tests"
+   ],
+   "files": 11,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c17a5cfcf1a2a6f65339960efdccacfc25b435cf",
+   "short": "c17a5cfcf",
+   "author": "Ahmad Khan",
+   "date": "2026-11-02T11:28:53+05:30",
+   "subject": "test: a round on a round by its definition, listed known failing (smlib#101 7959c0e, #2298)",
+   "kind": "test",
+   "module": "surface",
+   "modules": [
+    "surface",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1fd1550b7ce4763072d61bac193f5ce0d7bc3afd",
+   "short": "1fd1550b7",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T06:49:48+01:00",
+   "subject": "test: backtick the integrals in the WR-707 regression docs (clippy doc_markdown)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2c2faabdd635775ccd774f80a3e343b891de0591",
+   "short": "2c2faabdd",
+   "author": "Karl Von Richter",
+   "date": "2026-11-02T15:41:15+10:00",
+   "subject": "difftest: the cube corner file is SolidCraft #293's, its issue (#477 is the PR)",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "cfb2bfaf4bf5b3335af0835b2dbebbf93e79afd4",
+   "short": "cfb2bfaf4",
+   "author": "Ahmad Khan",
+   "date": "2026-11-02T10:56:58+05:30",
+   "subject": "test, plan: the tangent-end cases at cd47efd too; smlib#76's 6d73e4f and b34d61b checked line for line",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan",
+    "tests"
+   ],
+   "files": 4,
+   "watch": [
+    "mixed-corner",
+    "chamfer"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "d6ca15d3cc29bf07ab03f68bb78ce86bc4c2e433",
+   "short": "d6ca15d3c",
+   "author": "Karl Von Richter",
+   "date": "2026-11-02T15:26:41+10:00",
+   "subject": "difftest: a cube corner's rounds as wide as its faces, refused with their fit (SolidCraft #477)",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f7d9e2c1352a100ab2c5fdab74e537497552447e",
+   "short": "f7d9e2c13",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T06:26:06+01:00",
+   "subject": "test: WR-707 regression for a round wider than both its faces (SolidCraft 4782 bar)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "plan",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9bf85d8042891c452a8627fa4d8b07ae713010b1",
+   "short": "9bf85d804",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T06:22:56+01:00",
+   "subject": "fix: WR-707 refuses only rounds that really break through (#2299)",
+   "kind": "fix",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "kernel",
+    "plan",
+    "tests"
+   ],
+   "files": 5,
+   "watch": [
+    "round-larger-than-wall",
+    "shell-rounded",
+    "upstream-fixes"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "9e0723237dc3453d384f76d5e8b7b8f07ce4379f",
+   "short": "9e0723237",
+   "author": "Karl Von Richter",
+   "date": "2026-11-02T15:16:58+10:00",
+   "subject": "difftest: the overflow cases' results must be closed manifold solids (#190, #293)",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "73d6feecd80d4b1d404398e036589c1ba66d3f16",
+   "short": "73d6feecd",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T06:05:52+01:00",
+   "subject": "test: the pipe round's closed form notes end their list before the paragraph after it (clippy doc_lazy_continuation)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "370909b42fc3bc19734748b22e86dfd680803069",
+   "short": "370909b42",
+   "author": "bherbruck",
+   "date": "2026-11-02T00:04:51-05:00",
+   "subject": "perf: reuse the stitch's notification records and reset only what an edit changed",
+   "kind": "perf",
+   "module": "topology",
+   "modules": [
+    "boolean",
+    "heal",
+    "kernel",
+    "topology"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "cfdd505bd47c3a543897357b96f894c5a2b52276",
+   "short": "cfdd505bd",
+   "author": "bherbruck",
+   "date": "2026-11-02T00:04:50-05:00",
+   "subject": "chore: warn on clippy::or_fun_call and make every eager or/ok_or/unwrap_or/map_or argument lazy",
+   "kind": "chore",
+   "module": "difftest",
+   "modules": [
+    "altres",
+    "blend",
+    "boolean",
+    "curve",
+    "difftest",
+    "geom",
+    "intersect",
+    "kernel",
+    "query",
+    "ssi",
+    "step",
+    "surface",
+    "sweep",
+    "tests",
+    "topology"
+   ],
+   "files": 57,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "17fb3664c8b4967e698b150e46709e84ac14c987",
+   "short": "17fb3664c",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T06:01:08+01:00",
+   "subject": "test: the pipe round takes 3bc54a4's jets; the peg's fork profile takes d2757e1 (WR-685, WR-253, #2260, #2273)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d58a9ef9347797ed04ff9f149d95ff63304630d4",
+   "short": "d58a9ef93",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T05:28:07+01:00",
+   "subject": "plan: WR-706 addendum for two rounds ending on one section plane (#2314)",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "da3a08bd46d37dc490c14be7f816be40d958a92b",
+   "short": "da3a08bd4",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T05:18:54+01:00",
+   "subject": "fix: three equal rounds at a vertex of three planes meet on the ball's exact patch, opt-in (WR-697, fork 79d4763, a6243fa, f8e6709, 4241a1b)",
+   "kind": "fix",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "plan",
+    "tests"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4c50ac0da2811d42881d23e99dc345e3420d3b5b",
+   "short": "4c50ac0da",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T05:14:50+01:00",
+   "subject": "fix: opt-in cone_unbounded_parameterized_as_nurb for unbounded cone iso circles (WR-713, #2313)",
+   "kind": "fix",
+   "module": "kernel",
+   "modules": [
+    "difftest",
+    "kernel",
+    "plan",
+    "surface",
+    "tests"
+   ],
+   "files": 5,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "2e54073b008a2adc56146f10ffc61cc52d852d10",
+   "short": "2e54073b0",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T04:49:37+01:00",
+   "subject": "fix: a section end's closing face looks only at its own round's section (#2314)",
+   "kind": "fix",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "tests"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4c416a9a450582dbdedcfb738d9c8b28a318cb15",
+   "short": "4c416a9a4",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T04:46:58+01:00",
+   "subject": "surface: a surface cache is built on a blend's net, its split nodes' boxes grown by the net's bound (WR-698, smlib#79 729f893, bb9f45e, #2273)",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface",
+    "tests"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fcf1d8f574d3083c0d582747179d7f0d8796b56f",
+   "short": "fcf1d8f57",
+   "author": "andre israel",
+   "date": "2026-11-02T00:45:13-03:00",
+   "subject": "fix: a Gⁿ certificate span no level can certify is halved at once (smlib#105, Fixes #2312)",
+   "kind": "fix",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "7778f6b71ab1a7ef26c73969ca37db9907dddcb2",
+   "short": "7778f6b71",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T04:42:34+01:00",
+   "subject": "blend: an edge's variable round between NURBS faces is its definition, its law in the certificate (WR-698, smlib#79 0d43b4c, b8e3594, #2273)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "tests"
+   ],
+   "files": 8,
+   "watch": [
+    "variable-radius"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "0f5c3b295217e9dd50f0d7096509caf281ca38e8",
+   "short": "0f5c3b295",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T04:35:39+01:00",
+   "subject": "test: group the closed-form volumes' digits as clippy asks (WR-711)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "93cf654a16cfe17b44d5846642154e1e4ae1d997",
+   "short": "93cf654a1",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T04:20:30+01:00",
+   "subject": "fix: a swept turn refused at a sharp concave side edge notes that no radius fits (#2278)",
+   "kind": "fix",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "tests"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "482d45dcf36506945d801a1ed55f9a698181f843",
+   "short": "482d45dcf",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T04:20:30+01:00",
+   "subject": "fix: a round's exact circles take one arc count and its point section their weights (WR-711)",
+   "kind": "fix",
+   "module": "nurbs",
+   "modules": [
+    "blend",
+    "kernel",
+    "nurbs",
+    "plan",
+    "tests"
+   ],
+   "files": 7,
+   "watch": [
+    "loft-skin"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "b1f7bcdf7635d17d08c35d9369011ee1b85d3d20",
+   "short": "b1f7bcdf7",
+   "author": "Markus Reichart",
+   "date": "2026-11-02T04:05:43+01:00",
+   "subject": "test: keep features, the fork comparison on the flags it needs, not all of them",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "plan",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [
+    "upstream-fixes"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "50fb86f9b98b58da4e62202d74c33274527152b6",
+   "short": "50fb86f9b",
+   "author": "Karl Von Richter",
+   "date": "2026-11-02T12:57:30+10:00",
+   "subject": "difftest: #1668 R7 round breaking through the wall is refused with its fit, and the fit builds (#2299)",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [
+    "round-larger-than-wall"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "b4ae02412029788429926a7e23a053b44b3d929d",
+   "short": "b4ae02412",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T03:50:14+01:00",
+   "subject": "blend: a constant round between NURBS faces is its definition, unless its rails are not the ball's feet (WR-698, smlib#79 cc08236, 308cc40, c596548, #2273)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "tests"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "848b089f7bd85b29dd061d7018a8bf6a6a033911",
+   "short": "848b089f7",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T03:40:26+01:00",
+   "subject": "test: the folded cubic round without the G^n section keeps the approximated arcs (WR-708)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a4aa2d48ca754813110a1145a65985daba18770c",
+   "short": "a4aa2d48c",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T03:39:39+01:00",
+   "subject": "fix: refuse the 3x2 mixed-convexity corner whose rails cross, opt-in (WR-710, #2256)",
+   "kind": "fix",
+   "module": "tests",
+   "modules": [
+    "blend",
+    "kernel",
+    "plan",
+    "tests"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1f4be0f88cce74432335cc4b9b5e6157c92ae0e8",
+   "short": "1f4be0f88",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T03:35:29+01:00",
+   "subject": "blend: the G^n generator's order 1 is the ball's exact circle, its arc's rows certified span by span (WR-698, smlib#79 cc08236, #2273)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "tests"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ebf951c25663e323df4223ac63a296bc11887023",
+   "short": "ebf951c25",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T03:22:02+01:00",
+   "subject": "test: variable rounds take the fork's exact circles under every fix (WR-708, fork 523bc25)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "plan",
+    "tests"
+   ],
+   "files": 3,
+   "watch": [
+    "upstream-fixes"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "bd05d883a4831094a1c3a46a06d28bdd66799024",
+   "short": "bd05d883a",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T03:06:15+01:00",
+   "subject": "blend: a G^n round takes its faces' n-th derivatives only, each net span its own pieces' (WR-685, smlib#79 3bc54a4, #2273)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "tests"
+   ],
+   "files": 10,
+   "watch": [
+    "chamfer",
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "758a3991691f8f2536481f8a8ca7a0bd2c71d705",
+   "short": "758a39916",
+   "author": "Markus Reichart",
+   "date": "2026-11-02T02:56:23+01:00",
+   "subject": "test: keep features, the pocket astride the contact line at the fork's 5e8c9c1 figure",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "226afb3aa53a99d2ea78e66644e2a7bd0578aaef",
+   "short": "226afb3aa",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T02:53:33+01:00",
+   "subject": "fillet: a convex blend whose section would break through the part is refused, sized, opt-in (WR-707, #2299)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "kernel",
+    "plan",
+    "tests"
+   ],
+   "files": 6,
+   "watch": [
+    "setback",
+    "round-larger-than-wall",
+    "chamfer",
+    "upstream-fixes"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "cf1812e023509acff789426539b5aa7cc8f51c4b",
+   "short": "cf1812e02",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T02:46:46+01:00",
+   "subject": "fix: the blend corner's Swept turn, an exact horn torus, and the horn torus kept after SwapUV, opt-in (WR-697)",
+   "kind": "fix",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "kernel",
+    "plan",
+    "surface",
+    "tests"
+   ],
+   "files": 12,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "57043d8f3a7ee60f5e09f31f7a39359a53c2a0ed",
+   "short": "57043d8f3",
+   "author": "Charles Galant",
+   "date": "2026-11-01T20:40:41-05:00",
+   "subject": "test: smlib#78 equal-area G2, variable union-of-balls, and peg end-rib tests (#2250)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 2,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "0452afbd33493777bbc06ffc98273701bb3c9140",
+   "short": "0452afbd3",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T02:37:53+01:00",
+   "subject": "blend: a G^n round is its definition on the certified net, opt-in (WR-698, smlib#79 4a10ed8, #2273)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "tests"
+   ],
+   "files": 12,
+   "watch": [
+    "setback",
+    "chamfer"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "5f552d0677b48156d96151fdca0c81982ac3c057",
+   "short": "5f552d067",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T02:26:11+01:00",
+   "subject": "fillet: the crease trim's refusals sized (NoteFitOnFace, sm_CornerTakesPerRadius), opt-in (WR-696, smlib#79 a3d6d81, 49f393d)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "tests"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "295043fee621f6fdc3250222acedadcdd1bb5bae",
+   "short": "295043fee",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T02:16:49+01:00",
+   "subject": "fix: the executive's circular rounds take the exact circle, opt-in (WR-708, fork 523bc25)",
+   "kind": "fix",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "kernel",
+    "plan",
+    "tests"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "057aa69ecfd82205c780cd64ed52e3216468ea41",
+   "short": "057aa69ec",
+   "author": "bherbruck",
+   "date": "2026-11-01T20:15:33-05:00",
+   "subject": "plan: UB-289 addendum, a second trigger on rear.stp body 5 (plain recipe)",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a571cd363b7f8952c449a267003fa12c92fa7557",
+   "short": "a571cd363",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T02:08:17+01:00",
+   "subject": "fix: opt-in crease trim for WR-674's section-ended rounds (WR-706, #2223)",
+   "kind": "fix",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "kernel",
+    "plan",
+    "tests"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d9a9f53905496b49dba60f5f6b31f3ad55f6558d",
+   "short": "d9a9f5390",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T02:06:15+01:00",
+   "subject": "surface: where the fork casts a procedural blend to SmBSplineSurface, its net is taken (WR-698, #2273)",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "blend",
+    "offset",
+    "query",
+    "surface",
+    "tests",
+    "topology"
+   ],
+   "files": 20,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a57d09e7c9bcd3982fe83b47d1f7941f5aaa7bbc",
+   "short": "a57d09e7c",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T01:51:31+01:00",
+   "subject": "fillet: step 5's checks read edge curves with their edge's tolerance; difftest executives get the fit fields (WR-696)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "surface"
+   ],
+   "files": 6,
+   "watch": [
+    "chamfer"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "f1b28b2c1c2cf68220fcacb7fddc1b2085abed60",
+   "short": "f1b28b2c1",
+   "author": "bherbruck",
+   "date": "2026-11-01T19:48:43-05:00",
+   "subject": "plan: finding, torii's glue-state walk reaches a malformed 2-D B-spline on both sides",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b1e56dac9703b18667e37bad46d56056ebb441b5",
+   "short": "b1e56dac9",
+   "author": "Markus Reichart",
+   "date": "2026-11-02T01:43:18+01:00",
+   "subject": "test: keep features, a boss leaning past the angular tolerance, as the fork",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1dcf20caaa314748fc2e6cf8200b634b91c91926",
+   "short": "1dcf20caa",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T01:39:57+01:00",
+   "subject": "surface: a procedural blend's inherited paths take its own box and its definition's points, as the fork's virtual calls do (WR-698, #2273)",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "nurbs",
+    "surface",
+    "tests"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "12d33c233f9ae909c4cc62088f9c0bf9fe689a8a",
+   "short": "12d33c233",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T01:39:42+01:00",
+   "subject": "fix: the blend corner's Turn and Join, and the exact equal-cylinder mitre, opt-in (WR-697)",
+   "kind": "fix",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "kernel",
+    "plan",
+    "tests"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "26d1079c52b404fbb550f6419d51f746a9b23df2",
+   "short": "26d1079c5",
+   "author": "Markus Reichart",
+   "date": "2026-11-02T01:37:25+01:00",
+   "subject": "fix: an offset asked not to merge is not refused as no closed solid",
+   "kind": "fix",
+   "module": "offset",
+   "modules": [
+    "offset",
+    "plan",
+    "tests"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "52aed2428e22e325ddceb5a6e17ac997f77cd370",
+   "short": "52aed2428",
+   "author": "Charles Galant",
+   "date": "2026-11-01T19:34:59-05:00",
+   "subject": "test: claim #2250 smlib#78 capi test slices (ea59e9c order-2, b30ad9f, 7268cee, e447863, 4af4349, cf1c08b)",
+   "kind": "test",
+   "module": "altres",
+   "modules": [],
+   "files": 0,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "09f63398c318d033c8abf22197f2e857b565ddc7",
+   "short": "09f63398c",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T01:32:39+01:00",
+   "subject": "fix: the API offset and shell update their result's tolerances, opt-in (WR-705, #2111)",
+   "kind": "fix",
+   "module": "kernel",
+   "modules": [
+    "kernel",
+    "offset",
+    "plan",
+    "tests"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "459c4d224293415ef935366a28eec634a12a6a52",
+   "short": "459c4d224",
+   "author": "Markus Reichart",
+   "date": "2026-11-02T01:32:33+01:00",
+   "subject": "test: the slow order-2 case ignored, as its twin in wr685_gn_section, and formatted",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "395e5efa53e7b498d2eb6a4f986d5cf33d4bd3ba",
+   "short": "395e5efa5",
+   "author": "Karl Von Richter",
+   "date": "2026-11-02T10:32:11+10:00",
+   "subject": "difftest: expect.refused.fit_size, read from SolidError::FilletRefused (stacked on #2278)",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 5,
+   "watch": [
+    "chamfer",
+    "upstream-fixes"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "5894a2dae03137e9762ef22a797e4cd7e987caca",
+   "short": "5894a2dae",
+   "author": "Charles Galant",
+   "date": "2026-11-01T19:31:47-05:00",
+   "subject": "fix: drop crossing line of planes within tolerance across a coincident strip, opt-in (WR-614, #1794)",
+   "kind": "fix",
+   "module": "boolean",
+   "modules": [
+    "boolean",
+    "kernel",
+    "plan",
+    "tests",
+    "topology"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c9b05ab7a3a3f5f629799e27f45adf6d4bdca27c",
+   "short": "c9b05ab7a",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T01:22:50+01:00",
+   "subject": "blend: a procedural blend evaluates as its definition, its stations kept in the kernel's memo; its record is written and read back, opt-in (WR-698, smlib#79 014f66f, c6d9b9a, 0136260, #2273)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "boolean",
+    "kernel",
+    "surface",
+    "tests",
+    "topology"
+   ],
+   "files": 11,
+   "watch": [
+    "variable-radius"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "9150d8c7603940098d0dbab2f4a49de2955370f8",
+   "short": "9150d8c76",
+   "author": "Markus Reichart",
+   "date": "2026-11-02T01:22:35+01:00",
+   "subject": "test: keep features against the fork at eb883ad, bit for bit",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "plan",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "59240865ebe67ecd00d5392c7318e8fed9bb44b0",
+   "short": "59240865e",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T01:20:47+01:00",
+   "subject": "fillet: rustfmt and clippy for the crease trim and its test",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "tests"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c17a5627b8a819a7ed46bed7cb154f167daef769",
+   "short": "c17a5627b",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T01:17:58+01:00",
+   "subject": "test: flag off, the L's concave round 9 is refused as SolidError::Upstream with no fit (WR-696)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ad0c34f46eceb855fe2a317405f53759d26cf761",
+   "short": "ad0c34f46",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T01:17:46+01:00",
+   "subject": "fillet: regression test and WR-695 record for the crease trim",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "plan",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [
+    "chamfer"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "ee6529035a635c69d5a668d442ead0de8cfd3d1d",
+   "short": "ee6529035",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T01:15:36+01:00",
+   "subject": "fillet: the largest size that builds a blend too large for its faces, carried on the refusal, opt-in (WR-696, smlib#79 a3d6d81, 49f393d, 5e8c9c1)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "kernel",
+    "tests"
+   ],
+   "files": 9,
+   "watch": [
+    "chamfer"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "1e20a63dac564abcd96f8d00aa29501c56787afb",
+   "short": "1e20a63da",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T01:11:36+01:00",
+   "subject": "fillet: a cliff overflow trimmed at its creases in place, opt-in (WR-695, smlib#79 step 6)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "kernel",
+    "topology"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ef3e9a9faf46d7d7dea036352c04d1d8bc9f91c4",
+   "short": "ef3e9a9fa",
+   "author": "Markus Reichart",
+   "date": "2026-11-02T01:08:06+01:00",
+   "subject": "test: keep features, formatted and without a field reassigned after Default",
+   "kind": "test",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2cb05dfdd3a083db318c92bb92761d1dfc4a459c",
+   "short": "2cb05dfdd",
+   "author": "Markus Reichart",
+   "date": "2026-11-02T01:05:55+01:00",
+   "subject": "test: the six order-2 section cases, on the port of 11ea2d9 (smlib ea59e9c, #2250)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "0050ee0f6b2e0fe3986002e86b009a66576ac259",
+   "short": "0050ee0f6",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T00:59:18+01:00",
+   "subject": "difftest: the procedural blend's arms in the runners' surface matches (its net, as SmBSplineSurface); drop a constant assertion",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "blend",
+    "difftest"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "21b885f2478783c60ca9da400325023f66a10343",
+   "short": "21b885f24",
+   "author": "Markus Reichart",
+   "date": "2026-11-02T00:56:46+01:00",
+   "subject": "fix: keep features, no indexing that may panic",
+   "kind": "fix",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0ab13201a8bfe4d9b677504256fae00e462e8e88",
+   "short": "0ab13201a",
+   "author": "jyviko",
+   "date": "2026-11-01T18:53:55-05:00",
+   "subject": "docs: the generic blend page's case gallery: a render and status for each of SolidCraft's 271 fillet and chamfer rig cases on SMLib 5e8c9c1",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 272,
+   "watch": [
+    "chamfer"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "ffb0715216f2723b3ca941a673e5ec80fdb021fc",
+   "short": "ffb071521",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T00:44:55+01:00",
+   "subject": "test: the equal area marker, passed by name, selects the equal area section; the old -2 is an ordinary thumbweight (WR-685, b9d6a72)",
+   "kind": "test",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5f39d9c1c8f73c5254db62a46e4a71a031501eca",
+   "short": "5f39d9c1c",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T00:42:47+01:00",
+   "subject": "fillet: a convex blend that would cut the part into pieces is refused, sized, opt-in (WR-696, smlib#79 862971f, e568e45, aac4288)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "kernel",
+    "tests"
+   ],
+   "files": 6,
+   "watch": [
+    "setback",
+    "chamfer"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "8e584daded8d0257e1dde22d4a45cc2832c33a4a",
+   "short": "8e584dade",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T00:40:43+01:00",
+   "subject": "blend: the G^n section's thumbweight is any w below 1, its equal area one resolved at every station, opt-in (WR-685, smlib#79 b9d6a72, 7102bc5, #2273)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "kernel",
+    "plan",
+    "tests"
+   ],
+   "files": 13,
+   "watch": [
+    "chamfer"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "5a7c4a8f658a0426db84d0887120680e94cbf869",
+   "short": "5a7c4a8f6",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T00:39:02+01:00",
+   "subject": "fix: MakeFaceBrep's kept trim curves move to step 4b; clippy doc fixes",
+   "kind": "fix",
+   "module": "surface",
+   "modules": [
+    "blend",
+    "kernel",
+    "plan",
+    "surface",
+    "tests"
+   ],
+   "files": 6,
+   "watch": [
+    "upstream-fixes"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "a4aecca397ef8a02b67540effc3410eadafc2a53",
+   "short": "a4aecca39",
+   "author": "jyviko",
+   "date": "2026-11-01T18:37:15-05:00",
+   "subject": "docs: the generic rolling-ball blend's design page, with how it is ported from the SMLib fork",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6824c8daece47f0abe1609e7177f65c5dfa14d66",
+   "short": "6824c8dae",
+   "author": "Karl Von Richter",
+   "date": "2026-11-02T09:30:15+10:00",
+   "subject": "SmBlendSetback: the setback corner's own module, its distances, fill and containment (#2273)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "plan",
+    "tests"
+   ],
+   "files": 5,
+   "watch": [
+    "setback",
+    "upstream-fixes"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "7f9810a4de05cfbc3c3d0ec9522601edae7d374c",
+   "short": "7f9810a4d",
+   "author": "Markus Reichart",
+   "date": "2026-11-02T00:18:59+01:00",
+   "subject": "test: keep features on planar and leaning walls, against the fork at eb883ad",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "plan",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b2a265c4b40538f5f71156179d9164e89cd3ce8f",
+   "short": "b2a265c4b",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T00:17:23+01:00",
+   "subject": "fillet: the rolling ball's exact local checks before the corners, refusing with the size that builds, opt-in (WR-696, smlib#79 410dfe1..a34b5e8)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "geom",
+    "kernel",
+    "tests"
+   ],
+   "files": 11,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "03c3f1796ab2a7cb4e571e559d1b89a8e6c36e7a",
+   "short": "03c3f1796",
+   "author": "Markus Reichart",
+   "date": "2026-11-02T00:14:10+01:00",
+   "subject": "fix: keep features, the round trimmed in place round a boss or a cut, opt-in (smlib#79 eb883ad, #2273)",
+   "kind": "fix",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "kernel",
+    "plan",
+    "tests"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0901780608bdb839dce6f23ed94d8450bd3cc8fa",
+   "short": "090178060",
+   "author": "Brett Lawson",
+   "date": "2026-11-02T00:04:36+01:00",
+   "subject": "surface: SurfaceKind::ProceduralBlend, a blend by its definition on its net (design, opt-in; smlib#79 014f66f, bb9f45e, #2273)",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "blend",
+    "boolean",
+    "difftest",
+    "intersect",
+    "kernel",
+    "query",
+    "ssi",
+    "surface",
+    "topology"
+   ],
+   "files": 39,
+   "watch": [
+    "upstream-fixes"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "3bc44958371bbfbebf8b9dc6acb5f2f28f4b1d78",
+   "short": "3bc449583",
+   "author": "Brett Lawson",
+   "date": "2026-11-01T23:57:59+01:00",
+   "subject": "fix: exact trims kept through the shrink, SwapUV keeps analytics, knot-end shrink, opt-in (smlib#79 step 4a)",
+   "kind": "fix",
+   "module": "surface",
+   "modules": [
+    "blend",
+    "kernel",
+    "plan",
+    "surface",
+    "tests",
+    "topology"
+   ],
+   "files": 14,
+   "watch": [
+    "upstream-fixes"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "d068bbb177c5030f9086fe8c10ea3b4bdcbe5963",
+   "short": "d068bbb17",
+   "author": "Karl Von Richter",
+   "date": "2026-11-02T08:50:29+10:00",
+   "subject": "difftest: expect.refused and expect.manifold for SolidCraft cases",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d0fef9d5fc441073292147fcccfcdcc641f7e5ba",
+   "short": "d0fef9d5f",
+   "author": "Ahmad Khan",
+   "date": "2026-11-01T23:07:40+05:30",
+   "subject": "fix: CalcRailIntExtendedEdgeuse no longer takes a rail end from the rail/edge crossing (smlib#76 0cc48bd)",
+   "kind": "fix",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "kernel",
+    "plan",
+    "tests"
+   ],
+   "files": 7,
+   "watch": [
+    "chamfer"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "b9e7f257b43bebac56b38b092cfb909cdfb4bb71",
+   "short": "b9e7f257b",
+   "author": "Markus Reichart",
+   "date": "2026-11-01T18:08:21+01:00",
+   "subject": "test: constant rounds of the exact classes, with the fork's marks (smlib 099cf96, #2244)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bc8c360e3066aadff34f661e6384a05a46186c6d",
+   "short": "bc8c360e3",
+   "author": "Markus Reichart",
+   "date": "2026-11-01T17:58:23+01:00",
+   "subject": "test: claim the exact-class round cases of smlib#77 (099cf96, #2244)",
+   "kind": "test",
+   "module": "altres",
+   "modules": [],
+   "files": 0,
+   "watch": [],
+   "ai": true
+  }
+ ],
+ "prs": [
+  {
+   "number": 2248,
+   "title": "fix: the tangent end as an event of the fillet's trace (smlib#76 6d73e4f, 0cc48bd, b34d61b, #2243)",
+   "branch": "port-2243-tangent-end-event",
+   "owner": "khanahmad4527",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T00:54:09-05:00",
+   "issue_refs": [
+    76,
+    2243
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2251,
+   "title": "test: constant rounds of the exact classes (smlib#77 099cf96, #2244)",
+   "branch": "test/smlib77-099cf96-exact-classes",
+   "owner": "MarkusReichart",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T08:31:19-05:00",
+   "issue_refs": [
+    77,
+    2244
+   ],
+   "upstream_refs": [],
+   "kind": "test",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2274,
+   "title": "fix: the round as its definition, opt-in (smlib#79 step 7, #2273)",
+   "branch": "fix/blend-step7-procedural-round",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T08:44:35-05:00",
+   "issue_refs": [
+    79,
+    2273
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2277,
+   "title": "fix: the blend corner, Turn and Join, opt-in (smlib#79 step 4b, #2273)",
+   "branch": "fix/blend-step4-corners",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-01T23:00:50-05:00",
+   "issue_refs": [
+    79,
+    2273
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2278,
+   "title": "fix: exact fold and room checks with fit sizes, opt-in (smlib#79 step 5, #2273)",
+   "branch": "fix/blend-step5-fold-room",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-01T20:52:16-05:00",
+   "issue_refs": [
+    79,
+    2273
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2279,
+   "title": "fix: generic blend step 6, cliff overflow trimmed at its creases in place, opt-in (WR-695)",
+   "branch": "fix/blend-step6-overflow",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-01T19:56:12-05:00",
+   "issue_refs": [],
+   "upstream_refs": [
+    "WR-695"
+   ],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2281,
+   "title": "fix: exact trims kept through the shrink, SwapUV keeps analytics, knot-end shrink, opt-in (smlib#79 step 4a)",
+   "branch": "fix/blend-step4a-exact-trims",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-01T19:33:50-05:00",
+   "issue_refs": [
+    79
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2282,
+   "title": "difftest: expect.refused and expect.manifold for SolidCraft cases (prep for #2278)",
+   "branch": "difftest-expect-refused-manifold",
+   "owner": "Karl-VonRichter",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T00:03:05-05:00",
+   "issue_refs": [
+    2278
+   ],
+   "upstream_refs": [],
+   "kind": "difftest",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2284,
+   "title": "fix: SmBlendSetback, the setback corner's own module, opt-in (smlib#79 SmBlendSetback, #2273)",
+   "branch": "port-smlib79-blend-setback",
+   "owner": "Karl-VonRichter",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-01T19:21:42-05:00",
+   "issue_refs": [
+    79,
+    2273
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": [
+    "setback"
+   ]
+  },
+  {
+   "number": 2285,
+   "title": "fix: drop crossing line of planes within tolerance across a coincident strip, opt-in (WR-614, #1794)",
+   "branch": "fix/1794-wr614-coincident-strip-crossing",
+   "owner": "outlookhazy",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-01T19:56:03-05:00",
+   "issue_refs": [
+    1794
+   ],
+   "upstream_refs": [
+    "WR-614"
+   ],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2287,
+   "title": "fix: keep features, the round trimmed in place round a boss or a cut, opt-in (smlib#79 eb883ad, #2273)",
+   "branch": "fix/fillet-keep-features",
+   "owner": "MarkusReichart",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-01T22:39:30-05:00",
+   "issue_refs": [
+    79,
+    2273
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2296,
+   "title": "docs: the generic rolling-ball blend: design, porting map and references",
+   "branch": "docs-generic-blend",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-01T19:04:51-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "docs",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2297,
+   "title": "fix: offset and shell update their result's tolerances, opt-in (WR-705, refs #2111)",
+   "branch": "fix/offset-update-tolerances",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-01T20:02:17-05:00",
+   "issue_refs": [
+    2111
+   ],
+   "upstream_refs": [
+    "WR-705"
+   ],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2300,
+   "title": "test: smlib#78 equal-area G2, variable union-of-balls, and peg end-rib tests (#2250)",
+   "branch": "test/2250-smlib78-section-and-rib-tests",
+   "owner": "outlookhazy",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-01T20:58:21-05:00",
+   "issue_refs": [
+    78,
+    2250
+   ],
+   "upstream_refs": [],
+   "kind": "test",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2301,
+   "title": "test: the six order-2 section cases, with their seams graded (smlib ea59e9c, #2250)",
+   "branch": "test/section-orders-order-2",
+   "owner": "MarkusReichart",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-01T19:55:55-05:00",
+   "issue_refs": [
+    2250
+   ],
+   "upstream_refs": [],
+   "kind": "test",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2302,
+   "title": "fix: a round's tangent-continuation section end is trimmed at its creases, opt-in (#2223)",
+   "branch": "fix/2223-section-end-crease-trim",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-01T20:31:50-05:00",
+   "issue_refs": [
+    2223
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2303,
+   "title": "plan: finding, torii's glue-state walk reaches a malformed 2-D B-spline on both sides",
+   "branch": "plan/torii-glue-walk-bad-knot-finding",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-01T19:49:52-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "plan",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2304,
+   "title": "fix: an offset asked not to merge is not refused as no closed solid (WR-657)",
+   "branch": "fix/unmerged-offset-is-not-refused",
+   "owner": "MarkusReichart",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-01T21:21:55-05:00",
+   "issue_refs": [],
+   "upstream_refs": [
+    "WR-657"
+   ],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2305,
+   "title": "plan: UB-289 addendum, a second trigger on rear.stp body 5 (plain recipe)",
+   "branch": "plan/ub289-addendum-rear-body-5",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-01T20:18:00-05:00",
+   "issue_refs": [],
+   "upstream_refs": [
+    "UB-289"
+   ],
+   "kind": "plan",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2306,
+   "title": "fix: the blend corner's Ball, opt-in (smlib#79 step 4c, #2273)",
+   "branch": "fix/blend-step4c-ball",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T00:15:25-05:00",
+   "issue_refs": [
+    79,
+    2273
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2307,
+   "title": "fix: the blend corner's End and the Join's shared section, opt-in (smlib#79 step 4d, #2273)",
+   "branch": "fix/blend-step4d-end-join",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T11:40:59-05:00",
+   "issue_refs": [
+    79,
+    2273
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2308,
+   "title": "fix: the Mixed corner, a convex and a concave blend meeting G1 across a tangent seam, built in solidcore (from smlib#82; fork WIP stops at its tag)",
+   "branch": "fix/2256-mixed-corner",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T03:34:16-05:00",
+   "issue_refs": [
+    82,
+    2256
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": [
+    "mixed-corner",
+    "seam"
+   ]
+  },
+  {
+   "number": 2309,
+   "title": "fix: refuse the 3x2 mixed-convexity corner whose rails cross, opt-in (WR-710, #2256)",
+   "branch": "fix/2256-refuse-mixed-corner",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-01T22:06:41-05:00",
+   "issue_refs": [
+    2256
+   ],
+   "upstream_refs": [
+    "WR-710"
+   ],
+   "kind": "fix",
+   "module": null,
+   "watch": [
+    "mixed-corner"
+   ]
+  },
+  {
+   "number": 2311,
+   "title": "fix: a round that would break through the part between its rails is refused, sized, opt-in (WR-707, #2299)",
+   "branch": "fix/2299-round-breaking-through",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-01T21:33:45-05:00",
+   "issue_refs": [
+    2299
+   ],
+   "upstream_refs": [
+    "WR-707"
+   ],
+   "kind": "fix",
+   "module": null,
+   "watch": [
+    "round-larger-than-wall"
+   ]
+  },
+  {
+   "number": 2315,
+   "title": "fix: cone iso circle through a point on unbounded cones (#2313)",
+   "branch": "fix/2313-cone-iso-circle",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T00:08:18-05:00",
+   "issue_refs": [
+    2313
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": [
+    "hang-cancel"
+   ]
+  },
+  {
+   "number": 2316,
+   "title": "fix: fillet two tab corner arcs together (#2314)",
+   "branch": "fix/2314-tab-corner-arcs",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T00:25:12-05:00",
+   "issue_refs": [
+    2314
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2317,
+   "title": "fix: a Gⁿ certificate span no level can certify is halved at once (smlib#105, #2312)",
+   "branch": "fix/2312-certificate-lower-bound",
+   "owner": "AndreIsraelAO",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-01T23:09:55-05:00",
+   "issue_refs": [
+    105,
+    2312
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2319,
+   "title": "fix: SmBallPatch, the Ball corner's exact patch (step 4c follow-up)",
+   "branch": "fix/blend-step4c-ball-patch",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T10:36:17-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": [
+    "ball-patch"
+   ]
+  },
+  {
+   "number": 2320,
+   "title": "fix: WR-707 refuses only rounds that really break through",
+   "branch": "fix/wr707-over-refusal",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T01:11:29-05:00",
+   "issue_refs": [],
+   "upstream_refs": [
+    "WR-707"
+   ],
+   "kind": "fix",
+   "module": null,
+   "watch": [
+    "round-larger-than-wall"
+   ]
+  },
+  {
+   "number": 2322,
+   "title": "fix: a fillet on a face that is itself a fillet is built from its exact definition, opt-in (smlib#101, #2298)",
+   "branch": "port-2298-round-on-a-round",
+   "owner": "khanahmad4527",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T11:47:29-05:00",
+   "issue_refs": [
+    101,
+    2298
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2323,
+   "title": "chore: warn on clippy::or_fun_call and make every eager or/ok_or/unwrap_or/map_or argument lazy",
+   "branch": "chore/or-fun-call-lint",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T00:15:15-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "chore",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2324,
+   "title": "perf: reuse the stitch's notification records and reset only what an edit changed",
+   "branch": "perf/stitch-notify-reseed-reuse",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T00:14:21-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "perf",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2325,
+   "title": "difftest: manifold on the overflow cases, and the cube corner refused with its fit",
+   "branch": "difftest-refusal-fits-followups",
+   "owner": "Karl-VonRichter",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T00:54:00-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "difftest",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2351,
+   "title": "fix: the Ball on curved faces, opt-in (smlib#110; #2342)",
+   "branch": "fix/2342-ball-curved-faces",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T02:33:35-05:00",
+   "issue_refs": [
+    110,
+    2342
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2353,
+   "title": "fix: the blend corner's four-edge Turn is only the mitre, opt-in (smlib#113 e4083c8 and 34288e5; part of #2342)",
+   "branch": "port-2342-old-corner-code",
+   "owner": "khanahmad4527",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T06:25:11-05:00",
+   "issue_refs": [
+    113,
+    2342
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2354,
+   "title": "test: a corner's seam angle by atan2 (smlib#119, #2342)",
+   "branch": "port-2342-seam-angle-atan2",
+   "owner": "khanahmad4527",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T02:01:04-05:00",
+   "issue_refs": [
+    119,
+    2342
+   ],
+   "upstream_refs": [],
+   "kind": "test",
+   "module": null,
+   "watch": [
+    "seam"
+   ]
+  },
+  {
+   "number": 2367,
+   "title": "fix: shell, offset and thicken as one construction, opt-in (#2350)",
+   "branch": "fix/2350-shell-offset-construction",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T14:38:57-05:00",
+   "issue_refs": [
+    2350
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2368,
+   "title": "fix: a drafted arc's wall as its exact SmCone, and the cover's seam closure on UV-swapped surfaces (smlib#116, #2342)",
+   "branch": "fix/2342-drafted-cone-wall",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T03:40:15-05:00",
+   "issue_refs": [
+    116,
+    2342
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": [
+    "seam"
+   ]
+  },
+  {
+   "number": 2374,
+   "title": "fix: fillet_keep_features refuses a round whose band never reaches the boss (#2370)",
+   "branch": "fix/2370-keep-features",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T06:31:15-05:00",
+   "issue_refs": [
+    2370
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2376,
+   "title": "fix: heal stage 3 — ClassifyLoops reads SmTArray's zeroed slack past the target loops (op 22 seam splits)",
+   "branch": "fix/wr715-classify-loops-zeroed-slack",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T16:42:26-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": [
+    "seam"
+   ]
+  },
+  {
+   "number": 2377,
+   "title": "fix: blend.feature_executive — the patch copies carry attributes without taking a destination face's list",
+   "branch": "fix/fexec-patch-copy-attribute-carry",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T16:42:15-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2378,
+   "title": "plan: finding, surface-attribute copy hazards (owner names alias engine vertex keys; persisted surface attributes)",
+   "branch": "plan/surface-attribute-copy-hazards",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T03:51:57-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "plan",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2379,
+   "title": "test: drop the tangent-end marks' unused FailsOtherwise (main fails clippy)",
+   "branch": "test-tangent-end-unused-variant",
+   "owner": "Karl-VonRichter",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T04:42:25-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "test",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2380,
+   "title": "test: the perforated plate's 2D boolean gated on counted work, not time (smlib#122, #2363)",
+   "branch": "port-2363-plate-counts",
+   "owner": "khanahmad4527",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T05:44:23-05:00",
+   "issue_refs": [
+    122,
+    2363
+   ],
+   "upstream_refs": [],
+   "kind": "test",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2383,
+   "title": "test: WR-382 minimum radius through whole-body checking (#1954)",
+   "branch": "contrib/wsl-issue-1954-20261102",
+   "owner": "Karl-VonRichter",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T06:35:23-05:00",
+   "issue_refs": [
+    1954
+   ],
+   "upstream_refs": [
+    "ISSUE-1954",
+    "WR-382"
+   ],
+   "kind": "test",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2386,
+   "title": "fix: a cliff overflow's crease along the crossed face's edge is that edge, opt-in (#2385)",
+   "branch": "fillet-overflow-crease-near-edge",
+   "owner": "Karl-VonRichter",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T06:47:15-05:00",
+   "issue_refs": [
+    2385
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2387,
+   "title": "difftest: SolidCraft #5747 case (a cove round a boss in a joined slab)",
+   "branch": "cases/solidcraft-5747",
+   "owner": "SychPL",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T06:59:06-05:00",
+   "issue_refs": [
+    5747
+   ],
+   "upstream_refs": [],
+   "kind": "difftest",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2389,
+   "title": "difftest: SolidCraft #4859 case (a chamfer in an inside corner of a thin ring)",
+   "branch": "cases/solidcraft-4859",
+   "owner": "SychPL",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T08:37:54-05:00",
+   "issue_refs": [
+    4859
+   ],
+   "upstream_refs": [],
+   "kind": "difftest",
+   "module": null,
+   "watch": [
+    "chamfer"
+   ]
+  },
+  {
+   "number": 2390,
+   "title": "fix: preserve STEP orientations and validate Discord R70 reconstruction",
+   "branch": "investigate/discord-fillet-70mm",
+   "owner": "Karl-VonRichter",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T09:48:49-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": [
+    "step"
+   ]
+  },
+  {
+   "number": 2391,
+   "title": "findings: smlib#120's warning fixes checked against the port, none changes it (#2362)",
+   "branch": "port-2362-usd-warnings",
+   "owner": "khanahmad4527",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T09:16:35-05:00",
+   "issue_refs": [
+    120,
+    2362
+   ],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2392,
+   "title": "docs: the fork is the reference, flags only during a port, the old code deleted; CONTRIBUTING, concurrency, and the blend page synced",
+   "branch": "docs-procedural-reference",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T14:17:05+00:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "docs",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2395,
+   "title": "cleanup: remove an unused copy of hermite_points that the fork deleted (smlib 9846aa0)",
+   "branch": "cleanup-hermite-points-four-arg",
+   "owner": "khanahmad4527",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T12:00:47-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2397,
+   "title": "test: a disc revolved while touching its axis passes the body check only with the WR-505 fix (#1954)",
+   "branch": "test-1954-check-and-offset-flags",
+   "owner": "khanahmad4527",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T12:00:38-05:00",
+   "issue_refs": [
+    1954
+   ],
+   "upstream_refs": [
+    "WR-505"
+   ],
+   "kind": "test",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2407,
+   "title": "test: a cut barrel's bounding box is correct only with the WR-588 trim search (#1954)",
+   "branch": "test-1954-wr588-tight-box-through-a-cut",
+   "owner": "khanahmad4527",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T12:00:25-05:00",
+   "issue_refs": [
+    1954
+   ],
+   "upstream_refs": [
+    "WR-588"
+   ],
+   "kind": "test",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2409,
+   "title": "fix: a tangent chain over an earlier round's curved end curve builds as a rolling-ball corner (#2403)",
+   "branch": "fix/2403-chain-over-end-curve",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T13:17:04-05:00",
+   "issue_refs": [
+    2403
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2411,
+   "title": "docs: solidcore goes its own way from SMLib; the blend page names solidcore issues only; resolved cases come with renders that show their issue",
+   "branch": "docs-own-path",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T09:55:29-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "docs",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2413,
+   "title": "docs: layers, one job in one place; the kernel computes, ops decides and sequences",
+   "branch": "docs-layers",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T10:08:30-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "docs",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2415,
+   "title": "fix: keep features sweeps a boss's walls apart, so a round just under its footprint builds (part of #2404)",
+   "branch": "fix/2404-build-near-size-bound",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T12:51:24-05:00",
+   "issue_refs": [
+    2404
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2416,
+   "title": "test: cutting a NURBS-patch cylinder from a box gives a valid body only with the WR-450 fix (#1954)",
+   "branch": "test-1954-wr450-box-minus-rational-cylinder",
+   "owner": "khanahmad4527",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T10:49:21-05:00",
+   "issue_refs": [
+    1954
+   ],
+   "upstream_refs": [
+    "WR-450"
+   ],
+   "kind": "test",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2418,
+   "title": "test: revolving a line a full turn gives a valid cylinder or cone only with the WR-440 seam fix (#1954)",
+   "branch": "test-1954-wr440-revolved-line-seam-check",
+   "owner": "khanahmad4527",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T10:46:58-05:00",
+   "issue_refs": [
+    1954
+   ],
+   "upstream_refs": [
+    "WR-440"
+   ],
+   "kind": "test",
+   "module": null,
+   "watch": [
+    "seam"
+   ]
+  },
+  {
+   "number": 2419,
+   "title": "fix: #2405 blend follow-ups: the exact round's spine, plane-first torus sections, kept exact pcurves, DropPoint's stalled-solve test",
+   "branch": "fix/2405-blend-follow-ups",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T16:53:12-05:00",
+   "issue_refs": [
+    2405
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2421,
+   "title": "port: fork b785227 — the Mixed corner's leaving tangent by the edge's sense",
+   "branch": "port/fork-b785227",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T13:16:52-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": [
+    "mixed-corner"
+   ]
+  },
+  {
+   "number": 2422,
+   "title": "port: fork cbeb14b — an open ellipse arc near its seam keeps its end angle",
+   "branch": "port/fork-cbeb14b",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T13:48:49-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": [
+    "seam"
+   ]
+  },
+  {
+   "number": 2423,
+   "title": "test: investigate WR-405 touching-hole sweep reachability (#1954)",
+   "branch": "test/wr405-touching-hole-sweep",
+   "owner": "altvnk",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T12:00:15-05:00",
+   "issue_refs": [
+    1954
+   ],
+   "upstream_refs": [
+    "WR-405"
+   ],
+   "kind": "test",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2425,
+   "title": "fix: joining two tubes with a hair-thin gap leaves edges whose trim interval doesn't match theirs (WR-575, #2424)",
+   "branch": "fix-2424-wr575-trim-interval",
+   "owner": "khanahmad4527",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T12:13:32-05:00",
+   "issue_refs": [
+    2424
+   ],
+   "upstream_refs": [
+    "WR-575"
+   ],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2428,
+   "title": "test: a lip swept flush round a rounded block's corner joins it only with the WR-533 fix (#1954)",
+   "branch": "test/wr533-lip-swept-flush",
+   "owner": "khanahmad4527",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T11:40:47-05:00",
+   "issue_refs": [
+    1954
+   ],
+   "upstream_refs": [
+    "WR-533"
+   ],
+   "kind": "test",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2431,
+   "title": "fix: blend refusals size the remaining classes and refuse the collapsed offset (#2401)",
+   "branch": "fix/2401-refusal-sizes",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T15:40:29-05:00",
+   "issue_refs": [
+    2401
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2432,
+   "title": "test: WR-469 isolate the new-edge grow-to-gap vertex tolerance in the #1480 loft union (#1954)",
+   "branch": "test/wr469-vertex-tolerance-gap",
+   "owner": "altvnk",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T13:04:03-05:00",
+   "issue_refs": [
+    1480,
+    1954
+   ],
+   "upstream_refs": [
+    "WR-469"
+   ],
+   "kind": "test",
+   "module": null,
+   "watch": [
+    "loft-skin"
+   ]
+  },
+  {
+   "number": 2433,
+   "title": "test: WR-263 the failed-trim UV gap through the public UV-domain operation (#1954)",
+   "branch": "test/wr262-failed-evaluation-propagation",
+   "owner": "altvnk",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T12:38:45-05:00",
+   "issue_refs": [
+    1954
+   ],
+   "upstream_refs": [
+    "WR-263"
+   ],
+   "kind": "test",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2434,
+   "title": "difftest: SolidCraft #11005 case (a pipe tee's branch bore cut through the main pipe's wall)",
+   "branch": "fixture/solidcraft-11005-tee-bore-cut",
+   "owner": "flyboy-byte",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T16:11:37-05:00",
+   "issue_refs": [
+    11005
+   ],
+   "upstream_refs": [],
+   "kind": "difftest",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2438,
+   "title": "test: WR-406 a UV trim reversal stays checkable through the public check (#1954)",
+   "branch": "test/wr406-uv-trim-reversal",
+   "owner": "altvnk",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T13:35:52-05:00",
+   "issue_refs": [
+    1954
+   ],
+   "upstream_refs": [
+    "WR-406"
+   ],
+   "kind": "test",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2439,
+   "title": "test: WR-533 the boolean splits definition across a split point through public operations (#1954)",
+   "branch": "test/wr533-boolean-split-definition",
+   "owner": "altvnk",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T13:16:41-05:00",
+   "issue_refs": [
+    1954
+   ],
+   "upstream_refs": [
+    "WR-533"
+   ],
+   "kind": "test",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2440,
+   "title": "test: WR-260 a failed reversal keeps the edge through the public record editor (#1954)",
+   "branch": "test/wr260-failed-reversal-keeps-edge",
+   "owner": "altvnk",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T13:48:35-05:00",
+   "issue_refs": [
+    1954
+   ],
+   "upstream_refs": [
+    "WR-260"
+   ],
+   "kind": "test",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2442,
+   "title": "test: WR-211 the ellipse step interval keeps turns through the public curve op (#1954)",
+   "branch": "test/wr211-ellipse-step-interval",
+   "owner": "altvnk",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T14:01:38-05:00",
+   "issue_refs": [
+    1954
+   ],
+   "upstream_refs": [
+    "WR-211"
+   ],
+   "kind": "test",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2443,
+   "title": "test: WR-73 a missed proto vertex stays false through the public record (#1954)",
+   "branch": "test/wr73-proto-vertex-miss",
+   "owner": "altvnk",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T14:01:26-05:00",
+   "issue_refs": [
+    1954
+   ],
+   "upstream_refs": [
+    "WR-73"
+   ],
+   "kind": "test",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2444,
+   "title": "Add regression tests for bounding boxes of shortened wire curves",
+   "branch": "test/1954-wr474-body-bounds",
+   "owner": "PapaEcho13",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T15:58:59-05:00",
+   "issue_refs": [
+    1954
+   ],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2447,
+   "title": "test: WR-266 the public heal keeps or loses the UV trims with the stage-3 fix (#1954)",
+   "branch": "test/wr266-heal-stage-failures",
+   "owner": "altvnk",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T14:26:25-05:00",
+   "issue_refs": [
+    1954
+   ],
+   "upstream_refs": [
+    "WR-266"
+   ],
+   "kind": "test",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2448,
+   "title": "test: WR-501 the torus major-radius-from-origin query distinguishes the flag at its natural level (#1954)",
+   "branch": "test/wr501-torus-major-radius",
+   "owner": "altvnk",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T14:51:29-05:00",
+   "issue_refs": [
+    1954
+   ],
+   "upstream_refs": [
+    "WR-501"
+   ],
+   "kind": "test",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2450,
+   "title": "difftest: SolidCraft #10971 case (a round cut whose circle touches an opening's top and bottom faces)",
+   "branch": "fixture/solidcraft-10971-cut-touching-opening",
+   "owner": "flyboy-byte",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T16:11:26-05:00",
+   "issue_refs": [
+    10971
+   ],
+   "upstream_refs": [],
+   "kind": "difftest",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2453,
+   "title": "Reuse finished curve data without copying it",
+   "branch": "perf/1032-share-curve-tree-data",
+   "owner": "PapaEcho13",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T18:07:42-05:00",
+   "issue_refs": [
+    1032
+   ],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2454,
+   "title": "fix: query.loop — ContainsUVPoint ignores a failed trim-curve evaluation, as upstream",
+   "branch": "fix/query-loop-ignored-trim-eval",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T16:46:58-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2455,
+   "title": "perf: index a ray solve's lazy copies by arena slot, not a per-solve map",
+   "branch": "perf/ray-solve-slot-vector-copies",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T16:44:42-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "perf",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2456,
+   "title": "test: the fork's equal-area wedge cases, sharp and twisted (smlib#79 b9d6a72, 04e49b9, #2273)",
+   "branch": "test/2273-equal-area-wedges",
+   "owner": "MarkusReichart",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T17:31:36-05:00",
+   "issue_refs": [
+    79,
+    2273
+   ],
+   "upstream_refs": [],
+   "kind": "test",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2457,
+   "title": "test: run pinned reader regressions without an upstream checkout",
+   "branch": "test/pinned-reader-regressions",
+   "owner": "altvnk",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T17:31:26-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "test",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2458,
+   "title": "difftest: SolidCraft #11320 case (a half-turn tool cut from a block with a rod over it)",
+   "branch": "fixture/solidcraft-11320-revolve-cut",
+   "owner": "flyboy-byte",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T17:17:19-05:00",
+   "issue_refs": [
+    11320
+   ],
+   "upstream_refs": [],
+   "kind": "difftest",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2460,
+   "title": "fix: reject overflowing degree and count arithmetic in fitting APIs",
+   "branch": "fix/nurbs-fit-count-overflow",
+   "owner": "altvnk",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T18:25:52-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2463,
+   "title": "test: the fork's variable rounds by their definitions (smlib 64e5632, 8f145ee; #2273)",
+   "branch": "test/2273-variable-round-definitions",
+   "owner": "MarkusReichart",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T17:55:35-05:00",
+   "issue_refs": [
+    2273
+   ],
+   "upstream_refs": [],
+   "kind": "test",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2465,
+   "title": "test: WR-490's boolean triggers agree by default at v1.0.1 (#1954)",
+   "branch": "claude/test-1954-wr490-recheck-2b1abe",
+   "owner": "MarkusReichart",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T18:32:01-05:00",
+   "issue_refs": [
+    1954
+   ],
+   "upstream_refs": [
+    "WR-490"
+   ],
+   "kind": "test",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2466,
+   "title": "fix: preserve STEP loop edges when optional pcurves are absent",
+   "branch": "fix/step-export-missing-trims",
+   "owner": "altvnk",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-02T18:25:42-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": [
+    "step"
+   ]
+  }
+ ],
+ "watch": [
+  {
+   "id": "setback",
+   "label": "Cantonades setback",
+   "cases": [
+    "C05",
+    "D01",
+    "D02"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "703fd9725",
+     "text": "fillet corner: the Turn's tangent check in its own statement, after the Ball and Swept one",
+     "url": "https://github.com/tangency-labs/solidcore/commit/703fd9725a2361c64ee8a166929ed5629f1f1795",
+     "matched": "Setback) and #2307 (the Join and End), which both extend that condition,"
+    },
+    {
+     "source": "commit",
+     "ref": "e6b85a310",
+     "text": "blend corner: the Setback event, its members on the corner and its dispatch (smlib#104 61547af)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/e6b85a3107bf47aabe4bb5d0458d2347906e35a7"
+    },
+    {
+     "source": "commit",
+     "ref": "226afb3aa",
+     "text": "fillet: a convex blend whose section would break through the part is refused, sized, opt-in (WR-707, #2299)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/226afb3aa53a99d2ea78e66644e2a7bd0578aaef",
+     "matched": "setback) whose sections stay clear, found by halving and 40 bisections."
+    },
+    {
+     "source": "commit",
+     "ref": "0452afbd3",
+     "text": "blend: a G^n round is its definition on the certified net, opt-in (WR-698, smlib#79 4a10ed8, #2273)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/0452afbd33493777bbc06ffc98273701bb3c9140",
+     "matched": "The ease before a setback takes the G^n target and the round as they are"
+    },
+    {
+     "source": "commit",
+     "ref": "5f39d9c1c",
+     "text": "fillet: a convex blend that would cut the part into pieces is refused, sized, opt-in (WR-696, smlib#79 862971f, e568e45, aac4288)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/5f39d9c1c8f73c5254db62a46e4a71a031501eca",
+     "matched": "NoRoomReason::CutsThePart, naming the largest radius (a chamfer's setback)"
+    },
+    {
+     "source": "commit",
+     "ref": "6824c8dae",
+     "text": "SmBlendSetback: the setback corner's own module, its distances, fill and containment (#2273)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/6824c8daece47f0abe1609e7177f65c5dfa14d66"
+    },
+    {
+     "source": "pr",
+     "ref": "#2284",
+     "text": "fix: SmBlendSetback, the setback corner's own module, opt-in (smlib#79 SmBlendSetback, #2273)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2284"
+    }
+   ]
+  },
+  {
+   "id": "mixed-corner",
+   "label": "Cantonades mixtes",
+   "cases": [
+    "D01",
+    "D02"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "d8d710d54",
+     "text": "docs: reflow the Mixed corner module's deviations line",
+     "url": "https://github.com/tangency-labs/solidcore/commit/d8d710d54ec27cef06aa63458b2ad4bc96004c19"
+    },
+    {
+     "source": "commit",
+     "ref": "07a3cb70d",
+     "text": "port: the Mixed corner's leaving tangent by the edge's own sense (fork b785227)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/07a3cb70dd995d4a48b3e1f02c0ff0a0ff520703"
+    },
+    {
+     "source": "commit",
+     "ref": "af8ee5418",
+     "text": "test: the rounds together at r 5 keep the pinned patch under 9bebf34's profile, which has no blend corner",
+     "url": "https://github.com/tangency-labs/solidcore/commit/af8ee54185b7cf3c908337eea045088f073f81d6",
+     "matched": "the Mixed corner, as the fork's wip/82 (d443f10, which has 543d25a and"
+    },
+    {
+     "source": "commit",
+     "ref": "9ad53c673",
+     "text": "fix: the Mixed corner, a convex and a concave blend meeting G1 across a tangent seam (from smlib#82, opt-in)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/9ad53c673811780cc89fe911623ef605ba2d0fde"
+    },
+    {
+     "source": "commit",
+     "ref": "cfb2bfaf4",
+     "text": "test, plan: the tangent-end cases at cd47efd too; smlib#76's 6d73e4f and b34d61b checked line for line",
+     "url": "https://github.com/tangency-labs/solidcore/commit/cfb2bfaf4bf5b3335af0835b2dbebbf93e79afd4",
+     "matched": "drafted_front_round_r2 pass, chamfers_together_d2 fails at the 3x2 mixed corner) under"
+    },
+    {
+     "source": "pr",
+     "ref": "#2308",
+     "text": "fix: the Mixed corner, a convex and a concave blend meeting G1 across a tangent seam, built in solidcore (from smlib#82; fork WIP stops at its tag)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2308"
+    },
+    {
+     "source": "pr",
+     "ref": "#2309",
+     "text": "fix: refuse the 3x2 mixed-convexity corner whose rails cross, opt-in (WR-710, #2256)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2309",
+     "matched": "fix/2256-refuse-mixed-corner"
+    },
+    {
+     "source": "pr",
+     "ref": "#2421",
+     "text": "port: fork b785227 — the Mixed corner's leaving tangent by the edge's sense",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2421"
+    }
+   ]
+  },
+  {
+   "id": "ball-patch",
+   "label": "Ball patch (cantonades esfèriques)",
+   "cases": [
+    "C05",
+    "D11"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "cefef57fc",
+     "text": "fix: a tangent chain over an earlier round's end curve ends on the corner ball (#2403)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/cefef57fc2b69c43bc36ad2587e06823a7f87c64",
+     "matched": "corner's Ball patch, the ball's triangle between the end sections and its"
+    },
+    {
+     "source": "commit",
+     "ref": "9733bbbe7",
+     "text": "fix: the Ball corner's face is an SmBallPatch, its sphere as its definition (WR-697, fork f8e6709, efb8007)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/9733bbbe7e4dd8b3cf7cea90c25313f4f2e0bffe",
+     "matched": "a procedural blend its net gives a ball patch its net. Its own overrides are"
+    },
+    {
+     "source": "pr",
+     "ref": "#2319",
+     "text": "fix: SmBallPatch, the Ball corner's exact patch (step 4c follow-up)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2319",
+     "matched": "fix/blend-step4c-ball-patch"
+    }
+   ]
+  },
+  {
+   "id": "variable-radius",
+   "label": "Radi variable / lleis de radi",
+   "cases": [
+    "D07"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "7778f6b71",
+     "text": "blend: an edge's variable round between NURBS faces is its definition, its law in the certificate (WR-698, smlib#79 0d43b4c, b8e3594, #2273)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/7778f6b71ab1a7ef26c73969ca37db9907dddcb2",
+     "matched": "circle generator's gate now also takes a variable radius solver's round"
+    },
+    {
+     "source": "commit",
+     "ref": "c9b05ab7a",
+     "text": "blend: a procedural blend evaluates as its definition, its stations kept in the kernel's memo; its record is written and read back, opt-in (WR-698, smlib#79 014f66f, c6d9b9a, 0136260, #2273)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/c9b05ab7a3a3f5f629799e27f45adf6d4bdca27c",
+     "matched": "series in s and tau, a radius law as a series in sigma), then the section exact in"
+    },
+    {
+     "source": "upstream-fix",
+     "ref": "fillet_round_as_definition",
+     "text": "With [`Self::fillet_gn_section_generator`] also on (a no-op otherwise): constant and variable-radius rounds between NURBS faces are built as their definition, a [`crate::surface::procedural_blend::Pro",
+     "url": null
+    }
+   ]
+  },
+  {
+   "id": "round-larger-than-wall",
+   "label": "Arrodoniment més gran que la paret",
+   "cases": [
+    "D03",
+    "D08"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "9bf85d804",
+     "text": "fix: WR-707 refuses only rounds that really break through (#2299)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/9bf85d8042891c452a8627fa4d8b07ae713010b1"
+    },
+    {
+     "source": "commit",
+     "ref": "50fb86f9b",
+     "text": "difftest: #1668 R7 round breaking through the wall is refused with its fit, and the fit builds (#2299)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/50fb86f9b98b58da4e62202d74c33274527152b6"
+    },
+    {
+     "source": "commit",
+     "ref": "226afb3aa",
+     "text": "fillet: a convex blend whose section would break through the part is refused, sized, opt-in (WR-707, #2299)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/226afb3aa53a99d2ea78e66644e2a7bd0578aaef"
+    },
+    {
+     "source": "pr",
+     "ref": "#2311",
+     "text": "fix: a round that would break through the part between its rails is refused, sized, opt-in (WR-707, #2299)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2311"
+    },
+    {
+     "source": "pr",
+     "ref": "#2320",
+     "text": "fix: WR-707 refuses only rounds that really break through",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2320"
+    },
+    {
+     "source": "upstream-issue",
+     "ref": "WR-707",
+     "text": "WR-707. A round that breaks through a thin wall builds a body that intersects itself",
+     "url": "https://github.com/tangency-labs/solidcore/blob/ac1db2c162950352aaabbf5832adb1cbf01c2754/plan/upstream-issues/WR-707--round-breaking-through-a-thin-wall-builds-self-intersecting.md"
+    },
+    {
+     "source": "upstream-fix",
+     "ref": "fillet_refuse_rounds_breaking_through",
+     "text": "With `fillet_gn_section_generator`, a convex blend whose section between its rails would break through the part (leave its material through a face and come back into it, where one of the faces it cros",
+     "url": null
+    }
+   ]
+  },
+  {
+   "id": "shell-rounded",
+   "label": "Buidat de cossos arrodonits",
+   "cases": [
+    "D11",
+    "D14"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "9bf85d804",
+     "text": "fix: WR-707 refuses only rounds that really break through (#2299)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/9bf85d8042891c452a8627fa4d8b07ae713010b1",
+     "matched": "faces (a hollow behind a wall). #2299's shelled box stays refused with the"
+    },
+    {
+     "source": "upstream-fix",
+     "ref": "fillet_refuse_rounds_breaking_through",
+     "text": "With `fillet_gn_section_generator`, a convex blend whose section between its rails would break through the part (leave its material through a face and come back into it, where one of the faces it cros",
+     "url": null
+    }
+   ]
+  },
+  {
+   "id": "hang-cancel",
+   "label": "Penjaments, temps límit i cancel·lació",
+   "cases": [
+    "C03",
+    "D02",
+    "D11"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "4c50ac0da",
+     "text": "fix: opt-in cone_unbounded_parameterized_as_nurb for unbounded cone iso circles (WR-713, #2313)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/4c50ac0da2811d42881d23e99dc345e3420d3b5b"
+    },
+    {
+     "source": "pr",
+     "ref": "#2315",
+     "text": "fix: cone iso circle through a point on unbounded cones (#2313)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2315"
+    },
+    {
+     "source": "upstream-issue",
+     "ref": "WR-713",
+     "text": "WR-713. Inside-out and negative-angle unbounded `SmCone`s are parameterised unlike their NURB: `CreateIsoCircleFromPoint` builds the circle far from the point or none",
+     "url": "https://github.com/tangency-labs/solidcore/blob/ac1db2c162950352aaabbf5832adb1cbf01c2754/plan/upstream-issues/WR-713--unbounded-cone-parameterised-unlike-its-nurb.md"
+    },
+    {
+     "source": "upstream-fix",
+     "ref": "cone_unbounded_parameterized_as_nurb",
+     "text": "Unbounded `SmCone`s are parameterised as their NURB is (WR-713, #2313).",
+     "url": null
+    }
+   ]
+  },
+  {
+   "id": "corner-blend",
+   "label": "Corner blend (CreateCornerBlend / Coons)",
+   "cases": [
+    "C05",
+    "D02"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "9ad53c673",
+     "text": "fix: the Mixed corner, a convex and a concave blend meeting G1 across a tangent seam (from smlib#82, opt-in)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/9ad53c673811780cc89fe911623ef605ba2d0fde",
+     "matched": "corner is two Coons patches in R^4 meeting along the inflection X-V, G1 to both"
+    }
+   ]
+  },
+  {
+   "id": "chamfer",
+   "label": "Xamfrans",
+   "cases": [],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "12a0fe574",
+     "text": "test: the peg's two chamfers end as the fork's with the blend corner, as the base's without",
+     "url": "https://github.com/tangency-labs/solidcore/commit/12a0fe574811d7e0ce02f1cc72d4475bdf789c46"
+    },
+    {
+     "source": "commit",
+     "ref": "85977abe1",
+     "text": "difftest: SolidCraft #4859 case (a chamfer in an inside corner of a thin ring)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/85977abe17d22e5c02c3aaed8618e8ca3d2744ea"
+    },
+    {
+     "source": "commit",
+     "ref": "9ad53c673",
+     "text": "fix: the Mixed corner, a convex and a concave blend meeting G1 across a tangent seam (from smlib#82, opt-in)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/9ad53c673811780cc89fe911623ef605ba2d0fde",
+     "matched": "blends, the walls and each other (bilinear for chamfers). With the flag on, a"
+    },
+    {
+     "source": "commit",
+     "ref": "cfb2bfaf4",
+     "text": "test, plan: the tangent-end cases at cd47efd too; smlib#76's 6d73e4f and b34d61b checked line for line",
+     "url": "https://github.com/tangency-labs/solidcore/commit/cfb2bfaf4bf5b3335af0835b2dbebbf93e79afd4",
+     "matched": "drafted_front_round_r2 pass, chamfers_together_d2 fails at the 3x2 mixed corner) under"
+    },
+    {
+     "source": "commit",
+     "ref": "bd05d883a",
+     "text": "blend: a G^n round takes its faces' n-th derivatives only, each net span its own pieces' (WR-685, smlib#79 3bc54a4, #2273)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/bd05d883a4831094a1c3a46a06d28bdd66799024",
+     "matched": "and volumes within 1e-7 (the fork's integrate the definition); the chamfered box"
+    },
+    {
+     "source": "commit",
+     "ref": "226afb3aa",
+     "text": "fillet: a convex blend whose section would break through the part is refused, sized, opt-in (WR-707, #2299)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/226afb3aa53a99d2ea78e66644e2a7bd0578aaef",
+     "matched": "(NoRoomReason::BreaksThrough), naming the largest radius (a chamfer's"
+    },
+    {
+     "source": "commit",
+     "ref": "0452afbd3",
+     "text": "blend: a G^n round is its definition on the certified net, opt-in (WR-698, smlib#79 4a10ed8, #2273)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/0452afbd33493777bbc06ffc98273701bb3c9140",
+     "matched": "flags, SmApiFilletEdges): the chamfered box's two rounds and the pipe on a plate,"
+    },
+    {
+     "source": "commit",
+     "ref": "a57d09e7c",
+     "text": "fillet: step 5's checks read edge curves with their edge's tolerance; difftest executives get the fit fields (WR-696)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/a57d09e7c9bcd3982fe83b47d1f7941f5aaa7bbc",
+     "matched": "That happened in issue_2175's chamfer (refused NoRoom again with"
+    },
+    {
+     "source": "commit",
+     "ref": "395e5efa5",
+     "text": "difftest: expect.refused.fit_size, read from SolidError::FilletRefused (stacked on #2278)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/395e5efa53e7b498d2eb6a4f986d5cf33d4bd3ba",
+     "matched": "3.001 and 3.5 refused with fit 3; #1080's rib chamfer and round of 3"
+    },
+    {
+     "source": "commit",
+     "ref": "ad0c34f46",
+     "text": "fillet: regression test and WR-695 record for the crease trim",
+     "url": "https://github.com/tangency-labs/solidcore/commit/ad0c34f46eceb855fe2a317405f53759d26cf761",
+     "matched": "stepped bar's every-face chamfer is refused only with the trim."
+    },
+    {
+     "source": "commit",
+     "ref": "ee6529035",
+     "text": "fillet: the largest size that builds a blend too large for its faces, carried on the refusal, opt-in (WR-696, smlib#79 a3d6d81, 49f393d, 5e8c9c1)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/ee6529035a635c69d5a668d442ead0de8cfd3d1d",
+     "matched": "the can's chamfer 10 fits 9.9899999999999967, the bossed can's round 6.9"
+    },
+    {
+     "source": "commit",
+     "ref": "0ab13201a",
+     "text": "docs: the generic blend page's case gallery: a render and status for each of SolidCraft's 271 fillet and chamfer rig cases on SMLib 5e8c9c1",
+     "url": "https://github.com/tangency-labs/solidcore/commit/0ab13201a8bfe4d9b677504256fae00e462e8e88"
+    },
+    {
+     "source": "commit",
+     "ref": "5f39d9c1c",
+     "text": "fillet: a convex blend that would cut the part into pieces is refused, sized, opt-in (WR-696, smlib#79 862971f, e568e45, aac4288)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/5f39d9c1c8f73c5254db62a46e4a71a031501eca",
+     "matched": "ball's sector (or the chamfer's triangle), or the section, as an exact arc"
+    },
+    {
+     "source": "commit",
+     "ref": "8e584dade",
+     "text": "blend: the G^n section's thumbweight is any w below 1, its equal area one resolved at every station, opt-in (WR-685, smlib#79 b9d6a72, 7102bc5, #2273)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/8e584daded8d0257e1dde22d4a45cc2832c33a4a",
+     "matched": "edge, the chamfer and box edges in both orders, and the pipe on a plate."
+    },
+    {
+     "source": "commit",
+     "ref": "d0fef9d5f",
+     "text": "fix: CalcRailIntExtendedEdgeuse no longer takes a rail end from the rail/edge crossing (smlib#76 0cc48bd)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/d0fef9d5fc441073292147fcccfcdcc641f7e5ba",
+     "matched": "9bebf34 under the profile without WR-600, and checks that the front chamfer"
+    },
+    {
+     "source": "pr",
+     "ref": "#2389",
+     "text": "difftest: SolidCraft #4859 case (a chamfer in an inside corner of a thin ring)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2389"
+    }
+   ]
+  },
+  {
+   "id": "loft-skin",
+   "label": "Loft / skin (superfícies B-spline arrodonides)",
+   "cases": [
+    "D14"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "c977389f9",
+     "text": "test: WR-469 isolated flag grows eight pleated-union vertex tolerances (#1480)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/c977389f906a1ac06a45ccf0f8d60c61023fd475",
+     "matched": "Run the #1480 pleated-loft union with only"
+    },
+    {
+     "source": "commit",
+     "ref": "3cd0834c4",
+     "text": "test: WR-450 box minus a rational NURBS cylinder through a boolean (#1954)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/3cd0834c4fd4eea0c9881a0ef76182eab51b200b",
+     "matched": "degree-1 skin between the two rational circles. With the flag off the edges"
+    },
+    {
+     "source": "commit",
+     "ref": "482d45dcf",
+     "text": "fix: a round's exact circles take one arc count and its point section their weights (WR-711)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/482d45dcf36506945d801a1ed55f9a698181f843",
+     "matched": "two. The skin made one-arc sections compatible by inserting a knot (middle weight"
+    },
+    {
+     "source": "pr",
+     "ref": "#2432",
+     "text": "test: WR-469 isolate the new-edge grow-to-gap vertex tolerance in the #1480 loft union (#1954)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2432"
+    },
+    {
+     "source": "upstream-issue",
+     "ref": "WR-711",
+     "text": "WR-711. A round's exact circular sections change arc count where they sweep across 91 degrees, and the skin between them leaves the circles (1.97e-3 off a variable round)",
+     "url": "https://github.com/tangency-labs/solidcore/blob/ac1db2c162950352aaabbf5832adb1cbf01c2754/plan/upstream-issues/WR-711--exact-arc-sections-of-mixed-arc-counts.md"
+    }
+   ]
+  },
+  {
+   "id": "step",
+   "label": "STEP (import / export)",
+   "cases": [
+    "anada i tornada STEP"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "69f0d7bf7",
+     "text": "fix: keep a wall's loop edges when its optional UV trim is missing",
+     "url": "https://github.com/tangency-labs/solidcore/commit/69f0d7bf7e15288be0eb50590b94123dd77d2a6c",
+     "matched": "step-export/step-import round-trips with its edges intact."
+    },
+    {
+     "source": "commit",
+     "ref": "5dc38cba7",
+     "text": "test: a cylinder wall without optional UV trims keeps its loop edges",
+     "url": "https://github.com/tangency-labs/solidcore/commit/5dc38cba74c14475ae64de5809efda35e2621a10",
+     "matched": "step-export/step-import and requires the non-empty loop topology to survive."
+    },
+    {
+     "source": "commit",
+     "ref": "31f69cded",
+     "text": "port: an open ellipse arc near its seam keeps its end angle (fork cbeb14b, WR-719)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/31f69cded6942a17609c921a431b3ef0f75c8d4e",
+     "matched": "ends its STEP domain at its end's angle, points 7.6e-11 apart."
+    },
+    {
+     "source": "commit",
+     "ref": "9c425c848",
+     "text": "docs: layers, one job in one place; the kernel computes, ops decides and sequences",
+     "url": "https://github.com/tangency-labs/solidcore/commit/9c425c8482d44b08f2eccd94612d77d09034848d",
+     "matched": "- The owner's decisions: one mesher (SolidCraft's tess, as `solidcore-tess`), one STEP implementation (data in the record, building bodies in ops) and one surface/surface intersection, in the kernel."
+    },
+    {
+     "source": "commit",
+     "ref": "a0e1a2d80",
+     "text": "step(docs): record validated topology after the main update",
+     "url": "https://github.com/tangency-labs/solidcore/commit/a0e1a2d80b4ade315689e86791f0286e3f66a432"
+    },
+    {
+     "source": "commit",
+     "ref": "e4b7a26bd",
+     "text": "step(fix): preserve exported orientations and validate the R70 reconstruction",
+     "url": "https://github.com/tangency-labs/solidcore/commit/e4b7a26bde6271dc7174d0d862ab39f04b532951"
+    },
+    {
+     "source": "commit",
+     "ref": "c48dee827",
+     "text": "step(test): propagate fixture helper errors through results",
+     "url": "https://github.com/tangency-labs/solidcore/commit/c48dee8272a83c3f7b0f5a06708cfe2c74e06ee9"
+    },
+    {
+     "source": "commit",
+     "ref": "0b88de0cb",
+     "text": "blend(docs): record pinned C++ operand validation control",
+     "url": "https://github.com/tangency-labs/solidcore/commit/0b88de0cb0182cfe5d5196de6df9aaa761861ae7",
+     "matched": "Document that the pinned reference also rejects the serialized imported operand, with 24 pointer-validation reports and AssertValid=false. Keep original STEP validity and the screenshot's trimmed junc"
+    },
+    {
+     "source": "commit",
+     "ref": "5dd1c78ed",
+     "text": "step(test): preserve Discord top-rim fillet regression",
+     "url": "https://github.com/tangency-labs/solidcore/commit/5dd1c78ed987367653a6f79b4053282519dbf75d"
+    },
+    {
+     "source": "commit",
+     "ref": "6f0fc8a3e",
+     "text": "step(test): claim Discord top-rim fillet regression",
+     "url": "https://github.com/tangency-labs/solidcore/commit/6f0fc8a3e065e3e4db4d16bd0d4e56ce5e54d0cc"
+    },
+    {
+     "source": "commit",
+     "ref": "ee51e60a2",
+     "text": "cover: read a UV-swapped surface's seam closure in the step's direction (fork dda881f, WR-599)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/ee51e60a2b8617c6137257fb5f7ee711f9da6c50",
+     "matched": "cover_wraps_across_closed_seam (WR-599). CoverCoincidentSurface steps in STEP"
+    },
+    {
+     "source": "pr",
+     "ref": "#2390",
+     "text": "fix: preserve STEP orientations and validate Discord R70 reconstruction",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2390"
+    },
+    {
+     "source": "pr",
+     "ref": "#2466",
+     "text": "fix: preserve STEP loop edges when optional pcurves are absent",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2466"
+    }
+   ]
+  },
+  {
+   "id": "platform",
+   "label": "Plataformes (wasm, iOS, ARM)",
+   "cases": [
+    "iPad"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "3655bc49a",
+     "text": "test: WR-263 measure the failed-trim gap through the public operation",
+     "url": "https://github.com/tangency-labs/solidcore/commit/3655bc49a24629c2f4d0085af317a42d1c80d0ad",
+     "matched": "clippy -D warnings (pinned 1.98.0), the focused test, wasm32 check."
+    },
+    {
+     "source": "commit",
+     "ref": "8208b986c",
+     "text": "test: WR-405 pin the default kernel and state the 6+6 corroboration",
+     "url": "https://github.com/tangency-labs/solidcore/commit/8208b986c61bb34b6f22e37a93a53160667c406f",
+     "matched": "-- -D warnings (pinned 1.98.0); the two issue_892 tests; wasm32 check."
+    }
+   ]
+  },
+  {
+   "id": "determinism",
+   "label": "Determinisme",
+   "cases": [
+    "resultats idèntics Mac/iPad"
+   ],
+   "hits": []
+  },
+  {
+   "id": "upstream-fixes",
+   "label": "Flags d'UpstreamFixes",
+   "cases": [
+    "configuració del kernel a l'app"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "2790a2370",
+     "text": "offset: S1 of the one shell construction, certified offset sheets and the fold refusal (opt-in, WR-718)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/2790a2370672a7ce9abd7cf1edf81337ede12ea1",
+     "matched": "UpstreamFixes::shell_one_construction (solidcore-native; the fork has no code of it):"
+    },
+    {
+     "source": "commit",
+     "ref": "6d57aa54e",
+     "text": "docs: the fork is the reference, flags only during a port, the old code deleted; CONTRIBUTING, concurrency, and the blend page synced with the fork",
+     "url": "https://github.com/tangency-labs/solidcore/commit/6d57aa54e2ceec59dbee617c1869dbfc7ec54485",
+     "matched": "- §4b: the owner's policy replaces #1018's interim rule. The fork (tangency-labs/smlib) is the reference, not upstream usd-brep v1.0.1; an `UpstreamFixes` flag exists only while a port is in progress;"
+    },
+    {
+     "source": "commit",
+     "ref": "9bf85d804",
+     "text": "fix: WR-707 refuses only rounds that really break through (#2299)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/9bf85d8042891c452a8627fa4d8b07ae713010b1",
+     "matched": "`fixes.fillet_refuse_rounds_breaking_through` refused a convex blend wherever"
+    },
+    {
+     "source": "commit",
+     "ref": "b1f7bcdf7",
+     "text": "test: keep features, the fork comparison on the flags it needs, not all of them",
+     "url": "https://github.com/tangency-labs/solidcore/commit/b1f7bcdf7635d17d08c35d9369011ee1b85d3d20",
+     "matched": "UpstreamFixes::all() holds fixes the fork does not have, and takes in each new one"
+    },
+    {
+     "source": "commit",
+     "ref": "ebf951c25",
+     "text": "test: variable rounds take the fork's exact circles under every fix (WR-708, fork 523bc25)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/ebf951c25663e323df4223ac63a296bc11887023",
+     "matched": "the approximated arcs, under UpstreamFixes::all(): they now assert 5e8c9c1's with"
+    },
+    {
+     "source": "commit",
+     "ref": "226afb3aa",
+     "text": "fillet: a convex blend whose section would break through the part is refused, sized, opt-in (WR-707, #2299)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/226afb3aa53a99d2ea78e66644e2a7bd0578aaef",
+     "matched": "With fixes.fillet_refuse_rounds_breaking_through (and"
+    },
+    {
+     "source": "commit",
+     "ref": "395e5efa5",
+     "text": "difftest: expect.refused.fit_size, read from SolidError::FilletRefused (stacked on #2278)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/395e5efa53e7b498d2eb6a4f986d5cf33d4bd3ba",
+     "matched": "(the smallest set, bisected over every UpstreamFixes field): #199's bar at"
+    },
+    {
+     "source": "commit",
+     "ref": "5a7c4a8f6",
+     "text": "fix: MakeFaceBrep's kept trim curves move to step 4b; clippy doc fixes",
+     "url": "https://github.com/tangency-labs/solidcore/commit/5a7c4a8f658a0426db84d0887120680e94cbf869",
+     "matched": "With UpstreamFixes::all, MakeFaceBrep keeping the fillet's own trim curves"
+    },
+    {
+     "source": "commit",
+     "ref": "6824c8dae",
+     "text": "SmBlendSetback: the setback corner's own module, its distances, fill and containment (#2273)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/6824c8daece47f0abe1609e7177f65c5dfa14d66",
+     "matched": "No UpstreamFixes field: neither the kernel nor the fork's SMLib (5e8c9c1) calls"
+    },
+    {
+     "source": "commit",
+     "ref": "090178060",
+     "text": "surface: SurfaceKind::ProceduralBlend, a blend by its definition on its net (design, opt-in; smlib#79 014f66f, bb9f45e, #2273)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/0901780608bdb839dce6f23ed94d8450bd3cc8fa",
+     "matched": "- UpstreamFixes::fillet_round_as_definition (WR-698), which builds on"
+    },
+    {
+     "source": "commit",
+     "ref": "3bc449583",
+     "text": "fix: exact trims kept through the shrink, SwapUV keeps analytics, knot-end shrink, opt-in (smlib#79 step 4a)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/3bc44958371bbfbebf8b9dc6acb5f2f28f4b1d78",
+     "matched": "Three opt-in UpstreamFixes from the fork's step 4 (tangency-labs/smlib#79):"
+    },
+    {
+     "source": "upstream-fix",
+     "ref": "fillet_refuse_rounds_breaking_through",
+     "text": "With `fillet_gn_section_generator`, a convex blend whose section between its rails would break through the part (leave its material through a face and come back into it, where one of the faces it cros",
+     "url": null
+    }
+   ]
+  },
+  {
+   "id": "seam",
+   "label": "Costures (seam) i arestes partides",
+   "cases": [
+    "lliçó: no triar arestes en costures"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "8a5763b31",
+     "text": "test: select a non-seam trim gap and require a later pcurve",
+     "url": "https://github.com/tangency-labs/solidcore/commit/8a5763b31f81e51785c344cb5eb218f42e7a50dd"
+    },
+    {
+     "source": "commit",
+     "ref": "3fc775970",
+     "text": "test: allow needless_range_loop for the seam graph's elimination, as its source file does",
+     "url": "https://github.com/tangency-labs/solidcore/commit/3fc775970cc5fe232e9f5f0435e6c1e2effb25c1"
+    },
+    {
+     "source": "commit",
+     "ref": "8fee449e5",
+     "text": "fix: a face made from exact pcurves keeps them (WR-722, #2405 item 5)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/8fee449e5009c43753c859f253fec02812de03bf",
+     "matched": "in) lost the exact seam pcurves its construction made, and they came back projected"
+    },
+    {
+     "source": "commit",
+     "ref": "31f69cded",
+     "text": "port: an open ellipse arc near its seam keeps its end angle (fork cbeb14b, WR-719)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/31f69cded6942a17609c921a431b3ef0f75c8d4e"
+    },
+    {
+     "source": "commit",
+     "ref": "73941a9f0",
+     "text": "test: WR-440 a revolved line's seam through the whole-body check (#1954)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/73941a9f0909ee334d0a0292cda95b238abc1c3d"
+    },
+    {
+     "source": "commit",
+     "ref": "1fe76644e",
+     "text": "fix: heal stage 3 — ClassifyLoops reads SmTArray's zeroed slack past the target loops (op 22 seam splits)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/1fe76644e0958507f997cb457b514fb38a62765d"
+    },
+    {
+     "source": "commit",
+     "ref": "9ad53c673",
+     "text": "fix: the Mixed corner, a convex and a concave blend meeting G1 across a tangent seam (from smlib#82, opt-in)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/9ad53c673811780cc89fe911623ef605ba2d0fde"
+    },
+    {
+     "source": "commit",
+     "ref": "ee51e60a2",
+     "text": "cover: read a UV-swapped surface's seam closure in the step's direction (fork dda881f, WR-599)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/ee51e60a2b8617c6137257fb5f7ee711f9da6c50"
+    },
+    {
+     "source": "commit",
+     "ref": "460a6bf87",
+     "text": "draft: a drafted arc's wall is its exact cone, its seams' pcurves cut at the cone's spans (fork 3ae7bfa)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/460a6bf87505611f241570b2712f8d4d8b4740ac",
+     "matched": "The wall's spans are the cone's V knots. A seam's pcurve on it is cut where"
+    },
+    {
+     "source": "commit",
+     "ref": "6782d14b2",
+     "text": "test: a corner patch's seam angle from the cross product, not acos (smlib#119)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/6782d14b21f3e09e7ded105b63fd38cb4752959f"
+    },
+    {
+     "source": "commit",
+     "ref": "bd05d883a",
+     "text": "blend: a G^n round takes its faces' n-th derivatives only, each net span its own pieces' (WR-685, smlib#79 3bc54a4, #2273)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/bd05d883a4831094a1c3a46a06d28bdd66799024",
+     "matched": "one seam now meets its face to G3."
+    },
+    {
+     "source": "commit",
+     "ref": "57043d8f3",
+     "text": "test: smlib#78 equal-area G2, variable union-of-balls, and peg end-rib tests (#2250)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/57043d8f3a7ee60f5e09f31f7a39359a53c2a0ed",
+     "matched": "and G2 / at-most-G3 seam continuity."
+    },
+    {
+     "source": "commit",
+     "ref": "2cb05dfdd",
+     "text": "test: the six order-2 section cases, on the port of 11ea2d9 (smlib ea59e9c, #2250)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/2cb05dfdd3a083db318c92bb92761d1dfc4a459c",
+     "matched": "The seam grading of #2252 on the G^n section: the surface against the section"
+    },
+    {
+     "source": "pr",
+     "ref": "#2308",
+     "text": "fix: the Mixed corner, a convex and a concave blend meeting G1 across a tangent seam, built in solidcore (from smlib#82; fork WIP stops at its tag)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2308"
+    },
+    {
+     "source": "pr",
+     "ref": "#2354",
+     "text": "test: a corner's seam angle by atan2 (smlib#119, #2342)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2354"
+    },
+    {
+     "source": "pr",
+     "ref": "#2368",
+     "text": "fix: a drafted arc's wall as its exact SmCone, and the cover's seam closure on UV-swapped surfaces (smlib#116, #2342)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2368"
+    },
+    {
+     "source": "pr",
+     "ref": "#2376",
+     "text": "fix: heal stage 3 — ClassifyLoops reads SmTArray's zeroed slack past the target loops (op 22 seam splits)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2376"
+    },
+    {
+     "source": "pr",
+     "ref": "#2418",
+     "text": "test: revolving a line a full turn gives a valid cylinder or cone only with the WR-440 seam fix (#1954)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2418"
+    },
+    {
+     "source": "pr",
+     "ref": "#2422",
+     "text": "port: fork cbeb14b — an open ellipse arc near its seam keeps its end angle",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2422"
+    },
+    {
+     "source": "upstream-issue",
+     "ref": "WR-719",
+     "text": "WR-719. `SmPolarConversion::SetUpPolarConversion` snaps an open ellipse arc ending just short of its seam to 360",
+     "url": "https://github.com/tangency-labs/solidcore/blob/ac1db2c162950352aaabbf5832adb1cbf01c2754/plan/upstream-issues/WR-719--ellipse-open-arc-end-snapped-to-its-seam.md"
+    },
+    {
+     "source": "upstream-fix",
+     "ref": "ellipse_open_arc_keeps_end_angle",
+     "text": "`SmPolarConversion::SetUpPolarConversion` (an ellipse's polar converter) takes an open arc's end angles as its ends' own polar angles (`atan2(rx / ry * y, x)` in `[0, 360)`); `STEPInversion` over the ",
+     "url": null
+    },
+    {
+     "source": "upstream-fix",
+     "ref": "fillet_section_end_trim_at_creases",
+     "text": "With both `fillet_overflow_trim_at_creases` and `fillet_round_ends_at_tangent_continuation`, a round with a section end (WR-674: its filleted edge runs on tangentially at the vertex) is trimmed at its",
+     "url": null
+    }
+   ]
+  }
+ ],
+ "units": {
+  "total": 282,
+  "counts": {
+   "green": 281,
+   "blocked": 1
+  },
+  "status_changes": [],
+  "notes_updated": [],
+  "not_green": [
+   "blend.feature_executive"
+  ]
+ },
+ "upstream_issues": {
+  "total": 713,
+  "counts": {
+   "WR": 388,
+   "UB": 256,
+   "HANG": 51,
+   "ND": 11,
+   "DOC": 5,
+   "FAIL": 1,
+   "ISSUE": 1
+  },
+  "new": [
+   {
+    "id": "WR-695",
+    "title": "WR-695. A cliff overflow is subtracted from the body instead of trimmed at its creases",
+    "file": "WR-695--cliff-overflow-subtracted-not-trimmed-at-its-creases.md"
+   },
+   {
+    "id": "WR-697",
+    "title": "WR-697. The mitre of two equal cylinder rounds at a sharp turn is a marched intersection, 1.4e-5 off both rounds, and `MakeFaceBrep` drops the fillet faces' own trim curves",
+    "file": "WR-697--mitre-turn-marched-not-exact.md"
+   },
+   {
+    "id": "WR-700",
+    "title": "WR-700. `SmFace::ShrinkGeometry` removes every trim curve, even where the surface's trim keeps its parameterization",
+    "file": "WR-700--shrink-removes-trim-curves-the-trim-keeps.md"
+   },
+   {
+    "id": "WR-701",
+    "title": "WR-701. `SmBSplineSurface::SwapUV` re-derives an analytic surface's definition from its transposed net",
+    "file": "WR-701--swap-uv-rederives-an-analytic-from-its-net.md"
+   },
+   {
+    "id": "WR-702",
+    "title": "WR-702. `SmFace::ShrinkGeometry` keeps a sliver span when the face's bound lands one rounding step past a knot",
+    "file": "WR-702--shrink-keeps-a-sliver-span-past-a-knot.md"
+   },
+   {
+    "id": "WR-703",
+    "title": "WR-703. A round takes a boss or a cut standing inside its band",
+    "file": "WR-703--a-round-takes-a-boss-or-a-cut-standing-in-its-band.md"
+   },
+   {
+    "id": "WR-705",
+    "title": "WR-705. The API offset and shell return their result with tolerances under the gaps their construction left",
+    "file": "WR-705--offset-returns-tolerances-under-its-gaps.md"
+   },
+   {
+    "id": "WR-706",
+    "title": "WR-706. A round ended at its sections (WR-674) is built only alone",
+    "file": "WR-706--section-ended-round-built-only-alone.md"
+   },
+   {
+    "id": "WR-707",
+    "title": "WR-707. A round that breaks through a thin wall builds a body that intersects itself",
+    "file": "WR-707--round-breaking-through-a-thin-wall-builds-self-intersecting.md"
+   },
+   {
+    "id": "WR-708",
+    "title": "WR-708. The executive's circular rounds are built from approximated arcs, so a round's end section is up to 1.6e-3 off the exact section of a round it joins",
+    "file": "WR-708--round-section-approximated-arcs.md"
+   },
+   {
+    "id": "WR-710",
+    "title": "WR-710. A 3x2 mixed-convexity corner whose rails cross before it is built off its faces",
+    "file": "WR-710--mixed-corner-crossing-rails-refused.md"
+   },
+   {
+    "id": "WR-711",
+    "title": "WR-711. A round's exact circular sections change arc count where they sweep across 91 degrees, and the skin between them leaves the circles (1.97e-3 off a variable round)",
+    "file": "WR-711--exact-arc-sections-of-mixed-arc-counts.md"
+   },
+   {
+    "id": "WR-713",
+    "title": "WR-713. Inside-out and negative-angle unbounded `SmCone`s are parameterised unlike their NURB: `CreateIsoCircleFromPoint` builds the circle far from the point or none",
+    "file": "WR-713--unbounded-cone-parameterised-unlike-its-nurb.md"
+   },
+   {
+    "id": "WR-714",
+    "title": "WR-714. A round on a round by its definition is not built as its definition, and a definition's partials at one of its stations always take the side after it",
+    "file": "WR-714--round-on-a-round-not-its-definition.md"
+   },
+   {
+    "id": "WR-715",
+    "title": "WR-715. `SetProps_Stage3` sizes the loop classification records to the closed loops but `ClassifyLoops` indexes them by the face's loop list: past the size it reads `SmTArray`'s zeroed slack",
+    "file": "WR-715--setprops-stage3-classifyloopios-indexed-past-closed-loops.md"
+   },
+   {
+    "id": "WR-717",
+    "title": "WR-717. A cliff overflow's crease that runs along an edge of the face it crosses is dropped, and the trim refuses at the sewing",
+    "file": "WR-717--overflow-crease-along-an-edge-dropped.md"
+   },
+   {
+    "id": "WR-718",
+    "title": "WR-718. A shell's B-spline offsets are sampled fits, not certified, and an offset that folds is built or crashes instead of being refused",
+    "file": "WR-718--shell-offsets-sampled-and-folds-not-refused.md"
+   },
+   {
+    "id": "WR-719",
+    "title": "WR-719. `SmPolarConversion::SetUpPolarConversion` snaps an open ellipse arc ending just short of its seam to 360",
+    "file": "WR-719--ellipse-open-arc-end-snapped-to-its-seam.md"
+   },
+   {
+    "id": "WR-721",
+    "title": "WR-721. `SmPlane::GlobalSurfaceIntersect` has no torus case, so a plane meets a torus by marching when the plane comes first",
+    "file": "WR-721--plane-first-torus-section-marched.md"
+   },
+   {
+    "id": "WR-722",
+    "title": "WR-722. A face made from exact pcurves loses them: the callers drop them, and `MakeFaceWithCurves`'s keep step refuses them on a face of opposite orientation",
+    "file": "WR-722--exact-pcurves-dropped-and-refused.md"
+   }
+  ],
+  "removed": [],
+  "retitled": [],
+  "new_addenda": [
+   "UB-289--addendum-2026-11-01-second-trigger-rear-body-5.md",
+   "WR-211--addendum-2026-11-02-full-turn-step-interval-on-public-curves.md",
+   "WR-260--addendum-2026-11-02-failed-reversal-observable-on-a-public-box.md",
+   "WR-263--addendum-2026-11-02-public-operation-reachability.md",
+   "WR-266--addendum-2026-11-02-public-heal-uv-trim-divergence.md",
+   "WR-405--addendum-2026-11-02-default-off-result-measured.md",
+   "WR-406--addendum-2026-11-02-public-check-measured.md",
+   "WR-440--addendum-2026-11-02-revolve-body-check-gate.md",
+   "WR-450--addendum-2026-11-02-boolean-gate.md",
+   "WR-469--addendum-2026-11-02-isolated-union-vertex-tolerances.md",
+   "WR-474--addendum-2026-11-02-whole-body-wire-bounds.md",
+   "WR-490--addendum-2026-11-02-boolean-triggers-right-in-v1-0-1.md",
+   "WR-501--addendum-2026-11-02-public-reader-measured.md",
+   "WR-505--addendum-2026-11-02-whole-body-check-gate.md",
+   "WR-520--addendum-2026-11-02-drafted-arc-wall-is-its-cone.md",
+   "WR-521--addendum-2026-11-02-tangent-rule-arc-wall-is-its-cone.md",
+   "WR-533--addendum-2026-11-02-boolean-gate.md",
+   "WR-533--addendum-2026-11-02-public-boolean-topology.md",
+   "WR-575--addendum-2026-11-02-split-pieces-meet-at-the-knot.md",
+   "WR-588--addendum-2026-11-02-boolean-cut-body-box-gate.md",
+   "WR-599--addendum-2026-11-02-cover-closure-on-uv-swapped-surfaces.md",
+   "WR-600--addendum-2026-11-02-smlib76-6d73e4f-b34d61b.md",
+   "WR-614--addendum-2026-11-01-coincident-strip-crossing.md",
+   "WR-616--addendum-2026-11-02-setback-split-fill.md",
+   "WR-619--addendum-2026-11-01-speck-vertex-tolerance.md",
+   "WR-669--addendum-2026-11-02-line-spine-exact-frame.md",
+   "WR-681--addendum-2026-11-01-retired-by-0cc48bd.md",
+   "WR-685--addendum-2026-11-02-refusal-sizes-remaining-classes.md",
+   "WR-685--addendum-2026-11-02-thumbweight-per-station.md",
+   "WR-697--addendum-2026-11-02-ball-corner.md",
+   "WR-697--addendum-2026-11-02-ball-on-curved-faces.md",
+   "WR-697--addendum-2026-11-02-ball-patch.md",
+   "WR-697--addendum-2026-11-02-chain-over-end-curve.md",
+   "WR-697--addendum-2026-11-02-end-and-join.md",
+   "WR-697--addendum-2026-11-02-end-rib-flush-merge.md",
+   "WR-697--addendum-2026-11-02-four-edge-turn-mitre-only.md",
+   "WR-697--addendum-2026-11-02-mixed-corner.md",
+   "WR-697--addendum-2026-11-02-mixed-leaving-tangent.md",
+   "WR-703--addendum-2026-11-02-walls-swept-apart.md",
+   "WR-706--addendum-2026-11-02-two-rounds-ending-on-one-plane.md",
+   "WR-707--addendum-2026-11-02-rounds-running-off-their-faces.md",
+   "WR-710--addendum-2026-11-02-mixed-corner-builds.md",
+   "WR-73--addendum-2026-11-02-public-boolean-reachability.md"
+  ]
+ },
+ "findings": {
+  "total": 690,
+  "new": [
+   {
+    "file": "blend.feature_executive--torii-glue-state-walk-hits-bad-knot-uv-curve.md",
+    "title": "blend.feature_executive: torii's glue-state validity walk fails to evaluate a UV curve that C++ reports as a bad knot count (2026-11-01)"
+   },
+   {
+    "file": "blend.fillet_corner_p3--fork-smlib-113-old-corner-code-still-reached.md",
+    "title": "blend.fillet_corner_p3: smlib#113 deletes old corner code that solidcore still runs, in the default and under the blend corner (2026-11-02)"
+   },
+   {
+    "file": "blend.fillet_solver--discord-70mm-top-rim.md",
+    "title": "blend.fillet_solver: Discord 70 mm top-rim case (2026-11-02)"
+   },
+   {
+    "file": "boolean.merge_p4--surface-owner-key-aliases-engine-vertex-key.md",
+    "title": "boolean.merge_p4: surface-attribute copy hazards: owner names alias engine vertex keys, and persisted surface attributes are dropped (2026-11-02)"
+   },
+   {
+    "file": "general--1954-wr382-whole-body-check.md",
+    "title": "General: WR-382 whole-body minimum-radius regression (2026-11-02)"
+   },
+   {
+    "file": "general--flag-pin-wr490-ellipse-trim-same-since-v1-0-1--addendum-2026-11-02-boolean-triggers.md",
+    "title": "General: WR-490 addendum: the record's boolean triggers agree by default at v1.0.1 (2026-11-02)"
+   },
+   {
+    "file": "general--flag-pin-wr527-faces-apart-is-speed-only--addendum-2026-11-02-work-counts.md",
+    "title": "General: WR-527 addendum: the fork's plate test counts its work, and the port counts it too (2026-11-02)"
+   },
+   {
+    "file": "general--smlib-120-warning-fixes-checked-against-the-port.md",
+    "title": "General: smlib#120's warning fixes checked against the port, none changes it (2026-11-02)"
+   },
+   {
+    "file": "general--smlib-fork-port-audit-2026-10-31--addendum-2026-11-02-smlib76-6d73e4f-b34d61b-line-for-line.md",
+    "title": "General: addendum (2026-11-02): smlib#76's 6d73e4f and b34d61b checked line for line against their ports"
+   }
+  ]
+ },
+ "solidcraft": {
+  "total": 125,
+  "counts": {
+   "PASS": 97,
+   "DEFERRED": 23,
+   "ERROR": 1,
+   "FAIL": 4
+  },
+  "changes": [],
+  "new": [],
+  "failing": [
+   "3369-fillet-edge-on-tangent-seam/edge_ends_on_seam",
+   "451-hollow-shell-cut/block_crossing_both_spheres_cut",
+   "451-hollow-shell-cut/block_crossing_inner_sphere_cut",
+   "451-hollow-shell-cut/block_crossing_inner_sphere_join",
+   "451-hollow-shell-cut/block_inside_hollow_cut"
+  ]
+ },
+ "upstream_fixes": {
+  "total": 316,
+  "new": [
+   {
+    "flag": "face_trim_curves_kept_where_exact",
+    "doc": "A face shrunk to its trims (`SmFace::ShrinkGeometry`) keeps its trim curves where its surface's trim keeps the surface's parameterization by construction (`SmSurface::TrimKeepsParameterization`, asked before the trim): a B-spline surface always (its patch is extracted by knot insertion), a cone, cylinder, sphere, torus or surface of revolution where the rotation's range stays as it is and the generator is untrimmed or a line, and no other kind."
+   },
+   {
+    "flag": "swap_uv_keeps_analytic_definition",
+    "doc": "`SmBSplineSurface::SwapUV` keeps an analytic surface's definition as it was made (`SwapUVDefinition`)."
+   },
+   {
+    "flag": "face_shrink_bound_on_knot",
+    "doc": "`SmFace::ShrinkGeometry` takes a face-domain bound within 64 ulp of one of its B-spline surface's knots (`64 * DBL_EPSILON * |knot|`) as that knot, before the trim."
+   },
+   {
+    "flag": "offset_updates_result_tolerances",
+    "doc": "`SmApiOffsetBrepFull` and `SmApiShellBrepFull` (offset, shell and thicken) run `SmBrep::ValidateAndUpdateTolerances(FALSE)` on their result before returning it, so its vertex and edge tolerances cover the gaps its construction left and it passes the check without the caller running the update."
+   },
+   {
+    "flag": "cone_unbounded_parameterized_as_nurb",
+    "doc": "Unbounded `SmCone`s are parameterised as their NURB is (WR-713, #2313)."
+   },
+   {
+    "flag": "fillet_refuse_mixed_corner_crossing_rails",
+    "doc": "Not upstream (WR-710, #2256): `SmFilletCorner::Create` refuses a 3x2 mixed-convexity corner (`SmFillet3x2MixedConvexityCorner`: three edges at the vertex, two filleted, one convex and one concave) whose two filleted edges leave the vertex along one tangent in the same sense (a bar's front top edge and the concave arc where its top meets a cylinder that its front face runs tangent into)."
+   },
+   {
+    "flag": "ellipse_open_arc_keeps_end_angle",
+    "doc": "`SmPolarConversion::SetUpPolarConversion` (an ellipse's polar converter) takes an open arc's end angles as its ends' own polar angles (`atan2(rx / ry * y, x)` in `[0, 360)`); `STEPInversion` over the temporary full circle, whose seam rule takes a point within tolerance of 360 for 0, is kept for an arc whose NURB is closed."
+   },
+   {
+    "flag": "boolean_coincident_strip_drops_crossing",
+    "doc": "`SmTopologyIntersector::IntersectInsertRelate`, before `ResolveIntersections`, removes the edge definition of two planar faces' crossing line (and its proto edge when that is left without one) when both sides of the crossing are bounded by edges of the two faces running straight and parallel to the crossing, covering it, facing it (`binorm.dot(off) < 0`) and lying within the edge/face intersection tolerance of the opposite plane (with at least one side represented by an edge-on-face definition): the planes then stay within tolerance of each other across the whole strip where both faces exist, and the crossing, fixed only to `tol / sin(angle)`, is not an edge."
+   },
+   {
+    "flag": "fillet_keep_features",
+    "doc": "A boss or a cut whose footprint is an inner loop of a face a round rolls on, and which the round's band reaches, stays: the round runs its whole edge, the feature's walls are carried to it and it is trimmed there in place, instead of the merge dropping the feature (WR-703, the fork's eb883ad; `blend::fillet_executive::session::keep_features`)."
+   },
+   {
+    "flag": "fillet_round_as_definition",
+    "doc": "With [`Self::fillet_gn_section_generator`] also on (a no-op otherwise): constant and variable-radius rounds between NURBS faces are built as their definition, a [`crate::surface::procedural_blend::ProceduralBlend`] (the fork's `SmProceduralBlend`): the two faces the ball rolls on, its radius or radius law, the section's order and thumbweight rule and the leader, which evaluate exactly; its net, the certified B-spline approximation within the certificate's bound (the radius law in the certificate), is what the surface cache and tessellation use (`SmBlendNetScope`), the cache's node boxes grown by the net's bound."
+   },
+   {
+    "flag": "fillet_blend_corner",
+    "doc": "The fork's blend corner (`SmBlendCorner`, smlib#79 step 4b; WR-697): two blends of one convexity among three or four edges at a vertex are classified as a Join (their edges continue each other, or meet at 5 degrees or less at a face corner of the other convexity) or a Turn, and built by the two-blend construction pinned SMLib's `SmFilletNx2Corner` has, unchanged (the fork's 74e9beb and 48a8a9f, bit for bit as before)."
+   },
+   {
+    "flag": "fillet_exact_arc_sections",
+    "doc": "The executive's circular rounds (`SetFilletParameters` with `SM_FSG_CIRCULAR`, and the corners' constant rounds, `SmFilletCorner::MakeConstantRadiusFillet`) take the ball's exact rational circle as their section, not polynomial arcs within 0.05% of the radius; an explicit request for approximated arcs (the cross-section type of `SmApiConstantRadiusFillet`'s options) keeps them."
+   },
+   {
+    "flag": "fillet_exact_arc_spans",
+    "doc": "With `fillet_exact_arc_sections`, the exact circular sections of one round (`SmCircularCrossSectionFSG::CreateSurfaceFromCurves` with `bApproximateArcs` FALSE) all take the largest arc count among them."
+   },
+   {
+    "flag": "fillet_round_on_round_as_definition",
+    "doc": "With [`Self::fillet_round_as_definition`] (and [`Self::fillet_gn_section_generator`]) also on (a no-op otherwise): a round of one radius on a face that is itself a round of one radius between NURBS faces by its definition is built as its definition, two deep."
+   },
+   {
+    "flag": "fillet_overflow_trim_at_creases",
+    "doc": "With `fillet_cliff_overflow` (and its prerequisites), a blend past its faces is trimmed at its creases where it is built instead of being closed into the region it removes and subtracted (the fork's `SmFilletExecutive::TrimAtCreases`, `SmFilletOverflow.cpp`, tangency-labs/smlib#79 step 6 at 5e8c9c1, which deletes `SubtractRemovalRegion`): the open ends are cut by their end faces' planes as before; each sheet face is sectioned by every body face near it that holds none of its boundary, exactly by a plane, and split along each crease where it lies inside both faces; a piece is kept only when its inner point lies inside the body; a planar support face whose kept rail runs past its boundary into the material is carried on along its plane to the rail; the kept sheet's boundary is imprinted on the body's faces, the faces it encloses round the blended edges are deleted, the sheet is merged in and stitched, the body oriented, and the edges between faces sewn in on one surface removed."
+   },
+   {
+    "flag": "fillet_section_end_trim_at_creases",
+    "doc": "With both `fillet_overflow_trim_at_creases` and `fillet_round_ends_at_tangent_continuation`, a round with a section end (WR-674: its filleted edge runs on tangentially at the vertex) is trimmed at its creases and sewn into the body as a cliff overflow is, instead of being closed into the region it removes and subtracted: each section end is cut by its plane through the vertex normal to the filleted edge and given its flat end face (the section's corner, from the section's ends to the vertex), and the sheet is trimmed and sewn in as `fillet_overflow_trim_at_creases` does it; a side of an end face that lies along an edge of the body (the seam where a corner's cylinder runs on tangentially into a flat side) is sewn to that edge's piece instead of being imprinted."
+   },
+   {
+    "flag": "fillet_overflow_crease_along_edge",
+    "doc": "With `fillet_overflow_trim_at_creases`, a crease of a blend past its faces that runs along an edge of the face it crosses, within the trim's tolerance, is taken as that edge: the sheet is split along it, its piece past the face is deleted, and the body's edge stands as the imprint where the material taken off stops and the sheet is sewn (as an extension's edges along the body do)."
+   },
+   {
+    "flag": "fillet_refuse_rounds_breaking_through",
+    "doc": "With `fillet_gn_section_generator`, a convex blend whose section between its rails would break through the part (leave its material through a face and come back into it, where one of the faces it crosses there shares no edge with the blended faces: a hollow behind a wall, such as a round on a wall thinner than it reaches into the hollow behind, or a blind pocket or cavity under a blended face, which the pinned construction builds into a body that intersects itself or has the wrong volume) is refused with `FilletErrorType::NoRoom` (`NoRoomReason::BreaksThrough`), naming the largest size whose sections do not break through, and that size less the fit margin is the refusal's fit (`SolidError::FilletRefused`)."
+   },
+   {
+    "flag": "plane_first_torus_section_exact",
+    "doc": "`SmPlane::GlobalSurfaceIntersect` with a torus as the other surface takes the torus's own plane section (`SmSurfOfRevolution::IntersectWithPlane` with the torus's iso circles: the circles of a plane square to the axis, the meridians of a plane through it), the orders and UV curves swapped as for a surface of revolution, where upstream has no torus case and marches it (circles 1.4e-6 off, meridians 3.5e-6 off); a meridian keeps its generator's circle kind (WR-721, #2405; solidcore-native, no fork commit)."
+   },
+   {
+    "flag": "keep_exact_pcurves",
+    "doc": "A face made from exact pcurves keeps them as its edge uses' trims where upstream drops them and projects each edge's curve again later, a fit: the draft extrusion's curvature-keeping and tangent-plane walls ([`crate::primitive::primitive_creation::p2::PrimitiveCreationAccess::face_with_curves`]) pass theirs to `SmBrep::MakeFaceWithCurves` with `pbOptCrvOnSurf` set, and `SmBrep::CopyFaces` without the merge passes a face's own trims (`CreateCurvesFromFace`) on to its copy."
+   },
+   {
+    "flag": "shell_one_construction",
+    "doc": "Shell, offset and thicken as one construction (tangency-labs/solidcore#2350; solidcore-native, no fork commit; WR-718)."
+   }
+  ],
+  "removed": [
+   "fillet_extended_rail_end_at_side_edge_crossing"
+  ],
+  "fillet_total": 85
+ },
+ "gates": {
+  "waivers_before": 3,
+  "waivers_after": 3,
+  "known_mismatches": 7,
+  "mismatches_new": [],
+  "mismatches_removed": []
+ },
+ "pin": {
+  "version": "1.0.1",
+  "commit": "3fd5b9548",
+  "changed": false,
+  "before_version": "1.0.1"
+ },
+ "status_md_changed": false,
+ "tags": [],
+ "github": {
+  "ok": false,
+  "error": "desactivat (--no-network)"
+ },
+ "releases": {
+  "ok": false
+ }
+}

@@ -1,0 +1,98 @@
+# Vigilància arque: què busquem cada dia als commits, PR, upstream-issues i findings
+# de solidcore. Cada entrada és una expressió regular (insensible a majúscules) i la
+# llista de casos de la bateria d'arrodoniments d'arque que hi tenen a veure.
+#
+# Edita aquest fitxer lliurement: el digest el llegeix a cada execució. `label` és el
+# text que surt al digest; `cases` només és informatiu (surt al costat de cada troballa);
+# `case_sensitive = true` fa que la regla distingeixi majúscules (per defecte no ho fa).
+
+[[watch]]
+id = "setback"
+label = "Cantonades setback"
+pattern = '\bsetback'
+cases = ["C05", "D01", "D02"]
+
+[[watch]]
+id = "mixed-corner"
+label = "Cantonades mixtes"
+pattern = '\bmixed[- ]corner|\bmixed corners?\b'
+cases = ["D01", "D02"]
+
+[[watch]]
+id = "ball-patch"
+label = "Ball patch (cantonades esfèriques)"
+pattern = '\bball[- ]patch'
+cases = ["C05", "D11"]
+
+[[watch]]
+id = "variable-radius"
+label = "Radi variable / lleis de radi"
+pattern = '\bvariable[- ]radius|\bradius law|\bvarying radius|\bvariable fillet'
+cases = ["D07"]
+
+[[watch]]
+id = "round-larger-than-wall"
+label = "Arrodoniment més gran que la paret"
+pattern = 'break(ing|s)?[- ]through|larger than (the )?wall|wider than (the )?wall|rounds? (larger|bigger) than|thin[- ]wall'
+cases = ["D03", "D08"]
+
+[[watch]]
+id = "shell-rounded"
+label = "Buidat de cossos arrodonits"
+pattern = '\bshell(ed|ing)?\b.*\b(round|fillet)|\b(round|fillet)\w*\b.*\bshell(ed|ing)?\b|\bhollow'
+cases = ["D11", "D14"]
+
+[[watch]]
+id = "hang-cancel"
+label = "Penjaments, temps límit i cancel·lació"
+pattern = '\bhang(s|ing)?\b|\bHANG-\d+|\btimeout|\bcancel(l?ation|token)?\b|tens of seconds|\bunbounded'
+cases = ["C03", "D02", "D11"]
+
+[[watch]]
+id = "corner-blend"
+label = "Corner blend (CreateCornerBlend / Coons)"
+pattern = 'corner[- ]blend|coons'
+cases = ["C05", "D02"]
+
+[[watch]]
+id = "chamfer"
+label = "Xamfrans"
+pattern = '\bchamfer'
+cases = []
+
+[[watch]]
+id = "loft-skin"
+label = "Loft / skin (superfícies B-spline arrodonides)"
+pattern = '\bloft|\bskin(ning)?\b'
+cases = ["D14"]
+
+[[watch]]
+id = "step"
+label = "STEP (import / export)"
+pattern = '\bSTEP\b|\bAP242\b|^step\(|\bstep-(brep|import|export)|\bstep (reader|writer|import|export)'
+case_sensitive = true
+cases = ["anada i tornada STEP"]
+
+[[watch]]
+id = "platform"
+label = "Plataformes (wasm, iOS, ARM)"
+pattern = '\bwasm|\bios\b|\bipad|\baarch64|\bapple silicon|\barm64'
+cases = ["iPad"]
+
+[[watch]]
+id = "determinism"
+label = "Determinisme"
+pattern = '\bnon[- ]?determin|\bND-\d+'
+cases = ["resultats idèntics Mac/iPad"]
+
+[[watch]]
+id = "upstream-fixes"
+label = "Flags d'UpstreamFixes"
+pattern = '\bUpstreamFixes\b|fillet_refuse_rounds_breaking_through'
+cases = ["configuració del kernel a l'app"]
+
+[[watch]]
+id = "seam"
+label = "Costures (seam) i arestes partides"
+pattern = '\bseam\b'
+cases = ["lliçó: no triar arestes en costures"]
