@@ -1,0 +1,6253 @@
+{
+ "day": "2026-10-19",
+ "generated_at": "2026-11-03T22:50:37+00:00",
+ "window": {
+  "start": "2026-10-19T00:00:00+00:00",
+  "end": "2026-10-20T00:00:00+00:00",
+  "start_sha": "e0694362403673206466ce03fcc52ae5718c4f01",
+  "end_sha": "ddb63131433dcbb1dd5d084dc385fd50b4b37bfb"
+ },
+ "summary": {
+  "commits": 339,
+  "merges": 218,
+  "claims": 16,
+  "prs_merged": 12,
+  "authors": 10,
+  "top_authors": [
+   [
+    "Christian Svensson",
+    132
+   ],
+   [
+    "Andreas",
+    73
+   ],
+   [
+    "Karl Von Richter",
+    65
+   ],
+   [
+    "bherbruck",
+    33
+   ],
+   [
+    "github-actions[bot]",
+    24
+   ],
+   [
+    "jijinbei",
+    4
+   ],
+   [
+    "duramson",
+    4
+   ],
+   [
+    "Jacob Oursland",
+    2
+   ]
+  ],
+  "ai_coauthored": 299,
+  "files_touched": 485
+ },
+ "by_module": {
+  "geom": {
+   "commits": 1,
+   "files": 1
+  },
+  "nurbs": {
+   "commits": 1,
+   "files": 1
+  },
+  "curve": {
+   "commits": 2,
+   "files": 6
+  },
+  "surface": {
+   "commits": 1,
+   "files": 13
+  },
+  "topology": {
+   "commits": 65,
+   "files": 417
+  },
+  "intersect": {
+   "commits": 17,
+   "files": 76
+  },
+  "heal": {
+   "commits": 14,
+   "files": 72
+  },
+  "offset": {
+   "commits": 13,
+   "files": 82
+  },
+  "boolean": {
+   "commits": 10,
+   "files": 49
+  },
+  "blend": {
+   "commits": 23,
+   "files": 98
+  },
+  "difftest": {
+   "commits": 74,
+   "files": 375
+  },
+  "harness": {
+   "commits": 20,
+   "files": 220
+  },
+  "plan": {
+   "commits": 79,
+   "files": 179
+  },
+  "docs": {
+   "commits": 2,
+   "files": 3
+  },
+  "ci": {
+   "commits": 1,
+   "files": 3
+  }
+ },
+ "by_kind": {
+  "fix": 19,
+  "port": 20,
+  "test": 6,
+  "difftest": 7,
+  "plan": 7,
+  "docs": 5,
+  "chore": 1,
+  "altres": 258
+ },
+ "commits": [
+  {
+   "sha": "ddb63131433dcbb1dd5d084dc385fd50b4b37bfb",
+   "short": "ddb631314",
+   "author": "github-actions[bot]",
+   "date": "2026-10-19T22:35:40Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "996699a1aa3896c2abe3d82e1b12feacb49d1cfa",
+   "short": "996699a1a",
+   "author": "github-actions[bot]",
+   "date": "2026-10-19T22:14:17Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "c36149d25fff1f06e335d7be52490ed98eea5dc0",
+   "short": "c36149d25",
+   "author": "bherbruck",
+   "date": "2026-10-19T17:46:39-04:00",
+   "subject": "README: Blacksmith sponsor banner",
+   "kind": "altres",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a4e56a74493f9166eefda862ba35691b43c81e06",
+   "short": "a4e56a744",
+   "author": "bherbruck",
+   "date": "2026-10-19T17:41:20-04:00",
+   "subject": "README: Blacksmith sponsors the CI minutes",
+   "kind": "altres",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fb58ea7608532c8594b9c5dce5d0efde36b94c67",
+   "short": "fb58ea760",
+   "author": "github-actions[bot]",
+   "date": "2026-10-19T20:40:00Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "bc8529dbbccb602755dc95a6bd9a9b35759ebaa2",
+   "short": "bc8529dbb",
+   "author": "bherbruck",
+   "date": "2026-10-19T15:41:26-04:00",
+   "subject": "batch: give N_BasisInsertKnots UB-196 and StitchVertexPairs' stale edge UB-197",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2ac838a6b711416984a33fba14ea8c79768eb373",
+   "short": "2ac838a6b",
+   "author": "bherbruck",
+   "date": "2026-10-19T15:40:22-04:00",
+   "subject": "batch: regenerate difftest reports",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4db3d6602a57daae3ebe0d554a1d01636f209aaa",
+   "short": "4db3d6602",
+   "author": "github-actions[bot]",
+   "date": "2026-10-19T19:07:25Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "7374781c558c2c0773b07bec47160cd1ff7e950a",
+   "short": "7374781c5",
+   "author": "github-actions[bot]",
+   "date": "2026-10-19T18:49:20Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "c5c8395a3c2e0980983da068b171892f1197a6ff",
+   "short": "c5c8395a3",
+   "author": "github-actions[bot]",
+   "date": "2026-10-19T18:26:38Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "196243413b9c969c13bee0324ab23e63a8ef72c2",
+   "short": "196243413",
+   "author": "github-actions[bot]",
+   "date": "2026-10-19T18:17:16Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "154853c729dd52c1f059ba7bbe50fcde5e385c90",
+   "short": "154853c72",
+   "author": "github-actions[bot]",
+   "date": "2026-10-19T17:27:43Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "8e79624ad6e3a81f0ef724637bcbfcad8e72cc2a",
+   "short": "8e79624ad",
+   "author": "github-actions[bot]",
+   "date": "2026-10-19T16:59:55Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "09fcbd97b7f1ea03305ab934d28c7d1c16b0f774",
+   "short": "09fcbd97b",
+   "author": "github-actions[bot]",
+   "date": "2026-10-19T16:08:48Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "08d045ec402841edc5a494f30a67464336c2adb1",
+   "short": "08d045ec4",
+   "author": "bherbruck",
+   "date": "2026-10-19T10:57:44-04:00",
+   "subject": "batch: regenerate difftest reports",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 12,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0cf3e2909f76848841c2aa1a32d84045d5b7372d",
+   "short": "0cf3e2909",
+   "author": "github-actions[bot]",
+   "date": "2026-10-19T14:43:29Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "168d484a1baefa19243b321983b186f40ca15ecb",
+   "short": "168d484a1",
+   "author": "bherbruck",
+   "date": "2026-10-19T10:26:24-04:00",
+   "subject": "batch: wire stubs into units the batch makes partial",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "plan",
+    "topology"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e6f2abf590690afef5ba7c445d27936cc0408834",
+   "short": "e6f2abf59",
+   "author": "bherbruck",
+   "date": "2026-10-19T10:11:58-04:00",
+   "subject": "batch: fit #183 to #139 and #203",
+   "kind": "altres",
+   "module": "boolean",
+   "modules": [
+    "boolean",
+    "intersect",
+    "topology"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5040b0b2e64d02d0197458f05d488bf58dc33e71",
+   "short": "5040b0b2e",
+   "author": "github-actions[bot]",
+   "date": "2026-10-19T12:58:42Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "9f50dfcc88672c172f6d41bc6a5c996141fa57ff",
+   "short": "9f50dfcc8",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T14:03:09+02:00",
+   "subject": "offset.offset_geometry_creation: notes after merging main 61670af3 (#153)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "689a564fa2eaa2c775f7a3715a3276d00662c913",
+   "short": "689a564fa",
+   "author": "bherbruck",
+   "date": "2026-10-19T07:45:08-04:00",
+   "subject": "topology.brep_p10: refresh difftest reports after merging surface.cone_p2",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fe44fc1c0bfdd8db8bae50627238876987966b6e",
+   "short": "fe44fc1c0",
+   "author": "Andreas",
+   "date": "2026-10-19T13:44:44+02:00",
+   "subject": "reports: regenerate intersect.curve_class_p9 after merging main",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "28cd7d9a30201687e9dca4116b95d71d5d8b333d",
+   "short": "28cd7d9a3",
+   "author": "github-actions[bot]",
+   "date": "2026-10-19T11:41:57Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "ebac3a8f70aaafb0798300e1301cd624a8900d76",
+   "short": "ebac3a8f7",
+   "author": "Andreas",
+   "date": "2026-10-19T13:35:36+02:00",
+   "subject": "difftest: attribute surface-kind dispatch deferrals to surface.surface_p2",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7f59fd5416e6c3c456ef607cb27fb09ad6930e40",
+   "short": "7f59fd541",
+   "author": "Andreas",
+   "date": "2026-10-19T13:05:28+02:00",
+   "subject": "topology.face_p3: regenerate reports after merging main, probe notes",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "45a4ee3fd9799a042c813f189433e0a6bd63a9be",
+   "short": "45a4ee3fd",
+   "author": "github-actions[bot]",
+   "date": "2026-10-19T11:04:05Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "cbf1f32b69438998a551b1aa88f7d4a22a077a63",
+   "short": "cbf1f32b6",
+   "author": "Andreas",
+   "date": "2026-10-19T12:34:20+02:00",
+   "subject": "fix: intersect.curve_class_p9 returns NULL_POINTER when the source curve cache cannot be built (#197)",
+   "kind": "fix",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "intersect"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1132f790b2d05b34cbb5a4009c898834017b29a8",
+   "short": "1132f790b",
+   "author": "Karl Von Richter",
+   "date": "2026-10-19T20:29:31+10:00",
+   "subject": "port: record native reruns after wiring topology.brep_p1",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "136bd0b6f201216e03040c99db8b84d4625c2743",
+   "short": "136bd0b6f",
+   "author": "Karl Von Richter",
+   "date": "2026-10-19T20:20:24+10:00",
+   "subject": "record: native difftest for the second review round",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b6b6f7dd9920d8b3ad7d8786efeffc4f9d6be489",
+   "short": "b6b6f7dd9",
+   "author": "github-actions[bot]",
+   "date": "2026-10-19T10:16:57Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "f8f4e47a9443875e4e70fb805dc2edb7dae34e2f",
+   "short": "f8f4e47a9",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T12:12:53+02:00",
+   "subject": "offset.offset_geometry_creation: notes after merging #147 b396cdd3 and main cd483d51",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "24e4b47c0e1bec1b164e886991ee2aeb9397960d",
+   "short": "24e4b47c0",
+   "author": "Karl Von Richter",
+   "date": "2026-10-19T20:10:13+10:00",
+   "subject": "difftest(offset.offset_executive_p1): traverse split offset edges as the shim",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e9df93467c87b6bec5a6acedfcb5bd4aab58ae9b",
+   "short": "e9df93467",
+   "author": "Karl Von Richter",
+   "date": "2026-10-19T19:59:37+10:00",
+   "subject": "fix(topology.brep_p5): second-round review follow-ups and new back-edges",
+   "kind": "fix",
+   "module": "topology",
+   "modules": [
+    "boolean",
+    "difftest",
+    "harness",
+    "heal",
+    "plan",
+    "topology"
+   ],
+   "files": 11,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a30f3570a815df867830a23c2f4429d9d42bc015",
+   "short": "a30f3570a",
+   "author": "Andreas",
+   "date": "2026-10-19T11:44:04+02:00",
+   "subject": "nlib.basis_adv: case counts and fuzz results for #182",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "145e1693ab6cb3260679edb1e19bb52340aaea68",
+   "short": "145e1693a",
+   "author": "Karl Von Richter",
+   "date": "2026-10-19T19:29:07+10:00",
+   "subject": "difftest(topology.brep_p7): run the wired MakeShellVertex for the square-loop face",
+   "kind": "difftest",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "topology"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fc814eaf4d70da413d31327a79726e31358d9485",
+   "short": "fc814eaf4",
+   "author": "github-actions[bot]",
+   "date": "2026-10-19T09:22:52Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "a5b6ce2b01e5a9b4f55161a698bc3bc3d250502d",
+   "short": "a5b6ce2b0",
+   "author": "Karl Von Richter",
+   "date": "2026-10-19T19:18:32+10:00",
+   "subject": "difftest(topology.brep_p9): real-file fixtures and nonfinite point/tolerance cases",
+   "kind": "difftest",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "harness",
+    "topology"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b396cdd32fe85d2cb24911d6a42f3e7b9dc5e5cf",
+   "short": "b396cdd32",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T11:17:33+02:00",
+   "subject": "plan/findings.md: refresh blend.fillet_geom_p1 coverage and blocker text",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7da151aa99e78fa2e63043a56e9340557ece7452",
+   "short": "7da151aa9",
+   "author": "Karl Von Richter",
+   "date": "2026-10-19T19:14:29+10:00",
+   "subject": "port: wire topology.brep_p9 to topology.brep_p1 and new p9 callers",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "heal",
+    "intersect",
+    "offset",
+    "topology"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d91d1d6b531b3134532194949d3f825b5399cb7d",
+   "short": "d91d1d6b5",
+   "author": "Andreas",
+   "date": "2026-10-19T11:10:56+02:00",
+   "subject": "fix(nlib.basis_adv): exact UB-13 guard for compat_mult, size insert output (UB-191)",
+   "kind": "fix",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9d6c60c092374df7d2fa07bab8175b5794ea5d27",
+   "short": "9d6c60c09",
+   "author": "github-actions[bot]",
+   "date": "2026-10-19T09:04:31Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "cbe1e508c8a2927e78ff1a719e22fc42e14b8f27",
+   "short": "cbe1e508c",
+   "author": "Andreas",
+   "date": "2026-10-19T10:34:46+02:00",
+   "subject": "topology.face_p3: wire brep_p7 face callees, doc fixes, allow ang_tol 0, fmt include!d units",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "boolean",
+    "difftest",
+    "geom",
+    "harness",
+    "plan",
+    "topology"
+   ],
+   "files": 13,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4fc5d6ca4c52e18d278cc038d45f9ad467d0b68c",
+   "short": "4fc5d6ca4",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T10:28:48+02:00",
+   "subject": "topology.brep_p1: regenerate the difftest report for clone_for_evaluation",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "aa8ea043d7b39209993b352f27cb67a584eb3d91",
+   "short": "aa8ea043d",
+   "author": "bherbruck",
+   "date": "2026-10-19T04:12:07-04:00",
+   "subject": "blend.fillet_intersector: review fixes (StepSolve in/out step and flags)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "plan"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f2fc87d1140a93218c149a92ba55653a09d69b10",
+   "short": "f2fc87d11",
+   "author": "github-actions[bot]",
+   "date": "2026-10-19T08:05:07Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "2c787035e8550114583a8964a40aae9b7f783d0b",
+   "short": "2c787035e",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T10:05:03+02:00",
+   "subject": "heal.stitch_p2: FFI doc states the exact HANG-24 guard (pre-review M1)",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness"
+   ],
+   "files": 1,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "4a8a6db82f6673588c9303f83c814656105db856",
+   "short": "4a8a6db82",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T09:49:38+02:00",
+   "subject": "plan: drop the offset_executive fuzz note from #205 (handled separately)",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "19c58b4ca2dca0bdaedb24e32070936ca1a97034",
+   "short": "19c58b4ca",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T09:41:44+02:00",
+   "subject": "boolean.topology_intersector_p2: build on main's IntersectorBrep::brep_glue_edges_general",
+   "kind": "altres",
+   "module": "boolean",
+   "modules": [
+    "boolean",
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "89985da150e27b9dff9dbbb2be85d1a0c286ca3e",
+   "short": "89985da15",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T08:52:58+02:00",
+   "subject": "blend.fillet_geom_p1: wire SmBrep::GetInfiniteRegion (topology.brep_p1, #145)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "05731370106e757be18fbac4c6c6472c06f140cd",
+   "short": "057313701",
+   "author": "github-actions[bot]",
+   "date": "2026-10-19T06:47:39Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "a6e1883f15c1f69150388077a36419765be1dfc1",
+   "short": "a6e1883f1",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T08:37:29+02:00",
+   "subject": "heal.stitch_p2: renumber WR-180/181 to WR-186/187; offset_executive notes and report",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6cca30b96b4c5749d62eaa8e001fe23d683c6217",
+   "short": "6cca30b96",
+   "author": "github-actions[bot]",
+   "date": "2026-10-19T06:26:23Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "df213ac7420b66b6505099c5ef727667944bc6da",
+   "short": "df213ac74",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T07:06:04+02:00",
+   "subject": "blend.fillet_geom_p1: convert doubles to SmZoneTol3d/SmApproxTol3d; real plane/revolution in EvaluateMate",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "be34f8674e7624430dfa8231499001e7957ec158",
+   "short": "be34f8674",
+   "author": "github-actions[bot]",
+   "date": "2026-10-19T05:01:15Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "4e59723c0fb6a93a154dfc7b41f32ef5beb2fdcf",
+   "short": "4e59723c0",
+   "author": "github-actions[bot]",
+   "date": "2026-10-19T04:58:39Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "5fee148971c4bb2e13cfe5302d4d84d8de5fafd9",
+   "short": "5fee14897",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T06:52:14+02:00",
+   "subject": "heal.stitch_p2: wire offset_executive's StitchIntoShell/Solid, mirror the Solid guard",
+   "kind": "altres",
+   "module": "heal",
+   "modules": [
+    "difftest",
+    "harness",
+    "heal",
+    "offset",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "7080bc83fba350b65f986298dec4a5eb3248a9bb",
+   "short": "7080bc83f",
+   "author": "Jacob Oursland",
+   "date": "2026-10-18T21:18:34-07:00",
+   "subject": "findings: Rust's cbrt on Linux depends on link order; probe self-check",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "0e86098bdc3f489feb3a9cc7124acafec173ab4e",
+   "short": "0e86098bd",
+   "author": "bherbruck",
+   "date": "2026-10-19T00:05:02-04:00",
+   "subject": "surface.cone_p2: refresh surface.cone_p3 report and wired-unit notes after merge",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5b58c9c6237c17ead281fbd1682675f4e63e7b4f",
+   "short": "5b58c9c62",
+   "author": "bherbruck",
+   "date": "2026-10-18T23:43:00-04:00",
+   "subject": "blend.fillet_intersector: adapt to main's OffsetSurface, wire rail offset evaluation",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "plan"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "48c9eb6a3adb185e058cd841d6d16fddd16391d6",
+   "short": "48c9eb6a3",
+   "author": "bherbruck",
+   "date": "2026-10-18T22:27:59-04:00",
+   "subject": "topology.brep_p10: pass the kernel to geometry copies, honour SM_CAST_PTR on UV trim curves, wire brep_p6",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "topology"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6bb8f514f5fd0afcfa5240afde5792aac6eb4b54",
+   "short": "6bb8f514f",
+   "author": "github-actions[bot]",
+   "date": "2026-10-19T01:28:51Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "73649d4822e7ff303ca696ca7b5da1d2f6ca8daa",
+   "short": "73649d482",
+   "author": "github-actions[bot]",
+   "date": "2026-10-19T00:36:23Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "41911e785b1858af5c4e664fa5fa234694bbf3c8",
+   "short": "41911e785",
+   "author": "Andreas",
+   "date": "2026-10-18T22:26:12+02:00",
+   "subject": "intersect.curve_class_p4: ignore the EvaluateBinormal status as upstream (both sites)",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "intersect",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e5b96768e2b2c5bd00d59d65316ac2356abae55a",
+   "short": "e5b96768e",
+   "author": "Andreas",
+   "date": "2026-10-18T21:51:51+02:00",
+   "subject": "blend.hcr: merge main; wire EvaluateBinormal and GetEdges; numbers 309/125",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7f4bad13311d1589ea91ede3ebe7d3755df7611c",
+   "short": "7f4bad133",
+   "author": "Andreas",
+   "date": "2026-10-18T21:50:36+02:00",
+   "subject": "topology.face_p1: drop the redundant qualification in the test helper",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a0e4516fe031a5b6ca691ce09b145ca5011b3224",
+   "short": "a0e4516fe",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T20:25:29+02:00",
+   "subject": "plan: heal.stitch_p1 deferral breakdown after the p2 merge (notes only)",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3a06eef96d1ac06852523c915e98c6cc0f9999f2",
+   "short": "3a06eef96",
+   "author": "Andreas",
+   "date": "2026-10-18T20:24:20+02:00",
+   "subject": "topology.face_p1: edits test asserts the post-Notify behaviour",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "de9865f236221179b8854163aa22615c8c3f62a7",
+   "short": "de9865f23",
+   "author": "Andreas",
+   "date": "2026-10-18T20:03:42+02:00",
+   "subject": "WIP: blend.hcr: partial report",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bc76eb8ad787d27511dc2fa029afb08d12a4f962",
+   "short": "bc76eb8ad",
+   "author": "denelson1-dot",
+   "date": "2026-10-18T13:14:01-04:00",
+   "subject": "findings: arm64 saturates upstream (ULONG)double, failing heal_data_p1-3",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "f798869cfbfb05985bd652ddd0810ac899043e36",
+   "short": "f798869cf",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T19:04:47+02:00",
+   "subject": "heal.stitch_p1: name the full over-refused set of the UB-177 repeat guard (comment only)",
+   "kind": "altres",
+   "module": "heal",
+   "modules": [
+    "harness",
+    "heal",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0d3be3d3cc17c61c52c1fcdd3d18c7794f02e357",
+   "short": "0d3be3d3c",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T18:50:59+02:00",
+   "subject": "heal.stitch_p1: delta review of 4ad4e504 (MF1 cross-pair vertex repeat, UB-177 [PSIRT], minors)",
+   "kind": "altres",
+   "module": "heal",
+   "modules": [
+    "harness",
+    "heal",
+    "plan"
+   ],
+   "files": 5,
+   "watch": [
+    "hang-cancel",
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "4ad4e5040cf776c3b19289a8c077c342f1468159",
+   "short": "4ad4e5040",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T17:51:24+02:00",
+   "subject": "heal.stitch_p1: wire UnifyNormals' topology.edgeuse_p3 calls",
+   "kind": "altres",
+   "module": "heal",
+   "modules": [
+    "heal",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "5b1b28aef90525776f8f33e15198b5ea9f2d7e40",
+   "short": "5b1b28aef",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T17:30:55+02:00",
+   "subject": "topology_edgeuse_p1 runner: diff against main is only this PR's checked_sub change",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b70b0aa4b8692408707adcaba36b07947c06422a",
+   "short": "b70b0aa4b",
+   "author": "Andreas",
+   "date": "2026-10-18T16:36:43+02:00",
+   "subject": "topology.face_p3: SmZoneTol3d conversion in the runner, empty-knot harness error, probe notes",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "plan",
+    "topology"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "549eaf7f2c5d86581f7a17611967667cbf0e2922",
+   "short": "549eaf7f2",
+   "author": "Andreas",
+   "date": "2026-10-18T16:25:37+02:00",
+   "subject": "topology.face_p3 review round: keep EvaluateBinormal's cache stub (justified), notes and regenerated reports",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan",
+    "topology"
+   ],
+   "files": 14,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c0845cf90399a6da208787749ea05002bfcdb9d2",
+   "short": "c0845cf90",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T15:53:54+02:00",
+   "subject": "topology.brep_p1: review of e97b63fd (S1 ignored binormal statuses, C1 UB-11, minors)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "harness",
+    "plan",
+    "topology"
+   ],
+   "files": 6,
+   "watch": [
+    "corner-blend",
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "5ad3607aeb23537d22d88a9dd25b27bff7243443",
+   "short": "5ad3607ae",
+   "author": "Andreas",
+   "date": "2026-10-18T15:14:36+02:00",
+   "subject": "topology.face_p3 review round: face singularities, real deferral owners, loop-based null guard, rustfmt, wire edgeuse_p3",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "topology"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fabdf4b869b8392c5a1e704fda167cc2752c6862",
+   "short": "fabdf4b86",
+   "author": "Andreas",
+   "date": "2026-10-18T15:05:28+02:00",
+   "subject": "WIP: blend.hcr: wire EvaluateBinormal and unfiltered GetEdges, adapt to main signatures",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "468a2ab4c4847c3661b6e2ed5bb53f281db31867",
+   "short": "468a2ab4c",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T13:38:01+02:00",
+   "subject": "topology_edgeuse_p1 runner: restore main's formatting of lines this PR did not change",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5fcb68b0a44741dfc79ff3b8a7deda00020543ff",
+   "short": "5fcb68b0a",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T13:37:30+02:00",
+   "subject": "rustfmt: topology/brep/p1.rs",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e97b63fde926069fbd3f60b87d3ae732854ad622",
+   "short": "e97b63fde",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T13:27:30+02:00",
+   "subject": "topology.brep_p1: wire topology.edgeuse_p3 and offset_executive's GetEdges; run the blends' C++",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "harness",
+    "offset",
+    "plan",
+    "topology"
+   ],
+   "files": 14,
+   "watch": [
+    "corner-blend"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "056233c31c5ce56fe1e0b55cf08fb679bd5806d0",
+   "short": "056233c31",
+   "author": "lillith",
+   "date": "2026-10-18T11:57:56+02:00",
+   "subject": "plan: derive progress case counts from difftest reports",
+   "kind": "plan",
+   "module": "harness",
+   "modules": [
+    "ci",
+    "harness"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "600650ccb991cb6b974929aca6ee4965af5b0dda",
+   "short": "600650ccb",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T19:09:34+10:00",
+   "subject": "port: record native reruns of the merged p9 head",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6e897f8dca2d8ef50daa79b22866f02015f521a6",
+   "short": "6e897f8dc",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T17:50:45+10:00",
+   "subject": "port: wire offset sm_InsertBreaks to topology.brep_p9 MakeVertexSplitEdge",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "offset",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e053d5b62b4d52e1085281eb615b8039a7afcef2",
+   "short": "e053d5b62",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T17:40:04+10:00",
+   "subject": "review: run Rust on rejected cone cases; fix docs and UB number",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "curve",
+    "difftest",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "58946bf8fb1251e6c08110c350348add85e1be6f",
+   "short": "58946bf8f",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T09:28:57+02:00",
+   "subject": "offset.offset_geometry_creation: review D1 and minors (docs only)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "958672c11a64cf80d2afb59bd9edba589cddf923",
+   "short": "958672c11",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T17:21:43+10:00",
+   "subject": "plan: record brep_p6 CopyEdges deferral after the part 5 back-edge",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "37e5d73be65802d11b20b13b558c75862f8f5804",
+   "short": "37e5d73be",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T17:20:11+10:00",
+   "subject": "fix(topology.brep_p5): wire landed back-edges and tighten review findings",
+   "kind": "fix",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "topology"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f787d1071c3f431d19927e50975b05d47b235001",
+   "short": "f787d1071",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T09:19:08+02:00",
+   "subject": "topology.brep_p7: rustfmt, offset test expectation, reports and notes after the p6 wiring",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "offset",
+    "plan",
+    "topology"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d4acfef2b714f0ba1531b4f6552c13838e40f45f",
+   "short": "d4acfef2b",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T09:11:29+02:00",
+   "subject": "offset.offset_geometry_creation: notes after merging #147 f0240ceb and main d045b293",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f2c3515124e4419d4d1ca9374b42bacd96372b47",
+   "short": "f2c351512",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T08:27:47+02:00",
+   "subject": "offset.offset_geometry_creation: notes, findings and report after wiring #175 and #117",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c4b34da717f3b9c3f0873ef8e726ac32b60a7297",
+   "short": "c4b34da71",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T08:08:25+02:00",
+   "subject": "topology.brep_p7: wire topology.brep_p6 (MakeFaceTopology, TestClosureSplitRegion) and the offset back-edge",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "offset",
+    "topology"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f0240cebf6c24dff36298fef9da6ad15f2adcc4a",
+   "short": "f0240cebf",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T07:28:36+02:00",
+   "subject": "blend.fillet_geom_p1: find_stepoff_uv takes &mut Brep (#117)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "cba55462e9f298a6668b0a127705c009f5979bdf",
+   "short": "cba55462e",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T07:25:28+02:00",
+   "subject": "offset.offset_geometry_creation: wire offset.offset_executive_p1 and topology.edgeuse_p3",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "difftest",
+    "harness",
+    "offset",
+    "plan"
+   ],
+   "files": 7,
+   "watch": [
+    "hang-cancel",
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "4d4b2e5a4e8edda70d6ae2ec4379e81b2d3098ad",
+   "short": "4d4b2e5a4",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T07:24:56+02:00",
+   "subject": "topology.brep_p1: exercise the UNSURE void flag (review minor of 63671000)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "60341e37fc68f6fc2edd47adfce8115862065609",
+   "short": "60341e37f",
+   "author": "jijinbei",
+   "date": "2026-10-18T14:08:42+09:00",
+   "subject": "ffi: share the validate helpers in seven units that open PRs also touch",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0d8b1028329dfcb058185b5e685cf700aa9cfa7a",
+   "short": "0d8b10283",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T06:56:07+02:00",
+   "subject": "plan/findings.md: describe the case changes from main's fixture merge exactly",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c31a56d75b49b4c6cf9210550c6c8c279dc578c7",
+   "short": "c31a56d75",
+   "author": "jijinbei",
+   "date": "2026-10-18T13:39:36+09:00",
+   "subject": "ffi: also share bad and euclid where a copy differs only in spelling",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness"
+   ],
+   "files": 30,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fc323c408a14151ed4477a0037359d33ab190371",
+   "short": "fc323c408",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T06:32:17+02:00",
+   "subject": "heal.stitch_p1: the StitchAndOrient hang is HANG-30 (HANG-29 was #147's)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "harness",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "afeb327b2bbb6fa7ca71a758a595bb4d109ba1ad",
+   "short": "afeb327b2",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T06:31:14+02:00",
+   "subject": "blend.fillet_geom_p1 FFI: build the validate Reader on the shared Cursor (#186)",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness"
+   ],
+   "files": 1,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "29b122864239e17d6a3c491297751ece6d697b5b",
+   "short": "29b122864",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T06:23:28+02:00",
+   "subject": "boolean.topology_intersector_p2: counts after the merge of main",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "906595e8bee15f22c917fbaa915d43932a3651c8",
+   "short": "906595e8b",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T14:22:53+10:00",
+   "subject": "record: Claude review fixes and current-source validation",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "28fa2ad8912d1a0b86718e54bb68d2febc95e699",
+   "short": "28fa2ad89",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T06:07:58+02:00",
+   "subject": "heal.stitch_p1: review round (e633877d): ignored statuses, stub arguments, exact guard, UBs, boundary fixtures",
+   "kind": "altres",
+   "module": "heal",
+   "modules": [
+    "difftest",
+    "harness",
+    "heal",
+    "plan"
+   ],
+   "files": 9,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "ffcb2dd5ddf9a49a95f0202c4048b44510ad157b",
+   "short": "ffcb2dd5d",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T05:49:36+02:00",
+   "subject": "blend.fillet_geom_p1: renumber HANG-16 to HANG-29",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 7,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "ecccb67b61c6f6d7df37d6a3b43358e7dceb7e04",
+   "short": "ecccb67b6",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T13:40:44+10:00",
+   "subject": "fix: identify the landed offset caller ownership gap",
+   "kind": "fix",
+   "module": "offset",
+   "modules": [
+    "offset"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f2b9e229022f67aea5ee5da1a88478ea08a7af90",
+   "short": "f2b9e2290",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T13:40:10+10:00",
+   "subject": "fix: preserve part 5 cleanup semantics and storage ownership",
+   "kind": "fix",
+   "module": "topology",
+   "modules": [
+    "plan",
+    "topology"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d74ae4a75b66ea71b5acfa2c59d454c8c9bd76ce",
+   "short": "d74ae4a75",
+   "author": "jijinbei",
+   "date": "2026-10-18T12:35:30+09:00",
+   "subject": "ffi: share bad, NOW/NOZ, euclid and check_knots through solidcore_ffi::validate",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness"
+   ],
+   "files": 110,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "30911f4ff8971004e51006e6e3b531680a154340",
+   "short": "30911f4ff",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T05:35:22+02:00",
+   "subject": "topology.brep_p7: use the shared FFI reader (lesson 30, #186)",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "19c7acdc4dff5cbb3a7e5fadfffd19f3b2973d56",
+   "short": "19c7acdc4",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T05:34:51+02:00",
+   "subject": "offset.offset_geometry_creation: FFI Reader onto the shared reader::Cursor (#186)",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "eeaffd80aa2671abec515bd3d9461cd3a7946b06",
+   "short": "eeaffd80a",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T13:14:09+10:00",
+   "subject": "plan: record cone_p3 results with the documented angle range",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "63671000a2267dc50f8a1900a41e4e28baee53d6",
+   "short": "63671000a",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T05:06:25+02:00",
+   "subject": "topology.brep_p1: wire the topology.shell calls (#154)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "plan",
+    "topology"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0acd8db85463ae160d870a659948dc1d2b1e51bf",
+   "short": "0acd8db85",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T13:06:08+10:00",
+   "subject": "fix: limit cone_p3 FFI angles to upstream's documented range",
+   "kind": "fix",
+   "module": "difftest",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 7,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "d5fcc6716149b9e701beb956f1043d027f83bdd2",
+   "short": "d5fcc6716",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T04:46:06+02:00",
+   "subject": "Merge fallout: drop the duplicate Brep::infinite_region field",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "78fc7fd53f5c2863351fbba4b35fe861190e0afd",
+   "short": "78fc7fd53",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T12:34:14+10:00",
+   "subject": "port: record complete p9 continuation validation and partial coverage",
+   "kind": "port",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ef61530b6c147d6ca795ef147901d8dbb4a9ae3f",
+   "short": "ef61530b6",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T04:30:53+02:00",
+   "subject": "blend.fillet_geom_p1: regenerate the difftest report at 7e76f759",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "206b22f9a40132e85d141b4550a91507d867615c",
+   "short": "206b22f9a",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T04:22:23+02:00",
+   "subject": "boolean.topology_intersector_p1: wire the GlueEdgesGeneral back-edge into topology.brep_p7",
+   "kind": "altres",
+   "module": "boolean",
+   "modules": [
+    "boolean",
+    "difftest",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e6b86b23b6380ae197e9fc9ffdc3c0f5432a7817",
+   "short": "e6b86b23b",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T12:21:11+10:00",
+   "subject": "fix: tie the cone_p3 FFI angle bound to the polar set-up shift bound",
+   "kind": "fix",
+   "module": "difftest",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "24996494e50e122736975629d8c628fdb52b1a60",
+   "short": "24996494e",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T12:04:17+10:00",
+   "subject": "record: complete the current-source full differential gate",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6eb9ba260dde92459222b084c7f97d67a49c780b",
+   "short": "6eb9ba260",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T04:00:49+02:00",
+   "subject": "offset.offset_geometry_creation: round-4 review minors",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "4418ba320430e3b75482574c0bfc9f7fec53599d",
+   "short": "4418ba320",
+   "author": "jijinbei",
+   "date": "2026-10-18T11:00:12+09:00",
+   "subject": "shim: share flg(SmBoolean), put_ivl and put_mat through sc_sm.h",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness"
+   ],
+   "files": 20,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "83780a93e9e55a8edca4343a2d5f70642955371e",
+   "short": "83780a93e",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T03:55:58+02:00",
+   "subject": "topology.brep_p7: wire topology.shell's IsInnerShell after the main merge (#154)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "plan",
+    "topology"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "35cbb112731443e48738b8f4a702f8a448a9a205",
+   "short": "35cbb1127",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T11:50:28+10:00",
+   "subject": "plan: record cone_p3 Linux results with the polar set-up bound",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "ff5bb6a43d2dd6f814699bf1e94af5c50d3cdc09",
+   "short": "ff5bb6a43",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T11:50:28+10:00",
+   "subject": "fix: bound polar set-up period shifts and guard far cone angles",
+   "kind": "fix",
+   "module": "harness",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [
+    "hang-cancel",
+    "step"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "84ee130c88d30ff98537357b4685274224382e06",
+   "short": "84ee130c8",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T11:47:58+10:00",
+   "subject": "port: keep edge skeleton caches in primary and mate order",
+   "kind": "port",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "49a94b4b268f217ad4d166e3a5d998afee7d5849",
+   "short": "49a94b4b2",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T11:45:44+10:00",
+   "subject": "port: retain shell construction notification state and clean native Clippy",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "topology"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5044a76c0f68d8da63531ccc345548286d3e9696",
+   "short": "5044a76c0",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T11:38:51+10:00",
+   "subject": "port: preserve defined p9 failure statuses in deferred continuations",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan",
+    "topology"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9c44835ac2a0a11d9432ca6878aa7bb61a3184d8",
+   "short": "9c44835ac",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T11:31:08+10:00",
+   "subject": "record: validate part 5 against the landed shell port",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "9286f181f809862b086d87e7fbccbde4584604e8",
+   "short": "9286f181f",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T03:25:32+02:00",
+   "subject": "boolean.topology_intersector_p2: review minors (comments only)",
+   "kind": "altres",
+   "module": "boolean",
+   "modules": [
+    "boolean",
+    "harness"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a928594ade4d5121a754a32729cebf09e963c3d8",
+   "short": "a928594ad",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T11:22:54+10:00",
+   "subject": "port: complete p9 caller bodies behind per-call deferrals",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "boolean",
+    "difftest",
+    "intersect",
+    "plan",
+    "topology"
+   ],
+   "files": 13,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a9f203282193f89fae5244021918652acba01132",
+   "short": "a9f203282",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T11:10:14+10:00",
+   "subject": "fix: assign shell storage lifecycle to the brep destructor owner",
+   "kind": "fix",
+   "module": "plan",
+   "modules": [
+    "plan",
+    "topology"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3fa37f393ce1f5e6cb9db45e4f2a2ecca961d24b",
+   "short": "3fa37f393",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T11:05:48+10:00",
+   "subject": "fix: wire landed shell and region callees into part 5",
+   "kind": "fix",
+   "module": "topology",
+   "modules": [
+    "plan",
+    "topology"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8489cbf0b78182f4376c87ff4fe257638fe916f6",
+   "short": "8489cbf0b",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T11:01:53+10:00",
+   "subject": "docs: record the source-found isolated survivor hazard",
+   "kind": "docs",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "51f79f2d4368f6789894cf5c4376206585b23d75",
+   "short": "51f79f2d4",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T10:50:11+10:00",
+   "subject": "docs: retain partial-port coverage guidance from issue 210",
+   "kind": "docs",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "03f0dbb16f3fe4e7fc99f40f8879502258e79c21",
+   "short": "03f0dbb16",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T10:49:06+10:00",
+   "subject": "test: retain cone fuzz failures and report the missing general adapter",
+   "kind": "test",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f6c270aec7cc42d32da7ace122dbe44a08ad600b",
+   "short": "f6c270aec",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T10:43:49+10:00",
+   "subject": "fix: guard missing cone polar conversions and preserve failed height outputs",
+   "kind": "fix",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "surface"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "cf25006e60793e7d68bb7f9b6b0aea865419271b",
+   "short": "cf25006e6",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T02:43:47+02:00",
+   "subject": "topology.brep_p1: state the guard passes as guard agreements (delta review of cd53f3f5)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "cea6ffc6a6c23f963b030ecf7ccfcf5170349df0",
+   "short": "cea6ffc6a",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T10:39:32+10:00",
+   "subject": "record: refresh partial coverage and issue 210 limits",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fd5a15a703bb9b24bf4c8e3e26600db504aa0090",
+   "short": "fd5a15a70",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T10:31:02+10:00",
+   "subject": "fix: preserve native tracking behavior with an existing observer",
+   "kind": "fix",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "heal",
+    "plan",
+    "topology"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1c823d4420d3147ae8a178b2eea9176b2a2407ed",
+   "short": "1c823d442",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T02:28:50+02:00",
+   "subject": "offset.offset_geometry_creation: follow main's copy(k) signatures; refresh findings",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "difftest",
+    "offset",
+    "plan"
+   ],
+   "files": 5,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "9c9bab5fd777715accb45c23c9644e7103322bbb",
+   "short": "9c9bab5fd",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T10:26:56+10:00",
+   "subject": "record: certify part 5 as partial on the reviewed source",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "64f9f549c2ef235d01947c36292ba0a0314330e2",
+   "short": "64f9f549c",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T10:15:25+10:00",
+   "subject": "docs: describe completed control flow and supporting callback port",
+   "kind": "docs",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d351d046efcc4abc80c3400093803f8048b44712",
+   "short": "d351d046e",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T10:12:38+10:00",
+   "subject": "docs: identify the opaque glue integration boundary explicitly",
+   "kind": "docs",
+   "module": "topology",
+   "modules": [
+    "boolean",
+    "topology"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "50b8289bc3907f8038dc293429a32983a1bb861d",
+   "short": "50b8289bc",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T10:11:45+10:00",
+   "subject": "test: compare face notifications and format registered units",
+   "kind": "test",
+   "module": "harness",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b1b9a7cc172a92175925af262fe76d2fd3a8e387",
+   "short": "b1b9a7cc1",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T10:10:09+10:00",
+   "subject": "fix: preserve topology change arrays across callback lifetimes",
+   "kind": "fix",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "heal",
+    "plan",
+    "topology"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9b97e997f79833e6e2c2095e83b2206824ccf6f1",
+   "short": "9b97e997f",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T02:07:26+02:00",
+   "subject": "curve: review minors (global_point_solve_cached is pub(crate), doc alignment)",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "97ef4815c5a0085b4b5926ca1bfe522635723327",
+   "short": "97ef4815c",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T10:03:14+10:00",
+   "subject": "test: retain valid aliased native glue calls",
+   "kind": "test",
+   "module": "harness",
+   "modules": [
+    "harness"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6666023b95c602a64ff41c3c1b7e7a93f30a9062",
+   "short": "6666023b9",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T10:01:21+10:00",
+   "subject": "fix: keep tracked geometry owner metadata explicit",
+   "kind": "fix",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "99c41ea0cd43c0853936862579f69b80c8a4742c",
+   "short": "99c41ea0c",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T10:00:44+10:00",
+   "subject": "port: restore complete brep part 5 editing continuations",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "boolean",
+    "difftest",
+    "harness",
+    "heal",
+    "plan",
+    "topology"
+   ],
+   "files": 18,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0c7c990628c7217f9a3d5c15026be0b83f386a51",
+   "short": "0c7c99062",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T09:58:01+10:00",
+   "subject": "port: record clean p9 review and complete native gate",
+   "kind": "port",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "118041e66c8da94201037c2823e866347de281a1",
+   "short": "118041e66",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T01:55:24+02:00",
+   "subject": "boolean.topology_intersector_p2: pre-review fixes (UB-175, HANG-25, exact guards)",
+   "kind": "altres",
+   "module": "boolean",
+   "modules": [
+    "boolean",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 10,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "65035a6ab65357fde095168f2af7d455e3426270",
+   "short": "65035a6ab",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T01:42:56+02:00",
+   "subject": "offset.offset_geometry_creation: wire surface.offset_surface; HANG-26/27",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "difftest",
+    "harness",
+    "offset"
+   ],
+   "files": 4,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "77f74fd08c8d371163ba9f978d56715e61978a3b",
+   "short": "77f74fd08",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T01:41:04+02:00",
+   "subject": "boolean.topology_intersector_p1: follow-ups to #146",
+   "kind": "altres",
+   "module": "boolean",
+   "modules": [
+    "boolean",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "17c43c2a8a86d03e9876d32237e26b343d592d5d",
+   "short": "17c43c2a8",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T01:36:57+02:00",
+   "subject": "topology.brep_p7: SetTolerance and CreateUVTrimCurves stubs take upstream's flags",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "plan",
+    "topology"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5b4a3f6fec9818f0fed04bca12f93b26fa8a1913",
+   "short": "5b4a3f6fe",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T09:30:15+10:00",
+   "subject": "port: refresh p9 review evidence and honest todo status",
+   "kind": "port",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8f11ed4ab4fac2e71c1e20c21d004dd3732ddfa6",
+   "short": "8f11ed4ab",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T09:24:31+10:00",
+   "subject": "docs: format p9 deferral owner for strict native Clippy",
+   "kind": "docs",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6d200c8683a88385f8ff0d625ef9dd742020960f",
+   "short": "6d200c868",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T09:22:27+10:00",
+   "subject": "difftest: construct p9 projection probes in surface UV coordinates",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e633877df778f379e0b696717a6e508901989334",
+   "short": "e633877df",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T01:20:13+02:00",
+   "subject": "heal.stitch_p1: partial; report, notes, findings, UB-167",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "dd725c091d61c50993c45dfe73a380b4485110e2",
+   "short": "dd725c091",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T09:18:20+10:00",
+   "subject": "WIP: restore part 5 continuations and address review input cases",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "boolean",
+    "difftest",
+    "harness",
+    "heal",
+    "plan",
+    "topology"
+   ],
+   "files": 11,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f52eeb29fa549377739d304d5ea6424e22425760",
+   "short": "f52eeb29f",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T09:16:08+10:00",
+   "subject": "test: build linked edge uses for p9 endpoint outputs",
+   "kind": "test",
+   "module": "topology",
+   "modules": [
+    "plan",
+    "topology"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "12b60efa63cf83b6c8f6b3c1d79485e7f8cc2ab9",
+   "short": "12b60efa6",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T09:13:15+10:00",
+   "subject": "port: address p9 review behavior and incomplete-body tracking",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "intersect",
+    "plan",
+    "topology"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8ba82c12de4441f3aa72549e8257e275298bdc1b",
+   "short": "8ba82c12d",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T00:58:18+02:00",
+   "subject": "heal.stitch_p2: pre-review fixes (face_notify pData2 null, HANG-24 zero-tolerance only)",
+   "kind": "altres",
+   "module": "heal",
+   "modules": [
+    "difftest",
+    "harness",
+    "heal",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "045f7fc19aac553a54b1ba138311e13984adf8b4",
+   "short": "045f7fc19",
+   "author": "bherbruck",
+   "date": "2026-10-17T18:57:08-04:00",
+   "subject": "ci: run pull requests, pages and progress on Blacksmith runners",
+   "kind": "chore",
+   "module": "ci",
+   "modules": [
+    "ci"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "43229ee8a50f6dc22371315a53f3614adb8d314f",
+   "short": "43229ee8a",
+   "author": "Andreas",
+   "date": "2026-10-18T00:21:35+02:00",
+   "subject": "WIP: #139 face_p3: Surface::copy takes the kernel (offset_surface merge)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4692fed927d277a6de48ae5d0787eb8e35f01fc3",
+   "short": "4692fed92",
+   "author": "Andreas",
+   "date": "2026-10-18T00:19:11+02:00",
+   "subject": "Merge upstream/main (offset_surface etc.); face_p2 note keeps the face_p4 attribution",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b3f1d175adbffbf08948555af80c83a4d4095d17",
+   "short": "b3f1d175a",
+   "author": "Andreas",
+   "date": "2026-10-18T00:18:34+02:00",
+   "subject": "topology.face_p3 merge round: gated; update notes and the face_p2 / topology_traverser reports",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8feb888f7b1c689c80776195632571f907c5772e",
+   "short": "8feb888f7",
+   "author": "duramson",
+   "date": "2026-10-18T00:14:50+02:00",
+   "subject": "fix: reserve every zeros2 row fallibly",
+   "kind": "fix",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "cd53f3f5d7ff0fae7482b72de6e177895c185827",
+   "short": "cd53f3f5d",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T00:09:04+02:00",
+   "subject": "topology.brep_p1: round 4 (delta review of 0e224736)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "boolean",
+    "difftest",
+    "heal",
+    "plan",
+    "topology"
+   ],
+   "files": 9,
+   "watch": [
+    "corner-blend"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "cac043eba4063693a8335ee0f29a23ebfbd1dcf4",
+   "short": "cac043eba",
+   "author": "Andreas",
+   "date": "2026-10-17T23:55:40+02:00",
+   "subject": "WIP: #139 merge round, not gated (wire face_p3 stubs: SetTolerance, CreateUVTrimCurves, Notify, FaceIntersect)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "boolean",
+    "difftest",
+    "geom",
+    "intersect",
+    "plan",
+    "topology"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b49d10874b99e95ca9b8a1940047d15272cbe06d",
+   "short": "b49d10874",
+   "author": "Andreas",
+   "date": "2026-10-17T23:40:04+02:00",
+   "subject": "blend.hcr: refresh report and notes after the review round",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7cbc6b50205bada79a54b9bfaeb1877a2563fca8",
+   "short": "7cbc6b502",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T23:12:59+02:00",
+   "subject": "blend.fillet_geom_p1: port the stub tails (lesson 27), fuzz-safe runner, rustfmt",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "42023f276cf4f37e5626ae135a2b72b349210694",
+   "short": "42023f276",
+   "author": "Jacob Oursland",
+   "date": "2026-10-17T14:08:28-07:00",
+   "subject": "findings: math libraries differ by platform; add harness/mathprobe",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness",
+    "plan"
+   ],
+   "files": 11,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "87867c8dc929c5288ae113d4f7b802afa0da23c2",
+   "short": "87867c8dc",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T22:47:25+02:00",
+   "subject": "curve: reuse the curve cache across global_point_solve in GlobalCoincidenceChecker",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4a6bcc8658da4868c08a649e070a796f70b1c83c",
+   "short": "4a6bcc865",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T22:46:04+02:00",
+   "subject": "reports/difftest: boolean.topology_intersector_p2",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5ff7357a6fbb3cf64e384218ec6c81addf0114ab",
+   "short": "5ff7357a6",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T22:23:40+02:00",
+   "subject": "heal.stitch_p1: wire SmTol::UpdateObjectTolerance to geom::tol (#146)",
+   "kind": "altres",
+   "module": "heal",
+   "modules": [
+    "heal"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7132b8208e1f41f7c61eeb4c73d07d7e21419211",
+   "short": "7132b8208",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T22:20:56+02:00",
+   "subject": "boolean.topology_intersector_p2: status partial, notes, findings",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "790295895216a1bcd27fb18e6ccf935ae4326d99",
+   "short": "790295895",
+   "author": "duramson",
+   "date": "2026-10-17T22:20:16+02:00",
+   "subject": "plan: document aarch64 integer-cast differences",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "e08f3cab9f7d3c80876975a71e4950df12806f89",
+   "short": "e08f3cab9",
+   "author": "duramson",
+   "date": "2026-10-17T22:20:16+02:00",
+   "subject": "shim: refuse stale tracked buckets in geom.hash_table",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness"
+   ],
+   "files": 1,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "222dd0cdfe66b4e178a53de248c5de30b5adfe5c",
+   "short": "222dd0cdf",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T22:20:07+02:00",
+   "subject": "topology.brep_p7: maintainer, cross-model and oursland review fixes",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "topology"
+   ],
+   "files": 13,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ecd4ebd69ca218cba846f7dc0a9ee14559c504b1",
+   "short": "ecd4ebd69",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T22:18:36+02:00",
+   "subject": "boolean.topology_intersector_p2: append-style CheckForSqueezeVertices, exact guards, fuzz fixes",
+   "kind": "altres",
+   "module": "boolean",
+   "modules": [
+    "boolean",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "9d1450b192d7684f3c0703b93cca3441bf42d525",
+   "short": "9d1450b19",
+   "author": "Andreas",
+   "date": "2026-10-17T22:15:28+02:00",
+   "subject": "blend.hcr: review round (surface identity by owner, SmZoneTol3d conversion, editing flag, FFI guard)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "harness",
+    "plan",
+    "topology"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8109f7b98d49635710542fea66b41e03315a6145",
+   "short": "8109f7b98",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T22:11:54+02:00",
+   "subject": "heal.stitch_p2: coincident-pair fixtures, upstream issues, status partial",
+   "kind": "altres",
+   "module": "heal",
+   "modules": [
+    "difftest",
+    "harness",
+    "heal",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "0e224736adc814dac2c108939c338ab9e572d84c",
+   "short": "0e224736a",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T21:47:31+02:00",
+   "subject": "topology.brep_p1: green figure after the main merge (201 units, 0 failed)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6ca4348a216710bc71a38dc74065ebc6fe069f35",
+   "short": "6ca4348a2",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T21:47:02+02:00",
+   "subject": "offset.offset_geometry_creation: lesson-27 fixes, HANG-21/22 guards, runner knot-vector panic",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "difftest",
+    "harness",
+    "offset",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "34fde673f4a53b320fe41a711c04dc36c44aac5d",
+   "short": "34fde673f",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T21:34:36+02:00",
+   "subject": "heal.stitch_p2: wire p1's API stubs, full-signature callee stubs",
+   "kind": "altres",
+   "module": "heal",
+   "modules": [
+    "difftest",
+    "heal"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f411fbb42e4661d3273e15bd0221204c88a7383a",
+   "short": "f411fbb42",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T21:33:44+02:00",
+   "subject": "topology.brep_p1: port the code after each stub; wire #146's GetEdges/GetVertices; exact enum decodes",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "boolean",
+    "difftest",
+    "plan",
+    "topology"
+   ],
+   "files": 12,
+   "watch": [
+    "corner-blend"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "ca00feb5946c5ed21883c3615e585526a04384f0",
+   "short": "ca00feb59",
+   "author": "duramson",
+   "date": "2026-10-17T21:24:16+02:00",
+   "subject": "fix: fail softly on huge derivative orders in basis_derivs",
+   "kind": "fix",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "nurbs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b6e782793d08a81bd92a17629665fd02e40d832b",
+   "short": "b6e782793",
+   "author": "Andreas",
+   "date": "2026-10-17T21:05:44+02:00",
+   "subject": "plan/modules.toml: topology_intersector_p1 notes, constructor wired to intersect.curve_class_p4",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "13008fd3d13eeacd5a93bb41b7f389b1fd9fd121",
+   "short": "13008fd3d",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T20:53:24+02:00",
+   "subject": "topology.face_p1: rustfmt the runner and FFI unit files (lesson 25) and the domain clip",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "harness",
+    "topology"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ecad7806dc3ee4d159b4506a668ccb19a23eaca8",
+   "short": "ecad7806d",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T20:42:36+02:00",
+   "subject": "boolean.topology_intersector_p2: shim, FFI binding, runner and fixtures",
+   "kind": "altres",
+   "module": "boolean",
+   "modules": [
+    "boolean",
+    "difftest",
+    "harness"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5e085fc7f87550301d2ed5ca40709fed2ec8366b",
+   "short": "5e085fc7f",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T20:32:09+02:00",
+   "subject": "heal.stitch_p2: WIP port of SmStitch part 2 and its difftest harness",
+   "kind": "altres",
+   "module": "heal",
+   "modules": [
+    "difftest",
+    "harness",
+    "heal"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b5befb94c20e938b0df6f023a4814dc26501bd6a",
+   "short": "b5befb94c",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T20:31:27+02:00",
+   "subject": "heal.stitch_p1: difftest harness (shim, FFI, runner, fixtures), WIP",
+   "kind": "altres",
+   "module": "heal",
+   "modules": [
+    "difftest",
+    "harness",
+    "heal"
+   ],
+   "files": 9,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "3110f6c973e74f08531d7a1528d9cf9e3d5f9045",
+   "short": "3110f6c97",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T20:00:48+02:00",
+   "subject": "boolean.topology_intersector_p2: WIP port of the 12 SmTopologyIntersector members",
+   "kind": "altres",
+   "module": "boolean",
+   "modules": [
+    "boolean",
+    "difftest",
+    "topology"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a5359b48d4d4b4f20d325a1e8910043ce4a2bd8e",
+   "short": "a5359b48d",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T19:50:50+02:00",
+   "subject": "topology.brep_p7: notes and findings counts after the main merge and the extended generator",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5cb89d66207807ae8309d4daa360132b609f6340",
+   "short": "5cb89d662",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T19:47:05+02:00",
+   "subject": "topology.brep_p1: restore #164's co-port note; SwapUV null derefs propagate; heal p3 uses IsLiveTopologyMember",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "harness",
+    "heal",
+    "plan",
+    "topology"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7b21e13389816072db3c7fcdd25a1d34b6a82c2d",
+   "short": "7b21e1338",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T19:18:01+02:00",
+   "subject": "topology.brep_p7: rustfmt the runner and FFI unit files (lesson 25), report after the main merge",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "30f1bbe5ba293c14e5eb1ec2e9e9418b4e1acf85",
+   "short": "30f1bbe5b",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T19:09:43+02:00",
+   "subject": "offset.offset_geometry_creation: wire CalculateUVDomainFromUVTrimCurves (topology.face_p1); IsClosed deferral only on SmSphere faces",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "difftest",
+    "nurbs",
+    "offset",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e9e3e334939860da29b4995d1a998dd4066951e4",
+   "short": "e9e3e3349",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T18:40:33+02:00",
+   "subject": "heal.stitch_p1: port SmStitch part 1 and the SM_API stitch entry points",
+   "kind": "altres",
+   "module": "heal",
+   "modules": [
+    "heal"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2628173100cfb4e1698b49d4039bed7f06a94212",
+   "short": "262817310",
+   "author": "Andreas",
+   "date": "2026-10-17T18:37:34+02:00",
+   "subject": "blend.hcr: wire SmFace::FindIfRectangularTrim to topology.face_p1",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c7c9800080df13692acb48594a328b1ea06df450",
+   "short": "c7c980008",
+   "author": "Andreas",
+   "date": "2026-10-17T18:36:19+02:00",
+   "subject": "intersect.curve_class_p8: regenerate report (constructor deferrals now name intersect.curve_class_p2)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3003118e93603ebdf28b5033899e367cadb9b7e6",
+   "short": "3003118e9",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T18:34:02+02:00",
+   "subject": "topology.brep_p7 runner: generate MakeFaceWithCurves and CopyFaces too",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "43e588408aff2ead24852185b48ddb74eb69eaff",
+   "short": "43e588408",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T18:33:50+02:00",
+   "subject": "blend.fillet_geom_p1: wire SmFace::CalculateUVDomainFromUVTrimCurves (topology.face_p1)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "53c35bea235572082f880adaaf670368f4a7295d",
+   "short": "53c35bea2",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T18:22:57+02:00",
+   "subject": "topology.face_p1: restore CalculateUVDomainFromUVTrimCurves' early domain clip",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "plan",
+    "topology"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a554e0f44ea87e0da58bd2cda599dd7217d17b1f",
+   "short": "a554e0f44",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T18:22:25+02:00",
+   "subject": "topology.face_p1 runner: refuse unknown SmBoolean codes (lesson 22)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "13d828e6d54a51fef2c6376b70db836b8b6864fe",
+   "short": "13d828e6d",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T18:21:34+02:00",
+   "subject": "topology.brep_p1: rustfmt the include!-ed difftest runner files",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "95967da69bb6b5a8116af55516006152fe58d299",
+   "short": "95967da69",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T02:13:01+10:00",
+   "subject": "Record successful current-main validation for part 5",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3521daf0c447c7d6d3228068101f3aeca1971c08",
+   "short": "3521daf0c",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T01:29:21+10:00",
+   "subject": "Record part 5 partial coverage and focused validation",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f9fbbc9737f746eb281fb2d7bc08c9f700e15f0e",
+   "short": "f9fbbc973",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T01:10:25+10:00",
+   "subject": "fix: keep the region void enum with its active owner",
+   "kind": "fix",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "heal",
+    "topology"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a5eed8a5e691360d4e93442106e1847c9f78631b",
+   "short": "a5eed8a5e",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T17:05:24+02:00",
+   "subject": "blend.fillet_geom_p1: round-5 fixes (shim teardown UAF, UB-166 refusal documented)",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "surface"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8bf5d03aff7f56dee5830d3be24987514299be93",
+   "short": "8bf5d03af",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T00:59:05+10:00",
+   "subject": "fix: preserve RemoveFaces context mark lifetime",
+   "kind": "fix",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "topology"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0d14fa4e2dca1922659d40fc5bdc26005e4c39e5",
+   "short": "0d14fa4e2",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T00:41:17+10:00",
+   "subject": "test: remove duplicate part 5 fixture inputs",
+   "kind": "test",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ca3aed5d6b8eeb1bc74c366ea7f7a2693a685f69",
+   "short": "ca3aed5d6",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T00:37:04+10:00",
+   "subject": "test: retain defined native placements and validate part 5 fixtures",
+   "kind": "test",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "30ac64f464264527b8313b426f24eea4f26ebab9",
+   "short": "30ac64f46",
+   "author": "Karl Von Richter",
+   "date": "2026-10-18T00:31:52+10:00",
+   "subject": "port: topology.brep_p5 target stage and dependency-limited edits",
+   "kind": "port",
+   "module": "topology",
+   "modules": [
+    "boolean",
+    "difftest",
+    "harness",
+    "heal",
+    "topology"
+   ],
+   "files": 16,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "be0dc59475d19c137b935f9f2af051770434414e",
+   "short": "be0dc5947",
+   "author": "Andreas",
+   "date": "2026-10-17T16:06:29+02:00",
+   "subject": "blend.hcr: clippy",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2eb9a7060c2de9fb60e64c832c94f65cef6f25ca",
+   "short": "2eb9a7060",
+   "author": "Andreas",
+   "date": "2026-10-17T16:04:00+02:00",
+   "subject": "blend.hcr: review round 1 (stubs, guards, statuses, crossing fixtures, shared validation)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "harness",
+    "intersect",
+    "plan",
+    "surface"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "158508a6ee984bd22ff3bdacb7218da43f0ba9e2",
+   "short": "158508a6e",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T15:41:37+02:00",
+   "subject": "offset.offset_geometry_creation: re-review fixes (WR-103 case pins the bug, analytic faces defer, relation deduplicated)",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "offset",
+    "plan"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ab10a4d64e08aee0a287af83b4b0f76ea7dd3607",
+   "short": "ab10a4d64",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T15:21:02+02:00",
+   "subject": "blend.fillet_geom_p1: round-4 fixes (UB-166 guard in the shim, non-monotone knots compared)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan",
+    "surface"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ab4f874991fe9d7f1c5daf56a195fb2233c0e23c",
+   "short": "ab4f87499",
+   "author": "Andreas",
+   "date": "2026-10-17T14:57:53+02:00",
+   "subject": "blend.hcr: runner clippy",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "00697aa57807efd7ab8d6c475c5a248839dbbc2e",
+   "short": "00697aa57",
+   "author": "Andreas",
+   "date": "2026-10-17T14:55:40+02:00",
+   "subject": "blend.hcr: clippy",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "75151af0cd3f027779c70400cf8a3cc044d3d3b1",
+   "short": "75151af0c",
+   "author": "Andreas",
+   "date": "2026-10-17T14:54:42+02:00",
+   "subject": "blend.hcr: document skipped attribute propagation",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5ee2a625840902fcacc13195097c310bd98b31b7",
+   "short": "5ee2a6258",
+   "author": "Andreas",
+   "date": "2026-10-17T14:52:55+02:00",
+   "subject": "blend.hcr: runner fixes, difftest partial (241 pass, 59 deferred)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e3a8b678be5c93127318026af75ee1d0ad4d31d9",
+   "short": "e3a8b678b",
+   "author": "Andreas",
+   "date": "2026-10-17T14:34:23+02:00",
+   "subject": "blend.hcr: FFI wrapper, difftest runner, UB-169/UB-170 (WIP)",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5160a34522b8c12b5fdf27c84a6c956e1df57de1",
+   "short": "5160a3452",
+   "author": "Andreas",
+   "date": "2026-10-17T14:15:42+02:00",
+   "subject": "blend.hcr: port SmHCR (WIP), shim draft",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "harness"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "caccd2065cab1176df5f1411fc00f9e773710c48",
+   "short": "caccd2065",
+   "author": "Andreas",
+   "date": "2026-10-17T13:18:33+02:00",
+   "subject": "intersect.curve_class_p4: review round 2 notes and regenerated reports (1318 pass, 1883 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "55c523e962f8aed2e6dcfa86286b8d8ed6cea3d8",
+   "short": "55c523e96",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T13:15:14+02:00",
+   "subject": "blend.fillet_geom_p1: round-3 fixes (UB-166 two-stage knot fixup, guard scoped to surface-cache ops)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "31aaf333cb4cae21ce77aea0aad1cad252df86b3",
+   "short": "31aaf333c",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T12:59:26+02:00",
+   "subject": "offset.offset_geometry_creation: pre-review fixes (virtual dispatch, curve kinds, no hang guards)",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "offset",
+    "plan"
+   ],
+   "files": 12,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "859a3cd2b6df0a514a0dec3fee82944b703b0dfa",
+   "short": "859a3cd2b",
+   "author": "Andreas",
+   "date": "2026-10-17T12:25:41+02:00",
+   "subject": "intersect.curve_class_p4: wire p7 GetPointClassifiesConnectedTo, UB-131 guard, port CurveOnClassifyObjects impl (WIP)",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "difftest",
+    "harness",
+    "intersect",
+    "topology"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "88f815f2d518b1d29a38d3829dd9140c20e7b33a",
+   "short": "88f815f2d",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T10:14:49+02:00",
+   "subject": "topology.brep_p1: compare the healed B-rep after HealBrep, seam code range",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 7,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "1d5cc22508996863655564ec62c442a637f29399",
+   "short": "1d5cc2250",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T09:54:15+02:00",
+   "subject": "blend.fillet_geom_p1: re-review fixes (UB-166 knot snap, opt-in rejections, HANG-16 at 1e150, HANG-20 solver bound)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "1156d7feb9f3086a2f504412c5ef3e9822568797",
+   "short": "1156d7feb",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T09:19:14+02:00",
+   "subject": "offset.offset_geometry_creation: partial (861 cases, 331 pass, 0 fail, 530 deferred)",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "difftest",
+    "harness",
+    "offset",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b69ff1c8cc403d5e74c8b603ed4a71c171fa4951",
+   "short": "b69ff1c8c",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T08:12:19+02:00",
+   "subject": "offset.offset_geometry_creation: first complete difftest (398 pass, 0 fail, 463 deferred)",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "offset",
+    "plan"
+   ],
+   "files": 9,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "bbdb8bf18b64b8ec43296ae7e04716b4a40fcd9b",
+   "short": "bbdb8bf18",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T07:33:19+02:00",
+   "subject": "topology.brep_p7: round-3 should-fixes and lesson 22",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c482d6fc73bf0f60fc27d5542e7bb39088ba3e95",
+   "short": "c482d6fc7",
+   "author": "Karl Von Richter",
+   "date": "2026-10-17T15:07:41+10:00",
+   "subject": "port: record successful p9 full native validation",
+   "kind": "port",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ef49fa7a0900caad19696c28c0f1484c59673176",
+   "short": "ef49fa7a0",
+   "author": "Karl Von Richter",
+   "date": "2026-10-17T14:45:54+10:00",
+   "subject": "port: record p9 native coverage and integration handoffs",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan",
+    "topology"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "47758e96cbd5053c725d2c0703af39c3dd8dbafc",
+   "short": "47758e96c",
+   "author": "Karl Von Richter",
+   "date": "2026-10-17T14:36:31+10:00",
+   "subject": "difftest: retain defined negative raw tolerance inputs",
+   "kind": "difftest",
+   "module": "harness",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f30271767bd0dde2f96c3aa357734ada9a983fb5",
+   "short": "f30271767",
+   "author": "Karl Von Richter",
+   "date": "2026-10-17T14:31:14+10:00",
+   "subject": "difftest: borrow brep-p9 diagnostics for strict native Clippy",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fc7bcc652757f15edf5a4d128fb3398e7860ebf4",
+   "short": "fc7bcc652",
+   "author": "Karl Von Richter",
+   "date": "2026-10-17T14:26:25+10:00",
+   "subject": "port: preserve edge-in-face output identities and record partial coverage",
+   "kind": "port",
+   "module": "topology",
+   "modules": [
+    "plan",
+    "topology"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ac5266c6a5311d9bc295cf334655ac934fc519b0",
+   "short": "ac5266c6a",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T06:21:20+02:00",
+   "subject": "topology.brep_p1: round-3 minors, post-#164 counts, healer-op range fix",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "boolean",
+    "difftest",
+    "harness",
+    "heal",
+    "plan",
+    "topology"
+   ],
+   "files": 11,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "970a29f470e7e4539a2d0333cacccc931f0320e5",
+   "short": "970a29f47",
+   "author": "Karl Von Richter",
+   "date": "2026-10-17T14:20:36+10:00",
+   "subject": "port: topology.brep_p9 entrypoints and split refusal lifecycle",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "boolean",
+    "difftest",
+    "harness",
+    "intersect",
+    "topology"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "cd480ae853663ad4e317ddcb25c7c6064054698e",
+   "short": "cd480ae85",
+   "author": "Andreas",
+   "date": "2026-10-17T06:12:33+02:00",
+   "subject": "Regenerate heal.heal_data_p1 / heal.heal_data_p3 reports after merging upstream/main; refresh their deferral counts",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d1d164aec817acd9f0e0e077a1e693fc00424fa1",
+   "short": "d1d164aec",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T05:26:42+02:00",
+   "subject": "topology.brep_p7: report, notes and pass accounting after the re-review fixes",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "74968ffe5e4a228cf647a23ccd34515ee06aabe8",
+   "short": "74968ffe5",
+   "author": "bherbruck",
+   "date": "2026-10-16T22:56:11-04:00",
+   "subject": "heal.heal_data_p3: pass kernel to copy_and_add_analytics after merge",
+   "kind": "altres",
+   "module": "heal",
+   "modules": [
+    "heal"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ae7ee80f89fb8773d70384570a9c4dde8c5a513c",
+   "short": "ae7ee80f8",
+   "author": "bherbruck",
+   "date": "2026-10-16T22:52:34-04:00",
+   "subject": "blend.fillet_intersector: shim, FFI, difftest runner; status partial",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "283eef78b3cc910796d45cc7c2d752098b32b939",
+   "short": "283eef78b",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T04:48:34+02:00",
+   "subject": "blend.fillet_geom_p1: final counts after the pre-review fixes",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "fccee49a90c124f7a730cb051b290f275ed1f2eb",
+   "short": "fccee49a9",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T04:10:02+02:00",
+   "subject": "topology.brep_p7: address re-review of eabd8192",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "topology"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1f1b59aff7a8dc77c06b61ebe434ea8b01b729d0",
+   "short": "1f1b59aff",
+   "author": "bherbruck",
+   "date": "2026-10-16T21:57:20-04:00",
+   "subject": "blend.fillet_intersector: port SmFilletIntersector (WIP)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "20ed515c0da3f67ad7f2bf510d21d00ebd1f495c",
+   "short": "20ed515c0",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T03:15:53+02:00",
+   "subject": "blend.fillet_geom_p1: pre-review fixes (M1, M2, S1-S10, minors)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "harness",
+    "plan",
+    "surface"
+   ],
+   "files": 9,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "371d5d26dbb89ef0f28e6ec65713f3d2db99a1d8",
+   "short": "371d5d26d",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T02:38:14+02:00",
+   "subject": "topology.brep_p1: final counts after merging main (#144), boolean.merge_p1 report",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1ab6ce54f4db6a7ed7e382ea0ba314b7faa7718c",
+   "short": "1ab6ce54f",
+   "author": "bherbruck",
+   "date": "2026-10-16T19:56:40-04:00",
+   "subject": "topology.brep_p10: fill co-ported Shell/Region fields in tests merged from main",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "boolean",
+    "difftest",
+    "sweep",
+    "topology"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8eb3d287a58d2a349f7a3005ff85a223b4d345b9",
+   "short": "8eb3d287a",
+   "author": "Andreas",
+   "date": "2026-10-17T01:50:18+02:00",
+   "subject": "heal_data_p1: test and docs for the wired CreateUVTrimCurves",
+   "kind": "altres",
+   "module": "heal",
+   "modules": [
+    "heal"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "440e047baf5d63472da15d9d49fdfc071b47a0f6",
+   "short": "440e047ba",
+   "author": "Andreas",
+   "date": "2026-10-17T01:36:26+02:00",
+   "subject": "reports/difftest: regenerate after merging main and the full gate",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 11,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a9dd790d97ca74ad8fe0118b99552128fb74a643",
+   "short": "a9dd790d9",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T01:30:02+02:00",
+   "subject": "topology.brep_p1: wire boolean.merge_p1 (#163), heal harness infinite region, test updates",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "boolean",
+    "difftest",
+    "harness",
+    "heal",
+    "plan",
+    "topology"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8eec8a5c45ae5d9d43d75ae7608f09c58b16dd3c",
+   "short": "8eec8a5c4",
+   "author": "Andreas",
+   "date": "2026-10-17T01:05:25+02:00",
+   "subject": "heal_data_p1 test for the wired CreateUVTrimCurves; refresh notes and reports",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "heal",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f42d782b36c875b1cee8d3172770d7d0db2d2c92",
+   "short": "f42d782b3",
+   "author": "Andreas",
+   "date": "2026-10-17T00:46:05+02:00",
+   "subject": "plan/modules.toml: restore blank line after merge",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "83a593e12d731f3c7496fc60d8c429dc734abd54",
+   "short": "83a593e12",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T00:03:00+02:00",
+   "subject": "blend.fillet_geom_p1: final counts after wiring GlobalCurveIntersect; capping test asserts the lift",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "eabd8192c3f157f3fb5b4a6b31d97cd1c34fb6eb",
+   "short": "eabd8192c",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T00:00:51+02:00",
+   "subject": "topology.brep_p7: rustfmt",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "749bf7f957db445323f7e92abcbe9d6ae43b18db",
+   "short": "749bf7f95",
+   "author": "Andreas",
+   "date": "2026-10-16T23:59:53+02:00",
+   "subject": "boolean.merge_p1: wire SmFace::SetTolerance",
+   "kind": "altres",
+   "module": "boolean",
+   "modules": [
+    "boolean"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bd360992c750b9c90feaebb136557a0c4a2edea5",
+   "short": "bd360992c",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T23:59:26+02:00",
+   "subject": "topology.brep_p7: rustfmt and clippy (byte_char_slices) fixes",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "topology"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0e22be305e39466b6f0fa4fe4413f548dfbeb5fe",
+   "short": "0e22be305",
+   "author": "Andreas",
+   "date": "2026-10-16T23:58:56+02:00",
+   "subject": "topology.face_p3: adapt to merged curve_class_p5/p7 and surface_p4 APIs; wire CreateUVTrimCurves, InsertTopologyIntersections, ExtractGeometry, CoincidenceCheck",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "heal",
+    "topology"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "cbd37fd2f37769d92711ce9ceebcc8c860b52e35",
+   "short": "cbd37fd2f",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T23:46:06+02:00",
+   "subject": "topology.brep_p1: re-review fixes (null votes, heal_data_p1 back-edges, guard accounting)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "harness",
+    "heal",
+    "plan",
+    "topology"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "525eaa3d3ed3591ec3a025af975a4de9b0d679cb",
+   "short": "525eaa3d3",
+   "author": "bherbruck",
+   "date": "2026-10-16T17:38:53-04:00",
+   "subject": "intersect.curve_class_p2: review fixes (UB-158 renumber, mate index, review_extra fixture)",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "difftest",
+    "intersect",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2f0a283ec4eef05cc3779973658c1e9ff65865c1",
+   "short": "2f0a283ec",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T23:07:08+02:00",
+   "subject": "offset.offset_geometry_creation: HANG-17 guards keyed on closed offset-face surfaces, GlobalCurveIntersect wired, runner fixes",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "difftest",
+    "harness",
+    "offset",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "c77cebc2be71d00f5e29ad68b6f2b3368e88d4ff",
+   "short": "c77cebc2b",
+   "author": "Andreas",
+   "date": "2026-10-16T23:01:37+02:00",
+   "subject": "intersect.curve_class_p4: clippy (let-else, elided lifetime, lossless cast)",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "difftest",
+    "intersect"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d27b8cfa62bcc0b6d1d35b69ae922a211af74bdd",
+   "short": "d27b8cfa6",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T22:48:33+02:00",
+   "subject": "topology.brep_p1: final counts after the re-review fixes, regenerated reports",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "57c27fb9f6e5d621642a5239a6c7b483309e0c1b",
+   "short": "57c27fb9f",
+   "author": "bherbruck",
+   "date": "2026-10-16T16:44:10-04:00",
+   "subject": "reports: regenerate difftest reports of units with wired curve_class_p2 back-edges",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d41500da4d73e1299fb4ff094448715c79690a1a",
+   "short": "d41500da4",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T22:31:28+02:00",
+   "subject": "topology.brep_p7: verified report, notes and findings after pre-review fixes",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "245eb8593864f05859236bd9aa6c71b53ce4321f",
+   "short": "245eb8593",
+   "author": "bherbruck",
+   "date": "2026-10-16T16:23:50-04:00",
+   "subject": "intersect.curve_class_p2: wire back-edges in curve_class p3/p5/p6, query.face_p2, heal.face_props",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "difftest",
+    "heal",
+    "intersect",
+    "plan",
+    "query"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3fc1c6f8c5d52158ff0104fca0d5347441b9115c",
+   "short": "3fc1c6f8c",
+   "author": "Andreas",
+   "date": "2026-10-16T22:22:48+02:00",
+   "subject": "topology.face_p3: coverage text, notes of wired units, face_p3 notes numbers",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "47bf7122833f759224b6bd05db46c81a4591b583",
+   "short": "47bf71228",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T22:01:36+02:00",
+   "subject": "topology.brep_p1: address pre-review of 0c288b83 (M1-M4, S1-S7, minors)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "curve",
+    "difftest",
+    "geom",
+    "harness",
+    "heal",
+    "intersect",
+    "mass",
+    "plan",
+    "query",
+    "surface",
+    "sweep",
+    "topology"
+   ],
+   "files": 37,
+   "watch": [
+    "corner-blend"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "364eba6509533cacf48e652581fb4f8608b4e51b",
+   "short": "364eba650",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T21:30:38+02:00",
+   "subject": "topology.brep_p7: address pre-review (WIP, unverified)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "topology"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "efca949e3d31dcca863b4ce11d65ee4e19ed7e3b",
+   "short": "efca949e3",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T21:22:36+02:00",
+   "subject": "blend.fillet_geom_p1: cliff intersection solution handles reach the curve and surface",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ff6c44bbeff930b85c7528146c7757a7ba894e58",
+   "short": "ff6c44bbe",
+   "author": "Andreas",
+   "date": "2026-10-16T21:22:17+02:00",
+   "subject": "intersect.curve_class_p4: UB-131 and unresolved faces are not swallowed with the ignored SetProps_Stage2 status",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "intersect"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6a1ded25dded9630e5634d3db2398824b2320e28",
+   "short": "6a1ded25d",
+   "author": "Andreas",
+   "date": "2026-10-16T21:18:40+02:00",
+   "subject": "intersect.curve_class_p4: notes and regenerated reports",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8d4abcf8aa11de25e4a53671a2e85520d5b1fa97",
+   "short": "8d4abcf8a",
+   "author": "Andreas",
+   "date": "2026-10-16T21:09:15+02:00",
+   "subject": "intersect.curve_class_p4: degenerate curves and presets reach compared loop crossings; findings",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1840c49197d22ff4c4ada08eac277b8d60b5057f",
+   "short": "1840c4919",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T21:07:49+02:00",
+   "subject": "blend.fillet_geom_p1: wire GlobalCurveIntersect (surface_p8 landed), zero direction, HANG-16 entry",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "b717ce25aeb64ccd8d10774962c95998c547a343",
+   "short": "b717ce25a",
+   "author": "Andreas",
+   "date": "2026-10-16T20:49:43+02:00",
+   "subject": "intersect.curve_class_p4: real one-face B-rep in the harness (WIP)",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "01376d641a1813aa952fc2898e3601411c1def1e",
+   "short": "01376d641",
+   "author": "Andreas",
+   "date": "2026-10-16T20:37:58+02:00",
+   "subject": "topology.face_p3: review fixes WIP (sVeryFirstUV is defined, UB-158/159 rewritten, loopuse notify data, wider guards and generators, vertex loop and own UV curve cases, smos_Max)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "surface",
+    "topology"
+   ],
+   "files": 13,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "efe9bcb2afe41bfa37612e228601d9df4b5a454a",
+   "short": "efe9bcb2a",
+   "author": "Andreas",
+   "date": "2026-10-16T20:31:50+02:00",
+   "subject": "intersect.curve_class_p4: resolve topology handles through ClassGeometry hooks",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "curve",
+    "intersect",
+    "topology"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0c288b83fbf9d815f9f8bcfab9023d273f6c2e16",
+   "short": "0c288b83f",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T19:44:12+02:00",
+   "subject": "topology.brep_p1: reuse CopyBrepMap, reference UB-98, final counts after the main merge",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "topology"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6e9aa34ada7b91750feef2663af83c4b0fe4688b",
+   "short": "6e9aa34ad",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T19:34:08+02:00",
+   "subject": "offset.offset_geometry_creation: shim, FFI wrapper, runner and fixtures (WIP, not yet built)",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "difftest",
+    "harness",
+    "offset",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6f706e628e6cc6437ea605ea502bb9ef82651773",
+   "short": "6f706e628",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T19:33:38+02:00",
+   "subject": "topology.brep_p7: clippy, report",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "topology"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "dce38062c78326313874bba2f43137b9e275642e",
+   "short": "dce38062c",
+   "author": "Andreas",
+   "date": "2026-10-16T19:26:31+02:00",
+   "subject": "intersect.curve_class_p4: notes, regenerated report",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "38f72deeb488317427bc26ed7da6035f81e770d5",
+   "short": "38f72deeb",
+   "author": "Andreas",
+   "date": "2026-10-16T19:25:31+02:00",
+   "subject": "intersect.curve_class_p4: fmt, findings, justified CurveOnClassify stub",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "intersect",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a9b7a384877eba04796f71fa213a1a3e11603856",
+   "short": "a9b7a3848",
+   "author": "Andreas",
+   "date": "2026-10-16T18:54:17+02:00",
+   "subject": "WIP intersect.curve_class_p4: wire CurveOnClassify in topology::face::p2",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "difftest",
+    "intersect",
+    "topology"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "edb5e6e5df46a2ea9e010264f8e9fc075433ef2c",
+   "short": "edb5e6e5d",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T18:54:10+02:00",
+   "subject": "blend.fillet_geom_p1: magnitude guard (HANG-16), fuzz per-call timeout, UB-159",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 7,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "6d9f017b3e62b9c257b7cb027a4451dd501ce5ab",
+   "short": "6d9f017b3",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T18:50:12+02:00",
+   "subject": "topology.brep_p7: maintainer review lessons, back-edge, notes",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "topology"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ff29d8a263c9a13afe11ed7e5e1b0ec103d155f1",
+   "short": "ff29d8a26",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T18:33:42+02:00",
+   "subject": "topology.brep_p1: pass the surface handle to global_point_solve (main 0986f446)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "13f527ff93d8254bbcc815dfb2e31970c94e49b3",
+   "short": "13f527ff9",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T18:15:32+02:00",
+   "subject": "topology.brep_p1: final counts in plan notes, re-run reports, formatting",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "plan",
+    "query",
+    "topology"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bc9df906d7d8e485ec7e46dda625bda6477edfbc",
+   "short": "bc9df906d",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T18:11:14+02:00",
+   "subject": "geom.object: Shape::new test expects the next blocker after the brep_p1 wiring (query.brep)",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "geom"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2715cfedd18c055b1a3edd25084970744db15d86",
+   "short": "2715cfedd",
+   "author": "Andreas",
+   "date": "2026-10-16T17:43:48+02:00",
+   "subject": "topology.loopuse test: the failed flip already swapped the lists once Notify is wired",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "87ae92fd374cf8fc813dc8a6d4097d7106e54e92",
+   "short": "87ae92fd3",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T17:36:50+02:00",
+   "subject": "topology.brep_p1: wire back-edges, review-lesson fixes, reports (WIP push)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "curve",
+    "difftest",
+    "geom",
+    "harness",
+    "heal",
+    "intersect",
+    "mass",
+    "plan",
+    "query",
+    "surface",
+    "sweep",
+    "topology"
+   ],
+   "files": 28,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3269ac0dee5887e175bdc8bb043a4aff7a51987e",
+   "short": "3269ac0de",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T16:53:23+02:00",
+   "subject": "topology.brep_p7: shim, FFI, difftest runner, unit tests (WIP)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "harness",
+    "topology"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5d921cf703b24d7f1214286b1ffeb027e12f4f84",
+   "short": "5d921cf70",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T16:47:28+02:00",
+   "subject": "offset.offset_geometry_creation: library port (WIP, no difftest yet)",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "offset"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8ed909b5097b01cde085b7e1f526040a4fac1360",
+   "short": "8ed909b50",
+   "author": "bherbruck",
+   "date": "2026-10-16T10:40:14-04:00",
+   "subject": "surface.cone_p2: review fixes (CI clippy, dispatch gap, adversarial fixtures)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "nurbs",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a2faff306be94eaa1a71a477f6af6d8a7602011f",
+   "short": "a2faff306",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T16:22:54+02:00",
+   "subject": "topology.brep_p7: port SmBrep part 7 (WIP)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5038ef053c3f687c2f62a96f997962fbd84bdcbd",
+   "short": "5038ef053",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T16:21:08+02:00",
+   "subject": "blend.fillet_geom_p1: clippy (merged match arms, module-level name table, no indexed write)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d1817917a1a3a0eb764da5f85dfbbae8464af493",
+   "short": "d1817917a",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T16:02:19+02:00",
+   "subject": "topology.brep_p1: difftest shim, FFI, runner and fixtures; UB-136; plan notes",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "dc247a6cb6fbcd4f553bb9099584d214d50e2fc2",
+   "short": "dc247a6cb",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T15:32:53+02:00",
+   "subject": "topology.brep_p1: clippy fixes; explicit SmBrep face/edge/vertex list order",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2e63cfd07ce8fc2d6a9c93ba706dace256be87a2",
+   "short": "2e63cfd07",
+   "author": "bherbruck",
+   "date": "2026-10-16T08:55:29-04:00",
+   "subject": "surface.cone_p2: green; reports, plan notes and upstream issues",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f300449cf71505f8f623e783cc98cb4dbc67e003",
+   "short": "f300449cf",
+   "author": "bherbruck",
+   "date": "2026-10-16T08:53:46-04:00",
+   "subject": "surface.cone_p2: port offsets, cone recognition, STEP rebuild, ellipse trim intervals",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "surface"
+   ],
+   "files": 13,
+   "watch": [
+    "step"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "fc29a195d74db1775078d77068971677d8c70499",
+   "short": "fc29a195d",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T14:08:58+02:00",
+   "subject": "port: blend.fillet_geom_p1 (SmFilletGeom part 1)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "blend",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 11,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "846ae55c4a667fc3bef56eae87d688fa2bdb48c4",
+   "short": "846ae55c4",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T13:23:27+02:00",
+   "subject": "topology.brep_p1: WIP — SmBrep members, collections and file-static helpers",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "kernel",
+    "topology"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "78ae2cc17280ffabeb1bc2c8327d53ca6c4c7bc8",
+   "short": "78ae2cc17",
+   "author": "Andreas",
+   "date": "2026-10-16T13:10:04+02:00",
+   "subject": "topology.face_p3 runner: clippy",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8a3489a0b9a046db1d97fdc885cbcb37e57334a6",
+   "short": "8a3489a0b",
+   "author": "Andreas",
+   "date": "2026-10-16T13:05:37+02:00",
+   "subject": "topology.face_p3 FFI: clippy",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2c0037ccecdea39e1614e9c61559d6f2cc691de5",
+   "short": "2c0037cce",
+   "author": "Andreas",
+   "date": "2026-10-16T13:04:50+02:00",
+   "subject": "topology.face_p3: clippy",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d2cb002297aad8175d0800ccc26396c347d8d545",
+   "short": "d2cb00229",
+   "author": "Andreas",
+   "date": "2026-10-16T13:02:55+02:00",
+   "subject": "topology.face_p3: findings, modules.toml status partial, justified stubs, fmt",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "plan",
+    "query",
+    "surface",
+    "topology"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d2cd2c0d1ff5d53364ba25bb7e2f572de013c219",
+   "short": "d2cd2c0d1",
+   "author": "Andreas",
+   "date": "2026-10-16T13:01:06+02:00",
+   "subject": "Merge upstream/main; wire heal.heal_data_p2's SmFace::SetTolerance and IsDegenerate",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "heal"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "28815aaaa3e2c72d6654a099caa2e357c535995f",
+   "short": "28815aaaa",
+   "author": "Andreas",
+   "date": "2026-10-16T12:49:04+02:00",
+   "subject": "topology.vertex harness: export face tolerances (SetTolerance now cascades them); runner docs",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "topology"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "026418e6c605eb2669c1216b19322975be928a63",
+   "short": "026418e6c",
+   "author": "Andreas",
+   "date": "2026-10-16T12:33:13+02:00",
+   "subject": "topology.face_p3: FFI wrapper, difftest runner and fixtures; wire SmFace::Notify in loopuse",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "query",
+    "surface",
+    "topology"
+   ],
+   "files": 12,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9334947e4333c1ae806cdf8090651838a514676c",
+   "short": "9334947e4",
+   "author": "Andreas",
+   "date": "2026-10-16T11:50:06+02:00",
+   "subject": "topology.face_p3: ignored statuses as upstream, pre-rescue query order",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e66c69e49a2a508a47fe80b2723a0f5d53ebacd3",
+   "short": "e66c69e49",
+   "author": "Andreas",
+   "date": "2026-10-16T11:42:03+02:00",
+   "subject": "topology.face_p3: WIP port (previous agent's uncommitted work)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "harness",
+    "query",
+    "surface",
+    "topology"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3f2706656372cdc8474162fa84c5d492ce38faeb",
+   "short": "3f2706656",
+   "author": "Andreas",
+   "date": "2026-10-16T09:06:25+02:00",
+   "subject": "intersect.curve_class_p4: clippy",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "intersect"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "264769f7aab43e7d8b9731696f00897976f0a651",
+   "short": "264769f7a",
+   "author": "Andreas",
+   "date": "2026-10-16T09:04:54+02:00",
+   "subject": "intersect.curve_class_p4: clippy",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "intersect"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8be0a3c67e922fb7a22b1e9987a8c872fd10cf46",
+   "short": "8be0a3c67",
+   "author": "Andreas",
+   "date": "2026-10-16T09:02:56+02:00",
+   "subject": "intersect.curve_class_p4: keep failed-call outputs as upstream; status partial",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "difftest",
+    "intersect",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "904570cb2ae192becfae864ffddc3cd4094988b0",
+   "short": "904570cb2",
+   "author": "Andreas",
+   "date": "2026-10-16T08:51:57+02:00",
+   "subject": "intersect.curve_class_p4: wire the constructor and GetIvlBound_EdgeuseObj stubs in topology::face::p2 and topology_solver::p2",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "curve",
+    "difftest",
+    "intersect",
+    "plan",
+    "topology"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "cfb2b084a477b79f4c7c216f8e1bdcb9a8a69a2a",
+   "short": "cfb2b084a",
+   "author": "Andreas",
+   "date": "2026-10-16T08:36:31+02:00",
+   "subject": "intersect.curve_class_p4: shim/ffi fixes, findings and plan notes (WIP)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "harness",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4ee6cecbb64e734bde0dd044b87337690f527e38",
+   "short": "4ee6cecbb",
+   "author": "Andreas",
+   "date": "2026-10-16T08:35:09+02:00",
+   "subject": "intersect.curve_class_p4: shim, ffi, difftest runner; UB-124 (WIP)",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "difftest",
+    "harness",
+    "intersect",
+    "plan"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "090f95905b15613cc7a414ca964bbb23b3685208",
+   "short": "090f95905",
+   "author": "Andreas",
+   "date": "2026-10-16T08:28:24+02:00",
+   "subject": "intersect.curve_class_p4: port GetLoopCrossings, GetIvlBound_EdgeuseObj, constructor, sm_SqueezeOutSmallestInterval (WIP)",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "intersect"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "54fe3ef8caff393f1c69c0cc8980f9197e92c0ac",
+   "short": "54fe3ef8c",
+   "author": "bherbruck",
+   "date": "2026-10-15T22:29:06-04:00",
+   "subject": "topology.brep_p10: difftest report",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "743dcc4a80401eada619aaab0427a7e05eba349e",
+   "short": "743dcc4a8",
+   "author": "bherbruck",
+   "date": "2026-10-15T22:23:10-04:00",
+   "subject": "topology.brep_p10: shim, FFI, difftest runner and fixtures; status partial",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "topology"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "97d52cdbf3e8449406212faff6f7d5b307337184",
+   "short": "97d52cdbf",
+   "author": "bherbruck",
+   "date": "2026-10-15T21:36:42-04:00",
+   "subject": "topology.brep_p10: port MakeTopologyFromData, ProjectAndTrim, RemoveAllTopology, TestClosureSplitRegion (WIP)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "query",
+    "topology"
+   ],
+   "files": 15,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "09710b203e876624ad9c696729c66fb37de87916",
+   "short": "09710b203",
+   "author": "bherbruck",
+   "date": "2026-10-14T22:37:57-04:00",
+   "subject": "intersect.curve_class_p2: review fixes (operator= Copy failure, adv fixtures)",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "difftest",
+    "intersect",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1b786df72fdef98a8f2ff8cf55699ff017b38ab0",
+   "short": "1b786df72",
+   "author": "bherbruck",
+   "date": "2026-10-14T21:33:10-04:00",
+   "subject": "intersect.curve_class_p2: status partial, findings, topology.edge note",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "42a3f04b9abe07531c0fcb591db8f168ee466ff7",
+   "short": "42a3f04b9",
+   "author": "bherbruck",
+   "date": "2026-10-14T21:23:20-04:00",
+   "subject": "port: intersect.curve_class_p2 (SmCurveClass.cpp part 2)",
+   "kind": "port",
+   "module": "intersect",
+   "modules": [
+    "difftest",
+    "harness",
+    "intersect",
+    "plan",
+    "surface"
+   ],
+   "files": 11,
+   "watch": [],
+   "ai": true
+  }
+ ],
+ "prs": [
+  {
+   "number": 85,
+   "title": "port: intersect.curve_class_p2",
+   "branch": "unit/intersect.curve_class_p2",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-19T05:08:39-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 130,
+   "title": "port: topology.brep_p10",
+   "branch": "unit/topology.brep_p10",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-19T08:46:39-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 153,
+   "title": "port: surface.cone_p2",
+   "branch": "unit/surface.cone_p2",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-19T07:07:55-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 155,
+   "title": "port: topology.brep_p7",
+   "branch": "unit/topology.brep_p7",
+   "owner": "bluecmd",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-19T02:24:31-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 179,
+   "title": "port: blend.fillet_intersector",
+   "branch": "unit/blend.fillet_intersector",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-19T12:15:24-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 196,
+   "title": "port: heal.stitch_p1",
+   "branch": "unit/heal.stitch_p1",
+   "owner": "bluecmd",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-19T00:46:07-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 214,
+   "title": "fix: fail softly on huge derivative orders in basis_derivs",
+   "branch": "fix/crv-eval-der-alloc",
+   "owner": "duramson",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-19T02:24:40-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 219,
+   "title": "ci: run pull requests, pages and progress on Blacksmith runners",
+   "branch": "ci/blacksmith-runners",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-19T18:19:49-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "chore",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 234,
+   "title": "plan: derive progress case counts from committed difftest reports",
+   "branch": "fix/progress-report-counts",
+   "owner": "0xlillith",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-19T02:24:50-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "plan",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 259,
+   "title": "batch: land 15 reviewed-clean contributor PRs",
+   "branch": "batch/clean-2026-10-19",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-19T14:43:47-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 269,
+   "title": "batch: land 5 reviewed-clean contributor PRs",
+   "branch": "batch/clean-2026-10-19b",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-19T16:39:33-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 271,
+   "title": "README: Blacksmith sponsors the CI minutes",
+   "branch": "docs/blacksmith-sponsor",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-19T17:48:05-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  }
+ ],
+ "watch": [
+  {
+   "id": "setback",
+   "label": "Cantonades setback",
+   "cases": [
+    "C05",
+    "D01",
+    "D02"
+   ],
+   "hits": []
+  },
+  {
+   "id": "mixed-corner",
+   "label": "Cantonades mixtes",
+   "cases": [
+    "D01",
+    "D02"
+   ],
+   "hits": []
+  },
+  {
+   "id": "ball-patch",
+   "label": "Ball patch (cantonades esfèriques)",
+   "cases": [
+    "C05",
+    "D11"
+   ],
+   "hits": []
+  },
+  {
+   "id": "variable-radius",
+   "label": "Radi variable / lleis de radi",
+   "cases": [
+    "D07"
+   ],
+   "hits": []
+  },
+  {
+   "id": "round-larger-than-wall",
+   "label": "Arrodoniment més gran que la paret",
+   "cases": [
+    "D03",
+    "D08"
+   ],
+   "hits": []
+  },
+  {
+   "id": "shell-rounded",
+   "label": "Buidat de cossos arrodonits",
+   "cases": [
+    "D11",
+    "D14"
+   ],
+   "hits": []
+  },
+  {
+   "id": "hang-cancel",
+   "label": "Penjaments, temps límit i cancel·lació",
+   "cases": [
+    "C03",
+    "D02",
+    "D11"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "2c787035e",
+     "text": "heal.stitch_p2: FFI doc states the exact HANG-24 guard (pre-review M1)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/2c787035e8550114583a8964a40aae9b7f783d0b"
+    },
+    {
+     "source": "commit",
+     "ref": "df213ac74",
+     "text": "blend.fillet_geom_p1: convert doubles to SmZoneTol3d/SmApproxTol3d; real plane/revolution in EvaluateMate",
+     "url": "https://github.com/tangency-labs/solidcore/commit/df213ac7420b66b6505099c5ef727667944bc6da",
+     "matched": "- Fuzz mutations unflagging the HANG-20 fixtures timed out in the Rust"
+    },
+    {
+     "source": "commit",
+     "ref": "5fee14897",
+     "text": "heal.stitch_p2: wire offset_executive's StitchIntoShell/Solid, mirror the Solid guard",
+     "url": "https://github.com/tangency-labs/solidcore/commit/5fee148971c4bb2e13cfe5302d4d84d8de5fafd9",
+     "matched": "- Should-fix: the runner applies the shim's HANG-24 test before"
+    },
+    {
+     "source": "commit",
+     "ref": "0d3be3d3c",
+     "text": "heal.stitch_p1: delta review of 4ad4e504 (MF1 cross-pair vertex repeat, UB-177 [PSIRT], minors)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/0d3be3d3cc17c61c52c1fcdd3d18c7794f02e357",
+     "matched": "- HANG-30 is \"file-reachable, hang only\"."
+    },
+    {
+     "source": "commit",
+     "ref": "e053d5b62",
+     "text": "review: run Rust on rejected cone cases; fix docs and UB number",
+     "url": "https://github.com/tangency-labs/solidcore/commit/e053d5b62b4d52e1085281eb615b8039a7afcef2",
+     "matched": "(result ignored) so a Rust panic or hang on native-crash inputs fails."
+    },
+    {
+     "source": "commit",
+     "ref": "cba55462e",
+     "text": "offset.offset_geometry_creation: wire offset.offset_executive_p1 and topology.edgeuse_p3",
+     "url": "https://github.com/tangency-labs/solidcore/commit/cba55462e9f298a6668b0a127705c009f5979bdf",
+     "matched": "- HANG-17 now refers to main's HANG-16."
+    },
+    {
+     "source": "commit",
+     "ref": "fc323c408",
+     "text": "heal.stitch_p1: the StitchAndOrient hang is HANG-30 (HANG-29 was #147's)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/fc323c408a14151ed4477a0037359d33ab190371"
+    },
+    {
+     "source": "commit",
+     "ref": "afeb327b2",
+     "text": "blend.fillet_geom_p1 FFI: build the validate Reader on the shared Cursor (#186)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/afeb327b2bbb6fa7ca71a758a595bb4d109ba1ad",
+     "matched": "on the op (HANG-29 / HANG-20), so the newtype carries the bound itself"
+    },
+    {
+     "source": "commit",
+     "ref": "28fa2ad89",
+     "text": "heal.stitch_p1: review round (e633877d): ignored statuses, stub arguments, exact guard, UBs, boundary fixtures",
+     "url": "https://github.com/tangency-labs/solidcore/commit/28fa2ad8912d1a0b86718e54bb68d2febc95e699",
+     "matched": "Fuzz: SmApiStitch -> StitchAndOrient hangs on a sheet with a -1e300"
+    },
+    {
+     "source": "commit",
+     "ref": "ffcb2dd5d",
+     "text": "blend.fillet_geom_p1: renumber HANG-16 to HANG-29",
+     "url": "https://github.com/tangency-labs/solidcore/commit/ffcb2dd5ddf9a49a95f0202c4048b44510ad157b"
+    },
+    {
+     "source": "commit",
+     "ref": "eeaffd80a",
+     "text": "plan: record cone_p3 results with the documented angle range",
+     "url": "https://github.com/tangency-labs/solidcore/commit/eeaffd80aa2671abec515bd3d9461cd3a7946b06",
+     "matched": "no timeouts; perturbation catches every case; --green after merging main"
+    },
+    {
+     "source": "commit",
+     "ref": "0acd8db85",
+     "text": "fix: limit cone_p3 FFI angles to upstream's documented range",
+     "url": "https://github.com/tangency-labs/solidcore/commit/0acd8db85463ae160d870a659948dc1d2b1e51bf",
+     "matched": "three native timeouts. gdb places all of them in SmExtent1d::PeriodicWrap"
+    },
+    {
+     "source": "commit",
+     "ref": "6eb9ba260",
+     "text": "offset.offset_geometry_creation: round-4 review minors",
+     "url": "https://github.com/tangency-labs/solidcore/commit/6eb9ba260dde92459222b084c7f97d67a49c780b",
+     "matched": "harness error instead of assumed exact; the HANG-27 deferral reason reads"
+    },
+    {
+     "source": "commit",
+     "ref": "35cbb1127",
+     "text": "plan: record cone_p3 Linux results with the polar set-up bound",
+     "url": "https://github.com/tangency-labs/solidcore/commit/35cbb112731443e48738b8f4a702f8a448a9a205",
+     "matched": "with no timeouts; --green: 202 units, 0 failed."
+    },
+    {
+     "source": "commit",
+     "ref": "ff5bb6a43",
+     "text": "fix: bound polar set-up period shifts and guard far cone angles",
+     "url": "https://github.com/tangency-labs/solidcore/commit/ff5bb6a43d2dd6f814699bf1e94af5c50d3cdc09",
+     "matched": "(HANG-23)."
+    },
+    {
+     "source": "commit",
+     "ref": "1c823d442",
+     "text": "offset.offset_geometry_creation: follow main's copy(k) signatures; refresh findings",
+     "url": "https://github.com/tangency-labs/solidcore/commit/1c823d4420d3147ae8a178b2eea9176b2a2407ed",
+     "matched": "HANG-26/27 guards and the HANG-27 bound wording, gen0353 / PR #224"
+    },
+    {
+     "source": "commit",
+     "ref": "118041e66",
+     "text": "boolean.topology_intersector_p2: pre-review fixes (UB-175, HANG-25, exact guards)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/118041e66c8da94201037c2823e866347de281a1"
+    },
+    {
+     "source": "commit",
+     "ref": "65035a6ab",
+     "text": "offset.offset_geometry_creation: wire surface.offset_surface; HANG-26/27",
+     "url": "https://github.com/tangency-labs/solidcore/commit/65035a6ab65357fde095168f2af7d455e3426270"
+    },
+    {
+     "source": "commit",
+     "ref": "8ba82c12d",
+     "text": "heal.stitch_p2: pre-review fixes (face_notify pData2 null, HANG-24 zero-tolerance only)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/8ba82c12de4441f3aa72549e8257e275298bdc1b"
+    },
+    {
+     "source": "commit",
+     "ref": "7cbc6b502",
+     "text": "blend.fillet_geom_p1: port the stub tails (lesson 27), fuzz-safe runner, rustfmt",
+     "url": "https://github.com/tangency-labs/solidcore/commit/7cbc6b50205bada79a54b9bfaeb1877a2563fca8",
+     "matched": "in nurbs::srf_nurb); FUZZ-PASS, 0 differs/crashes/panics/timeouts."
+    },
+    {
+     "source": "commit",
+     "ref": "ecd4ebd69",
+     "text": "boolean.topology_intersector_p2: append-style CheckForSqueezeVertices, exact guards, fuzz fixes",
+     "url": "https://github.com/tangency-labs/solidcore/commit/ecd4ebd69ca218cba846f7dc0a9ee14559c504b1",
+     "matched": "does not finish otherwise: 3 fuzz timeouts; the port defers it anyway)."
+    },
+    {
+     "source": "commit",
+     "ref": "8109f7b98",
+     "text": "heal.stitch_p2: coincident-pair fixtures, upstream issues, status partial",
+     "url": "https://github.com/tangency-labs/solidcore/commit/8109f7b98d49635710542fea66b41e03315a6145",
+     "matched": "issues HANG-23 (StitchIntoShell underflow, confirmed by a C++ run),"
+    },
+    {
+     "source": "commit",
+     "ref": "6ca4348a2",
+     "text": "offset.offset_geometry_creation: lesson-27 fixes, HANG-21/22 guards, runner knot-vector panic",
+     "url": "https://github.com/tangency-labs/solidcore/commit/6ca4348a216710bc71a38dc74065ebc6fe069f35"
+    },
+    {
+     "source": "commit",
+     "ref": "b5befb94c",
+     "text": "heal.stitch_p1: difftest harness (shim, FFI, runner, fixtures), WIP",
+     "url": "https://github.com/tangency-labs/solidcore/commit/b5befb94c20e938b0df6f023a4814dc26501bd6a",
+     "matched": "(crashes=0 panics=0 timeouts=0 differs=0)."
+    },
+    {
+     "source": "commit",
+     "ref": "31aaf333c",
+     "text": "offset.offset_geometry_creation: pre-review fixes (virtual dispatch, curve kinds, no hang guards)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/31aaf333cb4cae21ce77aea0aad1cad252df86b3"
+    },
+    {
+     "source": "commit",
+     "ref": "1d5cc2250",
+     "text": "blend.fillet_geom_p1: re-review fixes (UB-166 knot snap, opt-in rejections, HANG-16 at 1e150, HANG-20 solver bound)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/1d5cc22508996863655564ec62c442a637f29399"
+    },
+    {
+     "source": "commit",
+     "ref": "b69ff1c8c",
+     "text": "offset.offset_geometry_creation: first complete difftest (398 pass, 0 fail, 463 deferred)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/b69ff1c8cc403d5e74c8b603ed4a71c171fa4951",
+     "matched": "Hang guards: HANG-19 (negative offset distance makes CreateExtendedSurface's"
+    },
+    {
+     "source": "commit",
+     "ref": "283eef78b",
+     "text": "blend.fillet_geom_p1: final counts after the pre-review fixes",
+     "url": "https://github.com/tangency-labs/solidcore/commit/283eef78b3cc910796d45cc7c2d752098b32b939",
+     "matched": "and 4242. The tiny-weight HANG-16 case keeps its homogeneous coordinate within the"
+    },
+    {
+     "source": "commit",
+     "ref": "20ed515c0",
+     "text": "blend.fillet_geom_p1: pre-review fixes (M1, M2, S1-S10, minors)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/20ed515c0da3f67ad7f2bf510d21d00ebd1f495c",
+     "matched": "geometry may be examined twice. The HANG-16 bound is 1e50 on the Euclidean control"
+    },
+    {
+     "source": "commit",
+     "ref": "83a593e12",
+     "text": "blend.fillet_geom_p1: final counts after wiring GlobalCurveIntersect; capping test asserts the lift",
+     "url": "https://github.com/tangency-labs/solidcore/commit/83a593e12d731f3c7496fc60d8c429dc734abd54",
+     "matched": "60k programs without crash or hang. Findings, modules notes and the report carry the new"
+    },
+    {
+     "source": "commit",
+     "ref": "2f0a283ec",
+     "text": "offset.offset_geometry_creation: HANG-17 guards keyed on closed offset-face surfaces, GlobalCurveIntersect wired, runner fixes",
+     "url": "https://github.com/tangency-labs/solidcore/commit/2f0a283ec4eef05cc3779973658c1e9ff65865c1"
+    },
+    {
+     "source": "commit",
+     "ref": "1840c4919",
+     "text": "blend.fillet_geom_p1: wire GlobalCurveIntersect (surface_p8 landed), zero direction, HANG-16 entry",
+     "url": "https://github.com/tangency-labs/solidcore/commit/1840c49197d22ff4c4ada08eac277b8d60b5057f"
+    },
+    {
+     "source": "commit",
+     "ref": "edb5e6e5d",
+     "text": "blend.fillet_geom_p1: magnitude guard (HANG-16), fuzz per-call timeout, UB-159",
+     "url": "https://github.com/tangency-labs/solidcore/commit/edb5e6e5df46a2ea9e010264f8e9fc075433ef2c"
+    }
+   ]
+  },
+  {
+   "id": "corner-blend",
+   "label": "Corner blend (CreateCornerBlend / Coons)",
+   "cases": [
+    "C05",
+    "D02"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "c0845cf90",
+     "text": "topology.brep_p1: review of e97b63fd (S1 ignored binormal statuses, C1 UB-11, minors)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/c0845cf90399a6da208787749ea05002bfcdb9d2",
+     "matched": "- the 2065 headline discloses the 5 status-only corner blends;"
+    },
+    {
+     "source": "commit",
+     "ref": "e97b63fde",
+     "text": "topology.brep_p1: wire topology.edgeuse_p3 and offset_executive's GetEdges; run the blends' C++",
+     "url": "https://github.com/tangency-labs/solidcore/commit/e97b63fde926069fbd3f60b87d3ae732854ad622",
+     "matched": "- corner blend: a replay on a copy catches the NULL UV trim curve copy;"
+    },
+    {
+     "source": "commit",
+     "ref": "cd53f3f5d",
+     "text": "topology.brep_p1: round 4 (delta review of 0e224736)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/cd53f3f5d7ff0fae7482b72de6e177895c185827",
+     "matched": "corner blend copies whatever curve comes back (null error only without one)."
+    },
+    {
+     "source": "commit",
+     "ref": "f411fbb42",
+     "text": "topology.brep_p1: port the code after each stub; wire #146's GetEdges/GetVertices; exact enum decodes",
+     "url": "https://github.com/tangency-labs/solidcore/commit/f411fbb42e4661d3273e15bd0221204c88a7383a",
+     "matched": "- the corner blend's non-B-spline neighbour surface is labelled"
+    },
+    {
+     "source": "commit",
+     "ref": "47bf71228",
+     "text": "topology.brep_p1: address pre-review of 0c288b83 (M1-M4, S1-S7, minors)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/47bf7122833f759224b6bd05db46c81a4591b583",
+     "matched": "- M4: corner blend padding point at the raw parameter"
+    }
+   ]
+  },
+  {
+   "id": "chamfer",
+   "label": "Xamfrans",
+   "cases": [],
+   "hits": []
+  },
+  {
+   "id": "loft-skin",
+   "label": "Loft / skin (superfícies B-spline arrodonides)",
+   "cases": [
+    "D14"
+   ],
+   "hits": []
+  },
+  {
+   "id": "step",
+   "label": "STEP (import / export)",
+   "cases": [
+    "anada i tornada STEP"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "ff5bb6a43",
+     "text": "fix: bound polar set-up period shifts and guard far cone angles",
+     "url": "https://github.com/tangency-labs/solidcore/commit/ff5bb6a43d2dd6f814699bf1e94af5c50d3cdc09",
+     "matched": "A cone_p3 fuzz case with STEP angles near 9.2e18 degrees hung the Rust side"
+    },
+    {
+     "source": "commit",
+     "ref": "f300449cf",
+     "text": "surface.cone_p2: port offsets, cone recognition, STEP rebuild, ellipse trim intervals",
+     "url": "https://github.com/tangency-labs/solidcore/commit/f300449cf71505f8f623e783cc98cb4dbc67e003"
+    }
+   ]
+  },
+  {
+   "id": "platform",
+   "label": "Plataformes (wasm, iOS, ARM)",
+   "cases": [
+    "iPad"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "7080bc83f",
+     "text": "findings: Rust's cbrt on Linux depends on link order; probe self-check",
+     "url": "https://github.com/tangency-labs/solidcore/commit/7080bc83fba350b65f986298dec4a5eb3248a9bb",
+     "matched": "glibc in 47.5% of cases (identical to wasm). Checked further: a binary that"
+    },
+    {
+     "source": "commit",
+     "ref": "bc76eb8ad",
+     "text": "findings: arm64 saturates upstream (ULONG)double, failing heal_data_p1-3",
+     "url": "https://github.com/tangency-labs/solidcore/commit/bc76eb8ad787d27511dc2fa029afb08d12a4f962"
+    },
+    {
+     "source": "commit",
+     "ref": "0d3be3d3c",
+     "text": "heal.stitch_p1: delta review of 4ad4e504 (MF1 cross-pair vertex repeat, UB-177 [PSIRT], minors)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/0d3be3d3cc17c61c52c1fcdd3d18c7794f02e357",
+     "matched": "2000 pass; 0 flips; fmt, clippy, 1371 tests and wasm clean; valgrind"
+    },
+    {
+     "source": "commit",
+     "ref": "4ad4e5040",
+     "text": "heal.stitch_p1: wire UnifyNormals' topology.edgeuse_p3 calls",
+     "url": "https://github.com/tangency-labs/solidcore/commit/4ad4e5040cf776c3b19289a8c077c342f1468159",
+     "matched": "and wasm are clean. valgrind with harness/valgrind/ub11.supp gives 0"
+    },
+    {
+     "source": "commit",
+     "ref": "c0845cf90",
+     "text": "topology.brep_p1: review of e97b63fd (S1 ignored binormal statuses, C1 UB-11, minors)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/c0845cf90399a6da208787749ea05002bfcdb9d2",
+     "matched": "fmt, clippy, 1369 tests and wasm clean."
+    },
+    {
+     "source": "commit",
+     "ref": "9c44835ac",
+     "text": "record: validate part 5 against the landed shell port",
+     "url": "https://github.com/tangency-labs/solidcore/commit/9c44835ac2a0a11d9432ca6878aa7bb61a3184d8",
+     "matched": "Both strict Clippy configurations, formatting, 1331 kernel tests, WASM, 3 FFI guard tests, eleven differential units, sensitivity and extended cases pass on functional source a9f20328. Keep 0/12 meani"
+    },
+    {
+     "source": "commit",
+     "ref": "42023f276",
+     "text": "findings: math libraries differ by platform; add harness/mathprobe",
+     "url": "https://github.com/tangency-labs/solidcore/commit/42023f276cf4f37e5626ae135a2b72b349210694",
+     "matched": "wasm32-unknown-unknown build (Rust libm) differs in 1-17% of results by"
+    },
+    {
+     "source": "commit",
+     "ref": "790295895",
+     "text": "plan: document aarch64 integer-cast differences",
+     "url": "https://github.com/tangency-labs/solidcore/commit/790295895216a1bcd27fb18e6ccf935ae4326d99"
+    },
+    {
+     "source": "commit",
+     "ref": "e08f3cab9",
+     "text": "shim: refuse stale tracked buckets in geom.hash_table",
+     "url": "https://github.com/tangency-labs/solidcore/commit/e08f3cab9f7d3c80876975a71e4950df12806f89",
+     "matched": "which matches the C++ on x86-64. On aarch64 the C++ voxel indices"
+    },
+    {
+     "source": "commit",
+     "ref": "ac5266c6a",
+     "text": "topology.brep_p1: round-3 minors, post-#164 counts, healer-op range fix",
+     "url": "https://github.com/tangency-labs/solidcore/commit/ac5266c6a5311d9bc295cf334655ac934fc519b0",
+     "matched": "Verified in the pod: fmt, clippy (workspace and cpp), 1273 tests, wasm;"
+    }
+   ]
+  },
+  {
+   "id": "determinism",
+   "label": "Determinisme",
+   "cases": [
+    "resultats idèntics Mac/iPad"
+   ],
+   "hits": []
+  },
+  {
+   "id": "upstream-fixes",
+   "label": "Flags d'UpstreamFixes",
+   "cases": [
+    "configuració del kernel a l'app"
+   ],
+   "hits": []
+  },
+  {
+   "id": "seam",
+   "label": "Costures (seam) i arestes partides",
+   "cases": [
+    "lliçó: no triar arestes en costures"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "cba55462e",
+     "text": "offset.offset_geometry_creation: wire offset.offset_executive_p1 and topology.edgeuse_p3",
+     "url": "https://github.com/tangency-labs/solidcore/commit/cba55462e9f298a6668b0a127705c009f5979bdf",
+     "matched": "- #117's &mut Brep / kernel signatures: the seam, tangent-sector and"
+    },
+    {
+     "source": "commit",
+     "ref": "88f815f2d",
+     "text": "topology.brep_p1: compare the healed B-rep after HealBrep, seam code range",
+     "url": "https://github.com/tangency-labs/solidcore/commit/88f815f2d518b1d29a38d3829dd9140c20e7b33a"
+    },
+    {
+     "source": "commit",
+     "ref": "fc29a195d",
+     "text": "port: blend.fillet_geom_p1 (SmFilletGeom part 1)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/fc29a195d74db1775078d77068971677d8c70499",
+     "matched": "(point drops, two-point surface intersection, seam handling, end-point/tangent"
+    }
+   ]
+  }
+ ],
+ "units": {
+  "total": 0,
+  "counts": {},
+  "status_changes": [],
+  "notes_updated": [],
+  "not_green": []
+ },
+ "upstream_issues": {
+  "total": 0,
+  "counts": {
+   "WR": 0,
+   "UB": 0,
+   "HANG": 0,
+   "ND": 0,
+   "DOC": 0,
+   "FAIL": 0,
+   "ISSUE": 0
+  },
+  "new": [],
+  "removed": [],
+  "retitled": [],
+  "new_addenda": []
+ },
+ "findings": {
+  "total": 0,
+  "new": []
+ },
+ "solidcraft": {
+  "total": 0,
+  "counts": {},
+  "changes": [],
+  "new": [],
+  "failing": []
+ },
+ "upstream_fixes": {
+  "total": 0,
+  "new": [],
+  "removed": [],
+  "fillet_total": 0
+ },
+ "gates": {
+  "waivers_before": 0,
+  "waivers_after": 0,
+  "known_mismatches": 0,
+  "mismatches_new": [],
+  "mismatches_removed": []
+ },
+ "pin": {
+  "version": null,
+  "commit": "",
+  "changed": false,
+  "before_version": null
+ },
+ "status_md_changed": true,
+ "tags": [],
+ "github": {
+  "ok": true,
+  "issues_opened": [],
+  "issues_closed": [],
+  "prs_opened": [],
+  "prs_closed_unmerged": [],
+  "open_issues": 119,
+  "open_prs": 81
+ },
+ "releases": {
+  "ok": true,
+  "crates_io": {
+   "max_version": "1.0.1",
+   "new_versions": []
+  },
+  "upstream": [],
+  "upstream_latest": "v1.0.1"
+ }
+}

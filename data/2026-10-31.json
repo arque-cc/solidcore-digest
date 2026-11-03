@@ -1,6 +1,6 @@
 {
  "day": "2026-10-31",
- "generated_at": "2026-11-03T19:57:27+00:00",
+ "generated_at": "2026-11-03T22:53:02+00:00",
  "window": {
   "start": "2026-10-31T00:00:00+00:00",
   "end": "2026-11-01T00:00:00+00:00",
@@ -7042,7 +7042,7 @@
    "sha": "0fed969a7fd1a7a75761648f60f30f31786c77f3",
    "short": "0fed969a7",
    "author": "Christian Svensson",
-   "date": "2026-10-27T13:04:38+00:00",
+   "date": "2026-10-27T13:04:38Z",
    "subject": "plan: blend.fillet_executive_p2/p3 corner adjust wiring notes",
    "kind": "plan",
    "module": "plan",
@@ -7057,7 +7057,7 @@
    "sha": "af73963dae3f3deac042f18a9387f864614a9cfc",
    "short": "af73963da",
    "author": "Christian Svensson",
-   "date": "2026-10-27T13:03:55+00:00",
+   "date": "2026-10-27T13:03:55Z",
    "subject": "wire: blend.fillet_executive_p2/p3 corner AdjustTopology / AdjustTangentCorner",
    "kind": "wire",
    "module": "difftest",
@@ -7072,7 +7072,7 @@
    "sha": "43d3859ae8ad6c0a848e44a58c66bd694b0d0188",
    "short": "43d3859ae",
    "author": "Christian Svensson",
-   "date": "2026-10-27T10:08:29+00:00",
+   "date": "2026-10-27T10:08:29Z",
    "subject": "wire: blend.fillet_executive_p2/p3 — claim corner AdjustTopology / AdjustTangentCorner",
    "kind": "wire",
    "module": "altres",
@@ -11418,6 +11418,12 @@
      "ref": "boolean_union_refuses_solid_leak",
      "text": "`SmMerge::ManifoldBoolean` refuses a union (`SM_ERR`, the face in the error) when a face its STEP 6 would delete has the infinite region on one side and a solid region on the other: deleting it would ",
      "url": null
+    },
+    {
+     "source": "github",
+     "ref": "#2126",
+     "text": "step-brep export: edges with a CrvOnSurf 3D curve can't be exported",
+     "url": "https://github.com/tangency-labs/solidcore/issues/2126"
     }
    ]
   },
@@ -11603,6 +11609,12 @@
      "ref": "#2056",
      "text": "docs: UpstreamFixes fork citations at tangency-labs/smlib 26cc451",
      "url": "https://github.com/tangency-labs/solidcore/pull/2056"
+    },
+    {
+     "source": "github",
+     "ref": "#1954",
+     "text": "Audit: UpstreamFixes flags SolidCraft turns on that no test reaches or that are inert",
+     "url": "https://github.com/tangency-labs/solidcore/issues/1954"
     }
    ]
   },
@@ -12976,10 +12988,157 @@
  "status_md_changed": false,
  "tags": [],
  "github": {
-  "ok": false,
-  "error": "desactivat (--no-network)"
+  "ok": true,
+  "issues_opened": [
+   {
+    "number": 1999,
+    "title": "Fillet: a round within tolerance of a shallow crease returns Ok with an invalid body (old crease vertex kept)",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/1999"
+   },
+   {
+    "number": 1907,
+    "title": "Heads-up: agent-assisted fix push tonight (AGENTS.md 4b)",
+    "author": "aapolipponen",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/1907"
+   },
+   {
+    "number": 1954,
+    "title": "Audit: UpstreamFixes flags SolidCraft turns on that no test reaches or that are inert",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/1954"
+   },
+   {
+    "number": 2020,
+    "title": "Offset Face: mitred rounds refused when the moved top goes below their depth (the C++ builds them)",
+    "author": "brett19",
+    "labels": [
+     "bug",
+     "help wanted"
+    ],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2020"
+   },
+   {
+    "number": 2073,
+    "title": "Fillet: small rounds pass with Ok but check_brep rejects them (corner sphere, Test #5/#7); found_torus_sphere_keep_tested_nurb makes it worse",
+    "author": "MarkusReichart",
+    "labels": [
+     "wontfix"
+    ],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2073"
+   },
+   {
+    "number": 2089,
+    "title": "ssi_tangent_curve_tracer on: a crease round fails with code 3 and builds without it",
+    "author": "brett19",
+    "labels": [
+     "bug",
+     "help wanted",
+     "priority: high"
+    ],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2089"
+   },
+   {
+    "number": 2009,
+    "title": "Statuses the SolidCraft SMLib fork passes on that solidcore still drops (16 fork commits, after #483/#1775)",
+    "author": "brett19",
+    "labels": [
+     "bug",
+     "help wanted"
+    ],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2009"
+   },
+   {
+    "number": 2126,
+    "title": "step-brep export: edges with a CrvOnSurf 3D curve can't be exported",
+    "author": "bherbruck",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2126"
+   },
+   {
+    "number": 2109,
+    "title": "UV trims of a plane conic on a cylinder face are fits ~1e-5 off their exact edge, so face area and volume are limited to ~1e-7 relative (C++ alike)",
+    "author": "brett19",
+    "labels": [
+     "bug",
+     "help wanted"
+    ],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2109"
+   },
+   {
+    "number": 1952,
+    "title": "WR-468 (`fillet_through_extended_rail_end`, fork d33890f) fails a boss round that the fork's other corner fixes complete; hold the flag back",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/1952"
+   },
+   {
+    "number": 2129,
+    "title": "bspline_trim_preserves_uv_spans with ssi_split_curves_at_singular_points: 2 of 64 tangent-cylinder unions fail SmBSplineCurve #15",
+    "author": "brett19",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2129"
+   }
+  ],
+  "issues_closed": [],
+  "prs_opened": [
+   {
+    "number": 2003,
+    "title": "fix: repair retained split vertices in shallow-crease fillets (#1999)",
+    "author": "ChrisNourse",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2003"
+   },
+   {
+    "number": 2074,
+    "title": "fix: corner sphere sweep interval follows its polar curve under WR-493 (refs #2073)",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2074"
+   },
+   {
+    "number": 2057,
+    "title": "difftest: --step-corpus uses forward-slash paths on Windows",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2057"
+   },
+   {
+    "number": 1937,
+    "title": "fix: opt in to regularizing degenerate translation sweep output",
+    "author": "ChrisNourse",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/1937"
+   },
+   {
+    "number": 1914,
+    "title": "fix: opt in to correct offset-surface third-derivative terms (WR-160/161)",
+    "author": "altvnk",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/1914"
+   },
+   {
+    "number": 2101,
+    "title": "fix: tangent curve tracer breaks a crease round (#2089)",
+    "author": "brett19",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2101"
+   }
+  ],
+  "prs_closed_unmerged": [],
+  "open_issues": 119,
+  "open_prs": 82
  },
  "releases": {
-  "ok": false
+  "ok": true,
+  "crates_io": {
+   "max_version": "1.0.1",
+   "new_versions": []
+  },
+  "upstream": [],
+  "upstream_latest": "v1.0.1"
  }
 }

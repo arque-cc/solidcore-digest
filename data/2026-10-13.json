@@ -1,0 +1,4393 @@
+{
+ "day": "2026-10-13",
+ "generated_at": "2026-11-03T22:49:28+00:00",
+ "window": {
+  "start": "2026-10-13T00:00:00+00:00",
+  "end": "2026-10-14T00:00:00+00:00",
+  "start_sha": "9a55edddb8ec5eee5fa8c205b5e6c2722b0b1ec5",
+  "end_sha": "ca2ad568195b18fa4200523c8985c155555499a3"
+ },
+ "summary": {
+  "commits": 286,
+  "merges": 149,
+  "claims": 45,
+  "prs_merged": 15,
+  "authors": 3,
+  "top_authors": [
+   [
+    "bherbruck",
+    248
+   ],
+   [
+    "github-actions[bot]",
+    30
+   ],
+   [
+    "lillith",
+    8
+   ]
+  ],
+  "ai_coauthored": 211,
+  "files_touched": 344
+ },
+ "by_module": {
+  "nurbs": {
+   "commits": 13,
+   "files": 54
+  },
+  "curve": {
+   "commits": 45,
+   "files": 364
+  },
+  "surface": {
+   "commits": 17,
+   "files": 118
+  },
+  "kernel": {
+   "commits": 2,
+   "files": 9
+  },
+  "difftest": {
+   "commits": 21,
+   "files": 176
+  },
+  "harness": {
+   "commits": 2,
+   "files": 3
+  },
+  "plan": {
+   "commits": 129,
+   "files": 143
+  },
+  "docs": {
+   "commits": 6,
+   "files": 15
+  },
+  "ci": {
+   "commits": 4,
+   "files": 11
+  },
+  "altres": {
+   "commits": 2,
+   "files": 6
+  }
+ },
+ "by_kind": {
+  "fix": 2,
+  "port": 21,
+  "wire": 1,
+  "test": 1,
+  "plan": 2,
+  "docs": 1,
+  "style": 23,
+  "altres": 190
+ },
+ "commits": [
+  {
+   "sha": "ca2ad568195b18fa4200523c8985c155555499a3",
+   "short": "ca2ad5681",
+   "author": "github-actions[bot]",
+   "date": "2026-10-13T23:56:48Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "b8872eeea1d1993a2c1b51571975b4723b8fc876",
+   "short": "b8872eeea",
+   "author": "github-actions[bot]",
+   "date": "2026-10-13T23:56:11Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "1e932b017e7120233fba82a93a143b31548e55d5",
+   "short": "1e932b017",
+   "author": "github-actions[bot]",
+   "date": "2026-10-13T23:51:11Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "2c1d34204c9f13b8afc85cf0c1e68c54c65c35c9",
+   "short": "2c1d34204",
+   "author": "github-actions[bot]",
+   "date": "2026-10-13T23:49:17Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "776977bfe459a2af82d5ff57e0a874f38359c340",
+   "short": "776977bfe",
+   "author": "github-actions[bot]",
+   "date": "2026-10-13T23:46:18Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "a7ba5dc79cc97b1dcfc563f3dcfe95f4c9a6ecce",
+   "short": "a7ba5dc79",
+   "author": "github-actions[bot]",
+   "date": "2026-10-13T23:39:54Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "98c6445a4dbe0691157819dfe80cf9dfffb68c61",
+   "short": "98c6445a4",
+   "author": "github-actions[bot]",
+   "date": "2026-10-13T23:38:10Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "7f0559e0577c1e4e4d1963eadd8a2bd13fbb12f3",
+   "short": "7f0559e05",
+   "author": "github-actions[bot]",
+   "date": "2026-10-13T23:30:02Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "51a2c96f0c5a3109da9dee295b8385ae4c7c225b",
+   "short": "51a2c96f0",
+   "author": "github-actions[bot]",
+   "date": "2026-10-13T23:20:04Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "1d20d0b6c86d6f8393f1e0e914a64f7367750cf5",
+   "short": "1d20d0b6c",
+   "author": "bherbruck",
+   "date": "2026-10-13T19:15:36-04:00",
+   "subject": "surface.b_spline_volume_n_lib: partial (1812 passed, 608 deferred); upstream issues UB-73, WR-48, WR-49",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "070692348534f7ba00463ab6a8f6645744f9614c",
+   "short": "070692348",
+   "author": "bherbruck",
+   "date": "2026-10-13T19:11:15-04:00",
+   "subject": "port: surface.b_spline_volume_n_lib",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "surface"
+   ],
+   "files": 12,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "330d59ff18dbb3adb4f61374d55908c68cfeb2f2",
+   "short": "330d59ff1",
+   "author": "bherbruck",
+   "date": "2026-10-13T18:55:08-04:00",
+   "subject": "plan/upstream-issues.md: upstream SMLib problems only",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "docs",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [
+    "hang-cancel",
+    "determinism"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "09c1615425265aab3a91ef6c5a666c5701d286ac",
+   "short": "09c161542",
+   "author": "github-actions[bot]",
+   "date": "2026-10-13T22:42:55Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "2cee2d9cf7dd025f5de327b202c59bb1d9a01201",
+   "short": "2cee2d9cf",
+   "author": "bherbruck",
+   "date": "2026-10-13T18:42:43-04:00",
+   "subject": "AGENTS.md: before-ready checklist from review findings",
+   "kind": "altres",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a611ea01a319afa7617017115d4bd0b531900db2",
+   "short": "a611ea01a",
+   "author": "github-actions[bot]",
+   "date": "2026-10-13T22:07:09Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "3f12df3656308689724211964f04675f883b6372",
+   "short": "3f12df365",
+   "author": "github-actions[bot]",
+   "date": "2026-10-13T21:58:46Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "adbd6e04d36e26edd01980a4d3f119ed26e5f72d",
+   "short": "adbd6e04d",
+   "author": "github-actions[bot]",
+   "date": "2026-10-13T21:40:12Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "314989a195c61660c054220fdbdde8decae3953c",
+   "short": "314989a19",
+   "author": "github-actions[bot]",
+   "date": "2026-10-13T21:34:49Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "0355486db4fda22436d33bd9ce0e975fa076a683",
+   "short": "0355486db",
+   "author": "github-actions[bot]",
+   "date": "2026-10-13T21:16:31Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "4332fe6fb14b0ada83d3cd6a90c43f236bcf1f2e",
+   "short": "4332fe6fb",
+   "author": "github-actions[bot]",
+   "date": "2026-10-13T20:50:24Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "f18297987c064187c7e0efb9cf4ae7a1365a4f45",
+   "short": "f18297987",
+   "author": "github-actions[bot]",
+   "date": "2026-10-13T20:23:12Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "6a1bbf7b3eb32f62b13b63f06d4af95862fcdab0",
+   "short": "6a1bbf7b3",
+   "author": "github-actions[bot]",
+   "date": "2026-10-13T20:17:29Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "ce0b29ee81a3c50d4d3aeef91b3317bffe554a27",
+   "short": "ce0b29ee8",
+   "author": "github-actions[bot]",
+   "date": "2026-10-13T20:06:22Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "4c84152d7f8f5ad0c7382d01986854c75773e249",
+   "short": "4c84152d7",
+   "author": "github-actions[bot]",
+   "date": "2026-10-13T20:04:37Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "9ced0830f57febd915ef9af73ef9f3d4f244ce62",
+   "short": "9ced0830f",
+   "author": "bherbruck",
+   "date": "2026-10-13T15:58:03-04:00",
+   "subject": "Let contributors claim any todo unit",
+   "kind": "altres",
+   "module": "docs",
+   "modules": [
+    "docs",
+    "harness"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9d41d8ab2c94e845e04ddd89dd71189655aab9e3",
+   "short": "9d41d8ab2",
+   "author": "bherbruck",
+   "date": "2026-10-13T15:54:53-04:00",
+   "subject": "Plan: soft dependencies so more units are claimable",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "docs",
+    "harness",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0e8fc2add8f4759146e0c115adc1db2d9ca6bccf",
+   "short": "0e8fc2add",
+   "author": "bherbruck",
+   "date": "2026-10-13T15:50:15-04:00",
+   "subject": "surface.plane_p1: findings, notes and report after review fixes",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b27857a3c36c18733509381929771d2190b15e4b",
+   "short": "b27857a3c",
+   "author": "bherbruck",
+   "date": "2026-10-13T15:50:15-04:00",
+   "subject": "surface.plane_p1 harness: guard upstream UB, exact copies, extend op, adversarial fixtures",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0be8bbb9c37def5cabc9842a90c7cb0631b83b23",
+   "short": "0be8bbb9c",
+   "author": "bherbruck",
+   "date": "2026-10-13T15:50:15-04:00",
+   "subject": "surface.surface_cache_p1: planes reach Unported, not Unsupported",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8d7df9282d71235ee96acba3b45ee37a82d64ed4",
+   "short": "8d7df9282",
+   "author": "bherbruck",
+   "date": "2026-10-13T15:50:15-04:00",
+   "subject": "surface.plane_p1: bound Evaluate derivative orders; re-dispatch CreateExtendedSurface",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "nurbs",
+    "surface"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "39cdf104024b88f4da5d0c2f2232269fc5c5121c",
+   "short": "39cdf1040",
+   "author": "bherbruck",
+   "date": "2026-10-13T15:13:58-04:00",
+   "subject": "plan: surface.surf_of_revolution_p1 review fixes, co-port notes for _p2/_p3",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1acd2f76bc09592a17cc931fb99e67842b83c79f",
+   "short": "1acd2f76b",
+   "author": "bherbruck",
+   "date": "2026-10-13T15:13:58-04:00",
+   "subject": "difftest surface.surf_of_revolution_p1: cylinder, axis and domain cases",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "70cb6607db5dc0e070a74a4bb6789b719ad7cd2a",
+   "short": "70cb6607d",
+   "author": "bherbruck",
+   "date": "2026-10-13T15:13:58-04:00",
+   "subject": "surface.surf_of_revolution_p1: cylinder sweep, zero axis, generator out-of-bounds flag",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "nurbs",
+    "surface"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "68ab4a3083687c894f2f850d4b01c793cad565c3",
+   "short": "68ab4a308",
+   "author": "bherbruck",
+   "date": "2026-10-13T15:08:22-04:00",
+   "subject": "ATTRIBUTION: absolute link to AGENTS.md file header",
+   "kind": "altres",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fbbcd8095b01052b17e1864791a9c0eb5ff8fc29",
+   "short": "fbbcd8095",
+   "author": "bherbruck",
+   "date": "2026-10-13T15:08:22-04:00",
+   "subject": "surface.trim_srf_cache: document dispatch gap and stub flags; refresh notes",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "plan",
+    "surface"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "cc7086357f099e9b99e870a0b86d2e1dabd92496",
+   "short": "cc7086357",
+   "author": "bherbruck",
+   "date": "2026-10-13T15:08:22-04:00",
+   "subject": "surface.trim_srf_cache: let negative-area face extents reach C++",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "baca790471a6bb02521cc35f65b56856ae3471f5",
+   "short": "baca79047",
+   "author": "bherbruck",
+   "date": "2026-10-13T15:08:22-04:00",
+   "subject": "harness/cpp: key the CMake build dir by source tree",
+   "kind": "altres",
+   "module": "docs",
+   "modules": [
+    "docs",
+    "harness",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a308b4c9a44230fa123cdcd15bce5801604ebd91",
+   "short": "a308b4c9a",
+   "author": "bherbruck",
+   "date": "2026-10-13T15:08:22-04:00",
+   "subject": "release: --locked, token-free dry-run publish, tag-on-main check; CI publish dry-run",
+   "kind": "altres",
+   "module": "ci",
+   "modules": [
+    "ci"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "65bf55ddf2337a1be2f40cd3a4ec315e756b5756",
+   "short": "65bf55ddf",
+   "author": "github-actions[bot]",
+   "date": "2026-10-13T18:48:48Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "5e87f54fffa9c7e5dccd0ffb14b754bfa339fa9f",
+   "short": "5e87f54ff",
+   "author": "bherbruck",
+   "date": "2026-10-13T14:48:19-04:00",
+   "subject": "port: surface.plane_p1 (SmPlane part 1, partial)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan",
+    "surface"
+   ],
+   "files": 19,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bc189f2e8345c5d030108969385a85f38285769a",
+   "short": "bc189f2e8",
+   "author": "github-actions[bot]",
+   "date": "2026-10-13T18:38:15Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "a41533459f5a72d37685efe80ae0ca19e03cc56a",
+   "short": "a41533459",
+   "author": "bherbruck",
+   "date": "2026-10-13T14:35:24-04:00",
+   "subject": "port: surface.surf_of_revolution_p1",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness",
+    "plan",
+    "surface"
+   ],
+   "files": 11,
+   "watch": [
+    "step"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "f6fc1f5a3769e07bbe4d9dd27858f8088098a1ed",
+   "short": "f6fc1f5a3",
+   "author": "github-actions[bot]",
+   "date": "2026-10-13T18:04:12Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "cc59100fa0a0204024cdbe67f021b77d4913483b",
+   "short": "cc59100fa",
+   "author": "github-actions[bot]",
+   "date": "2026-10-13T17:58:38Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "140e0246d845d4d0ea1e078f2e0a02dc607487b3",
+   "short": "140e0246d",
+   "author": "github-actions[bot]",
+   "date": "2026-10-13T17:03:21Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "019e56fcada713552b841fc929d38cf0dadb14b8",
+   "short": "019e56fca",
+   "author": "github-actions[bot]",
+   "date": "2026-10-13T16:45:47Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "28bb03bec2db16230e58a10dfd5534fafc59a62a",
+   "short": "28bb03bec",
+   "author": "github-actions[bot]",
+   "date": "2026-10-13T11:59:29Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "bca8e81f1b6a0be9b9a26ff2a9cbc919da6d5f21",
+   "short": "bca8e81f1",
+   "author": "bherbruck",
+   "date": "2026-10-13T07:41:07-04:00",
+   "subject": "Harden release and progress workflows",
+   "kind": "altres",
+   "module": "ci",
+   "modules": [
+    "ci"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f0b9fea52d1e0351e85204273d530948cd8d7377",
+   "short": "f0b9fea52",
+   "author": "bherbruck",
+   "date": "2026-10-13T07:40:33-04:00",
+   "subject": "Cargo.lock: solidcore is 0.0.1",
+   "kind": "altres",
+   "module": "altres",
+   "modules": [
+    "altres"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0450f3f3e61f600cd6d7024d6aa508c8b08a2c0f",
+   "short": "0450f3f3e",
+   "author": "bherbruck",
+   "date": "2026-10-13T07:14:08-04:00",
+   "subject": "Add logo and og-image",
+   "kind": "altres",
+   "module": "altres",
+   "modules": [
+    "altres",
+    "docs"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f26d9dea4c5381b2db5099112fe57b2a1a5cc688",
+   "short": "f26d9dea4",
+   "author": "bherbruck",
+   "date": "2026-10-13T07:12:54-04:00",
+   "subject": "CI: keep the C++ reference build out of bin/ so its cache is not emptied",
+   "kind": "altres",
+   "module": "ci",
+   "modules": [
+    "altres",
+    "ci",
+    "harness"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4e19b24a0ff9377f2b9e544cc6df6161125bd815",
+   "short": "4e19b24a0",
+   "author": "bherbruck",
+   "date": "2026-10-13T07:08:40-04:00",
+   "subject": "Make solidcore publishable to crates.io (0.0.1) with a tag-driven release workflow",
+   "kind": "altres",
+   "module": "kernel",
+   "modules": [
+    "ci",
+    "docs",
+    "kernel"
+   ],
+   "files": 7,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "58d32450b794c6a7c1e280151dbf0bfe9e7cab43",
+   "short": "58d32450b",
+   "author": "lillith",
+   "date": "2026-10-13T12:45:45+02:00",
+   "subject": "fix: make C++ enabled differential harness pass strict Clippy",
+   "kind": "fix",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "db5faa839608066c4ee98ecd9700749496bd8cfa",
+   "short": "db5faa839",
+   "author": "github-actions[bot]",
+   "date": "2026-10-13T10:17:21Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "994b6710049271823b2dee545813abfd38eb9faf",
+   "short": "994b67100",
+   "author": "github-actions[bot]",
+   "date": "2026-10-13T10:08:02Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "43f5a4b55aea9662abe58c674a03b711ff58ac61",
+   "short": "43f5a4b55",
+   "author": "bherbruck",
+   "date": "2026-10-13T06:03:10-04:00",
+   "subject": "CI: optimised difftest profile and a C++ cache key that hits",
+   "kind": "altres",
+   "module": "ci",
+   "modules": [
+    "altres",
+    "ci",
+    "difftest",
+    "docs"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7c5d683b46a4d040ef526c1eea226ce7321db141",
+   "short": "7c5d683b4",
+   "author": "lillith",
+   "date": "2026-10-13T11:51:37+02:00",
+   "subject": "docs: update the trim cache port status summary",
+   "kind": "docs",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "49d3895e538d30f6c3c9251a35a960455e27ab13",
+   "short": "49d3895e5",
+   "author": "lillith",
+   "date": "2026-10-13T11:49:24+02:00",
+   "subject": "port: preserve the face editing guard and callgraph handoff notes",
+   "kind": "port",
+   "module": "plan",
+   "modules": [
+    "plan",
+    "surface"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3bc1cda1b1e8268ee6d305269fe06c1e60cf3766",
+   "short": "3bc1cda1b",
+   "author": "lillith",
+   "date": "2026-10-13T11:48:25+02:00",
+   "subject": "port: record verified partial trim surface cache and remaining dependencies",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2b8133e5666a73d44ddbde37ffec08a2a21ff634",
+   "short": "2b8133e56",
+   "author": "lillith",
+   "date": "2026-10-13T11:45:03+02:00",
+   "subject": "style: format the trim cache runner and FFI module",
+   "kind": "style",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4b72e079a0b34e81a75f055e906eea37ce0eebde",
+   "short": "4b72e079a",
+   "author": "lillith",
+   "date": "2026-10-13T11:36:16+02:00",
+   "subject": "test: reject malformed trim cache FFI inputs before C++",
+   "kind": "test",
+   "module": "harness",
+   "modules": [
+    "harness"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e030d2efe0135403efbd6b8f3801d917bd43bf91",
+   "short": "e030d2efe",
+   "author": "lillith",
+   "date": "2026-10-13T11:33:35+02:00",
+   "subject": "port: complete trim cache fixtures and input regressions",
+   "kind": "port",
+   "module": "surface",
+   "modules": [
+    "difftest",
+    "surface"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1d0c13ace3269d21b67fb6a7aaac336a99c46f6f",
+   "short": "1d0c13ace",
+   "author": "github-actions[bot]",
+   "date": "2026-10-13T09:27:23Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "e19821ec65e3e7aa231134ec1f69e8a5798d0628",
+   "short": "e19821ec6",
+   "author": "bherbruck",
+   "date": "2026-10-13T04:35:01-04:00",
+   "subject": "Hand off to a PR workflow; fix CI; progress checklist",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "altres",
+    "ci",
+    "difftest",
+    "docs",
+    "harness",
+    "plan"
+   ],
+   "files": 29,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "152e0055a818ba30d379d5a7e45a5bcccf663661",
+   "short": "152e0055a",
+   "author": "bherbruck",
+   "date": "2026-10-13T04:05:13-04:00",
+   "subject": "WIP surface.trim_srf_cache: interrupted port (swarm stopped for handoff)",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "difftest",
+    "harness",
+    "surface"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "57b55671614c652b759d5ed1df1c90e5fa947ddc",
+   "short": "57b556716",
+   "author": "bherbruck",
+   "date": "2026-10-13T04:01:56-04:00",
+   "subject": "plan/STATUS.md: curve.curve_p5 partial; 12 curve units promoted to green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a57008e980e5e10e9d59c427f737bd301f03d589",
+   "short": "a57008e98",
+   "author": "bherbruck",
+   "date": "2026-10-13T04:00:58-04:00",
+   "subject": "status: curve.curve_p5 partial (3097 cases, 30 deferred: mass.integrator 28, curve.curve_p2 2); promote 12 units to green (nurbs.b_spline_curve_p2, curve.curve_p2, curve.curve_cache, curve.hyperbola, curve.line, curve.ellipse_p1, curve.ellipse_p2, curve.curve_p6, curve.curve_p7, curve.curve_p8, curve.composite_curve_p1, curve.composite_curve_p2)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1b28e30440db15d60cacbe8bf3924563703ad3ee",
+   "short": "1b28e3044",
+   "author": "bherbruck",
+   "date": "2026-10-13T03:56:12-04:00",
+   "subject": "curve.curve_p5: fix gaps exposed by the wiring (ellipse conversion out-param, curve solution handles in the p3/p7 runners, analytic handle of GlobalPointSolveSTEP, uninitialised branch slot in the p7 harness)",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8221c874a0963356bf29f895723c69d436d7376b",
+   "short": "8221c874a",
+   "author": "bherbruck",
+   "date": "2026-10-13T03:44:00-04:00",
+   "subject": "plan/STATUS.md, findings: surface.surface_cache_p1 partial",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "31c581ad659d37d88226d04b65a5215d861c787b",
+   "short": "31c581ad6",
+   "author": "bherbruck",
+   "date": "2026-10-13T03:44:00-04:00",
+   "subject": "status: surface.surface_cache_p1 partial (872 cases, 163 deferred); geom.tree / geom.grid deferral notes updated",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5f2805a7a1136e5f9e4ec1f2c2fd015276b5cb10",
+   "short": "5f2805a7a",
+   "author": "bherbruck",
+   "date": "2026-10-13T03:42:57-04:00",
+   "subject": "surface.surface_cache_p1: dispatch over the curve-bounded surface kind",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "difftest",
+    "surface"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8ce76d29a10bbe3307158a7f06480c82e96bd982",
+   "short": "8ce76d29a",
+   "author": "bherbruck",
+   "date": "2026-10-13T03:38:51-04:00",
+   "subject": "surface.surface_cache_p1: port SmSurfaceCache part 1",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "surface"
+   ],
+   "files": 14,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "54398fe11a494d66a0e02bd4ca7b4d8215dadb63",
+   "short": "54398fe11",
+   "author": "bherbruck",
+   "date": "2026-10-13T03:27:02-04:00",
+   "subject": "findings: surface.curve_bounded_surface upstream quirks",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "700f153dae136622ac8db8754d5cd9c8e8019925",
+   "short": "700f153da",
+   "author": "bherbruck",
+   "date": "2026-10-13T03:26:52-04:00",
+   "subject": "plan/STATUS.md: surface.curve_bounded_surface partial",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "cad5c31bab4693f9ba31fb6282c79a2f4b216f76",
+   "short": "cad5c31ba",
+   "author": "bherbruck",
+   "date": "2026-10-13T03:26:52-04:00",
+   "subject": "status: surface.curve_bounded_surface partial (535 cases, 176 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f2cd29de5b69e2c6b528fc19eeb061246c59a500",
+   "short": "f2cd29de5",
+   "author": "bherbruck",
+   "date": "2026-10-13T03:25:50-04:00",
+   "subject": "curve.curve_p5: port SmCurve part 5 (CrvsCleanup, RemoveDuplicateCurves, EvaluateSTEPPoint, CacheMakeOrValidate, IsArc, IsDomainBoundary, IsPeriodic, Length, LocalPropertyAnalysis, sm_FindAdditionalCpGuess, seam test, SmCCIntersectENFO/SmFindCCNormalENFO::Evaluate); shim, ffi, difftest runner and fixtures; wire curve_p5 stubs",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "difftest",
+    "geom",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 24,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "99b6bb42052712880596b04ad49c90d47b33430b",
+   "short": "99b6bb420",
+   "author": "bherbruck",
+   "date": "2026-10-13T03:23:48-04:00",
+   "subject": "surface.curve_bounded_surface: port SmCurveBoundedSurface",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness",
+    "surface"
+   ],
+   "files": 12,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "74e45e456a28f3a478096ac5557556d3f58d372d",
+   "short": "74e45e456",
+   "author": "bherbruck",
+   "date": "2026-10-13T03:18:44-04:00",
+   "subject": "Readers: never pre-reserve from file-declared counts",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "docs"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "aa0e691c23a9cab7217fcafddf0c4a4f89b7269f",
+   "short": "aa0e691c2",
+   "author": "bherbruck",
+   "date": "2026-10-13T03:13:05-04:00",
+   "subject": "plan/STATUS.md: curve.composite_curve_p2 partial",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "00764de77a315220b995edfb58d4e328492f75fc",
+   "short": "00764de77",
+   "author": "bherbruck",
+   "date": "2026-10-13T03:12:53-04:00",
+   "subject": "status: curve.composite_curve_p2 partial (661 cases, 300 deferred on curve.curve_p5)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c404b8690aa3a7fe6667df42ef342b77c9167e6c",
+   "short": "c404b8690",
+   "author": "bherbruck",
+   "date": "2026-10-13T03:10:35-04:00",
+   "subject": "curve.composite_curve_p2: port SmCompositeCurve part 2 (offsetters, bow ties, MakeCompositeNurb, ReadFromDB)",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 11,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "04978fe0bdd26257350d2499142209909cc97d8c",
+   "short": "04978fe0b",
+   "author": "bherbruck",
+   "date": "2026-10-13T02:55:37-04:00",
+   "subject": "plan/STATUS.md: surface.curve_bounded_surface claimed (counts, ready set)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "cffcbaadbf8c0e7b5127fc64bf1e18b699266ccb",
+   "short": "cffcbaadb",
+   "author": "bherbruck",
+   "date": "2026-10-13T02:55:15-04:00",
+   "subject": "status: style review batch #16 (workflow batch #8), counts, ready set, findings, resume note",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "44dc9c34f4c164b395594dc8ceb5f9a6f142d811",
+   "short": "44dc9c34f",
+   "author": "bherbruck",
+   "date": "2026-10-13T02:53:51-04:00",
+   "subject": "plan/STATUS.md: surface.surface_p2 partial; deferrals of wired units updated",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2f294a6cc61a73208e91575c54bcc2d11344c4e3",
+   "short": "2f294a6cc",
+   "author": "bherbruck",
+   "date": "2026-10-13T02:53:26-04:00",
+   "subject": "status: nurbs.b_spline_surface_p1 notes: drop stale deferral counts",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5ebd98090da5596cc7d660b71e8b4dabf4155f59",
+   "short": "5ebd98090",
+   "author": "bherbruck",
+   "date": "2026-10-13T02:53:09-04:00",
+   "subject": "status: surface.surface_p2 partial (869 cases, 113 deferred); deferral notes of wired units updated",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e06dbd784d2a3a2ba51bcd5e23b082e51535edc1",
+   "short": "e06dbd784",
+   "author": "bherbruck",
+   "date": "2026-10-13T02:52:48-04:00",
+   "subject": "style(curve.ellipse_p1): nurbs::index::at instead of private table(), drop dead ThetaY and swap",
+   "kind": "style",
+   "module": "curve",
+   "modules": [
+    "curve"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bff8a6995c25d21711f2d247b3b1d3424ed49c81",
+   "short": "bff8a6995",
+   "author": "bherbruck",
+   "date": "2026-10-13T02:52:47-04:00",
+   "subject": "style(curve.curve_p7, curve.curve_p8, curve.composite_curve_p1, primitive.api_curves): shared helpers instead of private copies",
+   "kind": "style",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "geom",
+    "kernel",
+    "primitive"
+   ],
+   "files": 13,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "98fc6392bfc862bca99e128e32767feb465f7adc",
+   "short": "98fc6392b",
+   "author": "bherbruck",
+   "date": "2026-10-13T02:50:34-04:00",
+   "subject": "surface.surface_p2: C++ shim, ffi, difftest runner and fixtures; tangent field difftest uses a real bilinear surface; findings",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "surface"
+   ],
+   "files": 15,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8bed7e20e528f2416dae29afcb51ae464d413750",
+   "short": "8bed7e20e",
+   "author": "bherbruck",
+   "date": "2026-10-13T02:41:25-04:00",
+   "subject": "plan/STATUS.md: curve.composite_curve_p1 partial",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d24bad8fbf827f5c3da9e89b90fcbec5d4dfb174",
+   "short": "d24bad8fb",
+   "author": "bherbruck",
+   "date": "2026-10-13T02:40:43-04:00",
+   "subject": "status: curve.composite_curve_p1 partial (3093 cases, 312 deferred on curve.curve_p5)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a459137888044c5413aec0bce105626113f5beb5",
+   "short": "a45913788",
+   "author": "bherbruck",
+   "date": "2026-10-13T02:38:52-04:00",
+   "subject": "curve.composite_curve_p1: port SmCompositeCurve part 1; SmCompositeCurve joins Curve as CurveKind::Composite",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 17,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e58102daaee4c166215af681660570d6baaa68d3",
+   "short": "e58102daa",
+   "author": "bherbruck",
+   "date": "2026-10-13T02:25:54-04:00",
+   "subject": "surface.surface_p2: port SmSurface part 2 (Surface object and dispatch, SurfaceEval, DerivSurfDefinition, DropCurveFail, smsurf numerics); wire back-edges",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "curve",
+    "difftest",
+    "geom",
+    "nurbs",
+    "surface"
+   ],
+   "files": 15,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7d780996d4e829ded0e7331e5ff8c0993e7996da",
+   "short": "7d780996d",
+   "author": "bherbruck",
+   "date": "2026-10-13T02:09:17-04:00",
+   "subject": "plan/STATUS.md: primitive.api_curves green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6cd84dc559485813be3ea1df9ac8006d9a858478",
+   "short": "6cd84dc55",
+   "author": "bherbruck",
+   "date": "2026-10-13T02:09:04-04:00",
+   "subject": "status: primitive.api_curves green (1629 cases, 0 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c2cc8971695356fc8dbf87c7313fce50a235e6a5",
+   "short": "c2cc89716",
+   "author": "bherbruck",
+   "date": "2026-10-13T02:07:34-04:00",
+   "subject": "port: primitive.api_curves (SM_API curve constructors)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "primitive"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fbdbccbdccf0f49099ce5813a8893175d27ce262",
+   "short": "fbdbccbdc",
+   "author": "bherbruck",
+   "date": "2026-10-13T02:02:17-04:00",
+   "subject": "plan/STATUS.md: curve.curve_p8 partial; nurbs.b_spline_curve_p3 deferrals updated",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "db7b99574799a3aca691bbfed6a425ac4c116f60",
+   "short": "db7b99574",
+   "author": "bherbruck",
+   "date": "2026-10-13T02:01:56-04:00",
+   "subject": "status: curve.curve_p8 partial (3058 cases, 1090 deferred on curve.curve_p5); nurbs.b_spline_curve_p3 deferrals on curve.curve_p8 cleared",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "41a3ba05a6b4a62c510aed4edc6109fc4fe36dc5",
+   "short": "41a3ba05a",
+   "author": "bherbruck",
+   "date": "2026-10-13T01:57:40-04:00",
+   "subject": "curve.curve_p8: pass the kernel to GetAnalyticCurve and AnalyticCurveIntersect (curve.ellipse_p1 API)",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6156b6662b51e4ae0c4dda77873a7237e12a7f95",
+   "short": "6156b6662",
+   "author": "bherbruck",
+   "date": "2026-10-13T01:53:14-04:00",
+   "subject": "plan/STATUS.md: curve.ellipse_p1 partial; curve.ellipse_p2, curve.curve_p4 deferrals updated",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d63ae49503bc18c6f5aea91e1984ce84bd9a7145",
+   "short": "d63ae4950",
+   "author": "bherbruck",
+   "date": "2026-10-13T01:52:56-04:00",
+   "subject": "status: curve.ellipse_p1 partial (2028 cases, 132 deferred on curve.curve_p5); curve.ellipse_p2, curve.curve_p4 deferrals on curve.ellipse_p1 cleared",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "804ea85c533fdc45271d87c6af79643eafc9d2cf",
+   "short": "804ea85c5",
+   "author": "bherbruck",
+   "date": "2026-10-13T01:48:33-04:00",
+   "subject": "curve.curve_p8: port SmCurve::GlobalCurveIntersect",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness",
+    "nurbs"
+   ],
+   "files": 11,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0bfd45f1b25fef4bac0aa6da5882cfd1d01624ca",
+   "short": "0bfd45f1b",
+   "author": "bherbruck",
+   "date": "2026-10-13T01:40:30-04:00",
+   "subject": "plan/STATUS.md: curve.crv_on_surf partial",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c8f0d2c2ff7b449fb3c2e122ea6445f3f774a32c",
+   "short": "c8f0d2c2f",
+   "author": "bherbruck",
+   "date": "2026-10-13T01:40:18-04:00",
+   "subject": "status: curve.crv_on_surf partial (2094 cases, 541 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d7f2ccc7d7e973a70ab19a9a08e2b2a37de87b04",
+   "short": "d7f2ccc7d",
+   "author": "bherbruck",
+   "date": "2026-10-13T01:36:30-04:00",
+   "subject": "curve.crv_on_surf: port SmCrvOnSurf (CurveKind::CrvOnSurf), shim, ffi, difftest runner and fixtures; wire SmCurve::ReadFromDB and SmTangentField's base read; ApproximateCurve/DropPoint/CalculateBoundingBox dispatch to the override; findings",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 14,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "780654544936e07388d5fd2af3e5b441ac0899a6",
+   "short": "780654544",
+   "author": "bherbruck",
+   "date": "2026-10-13T01:34:08-04:00",
+   "subject": "plan/STATUS.md: curve.parabola green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "74f8ac048e98b8b11512458dff3fa252c80b4811",
+   "short": "74f8ac048",
+   "author": "bherbruck",
+   "date": "2026-10-13T01:33:53-04:00",
+   "subject": "status: curve.parabola green (3044 cases, 0 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b644e303edfee4b4ca1d8b3cadbb4156d4ab0207",
+   "short": "b644e303e",
+   "author": "bherbruck",
+   "date": "2026-10-13T01:29:46-04:00",
+   "subject": "curve.ellipse_p1: port SmEllipse/SmCircle/SmPolarConversion part 1; SmEllipse joins Curve as CurveKind::Ellipse",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 37,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b1e935bf4733333df6a7d4a9bb933341dfbea862",
+   "short": "b1e935bf4",
+   "author": "bherbruck",
+   "date": "2026-10-13T01:23:03-04:00",
+   "subject": "status: nurbs.b_spline_curve_p3, curve.line deferrals moved from curve.curve_p7 to curve.curve_p5",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "70651044e99f768a915fc3efb14800127b1438ce",
+   "short": "70651044e",
+   "author": "bherbruck",
+   "date": "2026-10-13T01:22:55-04:00",
+   "subject": "plan/STATUS.md: curve.curve_p7 partial",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "242142e627b2e200d25bbd65f8db8c0d80ce5a80",
+   "short": "242142e62",
+   "author": "bherbruck",
+   "date": "2026-10-13T01:22:36-04:00",
+   "subject": "status: curve.curve_p7 partial (3027 cases, 1311 deferred on curve.curve_p5)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "077215a697d7754b4a7683b358ce830ee903f956",
+   "short": "077215a69",
+   "author": "bherbruck",
+   "date": "2026-10-13T01:22:15-04:00",
+   "subject": "curve.curve_p7: use the shared eval_n and SolidError::invalid_input from main",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f0305804e164e4e1c2a3874235cd11b2e76f2b95",
+   "short": "f0305804e",
+   "author": "bherbruck",
+   "date": "2026-10-13T01:20:18-04:00",
+   "subject": "curve.curve_p7: port SmCCIGlobalSolver::LocalSolve and SmCurve::GlobalPropertyAnalysis",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 14,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ab8f5cdfe8e65ef50cf1cd59e2bfadd1098ab7c8",
+   "short": "ab8f5cdfe",
+   "author": "bherbruck",
+   "date": "2026-10-13T00:52:49-04:00",
+   "subject": "status: style review batch #15 (workflow batch #7), counts, ready set, findings, resume note",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "38d50f338fa8d6b7f07928e61a375d930c6b6aec",
+   "short": "38d50f338",
+   "author": "bherbruck",
+   "date": "2026-10-13T00:52:13-04:00",
+   "subject": "style(surface.twist_volume): drop dead period comparison in members_eq, unused version as _version",
+   "kind": "style",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "90d51804c7261b9c53a0b16e9bebb1e3628207bc",
+   "short": "90d51804c",
+   "author": "bherbruck",
+   "date": "2026-10-13T00:51:23-04:00",
+   "subject": "style(curve.curve_p1, curve.curve_p3, curve.curve_p4, curve.curve_p6): shared helpers instead of private copies",
+   "kind": "style",
+   "module": "curve",
+   "modules": [
+    "curve"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fb63d51002d66d541e14931f1a3fdf237ff97cee",
+   "short": "fb63d5100",
+   "author": "bherbruck",
+   "date": "2026-10-13T00:46:09-04:00",
+   "subject": "plan/STATUS.md: curve.curve_p6 partial",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "59d3e5479251871e9a1c7c27d7da1d89b76d6bef",
+   "short": "59d3e5479",
+   "author": "bherbruck",
+   "date": "2026-10-13T00:45:52-04:00",
+   "subject": "status: curve.curve_p6 partial (3136 cases, 88 deferred on curve.curve_p5)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8e8e7ffd5da7017b7672e61271d98fa3129b2909",
+   "short": "8e8e7ffd5",
+   "author": "bherbruck",
+   "date": "2026-10-13T00:45:35-04:00",
+   "subject": "curve.curve_p6: wire curve.curve_p1 (GlobalPointSolve, Tessellate, ApproximateCurve), bound GlobalCoincidenceChecker recursion, retag ellipse GlobalCoincidenceChecker stub to curve.ellipse_p1; findings",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "difftest",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9564bbc03246e6d43ce582b14ab66b2d7464f7a2",
+   "short": "9564bbc03",
+   "author": "bherbruck",
+   "date": "2026-10-13T00:33:51-04:00",
+   "subject": "plan/STATUS.md: curve.curve_p1 partial, nurbs.b_spline_curve_p1 green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a2af7f42c3fb9f7e36dc2fb9e31812c9ede6e161",
+   "short": "a2af7f42c",
+   "author": "bherbruck",
+   "date": "2026-10-13T00:33:41-04:00",
+   "subject": "curve.curve_p6: port SmCurve part 6 (CalculateBoundingBox + dispatch, IsPlanar, DropPoint, GlobalPointSolveSTEP dispatch, CurveMaxDistanceBetween, Simple/GlobalCoincidenceChecker, DeformToEndPointTargets); shim, ffi, difftest runner, fixtures",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b4ff8365be5e7f4b063fe969534b6206627b333b",
+   "short": "b4ff8365b",
+   "author": "bherbruck",
+   "date": "2026-10-13T00:33:23-04:00",
+   "subject": "status: curve.curve_p1 partial (3083 cases, 590 deferred on curve.curve_p5); nurbs.b_spline_curve_p1 green (2216 cases, 0 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "79a1430c48893387fca08a7c53817662ffe0c7a0",
+   "short": "79a1430c4",
+   "author": "bherbruck",
+   "date": "2026-10-13T00:32:35-04:00",
+   "subject": "curve.curve_p1: port SmCurve part 1 (GlobalPointSolve, SmCPGlobalSolver::LocalSolve, ApproximateCurve, TessellateByBisection, Tessellate, ClassifyIntersectingRangeSolution, sm_TestSpanAccuracy, sm_RefineCCSolutions); co-port IsLine dispatch and CacheMakeOrValidate's cache build; wire curve_p1 stubs",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "difftest",
+    "geom",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 22,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a470f520ff1c96746e8ba14133d234cc6771c3dd",
+   "short": "a470f520f",
+   "author": "bherbruck",
+   "date": "2026-10-12T23:58:35-04:00",
+   "subject": "Recursion safeguards: AGENTS.md rule, wasm stack note, audit.recursion unit",
+   "kind": "altres",
+   "module": "docs",
+   "modules": [
+    "docs",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "9476543bfb48a78f3db61b633ece4b8444226505",
+   "short": "9476543bf",
+   "author": "bherbruck",
+   "date": "2026-10-12T23:56:56-04:00",
+   "subject": "plan/STATUS.md: curve.curve_p3 partial",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "813f384a750e0e084c3d5e53f2bc62dc1dbed6ec",
+   "short": "813f384a7",
+   "author": "bherbruck",
+   "date": "2026-10-12T23:56:46-04:00",
+   "subject": "status: curve.curve_p3 partial (3076 cases, 742 deferred on curve.curve_p5)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3ccf0cf85b37d0401e499dbd95ff17d937a57978",
+   "short": "3ccf0cf85",
+   "author": "bherbruck",
+   "date": "2026-10-12T23:54:45-04:00",
+   "subject": "curve.curve_p3: port SmCurve part 3 (ComputeCrvsNormal, CrvsFixGaps, FindParameterAtArcLength, LocalPointSolve/LocalCurveSolve/LocalCurveIntersect, SmCurvePropertyGS::LocalSolve, SmFindPCExtremaEFO, SmBestLineFitENFO); co-port SmCurve::IsLinear; wire curve_p3 stubs",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 13,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0eb18a667540c75a0d5bf6ebd5640b0e4726e40f",
+   "short": "0eb18a667",
+   "author": "bherbruck",
+   "date": "2026-10-12T23:27:10-04:00",
+   "subject": "plan/STATUS.md: surface.b_spline_volume green; summary counts",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9599370f45e6ba2ac41e421ffd0464f3f8440424",
+   "short": "9599370f4",
+   "author": "bherbruck",
+   "date": "2026-10-12T23:26:45-04:00",
+   "subject": "status: surface.b_spline_volume green (2333 cases, 0 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0718ba165882a9285900fba57442a3361bfa6ac7",
+   "short": "0718ba165",
+   "author": "bherbruck",
+   "date": "2026-10-12T23:24:56-04:00",
+   "subject": "plan: surface.twist_volume partial in STATUS; surface.volume_p1 notes after twist wiring",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1ad1d989cb03f4c70cb84ce0a8a6dd682585dbf6",
+   "short": "1ad1d989c",
+   "author": "bherbruck",
+   "date": "2026-10-12T23:24:03-04:00",
+   "subject": "surface.twist_volume: use the SolidError constructors",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "78c655eaee3530a9290ea35c41e24112d21d241e",
+   "short": "78c655eae",
+   "author": "bherbruck",
+   "date": "2026-10-12T23:23:05-04:00",
+   "subject": "status: surface.twist_volume partial (1572 cases, 3 deferred); surface.volume_p1 deferred 99 -> 39",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fe2cfb5b397bcc5ecd39b07850b218862fa16bf6",
+   "short": "fe2cfb5b3",
+   "author": "bherbruck",
+   "date": "2026-10-12T23:21:57-04:00",
+   "subject": "surface.b_spline_volume: port SmBSplineVolume (USE_VOLUMES-less build) with shim, ffi, difftest runner and fixtures",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "surface"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a812067d471580aff3f553dcd2cb8da68d98c359",
+   "short": "a812067d4",
+   "author": "bherbruck",
+   "date": "2026-10-12T23:20:49-04:00",
+   "subject": "surface.twist_volume: port SmTwistVolume, shim, ffi, difftest; wire twist overrides into SmVolume",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "curve",
+    "difftest",
+    "geom",
+    "harness",
+    "plan",
+    "surface"
+   ],
+   "files": 13,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ddf14b35ec5b96fe3b0521e8faa8a574b0e2a6cc",
+   "short": "ddf14b35e",
+   "author": "bherbruck",
+   "date": "2026-10-12T23:17:53-04:00",
+   "subject": "plan/STATUS.md: curve.curve_p4 partial; b_spline_curve_p2/p3 deferred counts after wiring",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5925f8e628d1ec031ef49ccddad0099f814d6619",
+   "short": "5925f8e62",
+   "author": "bherbruck",
+   "date": "2026-10-12T23:17:34-04:00",
+   "subject": "status: curve.curve_p4 partial (3259 cases, 102 deferred); nurbs.b_spline_curve_p2 deferred 94 -> 10, nurbs.b_spline_curve_p3 200 -> 172 after wiring",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ea0d2bb315c2d8e2dc02217108341ac7b527d799",
+   "short": "ea0d2bb31",
+   "author": "bherbruck",
+   "date": "2026-10-12T23:15:01-04:00",
+   "subject": "curve.curve_p4: port SmCurve part 4 (chaining, closed/degenerate tests, polar box, AssertValid, analytic intersect, solver helpers, curve evaluator objects); wire SmCurve::IsDegenerate/IsClosed/AssertValid into the B-spline curve",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 14,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3d0fa504d160073819df0cc80bfa93287a58d970",
+   "short": "3d0fa504d",
+   "author": "bherbruck",
+   "date": "2026-10-12T23:12:36-04:00",
+   "subject": "status: style review batch #14 (workflow batch #6), counts, ready set, findings, resume note",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "363a82ebadd1480325bcdfd725f5a92a6f03429b",
+   "short": "363a82eba",
+   "author": "bherbruck",
+   "date": "2026-10-12T23:12:04-04:00",
+   "subject": "style(curve.curve_p2, curve.hyperbola, curve.curve_cache, nurbs.b_spline_curve_p3, geom.geom_utility_p2, geom.local_solve1d, curve.crv_in_volume): shared error::{ignored, ignore_status} instead of private copies; crv_in_volume uses curve::curve::p2::at",
+   "kind": "style",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "geom",
+    "nurbs"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "18a399faa1577a0def6a093b24800284d40fe2fc",
+   "short": "18a399faa",
+   "author": "bherbruck",
+   "date": "2026-10-12T23:09:22-04:00",
+   "subject": "style(nurbs.b_spline_surface_p2, nurbs.b_spline_surface_n_lib_p2): SolidError::null_pointer/invalid_input, nurbs::index::at, shared ignored, CRV_ON_SURF_TYPE from curve::curve::p2",
+   "kind": "style",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "802e0e6f3d194978c43e535a865d23ea14af4ff0",
+   "short": "802e0e6f3",
+   "author": "bherbruck",
+   "date": "2026-10-12T23:09:22-04:00",
+   "subject": "style(curve.line, curve.ellipse_p2): Solution::new, shared ignore_status and labels type codes, drop dead is_line call",
+   "kind": "style",
+   "module": "curve",
+   "modules": [
+    "curve"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "475cfb28d2076b6c66b308f8a2788ab7b26a7679",
+   "short": "475cfb28d",
+   "author": "bherbruck",
+   "date": "2026-10-12T23:09:22-04:00",
+   "subject": "style(surface.volume_p1, curve.crv_in_volume): shared error helpers and type codes, drop pass-through volume wrappers, fix stale operator== docs",
+   "kind": "style",
+   "module": "surface",
+   "modules": [
+    "curve",
+    "surface"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f1bf6809d8752361f988bb2332e90ee4a6b7edfa",
+   "short": "f1bf6809d",
+   "author": "bherbruck",
+   "date": "2026-10-12T23:09:22-04:00",
+   "subject": "style(error, geom.solution_array): SolidError::{invalid_input, unported, is_unported}, shared ignored/ignore_status, Solution::new for any O: Copy",
+   "kind": "style",
+   "module": "kernel",
+   "modules": [
+    "geom",
+    "kernel"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6e04968d068c273affe62e381e5358e2c8679570",
+   "short": "6e04968d0",
+   "author": "bherbruck",
+   "date": "2026-10-12T23:02:48-04:00",
+   "subject": "findings: nurbs.b_spline_curve_p1",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "cf0751d08cdf9126a766ff49b523ebf033b140f1",
+   "short": "cf0751d08",
+   "author": "bherbruck",
+   "date": "2026-10-12T23:02:33-04:00",
+   "subject": "plan/STATUS.md: surface.volume_p1 partial; curve.crv_in_volume and geom.transform deferred counts",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "42c06ea062cb87aa73fd28bdce9e77c4ea7d7791",
+   "short": "42c06ea06",
+   "author": "bherbruck",
+   "date": "2026-10-12T23:02:20-04:00",
+   "subject": "status: surface.volume_p1 partial (2886 cases, 99 deferred); deferred counts of curve.crv_in_volume (208) and geom.transform (3) after wiring",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7f7e66d45cc9a68ac525692d8bfb471a00d61b90",
+   "short": "7f7e66d45",
+   "author": "bherbruck",
+   "date": "2026-10-12T23:02:00-04:00",
+   "subject": "curve.crv_in_volume runner: deferred-case doc after the volume port",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "47758968de731ff712c3c44872b82c82069a4a5d",
+   "short": "47758968d",
+   "author": "bherbruck",
+   "date": "2026-10-12T22:56:19-04:00",
+   "subject": "surface.volume_p1: port SmVolume base class, lifts and ConcatEvals",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "curve",
+    "difftest",
+    "geom",
+    "harness",
+    "plan",
+    "surface"
+   ],
+   "files": 17,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e7c51593a4c0abd9708034ff8f94648867c4347e",
+   "short": "e7c51593a",
+   "author": "bherbruck",
+   "date": "2026-10-12T22:45:44-04:00",
+   "subject": "plan/STATUS.md: curve.ellipse_p2 partial; curve.line deferred 1",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6f5cd46c2aae9b6d16ba2faceac0215b5bfb6696",
+   "short": "6f5cd46c2",
+   "author": "bherbruck",
+   "date": "2026-10-12T22:45:30-04:00",
+   "subject": "status: curve.ellipse_p2 partial (2102 cases, 335 deferred); curve.line deferred 2 -> 1 after wiring",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6d75c7ef69dcb4b33fec50915b829d8c23082c8c",
+   "short": "6d75c7ef6",
+   "author": "bherbruck",
+   "date": "2026-10-12T22:42:20-04:00",
+   "subject": "curve.ellipse_p2: port SmEllipse part 2 and SmPolarConversion; wire Line::intersect_with_ellipse",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness"
+   ],
+   "files": 11,
+   "watch": [
+    "step"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "2b4e4a7915b7e35ed0f6e295816fa1ca5e204194",
+   "short": "2b4e4a791",
+   "author": "bherbruck",
+   "date": "2026-10-12T22:32:03-04:00",
+   "subject": "plan/STATUS.md: nurbs.b_spline_surface_p2 partial",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8942fb80e5a015471045808afaa338e742a8f30f",
+   "short": "8942fb80e",
+   "author": "bherbruck",
+   "date": "2026-10-12T22:31:46-04:00",
+   "subject": "status: nurbs.b_spline_surface_p2 partial (763 cases, 54 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "846f584d5e7e29ade9ab001b8f4481a8f21b0243",
+   "short": "846f584d5",
+   "author": "bherbruck",
+   "date": "2026-10-12T22:31:46-04:00",
+   "subject": "nurbs.b_spline_surface_p2: UV iso lines through the merged SmLine",
+   "kind": "altres",
+   "module": "nurbs",
+   "modules": [
+    "difftest",
+    "nurbs"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0184ffe6cf6ea7e161a41dca58deb8b7b5053e87",
+   "short": "0184ffe6c",
+   "author": "bherbruck",
+   "date": "2026-10-12T22:29:24-04:00",
+   "subject": "nurbs.b_spline_surface_p2: port SmBSplineSurface part 2 with shim, ffi, difftest",
+   "kind": "altres",
+   "module": "nurbs",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b223084b42fc5840b43661147bcfca6ae9707d52",
+   "short": "b223084b4",
+   "author": "bherbruck",
+   "date": "2026-10-12T22:16:18-04:00",
+   "subject": "plan/STATUS.md: curve.line partial; curve.iso_curve, curve.curve_cache, curve.curve_p2, nurbs.b_spline_curve_p2 deferred counts",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "06118721fdc20b95c334e59485b3be61b0cf0ae8",
+   "short": "06118721f",
+   "author": "bherbruck",
+   "date": "2026-10-12T22:15:58-04:00",
+   "subject": "status: curve.line partial (2103 cases, 2 deferred); deferred counts of curve.iso_curve, curve.curve_cache, curve.curve_p2, nurbs.b_spline_curve_p2 after wiring",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a369b6caeb0cf2ca5bf64c3eaf50a98510c72a49",
+   "short": "a369b6cae",
+   "author": "bherbruck",
+   "date": "2026-10-12T22:15:43-04:00",
+   "subject": "curve.line: SmLine_TYPE from curve::curve::p2::LINE_TYPE (style)",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "571ad4446d7ebfa5c7aaadb3f56c93094dbebf07",
+   "short": "571ad4446",
+   "author": "bherbruck",
+   "date": "2026-10-12T22:13:14-04:00",
+   "subject": "status: style review batch #13 (workflow batch #5), counts, ready set, findings, resume note",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2497c9a226d55e4a42116630fc32c0d18b21d0d1",
+   "short": "2497c9a22",
+   "author": "bherbruck",
+   "date": "2026-10-12T22:12:34-04:00",
+   "subject": "style(curve.hermite_curve, nurbs.b_spline_curve_p1): *_TYPE from curve::curve::p2, no private CURV_BASE_TYPE",
+   "kind": "style",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "nurbs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b734c501cb425e8c9648da5f78b4cd2a5ac75397",
+   "short": "b734c501c",
+   "author": "bherbruck",
+   "date": "2026-10-12T22:12:34-04:00",
+   "subject": "style(curve): share curve::curve::p2::at instead of private copies",
+   "kind": "style",
+   "module": "curve",
+   "modules": [
+    "curve"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4b717a622fc2848adc0719233f31c655df637e9b",
+   "short": "4b717a622",
+   "author": "bherbruck",
+   "date": "2026-10-12T22:10:07-04:00",
+   "subject": "status: curve.iso_curve partial (2874 cases, 285 deferred) after n_lib_p2 Evaluate wiring",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2fbb5d7c66ba1b3eac1fb171237d554e4675b943",
+   "short": "2fbb5d7c6",
+   "author": "bherbruck",
+   "date": "2026-10-12T22:09:45-04:00",
+   "subject": "status: curve.crv_in_volume partial (2030 cases, 604 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c4440c6cfacc67a134c9d64bb74d7e543198cbcc",
+   "short": "c4440c6cf",
+   "author": "bherbruck",
+   "date": "2026-10-12T22:09:45-04:00",
+   "subject": "curve.iso_curve: wire UNPORTED(nurbs.b_spline_surface_n_lib_p2) Evaluate back-edge (deferred 640 -> 285)",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "difftest"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1be7d6ac29dabae4a3f65e5896225f0c8a682058",
+   "short": "1be7d6ac2",
+   "author": "bherbruck",
+   "date": "2026-10-12T22:06:37-04:00",
+   "subject": "style(curve.iso_curve, curve.projected_curve): enum from_code on SurfParamType/ProjectionType",
+   "kind": "style",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "nurbs"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "756cff3058d2a0e6569278df33d3e89b29540e74",
+   "short": "756cff305",
+   "author": "bherbruck",
+   "date": "2026-10-12T22:06:37-04:00",
+   "subject": "style(curve.curve_cache): reuse SolidError::nl_ser, max_step helper, drop redundant allows",
+   "kind": "style",
+   "module": "curve",
+   "modules": [
+    "curve"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ed235391e6e91de31db302ac92459dd3b4d62bd2",
+   "short": "ed235391e",
+   "author": "bherbruck",
+   "date": "2026-10-12T22:06:37-04:00",
+   "subject": "style(curve.offset_curve, curve.tangent_field): SolidError::null_pointer, imports over paths",
+   "kind": "style",
+   "module": "curve",
+   "modules": [
+    "curve"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "dcab1ad1a71aff163072a64549de5f5c22f43e85",
+   "short": "dcab1ad1a",
+   "author": "bherbruck",
+   "date": "2026-10-12T22:06:37-04:00",
+   "subject": "style(curve.hyperbola): shared type codes, drop redundant allow",
+   "kind": "style",
+   "module": "curve",
+   "modules": [
+    "curve"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c733ae6f45bfd74b3dbf8e15c94e2b383d796820",
+   "short": "c733ae6f4",
+   "author": "bherbruck",
+   "date": "2026-10-12T22:06:17-04:00",
+   "subject": "plan/STATUS.md: ready set after nurbs.b_spline_surface_n_lib_p2",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1e94162cf05345c3bfbed0237b6ed55b8f9207d7",
+   "short": "1e94162cf",
+   "author": "bherbruck",
+   "date": "2026-10-12T22:06:10-04:00",
+   "subject": "plan/STATUS.md: nurbs.b_spline_surface_n_lib_p2 partial",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "29746434b1f0cd1c2990cee7f62ed368614e27a3",
+   "short": "29746434b",
+   "author": "bherbruck",
+   "date": "2026-10-12T22:05:55-04:00",
+   "subject": "status: nurbs.b_spline_surface_n_lib_p2 partial (654 cases, 26 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "db28df7dddf072d31a7d34dd60789d3e609b962a",
+   "short": "db28df7dd",
+   "author": "bherbruck",
+   "date": "2026-10-12T22:05:41-04:00",
+   "subject": "nurbs.b_spline_surface_n_lib_p2: call the ported SmTangentField",
+   "kind": "altres",
+   "module": "nurbs",
+   "modules": [
+    "difftest",
+    "nurbs",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "51b245d554d1ff48dd3dba10a03cb63bcfaa585b",
+   "short": "51b245d55",
+   "author": "bherbruck",
+   "date": "2026-10-12T22:01:21-04:00",
+   "subject": "port: nurbs.b_spline_surface_n_lib_p2 (SmBSplineSurfaceNLib part 2)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "afac475301b2c5de5927d2728a831092ad2bafc9",
+   "short": "afac47530",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:59:37-04:00",
+   "subject": "plan/STATUS.md, findings: curve.offset_curve green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1d12762064fb772ce7c04770582b48eb65ffb613",
+   "short": "1d1276206",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:59:06-04:00",
+   "subject": "status: curve.offset_curve green (2808 cases, 0 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a22209c20e43f394310a6a0cae3ebdf6f969ddbe",
+   "short": "a22209c20",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:56:50-04:00",
+   "subject": "port(curve.line): SmLine as curve::line::Line + CurveKind::Line; wire UNPORTED(curve.line)",
+   "kind": "port",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 15,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a1a975f92d5abb98e6c9eccb30f202d0a581b52b",
+   "short": "a1a975f92",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:55:36-04:00",
+   "subject": "findings: curve.iso_curve (CreateUVIsoLine duplicate SM_SP_U test, surface held by value)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f2a359b7f6469a062ec3e31676ef6fd64d0b8220",
+   "short": "f2a359b7f",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:55:17-04:00",
+   "subject": "plan/STATUS.md: curve.iso_curve partial",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f7b724c358da49097d00ff94ecf39b8e640e20d5",
+   "short": "f7b724c35",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:55:17-04:00",
+   "subject": "status: curve.iso_curve partial (2874 cases, 640 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9bb07e5cf06b437155ef27c7d47750a14a902d3c",
+   "short": "9bb07e5cf",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:54:53-04:00",
+   "subject": "curve.offset_curve: CurveKind::Offset in the curve cache (not a B-spline)",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6a51079eb50a6d4149a61026e0f29b645717a5b6",
+   "short": "6a51079eb",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:51:31-04:00",
+   "subject": "plan/STATUS.md: b_spline_curve_p2/p3 deferred counts after the curve.curve_cache IsLine co-port",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c9f88422e38e6ade107fe0f5725cf3886844a91b",
+   "short": "c9f88422e",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:50:30-04:00",
+   "subject": "status: style review batch #12 (workflow batch #4), counts, ready set, findings, resume note",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d65651e2b16415724adeaa3ab3a5d4500eb9145e",
+   "short": "d65651e2b",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:49:11-04:00",
+   "subject": "curve.curve_cache: handle CurveKind::Projected (fixes main build after the curve.projected_curve merge)",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c5cc7e5a7f02841f174d2418d6a16d98019982d7",
+   "short": "c5cc7e5a7",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:46:45-04:00",
+   "subject": "status: curve.curve_cache partial (638 cases, 3 deferred); b_spline_curve_p2/p3 deferred counts after IsLine co-port",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d7974be42eda9c70b3f2ed9e2e38523d8571674e",
+   "short": "d7974be42",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:46:31-04:00",
+   "subject": "curve.curve_cache: decompose SmHyperbola (an SmBSplineCurve) through its NURB",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b899bb3d8b18a58d09ae5af947e40f1090163472",
+   "short": "b899bb3d8",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:45:50-04:00",
+   "subject": "style(curve.conic): Conic::TYPE from curve::curve::p2::CONIC_TYPE, operation paths name Conic methods",
+   "kind": "style",
+   "module": "curve",
+   "modules": [
+    "curve"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "89d2e3603782d82e0813bf507e03ea55b3e44661",
+   "short": "89d2e3603",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:45:50-04:00",
+   "subject": "style(nlib.srf_offset): offset_patch_net as a Surface method, UNIT_SQUARE in the header table",
+   "kind": "style",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e3e668f883a25b0e372ad6a8e8838e43c80f1f71",
+   "short": "e3e668f88",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:45:50-04:00",
+   "subject": "style(nlib.srf_adv_p6): shared index::{at, put, oob} and SolidError::nlib instead of local copies",
+   "kind": "style",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c45000c2d7ec21232b9829dbc53e5ae9588627eb",
+   "short": "c45000c2d",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:45:50-04:00",
+   "subject": "style(nurbs.b_spline_surface_n_lib_p1, curve.curve_p2): one SM_ERR_NULL_POINTER + SolidError::null_pointer in error.rs, slice pattern in stack_look",
+   "kind": "style",
+   "module": "nurbs",
+   "modules": [
+    "curve",
+    "kernel",
+    "nurbs",
+    "topology"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "dc0791054825bea54d3ef6ae3e753f0e7ac0ac44",
+   "short": "dc0791054",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:44:07-04:00",
+   "subject": "plan/STATUS.md: curve.projected_curve green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a3bf6911204af52dd09cc79f8fff4e9834318b49",
+   "short": "a3bf69112",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:43:44-04:00",
+   "subject": "status: curve.projected_curve green (2727 cases, 0 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0887b3b72b38e8fddcc979b891a56bea38f80d97",
+   "short": "0887b3b72",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:43:20-04:00",
+   "subject": "port(curve.iso_curve): SmIsoCurve on B-spline surfaces (clamping ctor, interval, knots, equality, types, UV iso line, ReadFromDB) + Curve dispatch, shim, ffi, difftest",
+   "kind": "port",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "73787de4da62d68637d05ea87c40e1b4bf5c3809",
+   "short": "73787de4d",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:42:12-04:00",
+   "subject": "curve.curve_cache: handle CurveKind::Conic (non-B-spline path); report with default seeds",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "difftest"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8a45d1df753a1e0fd6a1e8ff1ed7e3a1406eca50",
+   "short": "8a45d1df7",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:39:41-04:00",
+   "subject": "findings: curve.hyperbola (NURB-less GlobalPointSolve crash, eager NURB rebuild)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "de6c2b4eef58ada3a962772b687bd7572d501d77",
+   "short": "de6c2b4ee",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:39:19-04:00",
+   "subject": "plan/STATUS.md: curve.hyperbola partial",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "845448126505e06755e7060fd896de0b6914b312",
+   "short": "845448126",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:38:58-04:00",
+   "subject": "status: curve.hyperbola partial (2062 cases, 102 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5e9b46a7aed4c30cdd037648408eea01f2d38422",
+   "short": "5e9b46a7a",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:34:30-04:00",
+   "subject": "status: curve.tangent_field partial (655 cases, 266 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5c7eeb7560efc56b8285e172e2ce8ea900e67998",
+   "short": "5c7eeb756",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:34:29-04:00",
+   "subject": "fix(curve.tangent_field): leave the read nesting level on the SmTangentField arm",
+   "kind": "fix",
+   "module": "curve",
+   "modules": [
+    "curve"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5123590aa44f5a6c0d5f373c24320b6c9f73e766",
+   "short": "5123590aa",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:34:13-04:00",
+   "subject": "port(curve.offset_curve): SmOffsetCurve as a Curve kind, shim, ffi, difftest (2808 cases)",
+   "kind": "port",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness",
+    "nurbs"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5ed4d1ff26c89c69d4a55a82eb11b18990abf8fd",
+   "short": "5ed4d1ff2",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:31:12-04:00",
+   "subject": "port: curve.crv_in_volume (SmCrvInVolume)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "23c448ff34aad652a2e61003dee9e375907a412e",
+   "short": "23c448ff3",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:30:51-04:00",
+   "subject": "port(curve.curve_cache): SmCurveCache tessellation and decomposition tree",
+   "kind": "port",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "difftest",
+    "geom",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 15,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3bce9e6f85148ef3cb6850de8fec506a28e2e07c",
+   "short": "3bce9e6f8",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:30:23-04:00",
+   "subject": "Bound nested polymorphic reads (Curve::read_from_db)",
+   "kind": "altres",
+   "module": "docs",
+   "modules": [
+    "curve",
+    "docs",
+    "plan",
+    "topology"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "32e242bd0bed5906b30e92dfac21d43afb99958f",
+   "short": "32e242bd0",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:27:25-04:00",
+   "subject": "plan/STATUS.md: nurbs.b_spline_surface_n_lib_p1 partial",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9413e04d7439b28f25247ecb21401e1d3ed81878",
+   "short": "9413e04d7",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:27:14-04:00",
+   "subject": "port curve.hyperbola: SmHyperbola as CurveKind::Hyperbola, shim, ffi, difftest",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "96e16ed9087e5f15d5bd27f6710c06f6d7fc2723",
+   "short": "96e16ed90",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:27:01-04:00",
+   "subject": "status: nurbs.b_spline_surface_n_lib_p1 partial (665 cases, 27 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f9d7d7746088cf17ce2641dc620c94e323e91743",
+   "short": "f9d7d7746",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:23:51-04:00",
+   "subject": "port: curve.parabola (SmParabola) with shim, ffi, difftest runner and fixtures",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "98a6b69d3f53c21bf6656c8699145b7eb1449ba2",
+   "short": "98a6b69d3",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:23:08-04:00",
+   "subject": "port(curve.tangent_field): SmTangentField (655 difftest cases, 266 deferred)",
+   "kind": "port",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "298c05b484e4bbc183dd43eef58e5c4112e8fcb8",
+   "short": "298c05b48",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:22:03-04:00",
+   "subject": "port: nurbs.b_spline_surface_n_lib_p1 (SmBSplineSurfaceNLib part 1)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 9,
+   "watch": [
+    "corner-blend"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "6f3c7e2ff30be33b7fe446468493b4dc6a5b8bd4",
+   "short": "6f3c7e2ff",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:20:27-04:00",
+   "subject": "port(curve.projected_curve): SmProjectedCurve as CurveKind::Projected; shim, ffi, difftest (2727 cases)",
+   "kind": "port",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f0e673c02a3334db02bbdb7b9ef1831e23b6a4d2",
+   "short": "f0e673c02",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:16:36-04:00",
+   "subject": "plan/STATUS.md: curve.conic green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "15025311f4e36f3d9e0cedf1aea36a1292fbdc95",
+   "short": "15025311f",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:16:17-04:00",
+   "subject": "status: curve.conic green (3240 cases, 0 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c6735e20d7f75e41b8dc3fe1d63de6f3cf9e87c7",
+   "short": "c6735e20d",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:15:12-04:00",
+   "subject": "port(curve.conic): SmConic (2D rational conics: evaluation, implicit form, conic/conic intersection, inversion, Transform2D, ReadFromDB) + shim, ffi, difftest",
+   "kind": "port",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 13,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "56d96278212301f2bb1c15d18e821519fe68fea3",
+   "short": "56d962782",
+   "author": "bherbruck",
+   "date": "2026-10-12T21:00:03-04:00",
+   "subject": "plan/STATUS.md: curve.curve_p2 partial; curve.hermite_curve, nurbs.b_spline_curve_n_lib green; curve layer 14 ready",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bb334612fcff9a0741eb5b935385e389990eb069",
+   "short": "bb334612f",
+   "author": "bherbruck",
+   "date": "2026-10-12T20:59:28-04:00",
+   "subject": "status: curve.curve_p2 partial (3018 cases, 6 deferred); curve.hermite_curve and nurbs.b_spline_curve_n_lib green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bb4830a0ca9d76e384227ceddf7b91dcfc2155bc",
+   "short": "bb4830a0c",
+   "author": "bherbruck",
+   "date": "2026-10-12T20:59:00-04:00",
+   "subject": "wire(curve.curve_p2): SmCurve back-edges of SmBSplineCurve part 3 (ApproximateLength, IsAnalytic, IsBounded, SmTol::IsDegenerate)",
+   "kind": "wire",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "nurbs",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0f4a900b42158759ecd33f4a22de2639e7ef4cdd",
+   "short": "0f4a900b4",
+   "author": "bherbruck",
+   "date": "2026-10-12T20:51:58-04:00",
+   "subject": "port(curve.curve_p2): SmCurve part 2 (base object and virtual dispatch, base numerics, static helpers, solver box tests) + shim, ffi, difftest",
+   "kind": "port",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 12,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4938c09a8a9af28466ec10f6473a383b16127df8",
+   "short": "4938c09a8",
+   "author": "bherbruck",
+   "date": "2026-10-12T20:47:15-04:00",
+   "subject": "plan/STATUS.md: nlib.srf_adv_p6 green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b35884e8596bafabe057ad62d9155257c3fbba77",
+   "short": "b35884e85",
+   "author": "bherbruck",
+   "date": "2026-10-12T20:47:02-04:00",
+   "subject": "status: nlib.srf_adv_p6 green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e94f25be13497f7f1c25900e10c4b804183cf15d",
+   "short": "e94f25be1",
+   "author": "bherbruck",
+   "date": "2026-10-12T20:45:27-04:00",
+   "subject": "status: style review batch #11 (workflow batch #3), ready set, findings, resume note",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2633b86185b3c2db4aea0e06e519db853b1a5893",
+   "short": "2633b8618",
+   "author": "bherbruck",
+   "date": "2026-10-12T20:45:19-04:00",
+   "subject": "nlib.srf_adv_p6: port N_CreateSweepScale and N_FillNSidedHole",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1bedb450970eb2180bac0ba49c0bad94abffb271",
+   "short": "1bedb4509",
+   "author": "bherbruck",
+   "date": "2026-10-12T20:42:32-04:00",
+   "subject": "style(nurbs.b_spline_curve_p2): per-method operation paths instead of OP_NURB, shared p1 NURB accessors",
+   "kind": "style",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1af1a396f1fbad59d803afc24086cfe6726db2d6",
+   "short": "1af1a396f",
+   "author": "bherbruck",
+   "date": "2026-10-12T20:42:32-04:00",
+   "subject": "style(nlib.srf_adv_p2, nlib.srf_adv_p5): one KN_TOL constant (p3::KNOT_TOL), SolidError::nlib, index::oob, no colinear alias",
+   "kind": "style",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "879b3e09b436b7bd6732237b0310e3b6c59f3234",
+   "short": "879b3e09b",
+   "author": "bherbruck",
+   "date": "2026-10-12T20:42:32-04:00",
+   "subject": "style(nlib.srf_adv_p1, nlib.srf_adv_p4): shared index::{at, put, at2, put2, oob}, SolidError::nlib, Mat3 in header table, no redundant too_many_lines allow",
+   "kind": "style",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a63804fd10fa3f53fcb72f15bd905344e0cf01cf",
+   "short": "a63804fd1",
+   "author": "bherbruck",
+   "date": "2026-10-12T20:40:02-04:00",
+   "subject": "plan/STATUS.md: nlib.srf_offset green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8f694ca770c9b6433adf58c9dbc6b26a9a86c726",
+   "short": "8f694ca77",
+   "author": "bherbruck",
+   "date": "2026-10-12T20:39:39-04:00",
+   "subject": "status: nlib.srf_offset green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b04a38ecf47034df8bf14b48323c843fb0ea23bc",
+   "short": "b04a38ecf",
+   "author": "bherbruck",
+   "date": "2026-10-12T20:37:44-04:00",
+   "subject": "nlib.srf_offset: port N_SrfOffset with shim, ffi, difftest runner and fixtures",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "97cd9c2227bee5c22d31831e534f4f20e2deedf8",
+   "short": "97cd9c222",
+   "author": "bherbruck",
+   "date": "2026-10-12T20:35:31-04:00",
+   "subject": "plan/STATUS.md: nurbs.b_spline_curve_p3 partial",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "039cd3e6afc491bf82ffa9e7c7e980712354c9ff",
+   "short": "039cd3e6a",
+   "author": "bherbruck",
+   "date": "2026-10-12T20:35:18-04:00",
+   "subject": "status: nurbs.b_spline_curve_p3 partial (2195 cases, 966 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f5e7b4246ac79131d6a58492be8b4d065bd204c8",
+   "short": "f5e7b4246",
+   "author": "bherbruck",
+   "date": "2026-10-12T20:34:13-04:00",
+   "subject": "wip(curve.curve_p2): wire SmCurve back-edges in SmBSplineCurve and SmHermiteCurve",
+   "kind": "altres",
+   "module": "nurbs",
+   "modules": [
+    "curve",
+    "nurbs"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ec92ce16fdf807baa297c08fc91f65fe418e832b",
+   "short": "ec92ce16f",
+   "author": "bherbruck",
+   "date": "2026-10-12T20:33:34-04:00",
+   "subject": "port(nurbs.b_spline_curve_p3): SmBSplineCurve part 3 (scale-trans-rot copies, internal poles, segment lines, GetControlPoint, IsOnPlane, JoinWith, SubdivideAtDiscontinuity, TrimGap, AssertValid)",
+   "kind": "port",
+   "module": "nurbs",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "cb19e9fd2b1a0d1e416867a03d82428681148413",
+   "short": "cb19e9fd2",
+   "author": "bherbruck",
+   "date": "2026-10-12T20:32:23-04:00",
+   "subject": "wip(curve.curve_p2): SmCurve base object, virtual dispatch, base numerics, statics, solver box tests",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "58a5e9b4b7f200e590ca8cebb009d9a4a754a027",
+   "short": "58a5e9b4b",
+   "author": "bherbruck",
+   "date": "2026-10-12T20:25:09-04:00",
+   "subject": "findings: nlib.srf_adv_p5 shared knot array",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b280d60cdd697f73b5b83faaf9cd7418fce58773",
+   "short": "b280d60cd",
+   "author": "bherbruck",
+   "date": "2026-10-12T20:25:00-04:00",
+   "subject": "plan/STATUS.md: nlib.srf_adv_p5 green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3ffd9c58a560e7c5e38d20bd706617899cd6b81d",
+   "short": "3ffd9c58a",
+   "author": "bherbruck",
+   "date": "2026-10-12T20:24:46-04:00",
+   "subject": "status: nlib.srf_adv_p5 green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ba1d16033c1d453e1ac950013f9f835da2f1eef1",
+   "short": "ba1d16033",
+   "author": "bherbruck",
+   "date": "2026-10-12T20:21:01-04:00",
+   "subject": "nlib.srf_adv_p5: port N_CreateSkinSrfBoundaryContinuity",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "db0888dd34917959369c148dd92f7c4859f39abd",
+   "short": "db0888dd3",
+   "author": "bherbruck",
+   "date": "2026-10-12T20:15:19-04:00",
+   "subject": "plan/STATUS.md: nlib.srf_adv_p1 green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3e7f4e974e4ff50136708a969e6af571d02547be",
+   "short": "3e7f4e974",
+   "author": "bherbruck",
+   "date": "2026-10-12T20:15:09-04:00",
+   "subject": "status: nlib.srf_adv_p1 green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bb1389727793aeb4732f4ad5a0bc825283c72c45",
+   "short": "bb1389727",
+   "author": "bherbruck",
+   "date": "2026-10-12T20:13:25-04:00",
+   "subject": "plan/STATUS.md: nurbs.b_spline_curve_p2 partial, curve.curve_p2 / nurbs.b_spline_curve_p3 ready",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2b1264a8f1e78dc662a7994e31cb355bb5c1ba28",
+   "short": "2b1264a8f",
+   "author": "bherbruck",
+   "date": "2026-10-12T20:13:06-04:00",
+   "subject": "nlib.srf_adv_p1: port N_SrfExtendByDist, N_SrfOffsetGetMaxDeriv, N_SrfEvalPtDerivsUnbounded, N_CreateSkinSpine, N_CrossBoundaryDerivsVectorField",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b5e2b82bf3714efdb2793ffd3d14f850f633dbc4",
+   "short": "b5e2b82bf",
+   "author": "bherbruck",
+   "date": "2026-10-12T20:12:46-04:00",
+   "subject": "status: nurbs.b_spline_curve_p2 partial (n_lib deferred 150 -> 57)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b7ecfc8ba7076a0dfad5d9f491c58edbe7777c79",
+   "short": "b7ecfc8ba",
+   "author": "bherbruck",
+   "date": "2026-10-12T20:10:12-04:00",
+   "subject": "port(nurbs.b_spline_curve_p2): SmBSplineCurve part 2 (bounding boxes, joining, point/offset/analytic curves, canonical get/set, line/C0/degeneracy queries, control point access, weight matching, degree elevation, reversal, STEP interval, ReadFromDB)",
+   "kind": "port",
+   "module": "nurbs",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 11,
+   "watch": [
+    "step"
+   ],
+   "ai": true
+  }
+ ],
+ "prs": [
+  {
+   "number": 3,
+   "title": "Hand off to a PR workflow; fix CI; progress checklist",
+   "branch": "handoff",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-13T05:20:33-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 4,
+   "title": "port: surface.trim_srf_cache",
+   "branch": "unit/surface.trim_srf_cache",
+   "owner": "0xlillith",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-13T12:45:33-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 5,
+   "title": "CI: optimised difftest profile and a C++ cache key that hits",
+   "branch": "ci-speedup",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-13T06:17:56-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 7,
+   "title": "fix: strict Clippy for C++ differential runners",
+   "branch": "quality/cpp-harness",
+   "owner": "0xlillith",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-13T12:45:53-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 8,
+   "title": "Publish solidcore to crates.io (0.0.1) via a tag-driven release workflow",
+   "branch": "crate-publish",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-13T07:38:55-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 9,
+   "title": "CI: keep the C++ reference build out of bin/ (fixes empty C++ cache)",
+   "branch": "ci-cpp-cache",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-13T07:25:23-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 10,
+   "title": "Add logo and og-image",
+   "branch": "logo",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-13T11:16:11-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 11,
+   "title": "Harden release and progress workflows (pin checkout, no third-party cache with the crates.io token)",
+   "branch": "pin-release",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-13T11:16:21-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 14,
+   "title": "port: surface.plane_p1",
+   "branch": "unit/surface.plane_p1",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-13T16:04:20-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 15,
+   "title": "port: surface.surf_of_revolution_p1",
+   "branch": "unit/surface.surf_of_revolution_p1",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-13T16:50:10-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 16,
+   "title": "Review follow-ups: release --locked, per-tree C++ build dir, trim_srf_cache test gap",
+   "branch": "review-followups",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-13T15:18:28-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 18,
+   "title": "Plan: claim any unit; soft dependencies; 13 units fully ready",
+   "branch": "soft-deps",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-13T16:17:05-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 32,
+   "title": "port: surface.b_spline_volume_n_lib",
+   "branch": "unit/surface.b_spline_volume_n_lib",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-13T19:55:58-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 34,
+   "title": "AGENTS.md: before-ready checklist from review findings",
+   "branch": "agents-checklist",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-13T18:49:59-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 36,
+   "title": "plan/upstream-issues.md: upstream SMLib problems only",
+   "branch": "upstream-issues",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-13T19:01:37-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  }
+ ],
+ "watch": [
+  {
+   "id": "setback",
+   "label": "Cantonades setback",
+   "cases": [
+    "C05",
+    "D01",
+    "D02"
+   ],
+   "hits": []
+  },
+  {
+   "id": "mixed-corner",
+   "label": "Cantonades mixtes",
+   "cases": [
+    "D01",
+    "D02"
+   ],
+   "hits": []
+  },
+  {
+   "id": "ball-patch",
+   "label": "Ball patch (cantonades esfèriques)",
+   "cases": [
+    "C05",
+    "D11"
+   ],
+   "hits": []
+  },
+  {
+   "id": "variable-radius",
+   "label": "Radi variable / lleis de radi",
+   "cases": [
+    "D07"
+   ],
+   "hits": []
+  },
+  {
+   "id": "round-larger-than-wall",
+   "label": "Arrodoniment més gran que la paret",
+   "cases": [
+    "D03",
+    "D08"
+   ],
+   "hits": []
+  },
+  {
+   "id": "shell-rounded",
+   "label": "Buidat de cossos arrodonits",
+   "cases": [
+    "D11",
+    "D14"
+   ],
+   "hits": []
+  },
+  {
+   "id": "hang-cancel",
+   "label": "Penjaments, temps límit i cancel·lació",
+   "cases": [
+    "C03",
+    "D02",
+    "D11"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "330d59ff1",
+     "text": "plan/upstream-issues.md: upstream SMLib problems only",
+     "url": "https://github.com/tangency-labs/solidcore/commit/330d59ff18dbb3adb4f61374d55908c68cfeb2f2",
+     "matched": "(72 crash/UB, 10 hang, 3 nondeterminism, 47 wrong result, 3 docs), each"
+    }
+   ]
+  },
+  {
+   "id": "corner-blend",
+   "label": "Corner blend (CreateCornerBlend / Coons)",
+   "cases": [
+    "C05",
+    "D02"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "298c05b48",
+     "text": "port: nurbs.b_spline_surface_n_lib_p1 (SmBSplineSurfaceNLib part 1)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/298c05b484e4bbc183dd43eef58e5c4112e8fcb8",
+     "matched": "Offset approximation, Coons (bilinear and bicubic sm_CreateCoonsSrf), n-sided, ruled,"
+    }
+   ]
+  },
+  {
+   "id": "chamfer",
+   "label": "Xamfrans",
+   "cases": [],
+   "hits": []
+  },
+  {
+   "id": "loft-skin",
+   "label": "Loft / skin (superfícies B-spline arrodonides)",
+   "cases": [
+    "D14"
+   ],
+   "hits": []
+  },
+  {
+   "id": "step",
+   "label": "STEP (import / export)",
+   "cases": [
+    "anada i tornada STEP"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "a41533459",
+     "text": "port: surface.surf_of_revolution_p1",
+     "url": "https://github.com/tangency-labs/solidcore/commit/a41533459f5a72d37685efe80ae0ca19e03cc56a",
+     "matched": "iso curves, directrices, generators, NURB to STEP conversion, STEP"
+    },
+    {
+     "source": "commit",
+     "ref": "6d75c7ef6",
+     "text": "curve.ellipse_p2: port SmEllipse part 2 and SmPolarConversion; wire Line::intersect_with_ellipse",
+     "url": "https://github.com/tangency-labs/solidcore/commit/6d75c7ef69dcb4b33fec50915b829d8c23082c8c",
+     "matched": "Ellipse object, polar conversion table set-up and angle/NURB conversion, STEP"
+    },
+    {
+     "source": "commit",
+     "ref": "b7ecfc8ba",
+     "text": "port(nurbs.b_spline_curve_p2): SmBSplineCurve part 2 (bounding boxes, joining, point/offset/analytic curves, canonical get/set, line/C0/degeneracy queries, control point access, weight matching, degre",
+     "url": "https://github.com/tangency-labs/solidcore/commit/b7ecfc8ba7076a0dfad5d9f491c58edbe7777c79"
+    }
+   ]
+  },
+  {
+   "id": "platform",
+   "label": "Plataformes (wasm, iOS, ARM)",
+   "cases": [
+    "iPad"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "4e19b24a0",
+     "text": "Make solidcore publishable to crates.io (0.0.1) with a tag-driven release workflow",
+     "url": "https://github.com/tangency-labs/solidcore/commit/4e19b24a0ff9377f2b9e544cc6df6161125bd815",
+     "matched": "matches the crate version, test, wasm check, cargo publish with the"
+    },
+    {
+     "source": "commit",
+     "ref": "a470f520f",
+     "text": "Recursion safeguards: AGENTS.md rule, wasm stack note, audit.recursion unit",
+     "url": "https://github.com/tangency-labs/solidcore/commit/a470f520ff1c96746e8ba14133d234cc6771c3dd"
+    }
+   ]
+  },
+  {
+   "id": "determinism",
+   "label": "Determinisme",
+   "cases": [
+    "resultats idèntics Mac/iPad"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "330d59ff1",
+     "text": "plan/upstream-issues.md: upstream SMLib problems only",
+     "url": "https://github.com/tangency-labs/solidcore/commit/330d59ff18dbb3adb4f61374d55908c68cfeb2f2",
+     "matched": "(72 crash/UB, 10 hang, 3 nondeterminism, 47 wrong result, 3 docs), each"
+    }
+   ]
+  },
+  {
+   "id": "upstream-fixes",
+   "label": "Flags d'UpstreamFixes",
+   "cases": [
+    "configuració del kernel a l'app"
+   ],
+   "hits": []
+  },
+  {
+   "id": "seam",
+   "label": "Costures (seam) i arestes partides",
+   "cases": [
+    "lliçó: no triar arestes en costures"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "f2cd29de5",
+     "text": "curve.curve_p5: port SmCurve part 5 (CrvsCleanup, RemoveDuplicateCurves, EvaluateSTEPPoint, CacheMakeOrValidate, IsArc, IsDomainBoundary, IsPeriodic, Length, LocalPropertyAnalysis, sm_FindAdditionalCp",
+     "url": "https://github.com/tangency-labs/solidcore/commit/f2cd29de5b69e2c6b528fc19eeb061246c59a500"
+    }
+   ]
+  }
+ ],
+ "units": {
+  "total": 0,
+  "counts": {},
+  "status_changes": [],
+  "notes_updated": [],
+  "not_green": []
+ },
+ "upstream_issues": {
+  "total": 0,
+  "counts": {
+   "WR": 0,
+   "UB": 0,
+   "HANG": 0,
+   "ND": 0,
+   "DOC": 0,
+   "FAIL": 0,
+   "ISSUE": 0
+  },
+  "new": [],
+  "removed": [],
+  "retitled": [],
+  "new_addenda": []
+ },
+ "findings": {
+  "total": 0,
+  "new": []
+ },
+ "solidcraft": {
+  "total": 0,
+  "counts": {},
+  "changes": [],
+  "new": [],
+  "failing": []
+ },
+ "upstream_fixes": {
+  "total": 0,
+  "new": [],
+  "removed": [],
+  "fillet_total": 0
+ },
+ "gates": {
+  "waivers_before": 0,
+  "waivers_after": 0,
+  "known_mismatches": 0,
+  "mismatches_new": [],
+  "mismatches_removed": []
+ },
+ "pin": {
+  "version": null,
+  "commit": "",
+  "changed": false,
+  "before_version": null
+ },
+ "status_md_changed": true,
+ "tags": [
+  [
+   "solidcore-v0.0.1",
+   "2026-10-13T07:38:58-04:00"
+  ]
+ ],
+ "github": {
+  "ok": true,
+  "issues_opened": [],
+  "issues_closed": [],
+  "prs_opened": [],
+  "prs_closed_unmerged": [],
+  "open_issues": 119,
+  "open_prs": 81
+ },
+ "releases": {
+  "ok": true,
+  "crates_io": {
+   "max_version": "1.0.1",
+   "new_versions": [
+    "0.0.1"
+   ]
+  },
+  "upstream": [],
+  "upstream_latest": "v1.0.1"
+ }
+}

@@ -1,0 +1,4986 @@
+{
+ "day": "2026-10-20",
+ "generated_at": "2026-11-03T22:50:48+00:00",
+ "window": {
+  "start": "2026-10-20T00:00:00+00:00",
+  "end": "2026-10-21T00:00:00+00:00",
+  "start_sha": "ddb63131433dcbb1dd5d084dc385fd50b4b37bfb",
+  "end_sha": "0a676a04c38229b10e924b5074cb6ade8ee897cf"
+ },
+ "summary": {
+  "commits": 267,
+  "merges": 217,
+  "claims": 16,
+  "prs_merged": 18,
+  "authors": 10,
+  "top_authors": [
+   [
+    "Christian Svensson",
+    138
+   ],
+   [
+    "bherbruck",
+    53
+   ],
+   [
+    "Andreas",
+    32
+   ],
+   [
+    "github-actions[bot]",
+    23
+   ],
+   [
+    "denelson1-dot",
+    7
+   ],
+   [
+    "Karl Von Richter",
+    4
+   ],
+   [
+    "lillith",
+    4
+   ],
+   [
+    "Logan Night",
+    2
+   ]
+  ],
+  "ai_coauthored": 227,
+  "files_touched": 304
+ },
+ "by_module": {
+  "curve": {
+   "commits": 3,
+   "files": 3
+  },
+  "topology": {
+   "commits": 25,
+   "files": 201
+  },
+  "primitive": {
+   "commits": 2,
+   "files": 16
+  },
+  "query": {
+   "commits": 9,
+   "files": 79
+  },
+  "heal": {
+   "commits": 2,
+   "files": 5
+  },
+  "boolean": {
+   "commits": 18,
+   "files": 68
+  },
+  "blend": {
+   "commits": 42,
+   "files": 228
+  },
+  "difftest": {
+   "commits": 64,
+   "files": 232
+  },
+  "harness": {
+   "commits": 10,
+   "files": 41
+  },
+  "plan": {
+   "commits": 66,
+   "files": 130
+  },
+  "site": {
+   "commits": 3,
+   "files": 15
+  },
+  "ci": {
+   "commits": 7,
+   "files": 16
+  }
+ },
+ "by_kind": {
+  "fix": 11,
+  "port": 3,
+  "test": 2,
+  "difftest": 2,
+  "plan": 1,
+  "docs": 3,
+  "chore": 3,
+  "altres": 226
+ },
+ "commits": [
+  {
+   "sha": "0a676a04c38229b10e924b5074cb6ade8ee897cf",
+   "short": "0a676a04c",
+   "author": "github-actions[bot]",
+   "date": "2026-10-20T23:30:54Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "0072058ad2392fce619871d14315e93637e1cf3f",
+   "short": "0072058ad",
+   "author": "github-actions[bot]",
+   "date": "2026-10-20T23:22:41Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "67e321cde0e44323dd0dffc68cf4af4df533c7e2",
+   "short": "67e321cde",
+   "author": "github-actions[bot]",
+   "date": "2026-10-20T23:14:55Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "6a019c57131d5fee6e57ab7dc4a62201a32e0216",
+   "short": "6a019c571",
+   "author": "github-actions[bot]",
+   "date": "2026-10-20T22:45:30Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "1a1460282b4ca7dd0a1fba68fda56246d6fdec0d",
+   "short": "1a1460282",
+   "author": "github-actions[bot]",
+   "date": "2026-10-20T22:08:35Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "5a50e01e10bef3376a5d9ad85304b8e5395590b7",
+   "short": "5a50e01e1",
+   "author": "github-actions[bot]",
+   "date": "2026-10-20T22:08:12Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "c0e8eb434d4c849e7c1f947d55518fa290221c21",
+   "short": "c0e8eb434",
+   "author": "github-actions[bot]",
+   "date": "2026-10-20T22:07:46Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "e4dd81c4230aef0c88cbb10e2a905a78f4c7352d",
+   "short": "e4dd81c42",
+   "author": "github-actions[bot]",
+   "date": "2026-10-20T21:31:49Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "e5f3e4415f419545ac0f3ce276eccc3ddb917c43",
+   "short": "e5f3e4415",
+   "author": "github-actions[bot]",
+   "date": "2026-10-20T20:44:57Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "098f63ecdedfb6fef3c123606308496f23c54676",
+   "short": "098f63ecd",
+   "author": "bherbruck",
+   "date": "2026-10-20T16:13:50-04:00",
+   "subject": "batch: regenerate difftest reports",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d037ebefd1ae6c62942958d646eafff54da52750",
+   "short": "d037ebefd",
+   "author": "bherbruck",
+   "date": "2026-10-20T16:08:11-04:00",
+   "subject": "difftest: run --green across N worker processes (--jobs)",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "ci",
+    "difftest",
+    "docs"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9f6addedead773b8aa9aaef83dda90897e1c4254",
+   "short": "9f6addede",
+   "author": "bherbruck",
+   "date": "2026-10-20T16:07:10-04:00",
+   "subject": "cpp-reference: drop an unmeasured build-time claim",
+   "kind": "altres",
+   "module": "ci",
+   "modules": [
+    "ci"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4d9777aba009b275673f6c058381fb1359a16ee6",
+   "short": "4d9777aba",
+   "author": "bherbruck",
+   "date": "2026-10-20T15:39:27-04:00",
+   "subject": "ci: keep the sccache server alive so the end-of-job stats are real",
+   "kind": "chore",
+   "module": "ci",
+   "modules": [
+    "ci"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "09596111acecbf0084c5c27211987f6c1f8b32d1",
+   "short": "09596111a",
+   "author": "bherbruck",
+   "date": "2026-10-20T15:05:23-04:00",
+   "subject": "cpp-reference: publish from main only (drop the branch trigger)",
+   "kind": "altres",
+   "module": "ci",
+   "modules": [
+    "ci"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "10c0d7f25e1c4044df0ae4118f618e7ae18ca96f",
+   "short": "10c0d7f25",
+   "author": "bherbruck",
+   "date": "2026-10-20T15:02:56-04:00",
+   "subject": "cpp-reference: set SOLIDCORE_CPP_DIR in a step (no runner context in job env)",
+   "kind": "altres",
+   "module": "ci",
+   "modules": [
+    "ci"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "686badc29c945548805ce80c5e3ab4d934a91ff9",
+   "short": "686badc29",
+   "author": "bherbruck",
+   "date": "2026-10-20T15:02:38-04:00",
+   "subject": "TEMP: publish the C++ reference from this branch",
+   "kind": "altres",
+   "module": "ci",
+   "modules": [
+    "ci"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "49ca9d24750794cb702f7d8171452dd9facb21df",
+   "short": "49ca9d247",
+   "author": "bherbruck",
+   "date": "2026-10-20T15:02:38-04:00",
+   "subject": "ci: prebuilt C++ reference download + sccache for shims",
+   "kind": "chore",
+   "module": "ci",
+   "modules": [
+    "ci",
+    "difftest",
+    "docs",
+    "harness"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bb137d7db121e410a847fd77aea8354dd6727f57",
+   "short": "bb137d7db",
+   "author": "github-actions[bot]",
+   "date": "2026-10-20T18:23:37Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "e4a5a5f35236aa58574b54c9955ff1ea2fb08ac2",
+   "short": "e4a5a5f35",
+   "author": "bherbruck",
+   "date": "2026-10-20T13:50:01-04:00",
+   "subject": "batch: regenerate difftest reports",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0fd86adbb1242a6d8cec2fc6f160ca25760b97bd",
+   "short": "0fd86adbb",
+   "author": "bherbruck",
+   "date": "2026-10-20T13:36:30-04:00",
+   "subject": "site: cluster the dependency graph by module",
+   "kind": "altres",
+   "module": "site",
+   "modules": [
+    "docs",
+    "site"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "30767d731bb39bb80e2527eb115b3948cd25db4c",
+   "short": "30767d731",
+   "author": "bherbruck",
+   "date": "2026-10-20T13:07:13-04:00",
+   "subject": "batch: fit merge_p4's intersector adapter to #274",
+   "kind": "altres",
+   "module": "boolean",
+   "modules": [
+    "boolean"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "229a42dad7693c878ede6b64479f33b20e0de5b7",
+   "short": "229a42dad",
+   "author": "bherbruck",
+   "date": "2026-10-20T13:01:11-04:00",
+   "subject": "ci: run every job on Blacksmith, drop the self-hosted route",
+   "kind": "chore",
+   "module": "ci",
+   "modules": [
+    "ci"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "11376620ba08f884125ab1ec92c7547dd6dd568c",
+   "short": "11376620b",
+   "author": "bherbruck",
+   "date": "2026-10-20T13:00:45-04:00",
+   "subject": "site: dependency graph view",
+   "kind": "altres",
+   "module": "site",
+   "modules": [
+    "docs",
+    "site"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "cbd2479a4e4d1fa6acba5e521344f114d8ed5941",
+   "short": "cbd2479a4",
+   "author": "bherbruck",
+   "date": "2026-10-20T12:55:16-04:00",
+   "subject": "batch: renumber #257's CreateCornerBlend hang HANG-34 -> HANG-39",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "c073ff12d6e3a116c073ed4cc987236bf5c32ade",
+   "short": "c073ff12d",
+   "author": "bherbruck",
+   "date": "2026-10-20T12:52:14-04:00",
+   "subject": "site: per-module and per-unit progress charts",
+   "kind": "altres",
+   "module": "site",
+   "modules": [
+    "docs",
+    "site"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c38d8e91fbc8219f83c32a3c06efb5dc13c12e05",
+   "short": "c38d8e91f",
+   "author": "Christian Svensson",
+   "date": "2026-10-20T16:42:05Z",
+   "subject": "blend.fillet_executive_p3: wire corner p3 and solver p1 (review 5587721102)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "318befc371ed9be65513b8c59c2c6e8acc6064a5",
+   "short": "318befc37",
+   "author": "github-actions[bot]",
+   "date": "2026-10-20T16:06:20Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "7f261be6127d2d6760b0a59a5cc09c329a398605",
+   "short": "7f261be61",
+   "author": "Christian Svensson",
+   "date": "2026-10-20T14:48:34Z",
+   "subject": "blend.fillet_executive_p3: wire the merged blend.fillet_geom_p4 (MakeFaceBrep, InsertIntersectionTopology)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "862746f4fd3ba886708dd85d2876331a471aea63",
+   "short": "862746f4f",
+   "author": "github-actions[bot]",
+   "date": "2026-10-20T14:47:39Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "167dd35205363a3aca9a48099c1cb1d2e5fefdcc",
+   "short": "167dd3520",
+   "author": "Christian Svensson",
+   "date": "2026-10-20T13:52:55Z",
+   "subject": "topology.brep_p2: reports and plan notes for the #283 merge round",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "plan",
+    "topology"
+   ],
+   "files": 6,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "ed142cd95736d1a1b0082106c9f0c441d0aa89a5",
+   "short": "ed142cd95",
+   "author": "github-actions[bot]",
+   "date": "2026-10-20T13:36:55Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "e8919e9c46cd883a06a6840e7623bfb100f4a231",
+   "short": "e8919e9c4",
+   "author": "github-actions[bot]",
+   "date": "2026-10-20T13:21:06Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "2668e363803112243c520a8cdd0e39b977f07c3f",
+   "short": "2668e3638",
+   "author": "bherbruck",
+   "date": "2026-10-20T08:48:02-04:00",
+   "subject": "query.face_p4: review fixes (shim out-param start values, adversarial fixtures)",
+   "kind": "altres",
+   "module": "query",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "query"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "34d8d088ed7ae27ade9b2367913c50ac55398a99",
+   "short": "34d8d088e",
+   "author": "bherbruck",
+   "date": "2026-10-20T08:47:45-04:00",
+   "subject": "blend.fillet_corner_p3: compare SmEllipse::JoinWith in the 3x2 join (review fixes)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3132491e9f3eb92c786deff9206ca56d47c79a3c",
+   "short": "3132491e9",
+   "author": "github-actions[bot]",
+   "date": "2026-10-20T12:11:22Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "63997139c8319315d4807a403a2b42505b8519e0",
+   "short": "63997139c",
+   "author": "Christian Svensson",
+   "date": "2026-10-20T11:56:15Z",
+   "subject": "topology.brep_p2: pre-review fixes (3a6ea1df) and the merge round's test updates",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "boolean",
+    "plan",
+    "topology"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "69691df91c2fade7e97aea4e7e0ce7be5f6e9d29",
+   "short": "69691df91",
+   "author": "Christian Svensson",
+   "date": "2026-10-20T11:15:28Z",
+   "subject": "boolean.merge_p4 ArenaPair: implement #149's IntersectorBrep requirements",
+   "kind": "altres",
+   "module": "boolean",
+   "modules": [
+    "boolean"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "298e39b334dba66d37578748cb693b42f980f3d5",
+   "short": "298e39b33",
+   "author": "Christian Svensson",
+   "date": "2026-10-20T11:01:06Z",
+   "subject": "topology.brep_p2: wire the UNPORTED(topology.brep_p2) sites #283 brought, and face_box into query.face_p1",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "boolean",
+    "difftest",
+    "topology"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "aabae414d702ef985cd084feb7b24b1a2c21e820",
+   "short": "aabae414d",
+   "author": "github-actions[bot]",
+   "date": "2026-10-20T10:53:16Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "39ceb995791bf3c3ff8e5c0bbcc20ae567a05207",
+   "short": "39ceb9957",
+   "author": "github-actions[bot]",
+   "date": "2026-10-20T10:44:41Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "ef504a4a07d876a37f27779f9adce4ea27ab6853",
+   "short": "ef504a4a0",
+   "author": "github-actions[bot]",
+   "date": "2026-10-20T08:46:28Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "34d45a29ceb2947a48ae291d4dfbf41e5e31bf05",
+   "short": "34d45a29c",
+   "author": "Christian Svensson",
+   "date": "2026-10-20T08:45:27Z",
+   "subject": "blend.fillet_executive_p2: UB-209 (re-check M3) — tangent walk on a vertex without a corner",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9bf04d5b60d92cdc4823c2e12c9f4eece73f30c8",
+   "short": "9bf04d5b6",
+   "author": "Christian Svensson",
+   "date": "2026-10-20T08:30:59Z",
+   "subject": "blend.fillet_executive_p2: pre-review — retire UB-207 and HANG-36, document SetUp's Evaluate status",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "plan"
+   ],
+   "files": 5,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "3a6ea1df0ef3c9afad938afa45d74175b727d017",
+   "short": "3a6ea1df0",
+   "author": "Christian Svensson",
+   "date": "2026-10-20T08:05:58Z",
+   "subject": "curve.curve_p5 findings: fuzz00504, the cost of rebuilding the curve cache per call",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "f5cd9341699fe66c1628a0109ae9b735245a46cc",
+   "short": "f5cd93416",
+   "author": "Andreas",
+   "date": "2026-10-20T09:49:56+02:00",
+   "subject": "intersect.curve_class_p9: regenerate report after merging main",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ed40f92c639dfffc8d1bd1b4d5810f11adef304f",
+   "short": "ed40f92c6",
+   "author": "Christian Svensson",
+   "date": "2026-10-20T07:22:55Z",
+   "subject": "offset.offset_geometry_creation runner: import SmSurfOfRevolution faces exactly",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "b18c4d6f7af2bedf5d6cc355559cb32ac1a6379c",
+   "short": "b18c4d6f7",
+   "author": "Christian Svensson",
+   "date": "2026-10-20T06:40:59Z",
+   "subject": "blend.fillet_executive_p2: runner validates before the Rust side, edge maps as SmExtent1d(mn, mx); WR-208",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "da779c513ee274c7b33bc88d0cb57b2ec8d9823b",
+   "short": "da779c513",
+   "author": "Christian Svensson",
+   "date": "2026-10-20T08:15:46+02:00",
+   "subject": "topology.brep_p2: take LiftCurve's Curve in #263's fillet_geom p2/p4; keep main's runner text",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "blend",
+    "difftest"
+   ],
+   "files": 4,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "375017eba7420b709cbd9ebd9e368aa74fa549d4",
+   "short": "375017eba",
+   "author": "Christian Svensson",
+   "date": "2026-10-20T06:10:54Z",
+   "subject": "blend.fillet_executive_p2: partial (274 cases: 249 pass, 0 fail, 25 deferred)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f2be0a2c7f79f68938068212626e1c0fe67cb69d",
+   "short": "f2be0a2c7",
+   "author": "Christian Svensson",
+   "date": "2026-10-20T05:24:41Z",
+   "subject": "blend.fillet_executive_p2: difftest runner, required adapters for partial units, UB-206/207 + HANG-36",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "dd7c663420f1bed3c16600f21d5520da5f755c88",
+   "short": "dd7c66342",
+   "author": "Christian Svensson",
+   "date": "2026-10-20T06:13:06+02:00",
+   "subject": "topology.brep_p2: rustfmt the wired query_face_p2 and brep_p10 runners",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "95b823ed3a20fe1d51a9bc57c153383018bc1c9e",
+   "short": "95b823ed3",
+   "author": "github-actions[bot]",
+   "date": "2026-10-20T03:15:52Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "e2bb9fb94ff3985d377d089dc88989009ade54ef",
+   "short": "e2bb9fb94",
+   "author": "github-actions[bot]",
+   "date": "2026-10-20T03:11:08Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "0fb5bc7e527602d4b6c492258b42d451c1f42f5c",
+   "short": "0fb5bc7e5",
+   "author": "github-actions[bot]",
+   "date": "2026-10-20T02:59:24Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "c7de1a51f28ca1f72124811b96e0163944bd5195",
+   "short": "c7de1a51f",
+   "author": "Christian Svensson",
+   "date": "2026-10-20T02:37:49Z",
+   "subject": "blend.fillet_executive_p3: delegate DoStitching to heal.stitch_p2 (review 5580098710)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "863c5810abf258a42880f01bf1cd63d77b06a5c8",
+   "short": "863c5810a",
+   "author": "Christian Svensson",
+   "date": "2026-10-20T04:13:25+02:00",
+   "subject": "topology.brep_p2: re-run reports and plan notes for the review round",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 16,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "660b3270a9be167f03a099999269918902533b18",
+   "short": "660b3270a",
+   "author": "Christian Svensson",
+   "date": "2026-10-20T04:13:25+02:00",
+   "subject": "topology.brep_p2: fix the mismatches the wiring exposed",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "blend",
+    "difftest",
+    "offset",
+    "surface",
+    "topology"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "685608d27e54eb7924a5ec50313c98be4eb599b6",
+   "short": "685608d27",
+   "author": "Christian Svensson",
+   "date": "2026-10-20T04:13:11+02:00",
+   "subject": "topology.brep_p2: wire the remaining UNPORTED(topology.brep_p2) sites on main",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "blend",
+    "boolean",
+    "difftest",
+    "heal",
+    "offset",
+    "topology"
+   ],
+   "files": 17,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6af1decc5cb917c74dbae7db05ab3426c8a94ab1",
+   "short": "6af1decc5",
+   "author": "github-actions[bot]",
+   "date": "2026-10-20T01:26:50Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "d78b172bfd44630856bc50c7468dc6429265ff8b",
+   "short": "d78b172bf",
+   "author": "Karl Von Richter",
+   "date": "2026-10-20T11:11:37+10:00",
+   "subject": "solidcore-ffi: link libc++ on OpenBSD too (review nit)",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fa1dda618db4854a1c24d4d4cd7a75db311eedd4",
+   "short": "fa1dda618",
+   "author": "bherbruck",
+   "date": "2026-10-19T20:57:21-04:00",
+   "subject": "reports: refresh blend.fillet_standard_solver_p1 deferral labels after merging main",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "378c33e8e30e3dc449a02e123859f96b60961165",
+   "short": "378c33e8e",
+   "author": "github-actions[bot]",
+   "date": "2026-10-20T00:07:20Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "b3db3388a9d374b20bc645a7ea8f4aba2b61a5af",
+   "short": "b3db3388a",
+   "author": "bherbruck",
+   "date": "2026-10-19T19:57:43-04:00",
+   "subject": "blend.fillet_corner_p3: dispatch the 3x2 curve join on the curve kind",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "987bbb48e396aa8467e1b9a0cff45c3c63c8062b",
+   "short": "987bbb48e",
+   "author": "bherbruck",
+   "date": "2026-10-19T19:49:11-04:00",
+   "subject": "blend.fillet_geom_p4: review fixes (nx2 NULL surface, MakeFaceBrep SmApproxTol3d)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "plan"
+   ],
+   "files": 5,
+   "watch": [
+    "corner-blend"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "16fa89aceb62d56bb769d683e75c3f350e4de78e",
+   "short": "16fa89ace",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T23:32:18Z",
+   "subject": "curve: pin gap-free coverage of the half circle in the coincidence test",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ff296df77be12b5901fc5bf5de6e4199e3199d76",
+   "short": "ff296df77",
+   "author": "Logan Night",
+   "date": "2026-10-19T17:15:53-06:00",
+   "subject": "pseudo_box: a NaN corner separates the boxes, as upstream's loop says (#59)",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "72083806c5eb26ab09f98abe0dce21fd0226aa46",
+   "short": "72083806c",
+   "author": "Karl Von Richter",
+   "date": "2026-10-20T09:15:02+10:00",
+   "subject": "plan/findings.md: link issues #276 and #277",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "06af72868ff225b0620f1371c5d43e24e9c052ad",
+   "short": "06af72868",
+   "author": "Christian Svensson",
+   "date": "2026-10-20T01:12:42+02:00",
+   "subject": "curve: test reused cache slots against a fresh slot per drop",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bac6ca620ceb13457f93b853f33e37bb1343a6a6",
+   "short": "bac6ca620",
+   "author": "Karl Von Richter",
+   "date": "2026-10-20T09:11:34+10:00",
+   "subject": "fix: ignore the trim-domain conversion status like upstream",
+   "kind": "fix",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan",
+    "surface"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2c527c9e7f21f302e1ee7e9d21e7af881c83e554",
+   "short": "2c527c9e7",
+   "author": "bherbruck",
+   "date": "2026-10-19T18:15:20-04:00",
+   "subject": "blend.fillet_standard_solver_p1: crSurface1 names the solver's own rail (review fixes)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4c25786d91e3a3355e9022a0aacb54a744cd5998",
+   "short": "4c25786d9",
+   "author": "Christian Svensson",
+   "date": "2026-10-20T00:15:04+02:00",
+   "subject": "blend.fillet_executive_p2: law constructors and SmTemporaryRadiusChange on H1D's FilletLaw (38c5677c)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e9f48a0274d4f834605213107426b368fc231539",
+   "short": "e9f48a027",
+   "author": "Christian Svensson",
+   "date": "2026-10-20T00:13:51+02:00",
+   "subject": "blend.fillet_executive_p2: drop the local FilletLaw field extension (H1D's #260 commit 38c5677c provides it)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "69b61036bd2082e3dcdcae6784e917e2c1e533e6",
+   "short": "69b61036b",
+   "author": "bherbruck",
+   "date": "2026-10-19T18:13:39-04:00",
+   "subject": "blend.fillet_geom_p2: partial (219 passed, 131 deferred), MakeFaceBrep NotifyEnv after merging main, report",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "83e4cb8ad82a01e8a977519ea8dd4a8dd8d1a545",
+   "short": "83e4cb8ad",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T23:58:30+02:00",
+   "subject": "blend.fillet_executive_p2: WIP p2.rs compile fixes (held until the #260 base is settled)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1c44b1c430a4c65fac17dd858914f57748748e7d",
+   "short": "1c44b1c43",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T23:58:21+02:00",
+   "subject": "blend.fillet_executive_p2: shim, FFI binding and constructed fixtures",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 3,
+   "watch": [
+    "variable-radius"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "5b2083e76c36fad041cf108022d5e015bedf01f8",
+   "short": "5b2083e76",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T23:50:59+02:00",
+   "subject": "reports: regenerate after merging main with batch #269",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "38c5677cfeaea85e05b9821beb5bc44fb2b217ce",
+   "short": "38c5677cf",
+   "author": "Artem Sushchev",
+   "date": "2026-10-19T23:42:04+02:00",
+   "subject": "FilletLaw: add the edge map, edge arc length and cached law extension (m_vEdgeMap, m_dEdgeArcLength, m_pExtendedLaw)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "blend",
+    "difftest"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "cb1bba9656ce1003d84c1dc1daf92efc84722ec5",
+   "short": "cb1bba965",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T23:39:25+02:00",
+   "subject": "boolean.topology_intersector_p2: reflow fix_gaps' errors doc (review minor)",
+   "kind": "altres",
+   "module": "boolean",
+   "modules": [
+    "boolean"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d6cf03ff416fcd16c51a36fdc37f664a317cb76a",
+   "short": "d6cf03ff4",
+   "author": "denelson1-dot",
+   "date": "2026-10-19T17:17:23-04:00",
+   "subject": "reports: regenerate query.face_p1 (the merge commit carried an empty file)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "67cb455ea32f52aed47e0d72bd5a7b6d9e7b1ff5",
+   "short": "67cb455ea",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T22:58:14+02:00",
+   "subject": "boolean.topology_intersector_p2: wire CombineCoincidentVertices to topology.brep_p5",
+   "kind": "altres",
+   "module": "boolean",
+   "modules": [
+    "boolean",
+    "difftest",
+    "plan"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4ea1182f853106fcb4f329129e1b3efdcb53b4ae",
+   "short": "4ea1182f8",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T22:52:27+02:00",
+   "subject": "blend.fillet_executive_p2: WIP port (laws, SetFilletParameters, surface filleting, edge map, smooth sequences, temporary radius change)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "02b28cd11f79635d0f05c5125abb966a13303870",
+   "short": "02b28cd11",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T22:52:14+02:00",
+   "subject": "topology.brep_p2: wire stubs into #259's face_p3, brep_p5, brep_p9, curve_class_p4",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "blend",
+    "difftest",
+    "topology"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6d03876766f2166e3062fbf25444a842ef818482",
+   "short": "6d0387676",
+   "author": "bherbruck",
+   "date": "2026-10-19T16:42:45-04:00",
+   "subject": "blend.fillet_geom_p2: clippy in runner tests",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "826cbd27a1ae23efb4f0eca011e39253e0a3cc00",
+   "short": "826cbd27a",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T21:47:47+02:00",
+   "subject": "topology.brep_p7: square-loop MakeShellVertex in the infinite region; report and notes after #259",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "26f067ba66508e45c266a8936f532eecbf23c0ad",
+   "short": "26f067ba6",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T21:45:09+02:00",
+   "subject": "reports: regenerate intersect.topology_solver_p2 on the merged tree",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9fc24e05ae894e298e4c95c7d3ba8574f54bacd8",
+   "short": "9fc24e05a",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T21:30:19+02:00",
+   "subject": "blend.fillet_executive_p3: require adapters for newly ported batch calls",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c0abfe4bfc7a463fd49b200184873071ca5a2367",
+   "short": "c0abfe4bf",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T21:13:04+02:00",
+   "subject": "Consume forwarded stitching option arguments",
+   "kind": "altres",
+   "module": "boolean",
+   "modules": [
+    "boolean"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "144eb3ee4ea73e545091794716a7f462802591f1",
+   "short": "144eb3ee4",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T21:11:12+02:00",
+   "subject": "blend.fillet_executive_p3: record passing shared-corner boundary checks",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c81a008deb80d9fe29a5efd92e5c00d600ffe984",
+   "short": "c81a008de",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T20:55:11+02:00",
+   "subject": "Adapt component-copy notifications and wire landed brep_p5 calls",
+   "kind": "altres",
+   "module": "boolean",
+   "modules": [
+    "boolean",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e25ad8cfeddc4531669904ea5c21086265a1ca95",
+   "short": "e25ad8cfe",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T20:50:43+02:00",
+   "subject": "topology.brep_p1: renumber the corner-blend null dereference UB-184 -> UB-195",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 5,
+   "watch": [
+    "corner-blend"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "4b6bbd609f986aa0e5364c3996d6730ee579250d",
+   "short": "4b6bbd609",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T20:50:18+02:00",
+   "subject": "Renumber BooleanLists surface slicing note to WR-196",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "boolean",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b2e91161b91c5e85e315ac228bb3adc01f26aa68",
+   "short": "b2e91161b",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T20:49:03+02:00",
+   "subject": "boolean.topology_intersector_p1: regression fixtures for main's fuzz differs",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a22c3214c71bc47287d6795c2b11e999a59e196b",
+   "short": "a22c3214c",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T20:34:28+02:00",
+   "subject": "blend.fillet_executive_p3: reuse shared corner type and record corner view ownership",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ff36989e3e830f4feb2f2376ce3fc98349e828b8",
+   "short": "ff36989e3",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T20:23:38+02:00",
+   "subject": "Record final verification after merging latest main",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "576549142495dadd5a5b388652f905f2f7d5b39a",
+   "short": "576549142",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T20:14:15+02:00",
+   "subject": "docs: record ready checks and three detected adapter mutants",
+   "kind": "docs",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "8f31fc6ef9cea5cbcf7d14d334a86bb62e67dda0",
+   "short": "8f31fc6ef",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T20:07:26+02:00",
+   "subject": "test: detect manifold adapter map and void-state mutants",
+   "kind": "test",
+   "module": "boolean",
+   "modules": [
+    "boolean"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4a987837d2af3ab3bf5fc04b09eb52edd8f2b964",
+   "short": "4a987837d",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T19:51:58+02:00",
+   "subject": "reports: regenerate topology.brep_p10 after merging 46ddc4ff",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7a0b6a90e22368ed9f20870f7795b8d4b5298bf4",
+   "short": "7a0b6a90e",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T19:39:59+02:00",
+   "subject": "Document latent shim identity reuse and correct FFI test count",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "eb232f08b6901949ec852c069e2362bab7a58140",
+   "short": "eb232f08b",
+   "author": "bherbruck",
+   "date": "2026-10-19T13:31:29-04:00",
+   "subject": "blend.fillet_geom_p2: port sm_SrfSrfIntersection, the fillet vertex calculators, CalcRailRailInterpolation, UpdateSplitFace",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "harness"
+   ],
+   "files": 13,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0ceda887ec63222e4d0d7a5c00152de31559c0d5",
+   "short": "0ceda887e",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T19:21:23+02:00",
+   "subject": "docs: record concrete adapter coverage and all correctness gates",
+   "kind": "docs",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "b5c236bd8b1b007169d78c9ba1528584697c6848",
+   "short": "b5c236bd8",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T19:17:44+02:00",
+   "subject": "blend.fillet_executive_p3: record final readiness gates on fillet intersector main",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "226ae311b70ad77472e9233f957f647708295045",
+   "short": "226ae311b",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T18:43:47+02:00",
+   "subject": "fix: retain the error-state regression test arena id import",
+   "kind": "fix",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3355ac6fea29fbda9fb08f6ff95e5bd92e164dab",
+   "short": "3355ac6fe",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T18:36:17+02:00",
+   "subject": "fix: preserve harness error conversion for the kernel adapter",
+   "kind": "fix",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "31067ca597e5ae46354eaf95381b05f819350463",
+   "short": "31067ca59",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T18:31:19+02:00",
+   "subject": "fix: wire manifold Boolean kernel adapter to shared merge stages",
+   "kind": "fix",
+   "module": "boolean",
+   "modules": [
+    "boolean",
+    "difftest",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c42dd5de480bf22be048f9ae63ae2ec1da77c6d8",
+   "short": "c42dd5de4",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T18:26:40+02:00",
+   "subject": "blend.fillet_executive_p3: defer missing runner virtual stages explicitly",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f0957fc528519059b744d5b379e499407e611d64",
+   "short": "f0957fc52",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T18:19:44+02:00",
+   "subject": "Record complete Opus-fix verification and 213-unit audit",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c658c82c439f4dbf8d1cb2d26d3addbc23e1a20a",
+   "short": "c658c82c4",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T18:03:33+02:00",
+   "subject": "Record actual Rust projection parity and Opus gate results",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1dafa81df3b282e6f8fb78975afdbe638310c3f6",
+   "short": "1dafa81df",
+   "author": "Andreas",
+   "date": "2026-10-19T17:47:41+02:00",
+   "subject": "fix: intersect.curve_class_p9 shim computes cache vertex UVs with the cache attached",
+   "kind": "fix",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "13b833714b957af1ef5a10fb46b94d93d1c8355a",
+   "short": "13b833714",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T17:47:05+02:00",
+   "subject": "Retain destructor cleanup and reject retired fixture handles",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fc4915329873800b906ea7de7073b7389c2d81bd",
+   "short": "fc4915329",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T17:44:18+02:00",
+   "subject": "test: record merge_p4 error-state comparisons and review gates",
+   "kind": "test",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "612c663114f5fc8cd66cfe740fcf3578fb52f185",
+   "short": "612c66311",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T17:42:44+02:00",
+   "subject": "blend.fillet_executive_p3: record Opus fix validation and complete ownership audit",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4eff88752c919756dbf35b44786f386e12a22c0b",
+   "short": "4eff88752",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T17:42:43+02:00",
+   "subject": "Normalize imported surface owners for canonical Piecewise access",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ea2e732cf750e9da36bc1814450b47e07c3f196b",
+   "short": "ea2e732cf",
+   "author": "Andreas",
+   "date": "2026-10-19T17:41:10+02:00",
+   "subject": "nlib.basis_basic: ffi doc wording (clippy), regenerated report",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8fdfa2c8bc179342b38880e95984f5caeb5b0bb6",
+   "short": "8fdfa2c8b",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T17:38:58+02:00",
+   "subject": "topology.brep_p10: MergeCurvesOnSurface calls topology::brep::p2 (review of 0258c83a)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "plan",
+    "topology"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f1a0854dbe2a6435655886e9199e15124456c883",
+   "short": "f1a0854db",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T17:36:14+02:00",
+   "subject": "boolean.topology_intersector_p2: follow-up review minors (docs only)",
+   "kind": "altres",
+   "module": "boolean",
+   "modules": [
+    "boolean",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f35b624dd6df1466856937ff0b257a668a5ee0b8",
+   "short": "f35b624dd",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T17:24:36+02:00",
+   "subject": "Clarify limited merge result projection and remaining engine integration",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5c66d0172d18c0907b19aace973f932799e32046",
+   "short": "5c66d0172",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T17:15:55+02:00",
+   "subject": "Compare actual Rust merge results and wire fixture adapter state",
+   "kind": "altres",
+   "module": "boolean",
+   "modules": [
+    "boolean",
+    "difftest"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6b4cd3bd188a2eae8d9eb691b8cbe22fc4f8703b",
+   "short": "6b4cd3bd1",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T17:15:55+02:00",
+   "subject": "Leave unrelated include formatting to the owning units",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "10bc4c7467597485b5e7cda9e06efeff68fcce1d",
+   "short": "10bc4c746",
+   "author": "bherbruck",
+   "date": "2026-10-19T11:15:34-04:00",
+   "subject": "blend.fillet_corner_p3: review fixes (out-of-bounds analytic user surfaces, cpp clippy)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "49886ec083d01a84061dcf0f50cd07f9eefec83e",
+   "short": "49886ec08",
+   "author": "denelson1-dot",
+   "date": "2026-10-19T11:13:02-04:00",
+   "subject": "query.face_p1: re-review nits (notes, GetScaledZero marker, curve input range)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "geom",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "76adb32a73f96e0a0d14f02c78e44fc1d28bd6a6",
+   "short": "76adb32a7",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T17:10:20+02:00",
+   "subject": "plan/modules.toml: dated correction of brep_p7's cone_p2 deferral count",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4e30faac3e7fbb4da464a484cf77581b7f82fec8",
+   "short": "4e30faac3",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T17:09:44+02:00",
+   "subject": "topology.brep_p7: report and notes after merging #130; drop unused import",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "10e3932e0cc5cd0ceda4bed4f25dad2f6b58be07",
+   "short": "10e3932e0",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T17:09:43+02:00",
+   "subject": "topology.brep_p2 follow-up: wire the new brep_p2 back-edges and ConnectIntervals",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "heal",
+    "plan",
+    "topology"
+   ],
+   "files": 7,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "699fe3213398592ab7c32efce18c94b132d81da2",
+   "short": "699fe3213",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T17:09:38+02:00",
+   "subject": "blend.fillet_executive_p3: satisfy dispatch docs lint and record 19 tests",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d49d6469d5baa077200c38a82ac05e75392dfc95",
+   "short": "d49d6469d",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T17:09:29+02:00",
+   "subject": "fix: validate merge_p4 snapshot counts without unchecked indexing",
+   "kind": "fix",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d22095e6060ca1e3414fe60d63e940f829de0d69",
+   "short": "d22095e60",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T16:56:21+02:00",
+   "subject": "blend.fillet_executive_p3: fix Opus notification and dispatch findings",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "90eb75bc8103416883208bfa6ee906e8de2e2281",
+   "short": "90eb75bc8",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T16:53:33+02:00",
+   "subject": "fix: compare merge_p4 post-state on native error statuses",
+   "kind": "fix",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "93f2f434715b646dd301ec112c78d75014a223f0",
+   "short": "93f2f4347",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T16:53:33+02:00",
+   "subject": "fix: preserve merge_p4 caller logic and cleanup on errors",
+   "kind": "fix",
+   "module": "plan",
+   "modules": [
+    "boolean",
+    "difftest",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b2bbee7070385fb05c19c697f2a587c9ecd6f5d8",
+   "short": "b2bbee707",
+   "author": "bherbruck",
+   "date": "2026-10-19T10:29:48-04:00",
+   "subject": "blend.fillet_corner_p3: partial (412 passed, 281 deferred), co-port notes, findings, report",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a26e14a34e98970ba1666e2a9fa90e95347caaed",
+   "short": "a26e14a34",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T16:29:44+02:00",
+   "subject": "boolean.topology_intersector_p2: wire SmBrep::GetFaces to topology.brep_p1",
+   "kind": "altres",
+   "module": "boolean",
+   "modules": [
+    "boolean",
+    "difftest",
+    "plan"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "570243cae42de28379bfeb820f09fd07677a89a1",
+   "short": "570243cae",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T16:10:31+02:00",
+   "subject": "boolean.topology_intersector_p1: notes prefix for #227's follow-ups (review nit)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ad13d823566e8b8f338053f32cd6f8d505193825",
+   "short": "ad13d8235",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T16:10:15+02:00",
+   "subject": "curve: test that pre-filled coincidence cache slots match fresh ones (#224 review)",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "922868143192062670ddbda2cd93150578a83e4f",
+   "short": "922868143",
+   "author": "Andreas",
+   "date": "2026-10-19T16:02:26+02:00",
+   "subject": "fix: nlib.basis_basic fuzz panics and differs",
+   "kind": "fix",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "72f060a33b135cbe74f6ef779a03302425620b94",
+   "short": "72f060a33",
+   "author": "bherbruck",
+   "date": "2026-10-19T09:56:03-04:00",
+   "subject": "blend.fillet_corner_p3: port Create, CalcCornerGeom, the corner patch builders and the Nx2 adjustments",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "harness"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4e10a2520fd5ca37be5e4907f007208cdd0dc81f",
+   "short": "4e10a2520",
+   "author": "bherbruck",
+   "date": "2026-10-19T09:17:39-04:00",
+   "subject": "blend.fillet_geom_p4: review fixes",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5f29527218e050ea7d1b03fe0433fb1e73879dfa",
+   "short": "5f2952721",
+   "author": "bherbruck",
+   "date": "2026-10-19T08:37:15-04:00",
+   "subject": "blend.fillet_geom_p4: difftest report",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4b504cc0055cb0dde24e1f8daa4f65989495697a",
+   "short": "4b504cc00",
+   "author": "denelson1-dot",
+   "date": "2026-10-19T08:25:07-04:00",
+   "subject": "query.face_p1: review fixes (rustfmt, point-test NOTE, dispatch gaps, notes)",
+   "kind": "altres",
+   "module": "query",
+   "modules": [
+    "boolean",
+    "difftest",
+    "geom",
+    "harness",
+    "intersect",
+    "plan",
+    "query",
+    "surface"
+   ],
+   "files": 11,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a77d80058d98faecac22bb1caeaff2b3425880e9",
+   "short": "a77d80058",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T14:21:37+02:00",
+   "subject": "Record complete merged-main verification for merge_p3 review fixes",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b3e50a385c1c2aa620be8ce6ace7caaa87f62840",
+   "short": "b3e50a385",
+   "author": "bherbruck",
+   "date": "2026-10-19T08:13:20-04:00",
+   "subject": "blend.fillet_geom_p4: port sm_CreateUVCurve, the fillet vertex calculators, GetRailIndexOfVertex, MakeFaceBrep, InsertIntersectionTopology and CalcBlendingGeom",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 13,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "989e55cecde3f45d70d37fd6ced632557fdaad05",
+   "short": "989e55cec",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T13:40:40+02:00",
+   "subject": "Format included runner files touched by the cone_p2 main merge",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "599e5e95f4c652f3176b51717eadacffdc4f4406",
+   "short": "599e5e95f",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T13:39:57+02:00",
+   "subject": "topology.brep_p1: Codex review of eab47303 (drop brep_p7 wiring; exact HANG-34 guard; two-B-rep blend comparison)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [
+    "hang-cancel",
+    "corner-blend"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "a7518ff80998f6585df4ba316b11f3167d8afed8",
+   "short": "a7518ff80",
+   "author": "bherbruck",
+   "date": "2026-10-19T07:34:03-04:00",
+   "subject": "query.face_p3: review fixes (healer handles, bisector seam out-params, ReSet wiring)",
+   "kind": "altres",
+   "module": "query",
+   "modules": [
+    "difftest",
+    "harness",
+    "heal",
+    "plan",
+    "query",
+    "topology"
+   ],
+   "files": 16,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "a88c62afc16a6bae5708650ad62d375d79a1cd56",
+   "short": "a88c62afc",
+   "author": "Andreas",
+   "date": "2026-10-19T13:31:49+02:00",
+   "subject": "blend.fillet_solver_p1: notes and report after round 3",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2ab2c7b01f1e6ebb0b4cfeb8ae75563abbdb321d",
+   "short": "2ab2c7b01",
+   "author": "bherbruck",
+   "date": "2026-10-19T07:23:16-04:00",
+   "subject": "primitive.api_primitives: review fixes (torus guard, adversarial fixtures, docs)",
+   "kind": "altres",
+   "module": "primitive",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "primitive"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "31ceb7d8179f82470c5510aa419edbdd62ea2733",
+   "short": "31ceb7d81",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T13:22:25+02:00",
+   "subject": "Record parity and guard validation after merge_p3 review fixes",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0182e82378d67e3b9ab05be5017bd829cb2827fe",
+   "short": "0182e8237",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T13:10:07+02:00",
+   "subject": "Honor native B-rep construction and narrow piecewise lifetime guard",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "boolean",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c6867919c33a72c9896a0b17077fe163e4601ac0",
+   "short": "c6867919c",
+   "author": "denelson1-dot",
+   "date": "2026-10-19T07:09:50-04:00",
+   "subject": "blend.fillet_geom_p1: read the solver through FilletSolver after merging #192",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "03817fd244a660097d9969431860359847e52482",
+   "short": "03817fd24",
+   "author": "Andreas",
+   "date": "2026-10-19T12:13:55+02:00",
+   "subject": "blend.fillet_solver_p1: clippy type_complexity in tests",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "cbfc8dcc54bd3ad59d5b7f26b7979e844398c0f2",
+   "short": "cbfc8dcc5",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T12:11:49+02:00",
+   "subject": "blend.fillet_executive_p3: record clean 211-unit review gates",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6a92116224e7361f7a3b223a26f620a6b509c88b",
+   "short": "6a9211622",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T12:08:51+02:00",
+   "subject": "boolean.merge_p4: record final post-review verification",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "0c6745a724d6088e1e8f365284148586d9d763fd",
+   "short": "0c6745a72",
+   "author": "Andreas",
+   "date": "2026-10-19T12:04:51+02:00",
+   "subject": "blend.fillet_solver_p1: FilletSolverOps::setup_offset_extension hook (virtual SetupOffsetExtension), fmt",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "183c96b71de696dc7337871e686756fca031ad5d",
+   "short": "183c96b71",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T12:04:23+02:00",
+   "subject": "Record complete main-integrated verification for merge_p3",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "89b9efcb35a580dbd941b84a2b1b511f03b70ced",
+   "short": "89b9efcb3",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T11:49:40+02:00",
+   "subject": "blend.fillet_executive_p3: record constructor-domain parity and review validation",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "67d33f3ced4875cc8a00c880da6396a6d9d20069",
+   "short": "67d33f3ce",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T11:47:26+02:00",
+   "subject": "boolean.merge_p4: share live environment with inverse-transform cleanup",
+   "kind": "altres",
+   "module": "boolean",
+   "modules": [
+    "boolean",
+    "difftest",
+    "plan"
+   ],
+   "files": 5,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "c9e0dec092420e4d46e0843b30464416549f53b0",
+   "short": "c9e0dec09",
+   "author": "Andreas",
+   "date": "2026-10-19T11:43:52+02:00",
+   "subject": "blend.fillet_solver_p1: unit tests for both SmFindClippedRadiusEFO::Evaluate exits, rail-trim zone tolerance notes and findings",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "86d5637bc17ff667030656ea5844339612bf5148",
+   "short": "86d5637bc",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T11:18:12+02:00",
+   "subject": "blend.fillet_executive_p3: fix active branches and live executive hook state",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "boolean",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1d11d07fa27823266cd82cfb46c60ad65081b4eb",
+   "short": "1d11d07fa",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T11:08:27+02:00",
+   "subject": "Record merge_p3 partial parity and verification coverage",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "415092be077f1947c6fe924b480ca7e9acb07c2e",
+   "short": "415092be0",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T11:05:11+02:00",
+   "subject": "boolean.merge_p4: retain transform scope and forward shared attributes",
+   "kind": "altres",
+   "module": "boolean",
+   "modules": [
+    "boolean",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 9,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "13147d2825ed4f609df1973129b52e8ee2e88304",
+   "short": "13147d282",
+   "author": "Andreas",
+   "date": "2026-10-19T11:00:34+02:00",
+   "subject": "blend.fillet_solver_p1: compare SmFindClippedRadiusEFO::Evaluate, port sm_TestSideEdgeConvexity's loop, trim rails with the rail's zone tolerance (WIP)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "harness"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f7cc4f9b150bffa050d5d352a2fc38c5ca60cb74",
+   "short": "f7cc4f9b1",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T10:56:54+02:00",
+   "subject": "boolean.merge_p4: fix native fixture ownership and component snapshots",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0dab6f115d3f290d07b3026657e5eaffb454f9a5",
+   "short": "0dab6f115",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T10:55:16+02:00",
+   "subject": "Guard upstream piecewise imprint operand lifetime defect UB-190",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e2429bfc7c3f1f2b0474a34cf4caef58900e4391",
+   "short": "e2429bfc7",
+   "author": "bherbruck",
+   "date": "2026-10-19T04:49:07-04:00",
+   "subject": "blend.fillet_standard_solver_p1: review fixes (bounded runner sizes, plane domains as given, reversed-plane guard, UB-186/187)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 7,
+   "watch": [
+    "loft-skin"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "1e86a980b5cabaadf2f09f5c635746576fbb804a",
+   "short": "1e86a980b",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T10:44:41+02:00",
+   "subject": "Reject fixture-only export mode as a merge test operation",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "boolean",
+    "difftest"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f59c6366b86903e62d27f75f98b9cda18e54962f",
+   "short": "f59c6366b",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T10:35:34+02:00",
+   "subject": "topology.brep_p1: bherbruck's review of #145 (follow-up); UB-184, HANG-34, HANG-32",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "curve",
+    "difftest",
+    "geom",
+    "harness",
+    "intersect",
+    "offset",
+    "plan",
+    "surface",
+    "topology"
+   ],
+   "files": 23,
+   "watch": [
+    "hang-cancel",
+    "corner-blend",
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "a6851af896bd3c41a578e7f39aa4eedf333f3c09",
+   "short": "a6851af89",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T10:35:09+02:00",
+   "subject": "Audit fold operand identity and stabilize native fixture context",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "boolean",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "992e06818f540e0cc7a01362fdd6ece6f6a7c2fc",
+   "short": "992e06818",
+   "author": "chris",
+   "date": "2026-10-19T01:33:10-07:00",
+   "subject": "docs: record vertexuse extreme-coordinate fuzz timeouts",
+   "kind": "docs",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "53d02805ee56b81d29a06fe601df417170c1e162",
+   "short": "53d02805e",
+   "author": "Andreas",
+   "date": "2026-10-19T10:30:06+02:00",
+   "subject": "blend.fillet_solver_p1: rustfmt the include!d runner and FFI files",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "37578c0275aea1f968de0dd747f9f7f5bb630bbe",
+   "short": "37578c027",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T10:21:12+02:00",
+   "subject": "Preserve nullable tree results and audit merge adapter guards",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "boolean",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bb84f1a567003725a2645933da0ced38f62a7c13",
+   "short": "bb84f1a56",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T10:01:29+02:00",
+   "subject": "blend.fillet_executive_p3: record verified partial coverage",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "3e12f4c68b6ad366bd0368b2a24cf0651882f813",
+   "short": "3e12f4c68",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T09:57:29+02:00",
+   "subject": "boolean.merge_p4: record completed correctness gates",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "f9f66f4988dd09082d857b9204e48c9ac461b498",
+   "short": "f9f66f498",
+   "author": "chris",
+   "date": "2026-10-19T00:52:03-07:00",
+   "subject": "fix: reject empty surface knots in vertexuse runner",
+   "kind": "fix",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0cae0db180e17d3ebdf0b38c8c38f307b2ef7985",
+   "short": "0cae0db18",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T09:43:30+02:00",
+   "subject": "boolean.merge_p4: wire merged CopyFaces implementation",
+   "kind": "altres",
+   "module": "boolean",
+   "modules": [
+    "boolean",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "37b50700a528393fe83c0ba76482cd1039c71189",
+   "short": "37b50700a",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T09:35:06+02:00",
+   "subject": "topology.brep_p7: reset the infinite region to the effective region-list head",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d73b6bd11f649e6a376ef546606a8cf750f15bea",
+   "short": "d73b6bd11",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T09:28:13+02:00",
+   "subject": "Add native parity fixtures and tree guards for merge_p3",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b09c0f4adff694e01874d3f14d3cdd24c140422d",
+   "short": "b09c0f4ad",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T09:26:04+02:00",
+   "subject": "Port merge_p3 orchestration and wire list/tree API calls",
+   "kind": "altres",
+   "module": "boolean",
+   "modules": [
+    "boolean",
+    "difftest",
+    "plan"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "abe7a3717807a96d6ff4614c287e274a97396f07",
+   "short": "abe7a3717",
+   "author": "bherbruck",
+   "date": "2026-10-19T03:25:48-04:00",
+   "subject": "query.face_p3: re-run after merging main; query.api_queries report and notes",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "37e20d0e74d567fac93b173af28573ec67ec549f",
+   "short": "37e20d0e7",
+   "author": "bherbruck",
+   "date": "2026-10-19T03:21:49-04:00",
+   "subject": "blend.fillet_standard_solver_p1: merge origin/main, re-verify",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fd405f9a19ab6f4af6cb8e6aa3c2eb0921284079",
+   "short": "fd405f9a1",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T09:09:39+02:00",
+   "subject": "boolean.merge_p4: record dependency-limited validation and callgraph ownership",
+   "kind": "altres",
+   "module": "boolean",
+   "modules": [
+    "boolean",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "77d4a223ad9019a40d96a79907257569e7ffe55a",
+   "short": "77d4a223a",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T09:05:53+02:00",
+   "subject": "blend.fillet_executive_p3: format complete comment observations",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5c6a681a9d73a1fe7fd737697242d695a18b81a0",
+   "short": "5c6a681a9",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T08:53:37+02:00",
+   "subject": "blend.fillet_executive_p3: add native parity harness and renumber UB-185",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 11,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3f19c45a2faf14ed161ac02c2a8cf9fdc692afca",
+   "short": "3f19c45a2",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T08:44:32+02:00",
+   "subject": "topology.brep_p7: report and notes after wiring topology.brep_p1",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "10f2fda9e5fec2ce05605598e9d2d78d7c1d79c5",
+   "short": "10f2fda9e",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T08:44:32+02:00",
+   "subject": "topology.brep_p7: the runner's new B-reps own their infinite region, as new SmBrep()",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "topology"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "43fbb0bb6f2910562d4c0a41063921f427303fcc",
+   "short": "43fbb0bb6",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T08:44:32+02:00",
+   "subject": "topology.brep_p7: wire topology.brep_p1 (GetInfiniteRegion, the region-list Remove and the infinite-region reset)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "60cf6a5f6d2508cdd8a417ad2370d0748b40d85e",
+   "short": "60cf6a5f6",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T07:32:47+02:00",
+   "subject": "blend.fillet_executive_p3: port executive control flow and dependency contracts",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "plan"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "519958a94a3d4b54666856bcfa441c54d6540050",
+   "short": "519958a94",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T07:23:45+02:00",
+   "subject": "boolean.merge_p4: add native oracle and explicit dependency-limited fixtures",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fa520b24316cf614554f3e9146b981fd6e0408b4",
+   "short": "fa520b243",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T07:23:45+02:00",
+   "subject": "boolean.merge_p4: port manifold Boolean orchestration and dependency adapters",
+   "kind": "altres",
+   "module": "boolean",
+   "modules": [
+    "boolean"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "528ca9b4c1c87479fd5f9e5f5cf39c3af3a9f90a",
+   "short": "528ca9b4c",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T06:56:20+02:00",
+   "subject": "boolean.topology_intersector_p2: review nits from #203",
+   "kind": "altres",
+   "module": "boolean",
+   "modules": [
+    "boolean",
+    "difftest"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0a0bd4836392500823db97eb4a2ed1090e453d0f",
+   "short": "0a0bd4836",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T06:50:15+02:00",
+   "subject": "heal.stitch_p1: bherbruck's optional review nits on #196 (follow-up)",
+   "kind": "altres",
+   "module": "heal",
+   "modules": [
+    "harness",
+    "heal",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "1f21f3da90811fd8047c727157ffc8bb0b3a9115",
+   "short": "1f21f3da9",
+   "author": "Christian Svensson",
+   "date": "2026-10-19T06:21:18+02:00",
+   "subject": "topology.brep_p2: follow-up to the review of 87c57c02 (three nits)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "topology"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e7ea8caf0281e4e7eae7df2dbb0e38ab637ef24d",
+   "short": "e7ea8caf0",
+   "author": "bherbruck",
+   "date": "2026-10-19T00:02:39-04:00",
+   "subject": "heal.face_props: SetProps_Stage3 propagates NO_CURVE_HANDLES; heal_data runner handles name the bisector's objects",
+   "kind": "altres",
+   "module": "heal",
+   "modules": [
+    "difftest",
+    "heal"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c71f5f87d359687e98451e3b5a304b131ae14da6",
+   "short": "c71f5f87d",
+   "author": "bherbruck",
+   "date": "2026-10-18T22:54:58-04:00",
+   "subject": "query.face_p3: shim export appends shell state; re-run after main merge",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6a53b91bbfa2542200d5a4b643a29f69c2ac2b2f",
+   "short": "6a53b91bb",
+   "author": "denelson1-dot",
+   "date": "2026-10-18T18:31:51-04:00",
+   "subject": "query.face_p1 runner: fix clippy lints under the cpp feature",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "57424bce5d18d55983043b6ffe5f6cf27eb90b84",
+   "short": "57424bce5",
+   "author": "Karl Von Richter",
+   "date": "2026-10-19T08:29:19+10:00",
+   "subject": "fix: build the C++ difftest harness with clang on macOS (#240)",
+   "kind": "fix",
+   "module": "harness",
+   "modules": [
+    "harness"
+   ],
+   "files": 3,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "3e02676ec30d30171d508e2b398c4a7e154b025d",
+   "short": "3e02676ec",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T22:13:01+02:00",
+   "subject": "topology.brep_p2 runner test: review 5dd01816 minors",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5b0b3f443098ebfb484d995c8f299831b1bdf733",
+   "short": "5b0b3f443",
+   "author": "denelson1-dot",
+   "date": "2026-10-18T15:50:46-04:00",
+   "subject": "query.face_p1: status partial (2224 cases, 1535 pass, 689 deferred); re-run wired units",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5dd01816ca4154d280ef4523764999483c811804",
+   "short": "5dd01816c",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T21:49:25+02:00",
+   "subject": "topology.brep_p2: review f3fe6094 M1' (rational corners in the HANG-28 guard)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 5,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "7a93010b4adb4f1552c9aa3410ba3b432c780c2a",
+   "short": "7a93010b4",
+   "author": "Andreas",
+   "date": "2026-10-18T21:27:49+02:00",
+   "subject": "blend.fillet_solver_p1: sphere rollover fixture, probe notes in findings, notes numbers",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0b2fb956d434eddc640f0096e50df87d541b5ad5",
+   "short": "0b2fb956d",
+   "author": "Andreas",
+   "date": "2026-10-18T21:24:02+02:00",
+   "subject": "blend.fillet_solver_p1: clippy indexing in SurfValues runner, regenerate report",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "14779a6467f69b95967d1cc31db8cc480748eb21",
+   "short": "14779a646",
+   "author": "denelson1-dot",
+   "date": "2026-10-18T15:23:17-04:00",
+   "subject": "port(query.face_p1): face/shell/region boxes, Point3DClassify, EdgeCurveOnClassify",
+   "kind": "port",
+   "module": "query",
+   "modules": [
+    "difftest",
+    "harness",
+    "mass",
+    "plan",
+    "query",
+    "topology"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f3fe6094fc463fb6193d5462939a224cf461c426",
+   "short": "f3fe6094f",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T20:44:10+02:00",
+   "subject": "topology.brep_p2: HANG-28 doc, exact timeout counts of the bound measurement",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "5ad9367a53919bb83b9f94be426473f2aaf58aa7",
+   "short": "5ad9367a5",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T20:43:30+02:00",
+   "subject": "topology.brep_p2: review d12f88e9 M1 (HANG-28 bound 1e154), intersector note",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 5,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "bbacabb83382954a8d88a2e4babb37ebb486d83c",
+   "short": "bbacabb83",
+   "author": "Andreas",
+   "date": "2026-10-18T20:42:10+02:00",
+   "subject": "blend.fillet_solver_p1: modules.toml notes after the main merge (rollover compared, offset surface and sphere wired)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7b854ee8223f1e4cae341697d5b4559c86db3a32",
+   "short": "7b854ee82",
+   "author": "Andreas",
+   "date": "2026-10-18T20:41:46+02:00",
+   "subject": "blend.fillet_solver_p1: rollover fixture on cone.smb (SmallBox.smb does not read upstream)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d12f88e934d9b37e2c9feaa99e9440dae4581d81",
+   "short": "d12f88e93",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T19:05:50+02:00",
+   "subject": "topology.brep_p2: wire shell / edgeuse_p3 sites, p6 Notify back-edge, Cursor switch",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "boolean",
+    "difftest",
+    "harness",
+    "heal",
+    "plan",
+    "topology"
+   ],
+   "files": 25,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f28e168d9f4f8cc659409754ceeefca3e19d34be",
+   "short": "f28e168d9",
+   "author": "Andreas",
+   "date": "2026-10-18T14:58:27+02:00",
+   "subject": "WIP: blend.fillet_solver_p1: wire SmEdgeuse::EvaluateBinormal (topology.edgeuse_p3) in sm_TestManifoldTangentRollover; add rollover difftest op",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "blend",
+    "difftest",
+    "harness"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bb5adc08bcb74d7358ec6a702e40ef47b3425ab8",
+   "short": "bb5adc08b",
+   "author": "Andreas",
+   "date": "2026-10-18T14:42:19+02:00",
+   "subject": "blend.fillet_solver_p1: follow main's is_planar(k, ..) and SurfaceKind::OffsetSurface",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "surface"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "731134659337e9da511d35d86c4f7b20e31898d0",
+   "short": "731134659",
+   "author": "Christian Svensson",
+   "date": "2026-10-18T05:52:35+02:00",
+   "subject": "topology.brep_p2: review 7d4506ba S1, intersector tolerance export, HANG-28",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 13,
+   "watch": [
+    "hang-cancel",
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "406234aeac135cba478675a5dd48c2d633131828",
+   "short": "406234aea",
+   "author": "Andreas",
+   "date": "2026-10-18T00:44:10+02:00",
+   "subject": "WIP: blend.fillet_solver_p1: wire the surface.offset_surface and surface.sphere stubs",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "blend",
+    "difftest",
+    "harness"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6542f8cb199a1a34439bce674b476ae99b9877e8",
+   "short": "6542f8cb1",
+   "author": "Andreas",
+   "date": "2026-10-18T00:02:06+02:00",
+   "subject": "difftest: bound fuzzed Jacobian sizes and empty knot vectors in the runners",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3ad6b6b375bfedb80839c5f11108a6bf685e0a38",
+   "short": "3ad6b6b37",
+   "author": "Andreas",
+   "date": "2026-10-17T23:53:51+02:00",
+   "subject": "WIP: #192 review round, not gated",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7d4506bacb3c9aecf9f2963d15510e0ec6a31913",
+   "short": "7d4506bac",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T23:46:25+02:00",
+   "subject": "rustfmt heal.heal_data_p2's runner (lesson 25)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4b6704af9ac5018b13b23cf1ef70aa03b4b797cc",
+   "short": "4b6704af9",
+   "author": "Andreas",
+   "date": "2026-10-17T23:15:57+02:00",
+   "subject": "blend.fillet_solver_p1: review round 2 (UNPORTED overrides, analytic cone branch, full split bodies)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a0299e838af4ef5cc2fdf8d5f3aa845032cd6707",
+   "short": "a0299e838",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T21:52:15+02:00",
+   "subject": "topology.brep_p2: guard Mate against HANG-9's infinite extension distance",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "b77fea427b71758746228dd0a8562adec10c03e2",
+   "short": "b77fea427",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T19:09:36+02:00",
+   "subject": "rustfmt the include!-ed unit files this PR touches (lesson 25)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "41f688be9d65c5d01f642271719abdbc82229fda",
+   "short": "41f688be9",
+   "author": "Andreas",
+   "date": "2026-10-17T17:17:59+02:00",
+   "subject": "blend.fillet_solver_p1: regenerate difftest report (325 cases, 293 pass, 32 deferred)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8b966d09c9d807952b720769fe0d7c0c417dccd4",
+   "short": "8b966d09c",
+   "author": "Andreas",
+   "date": "2026-10-17T16:44:08+02:00",
+   "subject": "blend.fillet_solver_p1: clippy (slice fill)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "af8b188e00674bea7f9d880e6779ad8f891eef56",
+   "short": "af8b188e0",
+   "author": "Andreas",
+   "date": "2026-10-17T16:42:13+02:00",
+   "subject": "blend.fillet_solver_p1: clippy fixes in the runner",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3540c3a594a960ffc6fdb17262e967019b877243",
+   "short": "3540c3a59",
+   "author": "Andreas",
+   "date": "2026-10-17T16:39:07+02:00",
+   "subject": "blend.fillet_solver_p1: guard rF[0]/J[0][0..2] of a loading sphere solve; notes",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f03ec6b7c2ce060bbec4aa57c8dca784c63fb749",
+   "short": "f03ec6b7c",
+   "author": "Andreas",
+   "date": "2026-10-17T16:35:40+02:00",
+   "subject": "blend.fillet_solver_p1: static shim TU (file-static helpers, local ENFO/EFO), B-rep queries, FSG/tol/LoadInitialValues ops, loading sphere/surface-values cases, pinch/transposed-cylinder generators (WIP)",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "715da9c6528aed2572501cd4daea424d683c852f",
+   "short": "715da9c65",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T16:21:52+02:00",
+   "subject": "topology.brep_p2: wire ProtoTopologyManager::new's tolerance fallback",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "plan",
+    "query",
+    "topology"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "62fbc06825da01fa2783e78b40f2c86d6fb32577",
+   "short": "62fbc0682",
+   "author": "Andreas",
+   "date": "2026-10-17T15:52:22+02:00",
+   "subject": "blend.fillet_solver_p1: review round WIP (LoadJacobian in/out offsets, one FilletSolver base, FSG dispatch, sm_TrimRail, trait virtuals, deterministic shim LoadJacobian)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b40de8599034f34c3098b5f8bdade5afd4c1d494",
+   "short": "b40de8599",
+   "author": "Andreas",
+   "date": "2026-10-17T15:28:34+02:00",
+   "subject": "blend.fillet_solver_p1: clippy fixes (full gate clean)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f538ad23f8a9e3d46fae01e36812da73cebf2819",
+   "short": "f538ad23f",
+   "author": "Andreas",
+   "date": "2026-10-17T14:55:07+02:00",
+   "subject": "blend.fillet_solver_p1: shim key lookup skips deleted surfaces; partial (195 pass, 10 deferred)",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7f3331dd71397a684e12d56e60d168143712defe",
+   "short": "7f3331dd7",
+   "author": "Andreas",
+   "date": "2026-10-17T14:36:19+02:00",
+   "subject": "blend.fillet_solver_p1: wire SmTol::GetAngTolRad(SmFilletSolver*), runner fixes",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "geom"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4fdc1bea266acd9835960de61424c5166401ba12",
+   "short": "4fdc1bea2",
+   "author": "Andreas",
+   "date": "2026-10-17T14:15:48+02:00",
+   "subject": "blend.fillet_solver_p1: WIP shim, FFI wrapper, difftest runner and fixtures",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "harness"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ba399be2484980cf7995f281a9f8bb0f48e19a45",
+   "short": "ba399be24",
+   "author": "Andreas",
+   "date": "2026-10-17T14:02:28+02:00",
+   "subject": "blend.fillet_solver_p1: WIP Rust port of the SmFilletSolver base",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c309ffda2242620ca360de73c604fd56a357f862",
+   "short": "c309ffda2",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T13:14:22+02:00",
+   "subject": "topology.brep_p2: post-review fixes (lesson 22 orient decode, #151 trait API, heal re-runs)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "heal",
+    "plan",
+    "topology"
+   ],
+   "files": 13,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2892d993208a70c8b4977c29a0c1041b0e5f0ce4",
+   "short": "2892d9932",
+   "author": "Christian Svensson",
+   "date": "2026-10-17T01:02:13+02:00",
+   "subject": "topology.brep_p2: re-review notes (real coverage, true blockers, HANG-18); drop duplicate UB-136",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "harness",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "5cd1b056989729bb98395b74a1bcbdf2929b02da",
+   "short": "5cd1b0569",
+   "author": "bherbruck",
+   "date": "2026-10-16T18:03:49-04:00",
+   "subject": "blend.fillet_standard_solver_p1: fixtures, unit tests, plan notes; partial",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "plan"
+   ],
+   "files": 7,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "c5c36ba1a9e5fb605b07cf1bd9b0fa6f2da4623d",
+   "short": "c5c36ba1a",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T23:50:54+02:00",
+   "subject": "topology.brep_p2: wire AreCoincidentMaybe (intersect.curve_class_p7, #65); regenerate reports",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "topology"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bee2526f79bfaba661f08fc031408adf4aa2050e",
+   "short": "bee2526f7",
+   "author": "bherbruck",
+   "date": "2026-10-16T17:46:32-04:00",
+   "subject": "blend.fillet_standard_solver_p1: port, shim, FFI and difftest runner (WIP)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "harness",
+    "nurbs"
+   ],
+   "files": 8,
+   "watch": [
+    "variable-radius"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "06360f88508da7f5461affbd8e0156887497e5ce",
+   "short": "06360f885",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T22:28:59+02:00",
+   "subject": "topology.brep_p2: pre-review fixes (HANG-18 guard, edgeuse_p2 step-off wiring, Sector guard, Stale caches, MergeIntervals faces)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "harness",
+    "intersect",
+    "plan",
+    "query",
+    "topology"
+   ],
+   "files": 11,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "41980c8572be74d5e27a4f6aafe5bda257572ac0",
+   "short": "41980c857",
+   "author": "bherbruck",
+   "date": "2026-10-16T13:46:28-04:00",
+   "subject": "primitive.api_primitives: partial (1253 pass, 512 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "37c4b3ab3540cebb672de1d59db40cf8dab13b51",
+   "short": "37c4b3ab3",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T19:29:47+02:00",
+   "subject": "topology.brep_p2: wire MergeIntervals to intersect.curve_class_p5 (#150); follow main's CurveOnClassifyObjects + ClassGeometry bound",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "topology"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f694723535263f7a21cbce45d1b68cc2142c6eb4",
+   "short": "f69472353",
+   "author": "bherbruck",
+   "date": "2026-10-16T13:20:58-04:00",
+   "subject": "primitive.api_primitives: port SmApiPrimitives.cpp with shim, ffi, runner and fixtures",
+   "kind": "altres",
+   "module": "primitive",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "primitive"
+   ],
+   "files": 9,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "37d4a2a68ac0f9e27134b529898aaf7ea7b92427",
+   "short": "37d4a2a68",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T18:32:41+02:00",
+   "subject": "topology.brep_p2: pass the new surface handle argument of global_point_solve (main #118)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "13e3dcf739c12d01bec3902b391f5da528899d9f",
+   "short": "13e3dcf73",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T18:11:24+02:00",
+   "subject": "topology.brep_p2: adapt to find_sector_of_face Option<RegionId>; refresh reports and notes",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "plan",
+    "topology"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5935f219390326df84f786fd65771e289399d2bb",
+   "short": "5935f2193",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T17:37:24+02:00",
+   "subject": "topology.brep_p2: wire remaining back-edges, review-lesson fixes",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness",
+    "heal",
+    "mass",
+    "plan",
+    "query",
+    "topology"
+   ],
+   "files": 13,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5d93c899522d87cdb453b8cf2427550523c2e28d",
+   "short": "5d93c8995",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T15:31:05+02:00",
+   "subject": "plan: topology.brep_p2 partial (1390 cases, 738 pass, 652 deferred); topology.edge counts after the Notify wiring",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7ba29cf09624b33d250c9f6b7b4faa5a7a130f71",
+   "short": "7ba29cf09",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T14:34:02+02:00",
+   "subject": "topology.brep_p2: 400 generated cases, tiny/huge scales",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "25b2d72fe4f13d5a6e58dbadb81cf130daeed467",
+   "short": "25b2d72fe",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T14:24:02+02:00",
+   "subject": "topology.brep_p2: difftest shim, FFI, runner and fixtures",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "harness",
+    "topology"
+   ],
+   "files": 12,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fdc30a5fb28a824f306857c88a265e338bc16f7a",
+   "short": "fdc30a5fb",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T13:26:44+02:00",
+   "subject": "topology.brep_p2: restore topology.rs (bad sync), refresh topology.edge report",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "topology"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e2758775c24534a29a05eb4b65c6e4e9be9ee1d5",
+   "short": "e2758775c",
+   "author": "Christian Svensson",
+   "date": "2026-10-16T13:19:12+02:00",
+   "subject": "topology.brep_p2: WIP port of the 23 SmBrep functions",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "topology"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "15ba2fbaccd885f74c8cbd0e52038bffb0add522",
+   "short": "15ba2fbac",
+   "author": "bherbruck",
+   "date": "2026-10-16T01:31:19-04:00",
+   "subject": "query.face_p3: status partial (801 cases, 371 pass, 430 deferred), heal.face_props green, findings, WR-97, reports",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5ef40954160cf07649ada6e953cb174da4210c70",
+   "short": "5ef409541",
+   "author": "bherbruck",
+   "date": "2026-10-16T01:15:51-04:00",
+   "subject": "query.face_p3: reuse the co-ported SmFace::GetEdges, unit tests",
+   "kind": "altres",
+   "module": "query",
+   "modules": [
+    "query",
+    "topology"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8479960b5abe73ace602e02a4adc395f6ddb4ada",
+   "short": "8479960b5",
+   "author": "bherbruck",
+   "date": "2026-10-16T01:09:36-04:00",
+   "subject": "query.face_p3: port CalculateTightBoundingBox, sm_FaceClassifyUVLine, sms_FindAndClassifyLoopBisector, SectorClassifyCurveOn with shim, FFI, runner and fixtures (WIP)",
+   "kind": "altres",
+   "module": "query",
+   "modules": [
+    "difftest",
+    "harness",
+    "heal",
+    "query",
+    "topology"
+   ],
+   "files": 13,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6eefb0d45c6ce82692bb163083632dc75ebe46e4",
+   "short": "6eefb0d45",
+   "author": "bherbruck",
+   "date": "2026-10-15T21:10:19-04:00",
+   "subject": "query.face_p4: plan status partial, findings",
+   "kind": "altres",
+   "module": "query",
+   "modules": [
+    "plan",
+    "query"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2eb5b55edfe7d27b22e126f96e6085d0f5237248",
+   "short": "2eb5b55ed",
+   "author": "bherbruck",
+   "date": "2026-10-15T21:09:22-04:00",
+   "subject": "query.face_p4: port SmFace::ClassifyLoops with shim, FFI, runner and fixtures",
+   "kind": "altres",
+   "module": "query",
+   "modules": [
+    "difftest",
+    "harness",
+    "heal",
+    "query"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5d0022751ce3bc3d8e854a9d77b2024094ec027c",
+   "short": "5d0022751",
+   "author": "lillith",
+   "date": "2026-10-15T16:38:23+02:00",
+   "subject": "wip(query.face_p1): preserve native fixture state and wire curve lifting",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "difftest",
+    "harness",
+    "intersect",
+    "query"
+   ],
+   "files": 12,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d800eacc45d74a497af47d684735fda29d2a5bf2",
+   "short": "d800eacc4",
+   "author": "lillith",
+   "date": "2026-10-15T13:59:55+02:00",
+   "subject": "port: prepare face classification and shell-region boxes",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "query"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "60ad95f37558aeae1a5605325bbbba0de58c0f7b",
+   "short": "60ad95f37",
+   "author": "lillith",
+   "date": "2026-10-15T13:26:42+02:00",
+   "subject": "port: prepare checked curve API and differential fixtures",
+   "kind": "port",
+   "module": "query",
+   "modules": [
+    "difftest",
+    "harness",
+    "query"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  }
+ ],
+ "prs": [
+  {
+   "number": 129,
+   "title": "port: query.face_p4",
+   "branch": "unit/query.face_p4",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-20T12:05:50-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 132,
+   "title": "port: query.face_p3",
+   "branch": "unit/query.face_p3",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-20T08:10:57-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 160,
+   "title": "port: primitive.api_primitives",
+   "branch": "unit/primitive.api_primitives",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-19T20:06:55-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 168,
+   "title": "port: blend.fillet_standard_solver_p1",
+   "branch": "unit/blend.fillet_standard_solver_p1",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-19T21:26:25-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 241,
+   "title": "fix: build the C++ difftest harness with clang on macOS",
+   "branch": "fix/macos-clang-build-240",
+   "owner": "Karl-VonRichter",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-20T13:00:34-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 252,
+   "title": "port: blend.fillet_geom_p4",
+   "branch": "unit/blend.fillet_geom_p4",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-20T09:36:33-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 256,
+   "title": "port: blend.fillet_corner_p3",
+   "branch": "unit/blend.fillet_corner_p3",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-20T10:47:18-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 263,
+   "title": "port: blend.fillet_geom_p2",
+   "branch": "unit/blend.fillet_geom_p2",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-19T22:59:05-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 283,
+   "title": "batch: land 5 reviewed-clean contributor PRs",
+   "branch": "batch/clean-2026-10-20",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-20T06:44:15-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 297,
+   "title": "site: per-area and per-unit progress charts",
+   "branch": "site/area-charts",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-20T12:52:36-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 299,
+   "title": "site: dependency graph view",
+   "branch": "site/graph-view",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-20T13:01:10-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 300,
+   "title": "ci: run every job on Blacksmith, drop the self-hosted route",
+   "branch": "ci/all-blacksmith",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-20T13:33:56-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "chore",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 302,
+   "title": "site: cluster the dependency graph by module",
+   "branch": "site/graph-clusters",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-20T13:36:47-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 305,
+   "title": "batch: land 6 reviewed-clean contributor PRs",
+   "branch": "batch/clean-2026-10-20b",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-20T14:23:06-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 312,
+   "title": "ci: prebuilt C++ reference download + sccache for shims",
+   "branch": "ci/cpp-prebuilt",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-20T16:44:12-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "chore",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 314,
+   "title": "difftest: run --green across N worker processes (--jobs)",
+   "branch": "difftest-jobs",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-20T16:22:52-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "difftest",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 315,
+   "title": "batch: land 1 reviewed-clean contributor PR",
+   "branch": "batch/clean-2026-10-20c",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-20T16:44:34-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 330,
+   "title": "batch: land 3 reviewed-clean contributor PRs",
+   "branch": "batch/clean-2026-10-20e",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-20T19:14:30-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  }
+ ],
+ "watch": [
+  {
+   "id": "setback",
+   "label": "Cantonades setback",
+   "cases": [
+    "C05",
+    "D01",
+    "D02"
+   ],
+   "hits": []
+  },
+  {
+   "id": "mixed-corner",
+   "label": "Cantonades mixtes",
+   "cases": [
+    "D01",
+    "D02"
+   ],
+   "hits": []
+  },
+  {
+   "id": "ball-patch",
+   "label": "Ball patch (cantonades esfèriques)",
+   "cases": [
+    "C05",
+    "D11"
+   ],
+   "hits": []
+  },
+  {
+   "id": "variable-radius",
+   "label": "Radi variable / lleis de radi",
+   "cases": [
+    "D07"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "1c44b1c43",
+     "text": "blend.fillet_executive_p2: shim, FFI binding and constructed fixtures",
+     "url": "https://github.com/tangency-labs/solidcore/commit/1c44b1c430a4c65fac17dd858914f57748748e7d",
+     "matched": "CreateFilletBrep), SmTemporaryRadiusChange on a constant- or variable-radius"
+    },
+    {
+     "source": "commit",
+     "ref": "bee2526f7",
+     "text": "blend.fillet_standard_solver_p1: port, shim, FFI and difftest runner (WIP)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/bee2526f79bfaba661f08fc031408adf4aa2050e",
+     "matched": "constant distance, curve based, variable radius, surface/surface"
+    }
+   ]
+  },
+  {
+   "id": "round-larger-than-wall",
+   "label": "Arrodoniment més gran que la paret",
+   "cases": [
+    "D03",
+    "D08"
+   ],
+   "hits": []
+  },
+  {
+   "id": "shell-rounded",
+   "label": "Buidat de cossos arrodonits",
+   "cases": [
+    "D11",
+    "D14"
+   ],
+   "hits": []
+  },
+  {
+   "id": "hang-cancel",
+   "label": "Penjaments, temps límit i cancel·lació",
+   "cases": [
+    "C03",
+    "D02",
+    "D11"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "cbd2479a4",
+     "text": "batch: renumber #257's CreateCornerBlend hang HANG-34 -> HANG-39",
+     "url": "https://github.com/tangency-labs/solidcore/commit/cbd2479a4e4d1fa6acba5e521344f114d8ed5941"
+    },
+    {
+     "source": "commit",
+     "ref": "9bf04d5b6",
+     "text": "blend.fillet_executive_p2: pre-review — retire UB-207 and HANG-36, document SetUp's Evaluate status",
+     "url": "https://github.com/tangency-labs/solidcore/commit/9bf04d5b60d92cdc4823c2e12c9f4eece73f30c8"
+    },
+    {
+     "source": "commit",
+     "ref": "3a6ea1df0",
+     "text": "curve.curve_p5 findings: fuzz00504, the cost of rebuilding the curve cache per call",
+     "url": "https://github.com/tangency-labs/solidcore/commit/3a6ea1df0ef3c9afad938afa45d74175b727d017",
+     "matched": "offset.offset_geometry_creation --fuzz 2000 reports 1 timeout (fuzz00504,"
+    },
+    {
+     "source": "commit",
+     "ref": "ed40f92c6",
+     "text": "offset.offset_geometry_creation runner: import SmSurfOfRevolution faces exactly",
+     "url": "https://github.com/tangency-labs/solidcore/commit/ed40f92c639dfffc8d1bd1b4d5810f11adef304f",
+     "matched": "fixture's put_curve does; the non-local FaceuseOffset HANG-26 stop is keyed"
+    },
+    {
+     "source": "commit",
+     "ref": "f2be0a2c7",
+     "text": "blend.fillet_executive_p2: difftest runner, required adapters for partial units, UB-206/207 + HANG-36",
+     "url": "https://github.com/tangency-labs/solidcore/commit/f2be0a2c7f79f68938068212626e1c0fe67cb69d"
+    },
+    {
+     "source": "commit",
+     "ref": "599e5e95f",
+     "text": "topology.brep_p1: Codex review of eab47303 (drop brep_p7 wiring; exact HANG-34 guard; two-B-rep blend comparison)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/599e5e95f4c652f3176b51717eadacffdc4f4406"
+    },
+    {
+     "source": "commit",
+     "ref": "f59c6366b",
+     "text": "topology.brep_p1: bherbruck's review of #145 (follow-up); UB-184, HANG-34, HANG-32",
+     "url": "https://github.com/tangency-labs/solidcore/commit/f59c6366b86903e62d27f75f98b9cda18e54962f"
+    },
+    {
+     "source": "commit",
+     "ref": "992e06818",
+     "text": "docs: record vertexuse extreme-coordinate fuzz timeouts",
+     "url": "https://github.com/tangency-labs/solidcore/commit/992e06818f540e0cc7a01362fdd6ece6f6a7c2fc"
+    },
+    {
+     "source": "commit",
+     "ref": "5dd01816c",
+     "text": "topology.brep_p2: review f3fe6094 M1' (rational corners in the HANG-28 guard)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/5dd01816ca4154d280ef4523764999483c811804"
+    },
+    {
+     "source": "commit",
+     "ref": "f3fe6094f",
+     "text": "topology.brep_p2: HANG-28 doc, exact timeout counts of the bound measurement",
+     "url": "https://github.com/tangency-labs/solidcore/commit/f3fe6094fc463fb6193d5462939a224cf461c426"
+    },
+    {
+     "source": "commit",
+     "ref": "5ad9367a5",
+     "text": "topology.brep_p2: review d12f88e9 M1 (HANG-28 bound 1e154), intersector note",
+     "url": "https://github.com/tangency-labs/solidcore/commit/5ad9367a53919bb83b9f94be426473f2aaf58aa7"
+    },
+    {
+     "source": "commit",
+     "ref": "731134659",
+     "text": "topology.brep_p2: review 7d4506ba S1, intersector tolerance export, HANG-28",
+     "url": "https://github.com/tangency-labs/solidcore/commit/731134659337e9da511d35d86c4f7b20e31898d0"
+    },
+    {
+     "source": "commit",
+     "ref": "a0299e838",
+     "text": "topology.brep_p2: guard Mate against HANG-9's infinite extension distance",
+     "url": "https://github.com/tangency-labs/solidcore/commit/a0299e838af4ef5cc2fdf8d5f3aa845032cd6707"
+    },
+    {
+     "source": "commit",
+     "ref": "2892d9932",
+     "text": "topology.brep_p2: re-review notes (real coverage, true blockers, HANG-18); drop duplicate UB-136",
+     "url": "https://github.com/tangency-labs/solidcore/commit/2892d993208a70c8b4977c29a0c1041b0e5f0ce4"
+    },
+    {
+     "source": "commit",
+     "ref": "5cd1b0569",
+     "text": "blend.fillet_standard_solver_p1: fixtures, unit tests, plan notes; partial",
+     "url": "https://github.com/tangency-labs/solidcore/commit/5cd1b056989729bb98395b74a1bcbdf2929b02da",
+     "matched": "(UB-158, UB-159, HANG-16)."
+    },
+    {
+     "source": "commit",
+     "ref": "06360f885",
+     "text": "topology.brep_p2: pre-review fixes (HANG-18 guard, edgeuse_p2 step-off wiring, Sector guard, Stale caches, MergeIntervals faces)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/06360f88508da7f5461affbd8e0156887497e5ce"
+    },
+    {
+     "source": "commit",
+     "ref": "f69472353",
+     "text": "primitive.api_primitives: port SmApiPrimitives.cpp with shim, ffi, runner and fixtures",
+     "url": "https://github.com/tangency-labs/solidcore/commit/f694723535263f7a21cbce45d1b68cc2142c6eb4",
+     "matched": "SmPrimitiveCreation / SmBrep units. Upstream crashes and hangs found by"
+    }
+   ]
+  },
+  {
+   "id": "corner-blend",
+   "label": "Corner blend (CreateCornerBlend / Coons)",
+   "cases": [
+    "C05",
+    "D02"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "987bbb48e",
+     "text": "blend.fillet_geom_p4: review fixes (nx2 NULL surface, MakeFaceBrep SmApproxTol3d)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/987bbb48e396aa8467e1b9a0cff45c3c63c8062b",
+     "matched": "sSSITol *= 10 is a plain multiply; corner-blend base surface"
+    },
+    {
+     "source": "commit",
+     "ref": "e25ad8cfe",
+     "text": "topology.brep_p1: renumber the corner-blend null dereference UB-184 -> UB-195",
+     "url": "https://github.com/tangency-labs/solidcore/commit/e25ad8cfeddc4531669904ea5c21086265a1ca95"
+    },
+    {
+     "source": "commit",
+     "ref": "599e5e95f",
+     "text": "topology.brep_p1: Codex review of eab47303 (drop brep_p7 wiring; exact HANG-34 guard; two-B-rep blend comparison)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/599e5e95f4c652f3176b51717eadacffdc4f4406",
+     "matched": "unconditional in the FFI and runner. The shim's corner-blend replay now"
+    },
+    {
+     "source": "commit",
+     "ref": "f59c6366b",
+     "text": "topology.brep_p1: bherbruck's review of #145 (follow-up); UB-184, HANG-34, HANG-32",
+     "url": "https://github.com/tangency-labs/solidcore/commit/f59c6366b86903e62d27f75f98b9cda18e54962f",
+     "matched": "- 30 crv_on_surf_face corner-blend fixtures: 25 pass, 5 defer."
+    }
+   ]
+  },
+  {
+   "id": "chamfer",
+   "label": "Xamfrans",
+   "cases": [],
+   "hits": []
+  },
+  {
+   "id": "loft-skin",
+   "label": "Loft / skin (superfícies B-spline arrodonides)",
+   "cases": [
+    "D14"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "e2429bfc7",
+     "text": "blend.fillet_standard_solver_p1: review fixes (bounded runner sizes, plane domains as given, reversed-plane guard, UB-186/187)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/e2429bfc7c3f1f2b0474a34cf4caef58900e4391",
+     "matched": "- plan: UB-186 (circular G1 skin retry, not detected by the shim), UB-187,"
+    }
+   ]
+  },
+  {
+   "id": "step",
+   "label": "STEP (import / export)",
+   "cases": [
+    "anada i tornada STEP"
+   ],
+   "hits": []
+  },
+  {
+   "id": "platform",
+   "label": "Plataformes (wasm, iOS, ARM)",
+   "cases": [
+    "iPad"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "167dd3520",
+     "text": "topology.brep_p2: reports and plan notes for the #283 merge round",
+     "url": "https://github.com/tangency-labs/solidcore/commit/167dd35205363a3aca9a48099c1cb1d2e5fefdcc",
+     "matched": "clippy x2, wasm, cargo test -p solidcore 1507 ok; all 232 units failed=0;"
+    },
+    {
+     "source": "commit",
+     "ref": "da779c513",
+     "text": "topology.brep_p2: take LiftCurve's Curve in #263's fillet_geom p2/p4; keep main's runner text",
+     "url": "https://github.com/tangency-labs/solidcore/commit/da779c513ee274c7b33bc88d0cb57b2ec8d9823b",
+     "matched": "Gate (main through 95b823ed): fmt, clippy x2, wasm, solidcore tests 1481 ok;"
+    },
+    {
+     "source": "commit",
+     "ref": "576549142",
+     "text": "docs: record ready checks and three detected adapter mutants",
+     "url": "https://github.com/tangency-labs/solidcore/commit/576549142495dadd5a5b388652f905f2f7d5b39a",
+     "matched": "All three review-requested mutants fail and were restored. Latest main 154853c7 is merged; workspace checks, clippy x2, 1414 tests, wasm and p4 difftest/fuzz/perturb pass. No non-null comparison is cl"
+    },
+    {
+     "source": "commit",
+     "ref": "0ceda887e",
+     "text": "docs: record concrete adapter coverage and all correctness gates",
+     "url": "https://github.com/tangency-labs/solidcore/commit/0ceda887ec63222e4d0d7a5c00152de31559c0d5",
+     "matched": "Record the canonical shared-state extensions and unchanged null-error-only Boolean coverage. All 1412 kernel tests, touched difftests, fuzz 2000, perturb 30/30, wasm, full-leak Valgrind and the 214-un"
+    },
+    {
+     "source": "commit",
+     "ref": "fc4915329",
+     "text": "test: record merge_p4 error-state comparisons and review gates",
+     "url": "https://github.com/tangency-labs/solidcore/commit/fc4915329873800b906ea7de7073b7389c2d81bd",
+     "matched": "Record 311 cases with 30 null-error state matches, 278 query.brep deferrals and 3 native constructor rejections. No Boolean success path is compared. Fuzz 2000, perturb 30/30, 405-case full-leak Valgr"
+    },
+    {
+     "source": "commit",
+     "ref": "10e3932e0",
+     "text": "topology.brep_p2 follow-up: wire the new brep_p2 back-edges and ConnectIntervals",
+     "url": "https://github.com/tangency-labs/solidcore/commit/10e3932e0cc5cd0ceda4bed4f25dad2f6b58be07",
+     "matched": "cargo test 1400, runner tests, wasm pass."
+    },
+    {
+     "source": "commit",
+     "ref": "6a9211622",
+     "text": "boolean.merge_p4: record final post-review verification",
+     "url": "https://github.com/tangency-labs/solidcore/commit/6a92116224e7361f7a3b223a26f620a6b509c88b",
+     "matched": "rustfmt, checks, clippy x2, 1386 tests, wasm, both affected difftests,"
+    },
+    {
+     "source": "commit",
+     "ref": "67d33f3ce",
+     "text": "boolean.merge_p4: share live environment with inverse-transform cleanup",
+     "url": "https://github.com/tangency-labs/solidcore/commit/67d33f3ced4875cc8a00c880da6396a6d9d20069",
+     "matched": "After merging main #85, format, checks, clippy x2, 1386 tests, wasm,"
+    },
+    {
+     "source": "commit",
+     "ref": "415092be0",
+     "text": "boolean.merge_p4: retain transform scope and forward shared attributes",
+     "url": "https://github.com/tangency-labs/solidcore/commit/415092be077f1947c6fe924b480ca7e9acb07c2e",
+     "matched": "compared. Post-fix checks, clippy x2, 1381 tests, wasm, both affected units,"
+    },
+    {
+     "source": "commit",
+     "ref": "f59c6366b",
+     "text": "topology.brep_p1: bherbruck's review of #145 (follow-up); UB-184, HANG-34, HANG-32",
+     "url": "https://github.com/tangency-labs/solidcore/commit/f59c6366b86903e62d27f75f98b9cda18e54962f",
+     "matched": "Gates: fmt, clippy, 1371 tests and wasm clean. brep_p1 2619/2135/0/469 (15"
+    },
+    {
+     "source": "commit",
+     "ref": "bb84f1a56",
+     "text": "blend.fillet_executive_p3: record verified partial coverage",
+     "url": "https://github.com/tangency-labs/solidcore/commit/bb84f1a567003725a2645933da0ced38f62a7c13",
+     "matched": "Record fmt, both clippy modes, 1389 core tests, four guard tests, wasm, paired state parity, perturb sensitivity, fuzz 2000, valgrind 40 and the 210-unit matrix. All passing unit cases remain early er"
+    },
+    {
+     "source": "commit",
+     "ref": "3e12f4c68",
+     "text": "boolean.merge_p4: record completed correctness gates",
+     "url": "https://github.com/tangency-labs/solidcore/commit/3e12f4c68b6ad366bd0368b2a24cf0651882f813",
+     "matched": "wasm, fuzz 2000, perturb, Valgrind and 210-unit green gate. Preserve the"
+    },
+    {
+     "source": "commit",
+     "ref": "fd405f9a1",
+     "text": "boolean.merge_p4: record dependency-limited validation and callgraph ownership",
+     "url": "https://github.com/tangency-labs/solidcore/commit/fd405f9a19ab6f4af6cb8e6aa3c2eb0921284079",
+     "matched": "Keep CloseIntersectionLoop as a complete p2 stub per overseer direction, retain its caller tail, expand directed geometry/options cases, and record the absence of success-path parity. Both clippy conf"
+    },
+    {
+     "source": "commit",
+     "ref": "0a0bd4836",
+     "text": "heal.stitch_p1: bherbruck's optional review nits on #196 (follow-up)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/0a0bd4836392500823db97eb4a2ed1090e453d0f",
+     "matched": "Gates: fmt, clippy, 1371 tests and wasm clean; heal.stitch_p1 300/206/0/94,"
+    },
+    {
+     "source": "commit",
+     "ref": "57424bce5",
+     "text": "fix: build the C++ difftest harness with clang on macOS (#240)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/57424bce5d18d55983043b6ffe5f6cf27eb90b84",
+     "matched": "- solidcore-ffi build.rs: link libc++ instead of libstdc++ on macOS, iOS"
+    }
+   ]
+  },
+  {
+   "id": "determinism",
+   "label": "Determinisme",
+   "cases": [
+    "resultats idèntics Mac/iPad"
+   ],
+   "hits": []
+  },
+  {
+   "id": "upstream-fixes",
+   "label": "Flags d'UpstreamFixes",
+   "cases": [
+    "configuració del kernel a l'app"
+   ],
+   "hits": []
+  },
+  {
+   "id": "seam",
+   "label": "Costures (seam) i arestes partides",
+   "cases": [
+    "lliçó: no triar arestes en costures"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "a7518ff80",
+     "text": "query.face_p3: review fixes (healer handles, bisector seam out-params, ReSet wiring)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/a7518ff80998f6585df4ba316b11f3167d8afed8"
+    },
+    {
+     "source": "commit",
+     "ref": "731134659",
+     "text": "topology.brep_p2: review 7d4506ba S1, intersector tolerance export, HANG-28",
+     "url": "https://github.com/tangency-labs/solidcore/commit/731134659337e9da511d35d86c4f7b20e31898d0",
+     "matched": "returns (editing, lamina edge, face, lamina/seam neighbours, surface"
+    }
+   ]
+  }
+ ],
+ "units": {
+  "total": 0,
+  "counts": {},
+  "status_changes": [],
+  "notes_updated": [],
+  "not_green": []
+ },
+ "upstream_issues": {
+  "total": 0,
+  "counts": {
+   "WR": 0,
+   "UB": 0,
+   "HANG": 0,
+   "ND": 0,
+   "DOC": 0,
+   "FAIL": 0,
+   "ISSUE": 0
+  },
+  "new": [],
+  "removed": [],
+  "retitled": [],
+  "new_addenda": []
+ },
+ "findings": {
+  "total": 0,
+  "new": []
+ },
+ "solidcraft": {
+  "total": 0,
+  "counts": {},
+  "changes": [],
+  "new": [],
+  "failing": []
+ },
+ "upstream_fixes": {
+  "total": 0,
+  "new": [],
+  "removed": [],
+  "fillet_total": 0
+ },
+ "gates": {
+  "waivers_before": 0,
+  "waivers_after": 0,
+  "known_mismatches": 0,
+  "mismatches_new": [],
+  "mismatches_removed": []
+ },
+ "pin": {
+  "version": null,
+  "commit": "",
+  "changed": false,
+  "before_version": null
+ },
+ "status_md_changed": false,
+ "tags": [
+  [
+   "cpp-ref-v1-c9c5979f04ce-726643fb17a52b7d",
+   "2026-10-20T15:02:56-04:00"
+  ]
+ ],
+ "github": {
+  "ok": true,
+  "issues_opened": [],
+  "issues_closed": [],
+  "prs_opened": [],
+  "prs_closed_unmerged": [],
+  "open_issues": 119,
+  "open_prs": 81
+ },
+ "releases": {
+  "ok": true,
+  "crates_io": {
+   "max_version": "1.0.1",
+   "new_versions": []
+  },
+  "upstream": [],
+  "upstream_latest": "v1.0.1"
+ }
+}

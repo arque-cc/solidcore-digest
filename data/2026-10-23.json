@@ -1,0 +1,6261 @@
+{
+ "day": "2026-10-23",
+ "generated_at": "2026-11-03T22:51:29+00:00",
+ "window": {
+  "start": "2026-10-23T00:00:00+00:00",
+  "end": "2026-10-24T00:00:00+00:00",
+  "start_sha": "c1ff04e1f183e52d741b89d57a3d3428192ac309",
+  "end_sha": "cf4b7945e6901fa550f37e56c6144306d161f569"
+ },
+ "summary": {
+  "commits": 287,
+  "merges": 253,
+  "claims": 30,
+  "prs_merged": 79,
+  "authors": 15,
+  "top_authors": [
+   [
+    "Brett Lawson",
+    65
+   ],
+   [
+    "Alex Lytvynenko",
+    53
+   ],
+   [
+    "Andreas",
+    41
+   ],
+   [
+    "Thijs Damsma",
+    31
+   ],
+   [
+    "bherbruck",
+    28
+   ],
+   [
+    "Karl Von Richter",
+    21
+   ],
+   [
+    "Charles Galant",
+    12
+   ],
+   [
+    "Philipp Rossak",
+    9
+   ]
+  ],
+  "ai_coauthored": 230,
+  "files_touched": 530
+ },
+ "by_module": {
+  "geom": {
+   "commits": 5,
+   "files": 21
+  },
+  "curve": {
+   "commits": 6,
+   "files": 38
+  },
+  "surface": {
+   "commits": 7,
+   "files": 37
+  },
+  "topology": {
+   "commits": 18,
+   "files": 99
+  },
+  "intersect": {
+   "commits": 24,
+   "files": 128
+  },
+  "primitive": {
+   "commits": 5,
+   "files": 11
+  },
+  "query": {
+   "commits": 4,
+   "files": 10
+  },
+  "sweep": {
+   "commits": 1,
+   "files": 1
+  },
+  "offset": {
+   "commits": 3,
+   "files": 7
+  },
+  "boolean": {
+   "commits": 1,
+   "files": 10
+  },
+  "blend": {
+   "commits": 3,
+   "files": 10
+  },
+  "kernel": {
+   "commits": 2,
+   "files": 5
+  },
+  "difftest": {
+   "commits": 96,
+   "files": 440
+  },
+  "harness": {
+   "commits": 11,
+   "files": 30
+  },
+  "plan": {
+   "commits": 68,
+   "files": 386
+  },
+  "site": {
+   "commits": 1,
+   "files": 1
+  },
+  "ci": {
+   "commits": 1,
+   "files": 9
+  },
+  "altres": {
+   "commits": 1,
+   "files": 3
+  }
+ },
+ "by_kind": {
+  "fix": 26,
+  "feat": 1,
+  "port": 4,
+  "wire": 20,
+  "test": 11,
+  "difftest": 37,
+  "plan": 30,
+  "docs": 4,
+  "perf": 2,
+  "altres": 122
+ },
+ "commits": [
+  {
+   "sha": "cae3e7414420204c8e90832ade84f45170548b61",
+   "short": "cae3e7414",
+   "author": "Charles Galant",
+   "date": "2026-10-23T19:37:27-04:00",
+   "subject": "port: blend.fillet_solver_p5 to green",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a20b52bbf3c3f4fdc2b2d75f00de5064917c4bce",
+   "short": "a20b52bbf",
+   "author": "Charles Galant",
+   "date": "2026-10-23T19:25:35-04:00",
+   "subject": "port: topology.topology_traverser to green",
+   "kind": "port",
+   "module": "topology",
+   "modules": [
+    "plan",
+    "topology"
+   ],
+   "files": 2,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "002339772687872dc1631fdea5d9d6a1a700a16d",
+   "short": "002339772",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T16:22:58-07:00",
+   "subject": "difftest: record region nesting mismatches exposed by the merge",
+   "kind": "difftest",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e4d8e21bf9c303f760bfe8740563ba2306a5f4b8",
+   "short": "e4d8e21bf",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T16:14:04-07:00",
+   "subject": "difftest: make export_memo::on_cpp_side public (unused without the cpp feature)",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7efab767d38612d91e33f292d2dd6c3534411d22",
+   "short": "7efab767d",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T15:58:31-07:00",
+   "subject": "difftest: sweep.topology_sweep test expects HCR past the wired scene transform",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "552ff205e7d467eca1241448522ac882d1483632",
+   "short": "552ff205e",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T15:43:41-07:00",
+   "subject": "difftest: refill the cached gaps the B-rep importers mark as set",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 15,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "dfc5ecc3c215545314fa3dc5e9755feaa282b896",
+   "short": "dfc5ecc3c",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T15:31:13-07:00",
+   "subject": "wire: SmBrep::Transform and UpdateVertexEdgeIntervals stubs",
+   "kind": "wire",
+   "module": "plan",
+   "modules": [
+    "blend",
+    "difftest",
+    "plan",
+    "topology"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "526e9180f73ccf1f57eebe8cf79e3bc5e9c5b508",
+   "short": "526e9180f",
+   "author": "Charles Galant",
+   "date": "2026-10-23T18:26:36-04:00",
+   "subject": "port: intersect.curve_class_p7 to green",
+   "kind": "port",
+   "module": "intersect",
+   "modules": [
+    "difftest",
+    "intersect",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bf66b696d746645b6979ff10742b01c95ef0d68d",
+   "short": "bf66b696d",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T15:02:57-07:00",
+   "subject": "plan: refresh STATUS.md, notes and status index to main CI e33985411",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 80,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9a7b4da3de758911f1d058c58acaf260853a58fc",
+   "short": "9a7b4da3d",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T15:00:28-07:00",
+   "subject": "plan: keep the findings status index at the end of findings.md",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "00b76d323c009316cb09f4c6df57fcd515af3042",
+   "short": "00b76d323",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T14:48:58-07:00",
+   "subject": "plan: findings status index and upstream-issues duplicate-ID note",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ba7810fdd9458313195a1ec03bf3b4e31254e7dc",
+   "short": "ba7810fdd",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T14:47:22-07:00",
+   "subject": "plan: rewrite STATUS.md as a current summary; archive the old one",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e2b06d83912928512d9b2672ac5e6246c334748b",
+   "short": "e2b06d839",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T14:46:01-07:00",
+   "subject": "plan: unit notes name PRs, not internal labels; refresh stale counts",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 84,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "544e19f029eb01f4c72cec5985d3c282ecfb15a7",
+   "short": "544e19f02",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T14:32:05-07:00",
+   "subject": "wire: SmCone::TrimWithDomain through the inherited SmSurfOfRevolution body",
+   "kind": "wire",
+   "module": "surface",
+   "modules": [
+    "plan",
+    "surface"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "be04d26395b45af9e1cfa7a759a9f95c9c8e9b47",
+   "short": "be04d2639",
+   "author": "Karl Von Richter",
+   "date": "2026-10-24T07:31:46+10:00",
+   "subject": "fix: SM_BO_SLICE coincident faces kept on the sheet's same side only (#528)",
+   "kind": "fix",
+   "module": "plan",
+   "modules": [
+    "boolean",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "46cd0f55e17ea7cc29f6097a25acd319df493992",
+   "short": "46cd0f55e",
+   "author": "Charles Galant",
+   "date": "2026-10-23T17:27:53-04:00",
+   "subject": "port: intersect.point_class (promote to green)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f817453de44edb281a92f70724876fcbaa344a80",
+   "short": "f817453de",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T14:11:18-07:00",
+   "subject": "plan: unit notes for the classification face query wiring",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "07a4628343b8ce3fa9eab9f60b5bfef4d23390f8",
+   "short": "07a462834",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T14:02:40-07:00",
+   "subject": "plan: findings for the deferred FindVertexSector and PointClassify wiring",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "77279df86489e1737f50dfc436e285fd4ae80b8c",
+   "short": "77279df86",
+   "author": "Charles Galant",
+   "date": "2026-10-23T16:49:01-04:00",
+   "subject": "intersect.curve_class_p9: promote to green",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8503a6d7cc6c3d363b0ac0e60c141c892e4b942e",
+   "short": "8503a6d7c",
+   "author": "Thijs Damsma",
+   "date": "2026-10-23T22:43:48+02:00",
+   "subject": "fix: retain partial face UV-domain outputs",
+   "kind": "fix",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "topology"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "95373f629724935fa51ee7f8f1a71270ab8d67d1",
+   "short": "95373f629",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T13:40:19-07:00",
+   "subject": "wire: keep FindVertexSector and PointClassify deferred in this change",
+   "kind": "wire",
+   "module": "intersect",
+   "modules": [
+    "intersect",
+    "primitive"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "32f82cc967c96859fe038c45e18463c682803cfb",
+   "short": "32f82cc96",
+   "author": "Henrik Lampe",
+   "date": "2026-10-23T22:38:59+02:00",
+   "subject": "fix: preserve spine closure traversal and trim owners",
+   "kind": "fix",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan",
+    "topology"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "af8b89f1623540b57358b0ad9f46b4f0b28771ff",
+   "short": "af8b89f16",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T13:34:11-07:00",
+   "subject": "plan: findings wording for the classification face queries entry",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "67b9ecdf6b81e13b1495f7d6dbfd1ff96d6c2b1c",
+   "short": "67b9ecdf6",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T13:33:53-07:00",
+   "subject": "fix: stale swept curves in SweepEdgeHigh and the singular-normal status",
+   "kind": "fix",
+   "module": "surface",
+   "modules": [
+    "surface",
+    "sweep"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ea817b7c4db0b60fd7275dd4291bf95210305df0",
+   "short": "ea817b7c4",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T13:28:01-07:00",
+   "subject": "wire: fillet law in EvaluateLawPoint and DoLawIntersection on SmFilletIntersector",
+   "kind": "wire",
+   "module": "difftest",
+   "modules": [
+    "blend",
+    "difftest",
+    "harness",
+    "intersect",
+    "plan",
+    "surface"
+   ],
+   "files": 18,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1fe9f3e69c0e88b44af56afbf65c9719eedf4f98",
+   "short": "1fe9f3e69",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T13:01:59-07:00",
+   "subject": "difftest: brep_p3 geometry-edit-notify cases become known mismatches",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5b6418df37670aa5202242e8617e79938522d7e6",
+   "short": "5b6418df3",
+   "author": "Charles Galant",
+   "date": "2026-10-23T15:54:23-04:00",
+   "subject": "difftest(intersect.curve_class_p4): create UV trim curves for closed revolution faces",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "0b4f37dab33a365112dd8ff30299a649175c7810",
+   "short": "0b4f37dab",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T12:17:21-07:00",
+   "subject": "docs: record the ClassGeometryMut face queries and their cache-history deferral",
+   "kind": "docs",
+   "module": "intersect",
+   "modules": [
+    "intersect",
+    "plan",
+    "primitive",
+    "query",
+    "sweep"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "85fe8a04081f4984b3725b17dcb5ee42ea29137d",
+   "short": "85fe8a040",
+   "author": "Jacob Oursland",
+   "date": "2026-10-23T11:54:15-07:00",
+   "subject": "topology: test change-tracker lists, owner metadata and accessors",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "72984072bc4d55c69f4330c34b6625a878dd15bd",
+   "short": "72984072b",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T11:53:14-07:00",
+   "subject": "wire: classification face queries through ClassGeometryMut",
+   "kind": "wire",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "intersect",
+    "query"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7289cd2952369a29f2159a6bc0709a83c0fbbdda",
+   "short": "7289cd295",
+   "author": "Jacob Oursland",
+   "date": "2026-10-23T11:44:21-07:00",
+   "subject": "difftest: compare topology change-tracker chg lists and events",
+   "kind": "difftest",
+   "module": "harness",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "57473d19c619e1c897e8eff1164c741eff07324d",
+   "short": "57473d19c",
+   "author": "Erlis Vidal",
+   "date": "2026-10-23T14:32:01-04:00",
+   "subject": "difftest: topology.brep_p9 owns imported geometry under the keys it queries with",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fc77fcf1536213a2f6543ea5082c7121be6ee425",
+   "short": "fc77fcf15",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T11:31:32-07:00",
+   "subject": "plan: record face Notify(ChangeGeometry) difftest counts for face_p1 and brep_p2-p5",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5b65d81f9a3113019c193ba0af3897cfab72a60a",
+   "short": "5b65d81f9",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T11:21:17-07:00",
+   "subject": "offset_executive p2 tests: extend_result_faces_prefix completes now that face Notify(ChangeGeometry) is wired",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "offset"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "94c731059121bf9807a2b70518c2fab616c9161a",
+   "short": "94c731059",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T11:21:17-07:00",
+   "subject": "topology.face_p1: wire SetSurface's SM_NO_CHANGE_GEOMETRY notification",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "plan",
+    "surface",
+    "topology"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "451474ecb15ca55a7ee86de2b22bfe68b2f8db67",
+   "short": "451474ecb",
+   "author": "Thijs Damsma",
+   "date": "2026-10-23T20:10:55+02:00",
+   "subject": "test: import geometry types in retained model deletion regression",
+   "kind": "test",
+   "module": "primitive",
+   "modules": [
+    "primitive"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8eeb4013a6ed5c9fa0af82b3e6479a5fc79aafea",
+   "short": "8eeb4013a",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T11:03:06-07:00",
+   "subject": "difftest: refill imported vertex/face gaps in offset.offset_geometry_creation",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "934d2649fa0d076c2de31f63320aff72363055e1",
+   "short": "934d2649f",
+   "author": "Thijs Damsma",
+   "date": "2026-10-23T19:59:06+02:00",
+   "subject": "docs: describe integrated primitive construction comparisons",
+   "kind": "docs",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "204e87e005f764ce5b8cbb246c846d2a69b8ef1e",
+   "short": "204e87e00",
+   "author": "Jacob Oursland",
+   "date": "2026-10-23T10:51:51-07:00",
+   "subject": "scripts: two-tier mutation testing harness",
+   "kind": "altres",
+   "module": "altres",
+   "modules": [
+    "altres",
+    "ci",
+    "docs"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0168da9a5a29a6960d1ab8ffc56690966980d77a",
+   "short": "0168da9a5",
+   "author": "Philipp Rossak",
+   "date": "2026-10-23T19:22:03+02:00",
+   "subject": "plan: notes for #556 destructors (topology.brep_p3, topology.brep_p4)",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "264d118be8570f3e91c21a9a9fb0bebc04b94a8c",
+   "short": "264d118be",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T09:47:21-07:00",
+   "subject": "difftest: surface_p9 surface handle natural UV domain (unit to green); topology_solver_p2 zone tolerances",
+   "kind": "difftest",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "38a76fc63f6c725d17618dfef2f03728adac7c13",
+   "short": "38a76fc63",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T09:47:10-07:00",
+   "subject": "difftest: curve_class_p6 runner passes the partner classification; topology_solver_p2 static scene",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "19a01665b984380111d48d8badf2e54cde0b1b8c",
+   "short": "19a01665b",
+   "author": "Jacob Oursland",
+   "date": "2026-10-23T09:24:21-07:00",
+   "subject": "plan: record PR #635 in intersect.point_class",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "debadc70e78360136efd83d3b8ef4b10534838f0",
+   "short": "debadc70e",
+   "author": "Jacob Oursland",
+   "date": "2026-10-23T09:06:45-07:00",
+   "subject": "difftest: run point-class merge and combine on the explicit B-rep",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "intersect",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6e5ddd44cc0fc365b106aa1fd15144b3bca20259",
+   "short": "6e5ddd44c",
+   "author": "Philipp Rossak",
+   "date": "2026-10-23T18:03:42+02:00",
+   "subject": "fix: destroy edge uses, faces and shells with their destructors' notifications (#556)",
+   "kind": "fix",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "harness",
+    "topology"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3b617cac85c6140780f68f5f586dc106d3fa7e18",
+   "short": "3b617cac8",
+   "author": "Henrik Lampe",
+   "date": "2026-10-23T17:26:15+02:00",
+   "subject": "fix: keep production ray preparation in one solve",
+   "kind": "fix",
+   "module": "topology",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness",
+    "heal",
+    "intersect",
+    "kernel",
+    "plan",
+    "primitive",
+    "query",
+    "tests",
+    "topology"
+   ],
+   "files": 32,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "116121d547cd9fa47eb8c9b73c8af8f43e6072b6",
+   "short": "116121d54",
+   "author": "Charles Galant",
+   "date": "2026-10-23T11:17:57-04:00",
+   "subject": "fix(proto_topology): preserve upstream ignored status on remove_edge_definition",
+   "kind": "fix",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5672c892153c87f884b44b881e74d59f68db7ef8",
+   "short": "5672c8921",
+   "author": "Philipp Rossak",
+   "date": "2026-10-23T17:16:55+02:00",
+   "subject": "difftest: compare edge destructions of DeleteFace natively; notes for #556",
+   "kind": "difftest",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "44c1503d0d452aa591e12a6bf221a9cad97d6659",
+   "short": "44c1503d0",
+   "author": "Philipp Rossak",
+   "date": "2026-10-23T17:00:38+02:00",
+   "subject": "fix: delete edges with ~SmEdge's destruction notification and ~SmAObject's attribute cleanup (#556)",
+   "kind": "fix",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "170fc2eb0f9ffb0c739a57e44600e84d83751a76",
+   "short": "170fc2eb0",
+   "author": "Charles Galant",
+   "date": "2026-10-23T10:55:02-04:00",
+   "subject": "fix(proto_topology): split EdgeDefinition starts unowned (fixes #518)",
+   "kind": "fix",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "537a20ac9ed5beb3a1fe6e948f0a24d0d9ba0091",
+   "short": "537a20ac9",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T16:42:13+02:00",
+   "subject": "query.poly: clarify surface evaluation error propagation",
+   "kind": "altres",
+   "module": "query",
+   "modules": [
+    "query"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "40c62ee3eb3b9d558e6e40a63224fdb483b382ed",
+   "short": "40c62ee3e",
+   "author": "Charles Galant",
+   "date": "2026-10-23T10:40:57-04:00",
+   "subject": "wire: trimming_tools face_has_seam_problem to face_p4 (promotes to green)",
+   "kind": "wire",
+   "module": "topology",
+   "modules": [
+    "harness",
+    "plan",
+    "topology"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8f661beaca98274bb4fc6f6506dedc20b2289105",
+   "short": "8f661beac",
+   "author": "zorak1103",
+   "date": "2026-10-23T16:35:46+02:00",
+   "subject": "wire: geom.grid surface grid elements (unit to green)",
+   "kind": "wire",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "intersect",
+    "plan"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0a168417a3754331a8ef585f1e65c6d4f927823a",
+   "short": "0a168417a",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T16:30:47+02:00",
+   "subject": "difftest: quote fillet probe fixture in module docs",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "df9ce0a252c142f77a82b6686314dc91b36222d5",
+   "short": "df9ce0a25",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T16:23:50+02:00",
+   "subject": "query.poly: resolve the three reviewed runner lint findings",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bde7eb789411154274865c05cfa21ad0dbd943a2",
+   "short": "bde7eb789",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T16:23:40+02:00",
+   "subject": "test(offset): trace gen0730 Line prefix readbacks",
+   "kind": "test",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "9da14a08ab2e63d58707e7088fc56b5ddbfd81f0",
+   "short": "9da14a08a",
+   "author": "Philipp Rossak",
+   "date": "2026-10-23T16:16:25+02:00",
+   "subject": "wire: SmFace::FaceIntersect across two B-reps and with UV curve / point outputs",
+   "kind": "wire",
+   "module": "boolean",
+   "modules": [
+    "boolean",
+    "difftest",
+    "plan",
+    "topology"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b995a21546172622fd34e6b42eedae6765ae9e95",
+   "short": "b995a2154",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T16:16:17+02:00",
+   "subject": "difftest: limit fillet probes to actual-call observations",
+   "kind": "difftest",
+   "module": "harness",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7ea03f3b9467dc9e585c964c6063a773fdb826f0",
+   "short": "7ea03f3b9",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T16:09:05+02:00",
+   "subject": "query.poly: preserve native context allocation for owner faces",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "880d1de51b313af649f190e9f69f682ed04fc6d3",
+   "short": "880d1de51",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T15:57:01+02:00",
+   "subject": "difftest: correct const probe reads and check diagnostic helpers",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "29b58037710edc7b74f38a7093d27797658d8370",
+   "short": "29b580377",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T15:55:49+02:00",
+   "subject": "query.poly: compare genuine owner geometry without replacing legacy cases",
+   "kind": "altres",
+   "module": "query",
+   "modules": [
+    "difftest",
+    "harness",
+    "query"
+   ],
+   "files": 5,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "9e824a8cf268e106298baec206cd0be1a57911d2",
+   "short": "9e824a8cf",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T15:54:18+02:00",
+   "subject": "test(offset): checkpoint gen0730 UV replay diagnostics",
+   "kind": "test",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "2efc98e065f92d852dd0cb7e0449a583cb1d19ae",
+   "short": "2efc98e06",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T15:50:22+02:00",
+   "subject": "harness: compare explicit native surface caches in geom.grid",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "665d4c4056b3a5f4adaccadb9c22eb6fe175cdf0",
+   "short": "665d4c405",
+   "author": "Philipp Rossak",
+   "date": "2026-10-23T15:47:34+02:00",
+   "subject": "difftest: run primitive.primitive_creation_p2 through the production PrimitiveModel",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f7cf85485ff2bdad5a80d14c55b4928e231dc32f",
+   "short": "f7cf85485",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T15:42:46+02:00",
+   "subject": "difftest: observe original clipped fillet step without changing parity",
+   "kind": "difftest",
+   "module": "harness",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a54b558513ea836e9162e30b95844f174f08499d",
+   "short": "a54b55851",
+   "author": "Thijs Damsma",
+   "date": "2026-10-23T15:40:39+02:00",
+   "subject": "difftest: retain real manager bodies for proto point classification",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "01c7c86cb0be641cec08b487086368fecab3b990",
+   "short": "01c7c86cb",
+   "author": "Henrik Lampe",
+   "date": "2026-10-23T15:29:15+02:00",
+   "subject": "feat: expose sphere precision and verify complete primitives",
+   "kind": "feat",
+   "module": "kernel",
+   "modules": [
+    "kernel",
+    "primitive",
+    "tests"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "07f9b2c714e85f814ef9dcf1b0c933a04d9938b6",
+   "short": "07f9b2c71",
+   "author": "Henrik Lampe",
+   "date": "2026-10-23T15:29:15+02:00",
+   "subject": "fix: resolve opaque curve intervals during point solves",
+   "kind": "fix",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "651ee17a91425b8633e4ba671b4ee785954a304a",
+   "short": "651ee17a9",
+   "author": "Erlis Vidal",
+   "date": "2026-10-23T09:14:54-04:00",
+   "subject": "difftest: own imported geometry under the harness's keys (brep_p6, merge_p2)",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "08522ad5fa32ad947149acd62506dfa69f3c5316",
+   "short": "08522ad5f",
+   "author": "bherbruck",
+   "date": "2026-10-23T09:09:40-04:00",
+   "subject": "site: link the model viewer (SMLib vs solidcore renderings)",
+   "kind": "altres",
+   "module": "site",
+   "modules": [
+    "site"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9430122056de717a296ce745a2d69621e72898e1",
+   "short": "943012205",
+   "author": "Louis",
+   "date": "2026-10-23T20:54:06+08:00",
+   "subject": "intersect.curve_class_p5: port the in-place edits, compare them on real B-reps",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "difftest",
+    "harness",
+    "intersect",
+    "plan",
+    "surface"
+   ],
+   "files": 11,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2b3cadb6cad72b5f603395b024734433ac4e6d36",
+   "short": "2b3cadb6c",
+   "author": "Thijs Damsma",
+   "date": "2026-10-23T14:46:18+02:00",
+   "subject": "plan: blend.hcr counts after merging main",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "786c2740137daca1331c49a5ecbb5490ed3aa289",
+   "short": "786c27401",
+   "author": "Philipp Rossak",
+   "date": "2026-10-23T14:42:36+02:00",
+   "subject": "wire: PrimitiveAccess axis classification; keep consumed curve slots",
+   "kind": "wire",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan",
+    "primitive",
+    "sweep"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c9e63bb841d2d26f315b4885f055d8a455e59ae2",
+   "short": "c9e63bb84",
+   "author": "Thijs Damsma",
+   "date": "2026-10-23T14:29:01+02:00",
+   "subject": "wire: resolve edge/curve/vertex handles in solver objects",
+   "kind": "wire",
+   "module": "plan",
+   "modules": [
+    "blend",
+    "boolean",
+    "curve",
+    "difftest",
+    "geom",
+    "intersect",
+    "plan",
+    "primitive",
+    "query"
+   ],
+   "files": 19,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c357d888f18c47accbb01144a1d697a6c7ecff4b",
+   "short": "c357d888f",
+   "author": "Henrik Lampe",
+   "date": "2026-10-23T14:23:47+02:00",
+   "subject": "difftest: preserve native sweep counts and curve ownership",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0afb6725eba75c0f17b17cf4d3bbd1a4ff661ea1",
+   "short": "0afb6725e",
+   "author": "Thijs Damsma",
+   "date": "2026-10-23T14:10:26+02:00",
+   "subject": "plan: query.face_p1 hook results and the remaining blockers",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7495fbf5094e21c94d9ffebdad16296b8335ee8f",
+   "short": "7495fbf50",
+   "author": "Philipp Rossak",
+   "date": "2026-10-23T14:02:15+02:00",
+   "subject": "wire: primitive.primitive_creation_p3 B-rep face services (unit to green)",
+   "kind": "wire",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "primitive",
+    "sweep"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "49c6e558dc6867c64145656af6f9d21df15c9139",
+   "short": "49c6e558d",
+   "author": "Thijs Damsma",
+   "date": "2026-10-23T13:54:05+02:00",
+   "subject": "topology.brep_p3: build the cache trees for BrepCurveSolve; drop the adapter hooks",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "query",
+    "topology"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b4cb5935d27f3fd0eb4f47f61a7cae94aa124e39",
+   "short": "b4cb5935d",
+   "author": "Thijs Damsma",
+   "date": "2026-10-23T13:38:20+02:00",
+   "subject": "wire: SmFace::EdgeCurveOnClassify / Point3DClassify (query.face_p1) behind resolved face handles",
+   "kind": "wire",
+   "module": "intersect",
+   "modules": [
+    "intersect",
+    "query",
+    "topology"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bb6ee85203252385bfd3fa38e3b55e267a289f6d",
+   "short": "bb6ee8520",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T13:38:12+02:00",
+   "subject": "test(offset): fix gen0730 native regression compilation",
+   "kind": "test",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "f937ab95315d42eb5eef42ea6c869d6f479934bf",
+   "short": "f937ab953",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T13:30:14+02:00",
+   "subject": "fix(topology.edge): retain live surface snapshot in binormal evaluation",
+   "kind": "fix",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "topology"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "49cb0c83153aa203cd9725bbccd00b4dd8854f74",
+   "short": "49cb0c831",
+   "author": "Thijs Damsma",
+   "date": "2026-10-23T13:25:43+02:00",
+   "subject": "wire: SmCrvOnSurf::EvaluatePoint in the global solver's surface-projected box test",
+   "kind": "wire",
+   "module": "plan",
+   "modules": [
+    "curve",
+    "geom",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ebfca535f32a0c6d9ab542dae0a5e89e61db71c5",
+   "short": "ebfca535f",
+   "author": "Thijs Damsma",
+   "date": "2026-10-23T13:23:14+02:00",
+   "subject": "plan: record the exact cone/sphere face comparisons (PR #605)",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0a4f2308fbb7be25eed383ce38bf43fe4db9f659",
+   "short": "0a4f2308f",
+   "author": "Thijs Damsma",
+   "date": "2026-10-23T13:14:54+02:00",
+   "subject": "wire: surface.surf_of_extrusion_p2 general intersection, surface.surface_p9 handle domain",
+   "kind": "wire",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan",
+    "surface"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ae44de0fbdaa1ab3a6c843a5dcaca2b317f5c14e",
+   "short": "ae44de0fb",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T13:14:33+02:00",
+   "subject": "test: correct perpendicular-cone controls and certify p5 parity",
+   "kind": "test",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a21d0d6dbb7e16d02c3f790575240d2e6055896f",
+   "short": "a21d0d6db",
+   "author": "Thijs Damsma",
+   "date": "2026-10-23T13:13:50+02:00",
+   "subject": "difftest: compare cone/sphere faces the shared exports carry exactly",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "db779b87801eb3fcfd732cfe7890cc8e30c2846c",
+   "short": "db779b878",
+   "author": "zorak1103",
+   "date": "2026-10-23T13:03:11+02:00",
+   "subject": "wire: intersect.ray_tracer AddSurfaceToGrid (unit to green)",
+   "kind": "wire",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "harness",
+    "intersect",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bd781318c589dca5efee8d2d6ad2ce92f46e1103",
+   "short": "bd781318c",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T13:02:22+02:00",
+   "subject": "plan(topology.edge): record the two native tangent paths",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "0b98d6f0f29879f02f9236419c5f4994c59ca704",
+   "short": "0b98d6f0f",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T13:02:02+02:00",
+   "subject": "fix: use owning surface cache for CSI polar-cone checks",
+   "kind": "fix",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "surface"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1940ffe6b7d317299dd80b05d53d41aaeda14878",
+   "short": "1940ffe6b",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T12:58:48+02:00",
+   "subject": "test(topology.edge): compare the rebuilt-UV tangent without a kind",
+   "kind": "test",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "03fcb90214f8859b922c357a4dbbc9f029898a1b",
+   "short": "03fcb9021",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T12:46:00+02:00",
+   "subject": "plan(topology.edge): record the binormal snapshot tolerance fix",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "505d45cab411c442e1ff19cdcbe87d6fdfb9b864",
+   "short": "505d45cab",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T12:44:21+02:00",
+   "subject": "fix(topology.edgeuse_p3): retain face tolerance on binormal surface copy",
+   "kind": "fix",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "topology"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "980014d1df66c5e8f262dd937374686a854f4296",
+   "short": "980014d1d",
+   "author": "Thijs Damsma",
+   "date": "2026-10-23T12:39:44+02:00",
+   "subject": "fix: finish primitive rotational cleanup with real owner identities",
+   "kind": "fix",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "primitive",
+    "sweep"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1fbc439ce1a844a4beb0522721883ea2fd061e2a",
+   "short": "1fbc439ce",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T12:30:48+02:00",
+   "subject": "test(topology.edge): check owned surfaces carry the face tolerance",
+   "kind": "test",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e0e5ddff0c34d0192f0ccd8dbb67b3aa155a6b72",
+   "short": "e0e5ddff0",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T12:29:02+02:00",
+   "subject": "fix(topology.edge): cache exported face tolerance on owned surfaces",
+   "kind": "fix",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "19eea66fb9f47b6287c8ebf5b6baada6688f9ce7",
+   "short": "19eea66fb",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T12:27:39+02:00",
+   "subject": "test(topology.edge): require exact-surface cases not to defer\\n\\nThe former exact-geometry fixtures now reach real operations; any deferral\\nis a defect in this runner or a precise dependency blocker, not an inexact\\nimport. Assert zero deferrals and include the case name, unit and symbol in\\nthe failure so CI reports the exact residual dependency. Keep the helper\\nindexing safe (.get/.get_mut) for clippy's test-helper rules.\\n\\nCo-Authored-By: OpenAI Codex <noreply@openai.com>",
+   "kind": "test",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "09bcb5db20ac696457a7b03a31aa52ff1b562c02",
+   "short": "09bcb5db2",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T12:25:52+02:00",
+   "subject": "plan: promote intersect.curve_class_p2 to green",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "8d188def9373b82cf4681584bebc956162f5b65a",
+   "short": "8d188def9",
+   "author": "Thijs Damsma",
+   "date": "2026-10-23T12:21:41+02:00",
+   "subject": "plan: fill in PR number",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "728b0c5844457a73e7a90835a033b886b1a08c17",
+   "short": "728b0c584",
+   "author": "Thijs Damsma",
+   "date": "2026-10-23T12:21:17+02:00",
+   "subject": "plan: mark eight units green (0 deferred on main)",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3caf0c4642d21acd59a54fd3463a0b526ceef026",
+   "short": "3caf0c464",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T12:20:52+02:00",
+   "subject": "test(topology.edge): name the remaining dependency deferrals",
+   "kind": "test",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e8727a7aa7ef9509e643d2029829226498c5517c",
+   "short": "e8727a7aa",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T12:19:15+02:00",
+   "subject": "test(topology.edge): compare exact analytic surfaces",
+   "kind": "test",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2c36ae1b53ec4a5d22d897a0c617d6f088406e33",
+   "short": "2c36ae1b5",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T12:17:32+02:00",
+   "subject": "Promote trim-cache parity with canonical CI evidence",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "75a82fd24ea1ae8c42fc4dbf80d8e509d4504c7e",
+   "short": "75a82fd24",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T12:15:56+02:00",
+   "subject": "difftest: fix p2 regression assertions and clippy",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "5aaffdca3891290f91f6d2ab89543e466ab5584b",
+   "short": "5aaffdca3",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T12:15:55+02:00",
+   "subject": "difftest: certify in-volume surface parity and check test accesses",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3f0bcd1d1afd19e9f9baa56e2b9926ef1b13a9df",
+   "short": "3f0bcd1d1",
+   "author": "Thijs Damsma",
+   "date": "2026-10-23T12:15:24+02:00",
+   "subject": "difftest: exercise production primitive p3 construction geometry",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6c25af8a6e34beae689ec5741da89fc6e6ac8f00",
+   "short": "6c25af8a6",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T12:08:55+02:00",
+   "subject": "difftest: derive p2 regression seeds from case indices",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "c25f54b20e4c889d2c94b59de8c07dd7ffef0afa",
+   "short": "c25f54b20",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T12:07:56+02:00",
+   "subject": "difftest: cover the 17 p2 mixed-topology cases",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "9bbb37023726302b3bab82e3bfa044a5ed70e60c",
+   "short": "9bbb37023",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T12:06:15+02:00",
+   "subject": "Use public exact B-spline snapshots in face runner",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fe697e73a6c1b1030ce10e9805b892914bce19c9",
+   "short": "fe697e73a",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T12:05:47+02:00",
+   "subject": "difftest: resolve mixed real/bare p2 face surfaces",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "f3bce59f6a8c65912f803abbeb9fd6c76c246b81",
+   "short": "f3bce59f6",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T12:02:27+02:00",
+   "subject": "difftest: flatten Exact fixture operation tags",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4527b89a79e9e040e2693f117428345eea38e242",
+   "short": "4527b89a7",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T12:02:07+02:00",
+   "subject": "difftest: export exact analytic surfaces for topology.edge",
+   "kind": "difftest",
+   "module": "harness",
+   "modules": [
+    "harness"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "463a7474e329717eb3c0b8022ff698c75b091c04",
+   "short": "463a7474e",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T12:01:08+02:00",
+   "subject": "difftest: compare exact in-volume surface results",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4b00241ba5941149c432a5769518f2cd90aea28a",
+   "short": "4b00241ba",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T12:00:20+02:00",
+   "subject": "Wire trim-cache face fixtures through real topology",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d3ee4c7cb265a0d56e0054be77d82f8a26226471",
+   "short": "d3ee4c7cb",
+   "author": "Thijs Damsma",
+   "date": "2026-10-23T11:49:04+02:00",
+   "subject": "difftest: resolve native line intervals in global solver cases",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bd0a11e1a0d95af6e8c97f71bf3dd1b900891a3f",
+   "short": "bd0a11e1a",
+   "author": "Thijs Damsma",
+   "date": "2026-10-23T11:44:11+02:00",
+   "subject": "wire: surface.cone_p3 boundary and global intersection through surface_p2",
+   "kind": "wire",
+   "module": "surface",
+   "modules": [
+    "difftest",
+    "plan",
+    "surface"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1374546eb643e81067e5097378d1171e79ab4e92",
+   "short": "1374546eb",
+   "author": "Mateusz Sych",
+   "date": "2026-10-23T11:36:35+02:00",
+   "subject": "difftest: #1510 case tolerance notes give each part's own area",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "2f3d19a2314cf608aa066074f23ab92aa1f05395",
+   "short": "2f3d19a23",
+   "author": "Thijs Damsma",
+   "date": "2026-10-23T11:34:20+02:00",
+   "subject": "plan: surface.surface_p1 note names PR #592",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b2e18251d03ac756ca70651f61acb97218357e58",
+   "short": "b2e18251d",
+   "author": "Thijs Damsma",
+   "date": "2026-10-23T11:33:50+02:00",
+   "subject": "wire: surface.surface_p1 iso curves over non-B-spline surfaces (unit to green)",
+   "kind": "wire",
+   "module": "surface",
+   "modules": [
+    "plan",
+    "surface"
+   ],
+   "files": 3,
+   "watch": [
+    "step"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "9e378f0cf1ba7b7657b963b7c9106082bd2d3726",
+   "short": "9e378f0cf",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T11:28:30+02:00",
+   "subject": "Promote certified CrvOnSurf downstream units",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 8,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "d27aa6967a89611a68ae0123d4de4139dc70c8d4",
+   "short": "d27aa6967",
+   "author": "Henrik Lampe",
+   "date": "2026-10-23T11:26:45+02:00",
+   "subject": "fix: prepare face geometry for shell ray queries",
+   "kind": "fix",
+   "module": "topology",
+   "modules": [
+    "geom",
+    "intersect",
+    "offset",
+    "primitive",
+    "query",
+    "surface",
+    "sweep",
+    "tests",
+    "topology"
+   ],
+   "files": 17,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "968c7972921638fe22a77828a16c1f133e9c1c76",
+   "short": "968c79729",
+   "author": "Mateusz Sych",
+   "date": "2026-10-23T11:17:06+02:00",
+   "subject": "difftest: SolidCraft #1510 case (a split in the plane of a groove's ceiling)",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "6d17e5e7dc69e449c0f4508f4fc9c981afba48cf",
+   "short": "6d17e5e7d",
+   "author": "Thijs Damsma",
+   "date": "2026-10-23T11:11:36+02:00",
+   "subject": "wire: mass.integrator face construction (unit to green)",
+   "kind": "wire",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "442dcdef58899438fb759c406915ebe303c7e7cb",
+   "short": "442dcdef5",
+   "author": "Thijs Damsma",
+   "date": "2026-10-23T11:04:03+02:00",
+   "subject": "test: cover nested Boolean merge programs and retained geometry",
+   "kind": "test",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b55e821d65232dc89312fb7ed2d8cce7375dde63",
+   "short": "b55e821d6",
+   "author": "Thijs Damsma",
+   "date": "2026-10-23T10:58:43+02:00",
+   "subject": "plan: fill in PR number",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f3bd3967ebf7c0703875d811ef40a3e5d5965242",
+   "short": "f3bd3967e",
+   "author": "Thijs Damsma",
+   "date": "2026-10-23T10:58:21+02:00",
+   "subject": "plan: mark six units green (0 deferred on main)",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d944239394d864ddcbd679eae1d3eb698b6c6c98",
+   "short": "d94423939",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T10:44:26+02:00",
+   "subject": "Record integrated CrvOnSurf and healer verification",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "7b43f16910e09cce39cdc5af2e6becfa10069c3a",
+   "short": "7b43f1691",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T01:43:43-07:00",
+   "subject": "plan: name PR #584 in its findings entry",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4b922a3a64f99ae06a5e8c22c6d6acab545148cb",
+   "short": "4b922a3a6",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T01:43:36-07:00",
+   "subject": "plan: name PR #584 in blend.fillet_solver_p4 notes",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "278f33ef8b5d5f1e629f5d511eda286cf06a358b",
+   "short": "278f33ef8",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T01:43:34-07:00",
+   "subject": "plan: record the UV trim owner fix (PR #586)",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "78260a11b0b6a8ab53181afa0699ada625fd459c",
+   "short": "78260a11b",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T01:42:51-07:00",
+   "subject": "topology: CreateUVTrimCurve(s) leave the face's surface without a face",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "query",
+    "surface",
+    "topology"
+   ],
+   "files": 6,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "c87fd2bb0e42b705a68ca00c8b9a9e0a0e48bd54",
+   "short": "c87fd2bb0",
+   "author": "Thijs Damsma",
+   "date": "2026-10-23T10:38:38+02:00",
+   "subject": "docs: clarify endpoint deviations and validation counts",
+   "kind": "docs",
+   "module": "plan",
+   "modules": [
+    "curve",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d3513077564c4d5b7dcb3709f4835b5f915600a5",
+   "short": "d35130775",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T10:32:59+02:00",
+   "subject": "Preserve healer seam query gap-cache updates",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "heal",
+    "plan",
+    "query",
+    "topology"
+   ],
+   "files": 7,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "a953ae1fa99cb69a23e8ae7a37e25596b0e42a88",
+   "short": "a953ae1fa",
+   "author": "Thijs Damsma",
+   "date": "2026-10-23T10:15:23+02:00",
+   "subject": "docs: record refreshed endpoint native case audit",
+   "kind": "docs",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a0f6145c545a20c300273ed9b23c5784c7ba569c",
+   "short": "a0f6145c5",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T01:09:29-07:00",
+   "subject": "difftest: fillet_solver_p4 calc_geom splits the constructor's fillet geometry",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3c75aff9479dea3f436fbbc2f72ce316317ef870",
+   "short": "3c75aff94",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T09:52:07+02:00",
+   "subject": "Preserve face tolerance in newly reached seam classification",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan",
+    "topology"
+   ],
+   "files": 3,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "36284c4d3531d6b61df751f0e55790f2d51c4633",
+   "short": "36284c4d3",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T00:36:39-07:00",
+   "subject": "plan: record the edgeuse_p3 EvaluateBinormal fix (PR #581)",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e706f3cb052f03cf40759c39127d6f764631750f",
+   "short": "e706f3cb0",
+   "author": "Brett Lawson",
+   "date": "2026-10-23T00:25:15-07:00",
+   "subject": "difftest: seed edgeuse_p3 face surface cache states from the C++ build",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "73f48a311fc8e68bf568ed7759668021c608860e",
+   "short": "73f48a311",
+   "author": "Karl Von Richter",
+   "date": "2026-10-23T15:49:19+10:00",
+   "subject": "fix: compare cone_p2 cones without a polar curve and failed trim-domain conversions",
+   "kind": "fix",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "362117d3a6961dee82e9920cc0fb64dd9e6bde12",
+   "short": "362117d3a",
+   "author": "bherbruck",
+   "date": "2026-10-23T00:51:02-04:00",
+   "subject": "leader: fmt and clippy fixup for the cycle 3 batch",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b2973ee3ddd297304f7bb5bc7bec7893da764717",
+   "short": "b2973ee3d",
+   "author": "bherbruck",
+   "date": "2026-10-22T23:25:51-04:00",
+   "subject": "fix(geom-stale-stubs): rustfmt-shape the new tree/grid tests",
+   "kind": "fix",
+   "module": "geom",
+   "modules": [
+    "geom"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e16ae319b80b0b2b6faaf9553fc9ce05d7aadd8d",
+   "short": "e16ae319b",
+   "author": "bherbruck",
+   "date": "2026-10-22T23:25:06-04:00",
+   "subject": "fix(km-binormal): EvaluateBinormal's edge-point drop solves with point testing off (SmEdgeuse.cpp:3000)",
+   "kind": "fix",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7cfb7984e67c20b5272409b020e2578331b1c0cf",
+   "short": "7cfb7984e",
+   "author": "bherbruck",
+   "date": "2026-10-22T23:22:39-04:00",
+   "subject": "fix(primitives-wire): --wire <path> exports each built primitive's edges sampled at 48 parameters",
+   "kind": "fix",
+   "module": "kernel",
+   "modules": [
+    "kernel"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ac558068b944e2ee05606222f775005c67318c8f",
+   "short": "ac558068b",
+   "author": "bherbruck",
+   "date": "2026-10-22T23:12:55-04:00",
+   "subject": "fix(cc-topology-handles): p7 runner builds its Geo over the pool; elide cci_edge_of's lifetime",
+   "kind": "fix",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "intersect"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "947419dc10a361bc5ccbce04616d1a4a563b8be0",
+   "short": "947419dc1",
+   "author": "bherbruck",
+   "date": "2026-10-22T23:08:01-04:00",
+   "subject": "fix(geom-stale-stubs): retag owner-handle stubs into green units as dispatch gaps",
+   "kind": "fix",
+   "module": "curve",
+   "modules": [
+    "curve"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2fa40d966c8f08dd9d4b179595154e677235b31a",
+   "short": "2fa40d966",
+   "author": "bherbruck",
+   "date": "2026-10-22T23:06:56-04:00",
+   "subject": "fix(geom-stale-stubs): first_bezier_patch resolvers and ExpandHierarchy over a held tree",
+   "kind": "fix",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom",
+    "plan"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6e6f49203d8a42b0a6bfe5fec6a6557841a992a8",
+   "short": "6e6f49203",
+   "author": "bherbruck",
+   "date": "2026-10-22T23:05:03-04:00",
+   "subject": "Primitive and pipe tests: the box builds; others stop past GetZoneTol3d",
+   "kind": "altres",
+   "module": "primitive",
+   "modules": [
+    "primitive",
+    "sweep"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e6d9cf53c76efa880ed1e01a646f02d719ca8cfa",
+   "short": "e6d9cf53c",
+   "author": "bherbruck",
+   "date": "2026-10-22T23:02:52-04:00",
+   "subject": "km-binormal: raise MAX_SUBDIVISION_NODES to 2^22 (64-bit), root-cause the EvaluateBinormal state mismatches",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan",
+    "surface"
+   ],
+   "files": 5,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "4285dc2e472adf0b67fda1603d8375a7c802916a",
+   "short": "4285dc2e4",
+   "author": "bherbruck",
+   "date": "2026-10-22T23:00:44-04:00",
+   "subject": "intersect.curve_class_p1: port sm_ApplyPointSolution's edge/mate branch over the B-rep",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "intersect",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "543289917c1e8a012dbf2ee110eeb6e6d79b4f3a",
+   "short": "543289917",
+   "author": "bherbruck",
+   "date": "2026-10-22T22:55:47-04:00",
+   "subject": "site: track solids (primitives built/passing), corpus placeholder",
+   "kind": "altres",
+   "module": "ci",
+   "modules": [
+    "altres",
+    "ci",
+    "docs",
+    "kernel",
+    "site",
+    "tests"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "abbe831988b656b6db1731aec3ba05b3c703248c",
+   "short": "abbe83198",
+   "author": "bherbruck",
+   "date": "2026-10-22T22:54:41-04:00",
+   "subject": "intersect.point_class: rustfmt",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "intersect"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "568c92c64669cae59d9a95c04423e37c1048e01d",
+   "short": "568c92c64",
+   "author": "bherbruck",
+   "date": "2026-10-22T22:54:32-04:00",
+   "subject": "intersect.curve_class p2/p5: rustfmt",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "intersect"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "dcd5a32d137f5b11e490ec378d1c740869e6edbb",
+   "short": "dcd5a32d1",
+   "author": "bherbruck",
+   "date": "2026-10-22T22:53:12-04:00",
+   "subject": "intersect.curve_class_p1: rustfmt",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "intersect"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bb7bb374158e9e5e939ac25f1b15d61060e74f81",
+   "short": "bb7bb3741",
+   "author": "bherbruck",
+   "date": "2026-10-22T22:53:09-04:00",
+   "subject": "intersect.curve_class_p1: port sm_ComputeFacePointClass and sm_SetXSectEdgeThroughPoint over the B-rep",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "intersect",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "60e9f576bc63c29a7f9b87d834ebd7a700b418d1",
+   "short": "60e9f576b",
+   "author": "bherbruck",
+   "date": "2026-10-22T22:50:47-04:00",
+   "subject": "geom-stale-stubs: port tangent-field ApproximateCurve and exact SrfInVolume out-surface",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "nurbs",
+    "plan",
+    "surface"
+   ],
+   "files": 4,
+   "watch": [
+    "corner-blend"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "5d852d0bb681ef9c145d009093bd284112b702c6",
+   "short": "5d852d0bb",
+   "author": "Brett Lawson",
+   "date": "2026-10-22T19:47:40-07:00",
+   "subject": "topology.brep_p3 shim: resolve tracker identities at notification time",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "822237a6c31a2a4dc66731ca18cad1968cf285d0",
+   "short": "822237a6c",
+   "author": "bherbruck",
+   "date": "2026-10-22T22:47:29-04:00",
+   "subject": "plan: record the mutable-classification-context blocker for curve_class p1/p5/p6",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d150057fc209cc1c0f9577f0767141d8c5c77f02",
+   "short": "d150057fc",
+   "author": "bherbruck",
+   "date": "2026-10-22T22:40:52-04:00",
+   "subject": "intersect.curve_class_p6: wire MergeInterval fillet branch to sm_SetDoFilletingGeometry",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "intersect",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "32b61334f14deb163731d7fa5fa8fe914b637c0e",
+   "short": "32b61334f",
+   "author": "bherbruck",
+   "date": "2026-10-22T22:18:37-04:00",
+   "subject": "After #463: line intersect builds a fresh cache's delayed tree; primitive stops updated",
+   "kind": "altres",
+   "module": "primitive",
+   "modules": [
+    "plan",
+    "primitive",
+    "surface",
+    "sweep"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8a22341eb7d00bb59c3f051961276aa48257640a",
+   "short": "8a22341eb",
+   "author": "bherbruck",
+   "date": "2026-10-22T22:10:03-04:00",
+   "subject": "WIP: curve/point classification topology handle resolution (previous fixer)",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "difftest",
+    "intersect"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "deeee437194ca96179531482042d52a4af37153c",
+   "short": "deeee4371",
+   "author": "Karl Von Richter",
+   "date": "2026-10-23T12:07:08+10:00",
+   "subject": "fix: keep taper generator owners; tidy nesting docs after #273",
+   "kind": "fix",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "geom",
+    "primitive",
+    "surface"
+   ],
+   "files": 13,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fdc915494306d3ef64b4f456be4b85cf9c9cca40",
+   "short": "fdc915494",
+   "author": "Karl Von Richter",
+   "date": "2026-10-23T11:41:18+10:00",
+   "subject": "audit.recursion: final re-audit through main ed6d93d8",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "42490fa7f43f752b2cfeaf456a278f9a37e8ef86",
+   "short": "42490fa7f",
+   "author": "Karl Von Richter",
+   "date": "2026-10-23T11:34:34+10:00",
+   "subject": "audit.recursion: re-audit through main 27b7613a",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1b5a2ad8ce646e6c10825d2d531b8ad661d16589",
+   "short": "1b5a2ad8c",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T02:54:56+02:00",
+   "subject": "offset: refresh follow-up counts on merged main",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "2188134a0598beb60dcb345461b66e4f36f5db25",
+   "short": "2188134a0",
+   "author": "Erlis Vidal",
+   "date": "2026-10-22T20:48:21-04:00",
+   "subject": "wire: SmFace::PointClassify in the topology solver face solves",
+   "kind": "wire",
+   "module": "difftest",
+   "modules": [
+    "boolean",
+    "difftest",
+    "intersect",
+    "plan",
+    "query",
+    "topology"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0bf46daba505bbae3dffb5d25712152a312b758e",
+   "short": "0bf46daba",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T02:48:14+02:00",
+   "subject": "offset: record face-cache follow-up evidence",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "18c7179fc09f3f823e516a222b55e77110ddc1ad",
+   "short": "18c7179fc",
+   "author": "Brett Lawson",
+   "date": "2026-10-22T17:44:14-07:00",
+   "subject": "plan: lazy surface cache tree counts (#568)",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "788348174931d15fcf14f6a83afe4da84cd656d4",
+   "short": "788348174",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T02:25:50+02:00",
+   "subject": "offset: thread face caches through drop solves",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "difftest",
+    "intersect",
+    "offset",
+    "surface"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "f83d5e830a4924a22dddfc78245dab102061b61d",
+   "short": "f83d5e830",
+   "author": "Brett Lawson",
+   "date": "2026-10-22T17:18:03-07:00",
+   "subject": "surface: model lazy surface cache trees (#568)",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "difftest",
+    "harness",
+    "intersect",
+    "offset",
+    "plan",
+    "surface",
+    "topology"
+   ],
+   "files": 16,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4243bec792b4dfbcc20626d619205ccdb0955dd7",
+   "short": "4243bec79",
+   "author": "Brett Lawson",
+   "date": "2026-10-22T17:05:24-07:00",
+   "subject": "difftest: list the 27 mismatches newly reachable through DropCurve as known",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b7627a09b41fc9c5c00fe1a3ce13431fdd9c400d",
+   "short": "b7627a09b",
+   "author": "bherbruck",
+   "date": "2026-10-22T19:44:55-04:00",
+   "subject": "fmt, merge p5 test expects the classification's SM_ERR",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "boolean",
+    "curve",
+    "geom",
+    "intersect"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "f3ceee532fb7110ab8c4d07b1db9a8a548e649e2",
+   "short": "f3ceee532",
+   "author": "Brett Lawson",
+   "date": "2026-10-22T16:32:59-07:00",
+   "subject": "difftest offset.offset_executive_p2: rounded sheets now get past DropCurve",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e35ea66c5325604694e122e9ee6c04e6187e154e",
+   "short": "e35ea66c5",
+   "author": "bherbruck",
+   "date": "2026-10-22T19:26:47-04:00",
+   "subject": "wip: plan notes and topology solver difftest resolver",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "f59857108eeb1f85f102b3081a8346fc01e0768e",
+   "short": "f59857108",
+   "author": "bherbruck",
+   "date": "2026-10-22T19:21:19-04:00",
+   "subject": "wip: difftest curve.curve_p1 resolves the unowned curve's zone tolerance",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "9e50cfcd7076aec26dd52fc6bbb972ef540afcb6",
+   "short": "9e50cfcd7",
+   "author": "bherbruck",
+   "date": "2026-10-22T19:10:27-04:00",
+   "subject": "wip: is_degenerate edge geometry resolves its topology handles",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "topology"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "bee6f928f31d77547df49940792095c103c65378",
+   "short": "bee6f928f",
+   "author": "bherbruck",
+   "date": "2026-10-22T19:08:32-04:00",
+   "subject": "wip: topology solver sorts through its own GlobalSolve",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "intersect"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "6b137d52d9813e1351eac879a52e1545f8f34877",
+   "short": "6b137d52d",
+   "author": "bherbruck",
+   "date": "2026-10-22T19:06:04-04:00",
+   "subject": "wip: resolve solution object zone tolerances",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "blend",
+    "curve",
+    "geom",
+    "intersect",
+    "offset",
+    "surface",
+    "topology"
+   ],
+   "files": 13,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "62c20a2e7cbdcba662c29d27fa9f534e28768dcc",
+   "short": "62c20a2e7",
+   "author": "Brett Lawson",
+   "date": "2026-10-22T16:04:35-07:00",
+   "subject": "path tests: primitives and capped pipe now stop at geom.tol",
+   "kind": "altres",
+   "module": "primitive",
+   "modules": [
+    "primitive",
+    "sweep"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e9884f76336a82cd5c051cad2552fc1885db20ca",
+   "short": "e9884f763",
+   "author": "Brett Lawson",
+   "date": "2026-10-22T15:47:12-07:00",
+   "subject": "intersect.surface_drop_lib_p3: green; primitives now stop past CrvOnSurf",
+   "kind": "altres",
+   "module": "primitive",
+   "modules": [
+    "plan",
+    "primitive"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "25ea3bd221e8836bf14219b1ffb81759a1b03942",
+   "short": "25ea3bd22",
+   "author": "Brett Lawson",
+   "date": "2026-10-22T15:47:12-07:00",
+   "subject": "lift_curve: tell the cache-history SM_ERR apart; defer it in offset_geometry_creation",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan",
+    "surface"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a22e72e2684cf67089f2cc18531b032887b0971c",
+   "short": "a22e72e26",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-23T00:19:29+02:00",
+   "subject": "WIP: retain CrvOnSurf break writes through base drop queries",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "difftest"
+   ],
+   "files": 3,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "36915c060ce1813ae6b2add8d94b62c9c7afa6c3",
+   "short": "36915c060",
+   "author": "Thijs Damsma",
+   "date": "2026-10-23T00:13:55+02:00",
+   "subject": "fix: honor derived point evaluation in revolution fast drop",
+   "kind": "fix",
+   "module": "surface",
+   "modules": [
+    "difftest",
+    "surface"
+   ],
+   "files": 3,
+   "watch": [
+    "step",
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "cde4be3259ff2ae3be347afdfeceb6616e56ceb6",
+   "short": "cde4be325",
+   "author": "Thijs Damsma",
+   "date": "2026-10-23T00:10:23+02:00",
+   "subject": "fix: deform curve-on-surface gap targets in UV space",
+   "kind": "fix",
+   "module": "plan",
+   "modules": [
+    "curve",
+    "difftest",
+    "plan",
+    "topology"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b93331f8b3dac49e3a07231e59e69c760c1090e7",
+   "short": "b93331f8b",
+   "author": "Thijs Damsma",
+   "date": "2026-10-23T00:07:24+02:00",
+   "subject": "perf: retain curve caches during interior node-pair walks",
+   "kind": "perf",
+   "module": "intersect",
+   "modules": [
+    "intersect"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "024cb2a3877e78278c01f8f5abe759e321a09d82",
+   "short": "024cb2a38",
+   "author": "Thijs Damsma",
+   "date": "2026-10-22T23:13:21+02:00",
+   "subject": "perf: reuse guarded exports in edge-use runners",
+   "kind": "perf",
+   "module": "harness",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5655dc87614b6af78839e96373f03695946b86f2",
+   "short": "5655dc876",
+   "author": "Brett Lawson",
+   "date": "2026-10-22T13:58:53-07:00",
+   "subject": "intersect.surface_drop_lib_p3: wire SmCrvOnSurf over any surface (#554)",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "intersect"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d367bd70ec62626e5eac3a3d522358b0b65afdb0",
+   "short": "d367bd70e",
+   "author": "Brett Lawson",
+   "date": "2026-10-22T13:29:32-07:00",
+   "subject": "sweep::api_brep: the capped pipe now gets through SmSurface::DropCurve",
+   "kind": "altres",
+   "module": "sweep",
+   "modules": [
+    "sweep"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "db4b8328b9db2fa9a7a6a0372805ded40274b8bb",
+   "short": "db4b8328b",
+   "author": "Brett Lawson",
+   "date": "2026-10-22T13:20:34-07:00",
+   "subject": "difftest offset.offset_executive_p1: type the probe table's dependency",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3e64a9965f195083403d6b8735e5a3bf297db982",
+   "short": "3e64a9965",
+   "author": "Brett Lawson",
+   "date": "2026-10-22T13:06:10-07:00",
+   "subject": "plan: promote the units intersect.surface_drop_lib_p3 unblocks",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "339688a8c64cd163f381bebee2575113657728fc",
+   "short": "339688a8c",
+   "author": "Brett Lawson",
+   "date": "2026-10-22T13:01:18-07:00",
+   "subject": "plan: intersect.surface_drop_lib_p3 numbers from CI; promote topology.vertexuse",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5f29961f420fab890e1f4cb7bdd61dc87c797a76",
+   "short": "5f29961f4",
+   "author": "Brett Lawson",
+   "date": "2026-10-22T13:00:45-07:00",
+   "subject": "difftest fuzz_corpus topology.face_p3: the shared vertexuse export rejects first",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "aa45b3aa01cd65618e3dae246f7bb0056c6f0f61",
+   "short": "aa45b3aa0",
+   "author": "Karl Von Richter",
+   "date": "2026-10-23T05:47:59+10:00",
+   "subject": "audit.recursion: re-audit through main 6d3bc74f",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f01329524151ae90b79debb2ac60de1d68ca9380",
+   "short": "f01329524",
+   "author": "Brett Lawson",
+   "date": "2026-10-22T12:25:19-07:00",
+   "subject": "difftest boolean.topology_intersector_p1: defer the cross-B-rep vertex glue",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d725baf2c83a7388fdcc87dd1d25be8563a3e908",
+   "short": "d725baf2c",
+   "author": "Brett Lawson",
+   "date": "2026-10-22T12:09:10-07:00",
+   "subject": "topology.vertexuse FFI: refuse B-rep blocks above 1e150 (HANG-29)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 2,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "658d1c3e0239833e2e72a039b4aa3f199a8f51ec",
+   "short": "658d1c3e0",
+   "author": "bherbruck",
+   "date": "2026-10-22T15:04:58-04:00",
+   "subject": "offset difftest tests: follow the wired SmSurface::DropCurve",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "62dca357c6214949cdee0c5e221d669aec14695f",
+   "short": "62dca357c",
+   "author": "Brett Lawson",
+   "date": "2026-10-22T11:56:30-07:00",
+   "subject": "difftest intersect.surface_drop_lib_p3: reject planes without positive extent",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5e24c38b5417a53eefe02b3f537ca458903db5ab",
+   "short": "5e24c38b5",
+   "author": "Erlis Vidal",
+   "date": "2026-10-22T12:34:43-04:00",
+   "subject": "wire: SmTol::GetZoneTol3d(const SmObject*) in the topology solver face solves",
+   "kind": "wire",
+   "module": "difftest",
+   "modules": [
+    "boolean",
+    "difftest",
+    "intersect",
+    "query",
+    "topology"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "55726b793ff3dd4d0065ab32dce29afe0a26b496",
+   "short": "55726b793",
+   "author": "Karl Von Richter",
+   "date": "2026-10-22T23:18:17+10:00",
+   "subject": "audit.recursion: re-audit follow-up merge through main ceb85b2a (#522, #523)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6936ba5b13a2ecdf9fd58d4fed17b7c37684552a",
+   "short": "6936ba5b1",
+   "author": "Karl Von Richter",
+   "date": "2026-10-22T21:50:55+10:00",
+   "subject": "audit.recursion: re-audit follow-up merge through main 16192513 (#517)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "48dc19d66058d4604ed372b6c822e7abe067dc7d",
+   "short": "48dc19d66",
+   "author": "Karl Von Richter",
+   "date": "2026-10-22T21:40:36+10:00",
+   "subject": "audit.recursion: re-audit through main 339bd2c9",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8f9281a525b1a7d84a987a3e0409c046229f8e99",
+   "short": "8f9281a52",
+   "author": "Brett Lawson",
+   "date": "2026-10-22T03:35:59-07:00",
+   "subject": "difftest offset.offset_executive p1/p2: runner tests past the wired DropCurve",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d147ad80be8a40ad8ba3e4e8763037cc7588d7a9",
+   "short": "d147ad80b",
+   "author": "Brett Lawson",
+   "date": "2026-10-22T02:42:08-07:00",
+   "subject": "intersect.surface_drop_lib_p3: partial; promote query.edge, topology.vertexuse",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "17f28bd4ee0d385153d9164aa2c0b0c8e4909b2b",
+   "short": "17f28bd4e",
+   "author": "Brett Lawson",
+   "date": "2026-10-22T01:50:11-07:00",
+   "subject": "Untrack the difftest report (main ignores reports/difftest)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c05873d5793b5b697c8d92205f6defb0a95cd35e",
+   "short": "c05873d57",
+   "author": "Karl Von Richter",
+   "date": "2026-10-22T15:52:41+10:00",
+   "subject": "audit.recursion: re-audit follow-up merge through main 339740fe",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3a1f2a7de3f453ff395ea70995a9394bdf74e2ca",
+   "short": "3a1f2a7de",
+   "author": "Karl Von Richter",
+   "date": "2026-10-22T15:49:07+10:00",
+   "subject": "audit.recursion: re-audit through main 7c74a05f",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "c31706464487fb6d4eb7445d679270b91daba906",
+   "short": "c31706464",
+   "author": "Brett Lawson",
+   "date": "2026-10-21T18:53:27-07:00",
+   "subject": "intersect.surface_drop_lib_p3: Endcap rebuild drop fixture",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6fa87b44bba79590264518e131fee26c2939607f",
+   "short": "6fa87b44b",
+   "author": "Brett Lawson",
+   "date": "2026-10-21T17:39:29-07:00",
+   "subject": "intersect.surface_drop_lib_p3: compile on main, wire new DropCurve stubs",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "primitive",
+    "topology"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5bef7633a46359eaaca7f426f29c4e639632cccf",
+   "short": "5bef7633a",
+   "author": "Karl Von Richter",
+   "date": "2026-10-22T10:33:45+10:00",
+   "subject": "audit.recursion: re-audit through main ea10fd3e",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6a2c17d689a8664d9c9163141658e356c77ad6b7",
+   "short": "6a2c17d68",
+   "author": "Karl Von Richter",
+   "date": "2026-10-22T04:25:56+10:00",
+   "subject": "audit.recursion: re-audit through main 7e3f324e",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4190d481ac545e3018e53437b01651c0701a6ad3",
+   "short": "4190d481a",
+   "author": "Andreas",
+   "date": "2026-10-21T20:03:33+02:00",
+   "subject": "WIP: thread &Kernel (#313) through geom::tol and surface_drop_lib p3 (not compiled)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "geom",
+    "intersect"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "ff4b45ef3b863060f417e665f764302d11397524",
+   "short": "ff4b45ef3",
+   "author": "Andreas",
+   "date": "2026-10-21T16:28:11+02:00",
+   "subject": "reports: regenerate difftest reports (--green before the next main merge)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 16,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c942763b5e6c1d6c673f70ce5e4ed19ec356616d",
+   "short": "c942763b5",
+   "author": "Andreas",
+   "date": "2026-10-21T14:55:50+02:00",
+   "subject": "brep_p2 RebuildUVTrimCurves: skip by GetUVTrimCurve() (mate's slot too); offset_executive_p1 harness: shells live in the B-rep's region",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "topology"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "048e20535fc361b3a6d5c820fa9f25fb11283814",
+   "short": "048e20535",
+   "author": "Andreas",
+   "date": "2026-10-21T14:23:45+02:00",
+   "subject": "WIP: reports from the --green run (to be regenerated)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0afd441d1df29aade387d6c5afa764532bc55a96",
+   "short": "0afd441d1",
+   "author": "Karl Von Richter",
+   "date": "2026-10-21T21:56:31+10:00",
+   "subject": "audit.recursion: re-audit through main ca3bbd2b (boolean.merge_p2, topology.face_p4)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [
+    "hang-cancel",
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "3b59fc47317ee5071dd73a80e5183fd563ac51df",
+   "short": "3b59fc473",
+   "author": "Andreas",
+   "date": "2026-10-21T07:25:55+02:00",
+   "subject": "offset_executive_p1: faceuse is already an Option in the DropCurve face-prefix test",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "offset"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "292c1c6820fd89a2c3157bc83f252363f4176568",
+   "short": "292c1c682",
+   "author": "Andreas",
+   "date": "2026-10-20T22:24:39+02:00",
+   "subject": "blend.fillet_corner_p3: keep the UV SmLine of the plane drop as a Line (SetUVCurve stores it); doc of create_corner_patch_3x2",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "56fd6d5ac5ad71be57209e7ecd1134ecceab8641",
+   "short": "56fd6d5ac",
+   "author": "Andreas",
+   "date": "2026-10-20T19:16:12+02:00",
+   "subject": "intersect.surface_drop_lib_p3: refresh notes of the units whose deferred counts dropped; regenerate fillet_corner_p3 report",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "cb06f255e7b0d6848b13570bbc2bec04cfdf76ec",
+   "short": "cb06f255e",
+   "author": "Andreas",
+   "date": "2026-10-20T17:49:20+02:00",
+   "subject": "intersect.surface_drop_lib_p3: one Surface::drop_curve (the virtual SmSurface::DropCurve) for every caller",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "blend",
+    "intersect",
+    "nurbs",
+    "surface",
+    "topology"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "04b0b0f8bb0602eff21020399586ae79ffe270fd",
+   "short": "04b0b0f8b",
+   "author": "Andreas",
+   "date": "2026-10-20T16:15:16+02:00",
+   "subject": "blend.fillet_corner_p3 shim: refuse a failing 3x2 DropCurve (Model objects already deleted); regenerate reports",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6a453aa71f74cf6121651d5648975b6772d49367",
+   "short": "6a453aa71",
+   "author": "Andreas",
+   "date": "2026-10-20T14:18:53+02:00",
+   "subject": "blend.fillet_corner_p3 shim: run SmSurface::DropCurve in the 3x2 mixed-convexity pre-check",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7427123eadfc7868127cfc61940a0d21c0689ccf",
+   "short": "7427123ea",
+   "author": "Andreas",
+   "date": "2026-10-20T12:24:40+02:00",
+   "subject": "WIP: regenerated reports",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "92ba1d1662a9deec8a6c597c9f5e3f47991f3671",
+   "short": "92ba1d166",
+   "author": "Andreas",
+   "date": "2026-10-20T09:44:26+02:00",
+   "subject": "Wire SmSurface::DropCurve in blend fillet_corner_p3 / fillet_geom_p1 / p2; adapt create_corner_blend callers to BlendNeighbour",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a8dd2edbab4ab7b8fb5c1d1ac9a983e5aeb93c8d",
+   "short": "a8dd2edba",
+   "author": "Karl Von Richter",
+   "date": "2026-10-20T13:05:33+10:00",
+   "subject": "audit(fix): close recursion guard bypasses and finish snapshot audit",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "curve",
+    "difftest",
+    "geom",
+    "plan"
+   ],
+   "files": 7,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "6c295d6d3d1a4899e0b52ff09369817a433b8766",
+   "short": "6c295d6d3",
+   "author": "Christian Svensson",
+   "date": "2026-10-20T02:37:02Z",
+   "subject": "topology.brep_p7: pre-review follow-ups (FFI guard tests, shim curve leak, notes)",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "726d2d60f182d57f7054067265117a0a7f80a25b",
+   "short": "726d2d60f",
+   "author": "Karl Von Richter",
+   "date": "2026-10-20T11:10:03+10:00",
+   "subject": "audit.recursion: undo the whole-file rustfmt of difftest runners",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 25,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c748ed3fb0a1e985888c17e54eb8309dd96e6e2a",
+   "short": "c748ed3fb",
+   "author": "Karl Von Richter",
+   "date": "2026-10-20T11:09:48+10:00",
+   "subject": "audit.recursion: drop needless Ok(?) in the b_spline_volume runners; rustfmt touched runners",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 25,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4fb81df32d68f47e1a7298c6279762a71d274e74",
+   "short": "4fb81df32",
+   "author": "Karl Von Richter",
+   "date": "2026-10-20T10:38:49+10:00",
+   "subject": "audit.recursion: surface.volume_p2 runner builds unchained maps with Volume::oriented",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6cffd6b1500185fb31a34469909d3d8cbfbeb454",
+   "short": "6cffd6b15",
+   "author": "Karl Von Richter",
+   "date": "2026-10-20T10:38:34+10:00",
+   "subject": "audit.recursion: update the remaining cpp-only difftest runners",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1eeff693a647d91cfddb768e45f6eb9aaa9b301c",
+   "short": "1eeff693a",
+   "author": "Karl Von Richter",
+   "date": "2026-10-20T09:46:52+10:00",
+   "subject": "audit.recursion: bound nested geometry, solver and tree recursion",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "curve",
+    "difftest",
+    "geom",
+    "intersect",
+    "nurbs",
+    "query",
+    "surface"
+   ],
+   "files": 52,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9fa20b66ed4ba9d92b9b109ecd69a747aa504c9f",
+   "short": "9fa20b66e",
+   "author": "Christian Svensson",
+   "date": "2026-10-20T01:34:51+02:00",
+   "subject": "topology.brep_p7: wire MergeSelfIntersectionCurves to the curve classification",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "topology"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "54d29ee0ac529e0678b4aea2b2da09c40b1dab35",
+   "short": "54d29ee0a",
+   "author": "Andreas",
+   "date": "2026-10-20T00:09:43+02:00",
+   "subject": "brep::p9 drop_curve: wire SmSurface::DropCurve (plane override with owner, else base); regenerate reports",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "topology"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c32910400afd19b91b1648b4ca1bf5129db7bd8a",
+   "short": "c32910400",
+   "author": "Andreas",
+   "date": "2026-10-19T15:16:16+02:00",
+   "subject": "reports/difftest: regenerate after the merge and the corner blend / IntersectTSBound fixes",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 5,
+   "watch": [
+    "corner-blend"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "2083b0420f1b29d96d69fd8201a8465fc98d8673",
+   "short": "2083b0420",
+   "author": "Andreas",
+   "date": "2026-10-19T14:17:58+02:00",
+   "subject": "query::face::p2: tests pass the snapshot and made trims to boundary_loops",
+   "kind": "altres",
+   "module": "query",
+   "modules": [
+    "query"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b199ec90c208142f40b552cdb5bafa65788bd5be",
+   "short": "b199ec90c",
+   "author": "Andreas",
+   "date": "2026-10-19T14:16:49+02:00",
+   "subject": "surface_drop_lib_p3: virtual DropCurve in sm_CreateNonRationalCurve; keep IntersectTSBound's made UV trim curves",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "nurbs",
+    "query",
+    "topology"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e5736bf882a35736659432611b2934723d978f00",
+   "short": "e5736bf88",
+   "author": "Andreas",
+   "date": "2026-10-19T10:37:26+02:00",
+   "subject": "topology::brep::p1: pass k to BSplineSurface::create_corner_blend (signature from this PR)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8fbfc7709122146d0051e443c077998dffce06c1",
+   "short": "8fbfc7709",
+   "author": "Andreas",
+   "date": "2026-10-19T02:43:17+02:00",
+   "subject": "plan/modules.toml: query.edge green, surface_drop_lib_p3 guard note",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7e259ceed32764529f39df25c6dc207b80e4741d",
+   "short": "7e259ceed",
+   "author": "Andreas",
+   "date": "2026-10-19T02:35:26+02:00",
+   "subject": "reports/difftest: regenerate after wiring SmSurface::DropCurve and the RadialSectorClassify status fix",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 16,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "30dc7e8e93573d413ebf7bd9bb6bf02be884b3d2",
+   "short": "30dc7e8e9",
+   "author": "Andreas",
+   "date": "2026-10-19T02:04:10+02:00",
+   "subject": "intersect.surface_drop_lib_p3: FFI guard also for knot multiplicity above degree + 1 at the v start and u ends (UB-182)",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7cbb7b4a2582d92762c355194dd8da1dd8ebd577",
+   "short": "7cbb7b4a2",
+   "author": "Andreas",
+   "date": "2026-10-19T01:57:35+02:00",
+   "subject": "intersect.surface_drop_lib_p3: FFI guard for the surface-cache crash on a near-zero first v knot span (UB-182)",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9e9d8b517733b4e52424e8409f121af15611801b",
+   "short": "9e9d8b517",
+   "author": "Andreas",
+   "date": "2026-10-19T01:04:35+02:00",
+   "subject": "query.edge: RadialSectorClassify passes Unitize/AngleBetween SM_ERR_INVALID_INPUT through SER (fixes boolean.merge_p1 cross_radial_8 status); modules.toml notes",
+   "kind": "altres",
+   "module": "query",
+   "modules": [
+    "difftest",
+    "plan",
+    "query"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "45dfeb4d995dff720c4f901d2af46f8620ec5cc1",
+   "short": "45dfeb4d9",
+   "author": "Andreas",
+   "date": "2026-10-18T23:13:18+02:00",
+   "subject": "intersect.surface_drop_lib_p3: fix success-status record encoding, ignored offset EvaluateDirectionalDerivs status, WR-182 start-list readout",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "difftest",
+    "harness",
+    "intersect",
+    "offset",
+    "plan"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4fdcc7d77641be5da8cb571d2dc8be5a02a6e4b6",
+   "short": "4fdcc7d77",
+   "author": "Andreas",
+   "date": "2026-10-18T22:06:35+02:00",
+   "subject": "WIP: topology.edgeuse_p3: wire SmSurface::DropCurve (plane override, general drop); not gated",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1a11b21fba0d643df6374626c1dfd3d44b25de56",
+   "short": "1a11b21fb",
+   "author": "Andreas",
+   "date": "2026-10-17T12:58:33+02:00",
+   "subject": "heal.heal_data_p1: regenerated report after merging upstream/main",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ccb7a6d5a2faa188279f8464800c73e6125358ec",
+   "short": "ccb7a6d5a",
+   "author": "Andreas",
+   "date": "2026-10-17T05:38:46+02:00",
+   "subject": "plan, reports: intersect.surface_drop_lib_p3 recertified after the tolerance fix (1529 cases, 877 pass, 652 deferred); surface.plane_p1 notes refreshed",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "49211709f885a6a3c94abd2cc8df285d01405647",
+   "short": "49211709f",
+   "author": "Andreas",
+   "date": "2026-10-17T04:55:59+02:00",
+   "subject": "intersect.surface_drop_lib_p3: apply SmApproxTol3d fabs/default on entry (PR #136 review)",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "intersect"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "309a7148db7586702642e2cb22eb86ab0a4fc9dd",
+   "short": "309a7148d",
+   "author": "Andreas",
+   "date": "2026-10-17T00:33:38+02:00",
+   "subject": "reports: regenerate after merging upstream/main (heal.heal_data_p1, intersect.curve_class_p5/p6)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b14a26f3e4cf6de6d2d32a7c83542b1fe16c753e",
+   "short": "b14a26f3e",
+   "author": "Andreas",
+   "date": "2026-10-16T21:20:53+02:00",
+   "subject": "plan/modules.toml: intersect.surface_drop_lib_p3 probe numbers",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0fd1cb7144b7e75c136a368c38792a9b5ed6cb2e",
+   "short": "0fd1cb714",
+   "author": "Andreas",
+   "date": "2026-10-16T21:19:11+02:00",
+   "subject": "geom.tol: fix curve tolerance unit test; notes and findings for the PR #136 round",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom",
+    "intersect",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7fcafed58019d85d337987bf8c067407069eab2d",
+   "short": "7fcafed58",
+   "author": "Andreas",
+   "date": "2026-10-16T20:23:18+02:00",
+   "subject": "surface.surface_p8: wire SmSurface::DropCurve to drop_curve_base; pass the owner to the plane drop; pass the surface handle to GlobalPointSolve in the base drop",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "intersect",
+    "surface"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f311a166355093f0512192dc4f9673aef600f2be",
+   "short": "f311a1663",
+   "author": "Andreas",
+   "date": "2026-10-16T20:11:08+02:00",
+   "subject": "intersect.surface_drop_lib_p3: PR #136 review round: exact FFI guard, generator branches, owner-carrying plane fallback, SmTol curve overloads, issue texts",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "intersect",
+    "nurbs",
+    "plan",
+    "surface"
+   ],
+   "files": 17,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6510d317eea0e02995115a34b6afe89ee2c27d60",
+   "short": "6510d317e",
+   "author": "Andreas",
+   "date": "2026-10-16T16:29:04+02:00",
+   "subject": "intersect.surface_drop_lib_p3: probe numbers in notes, STATUS counts after merging main",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5fe2d87120ada1757d7cac897c4d44981d1f36ae",
+   "short": "5fe2d8712",
+   "author": "Andreas",
+   "date": "2026-10-16T13:22:37+02:00",
+   "subject": "intersect.surface_drop_lib_p3: a point above the plane drops well and ends at GetNextPoint (unit test, fixture comment)",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "difftest",
+    "intersect"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "64a330707138004303336bf4da72899945d91f7f",
+   "short": "64a330707",
+   "author": "Andreas",
+   "date": "2026-10-16T12:15:01+02:00",
+   "subject": "plan/STATUS.md: unit counts from the manifest after merging main",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0ea20e2bcf3f25c2ac948bed21396c3c4b002d16",
+   "short": "0ea20e2bc",
+   "author": "Andreas",
+   "date": "2026-10-16T12:14:47+02:00",
+   "subject": "intersect.surface_drop_lib_p3: keep the curve.curve_p2 stub line, notes",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "geom",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2fd71e7b6feb9be7300fa322d6eed397bd4a1ae6",
+   "short": "2fd71e7b6",
+   "author": "Andreas",
+   "date": "2026-10-16T11:47:21+02:00",
+   "subject": "intersect.surface_drop_lib_p3: GetScaledZero(SmCurve) in geom::tol, UB-129, document the interval guard",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "intersect",
+    "plan",
+    "surface"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "46f6cb131db2d98e8c4b873c9352668f84aacfad",
+   "short": "46f6cb131",
+   "author": "Andreas",
+   "date": "2026-10-16T11:37:57+02:00",
+   "subject": "intersect.surface_drop_lib_p3: failure record keeps upstream SmBool ints; clippy fixes",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "difftest",
+    "intersect"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "76c346ffc5ce2c628c85561b62b716314bf31b90",
+   "short": "76c346ffc",
+   "author": "Andreas",
+   "date": "2026-10-16T08:51:19+02:00",
+   "subject": "intersect.surface_drop_lib_p3: point-curve generators, unit tests, notes, reports; plane_p1 generator treats DropCurve as lazy-NURB",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "difftest",
+    "intersect",
+    "nurbs",
+    "plan",
+    "surface"
+   ],
+   "files": 14,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fb8b1a7bfe456601b7607e0885dc3cd390d8a6c3",
+   "short": "fb8b1a7bf",
+   "author": "Andreas",
+   "date": "2026-10-16T08:17:41+02:00",
+   "subject": "intersect.surface_drop_lib_p3: port SmSurface::DropCurve, shim, ffi, runner; wire stubs (WIP)",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "difftest",
+    "harness",
+    "intersect",
+    "nurbs",
+    "plan",
+    "surface"
+   ],
+   "files": 16,
+   "watch": [],
+   "ai": true
+  }
+ ],
+ "prs": [
+  {
+   "number": 273,
+   "title": "port: audit.recursion",
+   "branch": "unit/audit.recursion",
+   "owner": "Karl-VonRichter",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T01:48:38Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 280,
+   "title": "topology.brep_p7: wire MergeSelfIntersectionCurves to the curve classification (follow-up to #246)",
+   "branch": "unit/topology.brep_p7-curve-class",
+   "owner": "bluecmd",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T00:27:38Z",
+   "issue_refs": [
+    246
+   ],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": "topology",
+   "watch": []
+  },
+  {
+   "number": 463,
+   "title": "port: intersect.surface_drop_lib_p3",
+   "branch": "unit/intersect.surface_drop_lib_p3",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T00:12:15Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 541,
+   "title": "wire: SmTol::GetZoneTol3d(const SmObject*) and SmFace::PointClassify in the topology solver",
+   "branch": "wire/topology-solver-zone-tol",
+   "owner": "erlis",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T01:13:18Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "wire",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 562,
+   "title": "perf: reuse validated fixture exports in edge-use runners",
+   "branch": "codex/edgeuse-prepared",
+   "owner": "tdamsma",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T08:05:56Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "perf",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 563,
+   "title": "port: curve.crv_on_surf",
+   "branch": "followup/crv-on-surf-break-cache",
+   "owner": "altvnk",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T09:48:51Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 569,
+   "title": "geom.tol: resolve GetZoneTol3d on solver solution handles",
+   "branch": "fix/tolerance-on-object-handles",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T03:14:00Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": "geom",
+   "watch": []
+  },
+  {
+   "number": 571,
+   "title": "surface: model lazy surface cache trees (GetDomainWithContinuity history)",
+   "branch": "fix/lazy-surface-cache-trees",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T04:48:47Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": "surface",
+   "watch": []
+  },
+  {
+   "number": 572,
+   "title": "offset: thread face caches through drop solves",
+   "branch": "followup/offset-face-tolerance",
+   "owner": "altvnk",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T01:08:08Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": "offset",
+   "watch": []
+  },
+  {
+   "number": 574,
+   "title": "fix: keep taper generator owners; tidy nesting docs after #273",
+   "branch": "fix/taper-generator-owner",
+   "owner": "Karl-VonRichter",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T02:23:16Z",
+   "issue_refs": [
+    273
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 576,
+   "title": "topology.brep_p3 shim: resolve tracker identities at notification time",
+   "branch": "fix/brep-p3-tracker-identity",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T02:58:26Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 577,
+   "title": "site: track solids (primitives built/passing), corpus placeholder",
+   "branch": "site/solids",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T03:01:14Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 579,
+   "title": "batch: leader cycle 4 (cc-topology-handles, geom-stale-stubs, km-binormal, primitives-wire)",
+   "branch": "batch/leader-4",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T05:17:24Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 580,
+   "title": "fix: compare cone_p2 cones without a polar curve and failed trim-domain conversions (#277)",
+   "branch": "fix/cone-p2-refusals-277",
+   "owner": "Karl-VonRichter",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T05:56:43Z",
+   "issue_refs": [
+    277
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 581,
+   "title": "difftest: edgeuse_p3 restores face surface cache states (23 EvaluateBinormal known mismatches)",
+   "branch": "fix/edgeuse-binormal-mismatch",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T08:11:05Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "difftest",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 582,
+   "title": "fix: honor derived point evaluation in revolution fast drop",
+   "branch": "codex/fast-drop-virtual-point",
+   "owner": "tdamsma",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T08:41:51Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 583,
+   "title": "perf: retain curve caches during interior node-pair walks",
+   "branch": "codex/curve-cache-profile",
+   "owner": "tdamsma",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T08:41:49Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "perf",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 584,
+   "title": "difftest: fillet_solver_p4 calc_geom splits the constructor's fillet geometry (gen0512)",
+   "branch": "fix/fillet-calc-geom-split",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T08:57:18Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "difftest",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 585,
+   "title": "fix: deform curve-on-surface gap targets in UV space",
+   "branch": "codex/make-face-analytic",
+   "owner": "tdamsma",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T09:23:08Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 586,
+   "title": "topology: CreateUVTrimCurve(s) leave the face's surface without a face (3 known mismatches)",
+   "branch": "fix/uv-trim-owner-cleared",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T09:23:04Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": "topology",
+   "watch": []
+  },
+  {
+   "number": 587,
+   "title": "plan: mark six units green (0 deferred on main)",
+   "branch": "claude/green-status-flips",
+   "owner": "tdamsma",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T09:07:36Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "plan",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 588,
+   "title": "wire: mass.integrator face construction (unit to green)",
+   "branch": "claude/green-mass",
+   "owner": "tdamsma",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T09:23:02Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "wire",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 590,
+   "title": "difftest: SolidCraft #1510 case (a split in the plane of a groove's ceiling)",
+   "branch": "cases/solidcraft-1510",
+   "owner": "SychPL",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T10:19:44Z",
+   "issue_refs": [
+    1510
+   ],
+   "upstream_refs": [],
+   "kind": "difftest",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 591,
+   "title": "difftest: cover nested Boolean merge geometry",
+   "branch": "codex/merge-success-coverage",
+   "owner": "tdamsma",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T09:43:40Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "difftest",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 592,
+   "title": "wire: surface.surface_p1 iso curves over non-B-spline surfaces (unit to green)",
+   "branch": "claude/green-surface-p1",
+   "owner": "tdamsma",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T09:48:49Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "wire",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 593,
+   "title": "difftest: resolve line intervals and promote global solver to green",
+   "branch": "codex/geom-global-interval",
+   "owner": "tdamsma",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T10:46:35Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "difftest",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 594,
+   "title": "port: surface.trim_srf_cache",
+   "branch": "fix/green-trim-context",
+   "owner": "altvnk",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T10:26:07Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 595,
+   "title": "port: surface.srf_in_volume",
+   "branch": "fix/green-surface-context",
+   "owner": "altvnk",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T10:26:04Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 597,
+   "title": "port: intersect.curve_class_p2",
+   "branch": "fix/green-curve-class-context",
+   "owner": "altvnk",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T10:51:41Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 598,
+   "title": "wire: surface.cone_p3 boundary and global intersection through surface_p2 (unit to green)",
+   "branch": "claude/green-cone-p3",
+   "owner": "tdamsma",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T10:26:01Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "wire",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 599,
+   "title": "difftest: G3 runner handles (curve_class_p6 partner, topology_solver_p2 zone tolerances)",
+   "branch": "fix/g3-runner-handles",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T17:19:42Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "difftest",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 600,
+   "title": "plan: mark eight units green (0 deferred on main)",
+   "branch": "claude/green-status-flips-2",
+   "owner": "tdamsma",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T10:31:18Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "plan",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 602,
+   "title": "port: intersect.surface_intersector_p5",
+   "branch": "fix/green-csi-polar-cache",
+   "owner": "altvnk",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T11:27:08Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 605,
+   "title": "wire: Surface dispatch arms for cones and spheres",
+   "branch": "claude/surface-p2-dispatch",
+   "owner": "tdamsma",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T11:32:15Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "wire",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 606,
+   "title": "wire: surface.surf_of_extrusion_p2 general intersection, surface.surface_p9 handle domain (surface module to green)",
+   "branch": "claude/green-surface-rest",
+   "owner": "tdamsma",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T11:27:05Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "wire",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 610,
+   "title": "port: intersect.curve_class_p5",
+   "branch": "unit/intersect.curve_class_p5",
+   "owner": "Loohi",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T13:08:37Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 611,
+   "title": "wire: SmCrvOnSurf::EvaluatePoint in the global solver (surface drop units)",
+   "branch": "claude/cos-evalpoint",
+   "owner": "tdamsma",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T11:47:30Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "wire",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 612,
+   "title": "wire: intersect.ray_tracer AddSurfaceToGrid (unit to green)",
+   "branch": "wire/ray-tracer-add-surface",
+   "owner": "zorak1103",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T11:42:24Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "wire",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 614,
+   "title": "wire: face classification hooks (query.face_p1) in runner objects",
+   "branch": "claude/face-p1-hooks",
+   "owner": "tdamsma",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T12:27:53Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "wire",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 615,
+   "title": "fix: preserve rotational surface geometry and production cleanup",
+   "branch": "codex/primitive-access-wiring",
+   "owner": "tdamsma",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T20:21:35Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 616,
+   "title": "wire: resolve edge/curve/vertex handles in solver objects",
+   "branch": "claude/edge-handles",
+   "owner": "tdamsma",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T14:46:33Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "wire",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 617,
+   "title": "wire: primitive.primitive_creation_p3 B-rep face services and axis classification (unit to green)",
+   "branch": "wire/primitive-p3-brep-faces",
+   "owner": "embed-3d",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T13:03:26Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "wire",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 618,
+   "title": "difftest: own imported geometry under the harness's keys (brep_p6, merge_p2)",
+   "branch": "difftest/geometry-owners",
+   "owner": "erlis",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T14:15:26Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "difftest",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 620,
+   "title": "port: geom.grid",
+   "branch": "harness/grid-native-cache",
+   "owner": "altvnk",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T14:15:23Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 621,
+   "title": "port: query.poly",
+   "branch": "harness/poly-real-owner",
+   "owner": "altvnk",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T14:56:51Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 622,
+   "title": "port: blend.fillet_intersector",
+   "branch": "diagnostic/fillet-span-probes",
+   "owner": "altvnk",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T14:56:48Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 623,
+   "title": "difftest: run primitive.primitive_creation_p2 through the production PrimitiveModel",
+   "branch": "wire/primitive-p2-scratch-breps",
+   "owner": "embed-3d",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T13:59:55Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "difftest",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 624,
+   "title": "site: link the model viewer",
+   "branch": "site/viewer-link",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T14:23:08Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 625,
+   "title": "wire: SmFace::FaceIntersect across two B-reps and with UV curve / point outputs",
+   "branch": "wire/face-intersect-two-breps",
+   "owner": "embed-3d",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T14:31:04Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "wire",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 626,
+   "title": "wire: trimming_tools face_has_seam_problem to face_p4 (promotes to green)",
+   "branch": "wire/trimming-tools-seam-green",
+   "owner": "outlookhazy",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T14:56:45Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "wire",
+   "module": null,
+   "watch": [
+    "seam"
+   ]
+  },
+  {
+   "number": 627,
+   "title": "fix(proto_topology): split EdgeDefinition starts unowned (fixes #518)",
+   "branch": "fix/edge-definition-split-ownership",
+   "owner": "outlookhazy",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T15:37:50Z",
+   "issue_refs": [
+    518
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": "proto_topology",
+   "watch": []
+  },
+  {
+   "number": 628,
+   "title": "fix: edge destruction notification and attribute cleanup in DeleteEdge / GlueEdgesGeneral (#556)",
+   "branch": "fix/edge-destruction-attributes",
+   "owner": "embed-3d",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T15:37:47Z",
+   "issue_refs": [
+    556
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 629,
+   "title": "wire: geom.grid surface grid elements (unit to green)",
+   "branch": "wire/grid-surface-elements",
+   "owner": "zorak1103",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T15:22:27Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "wire",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 631,
+   "title": "fix: edge use, face and shell destruction notifications and attribute cleanup (#556)",
+   "branch": "fix/topology-destruction-faces-edgeuses-shells",
+   "owner": "embed-3d",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T17:39:45Z",
+   "issue_refs": [
+    556
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 635,
+   "title": "difftest: run point-class merge and combine on the explicit B-rep",
+   "branch": "difftest/point-class-merges",
+   "owner": "oursland",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T16:38:50Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "difftest",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 637,
+   "title": "wire: face Notify(ChangeGeometry) in Face::change_surface (topology.face_p1)",
+   "branch": "fix/face-notify-change-geometry",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T19:05:52Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "wire",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 639,
+   "title": "wire: classification face queries through ClassGeometryMut (WithMadeTrimCurves pass-through)",
+   "branch": "wire/class-geometry-mut",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T21:21:45Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "wire",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 645,
+   "title": "difftest: refill imported vertex/face gaps in offset.offset_geometry_creation (gen0730)",
+   "branch": "fix/offset-vertex-face-gap-refill",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T19:05:49Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "difftest",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 649,
+   "title": "difftest: topology.brep_p9 owns imported geometry under the keys it queries with",
+   "branch": "difftest/brep-p9-owners",
+   "owner": "erlis",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T18:45:27Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "difftest",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 650,
+   "title": "scripts: two-tier mutation testing harness",
+   "branch": "mutants/two-tier-harness",
+   "owner": "oursland",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T18:30:19Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 656,
+   "title": "topology: test change-tracker lists, owner metadata and accessors",
+   "branch": "tests/topology-change-tracking",
+   "owner": "oursland",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T19:10:53Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": "topology",
+   "watch": []
+  },
+  {
+   "number": 658,
+   "title": "wire: fillet law in EvaluateLawPoint; DoLawIntersection on SmFilletIntersector (surface_intersector_p2/p3, fillet_standard_solver_p2 green)",
+   "branch": "fix/g5-fillet-law",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T20:42:06Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "wire",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 661,
+   "title": "difftest: brep_p3 geometry-edit-notify cases become known mismatches (no C++-output deferral)",
+   "branch": "difftest/brep-p3-geometry-edit-known-mismatch",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T20:16:12Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "difftest",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 663,
+   "title": "difftest: intersect.curve_class_p4 closed revolution UV trim curves",
+   "branch": "unit/intersect.curve_class_p4",
+   "owner": "outlookhazy",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T20:06:03Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "difftest",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 664,
+   "title": "difftest: retain actual proto manager bodies for point classification",
+   "branch": "codex/proto-topology-context",
+   "owner": "tdamsma",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T21:21:42Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "difftest",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 666,
+   "title": "difftest: compare topology change-tracker chg lists and events",
+   "branch": "difftest/topology-tracker-lists",
+   "owner": "oursland",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T20:37:07Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "difftest",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 667,
+   "title": "port: intersect.curve_class_p9",
+   "branch": "unit/intersect.curve_class_p9",
+   "owner": "outlookhazy",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T21:01:54Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 669,
+   "title": "fix: preserve partial UV-domain outputs on calculation failure",
+   "branch": "codex/face-uv-domain-attempt",
+   "owner": "tdamsma",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T21:21:40Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 670,
+   "title": "wire: SmCone::TrimWithDomain through the inherited SmSurfOfRevolution body",
+   "branch": "fix/cone-trim-with-domain",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T21:41:44Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "wire",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 671,
+   "title": "port: topology.edge (stacked on #596, merged with main)",
+   "branch": "stack/topology-edge-on-main",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T21:31:44Z",
+   "issue_refs": [
+    596
+   ],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 672,
+   "title": "difftest: refill the cached gaps the B-rep importers mark as set",
+   "branch": "fix/importer-gap-refill",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T23:29:37Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "difftest",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 673,
+   "title": "port: intersect.point_class",
+   "branch": "unit/intersect.point_class",
+   "owner": "outlookhazy",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T21:36:47Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 675,
+   "title": "fix: SM_BO_SLICE coincident faces kept on the sheet's same side only (#528)",
+   "branch": "fix/slice-coincident-528",
+   "owner": "Karl-VonRichter",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T21:41:42Z",
+   "issue_refs": [
+    528
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 676,
+   "title": "plan: refresh STATUS.md, unit notes and findings status index",
+   "branch": "plan/status-refresh",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T22:16:27Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "plan",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 679,
+   "title": "wire: SmBrep::Transform (blend.hcr, merge_p1 runner) and UpdateVertexEdgeIntervals (brep_p5)",
+   "branch": "wire/brep-transform-hcr-merge",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T23:14:55Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "wire",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 680,
+   "title": "port: intersect.curve_class_p7",
+   "branch": "unit/intersect.curve_class_p7",
+   "owner": "outlookhazy",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T22:36:01Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 685,
+   "title": "fix: prepare face geometry for shell ray queries (stacked on #613, merged with main)",
+   "branch": "stack/shell-ray-face-geometry-on-main",
+   "owner": "brett19",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T23:53:59Z",
+   "issue_refs": [
+    613
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 687,
+   "title": "port: topology.topology_traverser",
+   "branch": "unit/topology.topology_traverser",
+   "owner": "outlookhazy",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T23:39:22Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 689,
+   "title": "port: blend.fillet_solver_p5",
+   "branch": "unit/blend.fillet_solver_p5",
+   "owner": "outlookhazy",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-23T23:53:57Z",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  }
+ ],
+ "watch": [
+  {
+   "id": "setback",
+   "label": "Cantonades setback",
+   "cases": [
+    "C05",
+    "D01",
+    "D02"
+   ],
+   "hits": []
+  },
+  {
+   "id": "mixed-corner",
+   "label": "Cantonades mixtes",
+   "cases": [
+    "D01",
+    "D02"
+   ],
+   "hits": []
+  },
+  {
+   "id": "ball-patch",
+   "label": "Ball patch (cantonades esfèriques)",
+   "cases": [
+    "C05",
+    "D11"
+   ],
+   "hits": []
+  },
+  {
+   "id": "variable-radius",
+   "label": "Radi variable / lleis de radi",
+   "cases": [
+    "D07"
+   ],
+   "hits": []
+  },
+  {
+   "id": "round-larger-than-wall",
+   "label": "Arrodoniment més gran que la paret",
+   "cases": [
+    "D03",
+    "D08"
+   ],
+   "hits": []
+  },
+  {
+   "id": "shell-rounded",
+   "label": "Buidat de cossos arrodonits",
+   "cases": [
+    "D11",
+    "D14"
+   ],
+   "hits": []
+  },
+  {
+   "id": "hang-cancel",
+   "label": "Penjaments, temps límit i cancel·lació",
+   "cases": [
+    "C03",
+    "D02",
+    "D11"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "5f29961f4",
+     "text": "difftest fuzz_corpus topology.face_p3: the shared vertexuse export rejects first",
+     "url": "https://github.com/tangency-labs/solidcore/commit/5f29961f420fab890e1f4cb7bdd61dc87c797a76",
+     "matched": "now refuses values above 1e150 (HANG-29) before the face_p3 op or its"
+    },
+    {
+     "source": "commit",
+     "ref": "d725baf2c",
+     "text": "topology.vertexuse FFI: refuse B-rep blocks above 1e150 (HANG-29)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/d725baf2c83a7388fdcc87dd1d25be8563a3e908"
+    },
+    {
+     "source": "commit",
+     "ref": "3a1f2a7de",
+     "text": "audit.recursion: re-audit through main 7c74a05f",
+     "url": "https://github.com/tangency-labs/solidcore/commit/3a1f2a7de3f453ff395ea70995a9394bdf74e2ca",
+     "matched": "No new unbounded recursion. C++ clippy passes; difftest of 9 touched units:"
+    },
+    {
+     "source": "commit",
+     "ref": "0afd441d1",
+     "text": "audit.recursion: re-audit through main ca3bbd2b (boolean.merge_p2, topology.face_p4)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/0afd441d1df29aade387d6c5afa764532bc55a96",
+     "matched": "No new unbounded recursion; face_p4 has_seam_problem re-entry is depth 1"
+    }
+   ]
+  },
+  {
+   "id": "corner-blend",
+   "label": "Corner blend (CreateCornerBlend / Coons)",
+   "cases": [
+    "C05",
+    "D02"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "60e9f576b",
+     "text": "geom-stale-stubs: port tangent-field ApproximateCurve and exact SrfInVolume out-surface",
+     "url": "https://github.com/tangency-labs/solidcore/commit/60e9f576bc63c29a7f9b87d834ebd7a700b418d1",
+     "matched": "virtual curve) replaces the curve.crv_on_surf stub in the corner blends."
+    },
+    {
+     "source": "commit",
+     "ref": "c32910400",
+     "text": "reports/difftest: regenerate after the merge and the corner blend / IntersectTSBound fixes",
+     "url": "https://github.com/tangency-labs/solidcore/commit/c32910400afd19b91b1648b4ca1bf5129db7bd8a"
+    }
+   ]
+  },
+  {
+   "id": "chamfer",
+   "label": "Xamfrans",
+   "cases": [],
+   "hits": []
+  },
+  {
+   "id": "loft-skin",
+   "label": "Loft / skin (superfícies B-spline arrodonides)",
+   "cases": [
+    "D14"
+   ],
+   "hits": []
+  },
+  {
+   "id": "step",
+   "label": "STEP (import / export)",
+   "cases": [
+    "anada i tornada STEP"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "b2e18251d",
+     "text": "wire: surface.surface_p1 iso curves over non-B-spline surfaces (unit to green)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/b2e18251d03ac756ca70651f61acb97218357e58",
+     "matched": "FindTessellationSplits / CreateIsoBoundaries route curve-bounded, STEP,"
+    },
+    {
+     "source": "commit",
+     "ref": "36915c060",
+     "text": "fix: honor derived point evaluation in revolution fast drop",
+     "url": "https://github.com/tangency-labs/solidcore/commit/36915c060ce1813ae6b2add8d94b62c9c7afa6c3",
+     "matched": "EvaluatePoint. Supply that evaluator alongside the existing STEP/local-solve"
+    }
+   ]
+  },
+  {
+   "id": "platform",
+   "label": "Plataformes (wasm, iOS, ARM)",
+   "cases": [
+    "iPad"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "9e378f0cf",
+     "text": "Promote certified CrvOnSurf downstream units",
+     "url": "https://github.com/tangency-labs/solidcore/commit/9e378f0cf1ba7b7657b963b7c9106082bd2d3726",
+     "matched": "Record the complete 260-unit audit: 1436 original deferrals now compare floating-point values bit-identically, 1344 move to deeper blockers, no prior pass becomes deferred and no case is removed. Prom"
+    },
+    {
+     "source": "commit",
+     "ref": "d94423939",
+     "text": "Record integrated CrvOnSurf and healer verification",
+     "url": "https://github.com/tangency-labs/solidcore/commit/d944239394d864ddcbd679eae1d3eb698b6c6c98",
+     "matched": "Separate genuine native pass gains from relocated deferrals, document the ARM64 hash-conversion limitation, and refresh the geometry nesting bound to main's current 32 levels."
+    },
+    {
+     "source": "commit",
+     "ref": "e6d9cf53c",
+     "text": "km-binormal: raise MAX_SUBDIVISION_NODES to 2^22 (64-bit), root-cause the EvaluateBinormal state mismatches",
+     "url": "https://github.com/tangency-labs/solidcore/commit/e6d9cf53c76efa880ed1e01a646f02d719ca8cfa",
+     "matched": "deferred. The bound is now 2^22 on 64-bit targets (2^20 on wasm32)."
+    },
+    {
+     "source": "commit",
+     "ref": "a22e72e26",
+     "text": "WIP: retain CrvOnSurf break writes through base drop queries",
+     "url": "https://github.com/tangency-labs/solidcore/commit/a22e72e2684cf67089f2cc18531b032887b0971c",
+     "matched": "Wire UV discontinuity classification and retain the break-cache state actually produced by base DropPoint, including failure paths. Shared knot queries update a value-only cache; snapshots and clones "
+    },
+    {
+     "source": "commit",
+     "ref": "0afd441d1",
+     "text": "audit.recursion: re-audit through main ca3bbd2b (boolean.merge_p2, topology.face_p4)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/0afd441d1df29aade387d6c5afa764532bc55a96",
+     "matched": "(stage set before the callback). fmt, clippy, 1562 tests and wasm pass."
+    },
+    {
+     "source": "commit",
+     "ref": "a8dd2edba",
+     "text": "audit(fix): close recursion guard bypasses and finish snapshot audit",
+     "url": "https://github.com/tangency-labs/solidcore/commit/a8dd2edbab4ab7b8fb5c1d1ac9a983e5aeb93c8d",
+     "matched": "and wasm runtime limitations. Native tests, workspace clippy, formatting and"
+    }
+   ]
+  },
+  {
+   "id": "determinism",
+   "label": "Determinisme",
+   "cases": [
+    "resultats idèntics Mac/iPad"
+   ],
+   "hits": []
+  },
+  {
+   "id": "upstream-fixes",
+   "label": "Flags d'UpstreamFixes",
+   "cases": [
+    "configuració del kernel a l'app"
+   ],
+   "hits": []
+  },
+  {
+   "id": "seam",
+   "label": "Costures (seam) i arestes partides",
+   "cases": [
+    "lliçó: no triar arestes en costures"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "a20b52bbf",
+     "text": "port: topology.topology_traverser to green",
+     "url": "https://github.com/tangency-labs/solidcore/commit/a20b52bbf3c3f4fdc2b2d75f00de5064917c4bce",
+     "matched": "Implement ClassGeometry topology_entity and topology_handle on UvLineObjects (gated on resolve_topology: true) in topology.face_p2, allowing face UV line classifications during seam check to resolve t"
+    },
+    {
+     "source": "commit",
+     "ref": "5b6418df3",
+     "text": "difftest(intersect.curve_class_p4): create UV trim curves for closed revolution faces",
+     "url": "https://github.com/tangency-labs/solidcore/commit/5b6418df37670aa5202242e8617e79938522d7e6",
+     "matched": "tolerances (2.0 * d3dGap). Matching this in build_pool resolves seam"
+    },
+    {
+     "source": "commit",
+     "ref": "29b580377",
+     "text": "query.poly: compare genuine owner geometry without replacing legacy cases",
+     "url": "https://github.com/tangency-labs/solidcore/commit/29b58037710edc7b74f38a7093d27797658d8370",
+     "matched": "Add an opt-in real-face resolver and port the native UV/pole/seam degeneracy continuation. Compare real SmFace surfaces, independent mapped samples, and native IsDegenerate decisions in 16 new fixture"
+    },
+    {
+     "source": "commit",
+     "ref": "78260a11b",
+     "text": "topology: CreateUVTrimCurve(s) leave the face's surface without a face",
+     "url": "https://github.com/tangency-labs/solidcore/commit/78260a11b0b6a8ab53181afa0699ada625fd459c",
+     "matched": "(EvaluateBinormal's, from the seam choice of CreateUVTrimCurve) builds a"
+    },
+    {
+     "source": "commit",
+     "ref": "d35130775",
+     "text": "Preserve healer seam query gap-cache updates",
+     "url": "https://github.com/tangency-labs/solidcore/commit/d3513077564c4d5b7dcb3709f4835b5f915600a5"
+    },
+    {
+     "source": "commit",
+     "ref": "3c75aff94",
+     "text": "Preserve face tolerance in newly reached seam classification",
+     "url": "https://github.com/tangency-labs/solidcore/commit/3c75aff9479dea3f436fbbc2f72ce316317ef870"
+    },
+    {
+     "source": "commit",
+     "ref": "36915c060",
+     "text": "fix: honor derived point evaluation in revolution fast drop",
+     "url": "https://github.com/tangency-labs/solidcore/commit/36915c060ce1813ae6b2add8d94b62c9c7afa6c3",
+     "matched": "Add 42 native periodic-face comparisons, including three cone seam cases"
+    },
+    {
+     "source": "pr",
+     "ref": "#626",
+     "text": "wire: trimming_tools face_has_seam_problem to face_p4 (promotes to green)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/626",
+     "matched": "wire/trimming-tools-seam-green"
+    }
+   ]
+  }
+ ],
+ "units": {
+  "total": 261,
+  "counts": {
+   "green": 202,
+   "partial": 59
+  },
+  "status_changes": [
+   {
+    "unit": "audit.recursion",
+    "before": "todo",
+    "after": "green"
+   },
+   {
+    "unit": "blend.fillet_geom_p1",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "blend.fillet_geom_p2",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "blend.fillet_geom_p5",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "blend.fillet_solver_p4",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "blend.fillet_solver_p5",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "blend.fillet_standard_solver_p1",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "blend.fillet_standard_solver_p2",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "curve.crv_on_surf",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "curve.curve_p1",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "geom.global_solver",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "geom.grid",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "geom.tree",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "heal.gap",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "heal.heal_data_p2",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "heal.stitch_p1",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "heal.stitch_p2",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "intersect.curve_class_p2",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "intersect.curve_class_p5",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "intersect.curve_class_p7",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "intersect.curve_class_p8",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "intersect.curve_class_p9",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "intersect.point_class",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "intersect.ray_tracer",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "intersect.surface_drop_curve",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "intersect.surface_drop_lib_p1",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "intersect.surface_drop_lib_p3",
+    "before": "todo",
+    "after": "green"
+   },
+   {
+    "unit": "intersect.surface_intersector_p2",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "intersect.surface_intersector_p3",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "intersect.surface_intersector_p5",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "intersect.surface_tracer",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "intersect.topology_solver_p1",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "mass.integrator",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "nurbs.b_spline_surface_n_lib_p2",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "primitive.primitive_creation_p3",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "query.edge",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "query.face_p1",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "query.tess",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "surface.cone_p3",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "surface.plane_p1",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "surface.srf_in_volume",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "surface.surf_of_extrusion_p2",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "surface.surf_of_revolution_p2",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "surface.surface_cache_p2",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "surface.surface_p1",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "surface.surface_p10",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "surface.surface_p2",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "surface.surface_p8",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "surface.surface_p9",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "surface.trim_srf_cache",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "topology.brep_data",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "topology.edge",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "topology.edgeuse_p2",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "topology.edgeuse_p3",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "topology.loopuse",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "topology.proto_topology_p1",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "topology.proto_topology_p3",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "topology.topology_traverser",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "topology.trimming_tools",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "topology.vertex",
+    "before": "partial",
+    "after": "green"
+   },
+   {
+    "unit": "topology.vertexuse",
+    "before": "partial",
+    "after": "green"
+   }
+  ],
+  "notes_updated": [
+   "audit.recursion",
+   "blend.fillet_corner_p1",
+   "blend.fillet_corner_p2",
+   "blend.fillet_corner_p3",
+   "blend.fillet_executive_p3",
+   "blend.fillet_geom_p1",
+   "blend.fillet_geom_p2",
+   "blend.fillet_geom_p4",
+   "blend.fillet_geom_p5",
+   "blend.fillet_geom_p6",
+   "blend.fillet_intersector",
+   "blend.fillet_solver_p1",
+   "blend.fillet_solver_p2",
+   "blend.fillet_solver_p4",
+   "blend.fillet_solver_p5",
+   "blend.fillet_standard_solver_p1",
+   "blend.fillet_standard_solver_p2",
+   "blend.hcr",
+   "boolean.merge_p1",
+   "boolean.merge_p2",
+   "boolean.merge_p3",
+   "boolean.merge_p4",
+   "boolean.topology_intersector_p1",
+   "boolean.topology_intersector_p2",
+   "boolean.topology_intersector_p3",
+   "curve.composite_curve_p1",
+   "curve.composite_curve_p2",
+   "curve.crv_in_volume",
+   "curve.crv_on_surf",
+   "curve.curve_cache",
+   "curve.curve_p1",
+   "curve.curve_p2",
+   "curve.curve_p6",
+   "curve.curve_p7",
+   "curve.curve_p8",
+   "curve.ellipse_p1",
+   "curve.ellipse_p2",
+   "curve.hyperbola",
+   "curve.line",
+   "geom.a_object",
+   "geom.attribute",
+   "geom.global_solver",
+   "geom.grid",
+   "geom.tools",
+   "geom.tree",
+   "heal.face_props",
+   "heal.gap",
+   "heal.heal_data_p1",
+   "heal.heal_data_p2",
+   "heal.heal_data_p3",
+   "heal.stitch_p1",
+   "heal.stitch_p2",
+   "intersect.curve_class_p1",
+   "intersect.curve_class_p2",
+   "intersect.curve_class_p4",
+   "intersect.curve_class_p5",
+   "intersect.curve_class_p6",
+   "intersect.curve_class_p7",
+   "intersect.curve_class_p8",
+   "intersect.curve_class_p9",
+   "intersect.point_class",
+   "intersect.ray_tracer",
+   "intersect.surface_drop_curve",
+   "intersect.surface_drop_lib_p1",
+   "intersect.surface_drop_lib_p3",
+   "intersect.surface_intersector_p2",
+   "intersect.surface_intersector_p3",
+   "intersect.surface_intersector_p5",
+   "intersect.surface_tracer",
+   "intersect.topology_solver_p1",
+   "intersect.topology_solver_p2",
+   "mass.integrator",
+   "nlib.crv_geom",
+   "nlib.crv_nurb",
+   "nlib.crv_tool_p2",
+   "nurbs.b_spline_curve_n_lib",
+   "nurbs.b_spline_curve_p2",
+   "nurbs.b_spline_surface_n_lib_p1",
+   "nurbs.b_spline_surface_n_lib_p2",
+   "offset.offset_executive_p1",
+   "offset.offset_geometry_creation",
+   "primitive.api_primitives",
+   "primitive.primitive_creation_p1",
+   "primitive.primitive_creation_p2",
+   "primitive.primitive_creation_p3",
+   "query.api_queries",
+   "query.brep",
+   "query.edge",
+   "query.face_p1",
+   "query.face_p2",
+   "query.face_p3",
+   "query.tess",
+   "surface.b_spline_volume_n_lib",
+   "surface.cone_p1",
+   "surface.cone_p2",
+   "surface.cone_p3",
+   "surface.curve_bounded_surface",
+   "surface.plane_p1",
+   "surface.plane_p2",
+   "surface.sphere",
+   "surface.srf_in_volume",
+   "surface.surf_of_extrusion_p1",
+   "surface.surf_of_extrusion_p2",
+   "surface.surf_of_revolution_p1",
+   "surface.surf_of_revolution_p2",
+   "surface.surf_of_revolution_p3",
+   "surface.surface_cache_p2",
+   "surface.surface_cache_p3",
+   "surface.surface_p1",
+   "surface.surface_p10",
+   "surface.surface_p11",
+   "surface.surface_p2",
+   "surface.surface_p4",
+   "surface.surface_p5",
+   "surface.surface_p6",
+   "surface.surface_p8",
+   "surface.surface_p9",
+   "surface.surface_point_solve_p2",
+   "surface.torus",
+   "surface.trim_srf_cache",
+   "surface.volume_p2",
+   "sweep.api_brep",
+   "sweep.api_surfaces",
+   "sweep.topology_sweep",
+   "topology.brep_cache",
+   "topology.brep_data",
+   "topology.brep_p1",
+   "topology.brep_p10",
+   "topology.brep_p2",
+   "topology.brep_p3",
+   "topology.brep_p4",
+   "topology.brep_p5",
+   "topology.brep_p6",
+   "topology.brep_p7",
+   "topology.brep_p8",
+   "topology.brep_p9",
+   "topology.edge",
+   "topology.edgeuse_p2",
+   "topology.edgeuse_p3",
+   "topology.face_p1",
+   "topology.face_p2",
+   "topology.face_p3",
+   "topology.face_p4",
+   "topology.loopuse",
+   "topology.proto_topology_p1",
+   "topology.proto_topology_p3",
+   "topology.shell",
+   "topology.topology_traverser",
+   "topology.trimming_tools",
+   "topology.vertex",
+   "topology.vertexuse"
+  ],
+  "not_green": [
+   "blend.fillet_corner_p1",
+   "blend.fillet_corner_p2",
+   "blend.fillet_corner_p3",
+   "blend.fillet_executive_p1",
+   "blend.fillet_executive_p2",
+   "blend.fillet_executive_p3",
+   "blend.fillet_geom_p3",
+   "blend.fillet_geom_p4",
+   "blend.fillet_geom_p6",
+   "blend.fillet_intersector",
+   "blend.fillet_solver_p2",
+   "blend.hcr",
+   "boolean.api_brep",
+   "boolean.merge_p1",
+   "boolean.merge_p2",
+   "boolean.merge_p3",
+   "boolean.merge_p4",
+   "boolean.topology_intersector_p1",
+   "boolean.topology_intersector_p2",
+   "boolean.topology_intersector_p3",
+   "geom.tools",
+   "heal.face_props",
+   "heal.heal_data_p1",
+   "heal.heal_data_p3",
+   "intersect.curve_class_p1",
+   "intersect.curve_class_p3",
+   "intersect.curve_class_p4",
+   "intersect.curve_class_p6",
+   "intersect.topology_solver_p2",
+   "offset.offset_executive_p1",
+   "offset.offset_executive_p2",
+   "offset.offset_geometry_creation",
+   "primitive.api_primitives",
+   "primitive.primitive_creation_p1",
+   "primitive.primitive_creation_p2",
+   "query.api_queries",
+   "query.brep",
+   "query.face_p2",
+   "query.face_p3",
+   "query.face_p4",
+   "query.poly",
+   "sweep.api_brep",
+   "sweep.api_surfaces",
+   "topology.brep_p1",
+   "topology.brep_p10",
+   "topology.brep_p2",
+   "topology.brep_p3",
+   "topology.brep_p4",
+   "topology.brep_p5",
+   "topology.brep_p6",
+   "topology.brep_p7",
+   "topology.brep_p8",
+   "topology.brep_p9",
+   "topology.face_p1",
+   "topology.face_p2",
+   "topology.face_p3",
+   "topology.face_p4",
+   "topology.proto_topology_p2",
+   "topology.shell"
+  ]
+ },
+ "upstream_issues": {
+  "total": 0,
+  "counts": {
+   "WR": 0,
+   "UB": 0,
+   "HANG": 0,
+   "ND": 0,
+   "DOC": 0,
+   "FAIL": 0,
+   "ISSUE": 0
+  },
+  "new": [],
+  "removed": [],
+  "retitled": [],
+  "new_addenda": []
+ },
+ "findings": {
+  "total": 0,
+  "new": []
+ },
+ "solidcraft": {
+  "total": 11,
+  "counts": {
+   "DEFERRED": 11
+  },
+  "changes": [],
+  "new": [],
+  "failing": []
+ },
+ "upstream_fixes": {
+  "total": 0,
+  "new": [],
+  "removed": [],
+  "fillet_total": 0
+ },
+ "gates": {
+  "waivers_before": 0,
+  "waivers_after": 0,
+  "known_mismatches": 0,
+  "mismatches_new": [],
+  "mismatches_removed": []
+ },
+ "pin": {
+  "version": null,
+  "commit": "",
+  "changed": false,
+  "before_version": null
+ },
+ "status_md_changed": true,
+ "tags": [],
+ "github": {
+  "ok": true,
+  "issues_opened": [],
+  "issues_closed": [],
+  "prs_opened": [
+   {
+    "number": 683,
+    "title": "difftest: SolidCraft #2852 and #3062 cases (concentric round; round around a sunk boss)",
+    "author": "rlartot",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/683"
+   },
+   {
+    "number": 636,
+    "title": "feat: B-rep tessellator (mesh::tessellate)",
+    "author": "bherbruck",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/636"
+   }
+  ],
+  "prs_closed_unmerged": [],
+  "open_issues": 119,
+  "open_prs": 81
+ },
+ "releases": {
+  "ok": true,
+  "crates_io": {
+   "max_version": "1.0.1",
+   "new_versions": []
+  },
+  "upstream": [],
+  "upstream_latest": "v1.0.1"
+ }
+}

@@ -1,0 +1,2053 @@
+{
+ "day": "2026-10-18",
+ "generated_at": "2026-11-03T22:50:24+00:00",
+ "window": {
+  "start": "2026-10-18T00:00:00+00:00",
+  "end": "2026-10-19T00:00:00+00:00",
+  "start_sha": "3335c4791ace58c66e8dd23f65fe643d2ceb1126",
+  "end_sha": "e0694362403673206466ce03fcc52ae5718c4f01"
+ },
+ "summary": {
+  "commits": 101,
+  "merges": 87,
+  "claims": 5,
+  "prs_merged": 7,
+  "authors": 7,
+  "top_authors": [
+   [
+    "Andreas",
+    37
+   ],
+   [
+    "github-actions[bot]",
+    21
+   ],
+   [
+    "lillith",
+    16
+   ],
+   [
+    "Damian Grudzień",
+    9
+   ],
+   [
+    "Alex Lytvynenko",
+    8
+   ],
+   [
+    "bherbruck",
+    5
+   ],
+   [
+    "jijinbei",
+    5
+   ]
+  ],
+  "ai_coauthored": 75,
+  "files_touched": 255
+ },
+ "by_module": {
+  "surface": {
+   "commits": 1,
+   "files": 1
+  },
+  "topology": {
+   "commits": 15,
+   "files": 115
+  },
+  "query": {
+   "commits": 1,
+   "files": 7
+  },
+  "heal": {
+   "commits": 2,
+   "files": 2
+  },
+  "offset": {
+   "commits": 1,
+   "files": 1
+  },
+  "boolean": {
+   "commits": 2,
+   "files": 5
+  },
+  "difftest": {
+   "commits": 30,
+   "files": 281
+  },
+  "harness": {
+   "commits": 14,
+   "files": 158
+  },
+  "plan": {
+   "commits": 30,
+   "files": 48
+  }
+ },
+ "by_kind": {
+  "port": 5,
+  "wire": 2,
+  "test": 1,
+  "difftest": 2,
+  "plan": 1,
+  "altres": 85
+ },
+ "commits": [
+  {
+   "sha": "e0694362403673206466ce03fcc52ae5718c4f01",
+   "short": "e06943624",
+   "author": "github-actions[bot]",
+   "date": "2026-10-18T20:21:01Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "ca3f8c2995d3226e6290ce822f1d2a2535ab77d1",
+   "short": "ca3f8c299",
+   "author": "github-actions[bot]",
+   "date": "2026-10-18T20:06:59Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "37e11d4055998cf98b47bb2f4a1029ff08970b5b",
+   "short": "37e11d405",
+   "author": "github-actions[bot]",
+   "date": "2026-10-18T19:28:01Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "4710c8f798cd2d5eae17bf0332402353f4f6290e",
+   "short": "4710c8f79",
+   "author": "github-actions[bot]",
+   "date": "2026-10-18T19:25:17Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "dca19f14d60af926ad4007042a44747beaadb91c",
+   "short": "dca19f14d",
+   "author": "github-actions[bot]",
+   "date": "2026-10-18T18:26:12Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "73bbff2ab533c49a066cdf823c0b634401a0e8d7",
+   "short": "73bbff2ab",
+   "author": "github-actions[bot]",
+   "date": "2026-10-18T18:06:25Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "e1ae2640e2e2af67b9fe13d78ab40ae31a3f5c95",
+   "short": "e1ae2640e",
+   "author": "github-actions[bot]",
+   "date": "2026-10-18T10:52:35Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "3604a8dccd5d44e601664f5cd89c879c05f5c043",
+   "short": "3604a8dcc",
+   "author": "github-actions[bot]",
+   "date": "2026-10-18T10:03:18Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "8996cf0fb81d3ead2aeedd2d6f7b4ac3198cea87",
+   "short": "8996cf0fb",
+   "author": "github-actions[bot]",
+   "date": "2026-10-18T09:28:56Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "d045b293ce9f7f6b53f46de73d137d87f193b3f8",
+   "short": "d045b293c",
+   "author": "github-actions[bot]",
+   "date": "2026-10-18T05:59:10Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "e47bd9525fc83c694c571c0881d902b2721eb5f1",
+   "short": "e47bd9525",
+   "author": "bherbruck",
+   "date": "2026-10-18T01:27:28-04:00",
+   "subject": "plan: brep_p6 re-run numbers after merging main",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bd6d084a0edf19f26ea678d83d08f4e429a39e05",
+   "short": "bd6d084a0",
+   "author": "github-actions[bot]",
+   "date": "2026-10-18T04:23:32Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "11894c9ccc2d737f49c7dd508cdb8c051fd7b68c",
+   "short": "11894c9cc",
+   "author": "bherbruck",
+   "date": "2026-10-18T00:20:29-04:00",
+   "subject": "fix main build: offset executive passes the kernel and a mutable B-rep",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "offset"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9b17b438d5e867a91a551c553d91ded16b7eff56",
+   "short": "9b17b438d",
+   "author": "github-actions[bot]",
+   "date": "2026-10-18T04:09:40Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "d6bd85c52beae52dee415bac7dc45252b2e42dc5",
+   "short": "d6bd85c52",
+   "author": "github-actions[bot]",
+   "date": "2026-10-18T04:07:07Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "60a6806f1b4f78f28c69b22ccb8cd6c732c868f7",
+   "short": "60a6806f1",
+   "author": "github-actions[bot]",
+   "date": "2026-10-18T03:51:26Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "9a7c1ec0a7e4898636a3aa7e554ee2c384541dff",
+   "short": "9a7c1ec0a",
+   "author": "github-actions[bot]",
+   "date": "2026-10-18T03:37:00Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "b9bf022a51d1dfd25ddd4eca5b1917aeeebc4786",
+   "short": "b9bf022a5",
+   "author": "github-actions[bot]",
+   "date": "2026-10-18T02:50:54Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "f30275bb5c16e862b38b3ed92d6ea157b638f260",
+   "short": "f30275bb5",
+   "author": "github-actions[bot]",
+   "date": "2026-10-18T02:32:54Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "f1d0f1d5f74fd5bbf874c4713e0aa1ac98718935",
+   "short": "f1d0f1d5f",
+   "author": "github-actions[bot]",
+   "date": "2026-10-18T01:50:59Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "d62bb3b905b4a64c05504f28159f68af1deedfd5",
+   "short": "d62bb3b90",
+   "author": "jijinbei",
+   "date": "2026-10-18T10:35:46+09:00",
+   "subject": "ffi: drop the double blank line after unit_reader! in 14 units",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness"
+   ],
+   "files": 14,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6fc5c278886f64c1b9cbef4432abd1d06040315e",
+   "short": "6fc5c2788",
+   "author": "jijinbei",
+   "date": "2026-10-18T10:22:56+09:00",
+   "subject": "difftest: sort the NOW/NOZ imports into place",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 38,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "85a60e004c7677cbe4f4367d3263493cf7a803ca",
+   "short": "85a60e004",
+   "author": "github-actions[bot]",
+   "date": "2026-10-18T01:09:03Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "7408ca0ea327654da74e0c7afd57410285e25711",
+   "short": "7408ca0ea",
+   "author": "bherbruck",
+   "date": "2026-10-17T21:05:57-04:00",
+   "subject": "offset.offset_executive_p1: fill topology.shell's new Shell fields in the runner",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "43e9e47a68fa91c83705365dd8397d93db615b97",
+   "short": "43e9e47a6",
+   "author": "github-actions[bot]",
+   "date": "2026-10-18T00:51:54Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "53ba102b67068c9aa893fad61915819065dfcd88",
+   "short": "53ba102b6",
+   "author": "github-actions[bot]",
+   "date": "2026-10-18T00:06:56Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "5fb53cca0ffefceccd44dce6c7fcca5e95284d84",
+   "short": "5fb53cca0",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-18T01:03:15+02:00",
+   "subject": "Record verified parity for the offset review follow-ups",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f9a829c82d6004fc0d985b19d2e1891092f4f843",
+   "short": "f9a829c82",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-18T01:02:23+02:00",
+   "subject": "Handle offset surfaces in the merged sphere fallback dispatch",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0c22c868e61b25d5377cc5acbd395fe79a343003",
+   "short": "0c22c868e",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-18T00:47:12+02:00",
+   "subject": "Address nonblocking offset executive review follow-ups",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "offset"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "43bfc40f31ffb6ded6d619a073cb7ed581656fb9",
+   "short": "43bfc40f3",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-18T00:16:45+02:00",
+   "subject": "Forward the caller kernel through the merged surface extension API",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "offset"
+   ],
+   "files": 1,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "358ec523852001aa22636944ee5e96dbbaab46a1",
+   "short": "358ec5238",
+   "author": "Andreas",
+   "date": "2026-10-17T22:22:10+02:00",
+   "subject": "difftest boolean.topology_intersector_p1: face point_classify takes the B-rep mutably (topology.edgeuse_p3 creates trim curves)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "51c68e65d4897340731ec9894efa76db4ae97649",
+   "short": "51c68e65d",
+   "author": "jijinbei",
+   "date": "2026-10-18T05:07:31+09:00",
+   "subject": "ffi: give coordinate readers only to units that pass a bound",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness"
+   ],
+   "files": 1,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "70e13a19bcb090aa69406b3187f81c91a6c7ce02",
+   "short": "70e13a19b",
+   "author": "Andreas",
+   "date": "2026-10-17T19:34:12+02:00",
+   "subject": "topology.shell: regenerate shell and traverser reports after merging main (face_p1 wired by #148)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4dc2971c47e7e3a7cc30b282b4f4484ebcb154ca",
+   "short": "4dc2971c4",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-17T12:24:46+02:00",
+   "subject": "Address offset executive review and submit verified partial port",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "offset",
+    "plan"
+   ],
+   "files": 16,
+   "watch": [
+    "hang-cancel",
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "c6bddde7d7ea43682a3cd0b34958f8222b9d1f59",
+   "short": "c6bddde7d",
+   "author": "Damian Grudzień",
+   "date": "2026-10-17T09:24:36+02:00",
+   "subject": "Cover open closure traversal and correct PR 169 coverage claims",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "boolean",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 14,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f93bb68dbbde1c2736fabbdd68553a770941b527",
+   "short": "f93bb68db",
+   "author": "jijinbei",
+   "date": "2026-10-17T15:16:20+09:00",
+   "subject": "ffi: share the validate Reader through solidcore_ffi::reader",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness"
+   ],
+   "files": 81,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a077ac5d0bf46a2a37cc3211f9cf8f1c9f25998d",
+   "short": "a077ac5d0",
+   "author": "jijinbei",
+   "date": "2026-10-17T15:03:28+09:00",
+   "subject": "difftest: use the kernel's NOW/NOZ markers instead of local copies",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 38,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b7b87d6555f006a064cdad4c64d7b86abe4cdbdf",
+   "short": "b7b87d655",
+   "author": "Andreas",
+   "date": "2026-10-17T06:01:03+02:00",
+   "subject": "topology.shell: review round 2 (mark locks, region states, harness limits, notes)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "geom",
+    "plan"
+   ],
+   "files": 9,
+   "watch": [
+    "shell-rounded"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "6ac3722aaede356d003e8c9cf9e7c4394ae0fa20",
+   "short": "6ac3722aa",
+   "author": "Andreas",
+   "date": "2026-10-17T04:51:37+02:00",
+   "subject": "WIP topology.shell review round 2: mark locks, region states, ray guard",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "boolean",
+    "difftest",
+    "geom",
+    "harness",
+    "topology"
+   ],
+   "files": 13,
+   "watch": [
+    "shell-rounded"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "a3b98bfe53aee75820aeea9d7c7b7460357267ee",
+   "short": "a3b98bfe5",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-17T04:26:28+02:00",
+   "subject": "Document offset executive parity blockers; preserve implementation as WIP",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "offset",
+    "plan"
+   ],
+   "files": 15,
+   "watch": [
+    "hang-cancel",
+    "determinism"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "e173a72239c661892c167523528eb5301bfaee29",
+   "short": "e173a7223",
+   "author": "Alex Lytvynenko",
+   "date": "2026-10-17T04:22:57+02:00",
+   "subject": "WIP: port offset executive part 1 and expose parity blockers",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "offset"
+   ],
+   "files": 11,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "592a8c421fec5cdb4a8e43ec9c9fba0ae415b822",
+   "short": "592a8c421",
+   "author": "Andreas",
+   "date": "2026-10-17T01:28:14+02:00",
+   "subject": "topology.proto_topology_p1: fill new Region/Shell fields in test initializers",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "74490ae3c6e3469f2646f7b3b9a74d85c4ba7966",
+   "short": "74490ae3c",
+   "author": "Andreas",
+   "date": "2026-10-17T01:27:05+02:00",
+   "subject": "boolean.merge_p1: notes and regenerated reports after wiring topology.shell stubs",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "db9a47f4a13af5b6503a14dc29021684dd390809",
+   "short": "db9a47f4a",
+   "author": "Damian Grudzień",
+   "date": "2026-10-17T01:10:03+02:00",
+   "subject": "Preserve native split status and partial outputs in unchecked healer calls",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "harness",
+    "heal",
+    "plan",
+    "topology"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5d91a284181aab5e02dd8a8b773d45923de700be",
+   "short": "5d91a2841",
+   "author": "Damian Grudzień",
+   "date": "2026-10-17T00:50:06+02:00",
+   "subject": "Record complete integrated manifest validation for brep_p6",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0fff9f113386d4cf9bfe1833f687afa01f0a53c3",
+   "short": "0fff9f113",
+   "author": "Andreas",
+   "date": "2026-10-17T00:50:05+02:00",
+   "subject": "boolean.merge_p1: wire SmRegion::IsVoid and SmShell::IsWireShell to topology.shell",
+   "kind": "altres",
+   "module": "boolean",
+   "modules": [
+    "boolean",
+    "difftest",
+    "geom",
+    "topology"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "86c42714e3f073de2ec906a23e72d8ef236ea4e4",
+   "short": "86c42714e",
+   "author": "Damian Grudzień",
+   "date": "2026-10-17T00:46:16+02:00",
+   "subject": "Accept native compound candidate mark masks in brep_p6 FFI",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7600319a5d1cf39d58a48b4dded66509b5149ea7",
+   "short": "7600319a5",
+   "author": "Damian Grudzień",
+   "date": "2026-10-17T00:28:26+02:00",
+   "subject": "Remove stray token from brep_p6 shim include",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6488e4ea5cd6a99b6cbffda7185343bf95e33cfe",
+   "short": "6488e4ea5",
+   "author": "Damian Grudzień",
+   "date": "2026-10-17T00:26:43+02:00",
+   "subject": "Compare native empty destination state in brep_p6 fixtures",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fb066e3cdbee8883e5ea224a2281c0a33fc63726",
+   "short": "fb066e3cd",
+   "author": "Damian Grudzień",
+   "date": "2026-10-17T00:11:29+02:00",
+   "subject": "Integrate region context and record brep_p6 parity evidence",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "boolean",
+    "difftest",
+    "harness",
+    "plan",
+    "topology"
+   ],
+   "files": 12,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ad5d119886f3ae7a01c87eaaa90e4503d41346b6",
+   "short": "ad5d11988",
+   "author": "Andreas",
+   "date": "2026-10-16T23:58:30+02:00",
+   "subject": "boolean.merge_p1: fill new Region fields in test initializer",
+   "kind": "altres",
+   "module": "boolean",
+   "modules": [
+    "boolean"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1fc9218de44806e76293fb820305ecdea298c56f",
+   "short": "1fc9218de",
+   "author": "Damian Grudzień",
+   "date": "2026-10-16T23:55:39+02:00",
+   "subject": "port: topology.brep_p6 with explicit dependency deferrals",
+   "kind": "port",
+   "module": "topology",
+   "modules": [
+    "boolean",
+    "difftest",
+    "harness",
+    "heal",
+    "sweep",
+    "topology"
+   ],
+   "files": 12,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7b3ff85a81aac6c4ed7a9a916046b0a2cac4fc59",
+   "short": "7b3ff85a8",
+   "author": "Andreas",
+   "date": "2026-10-16T23:20:57+02:00",
+   "subject": "heal.heal_data_p1: refresh report and notes after wiring SmRegion IsVoid/SetIsVoid",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "04f22c4ec297c94cad1149e45e33753e7fa65aef",
+   "short": "04f22c4ec",
+   "author": "bherbruck",
+   "date": "2026-10-16T16:50:38-04:00",
+   "subject": "reports: regenerate intersect.curve_class_p5/p6 difftest reports",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a84d56f16821619398162d51f4158268cdb94b84",
+   "short": "a84d56f16",
+   "author": "Andreas",
+   "date": "2026-10-16T21:15:23+02:00",
+   "subject": "heal.heal_data_p1: wire SmRegion::IsVoid/SetIsVoid to topology.shell",
+   "kind": "altres",
+   "module": "heal",
+   "modules": [
+    "heal"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c81cf7babad3d8fbeaa8ed28b3bd81c01445320d",
+   "short": "c81cf7bab",
+   "author": "bherbruck",
+   "date": "2026-10-16T15:14:37-04:00",
+   "subject": "heal.heal_data_p1: record the deferrals this PR's wiring resolves; regenerate its report",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "66490d9b09b984b4b014a93afb4ca1f576ec3d2f",
+   "short": "66490d9b0",
+   "author": "Andreas",
+   "date": "2026-10-16T20:10:52+02:00",
+   "subject": "Fix Region/Shell initializers in rotational_sweep_geometry for extended topology records",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "sweep"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b17783dd715e42fd7203d966494c340f188deb63",
+   "short": "b17783dd7",
+   "author": "Andreas",
+   "date": "2026-10-16T19:52:20+02:00",
+   "subject": "query.face_p2 shim: append shared shell state, GetEdges-first walk (its importer is topology_face_p2::import)",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "cad8e72f21e0d1d25f0398c90531268992589e5c",
+   "short": "cad8e72f2",
+   "author": "Andreas",
+   "date": "2026-10-16T18:51:56+02:00",
+   "subject": "topology.edgeuse_p3: pass the surface handle to GlobalPointSolve after merging surface.surface_p8; regenerated reports",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "topology"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "cdf4f69dde89047820b975e2b83afb4efaa43e8f",
+   "short": "cdf4f69dd",
+   "author": "Andreas",
+   "date": "2026-10-16T18:22:22+02:00",
+   "subject": "topology.shell: review-round notes and findings (ray empty-shape limit, uncovered void branches, shell state export, GetEdges order)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [
+    "shell-rounded"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "3a50c7d15dc27366b804b69ce0994593b0ca3b1f",
+   "short": "3a50c7d15",
+   "author": "Andreas",
+   "date": "2026-10-16T18:20:20+02:00",
+   "subject": "WIP topology.shell: exporters append the shared shell state, importers read it (infinite region, void flags, heads, vertex lists, face-use links)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 12,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8f572ea479c852591b34f21958b98c92c2d76fef",
+   "short": "8f572ea47",
+   "author": "Andreas",
+   "date": "2026-10-16T18:02:04+02:00",
+   "subject": "WIP topology.shell review round: mixed fixtures, transfer pre-steps, adversarial generator, GetEdges-first walks",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "topology"
+   ],
+   "files": 20,
+   "watch": [
+    "shell-rounded"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "c89bce247f2a71c5d943f4ab7782b4b87472f697",
+   "short": "c89bce247",
+   "author": "Andreas",
+   "date": "2026-10-16T17:15:45+02:00",
+   "subject": "query.edge: regenerated report (1312 pass, 56 deferred)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "634b2917725f3527394b81e3f617ed8b4b80ef78",
+   "short": "634b29177",
+   "author": "Andreas",
+   "date": "2026-10-16T16:36:32+02:00",
+   "subject": "query.edge shim: export the whole SmPlane (frame, scale, domain) as sc_edgeuse_graph.h",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7dcac4173708f8a4f5d0a018278ca3535f39fb9e",
+   "short": "7dcac4173",
+   "author": "Andreas",
+   "date": "2026-10-16T16:33:05+02:00",
+   "subject": "topology.shell: move_faceuse unit test; document the Remove/PostInsert and GetEdges co-ports",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2134ad17a4e9342df3e8d54f6f9d643c326a9c2b",
+   "short": "2134ad17a",
+   "author": "Andreas",
+   "date": "2026-10-16T16:32:29+02:00",
+   "subject": "topology.shell: notes, findings and reports after merging main",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a3f4e2237b03075d42b29af062e8586708186262",
+   "short": "a3f4e2237",
+   "author": "Andreas",
+   "date": "2026-10-16T15:38:38+02:00",
+   "subject": "topology.edgeuse_p3: upstream issue id WR-158 (reserved)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "plan",
+    "topology"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "705e70c0c3fb7860d262887c4fcce2d2d63d2644",
+   "short": "705e70c0c",
+   "author": "Andreas",
+   "date": "2026-10-16T15:28:22+02:00",
+   "subject": "topology.edgeuse_p3: renumber the CreateUVTrimCurve upstream issue WR-102 -> WR-157 (next free id)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "plan",
+    "topology"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9cfe45d9a03915cede2b84f9ab2728f466312be8",
+   "short": "9cfe45d9a",
+   "author": "Andreas",
+   "date": "2026-10-16T15:24:13+02:00",
+   "subject": "WIP: regenerated difftest reports (heal_data_p2, query.edge, edgeuse_p1)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "74904a37edec68faf831907467b2df122854d5d9",
+   "short": "74904a37e",
+   "author": "Andreas",
+   "date": "2026-10-16T13:56:57+02:00",
+   "subject": "heal.heal_data: pass the kernel to edge_ccw_edge_gap and vertex_edge_gap after the main merge",
+   "kind": "altres",
+   "module": "heal",
+   "modules": [
+    "heal"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "42a4019bcd2cf94707106f2217089afc3b268569",
+   "short": "42a4019bc",
+   "author": "Andreas",
+   "date": "2026-10-16T13:53:54+02:00",
+   "subject": "plan/modules.toml: close the query.loop notes string",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c22c3dc5b5a368dba91bd8a4a87af2088dae4724",
+   "short": "c22c3dc5b",
+   "author": "Andreas",
+   "date": "2026-10-16T13:52:28+02:00",
+   "subject": "topology.edgeuse_p3: regenerated reports and unit notes after the review round",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "dd6b55569e64df460f8615875c4f517a830b90a2",
+   "short": "dd6b55569",
+   "author": "Andreas",
+   "date": "2026-10-16T12:52:15+02:00",
+   "subject": "topology.vertex: export the face UV domain and tolerance (the gap cases ran once GetOrCreateUVTrimCurve was wired); exact plane export; modules/findings notes",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4a20cb82de871b40463e9a8c95be95f5027e820b",
+   "short": "4a20cb82d",
+   "author": "Andreas",
+   "date": "2026-10-16T11:31:10+02:00",
+   "subject": "topology.edgeuse_p3: CrvOnSurf face fixtures (open, U-closed, V-closed bases), justified proto_topology stub, trimming_tools call after the main merge",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "topology"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7d34bda3ee6db9ff031deed5c06aeec1f48189c5",
+   "short": "7d34bda3e",
+   "author": "Andreas",
+   "date": "2026-10-16T10:23:53+02:00",
+   "subject": "topology.edgeuse_p3: review round WIP (UV direction plane export, query.loop wired, seam pick, drop_curve_fail, collect adjacent)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "query",
+    "topology"
+   ],
+   "files": 24,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "5bbd71c5b4e39f9a0cc4ede6e71bade9d4beec6f",
+   "short": "5bbd71c5b",
+   "author": "Andreas",
+   "date": "2026-10-16T05:31:39+02:00",
+   "subject": "topology.edgeuse_p3: pass the kernel to DropPoint/LocalPointSolve after the main merge",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "44ca4f473a85d1795c03dff91e84ef3a66c72e84",
+   "short": "44ca4f473",
+   "author": "Andreas",
+   "date": "2026-10-16T05:25:21+02:00",
+   "subject": "topology.edgeuse_p3: wire EvaluateBinormalStepOff in query.edge (gen0091/gen0261 were the shim exporting SmPlane faces as B-splines); retag the query.loop stub to its owner topology.edgeuse_p3",
+   "kind": "altres",
+   "module": "query",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "query"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e3b91106ec949decb18de63b736b4d3850edc087",
+   "short": "e3b91106e",
+   "author": "Andreas",
+   "date": "2026-10-16T04:10:03+02:00",
+   "subject": "topology.edgeuse_p3: partial; fix gen0007 (gap length not exported), wire step-offs and gap constructors, clippy fixes, WR-96",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "query",
+    "topology"
+   ],
+   "files": 21,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "98977d3b424c2ea6744a095e3405ad2e9550e5b6",
+   "short": "98977d3b4",
+   "author": "Andreas",
+   "date": "2026-10-16T01:29:42+02:00",
+   "subject": "topology.edgeuse_p3: wire GetSingularities, the gap constructors and EvaluateBinormalStepOff; add WR-95 (WIP)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "heal",
+    "plan",
+    "query",
+    "topology"
+   ],
+   "files": 17,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5e412b798546016469428342382402557921318a",
+   "short": "5e412b798",
+   "author": "Andreas",
+   "date": "2026-10-15T20:58:17+02:00",
+   "subject": "topology.edgeuse_p3: wire surface_p5 and loopuse stubs after merging main (WIP)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b64c92d06b826643b8cde871bb6efacdc3811d92",
+   "short": "b64c92d06",
+   "author": "Andreas",
+   "date": "2026-10-15T20:48:59+02:00",
+   "subject": "port: topology.edgeuse_p3 WIP (CreateUVTrimCurve, GetOrCreateUVTrimCurve, EvaluateBinormal, NormalizedEvaluate; harness)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "topology"
+   ],
+   "files": 18,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fc091c8691be19efaac352c458006398cc4a3e23",
+   "short": "fc091c869",
+   "author": "lillith",
+   "date": "2026-10-15T08:55:42+02:00",
+   "subject": "port(topology.shell): publish partial certification and integration fixes",
+   "kind": "port",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "plan",
+    "topology"
+   ],
+   "files": 7,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "e6c397f9394c7d803ca408ae3c1ff06c4f6684c5",
+   "short": "e6c397f93",
+   "author": "lillith",
+   "date": "2026-10-15T08:28:17+02:00",
+   "subject": "test(topology.shell): compare native region ordering and filtering",
+   "kind": "test",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "699bab6a5370e4df865b4330c4dca03dc458aba7",
+   "short": "699bab6a5",
+   "author": "lillith",
+   "date": "2026-10-15T08:00:14+02:00",
+   "subject": "wire: resolve attribute regions through borrowed typed context",
+   "kind": "wire",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "geom",
+    "intersect",
+    "plan",
+    "topology"
+   ],
+   "files": 14,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7e58bd7565e4676a9fe38827f513afc91b695448",
+   "short": "7e58bd756",
+   "author": "lillith",
+   "date": "2026-10-15T07:04:11+02:00",
+   "subject": "wire: reuse query.edge for shell bounds and vertex queries",
+   "kind": "wire",
+   "module": "harness",
+   "modules": [
+    "harness",
+    "plan",
+    "query",
+    "topology"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fd7fcd3acf7428c99390062f2d3aa09ec68af1d0",
+   "short": "fd7fcd3ac",
+   "author": "lillith",
+   "date": "2026-10-15T06:23:38+02:00",
+   "subject": "port: preserve shell ray query state and native class metadata",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "topology"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b4d7192a70bc45139d68df8b96e0e63673b01e1e",
+   "short": "b4d7192a7",
+   "author": "lillith",
+   "date": "2026-10-15T05:45:51+02:00",
+   "subject": "port: preserve shell degeneracy bounds and tolerance semantics",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "topology"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1e9b27a4d7bf48bffa60c0d0013f5527c383c1a7",
+   "short": "1e9b27a4d",
+   "author": "lillith",
+   "date": "2026-10-15T05:23:05+02:00",
+   "subject": "Validate native checked shell getters across exact 64-bit type codes",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "topology"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c19f168fb7eef5a7a8f62ae3e95a4cd43367b74c",
+   "short": "c19f168fb",
+   "author": "lillith",
+   "date": "2026-10-15T04:53:53+02:00",
+   "subject": "WIP: port shell child transfers with literal face-use sibling links",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "topology"
+   ],
+   "files": 12,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4fe76c6293a04b459add64a6cd225ab4f94fc8eb",
+   "short": "4fe76c629",
+   "author": "lillith",
+   "date": "2026-10-15T03:22:34+02:00",
+   "subject": "Fix native topology snapshot closure and preserve global edge order",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "04aa047483324e7d9f98104f14975a75a8bd9aae",
+   "short": "04aa04748",
+   "author": "lillith",
+   "date": "2026-10-15T03:11:09+02:00",
+   "subject": "WIP: port ordered shell wire traversal and real vertex fixtures",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "topology"
+   ],
+   "files": 12,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "096c0e406fe5f1a9e8ba7900cdc310f1d16f5f07",
+   "short": "096c0e406",
+   "author": "lillith",
+   "date": "2026-10-15T02:55:14+02:00",
+   "subject": "Use typed index methods in shell query comparisons",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "91e42abb1fe29a70234be39efa994d64568466ea",
+   "short": "91e42abb1",
+   "author": "lillith",
+   "date": "2026-10-15T02:52:33+02:00",
+   "subject": "WIP: compare shell queries on raw native topology fixtures",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "difftest",
+    "harness",
+    "topology"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "628d84fa2913336700f1d2259cecc9822ee646fd",
+   "short": "628d84fa2",
+   "author": "lillith",
+   "date": "2026-10-15T02:01:38+02:00",
+   "subject": "Share native topology fixture construction without duplicating kernel setup",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "87f544b1cfd3f557b7690cbcb9da3d8dcfb938f5",
+   "short": "87f544b1c",
+   "author": "lillith",
+   "date": "2026-10-15T01:37:40+02:00",
+   "subject": "Format inherited owning-topology dependency for workspace checks",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "56405720c4616c2ebdd4b4e1509819174e18abb9",
+   "short": "56405720c",
+   "author": "lillith",
+   "date": "2026-10-15T01:34:17+02:00",
+   "subject": "WIP: port shell and region state, queries, and circular ordering",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "topology"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  }
+ ],
+ "prs": [
+  {
+   "number": 117,
+   "title": "port: topology.edgeuse_p3",
+   "branch": "unit/topology.edgeuse_p3",
+   "owner": "froglemonade2",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-17T23:51:07-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 154,
+   "title": "port: topology.shell",
+   "branch": "unit/topology.shell",
+   "owner": "froglemonade2",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-17T20:50:45-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 169,
+   "title": "port: topology.brep_p6",
+   "branch": "unit/topology.brep_p6",
+   "owner": "damgru",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-18T01:58:52-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 175,
+   "title": "port: offset.offset_executive_p1",
+   "branch": "unit/offset.offset_executive_p1",
+   "owner": "altvnk",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-17T23:36:36-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 185,
+   "title": "difftest: use the kernel's NOW/NOZ markers instead of local copies",
+   "branch": "difftest/nurbs-markers",
+   "owner": "jijinbei",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-17T23:24:49-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "difftest",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 186,
+   "title": "ffi: share the validate Reader through solidcore_ffi::reader",
+   "branch": "ffi/shared-reader",
+   "owner": "jijinbei",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-17T23:24:58-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 230,
+   "title": "fix main build: offset executive passes the kernel and a mutable B-rep",
+   "branch": "fix/offset-exec-edgeuse-args",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-18T00:55:54-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  }
+ ],
+ "watch": [
+  {
+   "id": "setback",
+   "label": "Cantonades setback",
+   "cases": [
+    "C05",
+    "D01",
+    "D02"
+   ],
+   "hits": []
+  },
+  {
+   "id": "mixed-corner",
+   "label": "Cantonades mixtes",
+   "cases": [
+    "D01",
+    "D02"
+   ],
+   "hits": []
+  },
+  {
+   "id": "ball-patch",
+   "label": "Ball patch (cantonades esfèriques)",
+   "cases": [
+    "C05",
+    "D11"
+   ],
+   "hits": []
+  },
+  {
+   "id": "variable-radius",
+   "label": "Radi variable / lleis de radi",
+   "cases": [
+    "D07"
+   ],
+   "hits": []
+  },
+  {
+   "id": "round-larger-than-wall",
+   "label": "Arrodoniment més gran que la paret",
+   "cases": [
+    "D03",
+    "D08"
+   ],
+   "hits": []
+  },
+  {
+   "id": "shell-rounded",
+   "label": "Buidat de cossos arrodonits",
+   "cases": [
+    "D11",
+    "D14"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "b7b87d655",
+     "text": "topology.shell: review round 2 (mark locks, region states, harness limits, notes)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/b7b87d6555f006a064cdad4c64d7b86abe4cdbdf"
+    },
+    {
+     "source": "commit",
+     "ref": "6ac3722aa",
+     "text": "WIP topology.shell review round 2: mark locks, region states, ray guard",
+     "url": "https://github.com/tangency-labs/solidcore/commit/6ac3722aaede356d003e8c9cf9e7c4394ae0fa20"
+    },
+    {
+     "source": "commit",
+     "ref": "cdf4f69dd",
+     "text": "topology.shell: review-round notes and findings (ray empty-shape limit, uncovered void branches, shell state export, GetEdges order)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/cdf4f69dde89047820b975e2b83afb4efaa43e8f"
+    },
+    {
+     "source": "commit",
+     "ref": "8f572ea47",
+     "text": "WIP topology.shell review round: mixed fixtures, transfer pre-steps, adversarial generator, GetEdges-first walks",
+     "url": "https://github.com/tangency-labs/solidcore/commit/8f572ea479c852591b34f21958b98c92c2d76fef"
+    }
+   ]
+  },
+  {
+   "id": "hang-cancel",
+   "label": "Penjaments, temps límit i cancel·lació",
+   "cases": [
+    "C03",
+    "D02",
+    "D11"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "51c68e65d",
+     "text": "ffi: give coordinate readers only to units that pass a bound",
+     "url": "https://github.com/tangency-labs/solidcore/commit/51c68e65d4897340731ec9894efa76db4ae97649",
+     "matched": "`unit_reader!(MAX_COORD)` wraps `Coords`. A coordinate read in an unbounded"
+    },
+    {
+     "source": "commit",
+     "ref": "4dc2971c4",
+     "text": "Address offset executive review and submit verified partial port",
+     "url": "https://github.com/tangency-labs/solidcore/commit/4dc2971c47e7e3a7cc30b282b4f4484ebcb154ca",
+     "matched": "Restore the Rust kernel, native adapter, FFI, fixtures and runner directly in PR #175. Reject negative internal extension magnitudes before native construction, retain signed public inset/getter cover"
+    },
+    {
+     "source": "commit",
+     "ref": "a3b98bfe5",
+     "text": "Document offset executive parity blockers; preserve implementation as WIP",
+     "url": "https://github.com/tangency-labs/solidcore/commit/a3b98bfe53aee75820aeea9d7c7b7460357267ee",
+     "matched": "Keep PR #175 findings-only under the blocked-unit workflow. Full implementation and all fixtures remain on wip/offset.offset_executive_p1-pr175 at e173a722. Record observable pointer-order leakage (ND"
+    },
+    {
+     "source": "commit",
+     "ref": "e173a7223",
+     "text": "WIP: port offset executive part 1 and expose parity blockers",
+     "url": "https://github.com/tangency-labs/solidcore/commit/e173a72239c661892c167523528eb5301bfaee29",
+     "matched": "Preserve the safe Rust port, native adapter, fixtures, and differential runner. Native isolated validation: 523 pass, 2 order failures, 17 deferred, 41 rejected and 108 C++ timeouts out of 691 cases. "
+    }
+   ]
+  },
+  {
+   "id": "corner-blend",
+   "label": "Corner blend (CreateCornerBlend / Coons)",
+   "cases": [
+    "C05",
+    "D02"
+   ],
+   "hits": []
+  },
+  {
+   "id": "chamfer",
+   "label": "Xamfrans",
+   "cases": [],
+   "hits": []
+  },
+  {
+   "id": "loft-skin",
+   "label": "Loft / skin (superfícies B-spline arrodonides)",
+   "cases": [
+    "D14"
+   ],
+   "hits": []
+  },
+  {
+   "id": "step",
+   "label": "STEP (import / export)",
+   "cases": [
+    "anada i tornada STEP"
+   ],
+   "hits": []
+  },
+  {
+   "id": "platform",
+   "label": "Plataformes (wasm, iOS, ARM)",
+   "cases": [
+    "iPad"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "43bfc40f3",
+     "text": "Forward the caller kernel through the merged surface extension API",
+     "url": "https://github.com/tangency-labs/solidcore/commit/43bfc40f31ffb6ded6d619a073cb7ed581656fb9",
+     "matched": "Adapt offset p1 and its cache regression to the context-aware Surface::create_extended_surface API introduced on main. Local Docker validation passes: cpp workspace all-target Clippy, fmt, 1339 kernel"
+    },
+    {
+     "source": "commit",
+     "ref": "4dc2971c4",
+     "text": "Address offset executive review and submit verified partial port",
+     "url": "https://github.com/tangency-labs/solidcore/commit/4dc2971c47e7e3a7cc30b282b4f4484ebcb154ca",
+     "matched": "Native target: 691 cases, 633 passed, 0 failed, 17 deferred, 41 rejected; max relative error 2.5139756042650037e-14, no absolute floors. Sensitivity 633/633. Format, C++-enabled Clippy, 1299 kernel te"
+    },
+    {
+     "source": "commit",
+     "ref": "fc091c869",
+     "text": "port(topology.shell): publish partial certification and integration fixes",
+     "url": "https://github.com/tangency-labs/solidcore/commit/fc091c8691be19efaac352c458006398cc4a3e23",
+     "matched": "All 155 green/partial units pass the full differential gate. Shell compares 767 of 785 cases exactly with 18 explicit external-callee deferrals; every compared shell case detects perturbation. Plain/C"
+    }
+   ]
+  },
+  {
+   "id": "determinism",
+   "label": "Determinisme",
+   "cases": [
+    "resultats idèntics Mac/iPad"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "a3b98bfe5",
+     "text": "Document offset executive parity blockers; preserve implementation as WIP",
+     "url": "https://github.com/tangency-labs/solidcore/commit/a3b98bfe53aee75820aeea9d7c7b7460357267ee",
+     "matched": "Keep PR #175 findings-only under the blocked-unit workflow. Full implementation and all fixtures remain on wip/offset.offset_executive_p1-pr175 at e173a722. Record observable pointer-order leakage (ND"
+    }
+   ]
+  },
+  {
+   "id": "upstream-fixes",
+   "label": "Flags d'UpstreamFixes",
+   "cases": [
+    "configuració del kernel a l'app"
+   ],
+   "hits": []
+  },
+  {
+   "id": "seam",
+   "label": "Costures (seam) i arestes partides",
+   "cases": [
+    "lliçó: no triar arestes en costures"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "7d34bda3e",
+     "text": "topology.edgeuse_p3: review round WIP (UV direction plane export, query.loop wired, seam pick, drop_curve_fail, collect adjacent)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/7d34bda3ee6db9ff031deed5c06aeec1f48189c5"
+    }
+   ]
+  }
+ ],
+ "units": {
+  "total": 0,
+  "counts": {},
+  "status_changes": [],
+  "notes_updated": [],
+  "not_green": []
+ },
+ "upstream_issues": {
+  "total": 0,
+  "counts": {
+   "WR": 0,
+   "UB": 0,
+   "HANG": 0,
+   "ND": 0,
+   "DOC": 0,
+   "FAIL": 0,
+   "ISSUE": 0
+  },
+  "new": [],
+  "removed": [],
+  "retitled": [],
+  "new_addenda": []
+ },
+ "findings": {
+  "total": 0,
+  "new": []
+ },
+ "solidcraft": {
+  "total": 0,
+  "counts": {},
+  "changes": [],
+  "new": [],
+  "failing": []
+ },
+ "upstream_fixes": {
+  "total": 0,
+  "new": [],
+  "removed": [],
+  "fillet_total": 0
+ },
+ "gates": {
+  "waivers_before": 0,
+  "waivers_after": 0,
+  "known_mismatches": 0,
+  "mismatches_new": [],
+  "mismatches_removed": []
+ },
+ "pin": {
+  "version": null,
+  "commit": "",
+  "changed": false,
+  "before_version": null
+ },
+ "status_md_changed": true,
+ "tags": [],
+ "github": {
+  "ok": true,
+  "issues_opened": [],
+  "issues_closed": [],
+  "prs_opened": [],
+  "prs_closed_unmerged": [],
+  "open_issues": 119,
+  "open_prs": 81
+ },
+ "releases": {
+  "ok": true,
+  "crates_io": {
+   "max_version": "1.0.1",
+   "new_versions": []
+  },
+  "upstream": [],
+  "upstream_latest": "v1.0.1"
+ }
+}

@@ -1,0 +1,4839 @@
+{
+ "day": "2026-10-15",
+ "generated_at": "2026-11-03T22:49:51+00:00",
+ "window": {
+  "start": "2026-10-15T00:00:00+00:00",
+  "end": "2026-10-16T00:00:00+00:00",
+  "start_sha": "0a5d7fd88279416d6bef0484282bfb5afce86d42",
+  "end_sha": "4c6ed8ab18b925d11ced6ef117eb65f33ce850e0"
+ },
+ "summary": {
+  "commits": 280,
+  "merges": 222,
+  "claims": 29,
+  "prs_merged": 33,
+  "authors": 5,
+  "top_authors": [
+   [
+    "github-actions[bot]",
+    92
+   ],
+   [
+    "bherbruck",
+    90
+   ],
+   [
+    "Andreas",
+    41
+   ],
+   [
+    "froglemonade2",
+    37
+   ],
+   [
+    "Damian Grudzień",
+    20
+   ]
+  ],
+  "ai_coauthored": 159,
+  "files_touched": 377
+ },
+ "by_module": {
+  "geom": {
+   "commits": 1,
+   "files": 2
+  },
+  "surface": {
+   "commits": 34,
+   "files": 255
+  },
+  "topology": {
+   "commits": 13,
+   "files": 77
+  },
+  "intersect": {
+   "commits": 14,
+   "files": 73
+  },
+  "query": {
+   "commits": 6,
+   "files": 27
+  },
+  "mass": {
+   "commits": 1,
+   "files": 10
+  },
+  "heal": {
+   "commits": 2,
+   "files": 13
+  },
+  "boolean": {
+   "commits": 1,
+   "files": 11
+  },
+  "blend": {
+   "commits": 2,
+   "files": 15
+  },
+  "difftest": {
+   "commits": 56,
+   "files": 433
+  },
+  "harness": {
+   "commits": 7,
+   "files": 26
+  },
+  "plan": {
+   "commits": 112,
+   "files": 150
+  },
+  "docs": {
+   "commits": 1,
+   "files": 1
+  },
+  "site": {
+   "commits": 1,
+   "files": 7
+  }
+ },
+ "by_kind": {
+  "fix": 4,
+  "port": 19,
+  "test": 3,
+  "difftest": 4,
+  "plan": 4,
+  "docs": 1,
+  "style": 1,
+  "altres": 215
+ },
+ "commits": [
+  {
+   "sha": "4c6ed8ab18b925d11ced6ef117eb65f33ce850e0",
+   "short": "4c6ed8ab1",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T23:59:09Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "73ea3016731e5fe45e919ad13bb874d54ca53820",
+   "short": "73ea30167",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T23:06:15Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "f44b177f4a05c06f9255a0327ae0894fc7add526",
+   "short": "f44b177f4",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T22:48:01Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "51eb95fbb2728e8d73c3d1fd4076ac82235d6c70",
+   "short": "51eb95fbb",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T22:19:17Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "53f190975154ab4f38907375016d65ebfd37da98",
+   "short": "53f190975",
+   "author": "Damian Grudzień",
+   "date": "2026-10-16T00:05:49+02:00",
+   "subject": "fix: harden query FFI and cover review regressions",
+   "kind": "fix",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "plan",
+    "query"
+   ],
+   "files": 11,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "780658a9345ee23a33baa57a050f402e29b55ca2",
+   "short": "780658a93",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T21:37:35Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "9cf85718d912f82d22d85adae25f753440c41405",
+   "short": "9cf85718d",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T21:19:18Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "c2ac14425b5f11eefaead542104f24383a4e5703",
+   "short": "c2ac14425",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T21:05:56Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "602a6cdb5227677d8e8e7a6a164d1dbb8ad4bbce",
+   "short": "602a6cdb5",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T21:04:41Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "68f405c74801c0b64a3cfbbada787466d82df38f",
+   "short": "68f405c74",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T21:01:36Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "2e276cf2b2c789b43aefac6af6192df7f6551335",
+   "short": "2e276cf2b",
+   "author": "Damian Grudzień",
+   "date": "2026-10-15T22:58:52+02:00",
+   "subject": "port: certify query.api_queries as partial",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6e34842b91e61fdabc6af7059c031615f29f6568",
+   "short": "6e34842b9",
+   "author": "Damian Grudzień",
+   "date": "2026-10-15T22:16:50+02:00",
+   "subject": "docs: describe caller kernel and query dependency boundaries",
+   "kind": "docs",
+   "module": "geom",
+   "modules": [
+    "geom",
+    "surface"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "94f99ce4eb0a0af5d247a887fc80e968a1608467",
+   "short": "94f99ce4e",
+   "author": "Damian Grudzień",
+   "date": "2026-10-15T22:15:42+02:00",
+   "subject": "port: wire existing face queries and preserve topology ownership",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "query"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bbd4d9dc9982969a921239f75641f7e11f88a6b5",
+   "short": "bbd4d9dc9",
+   "author": "bherbruck",
+   "date": "2026-10-15T16:12:37-04:00",
+   "subject": "query.face_p2: pass Kernel to find_uv_nodes_built after merging surface.surface_p3; update deferral notes",
+   "kind": "altres",
+   "module": "query",
+   "modules": [
+    "difftest",
+    "plan",
+    "query"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "16c5ad9cec67741ab00a41b75b18dfa7985e70ef",
+   "short": "16c5ad9ce",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T20:10:00Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "09316d53575b5df5c0d87808c6208852c1bdfc29",
+   "short": "09316d535",
+   "author": "Damian Grudzień",
+   "date": "2026-10-15T22:05:29+02:00",
+   "subject": "test: refine public query coverage and fixed-layout validation",
+   "kind": "test",
+   "module": "harness",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3ea9ba5513b9cc25b2aaeed1e5be79767f635821",
+   "short": "3ea9ba551",
+   "author": "Damian Grudzień",
+   "date": "2026-10-15T22:03:19+02:00",
+   "subject": "port: query.api_queries and native differential coverage",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "query",
+    "surface"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f8ef839ef9578e25966d1f50df5f24a06f33d3ef",
+   "short": "f8ef839ef",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T20:02:43Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "dd56744da4ac9ed6ad924b4053d7b852542ecdd8",
+   "short": "dd56744da",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T19:41:46Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "5269ebc584a914b55c9ed9684f7b04849cbc01b8",
+   "short": "5269ebc58",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T19:02:28Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "fa0bdd89d59b93698fae47e95ba1e08f5e14c199",
+   "short": "fa0bdd89d",
+   "author": "bherbruck",
+   "date": "2026-10-15T15:01:57-04:00",
+   "subject": "query.face_p2: fix cpp-feature clippy lints and Vertex test initializer after merge; refresh proto_topology_p1 report",
+   "kind": "altres",
+   "module": "query",
+   "modules": [
+    "difftest",
+    "plan",
+    "query"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4b0412d64601e199356f11140731dc19fb66e188",
+   "short": "4b0412d64",
+   "author": "Damian Grudzień",
+   "date": "2026-10-15T20:52:24+02:00",
+   "subject": "test: retain requested surface area domain",
+   "kind": "test",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "77d99c7466d5bbd62f2a6cd0e89eb4ea66e4f6c4",
+   "short": "77d99c746",
+   "author": "Damian Grudzień",
+   "date": "2026-10-15T20:49:37+02:00",
+   "subject": "fix: preserve face integration derivative buffers",
+   "kind": "fix",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "harness",
+    "mass",
+    "plan"
+   ],
+   "files": 11,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3498d4dd0ae7934f93e8e5d7281045a279948694",
+   "short": "3498d4dd0",
+   "author": "bherbruck",
+   "date": "2026-10-15T14:36:41-04:00",
+   "subject": "surface.surface_p3: wire the surface_p5 back-edges",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "difftest",
+    "harness",
+    "intersect",
+    "nurbs",
+    "plan",
+    "query",
+    "surface",
+    "topology"
+   ],
+   "files": 42,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a2e95dfce135c20a1703aed39829979ebf232ff2",
+   "short": "a2e95dfce",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T18:32:28Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "28b32e7151c2b262f2ee8a6c25f184f1d05e5078",
+   "short": "28b32e715",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T18:31:14Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "948eee0eee5961f744fbd342a9da7b9b224141fc",
+   "short": "948eee0ee",
+   "author": "Damian Grudzień",
+   "date": "2026-10-15T19:59:44+02:00",
+   "subject": "fix: preserve B-rep traversal and caller-owned solver context",
+   "kind": "fix",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "plan",
+    "topology"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bb0dd5becb2be1d3a9ef8c632b95a254a56071cd",
+   "short": "bb0dd5bec",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T17:59:08Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "ae8841172e174cee3a9ea4f61c47c1900c2be130",
+   "short": "ae8841172",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T17:55:06Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "f66359915741343c82ea477eed6e72638bd1d17f",
+   "short": "f66359915",
+   "author": "bherbruck",
+   "date": "2026-10-15T13:45:37-04:00",
+   "subject": "plan/findings.md: topology.loopuse DropPoint stub after surface.surface_p5 merge",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "723a4e7b45bc789a3501e03718d12f76dcefdfb4",
+   "short": "723a4e7b4",
+   "author": "Damian Grudzień",
+   "date": "2026-10-15T19:42:45+02:00",
+   "subject": "mass.integrator: record parity and promote arc-length solving",
+   "kind": "altres",
+   "module": "mass",
+   "modules": [
+    "curve",
+    "difftest",
+    "mass",
+    "plan"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8b2488efb236279669daf14f66314abd3d7973ab",
+   "short": "8b2488efb",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T17:33:35Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "7d5ac627729d0b909999fd7742a2b33d8aba4cee",
+   "short": "7d5ac6277",
+   "author": "Damian Grudzień",
+   "date": "2026-10-15T19:25:58+02:00",
+   "subject": "port: add mass integrator and precise property calculations",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness",
+    "mass",
+    "surface",
+    "topology"
+   ],
+   "files": 12,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "51ec6119bd0f126c1608c5f866ca6e752f637ec4",
+   "short": "51ec6119b",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T17:23:20Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "9e00b69b1cfa5987e3a233edde7cd4a8454433a7",
+   "short": "9e00b69b1",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T17:19:13Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "4a7c7ef6e5c67767d71dbbef3abdcbd93973a6ce",
+   "short": "4a7c7ef6e",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T17:10:01Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "0933a9158f9572af87fc6e31f358cd93e44e226d",
+   "short": "0933a9158",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T17:00:59Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "7a619a97ef53f9a2e26db39fd9860a328f63ac19",
+   "short": "7a619a97e",
+   "author": "Damian Grudzień",
+   "date": "2026-10-15T18:50:22+02:00",
+   "subject": "test: retain native tolerance normalization in brep-cache fixtures",
+   "kind": "test",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ca63854a5f41a33eee9ac76d14f9bf4f78054767",
+   "short": "ca63854a5",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T16:46:14Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "ba45d7f24bfcd039fdf47022d6b48a8793200756",
+   "short": "ba45d7f24",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T16:35:40Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "c38f5406c9483028c857758955380c02bf0d81ec",
+   "short": "c38f5406c",
+   "author": "Damian Grudzień",
+   "date": "2026-10-15T18:31:53+02:00",
+   "subject": "port: topology.brep_cache spatial trees and cache back-edges",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "intersect",
+    "plan",
+    "topology"
+   ],
+   "files": 16,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c7a22907acab5adfbc8717871043f54cccda7ce5",
+   "short": "c7a22907a",
+   "author": "bherbruck",
+   "date": "2026-10-15T12:30:21-04:00",
+   "subject": "reports: topology.loopuse difftest report after merging main",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d8df33c32daeaa9b668089dc735447bfe2ae54c7",
+   "short": "d8df33c32",
+   "author": "Andreas",
+   "date": "2026-10-15T18:15:25+02:00",
+   "subject": "topology.vertex: regenerate report after merging main",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e1415937ebcc7e9e67c0d09eda7676d254c11451",
+   "short": "e1415937e",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T16:06:52Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "072181ddd8d56d858ac8b5ab0a4a0497ed38fd0b",
+   "short": "072181ddd",
+   "author": "Andreas",
+   "date": "2026-10-15T17:51:33+02:00",
+   "subject": "intersect.surface_drop_lib_p1: wire smsurf_IsPointOnNormal to surface.surface_p3 (1847/1862 pass, 15 deferred)",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "difftest",
+    "intersect",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "43c8bb74789e6305fde8bf33eaa268d1e49ada9f",
+   "short": "43c8bb747",
+   "author": "Andreas",
+   "date": "2026-10-15T17:47:49+02:00",
+   "subject": "heal.gap: ignore the DropPoint status in surface_drop as SmGap.cpp does",
+   "kind": "altres",
+   "module": "heal",
+   "modules": [
+    "difftest",
+    "heal"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0bbea1f040e6b2afa82e2150df32590caa4e0b4b",
+   "short": "0bbea1f04",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T15:40:48Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "d6d878cd0cd1187f84d12321f3afff3bd36aa824",
+   "short": "d6d878cd0",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T15:40:13Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "5ca613046ce9670ea1622c6a9ecc084eb4e37f34",
+   "short": "5ca613046",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T15:14:54Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "16409c3c8bce1bbb18779a25711c684f6c54fe65",
+   "short": "16409c3c8",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T15:14:15Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "c5e1f1ad55baf4862f41d7e1eb4ca5664218ae6a",
+   "short": "c5e1f1ad5",
+   "author": "Andreas",
+   "date": "2026-10-15T17:10:10+02:00",
+   "subject": "surface.surface_p3: wire EvaluateNormalSection and GetSingularities back-edges; query.loop green",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "intersect",
+    "plan",
+    "query",
+    "topology"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a5ae7206ec23aef2b20e2564ae86d463737392bc",
+   "short": "a5ae7206e",
+   "author": "Damian Grudzień",
+   "date": "2026-10-15T16:58:56+02:00",
+   "subject": "fix: match upstream shell ray counter width",
+   "kind": "fix",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a365f9956c23ad40d47cfdffd43ea5ec1c15af9c",
+   "short": "a365f9956",
+   "author": "Damian Grudzień",
+   "date": "2026-10-15T16:55:51+02:00",
+   "subject": "style: trim shared fixture header",
+   "kind": "style",
+   "module": "harness",
+   "modules": [
+    "harness"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "212183ff2a833ea1ca95d1b73b3b19ba272e5a2f",
+   "short": "212183ff2",
+   "author": "Damian Grudzień",
+   "date": "2026-10-15T16:55:21+02:00",
+   "subject": "port: topology.topology_traverser",
+   "kind": "port",
+   "module": "harness",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "topology"
+   ],
+   "files": 11,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9744f8d06edb3379884ca36d61a5ea5e8ebf8d2c",
+   "short": "9744f8d06",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T14:37:32Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "6a0b78d07d2092636d6daefe4000135ba827cd71",
+   "short": "6a0b78d07",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T14:27:35Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "6ada2860b4d11d45447da3e772fa3c6eb0e4ef8d",
+   "short": "6ada2860b",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T14:27:17Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "0d9904ba06cd58c116767c9a320a6f0539d18d93",
+   "short": "0d9904ba0",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T14:00:44Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "c2bd153906fee6864b7c1d2304c8de663bd1dd27",
+   "short": "c2bd15390",
+   "author": "Andreas",
+   "date": "2026-10-15T15:50:02+02:00",
+   "subject": "plan/modules.toml: surface_p4 notes for the p3 bundle (2711 compared, 289 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5dc267f110ffeab2a594601082ef356c9c176729",
+   "short": "5dc267f11",
+   "author": "Andreas",
+   "date": "2026-10-15T15:50:01+02:00",
+   "subject": "surface_p5: merge surface_p4, wire heal.gap SmSurface::DropPoint, update notes/reports",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "heal",
+    "plan",
+    "surface",
+    "topology"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "dd7284df43801273fa9aea820dbba4c87ee20815",
+   "short": "dd7284df4",
+   "author": "bherbruck",
+   "date": "2026-10-15T09:20:34-04:00",
+   "subject": "README: link the live progress site at the top",
+   "kind": "altres",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "48347508850cc3994303e7a4624d15ab7b0cbf3a",
+   "short": "483475088",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T13:19:34Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "0407dfe9449c2efc04a4bbdd92bece91ab57f6b3",
+   "short": "0407dfe94",
+   "author": "bherbruck",
+   "date": "2026-10-15T09:16:12-04:00",
+   "subject": "intersect.surface_drop_curve: regenerate difftest report after merging main",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1b433e2e428a2a630f1d8c8e8f0facc7fd249ab2",
+   "short": "1b433e2e4",
+   "author": "bherbruck",
+   "date": "2026-10-15T08:56:02-04:00",
+   "subject": "intersect.surface_drop_curve: review fixes",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "difftest",
+    "harness",
+    "intersect",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9381495bd7b98d3588809bd2fcaeb3d29a630b48",
+   "short": "9381495bd",
+   "author": "bherbruck",
+   "date": "2026-10-15T08:55:18-04:00",
+   "subject": "surface.surface_p10: wire DropAndTrimCurve to intersect.surface_drop_lib_p1",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "difftest",
+    "plan",
+    "surface"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0481fa2592f45d6958c25609b13fd62202b39e97",
+   "short": "0481fa259",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T12:42:41Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "b9950df46ed0db847997f13cd654e3585af8b21d",
+   "short": "b9950df46",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T12:42:22Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "bd5d09593a7e7a2aca892a26f6128c97d803112e",
+   "short": "bd5d09593",
+   "author": "Andreas",
+   "date": "2026-10-15T14:37:22+02:00",
+   "subject": "surface_p4: wire the last UNPORTED(surface.surface_p4) stubs (IsOnSeam, GlobalPointSolve, SmCSIntersectENFO solve, ClassifyCurveSurfaceXSectPoint)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "surface"
+   ],
+   "files": 11,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "986d17536f2d9ff2226b386a07164049cb2309af",
+   "short": "986d17536",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T12:28:57Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "b17adff6ed30905fe57d775859c72bf7eb037d93",
+   "short": "b17adff6e",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T12:27:49Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "2f25c4f5163f2b456db29b1398da297074c0c050",
+   "short": "2f25c4f51",
+   "author": "bherbruck",
+   "date": "2026-10-15T08:27:15-04:00",
+   "subject": "intersect.surface_drop_curve: partial (311 passed, 203 deferred); difftest report",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "123d8207b49dc22ff63853976583a8eb17d3893c",
+   "short": "123d8207b",
+   "author": "bherbruck",
+   "date": "2026-10-15T08:15:19-04:00",
+   "subject": "intersect.surface_drop_curve: port SmSurfaceDropCurve with shim, ffi, difftest runner and fixtures",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "difftest",
+    "harness",
+    "intersect"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7f66b80cf01571454808324a1d53cbd4e0789596",
+   "short": "7f66b80cf",
+   "author": "bherbruck",
+   "date": "2026-10-15T08:15:03-04:00",
+   "subject": "site: GitHub Pages progress site generated from the repo",
+   "kind": "altres",
+   "module": "site",
+   "modules": [
+    "ci",
+    "docs",
+    "harness",
+    "site"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "358305453433cc8f96d45302482af5d52f88689d",
+   "short": "358305453",
+   "author": "Andreas",
+   "date": "2026-10-15T14:04:07+02:00",
+   "subject": "Wire surface_p5 back-edges in surface_p10; regenerate reports",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "difftest",
+    "surface"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4cec69e71d6b0e95df4dda15676d309142f25bd2",
+   "short": "4cec69e71",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T12:02:02Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "d188ff5a08f9e0757c3f0a0b2ce8f7954d0ecccb",
+   "short": "d188ff5a0",
+   "author": "bherbruck",
+   "date": "2026-10-15T07:50:03-04:00",
+   "subject": "query.face_p2: partial (1271 pass, 73 deferred); co-port note for topology.face_p4; findings",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "16b5e7b27df9962eafe63022a5d1284966238948",
+   "short": "16b5e7b27",
+   "author": "bherbruck",
+   "date": "2026-10-15T07:41:53-04:00",
+   "subject": "query.face_p2: build on topology.loopuse (PR #102): loopuse::vertices, loop use orientation in the export",
+   "kind": "altres",
+   "module": "query",
+   "modules": [
+    "harness",
+    "query"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a7a04d970d718d37eee44b29e417dcf65388db1c",
+   "short": "a7a04d970",
+   "author": "bherbruck",
+   "date": "2026-10-15T07:40:26-04:00",
+   "subject": "port: query.face_p2 (SmFace::PointClassify, CurveOnClassify, sm_ClassifyParamOnFaces, SmProtoVertex containment)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "query",
+    "topology"
+   ],
+   "files": 18,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2458057fefe057501d4c64026643a57fb3866e25",
+   "short": "2458057fe",
+   "author": "Andreas",
+   "date": "2026-10-15T13:35:33+02:00",
+   "subject": "Regenerate difftest reports after merging surface_p4",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ecab4aef7ea63b37d03c7f9605535519e0dfd95e",
+   "short": "ecab4aef7",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T11:33:47Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "5826292ca0abb32f69615d600cca8a2c759bc41c",
+   "short": "5826292ca",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T11:32:56Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "6c0488e3bb1cf261e80555ff61b29143ac54fecf",
+   "short": "6c0488e3b",
+   "author": "bherbruck",
+   "date": "2026-10-15T07:28:35-04:00",
+   "subject": "topology.loopuse: review fixes (IsClosed3d over-tolerance branch)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "topology"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "df4b8f43fcd691d0609b20e781982db1d8a8826f",
+   "short": "df4b8f43f",
+   "author": "Andreas",
+   "date": "2026-10-15T13:25:59+02:00",
+   "subject": "Merge surface_p4 and main into surface_p3; regenerate reports, refresh surface_p4 notes",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f61306c2a52cbea4fb09ed5fa4f43ea739eb3329",
+   "short": "f61306c2a",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T11:23:03Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "7da72bb1f2306c7b06719420c0080aee5105644d",
+   "short": "7da72bb1f",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T11:09:10Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "afff92338cbe0c153e7336ef1cd16377fe580ede",
+   "short": "afff92338",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T11:08:10Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "3b4c9d898509430aaddb33560ed638db35dd4c21",
+   "short": "3b4c9d898",
+   "author": "Andreas",
+   "date": "2026-10-15T13:06:58+02:00",
+   "subject": "Wire surface_p5 back-edges in surface_p6 and face_p2; regenerate reports",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "surface",
+    "topology"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2344630640ab20a60d8e7f48db69d9c62a570a2e",
+   "short": "234463064",
+   "author": "bherbruck",
+   "date": "2026-10-15T06:58:29-04:00",
+   "subject": "topology.edge: partial (1705 pass, 82 deferred); update edgeuse_p1 report and co-port notes",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "28673738732eb384657473bf7b0aa393d7f16209",
+   "short": "286737387",
+   "author": "Andreas",
+   "date": "2026-10-15T12:53:33+02:00",
+   "subject": "Regenerate difftest reports after merging main and surface_p4 review 3",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "042b3ea5bc683cd616b16c0be430ed87ada59c40",
+   "short": "042b3ea5b",
+   "author": "bherbruck",
+   "date": "2026-10-15T06:46:45-04:00",
+   "subject": "topology.edge: shim, FFI, difftest runner and fixtures; wire SetTolerance and geom::tools back-edges",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "topology"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "575ea6c9e258a3eb500dc62ae6e942a5adb675e4",
+   "short": "575ea6c9e",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T10:35:54Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "c23153f67b08285f4c8a63fe6d0b80bdc746fabb",
+   "short": "c23153f67",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T10:35:14Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "858b0091dff623b03675ced63e67a6e873ac3c37",
+   "short": "858b0091d",
+   "author": "Andreas",
+   "date": "2026-10-15T12:32:03+02:00",
+   "subject": "plan/modules.toml: edgeuse_p1 note blames GlobalPointSolve_1",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "573683193f6bc1d8fd9c646dc0eca17c5acdcb8d",
+   "short": "573683193",
+   "author": "Andreas",
+   "date": "2026-10-15T12:31:59+02:00",
+   "subject": "surface_p4 review 3: plane STEPInversion dispatches IsSingularity/IsClosed to plane overrides; curve_class ignores GlobalPointSolve status; StepInv plane difftest cases; notes and docs",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "intersect",
+    "nurbs",
+    "plan",
+    "surface"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7371af54bba52cd4a656472e59a4147a10086d8f",
+   "short": "7371af54b",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T10:22:08Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "33224238f1b9d4d0b628709b44d5f834b24d9278",
+   "short": "33224238f",
+   "author": "bherbruck",
+   "date": "2026-10-15T06:20:55-04:00",
+   "subject": "topology.loopuse: partial (1793 pass, 0 failed, 365 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "267f24ea95f1d53428ffec87f8fbe64c408f920f",
+   "short": "267f24ea9",
+   "author": "bherbruck",
+   "date": "2026-10-15T06:11:22-04:00",
+   "subject": "topology.edge: port SmEdge (WIP, library side)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a04e7d53a50f342449abee57e3a910c683cb392d",
+   "short": "a04e7d53a",
+   "author": "bherbruck",
+   "date": "2026-10-15T06:05:09-04:00",
+   "subject": "port: topology.loopuse (SmLoop / SmLoopuse)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "query",
+    "topology"
+   ],
+   "files": 20,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "31397d9304b0342683738cad09a3baf010b68e55",
+   "short": "31397d930",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T09:54:48Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "d25ba84116c4840b5c4449e267c500d40199946f",
+   "short": "d25ba8411",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T09:54:12Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "e2d02763c31eaaa4c80c2405da91d832f50ea81d",
+   "short": "e2d02763c",
+   "author": "bherbruck",
+   "date": "2026-10-15T05:39:30-04:00",
+   "subject": "intersect.surface_drop_lib_p1: review fixes",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "difftest",
+    "harness",
+    "intersect",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d68d046db60cadaa4f8531e058935277c8725c70",
+   "short": "d68d046db",
+   "author": "Andreas",
+   "date": "2026-10-15T11:16:11+02:00",
+   "subject": "surface_p3: record FFI safety fixes in plan notes",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9a2f6b6e37b9615b71387756ac5fccb029f54065",
+   "short": "9a2f6b6e3",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T09:05:25Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "b3e915dc1b809b648a35df08e77c8dd694958288",
+   "short": "b3e915dc1",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T09:04:49Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "7c3afe12604e1692e00a7cef513f45b87c066896",
+   "short": "7c3afe126",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T08:50:51Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "ec6cee51ac0e80d9b9192fb7f6f69dfa6f9912c6",
+   "short": "ec6cee51a",
+   "author": "bherbruck",
+   "date": "2026-10-15T04:50:15-04:00",
+   "subject": "port: intersect.surface_drop_lib_p1 (SmDropPt helpers, DropIsoCurve, DropAndTrimCurve)",
+   "kind": "port",
+   "module": "intersect",
+   "modules": [
+    "difftest",
+    "harness",
+    "intersect",
+    "plan"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f4e4cbc49250d0287a399a927e06a2779f62c50a",
+   "short": "f4e4cbc49",
+   "author": "bherbruck",
+   "date": "2026-10-15T04:36:06-04:00",
+   "subject": "topology.vertex: review fixes (clippy indexing, boxed Err) and review fixtures",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fb9227b252e8243b40f5234730458b4993328053",
+   "short": "fb9227b25",
+   "author": "bherbruck",
+   "date": "2026-10-15T04:35:34-04:00",
+   "subject": "difftest topology.face_p2: fix clippy lints under the cpp feature",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "44eb5a2bccfaf440ccccbfe4079459ebd1056f11",
+   "short": "44eb5a2bc",
+   "author": "Andreas",
+   "date": "2026-10-15T10:31:29+02:00",
+   "subject": "surface_p3 FFI: kind 3 opt-in (p3 only); shim errors when CreateCanonical fails",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "25591fbcf856c6b04c87ac7df439604b5c8966b7",
+   "short": "25591fbcf",
+   "author": "Andreas",
+   "date": "2026-10-15T10:21:50+02:00",
+   "subject": "Fix lint warnings after merging surface_p4; regenerate reports",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "intersect",
+    "nurbs"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3d46ce40a49103834176e39bd6e1935b77e7a9a4",
+   "short": "3d46ce40a",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T08:19:48Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "64efc8ab4438e253d2c8caa996f307e4a07af01e",
+   "short": "64efc8ab4",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T08:15:36Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "cff41fc3beb08e74665b404bd2b465bd3d7180b6",
+   "short": "cff41fc3b",
+   "author": "Andreas",
+   "date": "2026-10-15T10:12:08+02:00",
+   "subject": "surface_p3: merge surface_p4; thread k into find_uv_nodes_built, SrfInVolume arms; plane step_inversion wired, 166 cover_coincident deferrals now blocked by surface_point_solve_p3",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan",
+    "query",
+    "surface"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8cbc459cf8f35996f36126ba6435f63d53ad180f",
+   "short": "8cbc459cf",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T07:57:39Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "81dac0b722a72bb18121148c253872cf39749d89",
+   "short": "81dac0b72",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T07:57:05Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "c9d8683396506282a11166fb2b50df7345bfa001",
+   "short": "c9d868339",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T07:48:10Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "df7cc9110a952ebfa3606e02f375045131b9eb86",
+   "short": "df7cc9110",
+   "author": "Andreas",
+   "date": "2026-10-15T09:36:56+02:00",
+   "subject": "Refresh difftest reports after merging main",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b39d80dabd6c1e665beff1e1ba52a1cb0a9d506f",
+   "short": "b39d80dab",
+   "author": "bherbruck",
+   "date": "2026-10-15T03:32:22-04:00",
+   "subject": "port: topology.vertex (SmVertex)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "plan",
+    "topology"
+   ],
+   "files": 20,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "244748bf1c3afd95d43a7f117f284c4779ea218a",
+   "short": "244748bf1",
+   "author": "bherbruck",
+   "date": "2026-10-15T03:31:04-04:00",
+   "subject": "query.edge: wire SmCurve::CalculateTightBoundingBox (curve.curve_p9 is green)",
+   "kind": "altres",
+   "module": "query",
+   "modules": [
+    "difftest",
+    "plan",
+    "query"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "94de5d40edc5b316a2a6d0f4c508c93ae194984c",
+   "short": "94de5d40e",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T07:22:32Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "b304410dde8804b49e5fba36e5059a1458ce5e7f",
+   "short": "b304410dd",
+   "author": "froglemonade2",
+   "date": "2026-10-15T09:07:50+02:00",
+   "subject": "Wire the surface_p5 callers new on main (IsSingularity, LocalPointSolve, MapTo2d DropPoint)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "blend",
+    "difftest",
+    "geom",
+    "intersect",
+    "plan",
+    "surface",
+    "topology"
+   ],
+   "files": 14,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c14bc2b5e82b8aee11c3be340919c5f1c78c22a4",
+   "short": "c14bc2b5e",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T07:07:14Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "b368f009537c7816a7d78fd92c022ea2f5302ec2",
+   "short": "b368f0095",
+   "author": "bherbruck",
+   "date": "2026-10-15T03:06:48-04:00",
+   "subject": "heal.gap: partial (445 cases, 372 pass, 73 deferred); update wired units' notes and reports",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7c844ab3c8f6ab0a6d37f95264d3bff1f0a9efb3",
+   "short": "7c844ab3c",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T07:04:55Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "84318c53da8d2377c4ac799e8ee642478a7f519d",
+   "short": "84318c53d",
+   "author": "bherbruck",
+   "date": "2026-10-15T02:57:42-04:00",
+   "subject": "query.edge shim: follow main's B-rep export layout",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ad2d08e9a0d93a6b0cce181809145f06343a7e18",
+   "short": "ad2d08e9a",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T06:52:17Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "4c230c7f40b26c484cf1888c87f536ecc0265ffd",
+   "short": "4c230c7f4",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T06:48:49Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "11ab46899c9226b001ebcdf6b909cfc4c011b840",
+   "short": "11ab46899",
+   "author": "Andreas",
+   "date": "2026-10-15T08:48:43+02:00",
+   "subject": "topology.edgeuse_p2: wire SmSurface::GlobalPointSolve in EvaluateBinormalStepOff (thread &Kernel)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "topology"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "13a48e00c30149c331c9e6f4b110727b64e768e5",
+   "short": "13a48e00c",
+   "author": "Andreas",
+   "date": "2026-10-15T08:46:46+02:00",
+   "subject": "topology.vertexuse: wire SmSurface::GlobalPointSolve and IsOnSeam (surface.surface_p4)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "edf20b97c9b2a1bf6419b1fbec553be3d57eea28",
+   "short": "edf20b97c",
+   "author": "bherbruck",
+   "date": "2026-10-15T02:46:34-04:00",
+   "subject": "heal.gap: port SmGap records, SmGapArray, SmGapSample and the gap functions",
+   "kind": "altres",
+   "module": "heal",
+   "modules": [
+    "difftest",
+    "harness",
+    "heal",
+    "plan",
+    "topology"
+   ],
+   "files": 11,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "190a31bb52881049b9d99e32f03ae63926132b75",
+   "short": "190a31bb5",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T06:35:56Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "cec28b21921ba0ffaef4169c779857b7f552accb",
+   "short": "cec28b219",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T06:31:57Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "24130194115f729edabc71fd789729d84a8417ef",
+   "short": "241301941",
+   "author": "Andreas",
+   "date": "2026-10-15T08:30:44+02:00",
+   "subject": "Fix SrfInVolume arms in topology::vertexuse after the main merge",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6431fd7a0f6872f247d6d74b15d5ed6811111d1a",
+   "short": "6431fd7a0",
+   "author": "Andreas",
+   "date": "2026-10-15T08:30:33+02:00",
+   "subject": "surface.surface_p4: difftest runners pass the kernel, refresh reports and plan notes after wiring the GlobalPointSolve back-edges",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 18,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a574597d88d759be99597ab9643ee1218d1d7fc0",
+   "short": "a574597d8",
+   "author": "bherbruck",
+   "date": "2026-10-15T02:19:04-04:00",
+   "subject": "surface.surface_p10: review fixes (clippy with cpp, report, adversarial fixtures)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4bac8769d990b7c88adcc8f3eb942045df693ed1",
+   "short": "4bac8769d",
+   "author": "bherbruck",
+   "date": "2026-10-15T02:17:34-04:00",
+   "subject": "difftest: topology.vertexuse fills the new Face uv_domain/tolerance fields",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "33ca427418c691384defaba1ff1273ed0c9c1c7e",
+   "short": "33ca42741",
+   "author": "Andreas",
+   "date": "2026-10-15T08:14:04+02:00",
+   "subject": "surface.srf_in_volume: wire volume_p2 inversions and ReadFromDB",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness",
+    "plan",
+    "surface"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "20c649be4eaadc64002c5a2419ee34d1d52bed83",
+   "short": "20c649be4",
+   "author": "Andreas",
+   "date": "2026-10-15T08:12:10+02:00",
+   "subject": "surface_p5: restore GlobalPointSolve call in surface intersector; wire SmSurface::DropPoint in GetStartPointUVLoopGap",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "difftest",
+    "intersect",
+    "plan",
+    "topology"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8c8a757e8755729f423103f7d9107b4ea605278e",
+   "short": "8c8a757e8",
+   "author": "Andreas",
+   "date": "2026-10-15T07:58:04+02:00",
+   "subject": "surface_p3: set only the SmBSplineSurface flag member in the temporary out-of-bounds change; compare surfaces of revolution",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "surface"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9e4e8ce5fb271f14f8387cfe7d149e77f40ec573",
+   "short": "9e4e8ce5f",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T05:54:01Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "996ba2cbc08a70ed6e0d3632efdf1d16e4494fa7",
+   "short": "996ba2cbc",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T05:53:17Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "4a998815b7bcba981fbbe0931dbb5347473249a6",
+   "short": "4a998815b",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T05:44:44Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "5e4ad464ff4941a94b10c65603b6f379a7a06ef9",
+   "short": "5e4ad464f",
+   "author": "bherbruck",
+   "date": "2026-10-15T01:43:26-04:00",
+   "subject": "plan: surface.surface_p10 partial (499 pass, 337 deferred)",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a6efa30276ec4ebb7181263d49738948d3b6f0b9",
+   "short": "a6efa3027",
+   "author": "bherbruck",
+   "date": "2026-10-15T01:37:57-04:00",
+   "subject": "surface.surface_p10: port SmLSIGlobalSolver::LocalSolve and sm_GlobalCurveIntersectCombineSolutions",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "difftest",
+    "harness",
+    "surface"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4eeeec2542fa4bb9dd7563e353395efcf57c98b9",
+   "short": "4eeeec254",
+   "author": "Andreas",
+   "date": "2026-10-15T07:36:48+02:00",
+   "subject": "intersect.ray_tracer: wire SurfaceCache::get_tree in add_surface_to_grid; fix findings note on EvaluateNormal",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "intersect",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d295ff7deb8409a1a8081cc8aee6f1960292a89e",
+   "short": "d295ff7de",
+   "author": "Andreas",
+   "date": "2026-10-15T07:20:01+02:00",
+   "subject": "surface.surface_p4: wire the eight UNPORTED(surface.surface_p4) stubs and thread &Kernel through the surface intersector",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "intersect",
+    "nurbs",
+    "surface"
+   ],
+   "files": 12,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2d8b544f507bc3f8e9fd1fc00ace301b9011ce98",
+   "short": "2d8b544f5",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T05:04:21Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "28b5a540746f89c8b28b2e4989996e6b9ab5dcb2",
+   "short": "28b5a5407",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T05:00:32Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "f0fa5d88598f1cdfa64fe9b46342bb422c0d5e31",
+   "short": "f0fa5d885",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T04:59:50Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "cbb18fe7334f14479fd8e732de91abdfc62513c2",
+   "short": "cbb18fe73",
+   "author": "bherbruck",
+   "date": "2026-10-15T00:52:37-04:00",
+   "subject": "surface.surface_p6: review fixes (clippy, FFI cone-apex guard, apex fixtures, findings)",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "surface"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "881c913cf421caa99f138835d164383aa5e364fa",
+   "short": "881c913cf",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T04:28:30Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "a7bce76ed2f90d9af9bf0b42e453ac89757a1bb6",
+   "short": "a7bce76ed",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T04:28:14Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "bc4dea03f2e4dd8ef6b2f0a1f25601c6cb70dd5b",
+   "short": "bc4dea03f",
+   "author": "bherbruck",
+   "date": "2026-10-15T00:27:19-04:00",
+   "subject": "surface.surface_p6: renumber the GetSampleValues upstream issue to UB-100 after merging main",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "harness",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "86015e837dd6b183b88e5fa2e318e620df80ecbb",
+   "short": "86015e837",
+   "author": "bherbruck",
+   "date": "2026-10-15T00:21:10-04:00",
+   "subject": "surface.surface_p6: partial; reports, findings, UB-99; curve.iso_curve green",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "difftest",
+    "intersect",
+    "plan",
+    "surface"
+   ],
+   "files": 21,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9b5a521094040ca66f023150e9a9433975dba5e9",
+   "short": "9b5a52109",
+   "author": "bherbruck",
+   "date": "2026-10-15T00:15:01-04:00",
+   "subject": "topology.face_p2: partial; findings, upstream issues WR-74/WR-75, co-port notes",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "plan",
+    "topology"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "541edfae2c9456130008d35a50dfab2b70c7c5c2",
+   "short": "541edfae2",
+   "author": "bherbruck",
+   "date": "2026-10-15T00:13:32-04:00",
+   "subject": "topology.face_p2: port SmFace part 2, shim, ffi, runner, fixtures",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "harness",
+    "topology"
+   ],
+   "files": 14,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "69395a6045e2cd46ed6f8a74272f6018f28b2f21",
+   "short": "69395a604",
+   "author": "bherbruck",
+   "date": "2026-10-15T00:09:01-04:00",
+   "subject": "surface.surface_p6: keep SimpleCoincidenceChecker's normal across ignored evaluations",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "048582453936d98e80b89e50cbd3e4dd45633b24",
+   "short": "048582453",
+   "author": "bherbruck",
+   "date": "2026-10-15T00:08:24-04:00",
+   "subject": "surface.surface_p6: shim, ffi, runner, fixtures; wire back-edges",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness",
+    "intersect",
+    "nurbs",
+    "surface"
+   ],
+   "files": 19,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "77f4a00e3fb2ff9152e7f760303025776f0cde52",
+   "short": "77f4a00e3",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T04:06:24Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "8d9d4042366b4c60edcca0500007d8b428387e3a",
+   "short": "8d9d40423",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T03:56:55Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "4c4900ae8458ab7e1125e8f58d5c48e1f4feaf82",
+   "short": "4c4900ae8",
+   "author": "bherbruck",
+   "date": "2026-10-14T23:33:41-04:00",
+   "subject": "surface.surface_p6: port the SmSurface part 6 members (WIP)",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "21ddeb5c1221cf5aa125a3e82b6c1a8d5bac1311",
+   "short": "21ddeb5c1",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T03:32:32Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "80b06d376f5d9a7b9c6b6fb748b00b173b218265",
+   "short": "80b06d376",
+   "author": "bherbruck",
+   "date": "2026-10-14T23:32:02-04:00",
+   "subject": "port: query.edge (SmEdge bounding boxes, closest point, radial sectors)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "query"
+   ],
+   "files": 11,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "dcdb6564e5fb60fc29730984672dbec458df4fd4",
+   "short": "dcdb6564e",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T03:20:05Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "2971d3b5eefb22dcda217f84b832a8f3408b667b",
+   "short": "2971d3b5e",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T03:11:01Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "4a605efe411e9a19eeecb84d4119b5a4c74532d8",
+   "short": "4a605efe4",
+   "author": "bherbruck",
+   "date": "2026-10-14T23:10:39-04:00",
+   "subject": "plan: topology.edgeuse_p2 partial; record co-ports in topology.face_p2, topology.brep_p1",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a85dddc16b1d0831a0051015b520ff29b42d51f9",
+   "short": "a85dddc16",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T02:57:54Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "400961ab1b775fe41a1f40c58b295fb0590cdf8a",
+   "short": "400961ab1",
+   "author": "bherbruck",
+   "date": "2026-10-14T22:57:37-04:00",
+   "subject": "topology.vertexuse: difftest report",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fd6a7ff9e92e23fb2dabdeea595da813c1fd8452",
+   "short": "fd6a7ff9e",
+   "author": "bherbruck",
+   "date": "2026-10-14T22:49:25-04:00",
+   "subject": "port: topology.edgeuse_p2 (SmEdgeuse sector tests, step-off binormal, CheckAndSetUVTrimCurve, Notify)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "topology"
+   ],
+   "files": 17,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "76c69c271dd4e9c592b407400bdbd73b7310c245",
+   "short": "76c69c271",
+   "author": "bherbruck",
+   "date": "2026-10-14T22:48:00-04:00",
+   "subject": "blend.fillet_custom_solver: record ASan audit of the FFI validator (UB-99)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "harness",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [
+    "loft-skin"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "7353fb2eb27215d87b2b66d55088c58cd2c52b3d",
+   "short": "7353fb2eb",
+   "author": "bherbruck",
+   "date": "2026-10-14T22:44:55-04:00",
+   "subject": "port: topology.vertexuse (SmVertexuse), partial",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "heal",
+    "plan",
+    "topology"
+   ],
+   "files": 12,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e977549bcc02a77c51f2f238c0d1b0a6cb9c9f6e",
+   "short": "e977549bc",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T02:35:40Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "df12c1101fcf26f876351277d422c4e35e7b6c3e",
+   "short": "df12c1101",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T02:34:54Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "373a6ad32589088560c4b3760fdac7145b313e06",
+   "short": "373a6ad32",
+   "author": "bherbruck",
+   "date": "2026-10-14T22:34:17-04:00",
+   "subject": "query.tess: review fixes (plane NURB in BuildTree, SmPlane shim, clippy)",
+   "kind": "altres",
+   "module": "query",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "query"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0d78ef226bbdeb0af132991e908408c7fe8af412",
+   "short": "0d78ef226",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T01:56:25Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "cf24a2ea28d41c523abef20266007af706f7f938",
+   "short": "cf24a2ea2",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T01:55:53Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "11bc9735557654029e338fe0c57bf64ed8dd485c",
+   "short": "11bc97355",
+   "author": "bherbruck",
+   "date": "2026-10-14T21:43:06-04:00",
+   "subject": "difftest --ssi-corpus: review fixes (exact float parsing, copyright, plane NURB deviation)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "ci",
+    "difftest",
+    "docs",
+    "harness",
+    "plan",
+    "surface"
+   ],
+   "files": 15,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "640d62781ff387aa4815c1c3903159eed1afcf9b",
+   "short": "640d62781",
+   "author": "bherbruck",
+   "date": "2026-10-14T21:36:22-04:00",
+   "subject": "intersect.surface_intersector_p5: review fixes",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "difftest",
+    "intersect",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c58194e6bd90feb3747ffe2fe153bd92671c2a0c",
+   "short": "c58194e6b",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T01:34:21Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "2ee8ab943729a1cc0482a9ce9fcc8b601107239e",
+   "short": "2ee8ab943",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T01:26:04Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "9fe7bf72d4508710a7abbc9f81f985d16aa539a7",
+   "short": "9fe7bf72d",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T01:25:00Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "b4b8858d5426172046f30b4bef4632bddbe5dd3d",
+   "short": "b4b8858d5",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T01:23:40Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "ca79edba8fa71205c8f06d609962aa858161a55f",
+   "short": "ca79edba8",
+   "author": "bherbruck",
+   "date": "2026-10-14T21:22:54-04:00",
+   "subject": "query.tess: partial (615 bit-identical, 0 failed, 13 deferred); reports",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d2de7cd75a11e5c201845ebbdb62dd4a97a3e5d7",
+   "short": "d2de7cd75",
+   "author": "bherbruck",
+   "date": "2026-10-14T21:14:35-04:00",
+   "subject": "port: query.tess (SmTessSrfCache, tess drivers, poly attrs)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "query",
+    "surface"
+   ],
+   "files": 13,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bf319d0cabe39ead4762d5f49c9a73e13ba358ee",
+   "short": "bf319d0ca",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T00:54:42Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "4109002ad6011c3a5aa92450be463855d22ee8c5",
+   "short": "4109002ad",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T00:48:39Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "6e1873d725978207a3cf7558f1c2abf7ef1c6f54",
+   "short": "6e1873d72",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T00:41:35Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "e161b6ff31ce701dbd2d89df44e25a806b9857d9",
+   "short": "e161b6ff3",
+   "author": "bherbruck",
+   "date": "2026-10-14T20:40:56-04:00",
+   "subject": "intersect.surface_intersector_p5: partial (530 pass, 1101 deferred), reports",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "240e6b5bccc5d3f97fb27e384db03db450089e8b",
+   "short": "240e6b5bc",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T00:37:21Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "722e38e426146160916868dc05a1b99308f31cd7",
+   "short": "722e38e42",
+   "author": "bherbruck",
+   "date": "2026-10-14T20:35:06-04:00",
+   "subject": "port: intersect.surface_intersector_p5 (DoIntersection, GrazingBoxProcess)",
+   "kind": "port",
+   "module": "surface",
+   "modules": [
+    "difftest",
+    "harness",
+    "intersect",
+    "plan",
+    "surface"
+   ],
+   "files": 11,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "87d1ab2c8577407e1b11b4b0b6eb765a954c9c8f",
+   "short": "87d1ab2c8",
+   "author": "bherbruck",
+   "date": "2026-10-14T20:30:24-04:00",
+   "subject": "difftest --ssi-corpus: full-SHA corpus pin, upstream issues WR-74..80, findings",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "ci",
+    "difftest",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4b9da2c5e4b26f9456a66d6962fe3f229e3ec847",
+   "short": "4b9da2c5e",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T00:27:44Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "3da00f3f028e3cda1c4102a0069d8c5e37cb1329",
+   "short": "3da00f3f0",
+   "author": "github-actions[bot]",
+   "date": "2026-10-15T00:23:09Z",
+   "subject": "plan/PROGRESS.md: regenerate [skip ci]",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "492d9defc6629ca2f3a0f7dcc26672f2305d62a0",
+   "short": "492d9defc",
+   "author": "bherbruck",
+   "date": "2026-10-14T20:19:43-04:00",
+   "subject": "plan: topology.proto_topology_p1 partial (1383 pass, 218 deferred)",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b4d066a251abc4835b4438ebb6e3b9bce26a5235",
+   "short": "b4d066a25",
+   "author": "bherbruck",
+   "date": "2026-10-14T20:15:43-04:00",
+   "subject": "difftest(query.poly): fix clippy errors under the cpp feature",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d267b51b83afb5cd97e893e874479a7ea588b5c9",
+   "short": "d267b51b8",
+   "author": "bherbruck",
+   "date": "2026-10-14T20:12:39-04:00",
+   "subject": "difftest: --ssi-corpus mode scoring Rust and C++ against jyviko's SSI corpus (WIP)",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "altres",
+    "ci",
+    "difftest",
+    "docs",
+    "harness"
+   ],
+   "files": 17,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "020e439dc3a5d18ffffeeb2fceee847697bbd763",
+   "short": "020e439dc",
+   "author": "bherbruck",
+   "date": "2026-10-14T20:07:46-04:00",
+   "subject": "fmt: topology.rs",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1583644dbfbbb3b507d458835ed4cef0231c1c55",
+   "short": "1583644db",
+   "author": "bherbruck",
+   "date": "2026-10-14T20:07:32-04:00",
+   "subject": "port: topology.proto_topology_p1 difftest runner, fixtures, shim fixes, unit tests",
+   "kind": "port",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "topology"
+   ],
+   "files": 14,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "d7a0a3be6215352f7e884bacc3c58623a03429f5",
+   "short": "d7a0a3be6",
+   "author": "bherbruck",
+   "date": "2026-10-14T19:56:43-04:00",
+   "subject": "port: boolean.api_brep (partial)",
+   "kind": "port",
+   "module": "boolean",
+   "modules": [
+    "boolean",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 11,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "732d215b18977a4815e7f1fd21397f7f2c91994b",
+   "short": "732d215b1",
+   "author": "bherbruck",
+   "date": "2026-10-14T19:35:25-04:00",
+   "subject": "blend.fillet_custom_solver: review fixes",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "cbb083436b1b81487ed854a5ecee629bf8101ac5",
+   "short": "cbb083436",
+   "author": "Andreas",
+   "date": "2026-10-15T01:10:07+02:00",
+   "subject": "findings: curve.curve_p9 gen21507 is upstream reading an uninitialised Jacobian",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d62b64810c7653f98c4861532b4e7a2cb83c1278",
+   "short": "d62b64810",
+   "author": "Andreas",
+   "date": "2026-10-15T00:56:56+02:00",
+   "subject": "Merge #49's deduped ENFO types and upstream/main; keep exact knots in solves (BSplineCurve::clone_exact, iso curve moved out of the cache), ignore the LocalPointSolve status in curve_class_p1",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "difftest",
+    "intersect",
+    "nurbs",
+    "plan",
+    "surface"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2eb5375563ba22632f3eb495e5abee2f15b29cc0",
+   "short": "2eb537556",
+   "author": "bherbruck",
+   "date": "2026-10-14T18:56:48-04:00",
+   "subject": "blend.fillet_custom_solver: port SmFilletCustomSolver (partial)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3cf2ef0236a007f23d977a1c84382cbade24ac12",
+   "short": "3cf2ef023",
+   "author": "Andreas",
+   "date": "2026-10-15T00:42:49+02:00",
+   "subject": "curve.curve_p9: review fixes (FFI guard, back-edges, generator)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "intersect",
+    "plan",
+    "surface"
+   ],
+   "files": 17,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "cc2ad3b35a4ec13e74906e944a0458d4c98d4b0b",
+   "short": "cc2ad3b35",
+   "author": "bherbruck",
+   "date": "2026-10-14T18:42:16-04:00",
+   "subject": "wip: topology.proto_topology_p1 clippy fixes, shim and ffi draft",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "harness",
+    "topology"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "56c8f60106815c6aa0c8898545e65d6154d19375",
+   "short": "56c8f6010",
+   "author": "froglemonade2",
+   "date": "2026-10-15T00:40:37+02:00",
+   "subject": "Exact generator copies, ignored statuses, MaxDist coverage, plane iso curves defer",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "difftest",
+    "harness",
+    "intersect",
+    "nurbs",
+    "plan",
+    "surface"
+   ],
+   "files": 11,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4c7a17bbbb6a285029cc65de951aa76abaa516f9",
+   "short": "4c7a17bbb",
+   "author": "Andreas",
+   "date": "2026-10-15T00:29:39+02:00",
+   "subject": "surface_p3: drop duplicates of #43/#49, implement EvalNFunctions on surface_p1's ENFO structs, wire LocalSurfaceSolve",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "intersect",
+    "plan",
+    "surface"
+   ],
+   "files": 17,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3bf77dc76339163744a0bce559b8c744b7641411",
+   "short": "3bf77dc76",
+   "author": "Andreas",
+   "date": "2026-10-14T23:41:32+02:00",
+   "subject": "intersect.ray_tracer: match upstream SE in surface_leaf, wire GetFace and surface cache",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "difftest",
+    "intersect",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f62c2685c53fd8b38d10585f645bb9e3724bb8db",
+   "short": "f62c2685c",
+   "author": "froglemonade2",
+   "date": "2026-10-14T23:33:48+02:00",
+   "subject": "Solve on exact surface copies, ignore the statuses upstream ignores, make the SurfaceEvaluate point-solve methods required",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "curve",
+    "difftest",
+    "nurbs",
+    "surface"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fd1b4b2b193b1acd6f71592d7a71306b3f3a8686",
+   "short": "fd1b4b2b1",
+   "author": "bherbruck",
+   "date": "2026-10-14T17:29:34-04:00",
+   "subject": "query.poly: review fixes (nested composites, Notify tag, adversarial cases)",
+   "kind": "altres",
+   "module": "query",
+   "modules": [
+    "difftest",
+    "plan",
+    "query"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "eb14091d1c97dd5bb14251d1747fc777427010de",
+   "short": "eb14091d1",
+   "author": "bherbruck",
+   "date": "2026-10-14T17:25:35-04:00",
+   "subject": "intersect.curve_class_p1: move SmTol::MapTo2d(.., SmCurve, SmSurface) to surface::surface::p1",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "geom",
+    "intersect",
+    "surface"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1e400fd139c4479ad466b47b488dbf326415293f",
+   "short": "1e400fd13",
+   "author": "froglemonade2",
+   "date": "2026-10-14T22:58:59+02:00",
+   "subject": "Wire LocalPointSolve/DropPoint through SurfaceEvaluate and the STEP-surface local solve of SmSurfOfRevolution",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "curve",
+    "difftest",
+    "nurbs",
+    "plan",
+    "surface"
+   ],
+   "files": 8,
+   "watch": [
+    "step"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "cd5373d871f8e873594ae0fb73e21f6ed23b66ef",
+   "short": "cd5373d87",
+   "author": "bherbruck",
+   "date": "2026-10-14T16:54:09-04:00",
+   "subject": "port: query.poly (SmPolyBrep poly objects)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "plan",
+    "query",
+    "surface"
+   ],
+   "files": 13,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e03c4af475db16fdd8f633841f34ee0623f0517b",
+   "short": "e03c4af47",
+   "author": "bherbruck",
+   "date": "2026-10-14T16:41:59-04:00",
+   "subject": "intersect.curve_class_p1: update notes, findings and report after review fixes",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "467fda8660219b7159d849864eeb7fa770af0dd6",
+   "short": "467fda866",
+   "author": "bherbruck",
+   "date": "2026-10-14T16:28:54-04:00",
+   "subject": "intersect.curve_class_p1: port SmTol::MapTo2d UV-curve branch for classify pair",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "difftest",
+    "intersect"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "81874b15f37ad9e796e6ba89de779f4fc459a7e9",
+   "short": "81874b15f",
+   "author": "froglemonade2",
+   "date": "2026-10-14T22:09:18+02:00",
+   "subject": "Wire surface.surface_p5 back-edges in surface_p9, curve_class_p1, surf_of_revolution_p3 and surface_point_solve_p1",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "difftest",
+    "intersect",
+    "plan",
+    "surface"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "53b8a9ffedbf7bbe3824019136004f49bcb0b642",
+   "short": "53b8a9ffe",
+   "author": "froglemonade2",
+   "date": "2026-10-14T21:37:20+02:00",
+   "subject": "Fix main not compiling (missing SurfOfRevolution arms), wire IsSingularity in surface_intersector_p3, retag LocalPointSolve_1 to surface.surface_point_solve_p3, refresh reports",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "intersect",
+    "plan",
+    "surface"
+   ],
+   "files": 12,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "72af4e27d8d534282994610bc0ccebee9c150d76",
+   "short": "72af4e27d",
+   "author": "bherbruck",
+   "date": "2026-10-14T15:31:37-04:00",
+   "subject": "wip: topology.proto_topology_p1 library port",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "intersect",
+    "topology"
+   ],
+   "files": 11,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e984a4399957622b67477227608b288c356f4df6",
+   "short": "e984a4399",
+   "author": "froglemonade2",
+   "date": "2026-10-14T20:13:23+02:00",
+   "subject": "plan/modules.toml: resolve merge conflict markers left in intersect.point_class notes",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "72d7d1040a5bb6eecdb3cd07eab177002e79bd0f",
+   "short": "72d7d1040",
+   "author": "froglemonade2",
+   "date": "2026-10-14T18:58:08+02:00",
+   "subject": "surface.surface_p5: address review (drop EvaluateNormalSection co-port, full CoverOtherCoincidentSurface, ignored statuses, curve-bounded surfaces and upstream fixtures)",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "surface"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f00d20e3660000b7897b17f942bd6c02b854d98b",
+   "short": "f00d20e36",
+   "author": "Andreas",
+   "date": "2026-10-14T17:34:59+02:00",
+   "subject": "intersect.ray_tracer: refresh difftest report",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9de7d4deb9edc73dd7540b89d0e5b8147d1cb986",
+   "short": "9de7d4deb",
+   "author": "Andreas",
+   "date": "2026-10-14T17:32:01+02:00",
+   "subject": "surface.surface_p4: add difftest report",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bfd6170680b399363a9830226b70daa612bf75f7",
+   "short": "bfd617068",
+   "author": "Andreas",
+   "date": "2026-10-14T17:31:04+02:00",
+   "subject": "intersect.ray_tracer: compare zero Local vectors, inverted pseudo boxes and rotated pseudo boxes",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ce9ea6ee896835e598379ee829c83b98a2fa75ee",
+   "short": "ce9ea6ee8",
+   "author": "Andreas",
+   "date": "2026-10-14T17:17:37+02:00",
+   "subject": "curve.curve_p9: cover SmEllipse in the harness, relax FFI guards, fix fixture provenance",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0ea6f6e0e9865d91fc2c31461e88795cb34f13a0",
+   "short": "0ea6f6e0e",
+   "author": "Andreas",
+   "date": "2026-10-14T17:13:38+02:00",
+   "subject": "surface.surface_p4: address PR review (ssi_normalize other surface, wire local_curve_solve, owner checks)",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "curve",
+    "difftest",
+    "plan",
+    "surface"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0832d6723e6a36334811a5db5d466d3f7ae48831",
+   "short": "0832d6723",
+   "author": "Andreas",
+   "date": "2026-10-14T17:03:15+02:00",
+   "subject": "intersect.ray_tracer: swap inverted Local interval like SmExtent1d; record surface_leaf SE deviation in findings",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f4f0ae41fa7d54766439df273247bb3868c9aec2",
+   "short": "f4f0ae41f",
+   "author": "froglemonade2",
+   "date": "2026-10-14T16:02:35+02:00",
+   "subject": "surface.srf_in_volume: shim, ffi, difftest runner, copies in constructors; partial (1816 pass, 184 deferred)",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "surface"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2a5b94e0594b771f1041175a07090b050dba8d23",
+   "short": "2a5b94e05",
+   "author": "froglemonade2",
+   "date": "2026-10-14T15:33:59+02:00",
+   "subject": "surface.srf_in_volume: cover SrfInVolume in surface_cache_p3 after merging main",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "68c4171057c2ca7be930cc9364b93af77f2536d8",
+   "short": "68c417105",
+   "author": "froglemonade2",
+   "date": "2026-10-14T15:20:08+02:00",
+   "subject": "surface.srf_in_volume: port SmSrfInVolume to Rust",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "curve",
+    "intersect",
+    "surface"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "40b33e882a391f36c3daf5888a5a353651c80901",
+   "short": "40b33e882",
+   "author": "froglemonade2",
+   "date": "2026-10-14T14:35:48+02:00",
+   "subject": "surface.surface_p5: shim, ffi, difftest runner, tests, status partial",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan",
+    "surface"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f742cdf0d8649b836c12c7f5265e45ee2db8faac",
+   "short": "f742cdf0d",
+   "author": "froglemonade2",
+   "date": "2026-10-14T13:58:44+02:00",
+   "subject": "plan: surface.surface_p3 partial (2305 compared, 195 deferred)",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d22fa4ad9e86cb435cea24490c2932d52087d2d3",
+   "short": "d22fa4ad9",
+   "author": "froglemonade2",
+   "date": "2026-10-14T13:48:46+02:00",
+   "subject": "surface_p3: keep the Unitize failure status in the normal and shape-match checks",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3ab60dd0ceae23498fcf0f719fd73cb938c2fdd8",
+   "short": "3ab60dd0c",
+   "author": "froglemonade2",
+   "date": "2026-10-14T13:29:38+02:00",
+   "subject": "surface_p3: cargo fmt",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "832a2732d52883dde14e1fd86f16241fc82b0083",
+   "short": "832a2732d",
+   "author": "froglemonade2",
+   "date": "2026-10-14T13:28:28+02:00",
+   "subject": "surface_p3: curve-bounded normal section carries the normal",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "08409ead414f6ddb51cc5b721bd1231cdeac66bd",
+   "short": "08409ead4",
+   "author": "froglemonade2",
+   "date": "2026-10-14T13:27:17+02:00",
+   "subject": "surface_p3: wire UNPORTED(surface.surface_p3) callers, generic section/geometric",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "intersect",
+    "nurbs",
+    "surface"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8a8faa1361f7d206bb8b06e0bb4204c267215ab5",
+   "short": "8a8faa136",
+   "author": "froglemonade2",
+   "date": "2026-10-14T13:23:41+02:00",
+   "subject": "surface_p3: shim, ffi binding and difftest runner (WIP)",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "difftest",
+    "harness"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5f98aa82b6fb12ee26722582f0531534ca2cba2e",
+   "short": "5f98aa82b",
+   "author": "froglemonade2",
+   "date": "2026-10-14T13:21:01+02:00",
+   "subject": "surface.surface_p4: avoid indexing in the difftest generator (clippy with the cpp feature)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2627996ae80e1dddd098e1921eb4b188e26ff0f7",
+   "short": "2627996ae",
+   "author": "froglemonade2",
+   "date": "2026-10-14T13:17:46+02:00",
+   "subject": "surface_p3: hoist constants (clippy)",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "aae990d51d80d1bc86485e73677f97466e246bb8",
+   "short": "aae990d51",
+   "author": "froglemonade2",
+   "date": "2026-10-14T13:14:55+02:00",
+   "subject": "surface_p3: WIP port of p3 functions (compiles pending)",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "53d44c812c43e296f19f83a194e929379e54b2d3",
+   "short": "53d44c812",
+   "author": "froglemonade2",
+   "date": "2026-10-14T13:09:16+02:00",
+   "subject": "difftest(surface_p4): avoid indexing in generators (clippy indexing_slicing)",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0032476b11fb8cf8759b520e4307a070c8a3d23a",
+   "short": "0032476b1",
+   "author": "froglemonade2",
+   "date": "2026-10-14T13:04:40+02:00",
+   "subject": "surface.surface_p5: WIP port of SmSurface part 5 (singularity, iso curve, point solves, DropPoint, solution filter, IdenticalSolutions); wire back-edges",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "intersect",
+    "nurbs",
+    "surface"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2233b2f045d8e19ecda058564049cd3e8b811b45",
+   "short": "2233b2f04",
+   "author": "froglemonade2",
+   "date": "2026-10-14T12:46:24+02:00",
+   "subject": "surface.surface_p4: drop a debugging test",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "61a1617d2b5fa17b0803747a0d29a48eb88f1907",
+   "short": "61a1617d2",
+   "author": "froglemonade2",
+   "date": "2026-10-14T12:45:12+02:00",
+   "subject": "surface.surface_p4: plan status partial, notes, co-ports",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6d2dd2ee41b5096de74ef3136e8618376305982f",
+   "short": "6d2dd2ee4",
+   "author": "froglemonade2",
+   "date": "2026-10-14T12:45:12+02:00",
+   "subject": "surface.surface_p4: shim, ffi, difftest runner, docs, tests",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "difftest",
+    "harness",
+    "surface"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "de9ef7743074f6c53b5574e64c2ca05838da9051",
+   "short": "de9ef7743",
+   "author": "froglemonade2",
+   "date": "2026-10-14T12:12:39+02:00",
+   "subject": "surface.surface_p4: port Newton evaluators, classify, global point solve, seam, normal section; wire back-edges",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "intersect",
+    "surface"
+   ],
+   "files": 5,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "0ddfecf68bd472da51b8f4355ccb1a2cd4e3816f",
+   "short": "0ddfecf68",
+   "author": "froglemonade2",
+   "date": "2026-10-14T12:02:09+02:00",
+   "subject": "surface.surface_p4: WIP SSP/SSI/SS Newton evaluators",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "53087bba7f21d20466deecd8325097ef3549eec4",
+   "short": "53087bba7",
+   "author": "froglemonade2",
+   "date": "2026-10-14T12:00:22+02:00",
+   "subject": "surface.surface_p4: WIP CS intersect/normalize evaluators",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0f1bd1d4fe1e14638a445c0a1e3a0af8e938495e",
+   "short": "0f1bd1d4f",
+   "author": "froglemonade2",
+   "date": "2026-10-14T11:12:31+02:00",
+   "subject": "intersect.ray_tracer: SmRayRenderer, renderer difftest ops, status partial",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "difftest",
+    "harness",
+    "intersect",
+    "plan"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5026049f8d14b4f2b94bd4393baa60c026968ac9",
+   "short": "5026049f8",
+   "author": "froglemonade2",
+   "date": "2026-10-14T10:56:24+02:00",
+   "subject": "intersect.ray_tracer: shim, ffi binding, difftest runner and fixtures (partial)",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "difftest",
+    "harness",
+    "intersect"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6b46dfd2ba91b0846b1e39043c7965e28f1129c2",
+   "short": "6b46dfd2b",
+   "author": "froglemonade2",
+   "date": "2026-10-14T10:22:15+02:00",
+   "subject": "intersect.ray_tracer: Rust port of SmRayTracer (WIP, shim/ffi/difftest to follow)",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "geom",
+    "intersect"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a476b98dc59eec592214125e83869223c4008755",
+   "short": "a476b98dc",
+   "author": "Andreas",
+   "date": "2026-10-13T19:58:08+02:00",
+   "subject": "port: curve.curve_p9 (green)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 11,
+   "watch": [],
+   "ai": true
+  }
+ ],
+ "prs": [
+  {
+   "number": 13,
+   "title": "port: curve.curve_p9",
+   "branch": "unit/curve.curve_p9",
+   "owner": "froglemonade2",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-15T02:52:03-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 48,
+   "title": "port: intersect.ray_tracer",
+   "branch": "unit/intersect.ray_tracer",
+   "owner": "froglemonade2",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-15T02:48:31-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 49,
+   "title": "port: surface.surface_p4",
+   "branch": "unit/surface.surface_p4",
+   "owner": "froglemonade2",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-15T09:19:13-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 50,
+   "title": "port: surface.surface_p5",
+   "branch": "unit/surface.surface_p5",
+   "owner": "froglemonade2",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-15T13:18:51-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 52,
+   "title": "port: surface.surface_p3",
+   "branch": "unit/surface.surface_p3",
+   "owner": "froglemonade2",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-15T16:02:27-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 53,
+   "title": "port: surface.srf_in_volume",
+   "branch": "unit/surface.srf_in_volume",
+   "owner": "froglemonade2",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-15T03:04:39-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 67,
+   "title": "port: topology.proto_topology_p1",
+   "branch": "unit/topology.proto_topology_p1",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-14T22:34:36-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 75,
+   "title": "fix: intersect.curve_class_p1 review fixes (MapTo2d UV-curve branch)",
+   "branch": "unit/intersect.curve_class_p1",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-14T20:48:08-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 78,
+   "title": "port: blend.fillet_custom_solver",
+   "branch": "unit/blend.fillet_custom_solver",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-14T21:24:45-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 81,
+   "title": "port: boolean.api_brep",
+   "branch": "unit/boolean.api_brep",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-14T21:55:37-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 82,
+   "title": "port: intersect.surface_intersector_p5",
+   "branch": "unit/intersect.surface_intersector_p5",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-14T23:07:51-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 83,
+   "title": "port: query.tess",
+   "branch": "unit/query.tess",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-15T00:59:36-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 84,
+   "title": "difftest: --ssi-corpus mode (score Rust and C++ against jyviko's exact SSI corpus)",
+   "branch": "feat/ssi-corpus",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-14T23:39:40-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "difftest",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 87,
+   "title": "port: topology.edgeuse_p2",
+   "branch": "unit/topology.edgeuse_p2",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-15T02:35:16-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 88,
+   "title": "port: topology.vertexuse",
+   "branch": "unit/topology.vertexuse",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-15T01:53:06-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 89,
+   "title": "port: query.edge",
+   "branch": "unit/query.edge",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-15T03:56:48-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 90,
+   "title": "blend.fillet_custom_solver: close FFI validator gaps",
+   "branch": "fix/fillet-custom-solver-ffi",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-15T00:18:47-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": "blend",
+   "watch": []
+  },
+  {
+   "number": 91,
+   "title": "port: topology.face_p2",
+   "branch": "unit/topology.face_p2",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-15T05:04:32-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 92,
+   "title": "port: surface.surface_p6",
+   "branch": "unit/surface.surface_p6",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-15T05:53:56-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 93,
+   "title": "port: surface.surface_p10",
+   "branch": "unit/surface.surface_p10",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-15T06:34:59-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 95,
+   "title": "port: heal.gap",
+   "branch": "unit/heal.gap",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-15T07:32:40-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 96,
+   "title": "port: topology.vertex",
+   "branch": "unit/topology.vertex",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-15T08:39:35-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 98,
+   "title": "port: intersect.surface_drop_lib_p1",
+   "branch": "unit/intersect.surface_drop_lib_p1",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-15T10:26:57-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 102,
+   "title": "port: topology.loopuse",
+   "branch": "unit/topology.loopuse",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-15T14:30:54-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 103,
+   "title": "port: topology.edge",
+   "branch": "unit/topology.edge",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-15T11:39:56-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 104,
+   "title": "port: query.face_p2",
+   "branch": "unit/query.face_p2",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-15T17:04:21-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 107,
+   "title": "port: intersect.surface_drop_curve",
+   "branch": "unit/intersect.surface_drop_curve",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-15T18:43:02-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 108,
+   "title": "site: GitHub Pages progress site generated from the repo",
+   "branch": "feat/pages-site",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-15T09:16:34-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 111,
+   "title": "README: link the live progress site at the top",
+   "branch": "docs/readme-site-link",
+   "owner": "bherbruck",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-15T09:52:11-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 113,
+   "title": "port: topology.topology_traverser",
+   "branch": "unit/topology.topology_traverser",
+   "owner": "damgru",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-15T12:35:20-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 115,
+   "title": "port: topology.brep_cache",
+   "branch": "unit/topology.brep_cache",
+   "owner": "damgru",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-15T15:02:04-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 119,
+   "title": "port: mass.integrator",
+   "branch": "unit/mass.integrator",
+   "owner": "damgru",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-15T17:36:29-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 125,
+   "title": "port: query.api_queries",
+   "branch": "unit/query.api_queries",
+   "owner": "damgru",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-10-15T19:05:52-04:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "port",
+   "module": null,
+   "watch": []
+  }
+ ],
+ "watch": [
+  {
+   "id": "setback",
+   "label": "Cantonades setback",
+   "cases": [
+    "C05",
+    "D01",
+    "D02"
+   ],
+   "hits": []
+  },
+  {
+   "id": "mixed-corner",
+   "label": "Cantonades mixtes",
+   "cases": [
+    "D01",
+    "D02"
+   ],
+   "hits": []
+  },
+  {
+   "id": "ball-patch",
+   "label": "Ball patch (cantonades esfèriques)",
+   "cases": [
+    "C05",
+    "D11"
+   ],
+   "hits": []
+  },
+  {
+   "id": "variable-radius",
+   "label": "Radi variable / lleis de radi",
+   "cases": [
+    "D07"
+   ],
+   "hits": []
+  },
+  {
+   "id": "round-larger-than-wall",
+   "label": "Arrodoniment més gran que la paret",
+   "cases": [
+    "D03",
+    "D08"
+   ],
+   "hits": []
+  },
+  {
+   "id": "shell-rounded",
+   "label": "Buidat de cossos arrodonits",
+   "cases": [
+    "D11",
+    "D14"
+   ],
+   "hits": []
+  },
+  {
+   "id": "hang-cancel",
+   "label": "Penjaments, temps límit i cancel·lació",
+   "cases": [
+    "C03",
+    "D02",
+    "D11"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "1583644db",
+     "text": "port: topology.proto_topology_p1 difftest runner, fixtures, shim fixes, unit tests",
+     "url": "https://github.com/tangency-labs/solidcore/commit/1583644dbfbbb3b507d458835ed4cef0231c1c55",
+     "matched": "asserts dereference (UB-98); zero-length Reparameterize refused (HANG-12);"
+    }
+   ]
+  },
+  {
+   "id": "corner-blend",
+   "label": "Corner blend (CreateCornerBlend / Coons)",
+   "cases": [
+    "C05",
+    "D02"
+   ],
+   "hits": []
+  },
+  {
+   "id": "chamfer",
+   "label": "Xamfrans",
+   "cases": [],
+   "hits": []
+  },
+  {
+   "id": "loft-skin",
+   "label": "Loft / skin (superfícies B-spline arrodonides)",
+   "cases": [
+    "D14"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "76c69c271",
+     "text": "blend.fillet_custom_solver: record ASan audit of the FFI validator (UB-99)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/76c69c271dd4e9c592b407400bdbd73b7310c245",
+     "matched": "CreateSkinnedSurface's skinning retry reads a knot vector freed by the"
+    }
+   ]
+  },
+  {
+   "id": "step",
+   "label": "STEP (import / export)",
+   "cases": [
+    "anada i tornada STEP"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "1e400fd13",
+     "text": "Wire LocalPointSolve/DropPoint through SurfaceEvaluate and the STEP-surface local solve of SmSurfOfRevolution",
+     "url": "https://github.com/tangency-labs/solidcore/commit/1e400fd139c4479ad466b47b488dbf326415293f"
+    }
+   ]
+  },
+  {
+   "id": "platform",
+   "label": "Plataformes (wasm, iOS, ARM)",
+   "cases": [
+    "iPad"
+   ],
+   "hits": []
+  },
+  {
+   "id": "determinism",
+   "label": "Determinisme",
+   "cases": [
+    "resultats idèntics Mac/iPad"
+   ],
+   "hits": []
+  },
+  {
+   "id": "upstream-fixes",
+   "label": "Flags d'UpstreamFixes",
+   "cases": [
+    "configuració del kernel a l'app"
+   ],
+   "hits": []
+  },
+  {
+   "id": "seam",
+   "label": "Costures (seam) i arestes partides",
+   "cases": [
+    "lliçó: no triar arestes en costures"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "de9ef7743",
+     "text": "surface.surface_p4: port Newton evaluators, classify, global point solve, seam, normal section; wire back-edges",
+     "url": "https://github.com/tangency-labs/solidcore/commit/de9ef7743074f6c53b5574e64c2ca05838da9051"
+    }
+   ]
+  }
+ ],
+ "units": {
+  "total": 0,
+  "counts": {},
+  "status_changes": [],
+  "notes_updated": [],
+  "not_green": []
+ },
+ "upstream_issues": {
+  "total": 0,
+  "counts": {
+   "WR": 0,
+   "UB": 0,
+   "HANG": 0,
+   "ND": 0,
+   "DOC": 0,
+   "FAIL": 0,
+   "ISSUE": 0
+  },
+  "new": [],
+  "removed": [],
+  "retitled": [],
+  "new_addenda": []
+ },
+ "findings": {
+  "total": 0,
+  "new": []
+ },
+ "solidcraft": {
+  "total": 0,
+  "counts": {},
+  "changes": [],
+  "new": [],
+  "failing": []
+ },
+ "upstream_fixes": {
+  "total": 0,
+  "new": [],
+  "removed": [],
+  "fillet_total": 0
+ },
+ "gates": {
+  "waivers_before": 0,
+  "waivers_after": 0,
+  "known_mismatches": 0,
+  "mismatches_new": [],
+  "mismatches_removed": []
+ },
+ "pin": {
+  "version": null,
+  "commit": "",
+  "changed": false,
+  "before_version": null
+ },
+ "status_md_changed": true,
+ "tags": [],
+ "github": {
+  "ok": true,
+  "issues_opened": [],
+  "issues_closed": [],
+  "prs_opened": [],
+  "prs_closed_unmerged": [],
+  "open_issues": 119,
+  "open_prs": 81
+ },
+ "releases": {
+  "ok": true,
+  "crates_io": {
+   "max_version": "1.0.1",
+   "new_versions": []
+  },
+  "upstream": [],
+  "upstream_latest": "v1.0.1"
+ }
+}

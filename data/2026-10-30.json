@@ -1,6 +1,6 @@
 {
  "day": "2026-10-30",
- "generated_at": "2026-11-03T19:58:03+00:00",
+ "generated_at": "2026-11-03T22:52:50+00:00",
  "window": {
   "start": "2026-10-30T00:00:00+00:00",
   "end": "2026-10-31T00:00:00+00:00",
@@ -2325,7 +2325,7 @@
    "sha": "b966e28706eaf65229b27b13f337a6869cc59e2c",
    "short": "b966e2870",
    "author": "NOWN-DEV",
-   "date": "2026-10-30T13:11:34+00:00",
+   "date": "2026-10-30T13:11:34Z",
    "subject": "difftest: SolidCraft #2069 cases (a volume that does not depend on placement)",
    "kind": "difftest",
    "module": "difftest",
@@ -2933,7 +2933,7 @@
    "sha": "65265bf0b0cb21e4eba901032cb50756f6b0aee5",
    "short": "65265bf0b",
    "author": "NOWN-DEV",
-   "date": "2026-10-30T11:51:06+00:00",
+   "date": "2026-10-30T11:51:06Z",
    "subject": "difftest: SolidCraft #2947 case (a plate across a revolved ring's seam)",
    "kind": "difftest",
    "module": "difftest",
@@ -6548,7 +6548,7 @@
    "branch": "feat/brep-attribute-store",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T01:54:11+00:00",
+   "merged_at": "2026-10-30T01:54:11Z",
    "issue_refs": [
     1462
    ],
@@ -6578,7 +6578,7 @@
    "branch": "fix/1508-extrusion-origin-scaled-zero",
    "owner": "altvnk",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T01:57:20+00:00",
+   "merged_at": "2026-10-30T01:57:20Z",
    "issue_refs": [
     1508
    ],
@@ -6593,7 +6593,7 @@
    "branch": "fix/curve-sweep-placement",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T02:29:17+00:00",
+   "merged_at": "2026-10-30T02:29:17Z",
    "issue_refs": [
     1450
    ],
@@ -6621,7 +6621,7 @@
    "branch": "fix/check-brep-caller-naming",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T00:39:17+00:00",
+   "merged_at": "2026-10-30T00:39:17Z",
    "issue_refs": [
     1584
    ],
@@ -6692,7 +6692,7 @@
    "branch": "feat/fillet-blend-thirds-mark-corners",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T01:11:56+00:00",
+   "merged_at": "2026-10-30T01:11:56Z",
    "issue_refs": [
     1438,
     1439
@@ -6708,7 +6708,7 @@
    "branch": "feat/brep-attributes-offset",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T06:00:01+00:00",
+   "merged_at": "2026-10-30T06:00:01Z",
    "issue_refs": [
     1462
    ],
@@ -6723,7 +6723,7 @@
    "branch": "fix/ray-fire-face-cache-near-flat",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T02:29:11+00:00",
+   "merged_at": "2026-10-30T02:29:11Z",
    "issue_refs": [],
    "upstream_refs": [],
    "kind": "fix",
@@ -6769,7 +6769,7 @@
    "branch": "test/almost-fixed-issue-cases",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T06:15:29+00:00",
+   "merged_at": "2026-10-30T06:15:29Z",
    "issue_refs": [
     379,
     388,
@@ -6787,7 +6787,7 @@
    "branch": "fix/wr302-middle-off-face-run",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T02:48:14+00:00",
+   "merged_at": "2026-10-30T02:48:14Z",
    "issue_refs": [],
    "upstream_refs": [
     "WR-302"
@@ -6865,7 +6865,7 @@
    "branch": "fix/lean-cylinder-clears-cylinder-flag",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T05:41:25+00:00",
+   "merged_at": "2026-10-30T05:41:25Z",
    "issue_refs": [],
    "upstream_refs": [],
    "kind": "fix",
@@ -6891,7 +6891,7 @@
    "branch": "docs/difftest-heap-pad-aslr-finding",
    "owner": "PapaEcho13",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T02:56:50+00:00",
+   "merged_at": "2026-10-30T02:56:50Z",
    "issue_refs": [],
    "upstream_refs": [],
    "kind": "altres",
@@ -6904,7 +6904,7 @@
    "branch": "feat/brep-attributes-sweep",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T11:54:52+00:00",
+   "merged_at": "2026-10-30T11:54:52Z",
    "issue_refs": [
     1462
    ],
@@ -6919,7 +6919,7 @@
    "branch": "feat/brep-attributes-boolean-family",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T06:15:26+00:00",
+   "merged_at": "2026-10-30T06:15:26Z",
    "issue_refs": [
     1462
    ],
@@ -6947,7 +6947,7 @@
    "branch": "difftest/uv-trim-full-curve",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T06:09:23+00:00",
+   "merged_at": "2026-10-30T06:09:23Z",
    "issue_refs": [],
    "upstream_refs": [],
    "kind": "difftest",
@@ -6960,7 +6960,7 @@
    "branch": "fix/fillet-refusal-leaves-body-unchanged",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T05:14:30+00:00",
+   "merged_at": "2026-10-30T05:14:30Z",
    "issue_refs": [],
    "upstream_refs": [
     "WR-212"
@@ -6975,7 +6975,7 @@
    "branch": "difftest/park-nd491-boolean-rotational-sweep",
    "owner": "brett19",
    "merged_by": "Brett Lawson",
-   "merged_at": "2026-10-30T05:28:40+00:00",
+   "merged_at": "2026-10-30T05:28:40Z",
    "issue_refs": [],
    "upstream_refs": [
     "ND-491"
@@ -6992,7 +6992,7 @@
    "branch": "fix/tight-box-interval-knots-flag",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T06:02:21+00:00",
+   "merged_at": "2026-10-30T06:02:21Z",
    "issue_refs": [
     1054
    ],
@@ -7035,7 +7035,7 @@
    "branch": "fix/435-m10-full-length-thread",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T06:45:49+00:00",
+   "merged_at": "2026-10-30T06:45:49Z",
    "issue_refs": [
     435
    ],
@@ -7050,7 +7050,7 @@
    "branch": "fix/offset-cylinder-rim-split-vertex",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T07:31:19+00:00",
+   "merged_at": "2026-10-30T07:31:19Z",
    "issue_refs": [
     1453
    ],
@@ -7069,7 +7069,7 @@
    "branch": "fix/copy-faces-into-nonempty-brep",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T07:40:25+00:00",
+   "merged_at": "2026-10-30T07:40:25Z",
    "issue_refs": [
     1628
    ],
@@ -7084,7 +7084,7 @@
    "branch": "fix/sphere-cut-round-edge-check",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T08:45:02+00:00",
+   "merged_at": "2026-10-30T08:45:02Z",
    "issue_refs": [
     423
    ],
@@ -7348,7 +7348,7 @@
    "branch": "feat/brep-attributes-split",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T09:12:33+00:00",
+   "merged_at": "2026-10-30T09:12:33Z",
    "issue_refs": [
     1462
    ],
@@ -7363,7 +7363,7 @@
    "branch": "fix/caller-keyed-ops-owner-identity",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T15:57:50+00:00",
+   "merged_at": "2026-10-30T15:57:50Z",
    "issue_refs": [
     1631
    ],
@@ -7471,7 +7471,7 @@
    "branch": "test/410-screw-thread-vertex-gaps",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T07:13:03+00:00",
+   "merged_at": "2026-10-30T07:13:03Z",
    "issue_refs": [
     410
    ],
@@ -7502,7 +7502,7 @@
    "branch": "difftest/remove-nd491-ratchet-waivers",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T07:31:16+00:00",
+   "merged_at": "2026-10-30T07:31:16Z",
    "issue_refs": [
     1620
    ],
@@ -7566,7 +7566,7 @@
    "branch": "fix/face-properties-unbounded-v",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T09:48:59+00:00",
+   "merged_at": "2026-10-30T09:48:59Z",
    "issue_refs": [
     1556
    ],
@@ -7583,7 +7583,7 @@
    "branch": "fix/thicken-planar-side-walls",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T10:19:04+00:00",
+   "merged_at": "2026-10-30T10:19:04Z",
    "issue_refs": [
     62
    ],
@@ -7600,7 +7600,7 @@
    "branch": "test/thread-groove-real-screw",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T09:09:34+00:00",
+   "merged_at": "2026-10-30T09:09:34Z",
    "issue_refs": [
     410,
     435
@@ -7616,7 +7616,7 @@
    "branch": "test/calc-fillet-int-fillet-zone-tol",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T11:54:49+00:00",
+   "merged_at": "2026-10-30T11:54:49Z",
    "issue_refs": [
     1260
    ],
@@ -7675,7 +7675,7 @@
    "branch": "fix/1672-torus-minus-z",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T11:54:47+00:00",
+   "merged_at": "2026-10-30T11:54:47Z",
    "issue_refs": [
     1672
    ],
@@ -7690,7 +7690,7 @@
    "branch": "wire/face-delete-inner-loop",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T11:49:05+00:00",
+   "merged_at": "2026-10-30T11:49:05Z",
    "issue_refs": [],
    "upstream_refs": [],
    "kind": "wire",
@@ -7731,7 +7731,7 @@
    "branch": "fix/fillet-cap-uv-trim-owner",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T10:34:36+00:00",
+   "merged_at": "2026-10-30T10:34:36Z",
    "issue_refs": [
     1678
    ],
@@ -7746,7 +7746,7 @@
    "branch": "difftest/fillet-shim-curve-owners",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T10:25:24+00:00",
+   "merged_at": "2026-10-30T10:25:24Z",
    "issue_refs": [],
    "upstream_refs": [],
    "kind": "difftest",
@@ -7841,7 +7841,7 @@
    "branch": "fix/gps-near-flat",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T11:54:45+00:00",
+   "merged_at": "2026-10-30T11:54:45Z",
    "issue_refs": [],
    "upstream_refs": [],
    "kind": "fix",
@@ -7998,7 +7998,7 @@
    "branch": "docs/fillet-geom-p3-xsect-neighbour",
    "owner": "brett19",
    "merged_by": "bherbruck",
-   "merged_at": "2026-10-30T11:59:08+00:00",
+   "merged_at": "2026-10-30T11:59:08Z",
    "issue_refs": [],
    "upstream_refs": [],
    "kind": "docs",
@@ -9730,6 +9730,12 @@
      "ref": "WR-582",
      "text": "WR-582. A chamfer of one edge of a smooth (tangent) rim chain is refused with a generic 1001 after its rail runs off its face",
      "url": "https://github.com/tangency-labs/solidcore/blob/20b47a3d4ea221b55e9055a9e63821628564b594/plan/upstream-issues/WR-582--chamfer-of-half-a-smooth-rim-is-refused-with-a-generic-1001.md"
+    },
+    {
+     "source": "github",
+     "ref": "#1669",
+     "text": "difftest: SolidCraft #2672 case (chamfer of a tangent edge chain)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/1669"
     }
    ]
   },
@@ -10887,10 +10893,67 @@
   ]
  ],
  "github": {
-  "ok": false,
-  "error": "desactivat (--no-network)"
+  "ok": true,
+  "issues_opened": [
+   {
+    "number": 1795,
+    "title": "Offset/shell: an edge whose two offset faces stop meeting along one curve is not split (MateEdges), shell fails 1001",
+    "author": "jyviko",
+    "labels": [
+     "bug",
+     "wontfix",
+     "priority: high"
+    ],
+    "url": "https://github.com/tangency-labs/solidcore/issues/1795"
+   },
+   {
+    "number": 1794,
+    "title": "Boolean: two non-parallel planes within tolerance across a strip narrower than tol/sin(angle) fail the merge (SmMerge.cpp:7413)",
+    "author": "jyviko",
+    "labels": [
+     "bug",
+     "priority: high"
+    ],
+    "url": "https://github.com/tangency-labs/solidcore/issues/1794"
+   }
+  ],
+  "issues_closed": [],
+  "prs_opened": [
+   {
+    "number": 1828,
+    "title": "Topology: subdivide a face at its surface's knot discontinuities, and fix WR-589's V pass",
+    "author": "bherbruck",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/1828"
+   },
+   {
+    "number": 1669,
+    "title": "difftest: SolidCraft #2672 case (chamfer of a tangent edge chain)",
+    "author": "rlartot",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/1669"
+   },
+   {
+    "number": 1610,
+    "title": "difftest: SolidCraft #2963 case (near-coplanar cut with a tool rotated by 4e-8 rad)",
+    "author": "rlartot",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/1610"
+   }
+  ],
+  "prs_closed_unmerged": [],
+  "open_issues": 119,
+  "open_prs": 82
  },
  "releases": {
-  "ok": false
+  "ok": true,
+  "crates_io": {
+   "max_version": "1.0.1",
+   "new_versions": [
+    "1.0.1"
+   ]
+  },
+  "upstream": [],
+  "upstream_latest": "v1.0.1"
  }
 }

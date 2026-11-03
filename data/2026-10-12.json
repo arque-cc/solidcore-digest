@@ -1,0 +1,4969 @@
+{
+ "day": "2026-10-12",
+ "generated_at": "2026-11-03T22:49:18+00:00",
+ "window": {
+  "start": "2026-10-12T00:00:00+00:00",
+  "end": "2026-10-13T00:00:00+00:00",
+  "start_sha": null,
+  "end_sha": "9a55edddb8ec5eee5fa8c205b5e6c2722b0b1ec5"
+ },
+ "summary": {
+  "commits": 367,
+  "merges": 175,
+  "claims": 74,
+  "prs_merged": 0,
+  "authors": 1,
+  "top_authors": [
+   [
+    "bherbruck",
+    367
+   ]
+  ],
+  "ai_coauthored": 293,
+  "files_touched": 527
+ },
+ "by_module": {
+  "geom": {
+   "commits": 50,
+   "files": 288
+  },
+  "nurbs": {
+   "commits": 30,
+   "files": 86
+  },
+  "curve": {
+   "commits": 2,
+   "files": 9
+  },
+  "topology": {
+   "commits": 2,
+   "files": 22
+  },
+  "difftest": {
+   "commits": 46,
+   "files": 375
+  },
+  "harness": {
+   "commits": 4,
+   "files": 24
+  },
+  "plan": {
+   "commits": 153,
+   "files": 167
+  },
+  "docs": {
+   "commits": 3,
+   "files": 5
+  },
+  "altres": {
+   "commits": 3,
+   "files": 41
+  }
+ },
+ "by_kind": {
+  "port": 20,
+  "difftest": 2,
+  "docs": 1,
+  "style": 35,
+  "altres": 235
+ },
+ "commits": [
+  {
+   "sha": "9a55edddb8ec5eee5fa8c205b5e6c2722b0b1ec5",
+   "short": "9a55edddb",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:52:53-04:00",
+   "subject": "plan/STATUS.md: nlib.srf_adv_p1 claimed, ready set empty",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c68b1d4ed590f8df24ba8d22cee0d4250f985640",
+   "short": "c68b1d4ed",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:52:45-04:00",
+   "subject": "plan/STATUS.md: nlib.srf_adv_p5 claimed",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c8edf9a16ae877fe037a4c8eef00f7d033be0e96",
+   "short": "c8edf9a16",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:52:35-04:00",
+   "subject": "status: style review batch #10 (workflow batch #2), ready set, findings, resume note",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1b513abfecb69e53216994539a4cf713b7c1ef9c",
+   "short": "1b513abfe",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:52:10-04:00",
+   "subject": "plan/STATUS.md: nlib.srf_adv_p4 green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "567a170eb56d9135aad0d01ede88c18c63a480b2",
+   "short": "567a170eb",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:51:16-04:00",
+   "subject": "status: nlib.srf_adv_p4 green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5b12e62ee53ed91f5a8e2f9e8ca51d2af0b06a10",
+   "short": "5b12e62ee",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:49:32-04:00",
+   "subject": "port: nlib.srf_adv_p4 (Coons surfaces, cross-boundary derivatives, knot merge)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [
+    "corner-blend"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "f9357ba3338222887c70ebb71e452cf4c3d97d8a",
+   "short": "f9357ba33",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:48:37-04:00",
+   "subject": "style(nurbs.b_spline_surface_p1, nurbs.b_spline_curve_n_lib): shared SolidError::nl_ser, no sm_err wrappers",
+   "kind": "style",
+   "module": "nurbs",
+   "modules": [
+    "kernel",
+    "nurbs"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "380c23b3d6f3575271708e130fd50aacfdd74537",
+   "short": "380c23b3d",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:48:37-04:00",
+   "subject": "style(nlib.srf_adv_p3): SolidError::nlib, MAX_EXTEND_DEPTH in the header table",
+   "kind": "style",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4aac92b9d0f55801bd40f2acaa96f1a33e7993d2",
+   "short": "4aac92b9d",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:48:37-04:00",
+   "subject": "style(nlib.srf_tool_p3): one shared NL_BIGD in nurbs::math",
+   "kind": "style",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ec260509827c0b375f480bc78f759240e2ce5a4e",
+   "short": "ec2605098",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:48:37-04:00",
+   "subject": "style(nlib.crv_approx): math::max2 for NL_MAX, Vec3 scalar product for N_VectorScale",
+   "kind": "style",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6b0ea84ec4998a9121374985eeba41f9f76958d4",
+   "short": "6b0ea84ec",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:44:00-04:00",
+   "subject": "plan/STATUS.md: nlib.srf_adv_p2 green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "536932c7ff40ef6431692302fbf10cba5a90c1b3",
+   "short": "536932c7f",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:43:45-04:00",
+   "subject": "status: nlib.srf_adv_p2 green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8ce42dec9b72a1d23fb5ceafc168eb3349474753",
+   "short": "8ce42dec9",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:42:14-04:00",
+   "subject": "plan/STATUS.md: nurbs.b_spline_curve_n_lib partial",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "106720777dc822423dbd87451580365e34260c76",
+   "short": "106720777",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:41:46-04:00",
+   "subject": "status: nurbs.b_spline_curve_n_lib partial",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d29f739f135517942c561bd2b866f41d9d075c85",
+   "short": "d29f739f1",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:39:38-04:00",
+   "subject": "port: nlib.srf_adv_p2 (ST_surxsdr, N_SrfEvalPtNormalDeriv)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "acbdaac81ca34640d3de7269b3b3faa90fda2517",
+   "short": "acbdaac81",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:39:29-04:00",
+   "subject": "port(nurbs.b_spline_curve_n_lib): SmBSplineCurveNLib (arc/rational/helix approximation, extension, interpolation, knot editing, degree reduction, compatible curves, end deformation, trim)",
+   "kind": "port",
+   "module": "nurbs",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f419c8912afea22c6ea1532ad28a6e0934684de4",
+   "short": "f419c8912",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:33:36-04:00",
+   "subject": "nurbs.b_spline_surface_p1: bound header-declared sizes before allocating",
+   "kind": "altres",
+   "module": "nurbs",
+   "modules": [
+    "docs",
+    "nurbs",
+    "plan",
+    "topology"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0142f5eea3b8ec8cae1949e21d4b562fc09dd7e0",
+   "short": "0142f5eea",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:30:23-04:00",
+   "subject": "plan/STATUS.md: nurbs.b_spline_surface_p1 partial",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "dc0f6df2d8e45402fd4cb100ef831b9744c47970",
+   "short": "dc0f6df2d",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:30:06-04:00",
+   "subject": "status: nurbs.b_spline_surface_p1 partial",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "eb3a9a08822df069c1fe9b6e9be154d9343e710d",
+   "short": "eb3a9a088",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:28:37-04:00",
+   "subject": "nurbs.b_spline_surface_p1: port SmBSplineSurface part 1",
+   "kind": "altres",
+   "module": "nurbs",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 11,
+   "watch": [
+    "step"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "d008d380028343b0a81b8571eb35b2b5bba8cf70",
+   "short": "d008d3800",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:25:41-04:00",
+   "subject": "plan/STATUS.md: nlib.srf_tool_p4 green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a09e1af022ab8d37089fb484b260f25436e8e6a8",
+   "short": "a09e1af02",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:25:31-04:00",
+   "subject": "status: nlib.srf_tool_p4 green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ecef3575ef489815f252b742ad6216184c963e2c",
+   "short": "ecef3575e",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:24:11-04:00",
+   "subject": "port: nlib.srf_tool_p4 (N_SrfRemoveKnotsConstraints, N_MakeSrfsCompatibleUV)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "27f108b59e4a290741ceebbed346717fa4b3bef0",
+   "short": "27f108b59",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:22:13-04:00",
+   "subject": "plan/STATUS.md: nlib.srf_adv_p3 green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "303330d6b994369a545b9601cb0d718bb3ecd78d",
+   "short": "303330d6b",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:21:58-04:00",
+   "subject": "status: nlib.srf_adv_p3 green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bcdf09b97e11373f7feb37fd990a950ea9aefc64",
+   "short": "bcdf09b97",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:20:28-04:00",
+   "subject": "port: nlib.srf_adv_p3 (N_SrfGetGridPtsNormals, N_SrfExtendByParamDist, N_CreateSwungSrf, N_CreateSkinSrf, N_CreateTransSweepSrf)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "83ff59307bd863d5b10a8b0f964a1b856810060f",
+   "short": "83ff59307",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:16:09-04:00",
+   "subject": "plan/STATUS.md: nlib.srf_tool_p3 green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c4f11eda5f2ca606e33b91bfe1017591c38301ff",
+   "short": "c4f11eda5",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:16:09-04:00",
+   "subject": "status: nlib.srf_tool_p3 green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7a6512da7e7a5ce73800deee14851e8a19aeed0a",
+   "short": "7a6512da7",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:14:19-04:00",
+   "subject": "port: nlib.srf_tool_p3 (N_SrfRemoveAllKnots, N_SrfJoin, N_MakeSrfsCompatible)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4cd01ba3f1f9a2a407594eb921bb8eb7e5671399",
+   "short": "4cd01ba3f",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:12:45-04:00",
+   "subject": "status: style review batch #9, counts, ready set, resume note",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "90d6ec440a71b53edc731a57d4ab8cdfbad0a822",
+   "short": "90d6ec440",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:09:25-04:00",
+   "subject": "style(nlib.crv_offset): math::max2 for NL_MAX, one sample-count error",
+   "kind": "style",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a75b3a2ab290b1425b6ae890891ca70b89b9fd98",
+   "short": "a75b3a2ab",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:09:25-04:00",
+   "subject": "style(nlib.srf_tool_p2): math::max2 for NL_MAX, SolidError::nlib",
+   "kind": "style",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "72badbe95429860eebd9b57dfa1d1870496bc663",
+   "short": "72badbe95",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:09:25-04:00",
+   "subject": "style(nlib.crv_adv_p2): SolidError::nlib, OP names inlined, boolean constraint test",
+   "kind": "style",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b91c5301add9d4ae35eb480a5ebf04bbd34d6288",
+   "short": "b91c5301a",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:09:25-04:00",
+   "subject": "style(nlib.srf_nurb): SolidError::nlib, import KnotVector",
+   "kind": "style",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "add5e6d05d33edd39add79866f068aff9a2475e5",
+   "short": "add5e6d05",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:09:25-04:00",
+   "subject": "style(nurbs.b_spline_curve_p1): drop sm_err wrapper, dead notify arg, local TO_EUCLID",
+   "kind": "style",
+   "module": "nurbs",
+   "modules": [
+    "difftest",
+    "nurbs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d23ee1ff7a21b864e836ba067bfccc4aaebe43c6",
+   "short": "d23ee1ff7",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:09:25-04:00",
+   "subject": "style(nurbs.nurbs_srf): shared TO_EUCLID, index::oob, NlibCode import",
+   "kind": "style",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3ab1a9f30fb97fce5163d35d957424a02b03b626",
+   "short": "3ab1a9f30",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:06:45-04:00",
+   "subject": "plan/STATUS.md: nlib.crv_approx green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b4182fca9abcf210319d664cad9becbda094e355",
+   "short": "b4182fca9",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:06:15-04:00",
+   "subject": "status: nlib.crv_approx green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b071134a8c6dd3ca43df1afeb3a0b328a9ddf9d5",
+   "short": "b071134a8",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:04:31-04:00",
+   "subject": "port(nlib.crv_approx): NL_CrvApprox (arc control point count, non-rational arc fit, non-rational NURBS approximation)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "564d5493ed0f078b3247d0fff4ceb10e71d3343b",
+   "short": "564d5493e",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:02:59-04:00",
+   "subject": "plan/STATUS.md: nurbs.nurbs_srf green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "381736724910a161c670a5077b811ace12685c38",
+   "short": "381736724",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:02:47-04:00",
+   "subject": "plan/STATUS.md: nlib.crv_offset green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "626e6707675b9e89ae8459eb325380593eeac7a0",
+   "short": "626e67076",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:02:41-04:00",
+   "subject": "status: nurbs.nurbs_srf green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4775961fd2a3bcfb30bbcf4e0eeab1a8f5fa2547",
+   "short": "4775961fd",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:02:35-04:00",
+   "subject": "status: nlib.crv_offset green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e4acd48d3700cc2f5b817b0d8ddb0aab182de480",
+   "short": "e4acd48d3",
+   "author": "bherbruck",
+   "date": "2026-10-12T19:00:34-04:00",
+   "subject": "port: nurbs.nurbs_srf (SmNurbsSrf: net/surface chord heights and angles, alloc/copy, Bezier decomposition, split, degenerate test)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2e0d65df7c6a4d3df2dca8be7e69abf7c3086016",
+   "short": "2e0d65df7",
+   "author": "bherbruck",
+   "date": "2026-10-12T18:59:53-04:00",
+   "subject": "port(nlib.crv_offset): N_CrvOffsetPtSampling (planar curve offset by point sampling)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8fb33507a032d78e5ad3395d22149dd6bc1d7969",
+   "short": "8fb33507a",
+   "author": "bherbruck",
+   "date": "2026-10-12T18:59:39-04:00",
+   "subject": "plan/STATUS.md: nlib.srf_tool_p2 green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ea614c1a0f12fcf0129d9fb4573c03d5e4d0e9e7",
+   "short": "ea614c1a0",
+   "author": "bherbruck",
+   "date": "2026-10-12T18:59:22-04:00",
+   "subject": "status: nlib.srf_tool_p2 green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "086f8c71c3466cdb2a0760da916e555911512c12",
+   "short": "086f8c71c",
+   "author": "bherbruck",
+   "date": "2026-10-12T18:57:29-04:00",
+   "subject": "port: nlib.srf_tool_p2 (N_SrfRemoveKnotConditional, N_SrfRemoveOneKnot, N_SrfElevateDegree)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f4a7152a95350243ef2dfca5543badd9aabeb6a7",
+   "short": "f4a7152a9",
+   "author": "bherbruck",
+   "date": "2026-10-12T18:46:56-04:00",
+   "subject": "plan/STATUS.md: nlib.crv_adv_p2 green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a9709e6253a8595e9d49e9bcd97e9689dfc3ce99",
+   "short": "a9709e625",
+   "author": "bherbruck",
+   "date": "2026-10-12T18:46:41-04:00",
+   "subject": "status: nlib.crv_adv_p2 green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "76a9a2dc79fa11a4e0f865e4158185b107c73304",
+   "short": "76a9a2dc7",
+   "author": "bherbruck",
+   "date": "2026-10-12T18:45:25-04:00",
+   "subject": "port(nlib.crv_adv_p2): NL_CrvAdv part 2 (extension entry points, offset bound, unbounded eval, constrained knot removal, symbolic operators, reparametrisations)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 10,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "17b6db39b5965ae599725de64f95c57642a6a5f6",
+   "short": "17b6db39b",
+   "author": "bherbruck",
+   "date": "2026-10-12T18:43:48-04:00",
+   "subject": "plan/STATUS.md: nlib.srf_nurb green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1a597f2dacd11f2bc8db3b95762bf69ac6c29922",
+   "short": "1a597f2da",
+   "author": "bherbruck",
+   "date": "2026-10-12T18:43:32-04:00",
+   "subject": "status: nlib.srf_nurb green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "795d71f56fc9ccca40066118905c9476b79d5dde",
+   "short": "795d71f56",
+   "author": "bherbruck",
+   "date": "2026-10-12T18:42:14-04:00",
+   "subject": "port: nlib.srf_nurb (NL_SrfNurb: basis derivs, eval, derivs, normals/poles, bbox, transforms, reverse, type, reparam, closed smooth, elliptic cone)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d6a075c115d771c1b45fe62a2cd0174fc0299a6e",
+   "short": "d6a075c11",
+   "author": "bherbruck",
+   "date": "2026-10-12T18:36:47-04:00",
+   "subject": "plan/STATUS.md: nurbs.b_spline_curve_p1 partial",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "df91cccf46db0db22c017ff8b1a3659b701dba25",
+   "short": "df91cccf4",
+   "author": "bherbruck",
+   "date": "2026-10-12T18:36:31-04:00",
+   "subject": "findings: nurbs.b_spline_curve_p1",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fcfca298d402626c050d0ac264d74fda1da946f8",
+   "short": "fcfca298d",
+   "author": "bherbruck",
+   "date": "2026-10-12T18:36:02-04:00",
+   "subject": "status: nurbs.b_spline_curve_p1 partial",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "654c77c97b102106803014261c677b0e502e250a",
+   "short": "654c77c97",
+   "author": "bherbruck",
+   "date": "2026-10-12T18:34:46-04:00",
+   "subject": "port(nurbs.b_spline_curve_p1): SmBSplineCurve part 1 (construction, factories, evaluation, edits, queries)",
+   "kind": "port",
+   "module": "nurbs",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3c02e52404a09c922113cc26b26956131b7c9745",
+   "short": "3c02e5240",
+   "author": "bherbruck",
+   "date": "2026-10-12T18:10:28-04:00",
+   "subject": "style(nlib.crv_tool_p2): shared nurbs::index helpers, math::max2, SolidError::nlib",
+   "kind": "style",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ad631e4bfde3b2cf752d0ec23df77eb71dfaba17",
+   "short": "ad631e4bf",
+   "author": "bherbruck",
+   "date": "2026-10-12T18:09:37-04:00",
+   "subject": "style(nlib.crv_geom): shared nurbs::index helpers, SolidError::nlib, one subdivision stack",
+   "kind": "style",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c3435d95286d53344335d91bb5947ff7b7a7d903",
+   "short": "c3435d952",
+   "author": "bherbruck",
+   "date": "2026-10-12T18:09:31-04:00",
+   "subject": "plan/STATUS.md: nlib.srf_common green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "db5f138cf398d29ba4a131a8cc823365a99d0326",
+   "short": "db5f138cf",
+   "author": "bherbruck",
+   "date": "2026-10-12T18:09:22-04:00",
+   "subject": "status: nlib.srf_common green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4ad38d036bc4787388d4d48da4caff980185753b",
+   "short": "4ad38d036",
+   "author": "bherbruck",
+   "date": "2026-10-12T18:08:05-04:00",
+   "subject": "port: nlib.srf_common (NL_SrfCommon: corner, extrude, cyl/cone, ruled, revolved surfaces)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f036ab0f3340c2aba8d5d82fb7134b192bfe57b0",
+   "short": "f036ab0f3",
+   "author": "bherbruck",
+   "date": "2026-10-12T18:07:42-04:00",
+   "subject": "plan/STATUS.md: nlib.spiral green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7b605605e9c27a7650112a6f814ce02ff74481ce",
+   "short": "7b605605e",
+   "author": "bherbruck",
+   "date": "2026-10-12T18:07:32-04:00",
+   "subject": "status: nlib.spiral green (2032 cases, 0 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7085c6e076cb23c4622625fc44d59cebd66f36f1",
+   "short": "7085c6e07",
+   "author": "bherbruck",
+   "date": "2026-10-12T18:07:07-04:00",
+   "subject": "plan/STATUS.md: nlib.crv_adv_p1 green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "943ace5dad8c822d327e27c12b3e49f89105791c",
+   "short": "943ace5da",
+   "author": "bherbruck",
+   "date": "2026-10-12T18:06:53-04:00",
+   "subject": "status: nlib.crv_adv_p1 green (2670 difftest cases, 0 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ca8e385809c014a607b87420b60ef424e8160544",
+   "short": "ca8e38580",
+   "author": "bherbruck",
+   "date": "2026-10-12T18:05:28-04:00",
+   "subject": "nlib.spiral: port N_CrvApproxSpiral and NURBS volume allocate/copy",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "71d07adeeb2f7afd98ae33136d3a96d025d88523",
+   "short": "71d07adee",
+   "author": "bherbruck",
+   "date": "2026-10-12T18:05:03-04:00",
+   "subject": "nlib.crv_adv_p1: port NL_CrvAdv part 1 (eval pt/derivs, even spacing, max 2nd deriv, planar offset derivs, ST_curxcdr/ST_curxcrr extensions)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "cd0d233e166f41e4d1a3de84e44a10669f82f654",
+   "short": "cd0d233e1",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:56:01-04:00",
+   "subject": "status: nlib.crv_common green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "29d3256e2a235897de53bd44ccc8941cd84895c9",
+   "short": "29d3256e2",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:54:58-04:00",
+   "subject": "plan/STATUS.md, findings.md: nlib.crv_fit_p3 green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "35d1609f0aa34d61051b909d1c0cf16067746308",
+   "short": "35d1609f0",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:54:00-04:00",
+   "subject": "port: nlib.crv_common (NL_CrvCommon conic arcs, circle weights, ellipses)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7060f9c8b5b8834023c64b6b5aaf1adb6c5fe826",
+   "short": "7060f9c8b",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:53:13-04:00",
+   "subject": "nlib.crv_fit_p3: use shared nurbs::fit_arrays helpers and SolidError::nlib",
+   "kind": "altres",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "16b2738b6857ec2ace13386c1c7fd02a635ad40e",
+   "short": "16b2738b6",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:52:30-04:00",
+   "subject": "status: nlib.crv_fit_p3 green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4a442132589c3375cb9ddd063e27a076bd8cd3f0",
+   "short": "4a4421325",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:52:18-04:00",
+   "subject": "plan/STATUS.md: nurbs.nurbs_crv green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "16f9ebeacf605ec6f066361286e394ab70f8d0f2",
+   "short": "16f9ebeac",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:51:55-04:00",
+   "subject": "status: nurbs.nurbs_crv green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e776fde98c5da0cbafe358fa17d438b259a4db99",
+   "short": "e776fde98",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:51:12-04:00",
+   "subject": "nlib.crv_fit_p3: port curve fitting part 3 (NL_CrvFit.cpp)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "dc88e0aa52340d83a4372e447f6ddf5f0cb8c14f",
+   "short": "dc88e0aa5",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:50:34-04:00",
+   "subject": "nurbs.nurbs_crv: port SmNurbsCrv (27 fns), shim, ffi, difftest runner and fixtures",
+   "kind": "altres",
+   "module": "nurbs",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1a04da8ff4e1e04775c99f0e7eccb1375d7718f2",
+   "short": "1a04da8ff",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:48:16-04:00",
+   "subject": "status: style review batch #8, counts, ready set, resume note",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "efaa5a6f68f61130c8384daad84db8cd3bd85cfe",
+   "short": "efaa5a6f6",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:45:58-04:00",
+   "subject": "style(nlib.crv_fit_p2): drop too_many_lines allows the workspace already grants",
+   "kind": "style",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "410aeefc760c6fdfd37ff34b03db2e82c7249924",
+   "short": "410aeefc7",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:45:49-04:00",
+   "subject": "style(geom.point_set, topology.topology): value-returning helpers, shared propagate",
+   "kind": "style",
+   "module": "geom",
+   "modules": [
+    "geom",
+    "topology"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d9a8acf61783d6cb45fb68c4aafb56404db73d1c",
+   "short": "d9a8acf61",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:45:48-04:00",
+   "subject": "plan/STATUS.md: fix line totals",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "436361c34404e337dce9eac2d8ae5671e88f61d3",
+   "short": "436361c34",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:45:41-04:00",
+   "subject": "plan/STATUS.md: nlib.crv_tool_p2 green, nlib.crv_basic promoted to green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "113e913ae6c0cbdf370d01d9d3b51f6b653638a9",
+   "short": "113e913ae",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:45:22-04:00",
+   "subject": "status: nlib.crv_tool_p2 green, nlib.crv_basic promoted to green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b5c2611992395179ecdc4136c580d901936b2cda",
+   "short": "b5c261199",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:45:03-04:00",
+   "subject": "nlib.crv_tool_p2: difftest green after merging nlib.crv_geom",
+   "kind": "altres",
+   "module": "nurbs",
+   "modules": [
+    "difftest",
+    "nurbs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "59a54fe81a61f3a890644257e4ddf32ca437cec7",
+   "short": "59a54fe81",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:44:03-04:00",
+   "subject": "style(nlib.srf_fit, nlib.crv_fit_p2): shared nurbs::fit_arrays, Band struct, inline OP paths",
+   "kind": "style",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9ae847013cd816f1e7a33cdf5605b5d1f491738f",
+   "short": "9ae847013",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:43:59-04:00",
+   "subject": "nlib.crv_tool_p2: shim, ffi, difftest runner and fixtures; wire N_CrvsMakeCompatible into nlib.crv_basic",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b599d5a104ffdb13ea75a1d34a940b4a6867a3d3",
+   "short": "b599d5a10",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:43:55-04:00",
+   "subject": "plan/STATUS.md: nlib.crv_geom green, nlib.crv_nurb promoted to green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "045b680039d0f958f3bb6a4ac46653cbe241efce",
+   "short": "045b68003",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:43:26-04:00",
+   "subject": "status: nlib.crv_geom green (1723 difftest cases, 0 deferred); nlib.crv_nurb promoted to green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "af2a1076c01ff85864072208049c7503c2d8eb6a",
+   "short": "af2a1076c",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:41:48-04:00",
+   "subject": "nlib.crv_geom: port NL_CrvGeom (N_CrvClosestPt, N_CrvArcLength, N_ApproxCrvWithPolyline), shim, ffi, difftest runner and fixtures; wire UNPORTED(nlib.crv_geom) in nlib.crv_nurb",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 11,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c466ec821a988f6f583d2bf8f3b56e2208204b25",
+   "short": "c466ec821",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:40:51-04:00",
+   "subject": "style(nlib.funcs_adv, nlib.crv_nurb): shared nurbs::index helpers, SolidError::nlib, inline OP paths",
+   "kind": "style",
+   "module": "nurbs",
+   "modules": [
+    "kernel",
+    "nurbs"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1efe094856d60f5c438d9ee13707445d6ae46b20",
+   "short": "1efe09485",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:37:41-04:00",
+   "subject": "nlib.crv_tool_p2: port N_CrvRemoveKnots, N_CrvReduceDegree(Once), N_CrvsMakeCompatible*, N_CrvRemoveDegenSegs",
+   "kind": "altres",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "73ec186b51959b572c7a58a8278963960e2dfed6",
+   "short": "73ec186b5",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:36:18-04:00",
+   "subject": "status: topology.topology green (657 difftest cases, 0 deferred); geom.a_object 168 deferred",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c2fe89d3f101d2d3cf4d3ad2d16132303db59b74",
+   "short": "c2fe89d3f",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:34:50-04:00",
+   "subject": "topology.topology: port SmTopology and SmTrackTopologyChanges",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "plan",
+    "topology"
+   ],
+   "files": 14,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ba343e48f89ac5f23347f8e90e9d6a85cbfd66f9",
+   "short": "ba343e48f",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:31:57-04:00",
+   "subject": "plan/STATUS.md: nlib.crv_fit_p2 green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "77e8a85a5178922c7553ac8027527fe31fb1e93b",
+   "short": "77e8a85a5",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:31:57-04:00",
+   "subject": "status: nlib.crv_fit_p2 green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b14d105cd99d0bfc03e2ab6b2be767ea9d3b601e",
+   "short": "b14d105cd",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:30:42-04:00",
+   "subject": "nlib.crv_fit_p2: port curve fitting part 2 (NL_CrvFit.cpp)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a49ebd602f5d15ba7569e5969c452aa43c4f2ad2",
+   "short": "a49ebd602",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:29:27-04:00",
+   "subject": "status: counts after nlib.srf_fit landed (35 green, 5 claimed)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2a85ac274d3e1f268e02aaae95c940e917b12681",
+   "short": "2a85ac274",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:29:03-04:00",
+   "subject": "status: style review batch #7, counts, ready set, resume note",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5f47043a16706dbca23c106e75cd0ba6c0f80888",
+   "short": "5f47043a1",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:28:53-04:00",
+   "subject": "plan/STATUS.md: nlib.srf_fit green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8986add3bfb7d31d5edf5102d18d6e48bf30f7a2",
+   "short": "8986add3b",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:28:53-04:00",
+   "subject": "status: nlib.srf_fit green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b743fa55154a963ebb3add6ca32d921f5e9809fc",
+   "short": "b743fa551",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:27:21-04:00",
+   "subject": "nlib.srf_fit: port surface grid fitting (NL_SrfFit.cpp)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3483de06628e096959f0875456fe005b4aa7c1be",
+   "short": "3483de066",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:27:08-04:00",
+   "subject": "plan/STATUS.md: nlib.crv_nurb partial, nlib.crv_tool_p1 green; findings for nlib.crv_nurb",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2c786e9828a82ee550a091fd6aa9868ad857ae6a",
+   "short": "2c786e982",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:26:34-04:00",
+   "subject": "style(geom.a_object): BooleanOperation enum, shared SM_ERR, simpler checks",
+   "kind": "style",
+   "module": "geom",
+   "modules": [
+    "geom"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "79349bee5f27c4c35a99aa235fb66eb29f57c88d",
+   "short": "79349bee5",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:26:34-04:00",
+   "subject": "style(curve.hermite_curve): mut parameter instead of rebinding, direct dim test",
+   "kind": "style",
+   "module": "curve",
+   "modules": [
+    "curve"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a7be38f7a190924dcbe3b0b1d035990bc1e4ffbf",
+   "short": "a7be38f7a",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:26:33-04:00",
+   "subject": "style(nlib.crv_tool_p1, nlib.crv_fit_p1): inline OP_* operation paths",
+   "kind": "style",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2050550dd5f1b23518419daaf31b940a2a86870e",
+   "short": "2050550dd",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:26:32-04:00",
+   "subject": "status: nlib.crv_nurb partial, nlib.crv_tool_p1 green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0ff1775ef99c6ffd3b5aa16407d67803046ceea4",
+   "short": "0ff1775ef",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:25:18-04:00",
+   "subject": "style(nlib.iges): Entity126 / Entity128 structs instead of 6 / 10 positional args",
+   "kind": "style",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "nurbs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d480cef0e73a893ec1c90205eb417768ec8a9316",
+   "short": "d480cef0e",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:25:18-04:00",
+   "subject": "style(nlib.srf_tool_p1): extract_patch takes a Rectangle, inline OP paths, clearer names",
+   "kind": "style",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "nurbs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "49df3f47ca1e2d7987cf30faefa4211669dde8d0",
+   "short": "49df3f47c",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:24:23-04:00",
+   "subject": "nlib.crv_nurb: port NL_CrvNurb (23 fns), shim, ffi, difftest runner and fixtures",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ff0498dad3a12226ee8e2cd816e6c495484ef33f",
+   "short": "ff0498dad",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:21:16-04:00",
+   "subject": "plan/STATUS.md: nlib.funcs_adv green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d6213563b79bebc3f3ef7de00fa6426b9ad75fc6",
+   "short": "d6213563b",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:21:08-04:00",
+   "subject": "status: nlib.funcs_adv green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "34b7e61025a1fd546aa0ec294e92ca5d7835ec64",
+   "short": "34b7e6102",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:20:41-04:00",
+   "subject": "status: geom.point_set green (2029 difftest cases, 0 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d80b966694ca8f81e228f63b8eab60e90a54b70c",
+   "short": "d80b96669",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:19:49-04:00",
+   "subject": "port: nlib.funcs_adv (NL_FuncsAdv: refine, deriv, function products)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a81230679c804650be22d41e377af812e20a4198",
+   "short": "a81230679",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:19:43-04:00",
+   "subject": "partial: geom.a_object (2040 difftest cases, 1871 pass, 169 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e54c041b9d5faf5eefca19d36573a44a10d416a6",
+   "short": "e54c041b9",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:18:53-04:00",
+   "subject": "geom.point_set: port SmPointSet3d / SmPointSequence (2029 difftest cases, bit-identical)",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d4b543c4972a1773a6c5770aed1a48991d0bec4b",
+   "short": "d4b543c49",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:17:32-04:00",
+   "subject": "plan/STATUS.md: curve.hermite_curve partial",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "213dfa1bdcdf891d4f1b13b7886619c773e889f8",
+   "short": "213dfa1bd",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:17:23-04:00",
+   "subject": "partial: curve.hermite_curve (2131 difftest cases, 2038 pass, 93 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "dce4203e26163ad65bb2d30d906cb1b72532c917",
+   "short": "dce4203e2",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:15:40-04:00",
+   "subject": "curve.hermite_curve: port SmHermiteCurve with shim, ffi, difftest runner and fixtures",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "difftest",
+    "harness",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8bc7e9ea4319a79b70f87ac3657aeaa02e3199a6",
+   "short": "8bc7e9ea4",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:14:44-04:00",
+   "subject": "port: geom.a_object (SmAObject, SmCacheMgr, SmSAGObject, NLI_Math)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "plan"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0791060dce943ae559aa0980b5bcf5d8f4bba67c",
+   "short": "0791060dc",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:12:25-04:00",
+   "subject": "plan/STATUS.md: nlib.crv_fit_p1 green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "27abb2a887fb957ede8234aae6eb384ad5c42467",
+   "short": "27abb2a88",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:12:08-04:00",
+   "subject": "status: nlib.crv_fit_p1 green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "488915fe7c5eff42a05ccc74493a2a044b1a2079",
+   "short": "488915fe7",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:11:01-04:00",
+   "subject": "nlib.crv_fit_p1: port curve fitting part 1 (NL_CrvFit.cpp)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "13d1f7be90d5f33a6b1f03dba998f413aa6c5e9b",
+   "short": "13d1f7be9",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:10:45-04:00",
+   "subject": "status: style review batch #6, counts, ready set, resume note",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c69c3446502c917c0b565475189adc24e3d583c3",
+   "short": "c69c34465",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:08:19-04:00",
+   "subject": "style(nlib.crv_basic): inline OP_* paths, # Errors sections, iterator equals",
+   "kind": "style",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "defd66384c04983076837443d32210ed65d3cdbb",
+   "short": "defd66384",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:08:19-04:00",
+   "subject": "style(geom.tools): pass the sample count to the CurveMaxDistanceBetween stub",
+   "kind": "style",
+   "module": "geom",
+   "modules": [
+    "geom"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f9a220ccdeaf207a099eef7cc080d4c5cc037b3f",
+   "short": "f9a220ccd",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:08:19-04:00",
+   "subject": "style(geom.transform, geom.pseudo_box): shared SM_ERR, drop dead code",
+   "kind": "style",
+   "module": "geom",
+   "modules": [
+    "geom"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d34f96e53d369da8227656aec0fbc819b0b58f97",
+   "short": "d34f96e53",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:08:19-04:00",
+   "subject": "style(geom.solution_array, geom.global_solver): EndClass enum, SolveRequest, shared SM_ERR",
+   "kind": "style",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f92206b818cd50a0dddfe554fdf17c304f85398e",
+   "short": "f92206b81",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:06:59-04:00",
+   "subject": "plan/STATUS.md: nlib.crv_tool_p1 partial",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2f666a046995c0e7d229bb672d7ccdf53d894990",
+   "short": "2f666a046",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:06:45-04:00",
+   "subject": "status: nlib.crv_tool_p1 partial",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "81a9726455ff8b326e34b80e871adf355e01e748",
+   "short": "81a972645",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:05:47-04:00",
+   "subject": "plan/STATUS.md: nlib.srf_tool_p1 green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a1ef5baaa87ac312351a9d578496229547d2cee6",
+   "short": "a1ef5baaa",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:05:34-04:00",
+   "subject": "nlib.crv_tool_p1: port NL_CrvTool knot insertion/refinement/removal, split, extract, Bezier decomposition, degree elevation",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c5ea8e8c321c9b8656837c0d1c5a1d13ca886733",
+   "short": "c5ea8e8c3",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:05:32-04:00",
+   "subject": "status: nlib.srf_tool_p1 green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "49ce4290c51dbdf13a5688330fa46c92b378b04b",
+   "short": "49ce4290c",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:05:08-04:00",
+   "subject": "plan/STATUS.md: nlib.iges green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6f35387b933bc58462825944e8cf91677677791c",
+   "short": "6f35387b9",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:04:57-04:00",
+   "subject": "status: nlib.iges green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "876ccaa13e147e3b827ac747989ab3ee34088877",
+   "short": "876ccaa13",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:04:01-04:00",
+   "subject": "nlib.srf_tool_p1: port N_SrfInsertKnot, N_SrfSplit, N_SrfDecomposeToBez, N_SrfExtractIsoCrv, N_SrfInsertKnots, N_SrfExtractPatch",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b53d33b4d23e3253e9d706924211eb70f6654dc8",
+   "short": "b53d33b4d",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:03:18-04:00",
+   "subject": "nlib.iges: port NL_Iges entity 126/128 import, clamping and knot correction",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e897dd2bd0b7233d98b7305cb627587e429d95e8",
+   "short": "e897dd2bd",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:03:03-04:00",
+   "subject": "plan/STATUS.md: refresh todo count",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b7ac6bf21f8fb48eeacb4acfefdb53982bc30b6c",
+   "short": "b7ac6bf21",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:02:57-04:00",
+   "subject": "status: geom.pseudo_box green; geom.extent3d promoted to green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "64f431694a0e4320098b99273362b57543545e93",
+   "short": "64f431694",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:01:35-04:00",
+   "subject": "partial: geom.global_solver (620 difftest cases, 611 pass, 9 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "80dae9286c89d37bc85d92fa67cf23043503c6cb",
+   "short": "80dae9286",
+   "author": "bherbruck",
+   "date": "2026-10-12T17:01:10-04:00",
+   "subject": "geom::transform: wire EvaluateBoundingBoxSimple to geom::pseudo_box",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "473c89683003d820a93f00b43377cb9df01726a3",
+   "short": "473c89683",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:59:48-04:00",
+   "subject": "geom.global_solver: port SmGlobalSolver (traversal, culling, sorted solutions)",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "cdd524a0f02b63e406abecfd76f6784a21f70bd3",
+   "short": "cdd524a0f",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:57:38-04:00",
+   "subject": "geom::pseudo_box: port SmPseudoBox; wire Extent3d::circumscribe and GetScaledZero(SmPseudoBox)",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "plan"
+   ],
+   "files": 12,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "07a0acc1a4a457b7b2c3f8e07ee957818495f933",
+   "short": "07a0acc1a",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:54:15-04:00",
+   "subject": "partial: geom.transform (3042 difftest cases, 2673 pass, 369 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "19f75c6e3ce1ab269c635eafbb2db5f069f1f423",
+   "short": "19f75c6e3",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:53:10-04:00",
+   "subject": "partial: geom.tools (913 difftest cases, 721 pass, 192 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "98da13a98d53611a20dfb704410ed1168235a1cf",
+   "short": "98da13a98",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:52:11-04:00",
+   "subject": "geom.transform: port SmTransform (4x4 volume transform) with difftest",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c12793fdd5ef7e91402a8ca149573c37c965f5f7",
+   "short": "c12793fdd",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:51:52-04:00",
+   "subject": "geom.tools: port SmTools (point/vertex/coincident-edge/edge/face lookups) with difftest runner",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fdb36841d592ae589bbed72e02f31031f0e6686a",
+   "short": "fdb36841d",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:49:17-04:00",
+   "subject": "plan/STATUS.md: nlib.crv_basic partial",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "cca66edc3d8cae0c1a1dc8e8bb0046d3392a5e89",
+   "short": "cca66edc3",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:48:59-04:00",
+   "subject": "status: nlib.crv_basic partial",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5fcd7f2948fe62635e0909501a2aa4e4e49aaf68",
+   "short": "5fcd7f294",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:47:55-04:00",
+   "subject": "nlib.crv_basic: port NL_CrvBasic curve object and N_CrossBoundDerivCrvNonRatSrf",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9f7ab2d13d06823bb4ca71a454ca3fec6b7a1f0f",
+   "short": "9f7ab2d13",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:46:13-04:00",
+   "subject": "status: style review batch #5, counts, ready set, resume note",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "04daddfd38adf801effaa7352340b2b49fbd9c52",
+   "short": "04daddfd3",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:44:58-04:00",
+   "subject": "style(nlib.funcs_basic, nlib.basis_adv): drop redundant lint allows, plain compact",
+   "kind": "style",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a6553bc5e660eedc198c8cf6192e0293c293405a",
+   "short": "a6553bc5e",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:44:58-04:00",
+   "subject": "style(nlib.bezier): one band-matrix body for elevation/product matrices, shared reduce loops",
+   "kind": "style",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bb65b175c231af27d9902b11e339a2cbe6f545f3",
+   "short": "bb65b175c",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:44:57-04:00",
+   "subject": "style(geom.polar_box, geom.grid, geom.geom_utility_p1): shared SM_ERR, fold repeated branches",
+   "kind": "style",
+   "module": "geom",
+   "modules": [
+    "geom",
+    "kernel"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ed5e30d72155b0c24062773746d385fe708c52d4",
+   "short": "ed5e30d72",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:40:43-04:00",
+   "subject": "plan/STATUS.md: geom.solution_array partial",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "975e908227dbad08890d69c38a35f907ea6ad735",
+   "short": "975e90822",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:40:28-04:00",
+   "subject": "partial: geom.solution_array (810 difftest cases, 754 pass, 56 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "64253f8d5e9b0b08c78d9f25efdd69a02ea89d3d",
+   "short": "64253f8d5",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:39:53-04:00",
+   "subject": "plan/STATUS.md: resume note after geom.geom_utility_p1",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "79637232a7286f9b3c36eb92103177a5bc638159",
+   "short": "79637232a",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:39:42-04:00",
+   "subject": "geom::geom_utility::p1: use the shared geom::tol is_zero / are_same_to_tol",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "geom"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "da2c8a934bb8c72e3c6aad6ddfecb7407c2533b0",
+   "short": "da2c8a934",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:39:35-04:00",
+   "subject": "plan/STATUS.md: geom.geom_utility_p1 green; geom.axis2_placement and geom.geom_utility_p2 promoted to green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "932e5c75f4f0dcd3bafe488a28fa59a5bb838390",
+   "short": "932e5c75f",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:39:34-04:00",
+   "subject": "geom.solution_array: port SmSolutionEnd/SmSolution/SmSolutionArray",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b5be0fd5e6dfd20b309f9ef46d110d99c63ee813",
+   "short": "b5be0fd5e",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:38:11-04:00",
+   "subject": "green: geom.geom_utility_p1 (4185 difftest cases, bit-identical); promote geom.axis2_placement and geom.geom_utility_p2 to green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "76166af132578d939787776a691647005978f803",
+   "short": "76166af13",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:35:58-04:00",
+   "subject": "plan/STATUS.md: geom.grid partial",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3a1f0da55b28659ed7b95bb8d7baafa09104b64d",
+   "short": "3a1f0da55",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:35:46-04:00",
+   "subject": "partial: geom.grid (615 difftest cases, 613 pass, 2 deferred on surface caches)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a5ba357068b35f9acf2c1add3295939a0e9506bf",
+   "short": "a5ba35706",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:34:58-04:00",
+   "subject": "geom.grid: port SmGrid (voxel grid, 3DDDA ray walk) with difftest runner",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b044d202634f3c835e2a267f8d4c879898168b60",
+   "short": "b044d2026",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:34:08-04:00",
+   "subject": "status: style review batch #4, counts, ready set, resume note",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f0af4c1f722ecbada86ee36bc572730dc8d67498",
+   "short": "f0af4c1f7",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:34:08-04:00",
+   "subject": "nurbs::geom: plain intra-doc link in the header (rustdoc -D warnings clean)",
+   "kind": "altres",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9d53dc3fc2c7f85244dc2c5b2f1fc7e22706b8b5",
+   "short": "9d53dc3fc",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:32:37-04:00",
+   "subject": "port: geom.geom_utility_p1 (SmGeomUtility.cpp part 1)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "plan"
+   ],
+   "files": 13,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "efd8b4bd0fd5e527a0a79af24a001fb08a93d319",
+   "short": "efd8b4bd0",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:31:53-04:00",
+   "subject": "green: nlib.basis_adv (1744 difftest cases, bit-identical)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "66b04a36dbd08be9e4224f03a35fa20113103117",
+   "short": "66b04a36d",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:31:48-04:00",
+   "subject": "geom::hash_table, geom::local_solve_nd: # Errors sections on fallible pub fns",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "geom"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f4b3918143a6fdc544bc317886e966637e6ca946",
+   "short": "f4b391814",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:31:48-04:00",
+   "subject": "nurbs::basis_basic: inline operation paths, # Errors sections",
+   "kind": "altres",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "adf1a93bbd01a4b9cedd3cb995fb67c4b82a1206",
+   "short": "adf1a93bb",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:31:03-04:00",
+   "subject": "plan/STATUS.md: nlib.funcs_basic green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b949c21b9df928415600393641895cb8dd417176",
+   "short": "b949c21b9",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:30:54-04:00",
+   "subject": "status: nlib.funcs_basic green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a164be43ba25dbdd64b6e9e469f3cdbe0ff55d42",
+   "short": "a164be43b",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:30:40-04:00",
+   "subject": "geom::local_solve1d: evaluate into IterationValue, merge duplicated branches",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "geom"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a36c661c4fbc8c731f4f7e639f03d716ef24f964",
+   "short": "a36c661c4",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:30:16-04:00",
+   "subject": "nlib.basis_adv: port NL_BasisAdv (knot merging/refinement, basis derivs array)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3f75d7bdaf50948394e7c78f18821b7b43158a8c",
+   "short": "3f75d7bda",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:30:00-04:00",
+   "subject": "nlib.funcs_basic: port NL_FuncsBasic curve/surface functions",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "dc722fdf4fb5de3527b52be4226db856e0711b36",
+   "short": "dc722fdf4",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:29:56-04:00",
+   "subject": "plan/STATUS.md: nlib.bezier green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "55364ae4eca11590680fbb5b3d5f98cf4b0e3c9b",
+   "short": "55364ae4e",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:29:55-04:00",
+   "subject": "green: nlib.bezier (2223 difftest cases, bit-identical, 0 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5843301c025f19f97bcb6f9a164b4e515d74a7b2",
+   "short": "5843301c0",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:29:17-04:00",
+   "subject": "geom::geom_utility::p2: PerspectivePlane/CoplanarEllipse params, inverse_4x4 by minors",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "41f18b3a2fdddc2f18002665759e8f2f3dbc7374",
+   "short": "41f18b3a2",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:28:48-04:00",
+   "subject": "nlib.bezier: adapt to SurfaceIndices after merging main",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "nurbs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4e0d99864f3440a5122ec25a20cfb9028eeaebc0",
+   "short": "4e0d99864",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:28:40-04:00",
+   "subject": "plan/STATUS.md: geom.polar_box green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "690f4b868b48397e46d9d4a39856a5ff94e7c981",
+   "short": "690f4b868",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:28:26-04:00",
+   "subject": "green: geom.polar_box (3030 difftest cases, bit-identical, 0 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7de14fc37af54d3995066c7902fb8fcda6c1a6e5",
+   "short": "7de14fc37",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:27:17-04:00",
+   "subject": "geom.polar_box: port SmPolarBox with shim, ffi, difftest runner and fixtures",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1e1b33bf920b749380946a58f2ebfe53270bdd9b",
+   "short": "1e1b33bf9",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:26:57-04:00",
+   "subject": "nlib.bezier: findings heading",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8671efcb8c5ebf691452be09b2a7a3ad8e8c8623",
+   "short": "8671efcb8",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:26:54-04:00",
+   "subject": "nlib.bezier: port NL_Bezier routines, shim, ffi, difftest runner, fixtures",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d5de25aa6a31f785cd068b2ba78058cea9171574",
+   "short": "d5de25aa6",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:25:02-04:00",
+   "subject": "plan/STATUS.md: geom.local_solve1d green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "28e00864b24d3c23937b9c126b3ba1e625404df5",
+   "short": "28e00864b",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:24:50-04:00",
+   "subject": "green: geom.local_solve1d (3316 difftest cases, bit-identical, 0 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0aadddf707b864f55b844b9c24c3e45e1429dabc",
+   "short": "0aadddf70",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:23:41-04:00",
+   "subject": "status: style review batch #3, counts, ready set, resume note",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "aa24181993f2fb37a4199fffe0b633f7706f4e49",
+   "short": "aa2418199",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:23:04-04:00",
+   "subject": "geom.local_solve1d: port SmLocalSolve1d (Newton/bisection/Brent 1D local solver)",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "51f966ab89386c3b2c14df3f74ce935408581020",
+   "short": "51f966ab8",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:22:34-04:00",
+   "subject": "plan/STATUS.md: geom.local_solve_nd green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9cfa04968c11849f4e2e46cfc9262ac12520749c",
+   "short": "9cfa04968",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:22:22-04:00",
+   "subject": "green: geom.local_solve_nd (3043 difftest cases, bit-identical, 0 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "95ebb8bf3d3e8b4c8e1ca72d093302723e9fc2cc",
+   "short": "95ebb8bf3",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:21:37-04:00",
+   "subject": "nurbs::srf_basic: SurfaceIndices instead of six positional indices",
+   "kind": "altres",
+   "module": "nurbs",
+   "modules": [
+    "difftest",
+    "nurbs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "06a4ddccc854b2a8ae0b647416cc8d422f84bf5a",
+   "short": "06a4ddccc",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:20:58-04:00",
+   "subject": "plan/STATUS.md: geom.object partial",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f43fa44feb0d367b8faead1fb47eb4f7074a64ce",
+   "short": "f43fa44fe",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:20:44-04:00",
+   "subject": "geom.local_solve_nd: port SmLocalSolveNd / ComputeJacobian with difftest",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6615a3a814bc36f436ed66380911bf8e514f8bcd",
+   "short": "6615a3a81",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:20:41-04:00",
+   "subject": "geom.object: replace CO-PORT(geom.object) IsKindOf sites in geom.tree and geom.attribute",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "geom"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e0f1491cf6c58d843523db3889606895c8c84f2f",
+   "short": "e0f1491cf",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:19:57-04:00",
+   "subject": "geom::attribute: named region types, one merge accumulation helper",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "geom"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "82563927062a62e84a0a0304b7bf55d1eb1b8682",
+   "short": "825639270",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:19:51-04:00",
+   "subject": "partial: geom.object (624 difftest cases, 593 pass, 31 deferred on topology units)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2c9cf79558447e3220111622d92c095aa26ad338",
+   "short": "2c9cf7955",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:19:30-04:00",
+   "subject": "geom::axis2_placement: from_to takes two placements",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "586bead457f09f9f17e518cb7bbe5da51c83b328",
+   "short": "586bead45",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:19:06-04:00",
+   "subject": "geom::extent2d/extent3d: reuse Extent1d per-axis evaluate and classify",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "geom"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6c59e2b9051c017aaf332c20b88e0e48f54c43dc",
+   "short": "6c59e2b90",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:18:39-04:00",
+   "subject": "geom::tol: shared SM_IS_ZERO / SM_ARE_SAME predicates",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "geom"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6b803f131d05439345dd2fcfd8d129baa16ebd84",
+   "short": "6b803f131",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:18:32-04:00",
+   "subject": "geom.object: port SmObject, SmTemporaryChangeValue and SmShape with difftest",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "plan"
+   ],
+   "files": 11,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "67016a0529a3ab2668a7687174cbca1d4b66755a",
+   "short": "67016a052",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:17:46-04:00",
+   "subject": "math: shared smos_Max/Min family (max2, min2, max3, min3, max4)",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "geom",
+    "kernel"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bf071391c92669955dbc389b5a162ed8ce669c81",
+   "short": "bf071391c",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:17:35-04:00",
+   "subject": "green: geom.hash_table (619 difftest cases, bit-identical, 0 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d39d67f7ee47ef36049fedc3771ad4797ca5eb98",
+   "short": "d39d67f7e",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:16:53-04:00",
+   "subject": "geom.hash_table: findings and difftest report",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "131b1d3bc255b91b4fe7f4157d182b441347f979",
+   "short": "131b1d3bc",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:16:47-04:00",
+   "subject": "plan/STATUS.md: nlib.basis_basic green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c6f104cb426c2173d7ee912cc961f9a7eee22833",
+   "short": "c6f104cb4",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:16:37-04:00",
+   "subject": "green: nlib.basis_basic (2596 difftest cases, bit-identical)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c92c03e83bd89df4211cfeb16e2f210043b0bf4a",
+   "short": "c92c03e83",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:14:56-04:00",
+   "subject": "nlib.basis_basic: port NL_BasisBasic extrema, derivs, reparam and knot merging",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "286e74e6d4f63ec5632cbb6547be2b3f6276ea8b",
+   "short": "286e74e6d",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:14:55-04:00",
+   "subject": "geom.hash_table: port SmObjsInVoxels (and the SmHashTable members it uses) with shim, ffi, difftest runner and fixtures",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "51d4611df6073c1ac97a952d1d584146661c1994",
+   "short": "51d4611df",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:14:54-04:00",
+   "subject": "plan/STATUS.md: geom.extent2d green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "59bdc049c47f2de3c7a47c931ef4320b93053519",
+   "short": "59bdc049c",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:14:49-04:00",
+   "subject": "partial: geom.geom_utility_p2 (3270 difftest cases, 740 pass, 2530 deferred on geom.geom_utility_p1)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "28eadaa372a99100ea5bf6a7c7bd0a5f4737ee6c",
+   "short": "28eadaa37",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:14:43-04:00",
+   "subject": "green: geom.extent2d (3069 difftest cases, bit-identical, 0 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6146be565f26ae85c3dfc98ff32a7573ed162349",
+   "short": "6146be565",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:13:30-04:00",
+   "subject": "geom.geom_utility_p2: port 16 smgu_* functions (partial: p1 back-edges)",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fe7a74cc7fa19569dbe5124003280ae71ccbf8db",
+   "short": "fe7a74cc7",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:13:26-04:00",
+   "subject": "geom.extent2d: port SmExtent2d with shim, ffi, difftest runner and fixtures",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "plan"
+   ],
+   "files": 14,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b3df6aef99227b20733d788aea8543acb6e1cda9",
+   "short": "b3df6aef9",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:12:48-04:00",
+   "subject": "plan/STATUS.md: nlib.srf_basic green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "801ee16c71a5b1f5c092f37fe56762b150e42c0c",
+   "short": "801ee16c7",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:12:35-04:00",
+   "subject": "green: nlib.srf_basic (3220 difftest cases, bit-identical)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "892b27603be6f03c8ec34e4d83bbb4d637b0fb31",
+   "short": "892b27603",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:12:28-04:00",
+   "subject": "nlib.srf_basic: clippy fixes in runner, findings, report",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4c95dac07866e09745f6e8e5a53fe03f8db86c24",
+   "short": "4c95dac07",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:11:08-04:00",
+   "subject": "nlib.srf_basic: port NL_SURFACE basics (NL_SrfBasic.cpp, N_SrfGetAverageLen)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7220ce876c4210b9802daa771322e416ed1054a4",
+   "short": "7220ce876",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:08:38-04:00",
+   "subject": "plan/STATUS.md: geom.axis2_placement partial; geom.geom_utility_p1 ready",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "39c4d6b2e70be5c19fd20b26dd1f6b2220379def",
+   "short": "39c4d6b2e",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:08:22-04:00",
+   "subject": "partial: geom.axis2_placement (4048 difftest cases, 233 deferred on geom.geom_utility_p1)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "77610afe5721b26122f94c81e6d0c317c63c708d",
+   "short": "77610afe5",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:07:37-04:00",
+   "subject": "geom.axis2_placement: port SmAxis2Placement (partial: AreCoaxial deferred on geom.geom_utility_p1)",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f876e1b6ba715f3c9274417a32f3f2d543effa70",
+   "short": "f876e1b6b",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:06:32-04:00",
+   "subject": "status: style review batch #2, counts, ready set, resume note",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b60d1c081a3793dee6fb3749a7333a36064158db",
+   "short": "b60d1c081",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:05:38-04:00",
+   "subject": "plan/STATUS.md: geom.polynomial green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ef7f3b4057403d7147951f5552523d70535ee053",
+   "short": "ef7f3b405",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:05:26-04:00",
+   "subject": "green: geom.polynomial (6038 difftest cases, bit-identical)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a1846abd4c5740264213c8d8d835c134115dbe81",
+   "short": "a1846abd4",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:05:22-04:00",
+   "subject": "style(nlib.geom): Frame argument for transform_matrix_from_axes, small tidies",
+   "kind": "style",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "nurbs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9a019f1e6657c55904445917e1d10d2f939c1770",
+   "short": "9a019f1e6",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:05:22-04:00",
+   "subject": "style(geom.assert_array): AssertReport equality as one && chain",
+   "kind": "style",
+   "module": "geom",
+   "modules": [
+    "geom"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a625f65c387ec70d34bef82ec9593ebc7c153ff3",
+   "short": "a625f65c3",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:05:22-04:00",
+   "subject": "style(geom.context): direct Context init, per-method error context",
+   "kind": "style",
+   "module": "geom",
+   "modules": [
+    "geom"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "10de4a5fbfabc026c6c7df59ea8235b91bc5c6d4",
+   "short": "10de4a5fb",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:05:22-04:00",
+   "subject": "style(geom.periodic_extent1d): add_interval cases as an enum, reuse set_full",
+   "kind": "style",
+   "module": "geom",
+   "modules": [
+    "geom"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6242a8b37cc6763cb2fc55613badf46aba10c171",
+   "short": "6242a8b37",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:05:01-04:00",
+   "subject": "geom.local_solve_nd: WIP port of SmLocalSolveNd",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "geom",
+    "harness"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e1ba190d9818cbe9c77259b9edda62d3d9192dfc",
+   "short": "e1ba190d9",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:04:37-04:00",
+   "subject": "plan/STATUS.md: geom.attribute partial",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "921a14fb08374e7b405db42f9687e64ca4ed2c4b",
+   "short": "921a14fb0",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:04:25-04:00",
+   "subject": "partial: geom.attribute (2029 difftest cases, 1991 pass, 38 deferred on topology.shell)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "826b8411705bc64f9feefcc66e0d16f49f691403",
+   "short": "826b84117",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:04:13-04:00",
+   "subject": "geom.polynomial: port SmPolynomial quadratic/cubic/quartic solvers",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8aa86054d79f0a657f9b2a1e353dbc8e14002a86",
+   "short": "8aa86054d",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:03:08-04:00",
+   "subject": "geom.attribute: port SmAttribute with difftest",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "plan"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4e0b87d3168099acf6483b25851fa4e1d394cc7d",
+   "short": "4e0b87d31",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:03:07-04:00",
+   "subject": "style(geom.vector3d, geom.matrix, geom.tree): fold vector3d co-ports, tidy helpers",
+   "kind": "style",
+   "module": "geom",
+   "modules": [
+    "geom"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5c21e775171ef420f100888bc148351258d80b44",
+   "short": "5c21e7751",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:02:11-04:00",
+   "subject": "plan/STATUS.md: geom.extent1d green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e7c42f497f7727c929f8913d4355604f840685c0",
+   "short": "e7c42f497",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:01:45-04:00",
+   "subject": "green: geom.extent1d (3091 difftest cases, bit-identical, 0 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2df3222d61963187d6320b6d795e03c5be5a16f1",
+   "short": "2df3222d6",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:01:01-04:00",
+   "subject": "plan/STATUS.md: geom.context green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8daafb7d6b002a7922c9cac2befa8c2c102750df",
+   "short": "8daafb7d6",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:00:50-04:00",
+   "subject": "green: geom.context (2013 difftest cases, bit-identical)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "248bede72b8e3985e68ad4e2c016882af4b948e5",
+   "short": "248bede72",
+   "author": "bherbruck",
+   "date": "2026-10-12T16:00:06-04:00",
+   "subject": "plan/STATUS.md: geom.vector3d green, geom.tol partial -> green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "934ffee8c836a036fdb61b6e93e2ed8880324900",
+   "short": "934ffee8c",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:59:50-04:00",
+   "subject": "geom.extent1d: port SmExtent1d / SmExtentNd",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness"
+   ],
+   "files": 16,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6378ac1bb7a1609307aa7ef1fa003188d74a7ae0",
+   "short": "6378ac1bb",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:59:50-04:00",
+   "subject": "green: geom.vector3d (6114 difftest cases, bit-identical); geom.tol partial -> green (0 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d646586d3003d69a058b7d10c8dbbc5a7e8de02a",
+   "short": "d646586d3",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:59:25-04:00",
+   "subject": "port: geom.context (SmContext, SmNewMarkAndLock, SM_API context)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "kernel",
+    "plan"
+   ],
+   "files": 11,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "30d36073296ac10a30c727206eac7a005a030db9",
+   "short": "30d360732",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:59:04-04:00",
+   "subject": "plan/STATUS.md: nlib.geom green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "367927455db3e4c013899ed683cf341f7b661d58",
+   "short": "367927455",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:58:55-04:00",
+   "subject": "geom.vector3d: port SmVector3d and SmMath sqrt/cbrt/acos/asin",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "kernel"
+   ],
+   "files": 14,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "da459fabd574338750a1eb16ad12369b70544c03",
+   "short": "da459fabd",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:58:45-04:00",
+   "subject": "green: nlib.geom (3173 difftest cases, bit-identical)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5c204c0095fb77b115591340497ec686af7dceed",
+   "short": "5c204c009",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:58:44-04:00",
+   "subject": "plan/findings.md: nlib.geom notes",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e80899798f067e94954ac5b18b7205204e334c53",
+   "short": "e80899798",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:57:47-04:00",
+   "subject": "nlib.geom: port NL_Geom vectors, lines, planes, distances, matrices and NL_FrameBasic bounding boxes",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e5a160bbe1fb9b77d8a55b3cf21fa1a0e6ce15f1",
+   "short": "e5a160bbe",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:57:42-04:00",
+   "subject": "plan/STATUS.md: fix claimed count",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "752c06115e784aec882a1dfc9764023f035e305f",
+   "short": "752c06115",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:57:36-04:00",
+   "subject": "plan/STATUS.md: geom.assert_array green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "819d290834990f4129e560fa153b1c3788e92ec4",
+   "short": "819d29083",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:57:31-04:00",
+   "subject": "plan/STATUS.md: geom.matrix green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7f6e97fdb1eca9a63df22513cdabc4290168e286",
+   "short": "7f6e97fdb",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:57:31-04:00",
+   "subject": "green: geom.matrix (4044 difftest cases, bit-identical, 0 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "510ac858e6f0e869329bb091bef0e718723fa14a",
+   "short": "510ac858e",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:57:26-04:00",
+   "subject": "green: geom.assert_array (3734 difftest cases, 0 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3610288029dc5a7fdd02d84c4de877ac6724efd6",
+   "short": "361028802",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:56:53-04:00",
+   "subject": "geom.assert_array: port SmAssertReport, SmAssertArray, SM_GetAssertLabelList and label tables",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2a4351812acbd44d139ebacd19aa0a9c975ede0c",
+   "short": "2a4351812",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:56:43-04:00",
+   "subject": "geom.matrix: port SmMatrix (LU, linear solve, Jacobi eigen solver) with difftest",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b2d70532dc972408caa14fd3a7bb4369cea0d61f",
+   "short": "b2d70532d",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:54:35-04:00",
+   "subject": "plan/STATUS.md: geom.periodic_extent1d green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "da05bfab60d9cf4db60ab6077e12b1baba71359e",
+   "short": "da05bfab6",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:54:26-04:00",
+   "subject": "green: geom.periodic_extent1d (4054 difftest cases, 0 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "95b385f49ff77d6324b56be11d045c96cbe34720",
+   "short": "95b385f49",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:54:09-04:00",
+   "subject": "findings: spacing",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0e3ce99e0dd2ab11fca5257e76804515511f1cfa",
+   "short": "0e3ce99e0",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:54:08-04:00",
+   "subject": "status: style review batch #1, counts, ready set, resume note",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "55cb694617701ac7a1c140edb644f43490eead8f",
+   "short": "55cb69461",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:53:56-04:00",
+   "subject": "findings: geom.periodic_extent1d heading",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "332d00cbc14d6e68c1047a46ec1afd58bd8c6844",
+   "short": "332d00cbc",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:53:54-04:00",
+   "subject": "port: geom.periodic_extent1d (SmPeriodicExtent1d)",
+   "kind": "port",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "04bec50a25c61413ae69bb2dcec7fcd5af4ccdc4",
+   "short": "04bec50a2",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:53:29-04:00",
+   "subject": "style(geom.extent3d, geom.tol, topology.database_io): readability and error context",
+   "kind": "style",
+   "module": "geom",
+   "modules": [
+    "geom",
+    "topology"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9adc9490a547c906b0c4b86b73fbe487644c2eef",
+   "short": "9adc9490a",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:52:36-04:00",
+   "subject": "style(geom.tree): neighbour searches return Vec, share one direction-generic body, guard cyclic links",
+   "kind": "style",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9aaa970b3970e2c45523445d26506b249438b279",
+   "short": "9aaa970b3",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:48:09-04:00",
+   "subject": "partial: geom.tree (618 difftest cases, 611 bit-identical, 7 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "365310e50586cd2225a7612c7e16c5658eeb70c3",
+   "short": "365310e50",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:47:38-04:00",
+   "subject": "plan/STATUS.md: geom.tol partial",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f4141ed5ebf380a9b76816d29f9444a04f192343",
+   "short": "f4141ed5e",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:47:31-04:00",
+   "subject": "partial: geom.tol (3430 difftest cases, 3209 bit-identical, 221 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e8202ea6989287dc715ae3fa346b8bf7a39a2a07",
+   "short": "e8202ea69",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:47:29-04:00",
+   "subject": "geom.tree: port SmTree (spatial trees, subdivision node relations) with difftest runner",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d0a1b4cdc19276296e33ee95534a0c41d6393f14",
+   "short": "d0a1b4cdc",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:47:00-04:00",
+   "subject": "geom.tol: port SmTol / SmRelation (geom::tol) with difftest runner",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "plan"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f47fb73acc7c0c4bbc58add6e52f1a6bbe87c95c",
+   "short": "f47fb73ac",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:46:41-04:00",
+   "subject": "plan/STATUS.md: nlib.math green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6419da748664216e708fe0d289c82837db4d7c91",
+   "short": "6419da748",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:46:41-04:00",
+   "subject": "green: nlib.math (3076 difftest cases, bit-identical)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5b87c406200002522e115c61b368ffb5943c99cd",
+   "short": "5b87c4062",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:46:03-04:00",
+   "subject": "nlib.math: port NL_Math, NL_SrfPoly and NL_Util arithmetic and matrix routines",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7893507575160e397be77c6123c2eeac273e9845",
+   "short": "789350757",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:39:04-04:00",
+   "subject": "shim(topology.database_io): bound word extraction with setw",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness"
+   ],
+   "files": 1,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "1b3099f5baa32dec7ebdaba20f5d8edcefcc8b12",
+   "short": "1b3099f5b",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:38:17-04:00",
+   "subject": "plan/STATUS.md: topology.database_io green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "867b8ff37137c8b9f78fc1a4cd30441e508bede8",
+   "short": "867b8ff37",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:38:09-04:00",
+   "subject": "green: topology.database_io (2059 difftest cases, 0 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "01980599e3cf786486d9f17c9035e52b129a01cb",
+   "short": "01980599e",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:37:40-04:00",
+   "subject": "topology.database_io: port SmDatabaseIO read side with difftest",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "difftest",
+    "harness",
+    "plan",
+    "topology"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3d121c50e58f6f8ed20e8e1eddd41e6c9e607b31",
+   "short": "3d121c50e",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:33:14-04:00",
+   "subject": "partial: geom.extent3d (3086 difftest cases, 3080 bit-identical, 6 deferred)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1fcbd26d2221d160c85a546a49487abdced9835d",
+   "short": "1fcbd26d2",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:33:07-04:00",
+   "subject": "geom.extent3d: CO-PORT markers and findings",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "geom",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8e2992b6835fe4d857c76fb46a7b339dfcbe8e51",
+   "short": "8e2992b68",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:32:31-04:00",
+   "subject": "geom.extent3d: port SmExtent3d (Extent3d) with difftest runner",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "kernel"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "87ca2bbdaea37b3865a1a5b6f86aeb447579f31a",
+   "short": "87ca2bbda",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:29:54-04:00",
+   "subject": "plan/STATUS.md: geom.vector2d green",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bc9c66bc498c4f08221d1420df68694ac69901ef",
+   "short": "bc9c66bc4",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:29:44-04:00",
+   "subject": "green: geom.vector2d (4060 difftest cases, bit-identical)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "34de6d49f1e018e4ab939139b653d9ee9cc546bb",
+   "short": "34de6d49f",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:29:32-04:00",
+   "subject": "geom.vector2d: port SmVector2d (Vec2) with difftest runner",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "difftest",
+    "geom",
+    "harness",
+    "kernel",
+    "plan"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "65becda5c50da134ddf5135c8f151a08c833b18e",
+   "short": "65becda5c",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:14:04-04:00",
+   "subject": "difftest: deferred cases and partial units; SolidError::Unported; full --perturb",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "kernel",
+    "plan"
+   ],
+   "files": 13,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "572be0182b338b4fa609baaf3ca5692c10d680ab",
+   "short": "572be0182",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:09:20-04:00",
+   "subject": "AGENTS.md: back-edge/partial policy, merge lock, exact comparison rule",
+   "kind": "altres",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c26a9123940e9a477153674b2f3004593fe37ee6",
+   "short": "c26a91239",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:07:43-04:00",
+   "subject": "Wave 0 verification: README wording, STATUS verification table and open issues",
+   "kind": "altres",
+   "module": "docs",
+   "modules": [
+    "docs",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3b4de79180920057e781d4970f1a64bfe6642f5e",
+   "short": "3b4de7918",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:05:13-04:00",
+   "subject": "plan/STATUS.md: Wave 0 summary, baseline, green units, Wave 1 ready set",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0b7f8bd8bfd019907b62a93cf52fea8cbfe0a5f3",
+   "short": "0b7f8bd8b",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:04:47-04:00",
+   "subject": "plan/findings.md: Wave 0 findings (nlib.knots upstream behaviour, hazards)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a74a8d4399f7243812ef56518d6aaf7e9b51e327",
+   "short": "a74a8d439",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:04:26-04:00",
+   "subject": "green: nlib.knots (2953 difftest cases, bit-identical)",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "248758e73bd02d74f89cb8bb83553124c39a5196",
+   "short": "248758e73",
+   "author": "bherbruck",
+   "date": "2026-10-12T15:04:14-04:00",
+   "subject": "nlib.knots: port NL_BasisBasic knot-vector and basis routines",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "harness",
+    "kernel",
+    "nurbs"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "89fb7b4e1687b53e64773f5055038efa2641829b",
+   "short": "89fb7b4e1",
+   "author": "bherbruck",
+   "date": "2026-10-12T14:52:17-04:00",
+   "subject": "docs: difftest takes --unit <id>, not a positional unit id",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a90b66e91d4ee961fdfa667680502cdcb4c743e4",
+   "short": "a90b66e91",
+   "author": "bherbruck",
+   "date": "2026-10-12T14:49:09-04:00",
+   "subject": "Call graph, in-scope closure and port plan (260 units, 65 layers)",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness",
+    "plan"
+   ],
+   "files": 15,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "20f05db09eac8b1c1048749eca0efbeff1611f78",
+   "short": "20f05db09",
+   "author": "bherbruck",
+   "date": "2026-10-12T14:39:07-04:00",
+   "subject": "difftest: C++ vs Rust comparison harness, solidcore-ffi shim build, harness.selftest",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "altres",
+    "difftest",
+    "harness"
+   ],
+   "files": 25,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "f8ceb54f5ebeae3c1b8a38f25ca2a4353a49c24f",
+   "short": "f8ceb54f5",
+   "author": "bherbruck",
+   "date": "2026-10-12T14:36:14-04:00",
+   "subject": "harness/cpp: per-test SM_API driver; plan/baseline.md C++ baseline",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness",
+    "plan"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b817634040372349c54de436489b54e43401f167",
+   "short": "b81763404",
+   "author": "bherbruck",
+   "date": "2026-10-12T14:35:15-04:00",
+   "subject": "Repo scaffolding: licence, docs, lints, CI, solidcore skeleton",
+   "kind": "altres",
+   "module": "altres",
+   "modules": [
+    "altres",
+    "blend",
+    "boolean",
+    "ci",
+    "curve",
+    "docs",
+    "heal",
+    "intersect",
+    "kernel",
+    "mass",
+    "nurbs",
+    "offset",
+    "primitive",
+    "query",
+    "surface",
+    "sweep",
+    "topology"
+   ],
+   "files": 30,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "5c01824151f84c5dcc7436eab5b0c9838b0b21f0",
+   "short": "5c0182415",
+   "author": "bherbruck",
+   "date": "2026-10-12T14:32:04-04:00",
+   "subject": "harness/cpp: CMake build of upstream SMLib/SM_API reference kernel",
+   "kind": "altres",
+   "module": "harness",
+   "modules": [
+    "harness"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f7e0d8e1db0e60f76a63ce931238667600d78c32",
+   "short": "f7e0d8e1d",
+   "author": "bherbruck",
+   "date": "2026-10-12T14:26:23-04:00",
+   "subject": "Workspace skeleton and modules.toml schema",
+   "kind": "altres",
+   "module": "altres",
+   "modules": [
+    "altres",
+    "difftest",
+    "harness",
+    "kernel",
+    "plan"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3aacf620e1f4fb4d1537faad4840f67288d33cad",
+   "short": "3aacf620e",
+   "author": "bherbruck",
+   "date": "2026-10-12T14:26:02-04:00",
+   "subject": "Initial commit: gitignore",
+   "kind": "altres",
+   "module": "altres",
+   "modules": [
+    "altres"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  }
+ ],
+ "prs": [],
+ "watch": [
+  {
+   "id": "setback",
+   "label": "Cantonades setback",
+   "cases": [
+    "C05",
+    "D01",
+    "D02"
+   ],
+   "hits": []
+  },
+  {
+   "id": "mixed-corner",
+   "label": "Cantonades mixtes",
+   "cases": [
+    "D01",
+    "D02"
+   ],
+   "hits": []
+  },
+  {
+   "id": "ball-patch",
+   "label": "Ball patch (cantonades esfèriques)",
+   "cases": [
+    "C05",
+    "D11"
+   ],
+   "hits": []
+  },
+  {
+   "id": "variable-radius",
+   "label": "Radi variable / lleis de radi",
+   "cases": [
+    "D07"
+   ],
+   "hits": []
+  },
+  {
+   "id": "round-larger-than-wall",
+   "label": "Arrodoniment més gran que la paret",
+   "cases": [
+    "D03",
+    "D08"
+   ],
+   "hits": []
+  },
+  {
+   "id": "shell-rounded",
+   "label": "Buidat de cossos arrodonits",
+   "cases": [
+    "D11",
+    "D14"
+   ],
+   "hits": []
+  },
+  {
+   "id": "hang-cancel",
+   "label": "Penjaments, temps límit i cancel·lació",
+   "cases": [
+    "C03",
+    "D02",
+    "D11"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "76a9a2dc7",
+     "text": "port(nlib.crv_adv_p2): NL_CrvAdv part 2 (extension entry points, offset bound, unbounded eval, constrained knot removal, symbolic operators, reparametrisations)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/76a9a2dc79fa11a4e0f865e4158185b107c73304"
+    },
+    {
+     "source": "commit",
+     "ref": "789350757",
+     "text": "shim(topology.database_io): bound word extraction with setw",
+     "url": "https://github.com/tangency-labs/solidcore/commit/7893507575160e397be77c6123c2eeac273e9845",
+     "matched": "fails), so the unbounded >> into a word_cap+2 buffer could overflow if the"
+    }
+   ]
+  },
+  {
+   "id": "corner-blend",
+   "label": "Corner blend (CreateCornerBlend / Coons)",
+   "cases": [
+    "C05",
+    "D02"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "5b12e62ee",
+     "text": "port: nlib.srf_adv_p4 (Coons surfaces, cross-boundary derivatives, knot merge)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/5b12e62ee53ed91f5a8e2f9e8ca51d2af0b06a10"
+    }
+   ]
+  },
+  {
+   "id": "chamfer",
+   "label": "Xamfrans",
+   "cases": [],
+   "hits": []
+  },
+  {
+   "id": "loft-skin",
+   "label": "Loft / skin (superfícies B-spline arrodonides)",
+   "cases": [
+    "D14"
+   ],
+   "hits": []
+  },
+  {
+   "id": "step",
+   "label": "STEP (import / export)",
+   "cases": [
+    "anada i tornada STEP"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "eb3a9a088",
+     "text": "nurbs.b_spline_surface_p1: port SmBSplineSurface part 1",
+     "url": "https://github.com/tangency-labs/solidcore/commit/eb3a9a08822df069c1fe9b6e9be154d9343e710d",
+     "matched": "domain and Greville queries, bounding boxes, parallelism, transform, STEP"
+    }
+   ]
+  },
+  {
+   "id": "platform",
+   "label": "Plataformes (wasm, iOS, ARM)",
+   "cases": [
+    "iPad"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "20f05db09",
+     "text": "difftest: C++ vs Rust comparison harness, solidcore-ffi shim build, harness.selftest",
+     "url": "https://github.com/tangency-labs/solidcore/commit/20f05db09eac8b1c1048749eca0efbeff1611f78",
+     "matched": "(feature cpp; empty crate otherwise, builds for wasm32). Per-unit safe"
+    },
+    {
+     "source": "commit",
+     "ref": "b81763404",
+     "text": "Repo scaffolding: licence, docs, lints, CI, solidcore skeleton",
+     "url": "https://github.com/tangency-labs/solidcore/commit/b817634040372349c54de436489b54e43401f167",
+     "matched": "- CI: fmt, clippy, test, wasm check, cargo-deny, difftest of green units"
+    }
+   ]
+  },
+  {
+   "id": "determinism",
+   "label": "Determinisme",
+   "cases": [
+    "resultats idèntics Mac/iPad"
+   ],
+   "hits": []
+  },
+  {
+   "id": "upstream-fixes",
+   "label": "Flags d'UpstreamFixes",
+   "cases": [
+    "configuració del kernel a l'app"
+   ],
+   "hits": []
+  },
+  {
+   "id": "seam",
+   "label": "Costures (seam) i arestes partides",
+   "cases": [
+    "lliçó: no triar arestes en costures"
+   ],
+   "hits": []
+  }
+ ],
+ "units": {
+  "total": 0,
+  "counts": {},
+  "status_changes": [],
+  "notes_updated": [],
+  "not_green": []
+ },
+ "upstream_issues": {
+  "total": 0,
+  "counts": {
+   "WR": 0,
+   "UB": 0,
+   "HANG": 0,
+   "ND": 0,
+   "DOC": 0,
+   "FAIL": 0,
+   "ISSUE": 0
+  },
+  "new": [],
+  "removed": [],
+  "retitled": [],
+  "new_addenda": []
+ },
+ "findings": {
+  "total": 0,
+  "new": []
+ },
+ "solidcraft": {
+  "total": 0,
+  "counts": {},
+  "changes": [],
+  "new": [],
+  "failing": []
+ },
+ "upstream_fixes": {
+  "total": 0,
+  "new": [],
+  "removed": [],
+  "fillet_total": 0
+ },
+ "gates": {
+  "waivers_before": 0,
+  "waivers_after": 0,
+  "known_mismatches": 0,
+  "mismatches_new": [],
+  "mismatches_removed": []
+ },
+ "pin": {
+  "version": null,
+  "commit": "",
+  "changed": false,
+  "before_version": null
+ },
+ "status_md_changed": false,
+ "tags": [],
+ "github": {
+  "ok": true,
+  "issues_opened": [],
+  "issues_closed": [],
+  "prs_opened": [],
+  "prs_closed_unmerged": [],
+  "open_issues": 119,
+  "open_prs": 81
+ },
+ "releases": {
+  "ok": true,
+  "crates_io": {
+   "max_version": "1.0.1",
+   "new_versions": []
+  },
+  "upstream": [],
+  "upstream_latest": "v1.0.1"
+ }
+}
