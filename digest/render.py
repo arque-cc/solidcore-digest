@@ -65,7 +65,9 @@ def render_markdown(d: dict) -> str:
     L: list[str] = []
     L.append(f"# SolidCore, {d['day']}")
     L.append("")
-    L.append(f"Estat de `main` de [`{d['window']['start_sha'][:9]}`]({REPO_URL}/commit/{d['window']['start_sha']}) "
+    start = d["window"]["start_sha"]
+    start_txt = f"[`{start[:9]}`]({REPO_URL}/commit/{start})" if start else "l'inici del repositori"
+    L.append(f"Estat de `main` de {start_txt} "
              f"a [`{d['window']['end_sha'][:9]}`]({REPO_URL}/commit/{d['window']['end_sha']}) "
              f"(dia UTC). Generat {d['generated_at']}.")
     L.append("")

@@ -6,6 +6,7 @@ Tot passa per la línia d'ordres de git (subprocess). No hi ha cap dependència 
 from __future__ import annotations
 
 import re
+import shutil
 import subprocess
 from dataclasses import dataclass, field
 from datetime import date, datetime, timedelta, timezone
@@ -33,7 +34,7 @@ class Window:
     day: date
     start: datetime
     end: datetime
-    start_sha: str
+    start_sha: str | None  # None el primer dia de l'historial: no hi ha estat anterior
     end_sha: str
 
 
@@ -46,9 +47,9 @@ def day_window(repo: Path, day: date, branch: str = "main") -> Window:
                     f"--until={(start - timedelta(seconds=1)).isoformat()}", branch).strip()
     end_sha = git(repo, "rev-list", "-1", "--first-parent",
                   f"--until={(end - timedelta(seconds=1)).isoformat()}", branch).strip()
-    if not start_sha or not end_sha:
-        raise SystemExit(f"No hi ha commits a {branch} abans de {day}")
-    return Window(day, start, end, start_sha, end_sha)
+    if not end_sha:
+        raise SystemExit(f"No hi ha commits a {branch} fins a {day}: el repositori comença més tard")
+    return Window(day, start, end, start_sha or None, end_sha)
 
 
 @dataclass
@@ -74,7 +75,7 @@ class Commit:
 _FMT = "%x01%H%x02%P%x02%an%x02%cI%x02%s%x02%b%x03"
 
 
-def commits_between(repo: Path, start_sha: str, end_sha: str) -> list[Commit]:
+def commits_between(repo: Path, start_sha: str | None, end_sha: str) -> list[Commit]:
     """Tots els commits que van entrar a main entre els dos estats, amb els fitxers tocats.
 
     Per què --name-only --no-renames i no --numstat: per comptar línies git ha de llegir
@@ -82,7 +83,8 @@ def commits_between(repo: Path, start_sha: str, end_sha: str) -> list[Commit]:
     (minuts per dia). Per saber quins fitxers canvien n'hi ha prou amb comparar els
     arbres, que ja són locals: dècimes de segon. Els merges no porten llista de fitxers,
     cosa que ja ens va bé: els seus canvis ja compten als commits fills."""
-    raw = git(repo, "log", f"--format={_FMT}", "--name-only", "--no-renames", f"{start_sha}..{end_sha}")
+    rng = f"{start_sha}..{end_sha}" if start_sha else end_sha  # sense inici: tot l'historial fins a end
+    raw = git(repo, "log", f"--format={_FMT}", "--name-only", "--no-renames", rng)
     commits: list[Commit] = []
     for rec in raw.split("\x01")[1:]:
         head, _, tail = rec.partition("\x03")
@@ -147,14 +149,21 @@ def tags_in_window(repo: Path, w: Window) -> list[tuple[str, str]]:
     return found
 
 
-def worktree(repo: Path, sha: str, dest: Path) -> None:
+def worktree(repo: Path, sha: str | None, dest: Path) -> None:
     """Deixa a `dest` els fitxers del repositori tal com eren a `sha`.
-    Amb un clon --filter=blob:none, git baixa els blobs que falten en un sol lot."""
-    if dest.exists():
-        git(repo, "worktree", "remove", "--force", str(dest))
+    Amb un clon --filter=blob:none, git baixa els blobs que falten en un sol lot.
+    Sense `sha` (abans del primer commit) el directori queda buit: tot és "nou"."""
+    remove_worktree(repo, dest)
+    if sha is None:
+        dest.mkdir(parents=True, exist_ok=True)
+        return
     git(repo, "worktree", "add", "--detach", str(dest), sha)
 
 
 def remove_worktree(repo: Path, dest: Path) -> None:
-    if dest.exists():
+    if not dest.exists():
+        return
+    try:
         git(repo, "worktree", "remove", "--force", str(dest))
+    except subprocess.CalledProcessError:
+        shutil.rmtree(dest, ignore_errors=True)  # no era un worktree (directori buit)
