@@ -1,0 +1,5146 @@
+{
+ "day": "2026-11-05",
+ "generated_at": "2026-11-06T13:11:26+00:00",
+ "window": {
+  "start": "2026-11-05T00:00:00+00:00",
+  "end": "2026-11-06T00:00:00+00:00",
+  "start_sha": "ab5b3dbbcdf80d1714d3184a30ec550922cff1dc",
+  "end_sha": "40ce13c5dad9436686c14bc3be170d7bef64b3ce"
+ },
+ "summary": {
+  "commits": 181,
+  "merges": 56,
+  "claims": 19,
+  "prs_merged": 42,
+  "authors": 11,
+  "top_authors": [
+   [
+    "jyviko",
+    90
+   ],
+   [
+    "Thijs Damsma",
+    24
+   ],
+   [
+    "Markus Reichart",
+    23
+   ],
+   [
+    "Alex Lytvynenko",
+    12
+   ],
+   [
+    "aapolipponen",
+    12
+   ],
+   [
+    "chris",
+    10
+   ],
+   [
+    "Federico Dal Maso",
+    5
+   ],
+   [
+    "AlexMitchellMus",
+    2
+   ]
+  ],
+  "ai_coauthored": 150,
+  "files_touched": 955
+ },
+ "by_module": {
+  "geom": {
+   "commits": 2,
+   "files": 2
+  },
+  "nurbs": {
+   "commits": 2,
+   "files": 2
+  },
+  "curve": {
+   "commits": 4,
+   "files": 17
+  },
+  "surface": {
+   "commits": 7,
+   "files": 81
+  },
+  "topology": {
+   "commits": 1,
+   "files": 2
+  },
+  "intersect": {
+   "commits": 1,
+   "files": 2
+  },
+  "primitive": {
+   "commits": 1,
+   "files": 2
+  },
+  "query": {
+   "commits": 1,
+   "files": 1
+  },
+  "heal": {
+   "commits": 4,
+   "files": 5
+  },
+  "offset": {
+   "commits": 4,
+   "files": 26
+  },
+  "blend": {
+   "commits": 11,
+   "files": 33
+  },
+  "kernel": {
+   "commits": 3,
+   "files": 4
+  },
+  "tests": {
+   "commits": 29,
+   "files": 106
+  },
+  "difftest": {
+   "commits": 16,
+   "files": 133
+  },
+  "eines": {
+   "commits": 17,
+   "files": 32
+  },
+  "plan": {
+   "commits": 8,
+   "files": 20
+  },
+  "docs": {
+   "commits": 46,
+   "files": 699
+  },
+  "site": {
+   "commits": 1,
+   "files": 2
+  },
+  "ci": {
+   "commits": 2,
+   "files": 3
+  },
+  "altres": {
+   "commits": 2,
+   "files": 3
+  }
+ },
+ "by_kind": {
+  "fix": 26,
+  "wire": 2,
+  "test": 24,
+  "difftest": 15,
+  "plan": 3,
+  "docs": 32,
+  "perf": 2,
+  "chore": 3,
+  "style": 4,
+  "altres": 51
+ },
+ "commits": [
+  {
+   "sha": "1f9c5e34588c321c58ebb5b716921893923fffb4",
+   "short": "1f9c5e345",
+   "author": "jyviko",
+   "date": "2026-11-05T18:10:20-05:00",
+   "subject": "CodeRabbit: the fold limit is on the displaced side; AGENTS.md: docs cite no issues",
+   "kind": "altres",
+   "module": "altres",
+   "modules": [
+    "altres",
+    "docs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9a95b108cb939d38fe68e4f8ea575533dd6dbd8d",
+   "short": "9a95b108c",
+   "author": "jyviko",
+   "date": "2026-11-05T17:43:53-05:00",
+   "subject": "CodeRabbit: review against AGENTS.md and each area's reference doc",
+   "kind": "altres",
+   "module": "altres",
+   "modules": [
+    "altres"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d89efa1af9ce353484c7c45aaad34352b743cf1a",
+   "short": "d89efa1af",
+   "author": "Markus Reichart",
+   "date": "2026-11-05T22:41:03+01:00",
+   "subject": "kernel cases: the partial-chain case is listed against #2864, with its measured reason",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "408ac3388bcb5773658b149382597b9cb5eb3679",
+   "short": "408ac3388",
+   "author": "Markus Reichart",
+   "date": "2026-11-05T22:21:34+01:00",
+   "subject": "kernel cases: boss-tilt-20's render shows the rim a larger round would pass (#2839)",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0374b2c3655e451d9829c75b30334cd7330d5bfd",
+   "short": "0374b2c36",
+   "author": "Markus Reichart",
+   "date": "2026-11-05T22:21:34+01:00",
+   "subject": "kernel cases: boss-tilt-20 is refused naming 0.262514174, off the known-failing list (#2839)",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ce2bfdfbad340bfa88881ee3292c08b93e8ccde4",
+   "short": "ce2bfdfba",
+   "author": "Thijs Damsma",
+   "date": "2026-11-05T22:07:45+01:00",
+   "subject": "wire: replay recorded loft operations in the kernel rig (#2861)",
+   "kind": "wire",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [
+    "loft-skin"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "750389946888f31dad889b6dfd36998bf94999aa",
+   "short": "750389946",
+   "author": "Markus Reichart",
+   "date": "2026-11-05T21:53:55+01:00",
+   "subject": "Count the rig's final bodies as their records write them",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c179e53d0411c1eb4e7bdc5c8eda0bbfd954b1d5",
+   "short": "c179e53d0",
+   "author": "Markus Reichart",
+   "date": "2026-11-05T21:53:55+01:00",
+   "subject": "Test that the rig runner counts a body touching itself as its record",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b6646f2a269cfa947838668be2e7713e68da20f7",
+   "short": "b6646f2a2",
+   "author": "Markus Reichart",
+   "date": "2026-11-05T21:52:24+01:00",
+   "subject": "kernel cases: boss-tilt-40's render shows the round's Ends (#2829)",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "294aab53c8b0a5c8a59743fc787a4067666455cb",
+   "short": "294aab53c",
+   "author": "Markus Reichart",
+   "date": "2026-11-05T21:52:24+01:00",
+   "subject": "kernel cases: grade boss-tilt-40's round on its closed forms, off the known-failing list (#2829)",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "37b8e7ab58d609e1661b4ba5e98fc6a50e1be550",
+   "short": "37b8e7ab5",
+   "author": "jyviko",
+   "date": "2026-11-05T15:36:26-05:00",
+   "subject": "Kernel rig: the peg chamfer case's known failure is the Mixed corner face standing out of the front face (#2849)",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [
+    "mixed-corner",
+    "chamfer"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "884148b7976c0496622e702a7aa48ad21fb70925",
+   "short": "884148b79",
+   "author": "jyviko",
+   "date": "2026-11-05T15:32:32-05:00",
+   "subject": "Kernel rig: list the two main failures no open fix covers",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [
+    "chamfer"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "e8783826e87742687eea8bb7170393da45d7d318",
+   "short": "e8783826e",
+   "author": "jyviko",
+   "date": "2026-11-05T15:03:21-05:00",
+   "subject": "Rules: a case's status change updates the case, never a doc",
+   "kind": "altres",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4ccecfeafb90b1869f0d0fb5d56ae76aef571580",
+   "short": "4ccecfeaf",
+   "author": "jyviko",
+   "date": "2026-11-05T15:03:04-05:00",
+   "subject": "Move the case renders beside their cases; §7 points to the generated gallery",
+   "kind": "altres",
+   "module": "docs",
+   "modules": [
+    "docs",
+    "tests"
+   ],
+   "files": 537,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "94ac09ea1d65708bd8510996489808e2f48acd2d",
+   "short": "94ac09ea1",
+   "author": "jyviko",
+   "date": "2026-11-05T15:02:47-05:00",
+   "subject": "Site: generate the kernel case gallery (cases.html) from the corpus",
+   "kind": "altres",
+   "module": "site",
+   "modules": [
+    "site"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "901e1a532c2d95607602517944519723391d9c24",
+   "short": "901e1a532",
+   "author": "jyviko",
+   "date": "2026-11-05T15:01:14-05:00",
+   "subject": "Kernel cases: carry the case gallery's notes in a gallery_note field",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 18,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "dffd54b21cc21587f3fe058d595c89c561859276",
+   "short": "dffd54b21",
+   "author": "Thijs Damsma",
+   "date": "2026-11-05T19:52:15+01:00",
+   "subject": "fix: reject chamfer preparation failures during rig replay",
+   "kind": "fix",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [
+    "chamfer"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "befdd22fe4cfd4e3ee89fac3f1be7b9b49af137a",
+   "short": "befdd22fe",
+   "author": "jyviko",
+   "date": "2026-11-05T13:43:39-05:00",
+   "subject": "Reference docs: apply CodeRabbit's corrections that hold",
+   "kind": "altres",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c5dc8fe09adeba3e98a8c5dc63d55262f93e9932",
+   "short": "c5dc8fe09",
+   "author": "jyviko",
+   "date": "2026-11-05T13:41:10-05:00",
+   "subject": "Update docs/booleans.md",
+   "kind": "altres",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "0956246e3c6bee4117ac537dd2cf9bc546b24da2",
+   "short": "0956246e3",
+   "author": "jyviko",
+   "date": "2026-11-05T13:34:58-05:00",
+   "subject": "diagnostics: cargo fmt",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9e431b8759c76f34c7034b2744141fb6957dc8bd",
+   "short": "9e431b875",
+   "author": "jyviko",
+   "date": "2026-11-05T13:32:07-05:00",
+   "subject": "docs/coordinating.md: link the three new references and #solidcore",
+   "kind": "altres",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "191f79f2d6f14f2865312203b0baafbaa71162cd",
+   "short": "191f79f2d",
+   "author": "jyviko",
+   "date": "2026-11-05T13:28:28-05:00",
+   "subject": "AGENTS.md: the three new references in Read first",
+   "kind": "altres",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1ca755430a724dd4dc1f96efed692bd8ebbdf5b4",
+   "short": "1ca755430",
+   "author": "jyviko",
+   "date": "2026-11-05T13:28:20-05:00",
+   "subject": "Add docs/validity-and-tolerances.md: what a valid body is, local tolerances, healing, and when a tolerance may grow",
+   "kind": "altres",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "457a05f961820d28d2f2a4ce2b9ecd8b0fa421b6",
+   "short": "457a05f96",
+   "author": "jyviko",
+   "date": "2026-11-05T13:21:55-05:00",
+   "subject": "Add docs/offset-and-shell.md: offsets of the definition, folds and the largest wall, the five-stage construction",
+   "kind": "altres",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b15070862285285151b7901e837666fd0d1e5957",
+   "short": "b15070862",
+   "author": "jyviko",
+   "date": "2026-11-05T13:18:57-05:00",
+   "subject": "Add docs/booleans.md: the boolean's pipeline, classification on S, coincidence, tangency, definitions through trims",
+   "kind": "altres",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a44106f25831924e83418c3b1ed49484124c94f4",
+   "short": "a44106f25",
+   "author": "jyviko",
+   "date": "2026-11-05T13:03:24-05:00",
+   "subject": "Add docs/coordinating.md: how a coordinator agent understands, searches, splits and inspects",
+   "kind": "altres",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "46ff12d9818a5c000f20b3757dbaf16de4bcc5fa",
+   "short": "46ff12d98",
+   "author": "Thijs Damsma",
+   "date": "2026-11-05T18:02:43+01:00",
+   "subject": "fix: retain first rig blend pick and its size",
+   "kind": "fix",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ac401f382e17ebe93a3d1547040e7c5af9fec10e",
+   "short": "ac401f382",
+   "author": "Thijs Damsma",
+   "date": "2026-11-05T17:50:32+01:00",
+   "subject": "test: cover chamfer measurement-copy entity renumbering",
+   "kind": "test",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [
+    "chamfer"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "0e5e2cd64b17262b7b0f8f8c1651858e9d96ac36",
+   "short": "0e5e2cd64",
+   "author": "Thijs Damsma",
+   "date": "2026-11-05T17:46:16+01:00",
+   "subject": "wire: replay ordered chamfer sides in the kernel rig",
+   "kind": "wire",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 3,
+   "watch": [
+    "chamfer"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "54e71c6dd6aa39d643c84726e3b3f290451e6e75",
+   "short": "54e71c6dd",
+   "author": "jyviko",
+   "date": "2026-11-05T10:47:08-05:00",
+   "subject": "AGENTS.md: a pull request also shows a mechanism in a VectorCraft schematic",
+   "kind": "altres",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d343223f4e603173f5c3b73adb251f397fe2b034",
+   "short": "d343223f4",
+   "author": "jyviko",
+   "date": "2026-11-05T10:46:45-05:00",
+   "subject": "AGENTS.md: rewrap Show the problem first",
+   "kind": "altres",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "145e99d285ba585b35901dd502edf6483634054e",
+   "short": "145e99d28",
+   "author": "jyviko",
+   "date": "2026-11-05T10:46:36-05:00",
+   "subject": "AGENTS.md: a pull request that changes a case's result shows it before and after",
+   "kind": "altres",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "23cd51f7e194ff91d35bc09dbcfbd64c69ad928b",
+   "short": "23cd51f7e",
+   "author": "jyviko",
+   "date": "2026-11-05T10:44:37-05:00",
+   "subject": "Point to solidcore-diag from the layout table and Show the problem first",
+   "kind": "altres",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "879b6fb56d84340697b5ce4a9ae95c99b530a063",
+   "short": "879b6fb56",
+   "author": "jyviko",
+   "date": "2026-11-05T10:44:37-05:00",
+   "subject": "Add solidcore-diag: a picture and a tolerance report of one .smb body",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "altres",
+    "eines"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "743fdfbc458a7501cfd4103d03823fe2534b174c",
+   "short": "743fdfbc4",
+   "author": "jyviko",
+   "date": "2026-11-05T10:30:01-05:00",
+   "subject": "Layers figure: the kernel's result returns through convert",
+   "kind": "altres",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "86cd0842f9462d7670954a5bcf5dc38f20851273",
+   "short": "86cd0842f",
+   "author": "jyviko",
+   "date": "2026-11-05T09:54:38-05:00",
+   "subject": "Figures keep live text and state their flow in the alt text",
+   "kind": "altres",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5ffedeeabca828485eb792a0bd564c40491fbfc2",
+   "short": "5ffedeeab",
+   "author": "jyviko",
+   "date": "2026-11-05T09:54:38-05:00",
+   "subject": "Export the reference-doc schematics with live text",
+   "kind": "altres",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3421ccb7b143216fd15967619947db8b76569b3a",
+   "short": "3421ccb7b",
+   "author": "jyviko",
+   "date": "2026-11-05T09:24:02-05:00",
+   "subject": "docs: the setback scale search stated as it is: monotonicity assumed and checked on a grid, not proved",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 1,
+   "watch": [
+    "setback"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "5194602034617e4078ed9ed5a2e934bc1eff5d72",
+   "short": "519460203",
+   "author": "jyviko",
+   "date": "2026-11-05T09:22:58-05:00",
+   "subject": "docs: the completion checklist moves into porting.md; mutation testing says the tests are the check that counts",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4b0d642059169002e75932e2b84dbabb5ab8baab",
+   "short": "4b0d64205",
+   "author": "jyviko",
+   "date": "2026-11-05T09:22:58-05:00",
+   "subject": "docs: the setback scale search stated as it is; two PR validation logs leave docs/",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 2,
+   "watch": [
+    "setback"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "b594a7c2a206eae5dab3aca4cfb7a34cfe5b48af",
+   "short": "b594a7c2a",
+   "author": "jyviko",
+   "date": "2026-11-05T09:22:58-05:00",
+   "subject": "docs: AGENTS.md: a doc never points to a pull request",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f741e7f8ff3e5b25377b1464d3e8a2b15a05921e",
+   "short": "f741e7f8f",
+   "author": "jyviko",
+   "date": "2026-11-05T09:22:58-05:00",
+   "subject": "docs: the reference pages and AGENTS.md cite no pull requests",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d9034a0005921e00621da029087aec4bcc8ed5db",
+   "short": "d9034a000",
+   "author": "jyviko",
+   "date": "2026-11-05T09:22:58-05:00",
+   "subject": "docs: AGENTS.md: no new document in docs/ without the maintainers; PR evidence goes in its description or plan/findings",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e7b882ba45577f8b2b771c2f96807e575148f6d4",
+   "short": "e7b882ba4",
+   "author": "jyviko",
+   "date": "2026-11-05T09:22:58-05:00",
+   "subject": "docs: the layers schematic as the owner edited it",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d0a9e63330dde53a9e588a10387548e8f18d1c47",
+   "short": "d0a9e6333",
+   "author": "jyviko",
+   "date": "2026-11-05T09:22:58-05:00",
+   "subject": "docs: the layers schematic names the top layer App (SolidCraft, or any app)",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d497e1087fc677a27888cebed44a623fe1f6161f",
+   "short": "d497e1087",
+   "author": "jyviko",
+   "date": "2026-11-05T09:22:58-05:00",
+   "subject": "docs: the layers schematic's labels name what crosses: intent, result / refusal, request mesh",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3fad2658078844d0ef0dd8af98a67475891288ca",
+   "short": "3fad26580",
+   "author": "jyviko",
+   "date": "2026-11-05T09:22:58-05:00",
+   "subject": "docs: the layers schematic separates the app from solidcore with a boundary the app crosses only through ops and tess",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5a4cff10d6294757fd35973e583fea6dd1f02e81",
+   "short": "5a4cff10d",
+   "author": "jyviko",
+   "date": "2026-11-05T09:22:58-05:00",
+   "subject": "docs: the layers schematic follows one operation, a fillet, from SolidCraft to the kernel and back",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8c54243e62054f07046155fba47ee00d56f892e8",
+   "short": "8c54243e6",
+   "author": "jyviko",
+   "date": "2026-11-05T09:22:58-05:00",
+   "subject": "docs: ssi.md rebuilt on #17's corpus measurement",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 17,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "32baa9395386738c4dea3421b0b86829311c54d5",
+   "short": "32baa9395",
+   "author": "jyviko",
+   "date": "2026-11-05T09:22:58-05:00",
+   "subject": "docs: figures in the blend docs' palette (accent blue, black, greys), captions without colour words",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5a4b7ba6e473fd61d0e8fe8662e22744eb5d887a",
+   "short": "5a4b7ba6e",
+   "author": "jyviko",
+   "date": "2026-11-05T09:22:58-05:00",
+   "subject": "docs: ssi.md, a reference for surface/surface intersection",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f15ce9c1e2db1335f0b7b419f245e54e1d976c5d",
+   "short": "f15ce9c1e",
+   "author": "jyviko",
+   "date": "2026-11-05T09:22:58-05:00",
+   "subject": "docs: layers.md gets its schematic and leaves out the application-side tlabs crates",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b242a6b51014d2cbe8619e7ac7b50a8292fadad3",
+   "short": "b242a6b51",
+   "author": "jyviko",
+   "date": "2026-11-05T09:22:58-05:00",
+   "subject": "docs: the README lists the reference docs",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bac10831ccd6c29a690f28e953b285694fa39361",
+   "short": "bac10831c",
+   "author": "jyviko",
+   "date": "2026-11-05T09:22:58-05:00",
+   "subject": "docs: AGENTS.md points to the reference docs; show the problem first and research it; the figures' palette",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7413a800163b7039684a5c4840040eb0721d73ae",
+   "short": "7413a8001",
+   "author": "jyviko",
+   "date": "2026-11-05T09:22:58-05:00",
+   "subject": "docs: figures in the blend docs' palette (accent blue, black, greys), captions without colour words",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6ee85a4c7103ea9d03bfe16df47323bc051c903c",
+   "short": "6ee85a4c7",
+   "author": "jyviko",
+   "date": "2026-11-05T09:22:58-05:00",
+   "subject": "docs: the procedural sweep's reference page",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "df1ed5acdcc0405bdba769ef1cedab7af43b92e4",
+   "short": "df1ed5acd",
+   "author": "jyviko",
+   "date": "2026-11-05T09:22:58-05:00",
+   "subject": "docs: the extension figure's arrowheads are readable",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b81c6c8d0ebfe0328cc64443a4cb4e7c0f175fea",
+   "short": "b81c6c8d0",
+   "author": "jyviko",
+   "date": "2026-11-05T09:22:58-05:00",
+   "subject": "docs: figures in the blend docs' palette (accent blue, black, greys), captions without colour words",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a2d50cde39d01518e0f56086ccfe33e61d6a7f5a",
+   "short": "a2d50cde3",
+   "author": "jyviko",
+   "date": "2026-11-05T09:22:58-05:00",
+   "subject": "docs: definitions and certificates, the foundation every exact construction rests on",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ceaf22e1077fdb4c96619c17cc49091f37a1cc68",
+   "short": "ceaf22e10",
+   "author": "Thijs Damsma",
+   "date": "2026-11-05T15:01:00+01:00",
+   "subject": "difftest: record the seven cases #2735 moved (WR-751), for #2794",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "554443501c478b769d79fb0ae10a126a8077faf0",
+   "short": "554443501",
+   "author": "jyviko",
+   "date": "2026-11-05T08:15:42-05:00",
+   "subject": "docs: AGENTS.md keeps what agents need now; the porting workflow and the style rules move out unchanged",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "difftest",
+    "docs",
+    "harness"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b9da7d49285897767708207b75b6b84ff6f4f2d9",
+   "short": "b9da7d492",
+   "author": "jyviko",
+   "date": "2026-11-05T08:15:42-05:00",
+   "subject": "docs: §0 sends contributors to reported issues (urgent, then help wanted), not to work already taken",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c6c872439afad646141a03daa86180efb39c0feb",
+   "short": "c6c872439",
+   "author": "jyviko",
+   "date": "2026-11-05T08:11:22-05:00",
+   "subject": "plan: offset.offset_geometry_creation is partial, now that the exact extension lists known mismatches for it",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4fe89f6b35e203268705ccaf863ab7bf43f0fc0e",
+   "short": "4fe89f6b3",
+   "author": "jyviko",
+   "date": "2026-11-05T08:11:22-05:00",
+   "subject": "plan: offset.offset_executive_p2 is partial, now that the exact extension lists known mismatches for it",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5dd8737a970b75539ec97d7c26a5367846b5b0eb",
+   "short": "5dd8737a9",
+   "author": "jyviko",
+   "date": "2026-11-05T08:11:22-05:00",
+   "subject": "plan: offset.offset_executive_p1 and topology.assert_valid are partial, now that the exact extension lists known mismatches for them",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2090c7f9706f9a1901f688ea275d427f2bb8d8bf",
+   "short": "2090c7f97",
+   "author": "jyviko",
+   "date": "2026-11-05T08:11:22-05:00",
+   "subject": "difftest: the 16 brep_p3 TurnToNURBS cases the exact extension moves, each proved (#2769)",
+   "kind": "difftest",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "41e089461a3fee3e665101c46f39a19c94f1d43a",
+   "short": "41e089461",
+   "author": "jyviko",
+   "date": "2026-11-05T08:11:22-05:00",
+   "subject": "difftest: the turned offsets' exact extensions are measured on their own (topology.brep_p3)",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "079a026f6c7ea541236aeb1f66be739ccde3f41f",
+   "short": "079a026f6",
+   "author": "jyviko",
+   "date": "2026-11-05T08:11:22-05:00",
+   "subject": "difftest: the b_spline_surface_n_lib_p1 census counts 98 cases after the fitted extension's case is deleted",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fad46b4042ac3511193064e439ed6e3a6a76140c",
+   "short": "fad46b404",
+   "author": "jyviko",
+   "date": "2026-11-05T08:11:22-05:00",
+   "subject": "local op: keep upstream's 2.5 radii, and record why a derived reach can't serve yet",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "plan",
+    "topology"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f7a7ee1106be847156c3ce736ed7d3e746d76b18",
+   "short": "f7a7ee110",
+   "author": "jyviko",
+   "date": "2026-11-05T08:11:22-05:00",
+   "subject": "offset: a face whose offset collapses (a round offset by its radius) is refused, naming why (#2350)",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "difftest",
+    "kernel",
+    "offset",
+    "tests"
+   ],
+   "files": 6,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "921745220f14b79442808ff3bc52012acf9bb7dd",
+   "short": "921745220",
+   "author": "jyviko",
+   "date": "2026-11-05T08:11:22-05:00",
+   "subject": "difftest: the surface kink 30 local-op results report is the input fillet's own (#2769)",
+   "kind": "difftest",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fce26a7f6386e14db49f03814c3dd83bde26e203",
+   "short": "fce26a7f6",
+   "author": "jyviko",
+   "date": "2026-11-05T08:11:22-05:00",
+   "subject": "difftest: the moved cases' proofs, and the 156 brep_local_operation cases the first record missed (#2769)",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "de334fa22b29b80c92c980ded265bcff291be4fa",
+   "short": "de334fa22",
+   "author": "jyviko",
+   "date": "2026-11-05T08:11:22-05:00",
+   "subject": "fillet: a concave corner's side face is extended as its analytic surface, by any distance (#2769)",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "blend",
+    "difftest"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d62239dc0b540500d52f023539dff106446626ca",
+   "short": "d62239dc0",
+   "author": "jyviko",
+   "date": "2026-11-05T08:11:22-05:00",
+   "subject": "difftest: a probe measures the Rust result bodies of the moved cases on their own",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "95192d38505d91bd8df939d2544e251a617c4d92",
+   "short": "95192d385",
+   "author": "jyviko",
+   "date": "2026-11-05T08:11:22-05:00",
+   "subject": "offset: a face's surface is extended by its offset's reach past the face, not five offsets (#2769)",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "difftest",
+    "offset",
+    "tests",
+    "topology"
+   ],
+   "files": 12,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "9b3e4fb936a323907b0a508f42b88598caa252f1",
+   "short": "9b3e4fb93",
+   "author": "jyviko",
+   "date": "2026-11-05T08:11:22-05:00",
+   "subject": "difftest: the 446 cases the exact surface extension moves, each named with its value (#2769)",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4d2b4d35a6cf87777dee476a5c59fdc904ff88b4",
+   "short": "4d2b4d35a",
+   "author": "jyviko",
+   "date": "2026-11-05T08:11:22-05:00",
+   "subject": "offset: the extended surface's margin is five offsets either way, none for a zero offset (#2769)",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "offset"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a5de86aaf835ee480cf9be20f50d07f4a2bc0b31",
+   "short": "a5de86aaf",
+   "author": "jyviko",
+   "date": "2026-11-05T08:11:22-05:00",
+   "subject": "surface: the fitted extension path is deleted; the exact extension is the only one",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "difftest",
+    "harness",
+    "nurbs",
+    "plan",
+    "surface"
+   ],
+   "files": 45,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5797046b67311cb5c2934c4b9933713b3d910123",
+   "short": "5797046b6",
+   "author": "jyviko",
+   "date": "2026-11-05T08:11:22-05:00",
+   "subject": "tests: the inset 2 extended offset of a round of radius 2 has no sound reference; it is to build a sound body (#2769)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "31733ad14386e22f287a9ddbbe41692d24726aa9",
+   "short": "31733ad14",
+   "author": "jyviko",
+   "date": "2026-11-05T08:11:22-05:00",
+   "subject": "tests: the defillet's loop patch on the exact extension is bounded by its loop circle; the defeatured body is the C++ reference's (#2769)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f7b66d976ffd163952b62b5e321fdc1d242d7b70",
+   "short": "f7b66d976",
+   "author": "jyviko",
+   "date": "2026-11-05T08:11:22-05:00",
+   "subject": "offset: a lamina edge's corner is always at its vertex image; the flag and upstream's corner reading are gone (#2769)",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "kernel",
+    "offset",
+    "tests"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6c330b6ca9b442ee28d97244040bc843b727db8b",
+   "short": "6c330b6ca",
+   "author": "jyviko",
+   "date": "2026-11-05T08:11:22-05:00",
+   "subject": "fillet: a side edge runs on along its line as far as the rail's base domain is extended (#2769)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5e63f3adbfa27fb6e1e83b6e05178f3b02003c07",
+   "short": "5e63f3adb",
+   "author": "jyviko",
+   "date": "2026-11-05T08:11:22-05:00",
+   "subject": "tests: issue_2358 tilt_40 re-pinned on the exact plane extension (precision at part scale)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bb5dc235d471819c443587755db803f91e12ff8f",
+   "short": "bb5dc235d",
+   "author": "jyviko",
+   "date": "2026-11-05T08:11:22-05:00",
+   "subject": "tests: issue_1818's mated shell of the square-to-circle loft is a sound body on the exact extensions (#2769)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [
+    "loft-skin"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "f4e0ec2d0e806a5cc3e80ae242765c7d61720c31",
+   "short": "f4e0ec2d0",
+   "author": "jyviko",
+   "date": "2026-11-05T08:11:22-05:00",
+   "subject": "surface: the across length's rounding is honest: the derivative's move is integrated as the piece's length, the weights' rounding sized by the weights",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a6314d4b314e1bc936597dbffdeacfa075eff1ed",
+   "short": "a6314d4b3",
+   "author": "jyviko",
+   "date": "2026-11-05T08:11:22-05:00",
+   "subject": "surface: every caller extends a surface exactly (extended_sides): analytic kinds, ball patches and blends as themselves, offsets as their base extended",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "blend",
+    "offset",
+    "surface",
+    "tests",
+    "topology"
+   ],
+   "files": 24,
+   "watch": [
+    "ball-patch",
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "9e343e179be9e3a35d87ec5430769a11088b2ded",
+   "short": "9e343e179",
+   "author": "jyviko",
+   "date": "2026-11-05T08:11:22-05:00",
+   "subject": "surface: a procedural blend extended by its definition, across its section and along its spine",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "blend",
+    "surface"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "503eb56212044c7607a762115a1cf79c3c88c39c",
+   "short": "503eb5621",
+   "author": "jyviko",
+   "date": "2026-11-05T08:11:22-05:00",
+   "subject": "surface: extended_sides extends a surface of revolution along its generator as asked",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e42ffd1cea42407a330c2621a73968f3e8cb5fd8",
+   "short": "e42ffd1ce",
+   "author": "jyviko",
+   "date": "2026-11-05T08:11:22-05:00",
+   "subject": "surface: Continuity::Ruled, each row continued by a homogeneous line along its end tangent",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e0afaeae4557e38418275988e59b3b1a69332d0d",
+   "short": "e0afaeae4",
+   "author": "Thijs Damsma",
+   "date": "2026-11-05T13:33:33+01:00",
+   "subject": "difftest: record the confirmed WR-13 hash growth case",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0ba199b795adeeff582e6a3698e34e8064f0bd8a",
+   "short": "0ba199b79",
+   "author": "jyviko",
+   "date": "2026-11-05T07:00:31-05:00",
+   "subject": "docs: the claim note points at §0's list; the list's open items carry help wanted",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8fe683ec06ee443f4b5c8714b34def82696440be",
+   "short": "8fe683ec0",
+   "author": "jyviko",
+   "date": "2026-11-05T07:00:00-05:00",
+   "subject": "docs: the list's issues and PRs carry urgent, the only priority label for now",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "eb12389353a3e66d41d599d8c8c1e3ae92c1dacb",
+   "short": "eb1238935",
+   "author": "jyviko",
+   "date": "2026-11-05T06:59:28-05:00",
+   "subject": "docs: what to work on now; the SMLib switch came with bugs, and self-found defects wait",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c34e526c9e56d95581e8ebdcc04675a32c1c1609",
+   "short": "c34e526c9",
+   "author": "jyviko",
+   "date": "2026-11-05T06:45:22-05:00",
+   "subject": "CI: pull requests run the difftest sweep against their exact base",
+   "kind": "altres",
+   "module": "ci",
+   "modules": [
+    "ci"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d25e345cf4372f1e56ea8ffdf2b405895fdde6a2",
+   "short": "d25e345cf",
+   "author": "jyviko",
+   "date": "2026-11-05T06:45:18-05:00",
+   "subject": "rig: boolean, extrude, revolve and the blend run through solidcore-ops",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [
+    "chamfer"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "e63384bb6f971f7b8e0d94b466b9adc8245d1b0f",
+   "short": "e63384bb6",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-05T11:35:47+01:00",
+   "subject": "fix: preserve hash records during default growth",
+   "kind": "fix",
+   "module": "tests",
+   "modules": [
+    "geom",
+    "kernel",
+    "plan",
+    "tests"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "827bb4cab94a852a9b45e0eff70b6fc00537f1a1",
+   "short": "827bb4cab",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-05T11:35:47+01:00",
+   "subject": "test: expose WR-13 default growth corruption",
+   "kind": "test",
+   "module": "geom",
+   "modules": [
+    "geom"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3938688c47726d293b84dcd29078b55017dfdb83",
+   "short": "3938688c4",
+   "author": "Markus Reichart",
+   "date": "2026-11-05T11:24:55+01:00",
+   "subject": "docs: the second straight trim keeps a radius by its curvature (#2574)",
+   "kind": "docs",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2b3ed06e9d0fc821b74697d4500c0969510c3593",
+   "short": "2b3ed06e9",
+   "author": "Federico Dal Maso",
+   "date": "2026-11-05T11:15:14+01:00",
+   "subject": "difftest: register the two measured WR-752 seam defects",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "1e8cd33c435100df7fc1a0aface85d9510a01952",
+   "short": "1e8cd33c4",
+   "author": "ChrisNourse",
+   "date": "2026-11-05T02:08:50-08:00",
+   "subject": "refactor: share setback affine sector preparation",
+   "kind": "chore",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "docs"
+   ],
+   "files": 3,
+   "watch": [
+    "setback"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "d31f3d3e67541e29fefdadc983502d47306653d0",
+   "short": "d31f3d3e6",
+   "author": "chris",
+   "date": "2026-11-05T01:40:45-08:00",
+   "subject": "docs: remove private environment details from validation evidence",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d9a7416a325fdd495820b42cf1aa90437cbea1ed",
+   "short": "d9a7416a3",
+   "author": "Federico Dal Maso",
+   "date": "2026-11-05T10:29:14+01:00",
+   "subject": "docs: measure closed-seam C++ diagnostic differences",
+   "kind": "docs",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "61fd33d42c35c51981a6f4379c065ec92666a9b5",
+   "short": "61fd33d42",
+   "author": "chris",
+   "date": "2026-11-05T01:26:31-08:00",
+   "subject": "docs: record refreshed streaming validation and parity",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "09e49ec5824dcbe292cc8b2f1497d9591f237832",
+   "short": "09e49ec58",
+   "author": "Federico Dal Maso",
+   "date": "2026-11-05T09:57:36+01:00",
+   "subject": "fix: complete closed control-net monotonicity walks",
+   "kind": "fix",
+   "module": "surface",
+   "modules": [
+    "plan",
+    "surface"
+   ],
+   "files": 2,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "824ddcabd65c4016a88d1de33549b29ff2eb8ad0",
+   "short": "824ddcabd",
+   "author": "chris",
+   "date": "2026-11-05T00:46:11-08:00",
+   "subject": "test: bound streamed setback working sets and record first results",
+   "kind": "test",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "docs"
+   ],
+   "files": 2,
+   "watch": [
+    "setback"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "ed9fed679ae0da49fb1c9efe40d6f69bb5b388be",
+   "short": "ed9fed679",
+   "author": "chris",
+   "date": "2026-11-05T00:39:32-08:00",
+   "subject": "test: match native streamed row fixture and work counts",
+   "kind": "test",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c12f7f948604828984b10ac6c1856a981f622b5b",
+   "short": "c12f7f948",
+   "author": "chris",
+   "date": "2026-11-05T00:31:32-08:00",
+   "subject": "test: cover streamed row cancellation at curved dimensions",
+   "kind": "test",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 2,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "50efc6b87c9a301e1ad51d1c0ee9d73cdfd217ac",
+   "short": "50efc6b87",
+   "author": "chris",
+   "date": "2026-11-05T00:29:34-08:00",
+   "subject": "perf: stream setback sector rows into QP working sets",
+   "kind": "perf",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "docs"
+   ],
+   "files": 7,
+   "watch": [
+    "setback"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "8e99ab191818fb6378ccb2be73db78a5ec9a6a06",
+   "short": "8e99ab191",
+   "author": "Markus Reichart",
+   "date": "2026-11-05T09:25:37+01:00",
+   "subject": "fix: the minimum-radius objective tests curvature, not |C' x C''| (#2574)",
+   "kind": "fix",
+   "module": "curve",
+   "modules": [
+    "curve"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "574f3527d4761faa7d2ff9a416d9c8066560a5d7",
+   "short": "574f3527d",
+   "author": "Markus Reichart",
+   "date": "2026-11-05T09:25:37+01:00",
+   "subject": "test: a slow parametrisation keeps its minimum radius (#2574)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "feeb87621d2a6b8cf58b996c8dfbc674cddae0e8",
+   "short": "feeb87621",
+   "author": "Markus Reichart",
+   "date": "2026-11-05T09:04:51+01:00",
+   "subject": "difftest: record and list the 86 cases where this fix leaves the pinned C++",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 5,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "1d4e4293123197d10cc950a2030243416abad751",
+   "short": "1d4e42931",
+   "author": "Markus Reichart",
+   "date": "2026-11-05T09:04:51+01:00",
+   "subject": "test: hold the straight trim against the check's tolerance, not \"no solution\" (#2574)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "affe3850f1bfc603034720ace26258b20b6ead1f",
+   "short": "affe3850f",
+   "author": "Markus Reichart",
+   "date": "2026-11-05T09:04:51+01:00",
+   "subject": "test: WR-668's zero-speed end keeps its radius test after all (#2574)",
+   "kind": "test",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "27748d24ae85b40f4adebae3d88b6be95acbac0d",
+   "short": "27748d24a",
+   "author": "Markus Reichart",
+   "date": "2026-11-05T09:04:51+01:00",
+   "subject": "style: the extremum's value test as clippy wants it (#2574)",
+   "kind": "style",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "73a343519e9d82d5b5cb8e7d2cb7a1c8d09bf5a3",
+   "short": "73a343519",
+   "author": "Markus Reichart",
+   "date": "2026-11-05T09:04:51+01:00",
+   "subject": "style: rustfmt the tight-bend assertions (#2574)",
+   "kind": "style",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5037d3254b2ae6f6211c95f5fa786d2f04801bff",
+   "short": "5037d3254",
+   "author": "Markus Reichart",
+   "date": "2026-11-05T09:04:51+01:00",
+   "subject": "fix: keep a minimisation's stop point when its value was evaluated (#2574)",
+   "kind": "fix",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "plan",
+    "tests"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "35981558c080866a753b7d73497287a1f5c088c1",
+   "short": "35981558c",
+   "author": "Markus Reichart",
+   "date": "2026-11-05T09:04:50+01:00",
+   "subject": "style: rustfmt the step 4 volume assertion (#2574)",
+   "kind": "style",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "dd1affe51c99f4e3dff739bdbb81fe0de7695c0c",
+   "short": "dd1affe51",
+   "author": "Markus Reichart",
+   "date": "2026-11-05T09:04:50+01:00",
+   "subject": "test: step 4's round no longer depends on the N-D opt-in (#2574)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7d87db6062b2975ddf833b70fa74fa09e70d6238",
+   "short": "7d87db606",
+   "author": "Markus Reichart",
+   "date": "2026-11-05T09:04:50+01:00",
+   "subject": "test: the radius test adds nothing at a zero-speed end any more (#2574)",
+   "kind": "test",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f1d36c4860c3ac1d8c31b3216720c9ff17c13f43",
+   "short": "f1d36c486",
+   "author": "Markus Reichart",
+   "date": "2026-11-05T09:04:50+01:00",
+   "subject": "style: rustfmt the turned-round solver tests (#2574)",
+   "kind": "style",
+   "module": "geom",
+   "modules": [
+    "geom"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "44bbe197b942bf974ecf3998b59bdeb7f219cbc3",
+   "short": "44bbe197b",
+   "author": "Markus Reichart",
+   "date": "2026-11-05T09:04:50+01:00",
+   "subject": "fix: a failed evaluation is not a value in the minimum-radius search (#2574)",
+   "kind": "fix",
+   "module": "curve",
+   "modules": [
+    "blend",
+    "curve",
+    "geom",
+    "intersect",
+    "kernel",
+    "plan",
+    "surface"
+   ],
+   "files": 11,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "36052aecf32e43ae792634675c92294d41527981",
+   "short": "36052aecf",
+   "author": "Markus Reichart",
+   "date": "2026-11-05T09:04:50+01:00",
+   "subject": "test: the straight trim has no finite minimum radius (#2574)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "438a605ddc2925760242696f97ed63e996e31572",
+   "short": "438a605dd",
+   "author": "Markus Reichart",
+   "date": "2026-11-05T09:04:50+01:00",
+   "subject": "test: pin #2574's false cusp on a straight trim (min-radius search)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "60b374b8d13cde0916e48bf48e58346de8c985d5",
+   "short": "60b374b8d",
+   "author": "aapolipponen",
+   "date": "2026-11-05T09:54:06+02:00",
+   "subject": "fix: the #2621 split moves only for a point on the edge; pins that move to nearer splits",
+   "kind": "fix",
+   "module": "tests",
+   "modules": [
+    "intersect",
+    "plan",
+    "tests"
+   ],
+   "files": 5,
+   "watch": [
+    "seam"
+   ],
+   "ai": false
+  },
+  {
+   "sha": "2242d6f742487ef1d74b92a9a72f98281d27e85d",
+   "short": "2242d6f74",
+   "author": "bherbruck",
+   "date": "2026-11-05T02:23:01-05:00",
+   "subject": "fix(fillet_section): the G^n certificate accepts a level by each uv parameter's own error",
+   "kind": "fix",
+   "module": "tests",
+   "modules": [
+    "blend",
+    "tests"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2ff2d2c7df78d39193bcb588ff3951cb7046bf8c",
+   "short": "2ff2d2c7d",
+   "author": "Thijs Damsma",
+   "date": "2026-11-05T07:09:22+01:00",
+   "subject": "fix: prevent a panic when dropping degree-zero curves onto cylinders",
+   "kind": "fix",
+   "module": "intersect",
+   "modules": [
+    "intersect",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3d7bbc3a1079a7b814522e661010cc1fd2966ea9",
+   "short": "3d7bbc3a1",
+   "author": "aapolipponen",
+   "date": "2026-11-05T07:20:27+02:00",
+   "subject": "test: the #2621 phase scan runs every fourth phase in a debug build (all 32 optimised)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "224817efcddf426d3c418f5d4647c1e726fcc33c",
+   "short": "224817efc",
+   "author": "jyviko",
+   "date": "2026-11-04T23:44:09-05:00",
+   "subject": "CI: the test job's upstream step has its own name, so the sweep job's step is found by its name",
+   "kind": "altres",
+   "module": "ci",
+   "modules": [
+    "ci"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a01fc680c942c83e8d5d64f4699c1cfe934c2065",
+   "short": "a01fc680c",
+   "author": "jyviko",
+   "date": "2026-11-04T23:27:32-05:00",
+   "subject": "fix(blend): the too-small round check runs under with_rollback and keeps nothing (#2716)",
+   "kind": "fix",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a9e5aaef22eff93191b1dbfb16a7cd12fc9b8e95",
+   "short": "a9e5aaef2",
+   "author": "jyviko",
+   "date": "2026-11-04T23:25:11-05:00",
+   "subject": "difftest: preview-radius-tiny is solidcore's too-small refusal, a known mismatch",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5a66b4dfdde13cf2b975cf8e82e5e6235bcb2ed7",
+   "short": "5a66b4dfd",
+   "author": "jyviko",
+   "date": "2026-11-04T23:25:11-05:00",
+   "subject": "fix(blend): the too-small round check reads a copy of the body",
+   "kind": "fix",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "tests"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7474d104c8b9b21342d381b612c67ff1cda4a691",
+   "short": "7474d104c",
+   "author": "jyviko",
+   "date": "2026-11-04T23:25:11-05:00",
+   "subject": "difftest: gen0812 and gen1016 are WR-737 cpp_defect, measured in the difftest run",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "321352e817125733e22aab30d8102c68dacacfcb",
+   "short": "321352e81",
+   "author": "jyviko",
+   "date": "2026-11-04T20:24:18-08:00",
+   "subject": "CI: the test job runs the tests that read upstream/TestFiles",
+   "kind": "altres",
+   "module": "difftest",
+   "modules": [
+    "ci",
+    "difftest",
+    "tests"
+   ],
+   "files": 25,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b15d1c979dd16d233aabdad6e0b995e05b27410e",
+   "short": "b15d1c979",
+   "author": "aapolipponen",
+   "date": "2026-11-05T06:22:38+02:00",
+   "subject": "fix: a Boolean splits an edge where it passes the classified point, so a grazing groove cut stays valid (#2621)",
+   "kind": "fix",
+   "module": "tests",
+   "modules": [
+    "intersect",
+    "plan",
+    "tests"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "060a17e0e851ef0c0bcb575f59dd96e58ccc0836",
+   "short": "060a17e0e",
+   "author": "AlexMitchellMus",
+   "date": "2026-11-05T14:22:27+10:30",
+   "subject": "sweep: place curved profile segments as NURBS",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "59592cbbc2135eab40b73b8ac1bfaceb946ec2a5",
+   "short": "59592cbbc",
+   "author": "aapolipponen",
+   "date": "2026-11-05T05:51:23+02:00",
+   "subject": "fix: a cliff overflow's failed check puts the target back, and the corpus gate reports a baseline it cannot check",
+   "kind": "fix",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "step"
+   ],
+   "files": 2,
+   "watch": [
+    "step"
+   ],
+   "ai": false
+  },
+  {
+   "sha": "0dce208a551bbc293b73f4ba2ea8999421aba52a",
+   "short": "0dce208a5",
+   "author": "aapolipponen",
+   "date": "2026-11-05T05:14:38+02:00",
+   "subject": "refactor: Brep and the types holding one are not Clone; every copy names its kind (#2715)",
+   "kind": "chore",
+   "module": "difftest",
+   "modules": [
+    "blend",
+    "boolean",
+    "difftest",
+    "heal",
+    "intersect",
+    "offset",
+    "plan",
+    "primitive",
+    "query",
+    "step",
+    "sweep",
+    "tests",
+    "topology"
+   ],
+   "files": 67,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "4839338d6332429f5b0942fabe65496f6f7dec93",
+   "short": "4839338d6",
+   "author": "aapolipponen",
+   "date": "2026-11-05T05:14:26+02:00",
+   "subject": "fix: a refused fillet puts the body back with its geometry's owners (#2715)",
+   "kind": "fix",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "tests",
+    "topology"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "8517efe009633a01713be38b0dbb510d294bf46b",
+   "short": "8517efe00",
+   "author": "AlexMitchellMus",
+   "date": "2026-11-05T13:38:05+10:30",
+   "subject": "sweep: place a planar profile segment as a sweep curve",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [
+    "loft-skin"
+   ],
+   "ai": false
+  },
+  {
+   "sha": "4bbb9cebfbcb9b8713050d0a95450c99d08a7f2a",
+   "short": "4bbb9cebf",
+   "author": "jyviko",
+   "date": "2026-11-04T21:20:53-05:00",
+   "subject": "difftest: WR-737's three measured sweep cases are cpp_defect",
+   "kind": "difftest",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6daa93a629bb9378ff0080a6e536efbec93ad686",
+   "short": "6daa93a62",
+   "author": "jyviko",
+   "date": "2026-11-04T21:20:53-05:00",
+   "subject": "difftest: waive the six offset cases HANG-53's refusal moves from pass to rejected",
+   "kind": "difftest",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "dd4bcd9cd7b9131f8cd31369f0c7be2bdcc7f3f8",
+   "short": "dd4bcd9cd",
+   "author": "jyviko",
+   "date": "2026-11-04T21:20:45-05:00",
+   "subject": "fix(difftest): fillet_executive_p3 compares every error carrying a C++ status as that status",
+   "kind": "fix",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e16aeddd8c06994bf600d23a2ae5a7f4b6c4d561",
+   "short": "e16aeddd8",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-05T02:29:49+01:00",
+   "subject": "docs: explain gap append regression oracles",
+   "kind": "docs",
+   "module": "heal",
+   "modules": [
+    "heal"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9ab1ec874745ae64e7daae34bfe887393a2e8962",
+   "short": "9ab1ec874",
+   "author": "aapolipponen",
+   "date": "2026-11-05T03:23:43+02:00",
+   "subject": "fix: a taper extrude past its profile's centre stops on cancel (#2756)",
+   "kind": "fix",
+   "module": "primitive",
+   "modules": [
+    "primitive",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": false
+  },
+  {
+   "sha": "e5f9e3b87869f878da4aad3c86acaa65270d3e6d",
+   "short": "e5f9e3b87",
+   "author": "Thijs Damsma",
+   "date": "2026-11-05T02:13:16+01:00",
+   "subject": "refactor: destructure angle bounds in interval validation",
+   "kind": "chore",
+   "module": "kernel",
+   "modules": [
+    "kernel"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "90b4fd126f355287478a0b3115b490c42f6dcf32",
+   "short": "90b4fd126",
+   "author": "Thijs Damsma",
+   "date": "2026-11-05T02:12:38+01:00",
+   "subject": "fix: reject invalid analytic form parameter domains",
+   "kind": "fix",
+   "module": "kernel",
+   "modules": [
+    "kernel"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c5c0fbdc9c17fa49c544fe2208133ed8d8b7af6e",
+   "short": "c5c0fbdc9",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-05T01:59:26+01:00",
+   "subject": "fix: preserve sequential gap insertion semantics",
+   "kind": "fix",
+   "module": "heal",
+   "modules": [
+    "heal",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5f0de6b9b5396e377537c1077e1424b41a998aab",
+   "short": "5f0de6b9b",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-05T01:59:26+01:00",
+   "subject": "test: expose append nonfinite comparison divergence",
+   "kind": "test",
+   "module": "heal",
+   "modules": [
+    "heal"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7e04d4a99981d94d477884d6558d7d439c021a03",
+   "short": "7e04d4a99",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-05T01:59:26+01:00",
+   "subject": "fix: maintain longest gap when appending",
+   "kind": "fix",
+   "module": "tests",
+   "modules": [
+    "heal",
+    "kernel",
+    "plan",
+    "tests"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ca0c698b88e11f240849ef096f36f803536dfde5",
+   "short": "ca0c698b8",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-05T01:59:26+01:00",
+   "subject": "test: expose stale gap append maximum",
+   "kind": "test",
+   "module": "heal",
+   "modules": [
+    "heal"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "100db6a227b95eb6f0af9e482813444f8b152390",
+   "short": "100db6a22",
+   "author": "chris",
+   "date": "2026-11-04T16:57:10-08:00",
+   "subject": "test: refresh distinct turn and discarded-tool corpus traces",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 12,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "338f486a901971020cbd94c60722ee7c3fb1b1a9",
+   "short": "338f486a9",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-05T01:51:52+01:00",
+   "subject": "fix: select pole points by their own mask bits",
+   "kind": "fix",
+   "module": "tests",
+   "modules": [
+    "kernel",
+    "plan",
+    "query",
+    "tests"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "22ef55809767380297ddc2a27a817a48b303767c",
+   "short": "22ef55809",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-05T01:51:52+01:00",
+   "subject": "test: expose default pole mask membership bug",
+   "kind": "test",
+   "module": "query",
+   "modules": [
+    "query"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0a91e0f7738f2a3fd4d84b7d96c46912f00e462c",
+   "short": "0a91e0f77",
+   "author": "chris",
+   "date": "2026-11-04T16:45:25-08:00",
+   "subject": "test: audit duplicate replay inputs and add uniqueness guard",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "eines",
+    "tests"
+   ],
+   "files": 24,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d05d528958837c80bd5ba194ecba73d03f49f956",
+   "short": "d05d52895",
+   "author": "Thijs Damsma",
+   "date": "2026-11-05T01:33:47+01:00",
+   "subject": "fix: reject preparation copy failures during replay edits",
+   "kind": "fix",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "cf145b72688ede8ef9bfe62435576053428872ed",
+   "short": "cf145b726",
+   "author": "Thijs Damsma",
+   "date": "2026-11-05T01:10:40+01:00",
+   "subject": "fix: preserve record mappings through replay body copies",
+   "kind": "fix",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "91ddbce0a34963e4405284230eefb6cde515b35c",
+   "short": "91ddbce0a",
+   "author": "Alastair D'Silva",
+   "date": "2026-11-05T10:42:19+11:00",
+   "subject": "perf(blend): cache B-rep geometry, bounding boxes, and face caches across band-cut and break-through checks",
+   "kind": "perf",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "query",
+    "topology"
+   ],
+   "files": 5,
+   "watch": [
+    "round-larger-than-wall",
+    "chamfer"
+   ],
+   "ai": false
+  },
+  {
+   "sha": "70c830b7fe177d7c28571959517476976a5d818b",
+   "short": "70c830b7f",
+   "author": "Thijs Damsma",
+   "date": "2026-11-05T00:32:03+01:00",
+   "subject": "test: replay copies retain the callers face-index mapping",
+   "kind": "test",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0e1db0550572b50a90abbaf0e4ce9122b0f4d3b8",
+   "short": "0e1db0550",
+   "author": "Thijs Damsma",
+   "date": "2026-11-05T00:28:09+01:00",
+   "subject": "fix: replay offsets edit independent input copies",
+   "kind": "fix",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "afcc7c547e1e0443ee084045951a0afc60c4681b",
+   "short": "afcc7c547",
+   "author": "Thijs Damsma",
+   "date": "2026-11-05T00:13:57+01:00",
+   "subject": "test: discarded replay offsets must preserve retained inputs",
+   "kind": "test",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a9e7c44f1748c0bbbb3bc596d46d76887c46ccc8",
+   "short": "a9e7c44f1",
+   "author": "Thijs Damsma",
+   "date": "2026-11-04T23:19:37+01:00",
+   "subject": "fix: propagate NaN domain bounds without panicking",
+   "kind": "fix",
+   "module": "kernel",
+   "modules": [
+    "kernel"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "58c041694ba9c3cfe806b6d2abb0b52321959bc6",
+   "short": "58c041694",
+   "author": "aapolipponen",
+   "date": "2026-11-05T00:16:22+02:00",
+   "subject": "fix: an offset refuses an effectively zero approximation tolerance; the nightly's C++ crash is UB-291 (#2393)",
+   "kind": "fix",
+   "module": "plan",
+   "modules": [
+    "difftest",
+    "kernel",
+    "offset",
+    "plan",
+    "tests"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": false
+  }
+ ],
+ "prs": [
+  {
+   "number": 2637,
+   "title": "fix: a failed evaluation is not a value in the minimum-radius search (#2574)",
+   "branch": "test/2574-straight-trim-false-cusp",
+   "owner": "MarkusReichart",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-05T05:51:10-05:00",
+   "issue_refs": [
+    2574
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2716,
+   "title": "refactor: Brep is not Clone; a refused fillet keeps its geometry's owners (#2715)",
+   "branch": "fix/2715",
+   "owner": "aapolipponen",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-04T23:08:13-05:00",
+   "issue_refs": [
+    2715
+   ],
+   "upstream_refs": [],
+   "kind": "chore",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2733,
+   "title": "fix: an offset refuses an effectively zero approximation tolerance; the nightly's C++ crash is UB-291 (#2393)",
+   "branch": "fix/2393-offset-crash",
+   "owner": "aapolipponen",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-04T19:08:17-05:00",
+   "issue_refs": [
+    2393
+   ],
+   "upstream_refs": [
+    "UB-291"
+   ],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2735,
+   "title": "fix: a Boolean splits an edge where it passes the classified point, so a grazing groove cut stays valid (#2621)",
+   "branch": "fix/2621-m16-groove",
+   "owner": "aapolipponen",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-05T03:06:27-05:00",
+   "issue_refs": [
+    2621
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2743,
+   "title": "test: preserve distinct kernel cases and reject duplicate replay inputs (#2722)",
+   "branch": "fix/2722-trace-options",
+   "owner": "ChrisNourse",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-04T20:39:44-05:00",
+   "issue_refs": [
+    2722
+   ],
+   "upstream_refs": [],
+   "kind": "test",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2749,
+   "title": "fix: domain clamping propagates invalid NaN bounds (#2748)",
+   "branch": "fix/eval-domain-nan-bounds",
+   "owner": "tdamsma",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-04T22:52:15-05:00",
+   "issue_refs": [
+    2748
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2755,
+   "title": "fix: replay offset calls preserve inputs and face picks (#2754)",
+   "branch": "fix/kernel-case-offset-input-copies",
+   "owner": "tdamsma",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-04T20:01:56-05:00",
+   "issue_refs": [
+    2754
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2757,
+   "title": "fix: a taper extrude past its profile's centre stops on cancel (#2756)",
+   "branch": "fix/2756-taper-cancel",
+   "owner": "aapolipponen",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-04T21:53:04-05:00",
+   "issue_refs": [
+    2756
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": [
+    "hang-cancel"
+   ]
+  },
+  {
+   "number": 2758,
+   "title": "perf(blend): cache B-rep geometry, bounding boxes, and face caches across band-cut and break-through checks",
+   "branch": "perf/band-cuts-cache",
+   "owner": "InfernoEmbedded",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-04T19:08:08-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "perf",
+   "module": "blend",
+   "watch": [
+    "round-larger-than-wall"
+   ]
+  },
+  {
+   "number": 2759,
+   "title": "fix: honor face pole masks by default (WR-167)",
+   "branch": "fix/wr167-face-pole-mask-default",
+   "owner": "altvnk",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-04T20:13:56-05:00",
+   "issue_refs": [],
+   "upstream_refs": [
+    "WR-167"
+   ],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2760,
+   "title": "fix: preserve the longest appended gap by default (WR-90)",
+   "branch": "fix/wr90-gap-append-default",
+   "owner": "altvnk",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-04T20:53:41-05:00",
+   "issue_refs": [],
+   "upstream_refs": [
+    "WR-90"
+   ],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2762,
+   "title": "fix: analytic surface forms reject invalid parameter domains (#2761)",
+   "branch": "fix/eval-form-angle-domain",
+   "owner": "tdamsma",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-04T21:13:28-05:00",
+   "issue_refs": [
+    2761
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2763,
+   "title": "fix: preserve removed hash records across growth (WR-13)",
+   "branch": "fix/wr13-hash-growth-default",
+   "owner": "altvnk",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-05T05:57:06-05:00",
+   "issue_refs": [],
+   "upstream_refs": [
+    "WR-13"
+   ],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2767,
+   "title": "difftest: main's sweep compares typed refusals by status, lists WR-737's measured cases and waives HANG-53's refusals",
+   "branch": "fix/main-sweep-statuses-and-records",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-04T21:41:09-05:00",
+   "issue_refs": [],
+   "upstream_refs": [
+    "HANG-53",
+    "WR-737"
+   ],
+   "kind": "difftest",
+   "module": null,
+   "watch": [
+    "hang-cancel"
+   ]
+  },
+  {
+   "number": 2771,
+   "title": "sweep: place a planar profile segment as a sweep curve",
+   "branch": "sweep-profile-curve",
+   "owner": "AlexMitchellMus",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-04T22:26:30-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": "sweep",
+   "watch": []
+  },
+  {
+   "number": 2772,
+   "title": "sweep: place curved profile segments as NURBS",
+   "branch": "seg2-nurbs",
+   "owner": "AlexMitchellMus",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-04T23:08:02-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": "sweep",
+   "watch": []
+  },
+  {
+   "number": 2774,
+   "title": "CI: the test job fetches upstream, so tests that read its TestFiles run instead of skipping",
+   "branch": "ci/test-job-runs-upstream-tests",
+   "owner": "tangency-labs",
+   "merged_by": "jyviko",
+   "merged_at": "2026-11-05T05:44:55-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2775,
+   "title": "difftest: the last six cases of main's sweep, measured (two WR-737 spheres, a fillet check that wrote to the body, a too-small refusal)",
+   "branch": "fix/2768-last-sweep-cases-v2",
+   "owner": "tangency-labs",
+   "merged_by": "jyviko",
+   "merged_at": "2026-11-05T05:45:54-05:00",
+   "issue_refs": [
+    2768
+   ],
+   "upstream_refs": [
+    "WR-737"
+   ],
+   "kind": "difftest",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2778,
+   "title": "fix: prevent a panic when dropping degree-zero curves onto cylinders",
+   "branch": "fix/cylinder-drop-zero-degree",
+   "owner": "tdamsma",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-05T01:30:09-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2781,
+   "title": "fix(fillet_section): the G^n certificate accepts a level by each uv parameter's own error",
+   "branch": "fix/gn-certificate-componentwise-accept",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-05T02:35:04-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": "fillet_section",
+   "watch": []
+  },
+  {
+   "number": 2783,
+   "title": "perf: stream setback QP constraint rows (#2344b)",
+   "branch": "perf/2344-streamed-qp-rows",
+   "owner": "ChrisNourse",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-05T05:02:21-05:00",
+   "issue_refs": [
+    2344
+   ],
+   "upstream_refs": [],
+   "kind": "perf",
+   "module": null,
+   "watch": [
+    "setback"
+   ]
+  },
+  {
+   "number": 2784,
+   "title": "fix: check the last control-net step against its closed seam (#2683)",
+   "branch": "fix/2683-closed-grid-seam",
+   "owner": "fdalmaso",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-05T04:50:39-05:00",
+   "issue_refs": [
+    2683
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": [
+    "seam"
+   ]
+  },
+  {
+   "number": 2786,
+   "title": "difftest: register the measured WR-752 seam cases (follow-up to #2784)",
+   "branch": "difftest/2683-wr752-evidence",
+   "owner": "fdalmaso",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-05T05:37:23-05:00",
+   "issue_refs": [
+    2683,
+    2784
+   ],
+   "upstream_refs": [
+    "WR-752"
+   ],
+   "kind": "difftest",
+   "module": null,
+   "watch": [
+    "seam"
+   ]
+  },
+  {
+   "number": 2787,
+   "title": "refactor: share setback affine sector preparation",
+   "branch": "refactor/2344-sector-preparation",
+   "owner": "ChrisNourse",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-05T05:37:13-05:00",
+   "issue_refs": [
+    2344
+   ],
+   "upstream_refs": [],
+   "kind": "chore",
+   "module": null,
+   "watch": [
+    "setback"
+   ]
+  },
+  {
+   "number": 2792,
+   "title": "difftest: geom.hash_table — record the WR-13 growth case",
+   "branch": "fix/hash-growth-cpp-defect-case",
+   "owner": "tdamsma",
+   "merged_by": "jyviko",
+   "merged_at": "2026-11-05T16:43:55-05:00",
+   "issue_refs": [],
+   "upstream_refs": [
+    "WR-13"
+   ],
+   "kind": "difftest",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2799,
+   "title": "AGENTS.md: what to work on now. The SMLib switch came with bugs; self-found defects and speed tricks wait",
+   "branch": "docs/agents-priorities",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-05T07:09:05-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2806,
+   "title": "difftest: record the seven cases #2735 moved (WR-751), for #2794",
+   "branch": "fix/2794-boolean-split-moved-cases",
+   "owner": "tdamsma",
+   "merged_by": "jyviko",
+   "merged_at": "2026-11-05T16:44:00-05:00",
+   "issue_refs": [
+    2735,
+    2794
+   ],
+   "upstream_refs": [
+    "WR-751"
+   ],
+   "kind": "difftest",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2808,
+   "title": "docs: the setback scale search stated as it is (monotonicity assumed and checked on a grid, not proved)",
+   "branch": "docs/setback-scale-claim-fix",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-05T09:35:59-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "docs",
+   "module": null,
+   "watch": [
+    "setback"
+   ]
+  },
+  {
+   "number": 2810,
+   "title": "Reference-doc schematics keep their labels as readable text",
+   "branch": "docs-live-text-figures",
+   "owner": "tangency-labs",
+   "merged_by": "jyviko",
+   "merged_at": "2026-11-05T10:25:40-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2812,
+   "title": "Layers figure: the kernel's result goes back through convert",
+   "branch": "docs-live-text-figures",
+   "owner": "tangency-labs",
+   "merged_by": "jyviko",
+   "merged_at": "2026-11-05T10:43:02-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2813,
+   "title": "Add solidcore-diag, a picture and tolerance report of one .smb body",
+   "branch": "diagnostics-helper",
+   "owner": "tangency-labs",
+   "merged_by": "jyviko",
+   "merged_at": "2026-11-05T10:47:55-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2821,
+   "title": "wire: replay chamfer_sides in the kernel rig (#2819)",
+   "branch": "wire/rig-chamfer-sides",
+   "owner": "tdamsma",
+   "merged_by": "jyviko",
+   "merged_at": "2026-11-05T16:09:31-05:00",
+   "issue_refs": [
+    2819
+   ],
+   "upstream_refs": [],
+   "kind": "wire",
+   "module": null,
+   "watch": [
+    "chamfer"
+   ]
+  },
+  {
+   "number": 2824,
+   "title": "Kernel rig: count the final bodies as their records write them",
+   "branch": "claude/fix-2817-rig-record-counts-9607f6",
+   "owner": "MarkusReichart",
+   "merged_by": "jyviko",
+   "merged_at": "2026-11-05T16:09:27-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2828,
+   "title": "fix: preserve first occurrence of repeated rig blend picks (#2827)",
+   "branch": "fix/rig-repeated-blend-picks",
+   "owner": "tdamsma",
+   "merged_by": "jyviko",
+   "merged_at": "2026-11-05T16:09:35-05:00",
+   "issue_refs": [
+    2827
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2832,
+   "title": "kernel rig: boss-tilt-40's round graded on its closed forms, off the known-failing list",
+   "branch": "test/rig-boss-tilt-40",
+   "owner": "MarkusReichart",
+   "merged_by": "jyviko",
+   "merged_at": "2026-11-05T16:18:29-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2838,
+   "title": "Reference docs for booleans, offset and shell, validity and tolerances, and a guide for coordinating agents",
+   "branch": "docs-coordinating",
+   "owner": "tangency-labs",
+   "merged_by": "jyviko",
+   "merged_at": "2026-11-05T13:50:45-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2847,
+   "title": "Generate the kernel case gallery from the cases; pull requests no longer edit docs for a case",
+   "branch": "docs-case-gallery",
+   "owner": "tangency-labs",
+   "merged_by": "jyviko",
+   "merged_at": "2026-11-05T15:51:09-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2854,
+   "title": "Kernel rig: list the two main failures no open fix covers",
+   "branch": "rig-list-two-failures",
+   "owner": "tangency-labs",
+   "merged_by": "jyviko",
+   "merged_at": "2026-11-05T15:45:15-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2862,
+   "title": "wire: replay loft in the kernel rig (#2861)",
+   "branch": "wire/rig-loft",
+   "owner": "tdamsma",
+   "merged_by": "jyviko",
+   "merged_at": "2026-11-05T16:44:05-05:00",
+   "issue_refs": [
+    2861
+   ],
+   "upstream_refs": [],
+   "kind": "wire",
+   "module": null,
+   "watch": [
+    "loft-skin"
+   ]
+  },
+  {
+   "number": 2865,
+   "title": "kernel rig: list the partial-chain case against #2864, with its measured reason",
+   "branch": "test/rig-partial-chain-reason",
+   "owner": "MarkusReichart",
+   "merged_by": "jyviko",
+   "merged_at": "2026-11-05T16:43:51-05:00",
+   "issue_refs": [
+    2864
+   ],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2868,
+   "title": "kernel rig: boss-tilt-20 is refused naming 0.262514174, off the known-failing list",
+   "branch": "test/rig-boss-tilt-20-refusal",
+   "owner": "MarkusReichart",
+   "merged_by": "jyviko",
+   "merged_at": "2026-11-05T16:51:02-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2875,
+   "title": "CodeRabbit reviews against AGENTS.md and each area's reference doc",
+   "branch": "coderabbit-aligned",
+   "owner": "tangency-labs",
+   "merged_by": "jyviko",
+   "merged_at": "2026-11-05T18:29:46-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  }
+ ],
+ "watch": [
+  {
+   "id": "setback",
+   "label": "Cantonades setback",
+   "cases": [
+    "C05",
+    "D01",
+    "D02"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "3421ccb7b",
+     "text": "docs: the setback scale search stated as it is: monotonicity assumed and checked on a grid, not proved",
+     "url": "https://github.com/tangency-labs/solidcore/commit/3421ccb7b143216fd15967619947db8b76569b3a"
+    },
+    {
+     "source": "commit",
+     "ref": "4b0d64205",
+     "text": "docs: the setback scale search stated as it is; two PR validation logs leave docs/",
+     "url": "https://github.com/tangency-labs/solidcore/commit/4b0d642059169002e75932e2b84dbabb5ab8baab"
+    },
+    {
+     "source": "commit",
+     "ref": "1e8cd33c4",
+     "text": "refactor: share setback affine sector preparation",
+     "url": "https://github.com/tangency-labs/solidcore/commit/1e8cd33c435100df7fc1a0aface85d9510a01952"
+    },
+    {
+     "source": "commit",
+     "ref": "824ddcabd",
+     "text": "test: bound streamed setback working sets and record first results",
+     "url": "https://github.com/tangency-labs/solidcore/commit/824ddcabd65c4016a88d1de33549b29ff2eb8ad0"
+    },
+    {
+     "source": "commit",
+     "ref": "50efc6b87",
+     "text": "perf: stream setback sector rows into QP working sets",
+     "url": "https://github.com/tangency-labs/solidcore/commit/50efc6b87c9a301e1ad51d1c0ee9d73cdfd217ac"
+    },
+    {
+     "source": "pr",
+     "ref": "#2783",
+     "text": "perf: stream setback QP constraint rows (#2344b)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2783"
+    },
+    {
+     "source": "pr",
+     "ref": "#2787",
+     "text": "refactor: share setback affine sector preparation",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2787"
+    },
+    {
+     "source": "pr",
+     "ref": "#2808",
+     "text": "docs: the setback scale search stated as it is (monotonicity assumed and checked on a grid, not proved)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2808"
+    },
+    {
+     "source": "github",
+     "ref": "#2835",
+     "text": "Setback corner: an asked setback past the rounds' rails is refused without naming the setback that builds",
+     "url": "https://github.com/tangency-labs/solidcore/issues/2835"
+    },
+    {
+     "source": "github",
+     "ref": "#2808",
+     "text": "docs: the setback scale search stated as it is (monotonicity assumed and checked on a grid, not proved)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2808"
+    },
+    {
+     "source": "github",
+     "ref": "#2807",
+     "text": "docs: the setback scale search stated as it is (monotonicity assumed, not proved); two validation logs leave docs/",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2807"
+    },
+    {
+     "source": "github",
+     "ref": "#2787",
+     "text": "refactor: share setback affine sector preparation",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2787"
+    },
+    {
+     "source": "github",
+     "ref": "#2783",
+     "text": "perf: stream setback QP constraint rows (#2344b)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2783"
+    }
+   ]
+  },
+  {
+   "id": "mixed-corner",
+   "label": "Cantonades mixtes",
+   "cases": [
+    "D01",
+    "D02"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "37b8e7ab5",
+     "text": "Kernel rig: the peg chamfer case's known failure is the Mixed corner face standing out of the front face (#2849)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/37b8e7ab58d609e1661b4ba5e98fc6a50e1be550"
+    },
+    {
+     "source": "github",
+     "ref": "#2849",
+     "text": "Blend: the Mixed corner's chamfer face stands 7.2e-4 out of the peg's front face (rig report-peg-front-and-concave-chamfers-together-d2)",
+     "url": "https://github.com/tangency-labs/solidcore/issues/2849"
+    }
+   ]
+  },
+  {
+   "id": "ball-patch",
+   "label": "Ball patch (cantonades esfèriques)",
+   "cases": [
+    "C05",
+    "D11"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "a6314d4b3",
+     "text": "surface: every caller extends a surface exactly (extended_sides): analytic kinds, ball patches and blends as themselves, offsets as their base extended",
+     "url": "https://github.com/tangency-labs/solidcore/commit/a6314d4b314e1bc936597dbffdeacfa075eff1ed"
+    }
+   ]
+  },
+  {
+   "id": "variable-radius",
+   "label": "Radi variable / lleis de radi",
+   "cases": [
+    "D07"
+   ],
+   "hits": [
+    {
+     "source": "github",
+     "ref": "#2871",
+     "text": "solidcore-ops fillet_variable refuses a radius law with a corner; step-by-step sessions skip the split at the law's corners",
+     "url": "https://github.com/tangency-labs/solidcore/issues/2871"
+    },
+    {
+     "source": "github",
+     "ref": "#2872",
+     "text": "fillet_variable: a radius law with a corner is its balls' union (split in do_filleting)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2872"
+    },
+    {
+     "source": "github",
+     "ref": "#2874",
+     "text": "Variable round: a radius law whose curve is a single point builds as the constant round (#2706)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2874"
+    }
+   ]
+  },
+  {
+   "id": "round-larger-than-wall",
+   "label": "Arrodoniment més gran que la paret",
+   "cases": [
+    "D03",
+    "D08"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "91ddbce0a",
+     "text": "perf(blend): cache B-rep geometry, bounding boxes, and face caches across band-cut and break-through checks",
+     "url": "https://github.com/tangency-labs/solidcore/commit/91ddbce0a34963e4405284230eefb6cde515b35c"
+    },
+    {
+     "source": "pr",
+     "ref": "#2758",
+     "text": "perf(blend): cache B-rep geometry, bounding boxes, and face caches across band-cut and break-through checks",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2758"
+    }
+   ]
+  },
+  {
+   "id": "shell-rounded",
+   "label": "Buidat de cossos arrodonits",
+   "cases": [
+    "D11",
+    "D14"
+   ],
+   "hits": [
+    {
+     "source": "github",
+     "ref": "#2834",
+     "text": "Shell on the default kernel: a rounded box (#2484's case) shells to a body with vertex gaps and no integrable volume, reported Ok",
+     "url": "https://github.com/tangency-labs/solidcore/issues/2834"
+    },
+    {
+     "source": "github",
+     "ref": "#2769",
+     "text": "Exact extension (#2730): five consuming operations move when the extension is exact (offset gaps, fillet put-back, shell, a volume, defillet)",
+     "url": "https://github.com/tangency-labs/solidcore/issues/2769"
+    }
+   ]
+  },
+  {
+   "id": "hang-cancel",
+   "label": "Penjaments, temps límit i cancel·lació",
+   "cases": [
+    "C03",
+    "D02",
+    "D11"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "f7a7ee110",
+     "text": "offset: a face whose offset collapses (a round offset by its radius) is refused, naming why (#2350)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/f7a7ee1106be847156c3ce736ed7d3e746d76b18",
+     "matched": "the extrusion, the fillet2 rounded outsets, issue_2350's flag-off case, HANG-51)."
+    },
+    {
+     "source": "commit",
+     "ref": "c12f7f948",
+     "text": "test: cover streamed row cancellation at curved dimensions",
+     "url": "https://github.com/tangency-labs/solidcore/commit/c12f7f948604828984b10ac6c1856a981f622b5b"
+    },
+    {
+     "source": "commit",
+     "ref": "574f3527d",
+     "text": "test: a slow parametrisation keeps its minimum radius (#2574)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/574f3527d4761faa7d2ff9a416d9c8066560a5d7",
+     "matched": "finite minimum can fall under `scaled_zero` and be answered as unbounded."
+    },
+    {
+     "source": "commit",
+     "ref": "feeb87621",
+     "text": "difftest: record and list the 86 cases where this fix leaves the pinned C++",
+     "url": "https://github.com/tangency-labs/solidcore/commit/feeb87621d2a6b8cf58b996c8dfbc674cddae0e8",
+     "matched": "unbounded radius, 3 where the analysis reports no solution)."
+    },
+    {
+     "source": "commit",
+     "ref": "44bbe197b",
+     "text": "fix: a failed evaluation is not a value in the minimum-radius search (#2574)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/44bbe197b942bf974ecf3998b59bdeb7f219cbc3",
+     "matched": "vanishes. In closed form the radius of curvature is unbounded there, so that"
+    },
+    {
+     "source": "commit",
+     "ref": "6daa93a62",
+     "text": "difftest: waive the six offset cases HANG-53's refusal moves from pass to rejected",
+     "url": "https://github.com/tangency-labs/solidcore/commit/6daa93a629bb9378ff0080a6e536efbec93ad686"
+    },
+    {
+     "source": "commit",
+     "ref": "9ab1ec874",
+     "text": "fix: a taper extrude past its profile's centre stops on cancel (#2756)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/9ab1ec874745ae64e7daae34bfe887393a2e8962"
+    },
+    {
+     "source": "pr",
+     "ref": "#2757",
+     "text": "fix: a taper extrude past its profile's centre stops on cancel (#2756)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2757"
+    },
+    {
+     "source": "pr",
+     "ref": "#2767",
+     "text": "difftest: main's sweep compares typed refusals by status, lists WR-737's measured cases and waives HANG-53's refusals",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2767"
+    },
+    {
+     "source": "github",
+     "ref": "#2870",
+     "text": "CI shell cancellation test gets make_faceuse 1001 at the 1.5 s cancellation attempt",
+     "url": "https://github.com/tangency-labs/solidcore/issues/2870"
+    },
+    {
+     "source": "github",
+     "ref": "#2873",
+     "text": "fix: preserve cancellation through boolean status handlers (#2870)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2873"
+    }
+   ]
+  },
+  {
+   "id": "corner-blend",
+   "label": "Corner blend (CreateCornerBlend / Coons)",
+   "cases": [
+    "C05",
+    "D02"
+   ],
+   "hits": []
+  },
+  {
+   "id": "chamfer",
+   "label": "Xamfrans",
+   "cases": [],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "37b8e7ab5",
+     "text": "Kernel rig: the peg chamfer case's known failure is the Mixed corner face standing out of the front face (#2849)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/37b8e7ab58d609e1661b4ba5e98fc6a50e1be550"
+    },
+    {
+     "source": "commit",
+     "ref": "884148b79",
+     "text": "Kernel rig: list the two main failures no open fix covers",
+     "url": "https://github.com/tangency-labs/solidcore/commit/884148b7976c0496622e702a7aa48ad21fb70925",
+     "matched": "(#2851); report-peg-front-and-concave-chamfers-together-d2 is graded"
+    },
+    {
+     "source": "commit",
+     "ref": "dffd54b21",
+     "text": "fix: reject chamfer preparation failures during rig replay",
+     "url": "https://github.com/tangency-labs/solidcore/commit/dffd54b21cc21587f3fe058d595c89c561859276"
+    },
+    {
+     "source": "commit",
+     "ref": "ac401f382",
+     "text": "test: cover chamfer measurement-copy entity renumbering",
+     "url": "https://github.com/tangency-labs/solidcore/commit/ac401f382e17ebe93a3d1547040e7c5af9fec10e"
+    },
+    {
+     "source": "commit",
+     "ref": "0e5e2cd64",
+     "text": "wire: replay ordered chamfer sides in the kernel rig",
+     "url": "https://github.com/tangency-labs/solidcore/commit/0e5e2cd64b17262b7b0f8f8c1651858e9d96ac36"
+    },
+    {
+     "source": "commit",
+     "ref": "d25e345cf",
+     "text": "rig: boolean, extrude, revolve and the blend run through solidcore-ops",
+     "url": "https://github.com/tangency-labs/solidcore/commit/d25e345cf4372f1e56ea8ffdf2b405895fdde6a2",
+     "matched": "curvature, chord, chamfer) now call solidcore-ops; a profile is read as"
+    },
+    {
+     "source": "commit",
+     "ref": "91ddbce0a",
+     "text": "perf(blend): cache B-rep geometry, bounding boxes, and face caches across band-cut and break-through checks",
+     "url": "https://github.com/tangency-labs/solidcore/commit/91ddbce0a34963e4405284230eefb6cde515b35c",
+     "matched": "On multi-edge fillets and chamfers on complex B-reps (150-215 faces, 400+ edges), this reduces per-feature blend kernel time by 21x-26x (e.g. an 18-edge fillet drops from 25.36s to 0.99s)."
+    },
+    {
+     "source": "pr",
+     "ref": "#2821",
+     "text": "wire: replay chamfer_sides in the kernel rig (#2819)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2821"
+    },
+    {
+     "source": "github",
+     "ref": "#2849",
+     "text": "Blend: the Mixed corner's chamfer face stands 7.2e-4 out of the peg's front face (rig report-peg-front-and-concave-chamfers-together-d2)",
+     "url": "https://github.com/tangency-labs/solidcore/issues/2849"
+    },
+    {
+     "source": "github",
+     "ref": "#2819",
+     "text": "Kernel rig: wire existing chamfer_sides operation for recorded two-distance and angle cases",
+     "url": "https://github.com/tangency-labs/solidcore/issues/2819"
+    },
+    {
+     "source": "github",
+     "ref": "#2858",
+     "text": "Query: tight face and body boxes exclude the Mixed chamfer face in the peg case",
+     "url": "https://github.com/tangency-labs/solidcore/issues/2858"
+    },
+    {
+     "source": "github",
+     "ref": "#2852",
+     "text": "Kernel rig: grade report-peg-front-and-concave-chamfers-together-d2 on a closed form, not SMLib's measured volume",
+     "url": "https://github.com/tangency-labs/solidcore/issues/2852"
+    },
+    {
+     "source": "github",
+     "ref": "#2804",
+     "text": "fix(blend): a knife edge chamfered at equal distances builds, as the chord between the ball's contacts",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2804"
+    },
+    {
+     "source": "github",
+     "ref": "#2821",
+     "text": "wire: replay chamfer_sides in the kernel rig (#2819)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2821"
+    }
+   ]
+  },
+  {
+   "id": "loft-skin",
+   "label": "Loft / skin (superfícies B-spline arrodonides)",
+   "cases": [
+    "D14"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "ce2bfdfba",
+     "text": "wire: replay recorded loft operations in the kernel rig (#2861)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/ce2bfdfbad340bfa88881ee3292c08b93e8ccde4"
+    },
+    {
+     "source": "commit",
+     "ref": "bb5dc235d",
+     "text": "tests: issue_1818's mated shell of the square-to-circle loft is a sound body on the exact extensions (#2769)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/bb5dc235d471819c443587755db803f91e12ff8f"
+    },
+    {
+     "source": "commit",
+     "ref": "8517efe00",
+     "text": "sweep: place a planar profile segment as a sweep curve",
+     "url": "https://github.com/tangency-labs/solidcore/commit/8517efe009633a01713be38b0dbb510d294bf46b",
+     "matched": "Adds Curve::from_seg2, which maps a solidcore-record Seg2 line or arc onto a record Plane. This lets profile sections feed loft, sweep and sweep-stations directly without an application-side curve con"
+    },
+    {
+     "source": "pr",
+     "ref": "#2862",
+     "text": "wire: replay loft in the kernel rig (#2861)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2862"
+    },
+    {
+     "source": "github",
+     "ref": "#2844",
+     "text": "Fillet: rounding a square-to-circle loft's circular rim gives a body that is not closed (solidcraft#12034)",
+     "url": "https://github.com/tangency-labs/solidcore/issues/2844"
+    },
+    {
+     "source": "github",
+     "ref": "#2861",
+     "text": "Kernel rig: replay the existing loft operation for recorded sections",
+     "url": "https://github.com/tangency-labs/solidcore/issues/2861"
+    },
+    {
+     "source": "github",
+     "ref": "#2862",
+     "text": "wire: replay loft in the kernel rig (#2861)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2862"
+    }
+   ]
+  },
+  {
+   "id": "step",
+   "label": "STEP (import / export)",
+   "cases": [
+    "anada i tornada STEP"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "59592cbbc",
+     "text": "fix: a cliff overflow's failed check puts the target back, and the corpus gate reports a baseline it cannot check",
+     "url": "https://github.com/tangency-labs/solidcore/commit/59592cbbc2135eab40b73b8ac1bfaceb946ec2a5",
+     "matched": "an empty body; both now restore it first. The STEP corpus test counted a failed copy or"
+    },
+    {
+     "source": "github",
+     "ref": "#2857",
+     "text": "Body::to_smb returns Unported for a read body holding a hyperbola, composite or offset curve, STEP surface or surface in a volume",
+     "url": "https://github.com/tangency-labs/solidcore/issues/2857"
+    },
+    {
+     "source": "github",
+     "ref": "#2860",
+     "text": "to_smb: write hyperbolas, composite and offset curves, STEP surfaces and surfaces in volumes",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2860"
+    }
+   ]
+  },
+  {
+   "id": "platform",
+   "label": "Plataformes (wasm, iOS, ARM)",
+   "cases": [
+    "iPad"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "0e1db0550",
+     "text": "fix: replay offsets edit independent input copies",
+     "url": "https://github.com/tangency-labs/solidcore/commit/0e1db0550572b50a90abbaf0e4ce9122b0f4d3b8",
+     "matched": "Copy shell, face-offset and thicken inputs and resolve the copy record order before editing. The three successful discarded-operation regressions pass, as do the 98 operations tests, strict clippy, wa"
+    }
+   ]
+  },
+  {
+   "id": "determinism",
+   "label": "Determinisme",
+   "cases": [
+    "resultats idèntics Mac/iPad"
+   ],
+   "hits": []
+  },
+  {
+   "id": "upstream-fixes",
+   "label": "Flags d'UpstreamFixes",
+   "cases": [
+    "configuració del kernel a l'app"
+   ],
+   "hits": []
+  },
+  {
+   "id": "seam",
+   "label": "Costures (seam) i arestes partides",
+   "cases": [
+    "lliçó: no triar arestes en costures"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "d89efa1af",
+     "text": "kernel cases: the partial-chain case is listed against #2864, with its measured reason",
+     "url": "https://github.com/tangency-labs/solidcore/commit/d89efa1af9ce353484c7c45aaad34352b743cf1a",
+     "matched": "The case's round stops at the cylinder's seam with a step (19085.7707"
+    },
+    {
+     "source": "commit",
+     "ref": "95192d385",
+     "text": "offset: a face's surface is extended by its offset's reach past the face, not five offsets (#2769)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/95192d38505d91bd8df939d2544e251a617c4d92",
+     "matched": "wr_578 seam 200 now shells sound (manifold, integrity clean, 1.5e-7 off the fork's closed"
+    },
+    {
+     "source": "commit",
+     "ref": "a6314d4b3",
+     "text": "surface: every caller extends a surface exactly (extended_sides): analytic kinds, ball patches and blends as themselves, offsets as their base extended",
+     "url": "https://github.com/tangency-labs/solidcore/commit/a6314d4b314e1bc936597dbffdeacfa075eff1ed",
+     "matched": "faces, the B-rep face extensions (lamina, seam). An offset joint at multiplicity p is a"
+    },
+    {
+     "source": "commit",
+     "ref": "2b3ed06e9",
+     "text": "difftest: register the two measured WR-752 seam defects",
+     "url": "https://github.com/tangency-labs/solidcore/commit/2b3ed06e9d0fc821b74697d4500c0969510c3593"
+    },
+    {
+     "source": "commit",
+     "ref": "d9a7416a3",
+     "text": "docs: measure closed-seam C++ diagnostic differences",
+     "url": "https://github.com/tangency-labs/solidcore/commit/d9a7416a325fdd495820b42cf1aa90437cbea1ed"
+    },
+    {
+     "source": "commit",
+     "ref": "09e49ec58",
+     "text": "fix: complete closed control-net monotonicity walks",
+     "url": "https://github.com/tangency-labs/solidcore/commit/09e49ec5824dcbe292cc8b2f1497d9591f237832",
+     "matched": "Compare the last direction with the first for closed rows and columns, retaining the rounding walk across directionless seam steps. Add cyclic-start, winding, transpose, rounding and open-line regress"
+    },
+    {
+     "source": "commit",
+     "ref": "60b374b8d",
+     "text": "fix: the #2621 split moves only for a point on the edge; pins that move to nearer splits",
+     "url": "https://github.com/tangency-labs/solidcore/commit/60b374b8d13cde0916e48bf48e58346de8c985d5",
+     "matched": "- wr490_equal_rods_and_tubes: seam 35 now joins into a manifold solid within"
+    },
+    {
+     "source": "pr",
+     "ref": "#2784",
+     "text": "fix: check the last control-net step against its closed seam (#2683)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2784"
+    },
+    {
+     "source": "pr",
+     "ref": "#2786",
+     "text": "difftest: register the measured WR-752 seam cases (follow-up to #2784)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2786"
+    },
+    {
+     "source": "finding",
+     "ref": "surface.surface_assert_valid",
+     "text": "surface.surface_assert_valid: register the measured WR-752 cases (2026-11-05)",
+     "url": "https://github.com/tangency-labs/solidcore/blob/40ce13c5dad9436686c14bc3be170d7bef64b3ce/plan/findings/surface.surface_assert_valid--closed-seam-comparison-issue-2683--addendum-2026-11-05-register-cpp-defects.md"
+    },
+    {
+     "source": "finding",
+     "ref": "surface.surface_assert_valid",
+     "text": "surface.surface_assert_valid: closed-seam comparison and its measured C++ differences (2026-11-05)",
+     "url": "https://github.com/tangency-labs/solidcore/blob/40ce13c5dad9436686c14bc3be170d7bef64b3ce/plan/findings/surface.surface_assert_valid--closed-seam-comparison-issue-2683.md"
+    },
+    {
+     "source": "github",
+     "ref": "#2826",
+     "text": "Boolean union depends on cylinder seam placement: a symmetric join half becomes Smooth",
+     "url": "https://github.com/tangency-labs/solidcore/issues/2826"
+    },
+    {
+     "source": "github",
+     "ref": "#2864",
+     "text": "Blend: a picked edge split at a seam ends its round at the seam's vertex with a step; it should run on into the same curve, or refuse",
+     "url": "https://github.com/tangency-labs/solidcore/issues/2864"
+    },
+    {
+     "source": "github",
+     "ref": "#2869",
+     "text": "blend: a round whose edge runs on across a seam's vertex is refused, not ended in a step (#2864, part 1)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2869"
+    },
+    {
+     "source": "github",
+     "ref": "#2766",
+     "text": "[WIP] fix(boolean): an intersection edge classified onto a seam is built on the seam (#2538)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2766"
+    },
+    {
+     "source": "github",
+     "ref": "#2786",
+     "text": "difftest: register the measured WR-752 seam cases (follow-up to #2784)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2786"
+    },
+    {
+     "source": "github",
+     "ref": "#2784",
+     "text": "fix: check the last control-net step against its closed seam (#2683)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2784"
+    }
+   ]
+  }
+ ],
+ "units": {
+  "total": 282,
+  "counts": {
+   "green": 263,
+   "blocked": 1,
+   "partial": 18
+  },
+  "status_changes": [
+   {
+    "unit": "offset.offset_executive_p1",
+    "before": "green",
+    "after": "partial"
+   },
+   {
+    "unit": "offset.offset_executive_p2",
+    "before": "green",
+    "after": "partial"
+   },
+   {
+    "unit": "offset.offset_geometry_creation",
+    "before": "green",
+    "after": "partial"
+   },
+   {
+    "unit": "topology.assert_valid",
+    "before": "green",
+    "after": "partial"
+   },
+   {
+    "unit": "topology.brep_p3",
+    "before": "green",
+    "after": "partial"
+   }
+  ],
+  "notes_updated": [
+   "nlib.srf_adv_p1",
+   "nlib.srf_adv_p2",
+   "nurbs.b_spline_surface_n_lib_p1",
+   "surface.offset_surface",
+   "surface.plane_p1",
+   "surface.surf_of_extrusion_p2",
+   "surface.surface_p2",
+   "topology.brep_p3"
+  ],
+  "not_green": [
+   "blend.feature_executive",
+   "blend.fillet_corner_p2",
+   "blend.fillet_corner_p3",
+   "blend.fillet_executive_p3",
+   "blend.fillet_geom_p4",
+   "intersect.api_intersectors",
+   "intersect.surface_intersector_p2",
+   "offset.offset_executive_p1",
+   "offset.offset_executive_p2",
+   "offset.offset_geometry_creation",
+   "primitive.api_trim_ops",
+   "surface.torus",
+   "topology.api_files",
+   "topology.api_projection",
+   "topology.assert_valid",
+   "topology.brep_cutting",
+   "topology.brep_local_operation",
+   "topology.brep_p3",
+   "topology.brep_planar_section"
+  ]
+ },
+ "upstream_issues": {
+  "total": 737,
+  "counts": {
+   "WR": 410,
+   "UB": 257,
+   "HANG": 52,
+   "ND": 11,
+   "DOC": 5,
+   "FAIL": 1,
+   "ISSUE": 1
+  },
+  "new": [
+   {
+    "id": "UB-291",
+    "title": "UB-291. `DoExtendedOffset` keeps a face whose build failed, and `ReplaceSurface` dereferences its surface's null owner face (SIGSEGV)",
+    "file": "UB-291--extended-offset-replacesurface-dereferences-the-null-owner-of-a-half-built-face.md"
+   },
+   {
+    "id": "WR-749",
+    "title": "WR-749. The solid and extended offsets set an effectively zero approximation tolerance as the offset B-rep's tolerance, and build a body that fails its own validity check",
+    "file": "WR-749--offset-b-rep-takes-an-effectively-zero-approximation-tolerance.md"
+   },
+   {
+    "id": "WR-750",
+    "title": "WR-750. `SmLocalSolve1d::SolveIt` without an interval iterates from a failed first evaluation",
+    "file": "WR-750--solveit-failed-first-evaluation-without-interval.md"
+   },
+   {
+    "id": "WR-751",
+    "title": "WR-751. `MergeIntoObject` splits an edge at the classification's parameter, not where the edge passes the classified point",
+    "file": "WR-751--mergeintoobject-splits-edge-off-the-classified-point.md"
+   },
+   {
+    "id": "WR-752",
+    "title": "WR-752. `SmPointGrid::SetUpMonotonic` omits the last turn of a closed row or column",
+    "file": "WR-752--point-grid-misses-last-turn-at-closed-seam.md"
+   }
+  ],
+  "removed": [],
+  "retitled": [],
+  "new_addenda": [
+   "UB-280--addendum-2026-11-04-rb-33-crash.md",
+   "WR-13--addendum-2026-11-05-default-preservation.md",
+   "WR-13--addendum-2026-11-05-growth-after-all-removed-native.md",
+   "WR-167--addendum-2026-11-05-default-pole-mask.md",
+   "WR-253--addendum-2026-11-04-failed-evaluation-has-no-value.md",
+   "WR-253--addendum-2026-11-05-measured-failed-evaluation-cases.md",
+   "WR-737--addendum-2026-11-05-gen0812-gen1016-measured-in-the-difftest-run.md",
+   "WR-751--addendum-2026-11-05-difftest-cases.md",
+   "WR-90--addendum-2026-11-05-default-append.md"
+  ]
+ },
+ "findings": {
+  "total": 720,
+  "new": [
+   {
+    "file": "blend.fillet_executive_p3--2718-moved-four-cases-too-small-refusal-and-check-writing-to-the-body-2026-11-05.md",
+    "title": "blend.fillet_executive_p3: four cases #2718 moved, measured; one is solidcore's too-small refusal, three were the refusal check writing to the body (2026-11-05)"
+   },
+   {
+    "file": "blend.fillet_executive_p3--corner-box-edge9-split-nearest-point.md",
+    "title": "blend.fillet_executive_p3: corner_box edge 9 moves 2.5e-7 with the nearest-point split (2026-11-05)"
+   },
+   {
+    "file": "intersect.surface_drop_lib_p3--zero-degree-cylinder-uv-sampling.md",
+    "title": "intersect.surface_drop_lib_p3: zero-degree cylinder UV sampling panics (2026-11-05)"
+   },
+   {
+    "file": "surface.exact-extension--difftest-cases-moved-2026-11-05.md",
+    "title": "The exact surface extension moves 446 difftest cases (2026-11-05)"
+   },
+   {
+    "file": "surface.surface_assert_valid--closed-seam-comparison-issue-2683--addendum-2026-11-05-register-cpp-defects.md",
+    "title": "surface.surface_assert_valid: register the measured WR-752 cases (2026-11-05)"
+   },
+   {
+    "file": "surface.surface_assert_valid--closed-seam-comparison-issue-2683.md",
+    "title": "surface.surface_assert_valid: closed-seam comparison and its measured C++ differences (2026-11-05)"
+   },
+   {
+    "file": "topology--brep-clone-drops-geometry-owners--addendum-2026-11-04-clone-removed.md",
+    "title": "topology: `Brep` is no longer `Clone` (update, 2026-11-04)"
+   }
+  ]
+ },
+ "solidcraft": {
+  "total": 125,
+  "counts": {
+   "PASS": 97,
+   "DEFERRED": 23,
+   "ERROR": 1,
+   "FAIL": 4
+  },
+  "changes": [],
+  "new": [],
+  "failing": [
+   "3369-fillet-edge-on-tangent-seam/edge_ends_on_seam",
+   "451-hollow-shell-cut/block_crossing_both_spheres_cut",
+   "451-hollow-shell-cut/block_crossing_inner_sphere_cut",
+   "451-hollow-shell-cut/block_crossing_inner_sphere_join",
+   "451-hollow-shell-cut/block_inside_hollow_cut"
+  ]
+ },
+ "upstream_fixes": {
+  "total": 320,
+  "new": [],
+  "removed": [
+   "hash_table_grow_preserves_removed_records",
+   "gap_array_append_updates_longest",
+   "masked_array_uses_bit_shift",
+   "offset_lamina_corner_at_vertex_image"
+  ],
+  "fillet_total": 84
+ },
+ "gates": {
+  "waivers_before": 17,
+  "waivers_after": 25,
+  "known_mismatches": 31,
+  "mismatches_new": [
+   "curve.curve_p4.toml",
+   "curve.curve_p5.toml",
+   "geom.hash_table.toml",
+   "geom.local_solve1d.toml",
+   "offset.offset_executive_p1.toml",
+   "offset.offset_geometry_creation.toml",
+   "surface.surface_assert_valid.toml",
+   "topology.assert_valid.toml",
+   "topology.brep_p3.toml",
+   "topology.brep_p9.toml"
+  ],
+  "mismatches_removed": []
+ },
+ "pin": {
+  "version": "1.0.1",
+  "commit": "3fd5b9548",
+  "changed": false,
+  "before_version": "1.0.1"
+ },
+ "status_md_changed": false,
+ "tags": [],
+ "github": {
+  "ok": true,
+  "issues_opened": [
+   {
+    "number": 2878,
+    "title": "Draft refused in analytic_extended_sides (NotExact) at 9856ffee5 where 8ddce9016 built it",
+    "author": "bherbruck",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2878"
+   },
+   {
+    "number": 2798,
+    "title": "Four C++-feature difftest tests fail on current main",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2798"
+   },
+   {
+    "number": 2826,
+    "title": "Boolean union depends on cylinder seam placement: a symmetric join half becomes Smooth",
+    "author": "AlexMitchellMus",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2826"
+   },
+   {
+    "number": 2785,
+    "title": "AssertValid's radius-of-curvature tolerance is an average speed, so a kink stops being one when the curve is reparametrised",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2785"
+   },
+   {
+    "number": 2844,
+    "title": "Fillet: rounding a square-to-circle loft's circular rim gives a body that is not closed (solidcraft#12034)",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2844"
+   },
+   {
+    "number": 2836,
+    "title": "Kernel rig: replay stitch, which 41 unported cases need",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2836"
+   },
+   {
+    "number": 2855,
+    "title": "Kernel rig: replay recorded all-hole untrim_face operations",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2855"
+   },
+   {
+    "number": 2867,
+    "title": "query.face_p4: a UV line ending at 1e300 takes about 48 s",
+    "author": "jyviko",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2867"
+   },
+   {
+    "number": 2794,
+    "title": "Priority: main's difftest sweep goes green before any other work",
+    "author": "jyviko",
+    "labels": [
+     "urgent"
+    ],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2794"
+   },
+   {
+    "number": 2849,
+    "title": "Blend: the Mixed corner's chamfer face stands 7.2e-4 out of the peg's front face (rig report-peg-front-and-concave-chamfers-together-d2)",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2849"
+   },
+   {
+    "number": 2871,
+    "title": "solidcore-ops fillet_variable refuses a radius law with a corner; step-by-step sessions skip the split at the law's corners",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2871"
+   },
+   {
+    "number": 2866,
+    "title": "A B-spline surface mixing rational and non-rational control points runs past 600 s on the face-cache path",
+    "author": "jyviko",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2866"
+   },
+   {
+    "number": 2876,
+    "title": "Kernel rig: replay the recorded draft operation",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2876"
+   },
+   {
+    "number": 2870,
+    "title": "CI shell cancellation test gets make_faceuse 1001 at the 1.5 s cancellation attempt",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2870"
+   },
+   {
+    "number": 2864,
+    "title": "Blend: a picked edge split at a seam ends its round at the seam's vertex with a step; it should run on into the same curve, or refuse",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2864"
+   },
+   {
+    "number": 2839,
+    "title": "Kernel rig: fillets/cov-junction-boss-tilt-20-root-round is refused as it should be, naming 0.262514174: its expectation is stale",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2839"
+   },
+   {
+    "number": 2861,
+    "title": "Kernel rig: replay the existing loft operation for recorded sections",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2861"
+   },
+   {
+    "number": 2842,
+    "title": "Port the topology.face_p2 callee that offset mates reach after the exact-curve clip",
+    "author": "jyviko",
+    "labels": [
+     "urgent"
+    ],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2842"
+   },
+   {
+    "number": 2829,
+    "title": "Kernel rig: fillets/cov-junction-boss-tilt-40-root-round now builds, and the round is right: take it off the known-failing list",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2829"
+   },
+   {
+    "number": 2827,
+    "title": "Kernel rig: repeated blend picks falsely reject touching-cylinder fillet case",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2827"
+   },
+   {
+    "number": 2819,
+    "title": "Kernel rig: wire existing chamfer_sides operation for recorded two-distance and angle cases",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2819"
+   },
+   {
+    "number": 2817,
+    "title": "Kernel rig: five main failures count the kernel's edges, where the rig's counts are the records'",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2817"
+   },
+   {
+    "number": 2858,
+    "title": "Query: tight face and body boxes exclude the Mixed chamfer face in the peg case",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2858"
+   },
+   {
+    "number": 2857,
+    "title": "Body::to_smb returns Unported for a read body holding a hyperbola, composite or offset curve, STEP surface or surface in a volume",
+    "author": "jyviko",
+    "labels": [
+     "help wanted",
+     "urgent"
+    ],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2857"
+   },
+   {
+    "number": 2851,
+    "title": "Kernel rig: grade every-block-cylinder-tangent-concave-arc-r2-partial-chain on its analytic volume now that solidcore builds it",
+    "author": "jyviko",
+    "labels": [
+     "help wanted"
+    ],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2851"
+   },
+   {
+    "number": 2852,
+    "title": "Kernel rig: grade report-peg-front-and-concave-chamfers-together-d2 on a closed form, not SMLib's measured volume",
+    "author": "jyviko",
+    "labels": [
+     "help wanted"
+    ],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2852"
+   },
+   {
+    "number": 2850,
+    "title": "Kernel rig: replay the existing union_all operation",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2850"
+   },
+   {
+    "number": 2848,
+    "title": "A body touching itself along lines holds the contacts in two kernel forms (booleans 307)",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2848"
+   },
+   {
+    "number": 2845,
+    "title": "Fillet: two rounds on a stepped wall fail with 1001 at sizes that fit, and past the wall without naming a size (solidcraft#12342)",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2845"
+   },
+   {
+    "number": 2843,
+    "title": "Fillet: a round ending exactly on a corner round's tangent line fails with 1001 at CalcFilletIntSideFace (solidcraft#11991)",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2843"
+   },
+   {
+    "number": 2835,
+    "title": "Setback corner: an asked setback past the rounds' rails is refused without naming the setback that builds",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2835"
+   },
+   {
+    "number": 2834,
+    "title": "Shell on the default kernel: a rounded box (#2484's case) shells to a body with vertex gaps and no integrable volume, reported Ok",
+    "author": "zorak1103",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2834"
+   },
+   {
+    "number": 2796,
+    "title": "difftest --run-parked fails the value-share gate with zero passing cases",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2796"
+   },
+   {
+    "number": 2822,
+    "title": "A round's fit tolerance is absolute, so small parts' rounds remove the wrong volume",
+    "author": "bherbruck",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2822"
+   },
+   {
+    "number": 2823,
+    "title": "A variable round from 0 to 4 on a box edge fails the model check at 0.01x",
+    "author": "bherbruck",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2823"
+   },
+   {
+    "number": 2814,
+    "title": "Kernel rig: tangent-hole ring/grid boolean has 59 edges, expected 60",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2814"
+   },
+   {
+    "number": 2769,
+    "title": "Exact extension (#2730): five consuming operations move when the extension is exact (offset gaps, fillet put-back, shell, a volume, defillet)",
+    "author": "jyviko",
+    "labels": [
+     "urgent"
+    ],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2769"
+   },
+   {
+    "number": 2809,
+    "title": "Merging a point into an edge: a parameter off the edge is refined into a split, and a split moved onto the end vertex leaves the point uncovered",
+    "author": "bherbruck",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2809"
+   },
+   {
+    "number": 2779,
+    "title": "perf: `band_cuts` makes the body's B-rep cache again for every section it classifies (108 caches over one check of the WR-696 bridge)",
+    "author": "kaievns",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2779"
+   },
+   {
+    "number": 2768,
+    "title": "difftest: the last 6 cases of main's red sweep need measuring (2 WR-737 spheres, 4 fillet values)",
+    "author": "jyviko",
+    "labels": [
+     "urgent"
+    ],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2768"
+   }
+  ],
+  "issues_closed": [
+   {
+    "number": 2839,
+    "title": "Kernel rig: fillets/cov-junction-boss-tilt-20-root-round is refused as it should be, naming 0.262514174: its expectation is stale",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2839"
+   },
+   {
+    "number": 2861,
+    "title": "Kernel rig: replay the existing loft operation for recorded sections",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2861"
+   },
+   {
+    "number": 2842,
+    "title": "Port the topology.face_p2 callee that offset mates reach after the exact-curve clip",
+    "author": "jyviko",
+    "labels": [
+     "urgent"
+    ],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2842"
+   },
+   {
+    "number": 2829,
+    "title": "Kernel rig: fillets/cov-junction-boss-tilt-40-root-round now builds, and the round is right: take it off the known-failing list",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2829"
+   },
+   {
+    "number": 2827,
+    "title": "Kernel rig: repeated blend picks falsely reject touching-cylinder fillet case",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2827"
+   },
+   {
+    "number": 2819,
+    "title": "Kernel rig: wire existing chamfer_sides operation for recorded two-distance and angle cases",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2819"
+   },
+   {
+    "number": 2817,
+    "title": "Kernel rig: five main failures count the kernel's edges, where the rig's counts are the records'",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2817"
+   },
+   {
+    "number": 2852,
+    "title": "Kernel rig: grade report-peg-front-and-concave-chamfers-together-d2 on a closed form, not SMLib's measured volume",
+    "author": "jyviko",
+    "labels": [
+     "help wanted"
+    ],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2852"
+   },
+   {
+    "number": 2814,
+    "title": "Kernel rig: tangent-hole ring/grid boolean has 59 edges, expected 60",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2814"
+   },
+   {
+    "number": 2715,
+    "title": "A cloned Brep writes no surfaces: Surface::clone drops the owner, and the writer keeps only face-owned surfaces",
+    "author": "aapolipponen",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2715"
+   },
+   {
+    "number": 2779,
+    "title": "perf: `band_cuts` makes the body's B-rep cache again for every section it classifies (108 caches over one check of the WR-696 bridge)",
+    "author": "kaievns",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2779"
+   },
+   {
+    "number": 2574,
+    "title": "B-spline check: the min-radius search reports a straight trim as a cusp (#13/#14) when its objective fails to evaluate",
+    "author": "bherbruck",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2574"
+   },
+   {
+    "number": 2768,
+    "title": "difftest: the last 6 cases of main's red sweep need measuring (2 WR-737 spheres, 4 fillet values)",
+    "author": "jyviko",
+    "labels": [
+     "urgent"
+    ],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2768"
+   },
+   {
+    "number": 2683,
+    "title": "Control-net monotonic check: in closed mode the last step is never compared with the closing step",
+    "author": "jyviko",
+    "labels": [
+     "bug"
+    ],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2683"
+   },
+   {
+    "number": 2621,
+    "title": "Boolean: cutting a trimmed M16 thread groove from a filleted boss leaves vertex gaps over tolerance (2.9e-5 vs 2.3e-5)",
+    "author": "bherbruck",
+    "labels": [
+     "bug",
+     "priority: high"
+    ],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2621"
+   }
+  ],
+  "prs_opened": [
+   {
+    "number": 2846,
+    "title": "test: three SolidCraft 0.40 RC fillet failures as known-failing kernel cases (#2843, #2844, #2845)",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2846"
+   },
+   {
+    "number": 2811,
+    "title": "difftest(primitive.primitive_creation_p2): gen0092 and gen0189 recorded, the exact net's small elbow is an invalid body",
+    "author": "ablasik",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2811"
+   },
+   {
+    "number": 2869,
+    "title": "blend: a round whose edge runs on across a seam's vertex is refused, not ended in a step (#2864, part 1)",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2869"
+   },
+   {
+    "number": 2825,
+    "title": "chore: retire the dead offset_extends_cones_as_themselves and offset_extends_ball_patches_as_themselves flags (WR-532, WR-728)",
+    "author": "zorak1103",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2825"
+   },
+   {
+    "number": 2791,
+    "title": "fix: reject failed N-D solver evaluations by default (#2782)",
+    "author": "fdalmaso",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2791"
+   },
+   {
+    "number": 2853,
+    "title": "wire: replay union_all in the kernel rig (#2850)",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2853"
+   },
+   {
+    "number": 2877,
+    "title": "wire: replay recorded draft operations in the kernel rig (#2876)",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2877"
+   },
+   {
+    "number": 2764,
+    "title": "fix: integrate nonzero ODE intervals instead of returning early",
+    "author": "altvnk",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2764"
+   },
+   {
+    "number": 2765,
+    "title": "fix: offset derivative requests preserve their named coordinates (#2717)",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2765"
+   },
+   {
+    "number": 2800,
+    "title": "blend: classify closed-angle corners as mitred Turn events",
+    "author": "Karl-VonRichter",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2800"
+   },
+   {
+    "number": 2803,
+    "title": "difftest: record seven heal.gap append-state changes",
+    "author": "altvnk",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2803"
+   },
+   {
+    "number": 2831,
+    "title": "test: honor guarded offset paths in native library checks (#2798)",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2831"
+   },
+   {
+    "number": 2833,
+    "title": "difftest: handle parked diagnostic value share (#2796)",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2833"
+   },
+   {
+    "number": 2816,
+    "title": "Kernel tests become goldens: each case checked against its own expected output, no C++",
+    "author": "jyviko",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2816"
+   },
+   {
+    "number": 2840,
+    "title": "fix: projected extrema used by small-profile mitres",
+    "author": "ChrisNourse",
+    "labels": [
+     "urgent"
+    ],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2840"
+   },
+   {
+    "number": 2873,
+    "title": "fix: preserve cancellation through boolean status handlers (#2870)",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2873"
+   },
+   {
+    "number": 2766,
+    "title": "[WIP] fix(boolean): an intersection edge classified onto a seam is built on the seam (#2538)",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2766"
+   },
+   {
+    "number": 2841,
+    "title": "tools: replay SolidCraft benchmark recipes with sanitized evidence",
+    "author": "ChrisNourse",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2841"
+   },
+   {
+    "number": 2859,
+    "title": "fix: tests 13/14 compare a radius of curvature with a length, not a speed (#2785)",
+    "author": "saosebastiao",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2859"
+   },
+   {
+    "number": 2872,
+    "title": "fillet_variable: a radius law with a corner is its balls' union (split in do_filleting)",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2872"
+   },
+   {
+    "number": 2860,
+    "title": "to_smb: write hyperbolas, composite and offset curves, STEP surfaces and surfaces in volumes",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2860"
+   },
+   {
+    "number": 2837,
+    "title": "Kernel rig: replay stitch (#2836)",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2837"
+   },
+   {
+    "number": 2820,
+    "title": "fix: restore diagnostics formatting on main",
+    "author": "altvnk",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2820"
+   },
+   {
+    "number": 2856,
+    "title": "wire: replay recorded all-hole untrim operations (#2855)",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2856"
+   },
+   {
+    "number": 2874,
+    "title": "Variable round: a radius law whose curve is a single point builds as the constant round (#2706)",
+    "author": "khanahmad4527",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2874"
+   },
+   {
+    "number": 2804,
+    "title": "fix(blend): a knife edge chamfered at equal distances builds, as the chord between the ball's contacts",
+    "author": "bherbruck",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2804"
+   },
+   {
+    "number": 2863,
+    "title": "A round of a two-cylinder join builds when both seams lie on the join: the solver's guess comes from the edge use's own UV trim (part of #2826)",
+    "author": "khanahmad4527",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2863"
+   },
+   {
+    "number": 2875,
+    "title": "CodeRabbit reviews against AGENTS.md and each area's reference doc",
+    "author": "jyviko",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2875"
+   },
+   {
+    "number": 2868,
+    "title": "kernel rig: boss-tilt-20 is refused naming 0.262514174, off the known-failing list",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2868"
+   },
+   {
+    "number": 2865,
+    "title": "kernel rig: list the partial-chain case against #2864, with its measured reason",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2865"
+   },
+   {
+    "number": 2862,
+    "title": "wire: replay loft in the kernel rig (#2861)",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2862"
+   },
+   {
+    "number": 2806,
+    "title": "difftest: record the seven cases #2735 moved (WR-751), for #2794",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2806"
+   },
+   {
+    "number": 2792,
+    "title": "difftest: geom.hash_table — record the WR-13 growth case",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2792"
+   },
+   {
+    "number": 2776,
+    "title": "test: isolate session recovery and restore held-input coverage",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2776"
+   },
+   {
+    "number": 2832,
+    "title": "kernel rig: boss-tilt-40's round graded on its closed forms, off the known-failing list",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2832"
+   },
+   {
+    "number": 2824,
+    "title": "Kernel rig: count the final bodies as their records write them",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2824"
+   },
+   {
+    "number": 2828,
+    "title": "fix: preserve first occurrence of repeated rig blend picks (#2827)",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2828"
+   },
+   {
+    "number": 2821,
+    "title": "wire: replay chamfer_sides in the kernel rig (#2819)",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2821"
+   },
+   {
+    "number": 2854,
+    "title": "Kernel rig: list the two main failures no open fix covers",
+    "author": "jyviko",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2854"
+   },
+   {
+    "number": 2847,
+    "title": "Generate the kernel case gallery from the cases; pull requests no longer edit docs for a case",
+    "author": "jyviko",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2847"
+   },
+   {
+    "number": 2795,
+    "title": "test: exact tests of the distance bound's rounding charges",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2795"
+   },
+   {
+    "number": 2838,
+    "title": "Reference docs for booleans, offset and shell, validity and tolerances, and a guide for coordinating agents",
+    "author": "jyviko",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2838"
+   },
+   {
+    "number": 2818,
+    "title": "test: select every edge of the rim in the exact-class cases (#2441)",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2818"
+   },
+   {
+    "number": 2793,
+    "title": "Kernel rig: boolean, extrude, revolve and the blend run, so about 1,000 of its 1,070 cases are graded",
+    "author": "jyviko",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2793"
+   },
+   {
+    "number": 2830,
+    "title": "Kernel rig: a traced blend's repeated edge pick replays once",
+    "author": "bherbruck",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2830"
+   },
+   {
+    "number": 2815,
+    "title": "fix: tangent-hole ring/grid rig failure (#2814)",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2815"
+   },
+   {
+    "number": 2802,
+    "title": "difftest: the PR sweep compares to solidcore's own recorded outcomes",
+    "author": "bherbruck",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2802"
+   },
+   {
+    "number": 2813,
+    "title": "Add solidcore-diag, a picture and tolerance report of one .smb body",
+    "author": "jyviko",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2813"
+   },
+   {
+    "number": 2812,
+    "title": "Layers figure: the kernel's result goes back through convert",
+    "author": "jyviko",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2812"
+   },
+   {
+    "number": 2810,
+    "title": "Reference-doc schematics keep their labels as readable text",
+    "author": "jyviko",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2810"
+   },
+   {
+    "number": 2808,
+    "title": "docs: the setback scale search stated as it is (monotonicity assumed and checked on a grid, not proved)",
+    "author": "jyviko",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2808"
+   },
+   {
+    "number": 2805,
+    "title": "docs: reference pages for definitions and certificates, the procedural sweep and SSI; AGENTS.md points to them",
+    "author": "jyviko",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2805"
+   },
+   {
+    "number": 2807,
+    "title": "docs: the setback scale search stated as it is (monotonicity assumed, not proved); two validation logs leave docs/",
+    "author": "jyviko",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2807"
+   },
+   {
+    "number": 2801,
+    "title": "AGENTS.md: reported issues first, and the porting workflow moved out (516 → 276 lines)",
+    "author": "jyviko",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2801"
+   },
+   {
+    "number": 2797,
+    "title": "surface: the exact extension is the only surface extension; every caller switched, the fitted path deleted",
+    "author": "jyviko",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2797"
+   },
+   {
+    "number": 2790,
+    "title": "CI: pull requests run the difftest sweep against their exact base, so moved cases show before merging",
+    "author": "jyviko",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2790"
+   },
+   {
+    "number": 2780,
+    "title": "perf: a band check classifies its sections through one B-rep cache (#2779)",
+    "author": "kaievns",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2780"
+   },
+   {
+    "number": 2799,
+    "title": "AGENTS.md: what to work on now. The SMLib switch came with bugs; self-found defects and speed tricks wait",
+    "author": "jyviko",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2799"
+   },
+   {
+    "number": 2789,
+    "title": "surface: the exact extension is the only surface extension; every caller switched, the fitted path deleted",
+    "author": "jyviko",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2789"
+   },
+   {
+    "number": 2763,
+    "title": "fix: preserve removed hash records across growth (WR-13)",
+    "author": "altvnk",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2763"
+   },
+   {
+    "number": 2788,
+    "title": "fix: include every point-set block in the default centroid (WR-15)",
+    "author": "altvnk",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2788"
+   },
+   {
+    "number": 2775,
+    "title": "difftest: the last six cases of main's sweep, measured (two WR-737 spheres, a fillet check that wrote to the body, a too-small refusal)",
+    "author": "jyviko",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2775"
+   },
+   {
+    "number": 2774,
+    "title": "CI: the test job fetches upstream, so tests that read its TestFiles run instead of skipping",
+    "author": "jyviko",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2774"
+   },
+   {
+    "number": 2786,
+    "title": "difftest: register the measured WR-752 seam cases (follow-up to #2784)",
+    "author": "fdalmaso",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2786"
+   },
+   {
+    "number": 2787,
+    "title": "refactor: share setback affine sector preparation",
+    "author": "ChrisNourse",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2787"
+   },
+   {
+    "number": 2784,
+    "title": "fix: check the last control-net step against its closed seam (#2683)",
+    "author": "fdalmaso",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2784"
+   },
+   {
+    "number": 2783,
+    "title": "perf: stream setback QP constraint rows (#2344b)",
+    "author": "ChrisNourse",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2783"
+   }
+  ],
+  "prs_closed_unmerged": [
+   {
+    "number": 2830,
+    "title": "Kernel rig: a traced blend's repeated edge pick replays once",
+    "author": "bherbruck",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2830"
+   },
+   {
+    "number": 2815,
+    "title": "fix: tangent-hole ring/grid rig failure (#2814)",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2815"
+   },
+   {
+    "number": 2802,
+    "title": "difftest: the PR sweep compares to solidcore's own recorded outcomes",
+    "author": "bherbruck",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2802"
+   },
+   {
+    "number": 1274,
+    "title": "docs: WR-449 exact boundary-distance certificate",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/1274"
+   },
+   {
+    "number": 1970,
+    "title": "perf(topology): incremental notify-record reseed in stitching (output-identical on 41 units and 159 SolidCraft cases; −29% instructions on a 300-gon stitch; #1951)",
+    "author": "tdamsma",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/1970"
+   },
+   {
+    "number": 2807,
+    "title": "docs: the setback scale search stated as it is (monotonicity assumed, not proved); two validation logs leave docs/",
+    "author": "jyviko",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2807"
+   },
+   {
+    "number": 2694,
+    "title": "fix(blend): rounds meeting at a knife-edge tip are refused by name, not with a missing corner",
+    "author": "bherbruck",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2694"
+   },
+   {
+    "number": 2780,
+    "title": "perf: a band check classifies its sections through one B-rep cache (#2779)",
+    "author": "kaievns",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2780"
+   },
+   {
+    "number": 2789,
+    "title": "surface: the exact extension is the only surface extension; every caller switched, the fitted path deleted",
+    "author": "jyviko",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2789"
+   }
+  ],
+  "open_issues": 186,
+  "open_prs": 116
+ },
+ "releases": {
+  "ok": true,
+  "crates_io": {
+   "max_version": "1.0.1",
+   "new_versions": []
+  },
+  "upstream": [],
+  "upstream_latest": "v1.0.1"
+ }
+}
