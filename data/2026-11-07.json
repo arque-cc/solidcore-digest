@@ -1,0 +1,4530 @@
+{
+ "day": "2026-11-07",
+ "generated_at": "2026-11-08T12:09:01+00:00",
+ "window": {
+  "start": "2026-11-07T00:00:00+00:00",
+  "end": "2026-11-08T00:00:00+00:00",
+  "start_sha": "9f1d7883879d35ac5cdf56e1ac369e879f0c634b",
+  "end_sha": "f2bbc48abd014cc72c964492ffc5c8c294c4f19f"
+ },
+ "summary": {
+  "commits": 181,
+  "merges": 36,
+  "claims": 8,
+  "prs_merged": 29,
+  "authors": 11,
+  "top_authors": [
+   [
+    "jyviko",
+    81
+   ],
+   [
+    "Markus Reichart",
+    26
+   ],
+   [
+    "bherbruck",
+    17
+   ],
+   [
+    "Ahmad Khan",
+    15
+   ],
+   [
+    "aapolipponen",
+    13
+   ],
+   [
+    "Federico Dal Maso",
+    9
+   ],
+   [
+    "Charles Galant",
+    7
+   ],
+   [
+    "MateuszSychXpl",
+    6
+   ]
+  ],
+  "ai_coauthored": 163,
+  "files_touched": 219
+ },
+ "by_module": {
+  "nurbs": {
+   "commits": 1,
+   "files": 6
+  },
+  "curve": {
+   "commits": 2,
+   "files": 9
+  },
+  "surface": {
+   "commits": 24,
+   "files": 59
+  },
+  "topology": {
+   "commits": 14,
+   "files": 23
+  },
+  "intersect": {
+   "commits": 3,
+   "files": 11
+  },
+  "primitive": {
+   "commits": 4,
+   "files": 7
+  },
+  "offset": {
+   "commits": 18,
+   "files": 54
+  },
+  "blend": {
+   "commits": 15,
+   "files": 44
+  },
+  "kernel": {
+   "commits": 3,
+   "files": 5
+  },
+  "tests": {
+   "commits": 18,
+   "files": 87
+  },
+  "step": {
+   "commits": 6,
+   "files": 11
+  },
+  "difftest": {
+   "commits": 7,
+   "files": 10
+  },
+  "harness": {
+   "commits": 2,
+   "files": 3
+  },
+  "eines": {
+   "commits": 42,
+   "files": 78
+  },
+  "plan": {
+   "commits": 12,
+   "files": 30
+  },
+  "docs": {
+   "commits": 2,
+   "files": 2
+  }
+ },
+ "by_kind": {
+  "fix": 18,
+  "test": 27,
+  "plan": 5,
+  "docs": 8,
+  "chore": 1,
+  "style": 1,
+  "altres": 113
+ },
+ "commits": [
+  {
+   "sha": "e87a5856b71d0b0e34ec20db8b3850d359c64873",
+   "short": "e87a5856b",
+   "author": "jyviko",
+   "date": "2026-11-07T16:26:34-05:00",
+   "subject": "Revise documentation on meshing and importers",
+   "kind": "altres",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "db02097dc253e282153c63b62217481b5bfee5f5",
+   "short": "db02097dc",
+   "author": "Ahmad Khan",
+   "date": "2026-11-07T22:14:06+05:30",
+   "subject": "Fillet law: the corner's extension distance and the law check keep a refused continued radius",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 3,
+   "watch": [
+    "setback"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "295a11e8ce13f19d166af6a2ad0b112dfb0297bb",
+   "short": "295a11e8c",
+   "author": "Markus Reichart",
+   "date": "2026-11-07T16:08:00+01:00",
+   "subject": "docs: generic-blend §3.2, a Join needs the other edges at the vertex tangent, else it is a Turn (#2844)",
+   "kind": "docs",
+   "module": "docs",
+   "modules": [
+    "docs"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "da67f3e8252c74d04ff848858acd2cf4b81dfa9c",
+   "short": "da67f3e82",
+   "author": "Markus Reichart",
+   "date": "2026-11-07T16:08:00+01:00",
+   "subject": "blend: comments of the Join/Turn choice name no issue, and say plainly what is checked (#2844)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3b1579f8e08e2ae0c3e70201cd8b07d90f62eb04",
+   "short": "3b1579f8e",
+   "author": "Markus Reichart",
+   "date": "2026-11-07T16:08:00+01:00",
+   "subject": "test: the rim's mitre creases, its blends' faces, the chamfer at 2, MIXED derived (#2844)",
+   "kind": "test",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [
+    "chamfer",
+    "loft-skin"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "cc0302c4af4b78395239500f064f72be8facb968",
+   "short": "cc0302c4a",
+   "author": "Markus Reichart",
+   "date": "2026-11-07T16:08:00+01:00",
+   "subject": "test: allow the closed-form oracles' float methods in the loft rim test (#2844)",
+   "kind": "test",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [
+    "loft-skin"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "7fea69c070afa7f90d85ab31d07e9a9601639b63",
+   "short": "7fea69c07",
+   "author": "Markus Reichart",
+   "date": "2026-11-07T16:08:00+01:00",
+   "subject": "kernel cases: 12034's round of the loft's rim builds (#2844)",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 3,
+   "watch": [
+    "loft-skin"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "fa7fe6525099ff7b02555092c398d0c76a03d0b2",
+   "short": "fa7fe6525",
+   "author": "Markus Reichart",
+   "date": "2026-11-07T16:08:00+01:00",
+   "subject": "test: the round's section middle is measured against its surface (#2844)",
+   "kind": "test",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8ccfc07c9d4a23bfcd4fd2ef2eb18bef221808d3",
+   "short": "8ccfc07c9",
+   "author": "Markus Reichart",
+   "date": "2026-11-07T16:08:00+01:00",
+   "subject": "fillet: blends whose edges continue each other turn at a sharp side edge between their faces (#2844)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 3,
+   "watch": [
+    "loft-skin"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "9a6b4ab530e6ac89a4119c959aa20f8a816d4f3d",
+   "short": "9a6b4ab53",
+   "author": "Markus Reichart",
+   "date": "2026-11-07T16:08:00+01:00",
+   "subject": "test: the round and the chamfer of a ruled loft's circular rim are one solid (#2844)",
+   "kind": "test",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [
+    "setback",
+    "chamfer",
+    "loft-skin"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "7965793fc96086b335f50e55c71dba32f8b84894",
+   "short": "7965793fc",
+   "author": "Ahmad Khan",
+   "date": "2026-11-07T20:30:33+05:30",
+   "subject": "fix: drop a cap's extra pieces without Vec::remove (panic-site inventory)",
+   "kind": "fix",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bccb29fa780194d5c220fa5f8785a119fe435f8f",
+   "short": "bccb29fa7",
+   "author": "jyviko",
+   "date": "2026-11-07T09:52:54-05:00",
+   "subject": "tests: five tests that fail after the extension changes are ignored against #3100",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "eines",
+    "tests"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a9afd26249e7d18ccc365ee80af259985a161b54",
+   "short": "a9afd2624",
+   "author": "aapolipponen",
+   "date": "2026-11-07T09:47:58-05:00",
+   "subject": "fix: cylinder_section's test drops a qualification the new SolidError import made redundant (#2490)",
+   "kind": "fix",
+   "module": "intersect",
+   "modules": [
+    "intersect"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "9f4f644b22136444149093ae2bce7a2425517a3f",
+   "short": "9f4f644b2",
+   "author": "aapolipponen",
+   "date": "2026-11-07T09:47:58-05:00",
+   "subject": "plan: prove guarded eval geom heal intersect query and sweep panic sites (#2490)",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a440c0f5b77d0703afe2734153b2f41a672e0df2",
+   "short": "a440c0f5b",
+   "author": "aapolipponen",
+   "date": "2026-11-07T09:47:58-05:00",
+   "subject": "fix: grow input-sized vectors and reject NaN cylinder clamp bounds (#2490)",
+   "kind": "fix",
+   "module": "intersect",
+   "modules": [
+    "geom",
+    "intersect",
+    "kernel",
+    "plan"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0e026f066cbd973b6abc63f8c818c3a9f9577aa4",
+   "short": "0e026f066",
+   "author": "aapolipponen",
+   "date": "2026-11-07T09:47:41-05:00",
+   "subject": "plan: topology's guarded panic sites marked proven (#2490)",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "526c69afc0ae65e5e5c2477633decf1c3ddb2e59",
+   "short": "526c69afc",
+   "author": "aapolipponen",
+   "date": "2026-11-07T09:47:34-05:00",
+   "subject": "fix: topology capacity conversions grow their Vec instead (#2490)",
+   "kind": "fix",
+   "module": "topology",
+   "modules": [
+    "plan",
+    "topology"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "42eaf5e5f220be22345a1415cef16c2adc52ec20",
+   "short": "42eaf5e5f",
+   "author": "bherbruck",
+   "date": "2026-11-07T09:41:05-05:00",
+   "subject": "fillet: rounds whose rails only run on past their edges' ends do not cross (#2845)",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "blend",
+    "eines",
+    "tests"
+   ],
+   "files": 7,
+   "watch": [
+    "loft-skin"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "88329b3575c693be2e15951cc49574108965e118",
+   "short": "88329b357",
+   "author": "bherbruck",
+   "date": "2026-11-07T09:35:16-05:00",
+   "subject": "blend: a conic pair's plane is read off the edge, not off a station at the crossing (#2952)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "eines",
+    "tests"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "12d6e1cdd4838c0de626ca1cecef02eb2a5421a0",
+   "short": "12d6e1cdd",
+   "author": "bherbruck",
+   "date": "2026-11-07T09:35:06-05:00",
+   "subject": "goldens: the #422 case refuses in keep features now; its round over the hole is tested (w2843)",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "difftest",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0c6c891192c861e1b393c29a8828360bb275739b",
+   "short": "0c6c89119",
+   "author": "Ahmad Khan",
+   "date": "2026-11-07T19:37:26+05:30",
+   "subject": "goldens: bless the 43 mass.integrator cases the edge's own error scales move (#2887)",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "dd5549b500344e1934e5838534d5e58cdddfeac6",
+   "short": "dd5549b50",
+   "author": "Ahmad Khan",
+   "date": "2026-11-07T19:11:02+05:30",
+   "subject": "goldens: bless the six cases WR-79's one path moves (#2412)",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3e0033f9642f331fafc67430bbb0208786e4440a",
+   "short": "3e0033f96",
+   "author": "jyviko",
+   "date": "2026-11-07T08:34:46-05:00",
+   "subject": "goldens: bless offset.offset_geometry_creation gen0501 and gen0659",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "031d71493991a509cf4d50294c5c8ba5e8a53151",
+   "short": "031d71493",
+   "author": "jyviko",
+   "date": "2026-11-07T08:31:26-05:00",
+   "subject": "goldens: bless offset.offset_executive_p2; results that fail check_brep are known failing (#3094)",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d2568dbaf89a20fc8adde01215f29033fcee24f9",
+   "short": "d2568dbaf",
+   "author": "jyviko",
+   "date": "2026-11-07T08:31:26-05:00",
+   "subject": "goldens: feature_executive's extrusions and fillet1019_6 are known failing (#3093)",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "cdb40d0efa1f4dbf734ec9869cf170d3018a133b",
+   "short": "cdb40d0ef",
+   "author": "jyviko",
+   "date": "2026-11-07T08:31:26-05:00",
+   "subject": "goldens: bless offset.offset_executive_p1; rational extensions that build short are known failing (#3079)",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "eb0f190cbafd2a79ad4d34cee66976cf48ed857b",
+   "short": "eb0f190cb",
+   "author": "ChrisNourse",
+   "date": "2026-11-07T04:49:55-08:00",
+   "subject": "docs: describe wireframe regression contracts",
+   "kind": "docs",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "19cd0d23af51708cd54391eacf1dfab27563a6a4",
+   "short": "19cd0d23a",
+   "author": "Ahmad Khan",
+   "date": "2026-11-07T18:18:55+05:30",
+   "subject": "goldens: bless blend.fillet_executive_p1/bspline_constant_radius_zero_tangent (#2706)",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [
+    "variable-radius"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "83cc31a60e4bd65b2cc85a242ee3d7885f5bdca8",
+   "short": "83cc31a60",
+   "author": "Ahmad Khan",
+   "date": "2026-11-07T18:18:55+05:30",
+   "subject": "fix: a radius law is continued by the one extension path, and a continued radius that overflows is refused naming its station (#2706)",
+   "kind": "fix",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "nurbs",
+    "tests"
+   ],
+   "files": 6,
+   "watch": [
+    "variable-radius",
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "f62bab308e30f8bb64d490f671276aa98d74e926",
+   "short": "f62bab308",
+   "author": "ChrisNourse",
+   "date": "2026-11-07T04:35:33-08:00",
+   "subject": "diagnostics: add explicit native-edge wireframe rendering",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "35963086814c43d18e90b49740c4f3635ef68ea1",
+   "short": "359630868",
+   "author": "Markus Reichart",
+   "date": "2026-11-07T13:04:00+01:00",
+   "subject": "ops: the turn docs say when it is set and when the swept face is a torus",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1f8f6612457b3fea29de3260e765bcb330bf0c3c",
+   "short": "1f8f66124",
+   "author": "Markus Reichart",
+   "date": "2026-11-07T12:42:24+01:00",
+   "subject": "ops: say why chamfers and the variable round turn mitred",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [
+    "chamfer"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "88f565faf74dd5283829af96f2ad3c0f9e852c20",
+   "short": "88f565faf",
+   "author": "Markus Reichart",
+   "date": "2026-11-07T12:42:23+01:00",
+   "subject": "test: the swept turn's corners are exact horn tori",
+   "kind": "test",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "be71d98af3b6a9bf23d86548cc889f4011f0f391",
+   "short": "be71d98af",
+   "author": "Markus Reichart",
+   "date": "2026-11-07T12:32:37+01:00",
+   "subject": "kernel cases: the two mitred turn cases rendered from solidcore's result",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "48d0c85d3a4e1425628459955063fbf4fff6d9d9",
+   "short": "48d0c85d3",
+   "author": "Markus Reichart",
+   "date": "2026-11-07T12:32:37+01:00",
+   "subject": "ops: blend_ordered takes the corner turn; the runner passes the traced one",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "daa99d1e49ec6396a3a90c0e3bedd6b580e51925",
+   "short": "daa99d1e4",
+   "author": "Markus Reichart",
+   "date": "2026-11-07T12:32:26+01:00",
+   "subject": "test: the turn cases replay their traced turn; the runner reads it",
+   "kind": "test",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6ba7902ce6af3f04f66399477b979ab31f74010f",
+   "short": "6ba7902ce",
+   "author": "Markus Reichart",
+   "date": "2026-11-07T12:21:43+01:00",
+   "subject": "kernel cases: the oblique G2 corner's reason says only what it waits on",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e885449b4f8f0df5a0ec10520ea1daabda48171a",
+   "short": "e885449b4",
+   "author": "Markus Reichart",
+   "date": "2026-11-07T12:21:42+01:00",
+   "subject": "kernel cases: the oblique G2 three-edge corner waits on the G2 corner fill (#2697)",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f56ef216737ddc215806ee5b4389a55c80fba054",
+   "short": "f56ef2167",
+   "author": "Markus Reichart",
+   "date": "2026-11-07T12:21:42+01:00",
+   "subject": "kernel cases: the two G2 apex corners wait on the G2 corner fill (#2697)",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [
+    "setback"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "eb4068272d451486a743b6504b09f6e6e5561f17",
+   "short": "eb4068272",
+   "author": "jyviko",
+   "date": "2026-11-07T05:28:54-05:00",
+   "subject": "docs: drop observe.py from the nodal-round record (#2508)",
+   "kind": "docs",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "dd6e28f4b65027022f21e37788a4a313c3e894fe",
+   "short": "dd6e28f4b",
+   "author": "jyviko",
+   "date": "2026-11-07T05:26:20-05:00",
+   "subject": "reach: the imports and paths the rebase onto main left unused",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "offset"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c6f366f6b1ae87a79b4585a9d4ecc0a09d86f7f0",
+   "short": "c6f366f6b",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:32-05:00",
+   "subject": "offset trim: a near-tangent trim point needs the curve to pass through the surface by more than the tolerance",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "offset"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9e1a4bd1a931fc978e0217c59dad684f634401bd",
+   "short": "9e1a4bd1a",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:32-05:00",
+   "subject": "trim: a common interval is one no curve snaps, and a snap within tolerance is reparametrised away",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "nurbs",
+    "surface"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3fd796edb2509b1a981ee557e4e248036239d81c",
+   "short": "3fd796edb",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:32-05:00",
+   "subject": "local operation reach: a moved plane beside a kept B-spline face is bounded",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "offset"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "267306fdc7221b468c2b4135cd026791d2a59c2a",
+   "short": "267306fdc",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:32-05:00",
+   "subject": "extend: sides extended in turn are judged and measured at the face (#3000, #3057)",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 4,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "ccef2c6d10be91861a57f5f0b8be4a3dd0b750ca",
+   "short": "ccef2c6d1",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:32-05:00",
+   "subject": "extend: a retry that extends no side is not named as a distance that works",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2b6c3f8c44e38e3fb6576e7e656bd85620999aa7",
+   "short": "2b6c3f8c4",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:32-05:00",
+   "subject": "docs: tests cite the issue, not a review note or a local handoff file",
+   "kind": "docs",
+   "module": "surface",
+   "modules": [
+    "surface",
+    "topology"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6ae5474f74359b343f0ed9718a3ed9ce82a2b80f",
+   "short": "6ae5474f7",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:32-05:00",
+   "subject": "extend (blend): a spine piece clipped shorter than the least step is an ask that does not work",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "fd4ec2e3651a9ee7696a6113375648c63d81670f",
+   "short": "fd4ec2e36",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:32-05:00",
+   "subject": "extend: an analytic surface is widened whether or not its form gives a local view of the side",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "70e77f490025d224dd21689d2c067195f087921c",
+   "short": "70e77f490",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:32-05:00",
+   "subject": "goldens: six newly built offset_executive_p1 extensions are known failing (#3057)",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d137607425bbfff497b9286b48b4b2d2474bb1ad",
+   "short": "d13760742",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:32-05:00",
+   "subject": "goldens: offset_executive_p1/gen0445 is known failing, not blessed",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f6397eaaa051dc662fc54327c5830fb6eab26b9f",
+   "short": "f6397eaaa",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:32-05:00",
+   "subject": "local operation, reach: vectors grow as they are built (panic-site check)",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "offset",
+    "topology"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f14b505e19948ace05f06bfc1c787c93736fb275",
+   "short": "f14b505e1",
+   "author": "Charles Galant",
+   "date": "2026-11-07T05:24:32-05:00",
+   "subject": "goldens: bless offset.offset_executive_p2 following common trim interval fix",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4747bf5f591fcb315f4ab4c35dc6fc280d7fbe12",
+   "short": "4747bf5f5",
+   "author": "Charles Galant",
+   "date": "2026-11-07T05:24:32-05:00",
+   "subject": "goldens: bless gen0732 and delist offset.offset_geometry_creation (#3001)",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7d7fc625d6afc6da709f54e1017bc64b121cc96e",
+   "short": "7d7fc625d",
+   "author": "Charles Galant",
+   "date": "2026-11-07T05:24:32-05:00",
+   "subject": "fix(offset): trim extended edges to common interval (#3002)",
+   "kind": "fix",
+   "module": "offset",
+   "modules": [
+    "eines",
+    "offset",
+    "surface"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a2e624e5df3c74d8641729dc04695ba5879bd2b4",
+   "short": "a2e624e5d",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:32-05:00",
+   "subject": "blend corner: the concave corner's adjustment refuses before it changes anything",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "blend",
+    "eines"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "328f4d4e16116cc5fd16d135c4378a84afaa9d87",
+   "short": "328f4d4e1",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:32-05:00",
+   "subject": "goldens: re-recorded on Linux after the rebase onto main (#2985, #2986)",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 2,
+   "watch": [
+    "platform",
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "c9467922d2fcf483e51106f9efd66c63dd0804b0",
+   "short": "c9467922d",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:32-05:00",
+   "subject": "test: the coaxial-cylinder round is checked for its refusal, not its failure count",
+   "kind": "test",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e0735596494cbf6fbf81b8d6f38731493d6440d0",
+   "short": "e07355964",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:32-05:00",
+   "subject": "tests: closed-form checks for a tilted box move and a huge bilinear extension",
+   "kind": "test",
+   "module": "surface",
+   "modules": [
+    "surface",
+    "topology"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9dfeef4d2504cd9892553fa3fbe74d9343fb013f",
+   "short": "9dfeef4d2",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:32-05:00",
+   "subject": "plane: rebuilt from its NURB, its origin is placed along the axes it is rebuilt on",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "659f18e93cc6c03b52809c238dc48915ffecf0b8",
+   "short": "659f18e93",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:32-05:00",
+   "subject": "brep: the face-with-vertex-slots constructor is crate-private",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "54d1bb1d1444f2c4d628409dc4a5955a0d4c5f26",
+   "short": "54d1bb1d1",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:32-05:00",
+   "subject": "extend (ball patch): a side solved to a length is reported met only when it meets it",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 2,
+   "watch": [
+    "ball-patch"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "1d52b5a4a40c72190ee548204d96897c686fec84",
+   "short": "1d52b5a4a",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:32-05:00",
+   "subject": "extend: a short last mirror step is split, never left as a sliver span",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "45267a4a2409ac587c8b6668201f5f83e326ed70",
+   "short": "45267a4a2",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:32-05:00",
+   "subject": "extend: at the least step, accept a length only when it is proved to reach the distance",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2ba68e4617f77346cf2860c46115c38a15c1562e",
+   "short": "2ba68e461",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:32-05:00",
+   "subject": "goldens: corner_adjust_concave_face_67 is known failing, not blessed at 1006",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5a8d11ccc73e46396d9fb2e8351ed3a266f487bf",
+   "short": "5a8d11ccc",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:32-05:00",
+   "subject": "goldens: a refused local operation is not drawn as edited",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bfc2d43499d8f74bddf7261ec96b35c01bcaf843",
+   "short": "bfc2d4349",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:32-05:00",
+   "subject": "offset error: ReachUncertified says what is refused, not \"tangent and apart\"",
+   "kind": "altres",
+   "module": "kernel",
+   "modules": [
+    "kernel"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "54224719043d08549f227874718d130ff96a2a84",
+   "short": "542247190",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:32-05:00",
+   "subject": "goldens: bless offset.offset_executive_p2, 1 of 594 cases",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b35699d8fd0d41135f30c2a99a2c9726542ffd30",
+   "short": "b35699d8f",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:32-05:00",
+   "subject": "goldens: bless blend.feature_executive, 1 of 149 cases",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2d8cd5c84b8529962b2dbd93790b3948d1a3b712",
+   "short": "2d8cd5c84",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:32-05:00",
+   "subject": "goldens: bless surface.plane_p1, 2 of 2698 cases",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "dab71ccfa084dc6b231435c20129854c15a5fb6f",
+   "short": "dab71ccfa",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:31-05:00",
+   "subject": "goldens: bless intersect.surface_drop_lib_p1, 2 of 2926 cases",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "c247f60ce3d52301f1aedcba6e08edc4114562bf",
+   "short": "c247f60ce",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:31-05:00",
+   "subject": "goldens: bless offset.offset_geometry_creation, 1 of 926 cases",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "71316c49bda070ffd42f9655bc41b0371cd2ab68",
+   "short": "71316c49b",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:31-05:00",
+   "subject": "goldens: bless blend.fillet_corner_p2, 4 of 591 cases",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2d0466e0cc3c7af590533e5febb1052291d5151c",
+   "short": "2d0466e0c",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:31-05:00",
+   "subject": "goldens: bless offset.offset_executive_p1, 163 of 1060 cases",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2aaf3b8fbe1172d1537db7386a583a7ed8891c83",
+   "short": "2aaf3b8fb",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:20-05:00",
+   "subject": "goldens: bless topology.brep_local_operation, 165 of 165 cases",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "f365a9ce1a5cbfb61ea5d158d26018165b9a3206",
+   "short": "f365a9ce1",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:20-05:00",
+   "subject": "goldens: four known-failing cases, each with its reason",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "36076802c8223ea207aaec84793db4b0e7506139",
+   "short": "36076802c",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:20-05:00",
+   "subject": "Revert \"extend: a side's diameter is rounded on its own pieces, not the whole net\"",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "e83e2e69f28f9f77b85b234a921253c71346e801",
+   "short": "e83e2e69f",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:20-05:00",
+   "subject": "extend: a side's diameter is rounded on its own pieces, not the whole net",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0700791c1b3a37f74b213bd1fa527a18cd537fa7",
+   "short": "0700791c1",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:20-05:00",
+   "subject": "offset: a mated intersection curve and its UV curves are trimmed to the one interval none of them snaps",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "offset",
+    "surface"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a34bff46104bc7c93039795f9f06db1e9dbcb427",
+   "short": "a34bff461",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:20-05:00",
+   "subject": "local operation: a boss wall beside a torus round is refused as reach uncertified",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a78f0a1fabad5d41b439eaf8eed42b9d8ed5d895",
+   "short": "a78f0a1fa",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:20-05:00",
+   "subject": "local operation: a creased roof on the defective cube is refused as reach uncertified at the top",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "47192da461229ddd1d9f54be30ea49c3bc78ca4f",
+   "short": "47192da46",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:20-05:00",
+   "subject": "goldens: the picture tool's runner changes pass clippy",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "63c9780a1eb2904ef310ba24c6432656b74c353b",
+   "short": "63c9780a1",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:20-05:00",
+   "subject": "Revert \"local operation: the gate names unchecked geometry before failures beyond the input's\"",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "0b12f2bef9ca3167e4914cfd038ab222eb51135f",
+   "short": "0b12f2bef",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:20-05:00",
+   "subject": "fmt: the batch as rustfmt lays it out",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines",
+    "offset"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "14fbd17d1faba785389ec7a5c178fb9766df4aae",
+   "short": "14fbd17d1",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:20-05:00",
+   "subject": "local_operation: the reach's apart edges add nothing, so its tests expect the gate's refusal",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3cc0abedf00b45f4fb904a32fad45978351dfeba",
+   "short": "3cc0abedf",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:20-05:00",
+   "subject": "local operation: the defective cube's new failure test moves its top onto an exact plane",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "83f20d22cc31d24e36b0e8b51c0907713d7f098c",
+   "short": "83f20d22c",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:20-05:00",
+   "subject": "local operation: the gate names unchecked geometry before failures beyond the input's",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "76791fbd698912064d63e35b650b41c3b37145d1",
+   "short": "76791fbd6",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:20-05:00",
+   "subject": "wr_530: the moved wall's seam is refused as opened, naming the wall's face, before the reach",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "38c636da1fca12555e8a5aeaa235ace7edbdbb12",
+   "short": "38c636da1",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:20-05:00",
+   "subject": "kernel: the local operation's offset-status fix is gone, its behaviour the default",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "kernel",
+    "tests"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e25864dd66b14c90670a3e4cc5ae83eec1a45332",
+   "short": "e25864dd6",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:20-05:00",
+   "subject": "local_operation: the caller's stores are put back on a panic, a product out of exact range is not shown the same, and the offset's error is the operation's",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "tests",
+    "topology"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0b43d8274166d04fe2f36a85e22f9eb820036210",
+   "short": "0b43d8274",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:20-05:00",
+   "subject": "reach: an edge's pieces are all decided before any bound is tightened, the largest first",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "offset"
+   ],
+   "files": 1,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "fa6b2c9bda13d9cf7cc2474314fb59fa7fce827c",
+   "short": "fa6b2c9bd",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:20-05:00",
+   "subject": "reach: a corner's line past a quadric is within a bound, nowhere near, or uncertified, one enum",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "offset"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "413d467315c2b448f3690c8e2aca1ab08e7b4d12",
+   "short": "413d46731",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:20-05:00",
+   "subject": "reach: a plane-quadric piece is steered by the meeting decided at its middle, not by its own plan's cover",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "offset"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "33768278c403a67b0a1770a5ece834fb0055237a",
+   "short": "33768278c",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:20-05:00",
+   "subject": "reach: a plane beside a cylinder, cone or sphere is reached on a certified bound",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "offset"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e7d0fa3dc58a16f228c81c80c1b739a9db7ff482",
+   "short": "e7d0fa3dc",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:00-05:00",
+   "subject": "offset: the extension reach takes the local reach's certified bound, with no step-walls flag",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "kernel",
+    "offset"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d8af30c721b979c419f0e56d88ab30ce8fa37106",
+   "short": "d8af30c72",
+   "author": "jyviko",
+   "date": "2026-11-07T05:24:00-05:00",
+   "subject": "reach: a local operation's reach is a certified bound on the edges' control points, with no flag branch",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "offset",
+    "topology"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1b62f9a6d76c3ad6e5505dfd2443738e11d058af",
+   "short": "1b62f9a6d",
+   "author": "jyviko",
+   "date": "2026-11-07T05:23:01-05:00",
+   "subject": "exact_pieces: the derived lift rounding written as its shortest double",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "b024a18c397cbba34cf6f48872ab0c369699f317",
+   "short": "b024a18c3",
+   "author": "jyviko",
+   "date": "2026-11-07T05:23:01-05:00",
+   "subject": "exact_pieces: an exact lift is bounded by the rounding its enclosure carries, derived for the fixture",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ed777c2e0b7ee2c8275e3ecd68407820eabb4db8",
+   "short": "ed777c2e0",
+   "author": "jyviko",
+   "date": "2026-11-07T05:23:01-05:00",
+   "subject": "exact_pieces: lift_over's signature on one line, as rustfmt gives it",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9548648b605717485d0ffd89d683bda4d207e093",
+   "short": "9548648b6",
+   "author": "jyviko",
+   "date": "2026-11-07T05:23:01-05:00",
+   "subject": "surface: clip_exact_curves accepts a UV curve on its certified lift distance",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "26f8e6ccb6f194bcd910add6512cc0caaa8593f7",
+   "short": "26f8e6ccb",
+   "author": "jyviko",
+   "date": "2026-11-07T05:23:01-05:00",
+   "subject": "local_operation: a seam is kept on a surface by its exact iso lines and a certified gap, not by samples",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "6cc3462836927ec7d5fb676a95c4a62faebe25ba",
+   "short": "6cc346283",
+   "author": "jyviko",
+   "date": "2026-11-07T05:23:01-05:00",
+   "subject": "goldens: case_smb writes one case's result bodies to .smb for solidcore-diag",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8fbadf74ebd0778e4399330ee688c982aebee96e",
+   "short": "8fbadf74e",
+   "author": "jyviko",
+   "date": "2026-11-07T05:23:01-05:00",
+   "subject": "validation: the soundness doc names the goldens soundness probe",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bee5d68e3b3b5e7e275b43ca98607014d6f2cbc5",
+   "short": "bee5d68e3",
+   "author": "jyviko",
+   "date": "2026-11-07T05:23:01-05:00",
+   "subject": "goldens: the soundness probe measures with the kernel's validation::soundness",
+   "kind": "altres",
+   "module": "plan",
+   "modules": [
+    "eines",
+    "plan"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bb455a422b8e30c64c3d4761f048a0ade3ae5efe",
+   "short": "bb455a422",
+   "author": "jyviko",
+   "date": "2026-11-07T05:23:01-05:00",
+   "subject": "ops: extend_sheet refuses a distance below the side's resolution as no effect",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "65f61f509ecb30ec3d4edc52dc81b10ed6c9024b",
+   "short": "65f61f509",
+   "author": "jyviko",
+   "date": "2026-11-07T05:23:01-05:00",
+   "subject": "offset: the analytic mate's copies extend by the face's derived reach",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "offset",
+    "topology"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9f3f232dde6f12831eb28e28417e6a72129e9671",
+   "short": "9f3f232dd",
+   "author": "jyviko",
+   "date": "2026-11-07T05:23:01-05:00",
+   "subject": "extend: an ignored test of a far cone extended round its axis by a tolerance",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "854f356e39f47f2df8878847385c5741b6c407e6",
+   "short": "854f356e3",
+   "author": "jyviko",
+   "date": "2026-11-07T05:23:01-05:00",
+   "subject": "local operation: a seamed face's new surface must take its seam lines",
+   "kind": "altres",
+   "module": "kernel",
+   "modules": [
+    "kernel",
+    "topology"
+   ],
+   "files": 2,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "04b9c732d5bfec4244f0537144f453c532c5d88d",
+   "short": "04b9c732d",
+   "author": "jyviko",
+   "date": "2026-11-07T05:23:01-05:00",
+   "subject": "local operation: the reach is found on the surfaces' exact equations",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "kernel",
+    "offset",
+    "tests",
+    "topology"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d7d0ea9bbfa73a0659543b88b1940734631b2982",
+   "short": "d7d0ea9bb",
+   "author": "jyviko",
+   "date": "2026-11-07T05:22:14-05:00",
+   "subject": "plane: a reversal places the origin along the turned axis",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "plan",
+    "surface",
+    "tests"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a5b3a52d821bb0acb44b687c92db3a69eb52eeb9",
+   "short": "a5b3a52d8",
+   "author": "jyviko",
+   "date": "2026-11-07T05:22:14-05:00",
+   "subject": "local operation: a body that is not sound is refused, the input put back",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "kernel",
+    "topology"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6946c5506fc76dd34f6d71ec569d7d5a967d1953",
+   "short": "6946c5506",
+   "author": "jyviko",
+   "date": "2026-11-07T05:22:14-05:00",
+   "subject": "local operation: a face with a pole beside moved faces continues as its plane",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "offset",
+    "surface",
+    "topology"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "6a3ec35e302e6d9ebb3070db12898b431ec495d4",
+   "short": "6a3ec35e3",
+   "author": "jyviko",
+   "date": "2026-11-07T05:22:14-05:00",
+   "subject": "extend: a reach below a side's least step leaves the side unchanged",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "eines",
+    "offset",
+    "surface",
+    "topology"
+   ],
+   "files": 13,
+   "watch": [
+    "ball-patch"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "9114bfbfa753a362504c32759567b33dc2e73a5e",
+   "short": "9114bfbfa",
+   "author": "jyviko",
+   "date": "2026-11-07T05:21:29-05:00",
+   "subject": "drop: a line along the seam keeps both of its UV lines",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "intersect",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "c9b44112a7a4b6543a1daba092861f14d33f233d",
+   "short": "c9b44112a",
+   "author": "jyviko",
+   "date": "2026-11-07T05:21:29-05:00",
+   "subject": "offset: an exact intersection curve of extended surfaces is its pieces inside both domains",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "intersect",
+    "kernel",
+    "offset",
+    "plan",
+    "surface"
+   ],
+   "files": 9,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "b8cfaa55778b3984979053f425e1afffad9a42dc",
+   "short": "b8cfaa557",
+   "author": "jyviko",
+   "date": "2026-11-07T05:21:06-05:00",
+   "subject": "local operation: a face that meets itself across a seam is refused an open surface",
+   "kind": "altres",
+   "module": "kernel",
+   "modules": [
+    "kernel",
+    "topology"
+   ],
+   "files": 2,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "dd5675177d90492702a9bd1ef207676ea486ff81",
+   "short": "dd5675177",
+   "author": "jyviko",
+   "date": "2026-11-07T05:20:45-05:00",
+   "subject": "local operation: faces that keep their surfaces keep their edges",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "offset",
+    "topology"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "12b953b5417ab44606dc74680f830a8df46c4932",
+   "short": "12b953b54",
+   "author": "Federico Dal Maso",
+   "date": "2026-11-07T10:51:57+01:00",
+   "subject": "docs: explain nodal cancellation and identify the checked revision",
+   "kind": "docs",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 3,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "f2208043ef64697e45965f2d9007795d11b71817",
+   "short": "f2208043e",
+   "author": "Federico Dal Maso",
+   "date": "2026-11-07T10:44:37+01:00",
+   "subject": "refactor: share the rational-spine construction with its regressions",
+   "kind": "chore",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "666a05b6a0e1de15ec2b841fed444aa7200fb7c8",
+   "short": "666a05b6a",
+   "author": "Federico Dal Maso",
+   "date": "2026-11-07T10:27:42+01:00",
+   "subject": "test: certify nodal rounds on sphere and cone support pairs",
+   "kind": "test",
+   "module": "plan",
+   "modules": [
+    "blend",
+    "plan",
+    "tests"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "23f11ee9361996fd3c1fa12b6b70f4f6ab044197",
+   "short": "23f11ee93",
+   "author": "Federico Dal Maso",
+   "date": "2026-11-07T10:11:03+01:00",
+   "subject": "docs: record final nodal-round validation after the main rebase",
+   "kind": "docs",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "889d86a0b3660b4b34ffe6eb65257433c3cf5673",
+   "short": "889d86a0b",
+   "author": "Federico Dal Maso",
+   "date": "2026-11-07T10:11:03+01:00",
+   "subject": "docs: record the nodal-round integration base and solver measurements",
+   "kind": "docs",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "02a7147158d19eef8e294cecc22d14d943fa0a82",
+   "short": "02a714715",
+   "author": "Federico Dal Maso",
+   "date": "2026-11-07T10:11:03+01:00",
+   "subject": "docs: record nodal-round compatibility with the corrected N-D solver",
+   "kind": "docs",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "plan"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "947a46a18aca687e2722d55e39d5383cf84f3115",
+   "short": "947a46a18",
+   "author": "Federico Dal Maso",
+   "date": "2026-11-07T10:11:03+01:00",
+   "subject": "fix: build the nodal-quartic spine directly in Bernstein form",
+   "kind": "fix",
+   "module": "plan",
+   "modules": [
+    "blend",
+    "plan",
+    "tests"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bcdf90df123983888d2f83e002bdea1086601b68",
+   "short": "bcdf90df1",
+   "author": "Federico Dal Maso",
+   "date": "2026-11-07T10:11:03+01:00",
+   "subject": "test: require a nodal-quartic spine exact to rounding (#2508)",
+   "kind": "test",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "682b54ae01fad2a3decdd976bd8e87f977a99f76",
+   "short": "682b54ae0",
+   "author": "aapolipponen",
+   "date": "2026-11-07T08:39:16+02:00",
+   "subject": "plan: prove 48 guarded nurbs panic sites (#2490)",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a12219b1e395a426354ca00ac015d9c190df41d3",
+   "short": "a12219b1e",
+   "author": "aapolipponen",
+   "date": "2026-11-07T08:39:16+02:00",
+   "subject": "fix: grow input-sized nurbs vectors instead of reserving (#2490)",
+   "kind": "fix",
+   "module": "nurbs",
+   "modules": [
+    "nurbs",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5e9ebe1f7d1508731cc8c4e11c957a9fa5c89ca9",
+   "short": "5e9ebe1f7",
+   "author": "aapolipponen",
+   "date": "2026-11-07T08:39:15+02:00",
+   "subject": "plan: curve's guarded panic sites marked proven (#2490)",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "dca80b62ae76156fa04c9d9c6b691f569ea1a52c",
+   "short": "dca80b62a",
+   "author": "aapolipponen",
+   "date": "2026-11-07T08:39:15+02:00",
+   "subject": "fix: curve's unbounded with_capacity calls grow their Vec instead (#2490)",
+   "kind": "fix",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "42f8ca360df3bc52829c3e807a8db37c897e846b",
+   "short": "42f8ca360",
+   "author": "bherbruck",
+   "date": "2026-11-07T00:42:52-05:00",
+   "subject": "extend: every row of a turn ends at one weight ratio",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface",
+    "tests"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e4ba786ca892a447090568ba77312aa8b04ef46b",
+   "short": "e4ba786ca",
+   "author": "bherbruck",
+   "date": "2026-11-07T00:30:03-05:00",
+   "subject": "extend: a turn's certificate takes its iso's rounding at the size of the rows it comes from",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7f9ac46d14c843c36a5e71442af5c49bf8efce87",
+   "short": "7f9ac46d1",
+   "author": "bherbruck",
+   "date": "2026-11-07T00:29:58-05:00",
+   "subject": "extend: a label its form does not prove is dropped, and the surface extends as its form",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface",
+    "tests"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "bee590760af304b84660efcc1e7307a49c9d1fe3",
+   "short": "bee590760",
+   "author": "Markus Reichart",
+   "date": "2026-11-07T05:38:49+01:00",
+   "subject": "fix: bspline_point checks the whole curve as the reader does (#2490)",
+   "kind": "fix",
+   "module": "step",
+   "modules": [
+    "plan",
+    "step"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8e55e5badb161c797537d977caa6876f2df1a075",
+   "short": "8e55e5bad",
+   "author": "bherbruck",
+   "date": "2026-11-06T23:38:36-05:00",
+   "subject": "surface: the miss samples a clamped parameter without panicking",
+   "kind": "altres",
+   "module": "surface",
+   "modules": [
+    "surface"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "e0f0eddfb30db40098d990d846cae8a4357d2920",
+   "short": "e0f0eddfb",
+   "author": "Markus Reichart",
+   "date": "2026-11-07T05:38:17+01:00",
+   "subject": "test: a hand-built B-spline edge with fewer points than degree + 1 panics the STEP build (#2490)",
+   "kind": "test",
+   "module": "step",
+   "modules": [
+    "step"
+   ],
+   "files": 2,
+   "watch": [
+    "step"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "302ff40022868f7e27ef4779271011bcd57b2d5a",
+   "short": "302ff4002",
+   "author": "bherbruck",
+   "date": "2026-11-06T23:15:37-05:00",
+   "subject": "offset: a surface extended where its rows narrow holds the margin along its side (#2908)",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "docs",
+    "eines",
+    "offset"
+   ],
+   "files": 6,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "145d74d4b4bbb9987a8d3375e85789cca29be699",
+   "short": "145d74d4b",
+   "author": "bherbruck",
+   "date": "2026-11-06T23:15:23-05:00",
+   "subject": "blend: only a net within the class's tolerance loses its definition; further off stays an error",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "surface"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2a727c0e3c984ad65ea5ada9ce4d0bf5a828496c",
+   "short": "2a727c0e3",
+   "author": "bherbruck",
+   "date": "2026-11-06T23:03:04-05:00",
+   "subject": "blend: a round not provably on its exact class keeps no definition",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "eines",
+    "surface"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "0ec7319f4a30d9e0d7c5ce21f945982789f43da2",
+   "short": "0ec7319f4",
+   "author": "bherbruck",
+   "date": "2026-11-06T22:16:20-05:00",
+   "subject": "test: the rim chamfer's gain with #2906's end section (#2907)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [
+    "chamfer"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "7b06aa6d75409e1e1827d7c54b98c881a406cfbc",
+   "short": "7b06aa6d7",
+   "author": "bherbruck",
+   "date": "2026-11-06T22:15:32-05:00",
+   "subject": "blend: a round run out past a smooth vertex goes on past its side edge's end",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "eines"
+   ],
+   "files": 2,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "bf1eda0cc1a62b06444cc621df91e115392ea8db",
+   "short": "bf1eda0cc",
+   "author": "bherbruck",
+   "date": "2026-11-06T21:57:31-05:00",
+   "subject": "goldens: #2906 end section: 10 rows blessed, e2 r0.5 listed under #3053",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "f905bc121060b20d273ec567bfa7df270dade177",
+   "short": "f905bc121",
+   "author": "Markus Reichart",
+   "date": "2026-11-07T03:35:36+01:00",
+   "subject": "fix: bspline_point checks its knots as the reader does (#2490)",
+   "kind": "fix",
+   "module": "step",
+   "modules": [
+    "plan",
+    "step"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "409d64b220670aa6006f3dcbe45be8ea2b03558f",
+   "short": "409d64b22",
+   "author": "Markus Reichart",
+   "date": "2026-11-07T03:34:59+01:00",
+   "subject": "test: bspline_point with an interior NaN knot or a multiplicity out of range (#2490)",
+   "kind": "test",
+   "module": "step",
+   "modules": [
+    "step"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "1bb405cd46b6dffa872fd5bd3e6f3901e485d3fb",
+   "short": "1bb405cd4",
+   "author": "bherbruck",
+   "date": "2026-11-06T20:58:22-05:00",
+   "subject": "offset: a proof that runs out with no curvature to size names no wall",
+   "kind": "altres",
+   "module": "offset",
+   "modules": [
+    "kernel",
+    "offset"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "744a5a9c6595606af180ca5cd6cf70cb0ffd2b41",
+   "short": "744a5a9c6",
+   "author": "Charles Galant",
+   "date": "2026-11-06T20:36:01-05:00",
+   "subject": "test(primitive): assert independent mark unlocking (#2490)",
+   "kind": "test",
+   "module": "primitive",
+   "modules": [
+    "plan",
+    "primitive"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "570c8d4303e7c16c88a6fe1ddf8a51a1519e5961",
+   "short": "570c8d430",
+   "author": "Markus Reichart",
+   "date": "2026-11-07T02:29:00+01:00",
+   "subject": "blend: a law-cornered round's pieces are its definitions",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2cb41237d62e420664c4ac5214dbba9b5c4df8c7",
+   "short": "2cb41237d",
+   "author": "Markus Reichart",
+   "date": "2026-11-07T02:28:59+01:00",
+   "subject": "test: a law-cornered variable round's pieces are rounds of their own piece of the law (failing: they come back b-spline)",
+   "kind": "test",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2ade4edf4e50bf521aedddf169e794ca2d0976a0",
+   "short": "2ade4edf4",
+   "author": "Markus Reichart",
+   "date": "2026-11-07T02:28:48+01:00",
+   "subject": "fillet session: the blend face log's comments name no issue",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3a410b57f63b07bcdc2aca0e86b279e3a4374370",
+   "short": "3a410b57f",
+   "author": "bherbruck",
+   "date": "2026-11-06T19:52:18-05:00",
+   "subject": "chamfer: a chain with no planar edge is measured at the narrowest wedge at which no station folds (rc3)",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "blend",
+    "docs",
+    "eines",
+    "surface",
+    "tests"
+   ],
+   "files": 6,
+   "watch": [
+    "setback",
+    "chamfer"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "9ff6361849f7dbf8907df254c35f52bb441514f1",
+   "short": "9ff636184",
+   "author": "Charles Galant",
+   "date": "2026-11-06T19:33:51-05:00",
+   "subject": "style: format unlock_mark assert in model.rs",
+   "kind": "style",
+   "module": "primitive",
+   "modules": [
+    "primitive"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "661ca91ed6a078e7f3fe7793fd8b7e10f35dd28c",
+   "short": "661ca91ed",
+   "author": "Charles Galant",
+   "date": "2026-11-06T19:33:51-05:00",
+   "subject": "fix: prove the primitive module's open panic sites (#2490, slice 3)",
+   "kind": "fix",
+   "module": "primitive",
+   "modules": [
+    "plan",
+    "primitive"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3029936bed8976fa28400b2507bab1ea705f6958",
+   "short": "3029936be",
+   "author": "Charles Galant",
+   "date": "2026-11-06T19:33:51-05:00",
+   "subject": "fix(primitive): claim primitive module panic sites (#2490, slice 3)",
+   "kind": "fix",
+   "module": "primitive",
+   "modules": [],
+   "files": 0,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "637fb0c26006c7234a6e76763f942a6044f0d64b",
+   "short": "637fb0c26",
+   "author": "Markus Reichart",
+   "date": "2026-11-07T01:00:23+01:00",
+   "subject": "fix: the file readers' panic sites, one refused and ten proven (#2490)",
+   "kind": "fix",
+   "module": "step",
+   "modules": [
+    "plan",
+    "step"
+   ],
+   "files": 2,
+   "watch": [
+    "step"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "c570ea8d0c08f9fa8b39e9e91c35e9c56cb520e6",
+   "short": "c570ea8d0",
+   "author": "Markus Reichart",
+   "date": "2026-11-07T01:00:23+01:00",
+   "subject": "test: a hand-built B-spline edge with decreasing knots panics the STEP build (#2490)",
+   "kind": "test",
+   "module": "step",
+   "modules": [
+    "step"
+   ],
+   "files": 2,
+   "watch": [
+    "step"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "767e0a09102fc6ad32acc5e75422a0145680b6da",
+   "short": "767e0a091",
+   "author": "bherbruck",
+   "date": "2026-11-06T18:31:38-05:00",
+   "subject": "fix: keep features is the default; its flag is retired (#2426)",
+   "kind": "fix",
+   "module": "tests",
+   "modules": [
+    "blend",
+    "docs",
+    "kernel",
+    "plan",
+    "tests"
+   ],
+   "files": 10,
+   "watch": [
+    "upstream-fixes"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "ea51ba482de67b6013e2b7be244c0d850a85d5dd",
+   "short": "ea51ba482",
+   "author": "PapaEcho13",
+   "date": "2026-11-06T18:07:10-05:00",
+   "subject": "Refresh stale blend gallery views from native kernel results",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "plan",
+    "tests"
+   ],
+   "files": 29,
+   "watch": [
+    "chamfer"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "238154e740aa7cfd6d14b390acec099e4ee62c47",
+   "short": "238154e74",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-06T23:26:21+01:00",
+   "subject": "fix(pages): fail before publishing a missing golden inventory",
+   "kind": "fix",
+   "module": "harness",
+   "modules": [
+    "harness"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "523db474c685f4445038abf9ffa56d8678ce34a3",
+   "short": "523db474c",
+   "author": "Alex Lytvynenko",
+   "date": "2026-11-06T23:26:21+01:00",
+   "subject": "test: show missing inventories can silently replace Pages counts",
+   "kind": "test",
+   "module": "harness",
+   "modules": [
+    "ci",
+    "harness"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c62d27d3aca3ff07f2639f034c25e63f2925872f",
+   "short": "c62d27d3a",
+   "author": "MateuszSychXpl",
+   "date": "2026-11-06T23:18:04+01:00",
+   "subject": "test: #10966's case note says where the leg's wall crosses the tube",
+   "kind": "test",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "8e988a74ad6852d426d835de7e29486569af8f50",
+   "short": "8e988a74a",
+   "author": "MateuszSychXpl",
+   "date": "2026-11-06T22:58:35+01:00",
+   "subject": "test: #10965 case says 0.30.1 is the triage's version, not the report's",
+   "kind": "test",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "10605e5808911e83a5a30cbc5bbf08ce0fe3913c",
+   "short": "10605e580",
+   "author": "MateuszSychXpl",
+   "date": "2026-11-06T22:35:08+01:00",
+   "subject": "test: #10965's U-bolt case checks its volume to 0.001 mm^3, below its sliver",
+   "kind": "test",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "b234028cd89e21f4d8fc348172e306ae19751fb5",
+   "short": "b234028cd",
+   "author": "MateuszSychXpl",
+   "date": "2026-11-06T22:09:45+01:00",
+   "subject": "test: #10965 summary says four cases have their own whole-body QMC check",
+   "kind": "test",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "e65134cf9eed50efda2f287f78f66524b80350e7",
+   "short": "e65134cf9",
+   "author": "MateuszSychXpl",
+   "date": "2026-11-06T22:05:13+01:00",
+   "subject": "test: #10965 case notes quote the sliver and the quadratures' agreement as computed",
+   "kind": "test",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "0eb23c1c7b9011e20c3401f4e5830017be6eba28",
+   "short": "0eb23c1c7",
+   "author": "MateuszSychXpl",
+   "date": "2026-11-06T21:39:21+01:00",
+   "subject": "test: SolidCraft #10965 case (cylinder legs joined tangent onto a half torus's cut faces)",
+   "kind": "test",
+   "module": "difftest",
+   "modules": [
+    "difftest"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": false
+  },
+  {
+   "sha": "79ca8f1045001d882d7deeb7368080364e2cd7c7",
+   "short": "79ca8f104",
+   "author": "bherbruck",
+   "date": "2026-11-06T11:06:28-05:00",
+   "subject": "blend: an edge's end section is in the plane through that end (#2906)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "eines"
+   ],
+   "files": 3,
+   "watch": [
+    "loft-skin"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "29f4825dcca61a29c73782da6587a9872d4ceed2",
+   "short": "29f4825dc",
+   "author": "Ahmad Khan",
+   "date": "2026-11-06T09:01:31+05:30",
+   "subject": "fix: each of an edge's precise-property components has an error scale of its own size",
+   "kind": "fix",
+   "module": "difftest",
+   "modules": [
+    "difftest",
+    "mass",
+    "plan",
+    "tests"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a5ad534ed66b48604315d9954301ff3781bdb26a",
+   "short": "a5ad534ed",
+   "author": "Ahmad Khan",
+   "date": "2026-11-06T07:59:51+05:30",
+   "subject": "test: an edge's area, volume and moments hold the accuracy asked, against closed forms (#2887)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "c07076e69556e67f8b48be6321db3cb40f620795",
+   "short": "c07076e69",
+   "author": "Ahmad Khan",
+   "date": "2026-11-06T04:55:58+05:30",
+   "subject": "fix: a radius law is continued as the function of its parameter it is (#2706)",
+   "kind": "fix",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "nurbs",
+    "tests"
+   ],
+   "files": 3,
+   "watch": [
+    "variable-radius"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "8d02a40a034c201d6038a3bd58a7f8b2e1479fad",
+   "short": "8d02a40a0",
+   "author": "Ahmad Khan",
+   "date": "2026-11-06T04:00:54+05:30",
+   "subject": "test: a variable round whose radius law is a single point is the constant round (#2706)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [
+    "variable-radius"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "b1e447cec829aac5bcea462a5b2a4e9d6fff3f95",
+   "short": "b1e447cec",
+   "author": "Ahmad Khan",
+   "date": "2026-11-06T01:35:05+05:30",
+   "subject": "sphere: a circle wider than the tolerance is always a circle; the WR-79 flag is gone (#2412)",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "difftest",
+    "docs",
+    "kernel",
+    "plan",
+    "surface",
+    "tests"
+   ],
+   "files": 15,
+   "watch": [
+    "upstream-fixes"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "4c9886ef95201032d9382a2ce0911b80cadca355",
+   "short": "4c9886ef9",
+   "author": "Ahmad Khan",
+   "date": "2026-11-06T01:34:57+05:30",
+   "subject": "boolean: a crossing circle whose cap lies within the tolerance is a touch (#2412)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "36b0e574c8178c15ae2697c15c321e29329b417e",
+   "short": "36b0e574c",
+   "author": "Ahmad Khan",
+   "date": "2026-11-02T20:57:50+05:30",
+   "subject": "plan: WR-79 addendum, part 1's circles inside the tolerance band break booleans (#2412)",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4547fdc794df94cf4b3373a80862d41f9e179da1",
+   "short": "4547fdc79",
+   "author": "Ahmad Khan",
+   "date": "2026-11-02T20:38:04+05:30",
+   "subject": "test: a box and a sphere crossing its top face by a hair, flag off and on (#2412, failing)",
+   "kind": "test",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  }
+ ],
+ "prs": [
+  {
+   "number": 2414,
+   "title": "Boolean: a sphere poking a hair through a box face builds a closed body; the small-circle flag is retired (#2412)",
+   "branch": "fix-2412-wr79-tiny-circle-boolean",
+   "owner": "khanahmad4527",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-07T12:58:41-05:00",
+   "issue_refs": [
+    2412
+   ],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2435,
+   "title": "Update 14 stale blend gallery images with Solidcore results",
+   "branch": "docs/2408-blend-gallery",
+   "owner": "PapaEcho13",
+   "merged_by": "jyviko",
+   "merged_at": "2026-11-07T01:25:52Z",
+   "issue_refs": [
+    2408
+   ],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2874,
+   "title": "Variable round: a radius law whose curve is a single point builds as the constant round (#2706)",
+   "branch": "fix/2706-point-radius-law",
+   "owner": "khanahmad4527",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-07T12:58:47-05:00",
+   "issue_refs": [
+    2706
+   ],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": [
+    "variable-radius"
+   ]
+  },
+  {
+   "number": 2896,
+   "title": "An edge's tube area, volume and moments are held to the accuracy asked, each by an error scale of its own size (#2887)",
+   "branch": "fix/2887-edge-property-scales",
+   "owner": "khanahmad4527",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-07T12:58:52-05:00",
+   "issue_refs": [
+    2887
+   ],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2960,
+   "title": "fillet: a blend's end section is solved in the plane through the edge's end (#2906)",
+   "branch": "fix/2906-end-section-plane",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-06T22:39:05-05:00",
+   "issue_refs": [
+    2906
+   ],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2995,
+   "title": "kernel cases: the G2 apex corners and the oblique G2 corner wait on the G2 corner fill",
+   "branch": "test/2951-apex-corners-wait-on-2697",
+   "owner": "MarkusReichart",
+   "merged_by": "jyviko",
+   "merged_at": "2026-11-07T14:26:55Z",
+   "issue_refs": [
+    2951
+   ],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 2998,
+   "title": "fillet_variable: a law-cornered round's pieces are its definitions",
+   "branch": "fix/2994-law-corner-definitions",
+   "owner": "MarkusReichart",
+   "merged_by": "jyviko",
+   "merged_at": "2026-11-07T11:06:47Z",
+   "issue_refs": [
+    2994
+   ],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 3005,
+   "title": "Local operation: unmoved faces keep their edges; a certified reach and seam rule; an unsound result is refused",
+   "branch": "local-operations",
+   "owner": "tangency-labs",
+   "merged_by": "jyviko",
+   "merged_at": "2026-11-07T16:29:53-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": [
+    "seam"
+   ]
+  },
+  {
+   "number": 3009,
+   "title": "fix: refuse missing Pages golden inventories (#2946 review)",
+   "branch": "fix/pages-require-golden-directory",
+   "owner": "altvnk",
+   "merged_by": "jyviko",
+   "merged_at": "2026-11-07T01:22:25Z",
+   "issue_refs": [
+    2946
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 3014,
+   "title": "fillet: a ruled loft's rim rounds turn at the side edges between its walls (#2844)",
+   "branch": "fix/2844-loft-rim-turn",
+   "owner": "MarkusReichart",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-07T13:00:39-05:00",
+   "issue_refs": [
+    2844
+   ],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": [
+    "loft-skin"
+   ]
+  },
+  {
+   "number": 3017,
+   "title": "test: SolidCraft #10965 case (cylinder legs joined tangent onto a half torus's cut faces)",
+   "branch": "cases/solidcraft-10965",
+   "owner": "SychPL",
+   "merged_by": "jyviko",
+   "merged_at": "2026-11-07T01:22:23Z",
+   "issue_refs": [
+    10965
+   ],
+   "upstream_refs": [],
+   "kind": "test",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 3022,
+   "title": "fix: construct the nodal-quartic round spine directly in Bernstein form (#2508)",
+   "branch": "fix/2508-exact-nodal-quartic",
+   "owner": "fdalmaso",
+   "merged_by": "jyviko",
+   "merged_at": "2026-11-07T10:52:08Z",
+   "issue_refs": [
+    2508
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 3027,
+   "title": "fix: the curve module's open panic sites (#2490, slice 3)",
+   "branch": "fix/2490-curve",
+   "owner": "aapolipponen",
+   "merged_by": "jyviko",
+   "merged_at": "2026-11-07T14:26:58Z",
+   "issue_refs": [
+    2490
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 3038,
+   "title": "fix: the file readers' open panic sites (#2490, slice 3)",
+   "branch": "fix/2490-file-readers",
+   "owner": "MarkusReichart",
+   "merged_by": "jyviko",
+   "merged_at": "2026-11-07T14:15:33Z",
+   "issue_refs": [
+    2490
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 3039,
+   "title": "fix: the primitive module's open panic sites (#2490, slice 3)",
+   "branch": "fix/2490-primitive-panic-sites",
+   "owner": "outlookhazy",
+   "merged_by": "jyviko",
+   "merged_at": "2026-11-07T10:17:23Z",
+   "issue_refs": [
+    2490
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 3049,
+   "title": "fix: the nurbs module's open panic sites (#2490, slice 3)",
+   "branch": "fix/2490-nurbs",
+   "owner": "aapolipponen",
+   "merged_by": "jyviko",
+   "merged_at": "2026-11-07T14:27:00Z",
+   "issue_refs": [
+    2490
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 3050,
+   "title": "fix: the topology module's open panic sites (#2490, slice 3)",
+   "branch": "fix/2490-topology",
+   "owner": "aapolipponen",
+   "merged_by": "jyviko",
+   "merged_at": "2026-11-07T23:52:12Z",
+   "issue_refs": [
+    2490
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 3051,
+   "title": "fix: intersect, geom, eval, sweep, query and heal's open panic sites (#2490, slice 3)",
+   "branch": "fix/2490-misc",
+   "owner": "aapolipponen",
+   "merged_by": "jyviko",
+   "merged_at": "2026-11-07T23:50:58Z",
+   "issue_refs": [
+    2490
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 3052,
+   "title": "fix: keep features is the default; its flag is retired (#2426)",
+   "branch": "fix/2426-retire-keep-features",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-07T09:53:22-05:00",
+   "issue_refs": [
+    2426
+   ],
+   "upstream_refs": [],
+   "kind": "fix",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 3055,
+   "title": "chamfer: a chain with no planar edge takes the narrowest wedge at which no station folds",
+   "branch": "fix/chain-no-fold-wedge",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-06T20:12:44-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": [
+    "chamfer"
+   ]
+  },
+  {
+   "number": 3058,
+   "title": "offset: a proof that runs out with no curvature to size names no wall",
+   "branch": "fix/offset-sizeless-refusal",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-06T21:20:31-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": "offset",
+   "watch": []
+  },
+  {
+   "number": 3063,
+   "title": "blend: a round run out past a smooth vertex goes on past its side edge's end",
+   "branch": "fix/smooth-vertex-run-on",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-06T22:34:44-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": "blend",
+   "watch": []
+  },
+  {
+   "number": 3065,
+   "title": "blend: a round not provably on its exact class keeps no definition",
+   "branch": "fix/noisy-class-keeps-no-definition",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-06T23:58:48-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": "blend",
+   "watch": []
+  },
+  {
+   "number": 3067,
+   "title": "offset: a surface extended where its rows narrow holds the margin along its side (#2908)",
+   "branch": "fix/2908-basin-shell-reach",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-06T23:35:55-05:00",
+   "issue_refs": [
+    2908
+   ],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": "offset",
+   "watch": []
+  },
+  {
+   "number": 3068,
+   "title": "extend: the pleat offset: a label its form does not prove is dropped, one weight ratio per turn",
+   "branch": "fix/extend-label-drop",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-07T01:04:40-05:00",
+   "issue_refs": [],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 3069,
+   "title": "ops: blend_ordered takes the corner turn; the four turn cases run (#2722)",
+   "branch": "fix/2722-ops-corner-turn",
+   "owner": "MarkusReichart",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-07T13:00:44-05:00",
+   "issue_refs": [
+    2722
+   ],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 3089,
+   "title": "diagnostics: render native edges with explicit --wireframe (#3088)",
+   "branch": "fix/diagnostics-wireframe-3088",
+   "owner": "ChrisNourse",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-07T13:00:34-05:00",
+   "issue_refs": [
+    3088
+   ],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  },
+  {
+   "number": 3095,
+   "title": "blend: a conic pair's plane is read off the edge, not off a station at the crossing (#2952)",
+   "branch": "fix/2952-conic-pair-plane",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-07T09:54:28-05:00",
+   "issue_refs": [
+    2952
+   ],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": "blend",
+   "watch": []
+  },
+  {
+   "number": 3097,
+   "title": "fillet: rounds whose rails only run on past their edges' ends do not cross (#2845)",
+   "branch": "fix/2845-crossing-rails",
+   "owner": "tangency-labs",
+   "merged_by": "bherbruck",
+   "merged_at": "2026-11-07T10:02:57-05:00",
+   "issue_refs": [
+    2845
+   ],
+   "upstream_refs": [],
+   "kind": "altres",
+   "module": null,
+   "watch": []
+  }
+ ],
+ "watch": [
+  {
+   "id": "setback",
+   "label": "Cantonades setback",
+   "cases": [
+    "C05",
+    "D01",
+    "D02"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "db02097dc",
+     "text": "Fillet law: the corner's extension distance and the law check keep a refused continued radius",
+     "url": "https://github.com/tangency-labs/solidcore/commit/db02097dc253e282153c63b62217481b5bfee5f5",
+     "matched": "A corner can narrow a variable round's law interval to its setback"
+    },
+    {
+     "source": "commit",
+     "ref": "9a6b4ab53",
+     "text": "test: the round and the chamfer of a ruled loft's circular rim are one solid (#2844)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/9a6b4ab530e6ac89a4119c959aa20f8a816d4f3d",
+     "matched": "the chamfer's the chord between its setbacks; at the arcs' joints the rim's"
+    },
+    {
+     "source": "commit",
+     "ref": "f56ef2167",
+     "text": "kernel cases: the two G2 apex corners wait on the G2 corner fill (#2697)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/f56ef216737ddc215806ee5b4389a55c80fba054",
+     "matched": "SolidCraft's own 1.5 r setback before the kernel runs; solidcore's default,"
+    },
+    {
+     "source": "commit",
+     "ref": "3a410b57f",
+     "text": "chamfer: a chain with no planar edge is measured at the narrowest wedge at which no station folds (rc3)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/3a410b57f63b07bcdc2aca0e86b279e3a4374370",
+     "matched": "The widest wedge gave setbacks of about 2.38 for 1.528 asked on the #2907 part. The narrowest has the smallest offsets, but unequal sizes can fold there, so for them the wedge moves up to the least at"
+    },
+    {
+     "source": "github",
+     "ref": "#3070",
+     "text": "[WIP] fix: the setback scale search fills degree 9 first, as the corner's fill does",
+     "url": "https://github.com/tangency-labs/solidcore/pull/3070"
+    }
+   ]
+  },
+  {
+   "id": "mixed-corner",
+   "label": "Cantonades mixtes",
+   "cases": [
+    "D01",
+    "D02"
+   ],
+   "hits": []
+  },
+  {
+   "id": "ball-patch",
+   "label": "Ball patch (cantonades esfèriques)",
+   "cases": [
+    "C05",
+    "D11"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "54d1bb1d1",
+     "text": "extend (ball patch): a side solved to a length is reported met only when it meets it",
+     "url": "https://github.com/tangency-labs/solidcore/commit/54d1bb1d1444f2c4d628409dc4a5955a0d4c5f26"
+    },
+    {
+     "source": "commit",
+     "ref": "6a3ec35e3",
+     "text": "extend: a reach below a side's least step leaves the side unchanged",
+     "url": "https://github.com/tangency-labs/solidcore/commit/6a3ec35e302e6d9ebb3070db12898b431ec495d4",
+     "matched": "shorter one for every continuity, and the analytic, ball-patch, B-spline and"
+    }
+   ]
+  },
+  {
+   "id": "variable-radius",
+   "label": "Radi variable / lleis de radi",
+   "cases": [
+    "D07"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "19cd0d23a",
+     "text": "goldens: bless blend.fillet_executive_p1/bspline_constant_radius_zero_tangent (#2706)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/19cd0d23af51708cd54391eacf1dfab27563a6a4",
+     "matched": "Why it is right: a radius law is the function x(t) of its parameter."
+    },
+    {
+     "source": "commit",
+     "ref": "83cc31a60",
+     "text": "fix: a radius law is continued by the one extension path, and a continued radius that overflows is refused naming its station (#2706)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/83cc31a60e4bd65b2cc85a242ee3d7885f5bdca8"
+    },
+    {
+     "source": "commit",
+     "ref": "c07076e69",
+     "text": "fix: a radius law is continued as the function of its parameter it is (#2706)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/c07076e69556e67f8b48be6321db3cb40f620795"
+    },
+    {
+     "source": "commit",
+     "ref": "8d02a40a0",
+     "text": "test: a variable round whose radius law is a single point is the constant round (#2706)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/8d02a40a034c201d6038a3bd58a7f8b2e1479fad"
+    },
+    {
+     "source": "pr",
+     "ref": "#2874",
+     "text": "Variable round: a radius law whose curve is a single point builds as the constant round (#2706)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/2874"
+    }
+   ]
+  },
+  {
+   "id": "round-larger-than-wall",
+   "label": "Arrodoniment més gran que la paret",
+   "cases": [
+    "D03",
+    "D08"
+   ],
+   "hits": []
+  },
+  {
+   "id": "shell-rounded",
+   "label": "Buidat de cossos arrodonits",
+   "cases": [
+    "D11",
+    "D14"
+   ],
+   "hits": []
+  },
+  {
+   "id": "hang-cancel",
+   "label": "Penjaments, temps límit i cancel·lació",
+   "cases": [
+    "C03",
+    "D02",
+    "D11"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "83cc31a60",
+     "text": "fix: a radius law is continued by the one extension path, and a continued radius that overflows is refused naming its station (#2706)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/83cc31a60e4bd65b2cc85a242ee3d7885f5bdca8",
+     "matched": "unbounded evaluation: crv_adv::p2::Closure (Tested, upstream's and the"
+    },
+    {
+     "source": "commit",
+     "ref": "267306fdc",
+     "text": "extend: sides extended in turn are judged and measured at the face (#3000, #3057)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/267306fdc7221b468c2b4135cd026791d2a59c2a",
+     "matched": "- What a side is (closed, collapsed, unbounded, round an axis) was decided"
+    },
+    {
+     "source": "commit",
+     "ref": "12b953b54",
+     "text": "docs: explain nodal cancellation and identify the checked revision",
+     "url": "https://github.com/tangency-labs/solidcore/commit/12b953b5417ab44606dc74680f830a8df46c4932"
+    },
+    {
+     "source": "commit",
+     "ref": "dca80b62a",
+     "text": "fix: curve's unbounded with_capacity calls grow their Vec instead (#2490)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/dca80b62ae76156fa04c9d9c6b691f569ea1a52c"
+    }
+   ]
+  },
+  {
+   "id": "corner-blend",
+   "label": "Corner blend (CreateCornerBlend / Coons)",
+   "cases": [
+    "C05",
+    "D02"
+   ],
+   "hits": []
+  },
+  {
+   "id": "chamfer",
+   "label": "Xamfrans",
+   "cases": [],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "3b1579f8e",
+     "text": "test: the rim's mitre creases, its blends' faces, the chamfer at 2, MIXED derived (#2844)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/3b1579f8e08e2ae0c3e70201cd8b07d90f62eb04"
+    },
+    {
+     "source": "commit",
+     "ref": "9a6b4ab53",
+     "text": "test: the round and the chamfer of a ruled loft's circular rim are one solid (#2844)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/9a6b4ab530e6ac89a4119c959aa20f8a816d4f3d"
+    },
+    {
+     "source": "commit",
+     "ref": "1f8f66124",
+     "text": "ops: say why chamfers and the variable round turn mitred",
+     "url": "https://github.com/tangency-labs/solidcore/commit/1f8f6612457b3fea29de3260e765bcb330bf0c3c"
+    },
+    {
+     "source": "commit",
+     "ref": "0ec7319f4",
+     "text": "test: the rim chamfer's gain with #2906's end section (#2907)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/0ec7319f4a30d9e0d7c5ce21f945982789f43da2"
+    },
+    {
+     "source": "commit",
+     "ref": "3a410b57f",
+     "text": "chamfer: a chain with no planar edge is measured at the narrowest wedge at which no station folds (rc3)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/3a410b57f63b07bcdc2aca0e86b279e3a4374370"
+    },
+    {
+     "source": "commit",
+     "ref": "ea51ba482",
+     "text": "Refresh stale blend gallery views from native kernel results",
+     "url": "https://github.com/tangency-labs/solidcore/commit/ea51ba482de67b6013e2b7be244c0d850a85d5dd",
+     "matched": "Replace 14 historical-state renders with inspected native views and whole-part insets. Record measured sources, reproducible cameras, remaining application gaps and verification limits. Preserve the g"
+    },
+    {
+     "source": "pr",
+     "ref": "#3055",
+     "text": "chamfer: a chain with no planar edge takes the narrowest wedge at which no station folds",
+     "url": "https://github.com/tangency-labs/solidcore/pull/3055"
+    }
+   ]
+  },
+  {
+   "id": "loft-skin",
+   "label": "Loft / skin (superfícies B-spline arrodonides)",
+   "cases": [
+    "D14"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "3b1579f8e",
+     "text": "test: the rim's mitre creases, its blends' faces, the chamfer at 2, MIXED derived (#2844)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/3b1579f8e08e2ae0c3e70201cd8b07d90f62eb04",
+     "matched": "the edge's tolerance of it), from the disc down to the loft's side edge, less than a size"
+    },
+    {
+     "source": "commit",
+     "ref": "cc0302c4a",
+     "text": "test: allow the closed-form oracles' float methods in the loft rim test (#2844)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/cc0302c4af4b78395239500f064f72be8facb968"
+    },
+    {
+     "source": "commit",
+     "ref": "7fea69c07",
+     "text": "kernel cases: 12034's round of the loft's rim builds (#2844)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/7fea69c070afa7f90d85ab31d07e9a9601639b63"
+    },
+    {
+     "source": "commit",
+     "ref": "8ccfc07c9",
+     "text": "fillet: blends whose edges continue each other turn at a sharp side edge between their faces (#2844)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/8ccfc07c9d4a23bfcd4fd2ef2eb18bef221808d3",
+     "matched": "tangentially along that edge. At a ruled loft's circular rim the side edge"
+    },
+    {
+     "source": "commit",
+     "ref": "9a6b4ab53",
+     "text": "test: the round and the chamfer of a ruled loft's circular rim are one solid (#2844)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/9a6b4ab530e6ac89a4119c959aa20f8a816d4f3d"
+    },
+    {
+     "source": "commit",
+     "ref": "42eaf5e5f",
+     "text": "fillet: rounds whose rails only run on past their edges' ends do not cross (#2845)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/42eaf5e5f220be22345a1415cef16c2adc52ec20",
+     "matched": "#2906's second design, the same loft cut from a pocket floor beside a hole, takes the same closed forms; its operand and test are added."
+    },
+    {
+     "source": "commit",
+     "ref": "79ca8f104",
+     "text": "blend: an edge's end section is in the plane through that end (#2906)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/79ca8f1045001d882d7deeb7368080364e2cd7c7",
+     "matched": "first-order step across the face, which on a loft's fanning side lands 100 mm or more along the"
+    },
+    {
+     "source": "pr",
+     "ref": "#3014",
+     "text": "fillet: a ruled loft's rim rounds turn at the side edges between its walls (#2844)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/3014"
+    },
+    {
+     "source": "github",
+     "ref": "#3099",
+     "text": "Fillet: a round of a ruled loft's rim is a bare B-spline with every fix on, not its definition",
+     "url": "https://github.com/tangency-labs/solidcore/issues/3099"
+    }
+   ]
+  },
+  {
+   "id": "step",
+   "label": "STEP (import / export)",
+   "cases": [
+    "anada i tornada STEP"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "e0f0eddfb",
+     "text": "test: a hand-built B-spline edge with fewer points than degree + 1 panics the STEP build (#2490)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/e0f0eddfb30db40098d990d846cae8a4357d2920"
+    },
+    {
+     "source": "commit",
+     "ref": "637fb0c26",
+     "text": "fix: the file readers' panic sites, one refused and ten proven (#2490)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/637fb0c26006c7234a6e76763f942a6044f0d64b",
+     "matched": "inputs; the face's STEP domain is then not set and the build refuses"
+    },
+    {
+     "source": "commit",
+     "ref": "c570ea8d0",
+     "text": "test: a hand-built B-spline edge with decreasing knots panics the STEP build (#2490)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/c570ea8d0c08f9fa8b39e9e91c35e9c56cb520e6"
+    },
+    {
+     "source": "github",
+     "ref": "#3103",
+     "text": "A cone's whole-turn STEP window a rounding error past ±180° builds its circle over that turn, not one turn higher (#2928)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/3103"
+    },
+    {
+     "source": "github",
+     "ref": "#3104",
+     "text": "STEP: compose the product structure into placed bodies (#2578, slice 6)",
+     "url": "https://github.com/tangency-labs/solidcore/pull/3104"
+    }
+   ]
+  },
+  {
+   "id": "platform",
+   "label": "Plataformes (wasm, iOS, ARM)",
+   "cases": [
+    "iPad"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "0c6c89119",
+     "text": "goldens: bless the 43 mass.integrator cases the edge's own error scales move (#2887)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/0c6c891192c861e1b393c29a8828360bb275739b",
+     "matched": "Not blessed: review_edge_constant_1e-09_[0, 1]_0 differs on macOS arm64"
+    },
+    {
+     "source": "commit",
+     "ref": "328f4d4e1",
+     "text": "goldens: re-recorded on Linux after the rebase onto main (#2985, #2986)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/328f4d4e16116cc5fd16d135c4378a84afaa9d87",
+     "matched": "Recorded on the aarch64 Linux box; every unit passes there with these"
+    }
+   ]
+  },
+  {
+   "id": "determinism",
+   "label": "Determinisme",
+   "cases": [
+    "resultats idèntics Mac/iPad"
+   ],
+   "hits": []
+  },
+  {
+   "id": "upstream-fixes",
+   "label": "Flags d'UpstreamFixes",
+   "cases": [
+    "configuració del kernel a l'app"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "767e0a091",
+     "text": "fix: keep features is the default; its flag is retired (#2426)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/767e0a09102fc6ad32acc5e75422a0145680b6da",
+     "matched": "`UpstreamFixes::fillet_keep_features` is gone and its path is the only one: a boss or cut inside a round's band stays on `Kernel::default()`, its walls swept in a body of their own (#2415). The path w"
+    },
+    {
+     "source": "commit",
+     "ref": "b1e447cec",
+     "text": "sphere: a circle wider than the tolerance is always a circle; the WR-79 flag is gone (#2412)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/b1e447cec829aac5bcea462a5b2a4e9d6fff3f95",
+     "matched": "UpstreamFixes::sphere_small_circle_not_touching is deleted and its rule is the only path:"
+    }
+   ]
+  },
+  {
+   "id": "seam",
+   "label": "Costures (seam) i arestes partides",
+   "cases": [
+    "lliçó: no triar arestes en costures"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "328f4d4e1",
+     "text": "goldens: re-recorded on Linux after the rebase onto main (#2985, #2986)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/328f4d4e16116cc5fd16d135c4378a84afaa9d87",
+     "matched": "one: 26 are refused with the input put back (17 seam, 8 reach, 1 exact-curve"
+    },
+    {
+     "source": "commit",
+     "ref": "dab71ccfa",
+     "text": "goldens: bless intersect.surface_drop_lib_p1, 2 of 2926 cases",
+     "url": "https://github.com/tangency-labs/solidcore/commit/dab71ccfa084dc6b231435c20129854c15a5fb6f",
+     "matched": "Why: a drop starting on the seam used to be traced again from its image"
+    },
+    {
+     "source": "commit",
+     "ref": "c247f60ce",
+     "text": "goldens: bless offset.offset_geometry_creation, 1 of 926 cases",
+     "url": "https://github.com/tangency-labs/solidcore/commit/c247f60ce3d52301f1aedcba6e08edc4114562bf",
+     "matched": "pieces inside both domains, each with its two UV curves, and a seam"
+    },
+    {
+     "source": "commit",
+     "ref": "2aaf3b8fb",
+     "text": "goldens: bless topology.brep_local_operation, 165 of 165 cases",
+     "url": "https://github.com/tangency-labs/solidcore/commit/2aaf3b8fbe1172d1537db7386a583a7ed8891c83",
+     "matched": "cone cases are refused as a seam opened (a plane cannot carry the cone"
+    },
+    {
+     "source": "commit",
+     "ref": "76791fbd6",
+     "text": "wr_530: the moved wall's seam is refused as opened, naming the wall's face, before the reach",
+     "url": "https://github.com/tangency-labs/solidcore/commit/76791fbd698912064d63e35b650b41c3b37145d1"
+    },
+    {
+     "source": "commit",
+     "ref": "0b43d8274",
+     "text": "reach: an edge's pieces are all decided before any bound is tightened, the largest first",
+     "url": "https://github.com/tangency-labs/solidcore/commit/0b43d8274166d04fe2f36a85e22f9eb820036210",
+     "matched": "the tolerance; the answer is the largest bound left. A seam is no meeting of two"
+    },
+    {
+     "source": "commit",
+     "ref": "26f8e6ccb",
+     "text": "local_operation: a seam is kept on a surface by its exact iso lines and a certified gap, not by samples",
+     "url": "https://github.com/tangency-labs/solidcore/commit/26f8e6ccb6f194bcd910add6512cc0caaa8593f7"
+    },
+    {
+     "source": "commit",
+     "ref": "854f356e3",
+     "text": "local operation: a seamed face's new surface must take its seam lines",
+     "url": "https://github.com/tangency-labs/solidcore/commit/854f356e39f47f2df8878847385c5741b6c407e6"
+    },
+    {
+     "source": "commit",
+     "ref": "9114bfbfa",
+     "text": "drop: a line along the seam keeps both of its UV lines",
+     "url": "https://github.com/tangency-labs/solidcore/commit/9114bfbfa753a362504c32759567b33dc2e73a5e"
+    },
+    {
+     "source": "commit",
+     "ref": "c9b44112a",
+     "text": "offset: an exact intersection curve of extended surfaces is its pieces inside both domains",
+     "url": "https://github.com/tangency-labs/solidcore/commit/c9b44112a7a4b6543a1daba092861f14d33f233d",
+     "matched": "no longer traces a seam start's other point again. The drops run under the"
+    },
+    {
+     "source": "commit",
+     "ref": "b8cfaa557",
+     "text": "local operation: a face that meets itself across a seam is refused an open surface",
+     "url": "https://github.com/tangency-labs/solidcore/commit/b8cfaa55778b3984979053f425e1afffad9a42dc"
+    },
+    {
+     "source": "commit",
+     "ref": "7b06aa6d7",
+     "text": "blend: a round run out past a smooth vertex goes on past its side edge's end",
+     "url": "https://github.com/tangency-labs/solidcore/commit/7b06aa6d75409e1e1827d7c54b98c881a406cfbc",
+     "matched": "Since #2656 such a round ends on the end face instead of a cap, and the End refused a rail past its side edge's far end unless the seam there is tangent. The rail stays on its face, and the round goes"
+    },
+    {
+     "source": "pr",
+     "ref": "#3005",
+     "text": "Local operation: unmoved faces keep their edges; a certified reach and seam rule; an unsound result is refused",
+     "url": "https://github.com/tangency-labs/solidcore/pull/3005"
+    }
+   ]
+  }
+ ],
+ "units": {
+  "total": 282,
+  "counts": {
+   "green": 254,
+   "blocked": 1,
+   "partial": 27
+  },
+  "status_changes": [
+   {
+    "unit": "intersect.surface_drop_lib_p1",
+    "before": "green",
+    "after": "partial"
+   },
+   {
+    "unit": "surface.plane_p1",
+    "before": "green",
+    "after": "partial"
+   },
+   {
+    "unit": "surface.surface_p2",
+    "before": "green",
+    "after": "partial"
+   }
+  ],
+  "notes_updated": [
+   "intersect.surface_drop_lib_p1",
+   "offset.offset_geometry_creation",
+   "surface.plane_p1",
+   "surface.surface_p2"
+  ],
+  "not_green": [
+   "blend.feature_executive",
+   "blend.fillet_corner_p2",
+   "blend.fillet_corner_p3",
+   "blend.fillet_executive_p3",
+   "blend.fillet_geom_p4",
+   "boolean.api_brep",
+   "curve.curve_p3",
+   "curve.curve_p5",
+   "intersect.api_intersectors",
+   "intersect.surface_drop_lib_p1",
+   "intersect.surface_intersector_p2",
+   "mass.integrator",
+   "offset.offset_executive_p1",
+   "offset.offset_executive_p2",
+   "offset.offset_geometry_creation",
+   "primitive.api_trim_ops",
+   "surface.plane_p1",
+   "surface.surface_p2",
+   "surface.torus",
+   "sweep.api_brep",
+   "topology.api_files",
+   "topology.api_projection",
+   "topology.assert_valid",
+   "topology.brep_cutting",
+   "topology.brep_local_operation",
+   "topology.brep_p3",
+   "topology.brep_planar_section",
+   "topology.face_p2"
+  ]
+ },
+ "upstream_issues": {
+  "total": 738,
+  "counts": {
+   "WR": 411,
+   "UB": 257,
+   "HANG": 52,
+   "ND": 11,
+   "DOC": 5,
+   "FAIL": 1,
+   "ISSUE": 1
+  },
+  "new": [],
+  "removed": [],
+  "retitled": [],
+  "new_addenda": [
+   "WR-703--addendum-2026-11-06-flag-retired.md",
+   "WR-79--addendum-2026-11-05-part-1-the-only-path-a-cap-within-tolerance-is-a-touch.md"
+  ]
+ },
+ "findings": {
+  "total": 742,
+  "new": [
+   {
+    "file": "blend-gallery-native-refresh.md",
+    "title": "<!-- SPDX-License-Identifier: Apache-2.0 -->"
+   },
+   {
+    "file": "blend.fillet_exact--2508-nodal-bernstein.md",
+    "title": "blend.fillet_exact: construct the nodal quartic in its segment's Bernstein basis (2026-11-06)"
+   },
+   {
+    "file": "mass.integrator--edge-component-error-scales-2026-11-06.md",
+    "title": "mass.integrator: each edge component has an error scale of its own size, 36 edge cases move (2026-11-06)"
+   }
+  ]
+ },
+ "solidcraft": {
+  "total": 125,
+  "counts": {
+   "PASS": 97,
+   "DEFERRED": 23,
+   "ERROR": 1,
+   "FAIL": 4
+  },
+  "changes": [],
+  "new": [],
+  "failing": [
+   "3369-fillet-edge-on-tangent-seam/edge_ends_on_seam",
+   "451-hollow-shell-cut/block_crossing_both_spheres_cut",
+   "451-hollow-shell-cut/block_crossing_inner_sphere_cut",
+   "451-hollow-shell-cut/block_crossing_inner_sphere_join",
+   "451-hollow-shell-cut/block_inside_hollow_cut"
+  ]
+ },
+ "upstream_fixes": {
+  "total": 308,
+  "new": [],
+  "removed": [
+   "local_operation_offset_status",
+   "sphere_small_circle_not_touching",
+   "fillet_keep_features"
+  ],
+  "fillet_total": 81
+ },
+ "gates": {
+  "waivers_before": 35,
+  "waivers_after": 35,
+  "known_mismatches": 0,
+  "mismatches_new": [],
+  "mismatches_removed": []
+ },
+ "pin": {
+  "version": "1.0.1",
+  "commit": "3fd5b9548",
+  "changed": false,
+  "before_version": "1.0.1"
+ },
+ "status_md_changed": false,
+ "tags": [],
+ "github": {
+  "ok": true,
+  "issues_opened": [
+   {
+    "number": 3057,
+    "title": "Surface extension: a side extended after another is measured on the grown box, not at the face",
+    "author": "jyviko",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3057"
+   },
+   {
+    "number": 3100,
+    "title": "Offsets of procedural rounds refused by recertify, and turned offsets' v sides miss the reach, after #3005",
+    "author": "jyviko",
+    "labels": [
+     "bug",
+     "priority: high"
+    ],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3100"
+   },
+   {
+    "number": 3079,
+    "title": "Extension of a rational B-spline builds short of its margin, and its refusals name sizes that do not work",
+    "author": "jyviko",
+    "labels": [
+     "bug",
+     "priority: high"
+    ],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3079"
+   },
+   {
+    "number": 3113,
+    "title": "IsoCurve continuity uses the fixed surface direction instead of the varying direction",
+    "author": "ChrisNourse",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3113"
+   },
+   {
+    "number": 3093,
+    "title": "Add-by-faces extrusion builds an open body or a closed solid from a few ulps of an extended domain, and reports success either way",
+    "author": "jyviko",
+    "labels": [
+     "bug",
+     "priority: high"
+    ],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3093"
+   },
+   {
+    "number": 3094,
+    "title": "Offset results that fail check_brep are reported as success (offset_executive_p2)",
+    "author": "jyviko",
+    "labels": [
+     "bug",
+     "priority: high"
+    ],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3094"
+   },
+   {
+    "number": 3120,
+    "title": "Line/surface leaf solve keeps one crossing per leaf: a ray misses the wall it leaves through, so points just inside an extruded circle classify as outside",
+    "author": "dudedagger42",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3120"
+   },
+   {
+    "number": 3119,
+    "title": "Curve/face Single minimum misses a closer native sphere-band pair",
+    "author": "ChrisNourse",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3119"
+   },
+   {
+    "number": 3060,
+    "title": "Projected curve-pair maxima admit strictly better feasible witnesses",
+    "author": "ChrisNourse",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3060"
+   },
+   {
+    "number": 3114,
+    "title": "TangentField projected maxima return empty success on nonempty domains",
+    "author": "ChrisNourse",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3114"
+   },
+   {
+    "number": 3112,
+    "title": "`crates/solidcore/src/blend/blend_corner/mixed.rs:1426` does not compile on Rust 1.91 (MSRV says 1.85)",
+    "author": "jmcopp",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3112"
+   },
+   {
+    "number": 3109,
+    "title": "Projected torus curve/face maximum retains a fitted-silhouette scalar above the native global bound",
+    "author": "ChrisNourse",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3109"
+   },
+   {
+    "number": 3111,
+    "title": "Projected curve-point All returns nonmaxima under broad retention",
+    "author": "ChrisNourse",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3111"
+   },
+   {
+    "number": 3107,
+    "title": "ProjectAndTrim turns certified projection refusals into reversed face classifications",
+    "author": "ChrisNourse",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3107"
+   },
+   {
+    "number": 3088,
+    "title": "Diagnostics: explicit wireframe view for invalid bodies refused by record conversion",
+    "author": "ChrisNourse",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3088"
+   },
+   {
+    "number": 3101,
+    "title": "an intersection edge continued to its proto vertex is not certified on its faces",
+    "author": "bherbruck",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3101"
+   },
+   {
+    "number": 3098,
+    "title": "Redo the rc.3 shortcuts as certified constructions",
+    "author": "bherbruck",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3098"
+   },
+   {
+    "number": 3066,
+    "title": "Exact rounds: certify against a frame fitted within the tolerance, so noisy imports keep a bound-0 definition",
+    "author": "bherbruck",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3066"
+   },
+   {
+    "number": 3062,
+    "title": "Fillet: near-tangent crossing leaves a 1.15e-4 loop gap at radii 0.5 to 0.6 on a running-on End",
+    "author": "bherbruck",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3062"
+   },
+   {
+    "number": 3099,
+    "title": "Fillet: a round of a ruled loft's rim is a bare B-spline with every fix on, not its definition",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3099"
+   },
+   {
+    "number": 3096,
+    "title": "Surface-point Maximize returns nonmaximal candidates without refusal",
+    "author": "fdalmaso",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3096"
+   },
+   {
+    "number": 3090,
+    "title": "Boolean: a cut of filleted boxes 1e-2 apart has the right volume but fails check with a Bad Gap at the tangent edges",
+    "author": "ablasik",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3090"
+   },
+   {
+    "number": 3091,
+    "title": "SSI: a closed intersection loop that touches a face's edge is traced round and round to the point limit; a D cut tangent to a boss then fails with 1001 or loses the body (solidcraft#12858)",
+    "author": "dudedagger42",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3091"
+   },
+   {
+    "number": 3087,
+    "title": "Small-radius planar-path mitre returns success with vertices off its faces",
+    "author": "ChrisNourse",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3087"
+   },
+   {
+    "number": 3082,
+    "title": "A failed fillet_edges can leave the body changed and invalid instead of as it was",
+    "author": "khanahmad4527",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3082"
+   },
+   {
+    "number": 3080,
+    "title": "Swept turn refused at a sharp concave side edge: give the radius that would pass as a typed refusal",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3080"
+   },
+   {
+    "number": 3078,
+    "title": "Perf: a variable round takes about a minute to certify its definition (gn_certify_span)",
+    "author": "jyviko",
+    "labels": [
+     "help wanted",
+     "performance"
+    ],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3078"
+   },
+   {
+    "number": 3076,
+    "title": "Blend gallery: follow-ups from the #2435 refresh (baked captions, off-repo notes, regenerable renders)",
+    "author": "jyviko",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3076"
+   },
+   {
+    "number": 3072,
+    "title": "Default kernel: cyl_on_box1 edge 12 r 2 fails in the rollover (1001) once the WR-682 trace is taken (#2936)",
+    "author": "Karl-VonRichter",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3072"
+   }
+  ],
+  "issues_closed": [
+   {
+    "number": 2879,
+    "title": "A merged fillet's finish seeds every target object's record once per face",
+    "author": "kaievns",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2879"
+   },
+   {
+    "number": 3002,
+    "title": "offset: gen0049 and gen0779 results have an edge whose pcurve interval differs from its 3D curve's, after the local-operation change",
+    "author": "jyviko",
+    "labels": [
+     "help wanted"
+    ],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3002"
+   },
+   {
+    "number": 3001,
+    "title": "offset: an offset result edge's pcurve interval differs from its 3D curve's (gen0732, on main as well)",
+    "author": "jyviko",
+    "labels": [
+     "help wanted"
+    ],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3001"
+   },
+   {
+    "number": 3021,
+    "title": "Blend corner: concave corner case _67 stops half-made at a null pointer (1006); fix and re-record its golden",
+    "author": "jyviko",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3021"
+   },
+   {
+    "number": 2844,
+    "title": "Fillet: rounding a square-to-circle loft's circular rim gives a body that is not closed (solidcraft#12034)",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2844"
+   },
+   {
+    "number": 3088,
+    "title": "Diagnostics: explicit wireframe view for invalid bodies refused by record conversion",
+    "author": "ChrisNourse",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3088"
+   },
+   {
+    "number": 2887,
+    "title": "Precise edge properties: only the length is under error control; the area, volume and moment components get the scale BIG_DOUBLE",
+    "author": "jyviko",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2887"
+   },
+   {
+    "number": 2706,
+    "title": "blend: a variable round whose B-spline radius law is a single point fails with SM_ERR_NULL_POINTER in the solver",
+    "author": "bherbruck",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2706"
+   },
+   {
+    "number": 2412,
+    "title": "Boolean: with WR-79 (sphere_small_circle_not_touching) on, a sphere poking a hair through a box face gives volume 0 or an open body",
+    "author": "khanahmad4527",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2412"
+   },
+   {
+    "number": 2952,
+    "title": "Fillet: equal pipes' tee, rounded 1, is not a closed solid where the two exact rounds meet at the ellipses' crossing",
+    "author": "jyviko",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2952"
+   },
+   {
+    "number": 2426,
+    "title": "Solidcore-only blend fix: keep features sweeps a boss's walls in a body of their own (fillet_keep_features, WR-703)",
+    "author": "brett19",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2426"
+   },
+   {
+    "number": 2994,
+    "title": "fillet_variable law corners: check the rounds are ProceduralBlend definitions",
+    "author": "jyviko",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2994"
+   },
+   {
+    "number": 2508,
+    "title": "Nodal-quartic exact round: the spine misses its offsets by 2e-9·r, not rounding (#2485)",
+    "author": "jyviko",
+    "labels": [
+     "bug"
+    ],
+    "url": "https://github.com/tangency-labs/solidcore/issues/2508"
+   }
+  ],
+  "prs_opened": [
+   {
+    "number": 3071,
+    "title": "[WIP] reach: a plane beside a bare B-spline net has a certified reach (#2978)",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3071"
+   },
+   {
+    "number": 3084,
+    "title": "Local operation gate: compare check failures per entity, not as counts per class (#2973)",
+    "author": "aapolipponen",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3084"
+   },
+   {
+    "number": 3056,
+    "title": "offset: the four-face vertex split is the only path; the three split flags retire (#2981)",
+    "author": "altvnk",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3056"
+   },
+   {
+    "number": 3103,
+    "title": "A cone's whole-turn STEP window a rounding error past ±180° builds its circle over that turn, not one turn higher (#2928)",
+    "author": "khanahmad4527",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3103"
+   },
+   {
+    "number": 3075,
+    "title": "extend: test that a side extended after another reaches its distance at the face",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3075"
+   },
+   {
+    "number": 3086,
+    "title": "Variable round certificate: count its span levels and enclosures, then fix what sets them (#3078)",
+    "author": "aapolipponen",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3086"
+   },
+   {
+    "number": 3085,
+    "title": "Local operation: a kept edge is proved clear of every moved surface, or re-intersected (#2976)",
+    "author": "aapolipponen",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3085"
+   },
+   {
+    "number": 3083,
+    "title": "Surface extension: analytic certificates measured in difference form about the side's point (#2980)",
+    "author": "aapolipponen",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3083"
+   },
+   {
+    "number": 3074,
+    "title": "fix(boolean): a cut of filleted bodies a hair apart no longer reads their fillets as coincident",
+    "author": "ablasik",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3074"
+   },
+   {
+    "number": 3102,
+    "title": "blend: a circle-class round is certified on its own torus (#3066)",
+    "author": "bherbruck",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3102"
+   },
+   {
+    "number": 3081,
+    "title": "fix: certify finite All maxima for identical open ellipse arcs (#3060)",
+    "author": "ChrisNourse",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3081"
+   },
+   {
+    "number": 3077,
+    "title": "fix: certify projected curve-pair maxima (#3060)",
+    "author": "ChrisNourse",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3077"
+   },
+   {
+    "number": 3115,
+    "title": "fix: IsoCurve continuity follows its varying direction",
+    "author": "ChrisNourse",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3115"
+   },
+   {
+    "number": 3110,
+    "title": "fix: certify native affine curve-face projected maxima (#3109)",
+    "author": "ChrisNourse",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3110"
+   },
+   {
+    "number": 3121,
+    "title": "Line/surface leaf solve: find every crossing in a leaf the line can cross twice (#3120)",
+    "author": "dudedagger42",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3121"
+   },
+   {
+    "number": 3064,
+    "title": "fix: the radius of curvature is a length, and a UV trim's is measured on its image (#2785)",
+    "author": "saosebastiao",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3064"
+   },
+   {
+    "number": 3117,
+    "title": "fix: four #483 status sites take the fork's soft failure by default; retire their flags (#2009)",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3117"
+   },
+   {
+    "number": 3118,
+    "title": "[WIP] offset: S1 by default: certified offsets and the fold refusal; shell_one_construction retired (#2350)",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3118"
+   },
+   {
+    "number": 3116,
+    "title": "fix(curve): a closest-point solve whose interval ends a rounding past a knot finds the end (#2656, WR-757)",
+    "author": "ablasik",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3116"
+   },
+   {
+    "number": 3108,
+    "title": "fix: propagate projected side certificate failures (#3107)",
+    "author": "ChrisNourse",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3108"
+   },
+   {
+    "number": 3092,
+    "title": "fix(ssi): a trace from a boundary touch point ends where it lands (#3091)",
+    "author": "dudedagger42",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3092"
+   },
+   {
+    "number": 3104,
+    "title": "STEP: compose the product structure into placed bodies (#2578, slice 6)",
+    "author": "AlexMitchellMus",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3104"
+   },
+   {
+    "number": 3069,
+    "title": "ops: blend_ordered takes the corner turn; the four turn cases run (#2722)",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3069"
+   },
+   {
+    "number": 3089,
+    "title": "diagnostics: render native edges with explicit --wireframe (#3088)",
+    "author": "ChrisNourse",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3089"
+   },
+   {
+    "number": 3106,
+    "title": "fix(boolean): a tangent-edge vertex a sliver off its face moves to the corner its faces define (#3090, WR-756)",
+    "author": "ablasik",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3106"
+   },
+   {
+    "number": 3105,
+    "title": "fix(blend): a round at a plate's arc end builds past 0.385 of the arc's radius where offsets continue as themselves (#3045)",
+    "author": "ablasik",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3105"
+   },
+   {
+    "number": 3070,
+    "title": "[WIP] fix: the setback scale search fills degree 9 first, as the corner's fill does",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3070"
+   },
+   {
+    "number": 3097,
+    "title": "fillet: rounds whose rails only run on past their edges' ends do not cross (#2845)",
+    "author": "bherbruck",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3097"
+   },
+   {
+    "number": 3095,
+    "title": "blend: a conic pair's plane is read off the edge, not off a station at the crossing (#2952)",
+    "author": "bherbruck",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3095"
+   },
+   {
+    "number": 3073,
+    "title": "[WIP] local operation: a tangent edge beside a moved face is met again on the round's side (#2982)",
+    "author": "MarkusReichart",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3073"
+   }
+  ],
+  "prs_closed_unmerged": [
+   {
+    "number": 3108,
+    "title": "fix: propagate projected side certificate failures (#3107)",
+    "author": "ChrisNourse",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3108"
+   },
+   {
+    "number": 2529,
+    "title": "fix: trimming a cylinder keeps it a cylinder instead of a near-zero cone (#2478)",
+    "author": "khanahmad4527",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/2529"
+   },
+   {
+    "number": 1430,
+    "title": "difftest: SSI corpus reports with provenance and nightly publication",
+    "author": "fdalmaso",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/1430"
+   }
+  ],
+  "open_issues": 257,
+  "open_prs": 105
+ },
+ "releases": {
+  "ok": true,
+  "crates_io": {
+   "max_version": "1.0.1",
+   "new_versions": []
+  },
+  "upstream": [],
+  "upstream_latest": "v1.0.1"
+ }
+}
