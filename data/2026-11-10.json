@@ -1,0 +1,2259 @@
+{
+ "day": "2026-11-10",
+ "generated_at": "2026-11-11T12:55:17+00:00",
+ "window": {
+  "start": "2026-11-10T00:00:00+00:00",
+  "end": "2026-11-11T00:00:00+00:00",
+  "start_sha": "954164e141d86af69c770020bf0af0988a24a10e",
+  "end_sha": "81a884ad60a46d5525ef80c9034d35ec0851f1c7"
+ },
+ "summary": {
+  "commits": 66,
+  "merges": 0,
+  "claims": 0,
+  "prs_merged": 0,
+  "authors": 12,
+  "top_authors": [
+   [
+    "Brett Lawson",
+    24
+   ],
+   [
+    "bherbruck",
+    20
+   ],
+   [
+    "MarkusRe",
+    7
+   ],
+   [
+    "austin62jake",
+    3
+   ],
+   [
+    "ChrisNo",
+    3
+   ],
+   [
+    "Henry",
+    2
+   ],
+   [
+    "Karl Von Richter",
+    2
+   ],
+   [
+    "Andrzej Błasik",
+    1
+   ]
+  ],
+  "ai_coauthored": 64,
+  "files_touched": 752
+ },
+ "by_module": {
+  "geom": {
+   "commits": 1,
+   "files": 1
+  },
+  "nurbs": {
+   "commits": 1,
+   "files": 2
+  },
+  "curve": {
+   "commits": 4,
+   "files": 24
+  },
+  "topology": {
+   "commits": 3,
+   "files": 15
+  },
+  "intersect": {
+   "commits": 2,
+   "files": 53
+  },
+  "primitive": {
+   "commits": 1,
+   "files": 29
+  },
+  "query": {
+   "commits": 2,
+   "files": 30
+  },
+  "sweep": {
+   "commits": 4,
+   "files": 32
+  },
+  "blend": {
+   "commits": 8,
+   "files": 58
+  },
+  "kernel": {
+   "commits": 3,
+   "files": 19
+  },
+  "tests": {
+   "commits": 15,
+   "files": 339
+  },
+  "step": {
+   "commits": 1,
+   "files": 40
+  },
+  "eines": {
+   "commits": 19,
+   "files": 371
+  },
+  "plan": {
+   "commits": 1,
+   "files": 1
+  },
+  "ci": {
+   "commits": 1,
+   "files": 1
+  }
+ },
+ "by_kind": {
+  "plan": 1,
+  "chore": 1,
+  "altres": 64
+ },
+ "commits": [
+  {
+   "sha": "81a884ad60a46d5525ef80c9034d35ec0851f1c7",
+   "short": "81a884ad6",
+   "author": "Brett Lawson",
+   "date": "2026-11-10T23:53:17Z",
+   "subject": "solidcore: the setback fill's convexity products scale shared factors once (#14754)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend"
+   ],
+   "files": 2,
+   "watch": [
+    "setback"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "184d34a3e1d68d2422db8fc4da155fe11f109868",
+   "short": "184d34a3e",
+   "author": "Brett Lawson",
+   "date": "2026-11-10T23:18:45Z",
+   "subject": "solidcore: G^n certificate feet Taylor models evaluate each series order once (#14740)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "kernel"
+   ],
+   "files": 4,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7b824d04f5767ae3d81eb156cb612ab9a7fb7228",
+   "short": "7b824d04f",
+   "author": "bherbruck",
+   "date": "2026-11-10T23:10:28Z",
+   "subject": "Fillet: a setback too short for its corner's fill is refused naming the setback, as data (#13913) (#14731)",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "blend",
+    "eines",
+    "tests"
+   ],
+   "files": 6,
+   "watch": [
+    "setback"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "ef60835976d08489824648a6fc356f216f77de6d",
+   "short": "ef6083597",
+   "author": "Henry",
+   "date": "2026-11-10T22:48:40Z",
+   "subject": "STEP import: a face on a spline closed in v gets its seam, so such parts import as closed solids (#14712)",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 3,
+   "watch": [
+    "step",
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "1d9fce32de6a044fa7cd8b776b4181fb10152065",
+   "short": "1d9fce32d",
+   "author": "Brett Lawson",
+   "date": "2026-11-10T22:48:38Z",
+   "subject": "solidcore: the query routines describe their failures (Reason::Query) (#14704)",
+   "kind": "altres",
+   "module": "query",
+   "modules": [
+    "eines",
+    "kernel",
+    "query",
+    "topology"
+   ],
+   "files": 28,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "24ad75e6a9079fdc05a315ab3a4a192b73f89b79",
+   "short": "24ad75e6a",
+   "author": "bherbruck",
+   "date": "2026-11-10T18:02:50-05:00",
+   "subject": "Pleats join the case walls again: the cylinder recogniser makes its circles from control points (#13536) (#14348)",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines",
+    "intersect",
+    "plan",
+    "surface"
+   ],
+   "files": 8,
+   "watch": [
+    "shell-rounded",
+    "hang-cancel",
+    "chamfer",
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "13a59b2b54d6740b2a7d46102f30f2f1bcd2701e",
+   "short": "13a59b2b5",
+   "author": "Brett Lawson",
+   "date": "2026-11-10T21:29:40Z",
+   "subject": "solidcore: the trimmed-face tight box solves each cell on its own subpatch (#14692)",
+   "kind": "altres",
+   "module": "kernel",
+   "modules": [
+    "kernel",
+    "query",
+    "tests"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "50e53ef0c7d29662b41babf2409775d53685724a",
+   "short": "50e53ef0c",
+   "author": "bherbruck",
+   "date": "2026-11-10T21:19:49Z",
+   "subject": "curve: certified length bracket; setbacks build only where certified to fit (#3184) (#14628)",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "blend",
+    "curve",
+    "kernel",
+    "tests"
+   ],
+   "files": 7,
+   "watch": [
+    "setback"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "7b1fb6f74c4a715f07a314f4c9fc0fa9b8018e80",
+   "short": "7b1fb6f74",
+   "author": "Brett Lawson",
+   "date": "2026-11-10T21:07:14Z",
+   "subject": "solidcore: remove SolidError::Nlib; crv_common reports typed NURBS failures (#14703)",
+   "kind": "altres",
+   "module": "kernel",
+   "modules": [
+    "eines",
+    "kernel",
+    "nurbs"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a6fccf7ef970b9aafb7750925ef320576423c6bc",
+   "short": "a6fccf7ef",
+   "author": "Henry",
+   "date": "2026-11-10T20:33:44Z",
+   "subject": "Boolean: a body minus an exact copy of itself is empty (#14711)",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "boolean",
+    "curve",
+    "kernel",
+    "query",
+    "tests",
+    "topology"
+   ],
+   "files": 9,
+   "watch": [
+    "step",
+    "upstream-fixes"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "94404831117e3a8387dfc2a4caca7fd81e76cce3",
+   "short": "944048311",
+   "author": "bherbruck",
+   "date": "2026-11-10T20:06:01Z",
+   "subject": "Cancel stops SMLib's full check and tight bounding box of a long feature (#14684)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "eines",
+    "query",
+    "tests",
+    "topology"
+   ],
+   "files": 7,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "926464244c6755f42d44fc10814a3cd89d23ce0a",
+   "short": "926464244",
+   "author": "Brett Lawson",
+   "date": "2026-11-10T20:02:47Z",
+   "subject": "solidcore: the sweep routines describe their failures (SweepFailure::Failed, Missing) (#14670)",
+   "kind": "altres",
+   "module": "sweep",
+   "modules": [
+    "eines",
+    "kernel",
+    "sweep",
+    "tests"
+   ],
+   "files": 19,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a1ebf72d202b3d2acf73a5c1e0b245b15a637f91",
+   "short": "a1ebf72d2",
+   "author": "bherbruck",
+   "date": "2026-11-10T20:02:44Z",
+   "subject": "Panic-site scan: solidcore-step is in it, its sites fixed or proven (tangency-labs/solidcraft#14026) (#14663)",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "ci",
+    "eines",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [
+    "step"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "69bd0483385230f6683641cad0914581dbaa4211",
+   "short": "69bd04833",
+   "author": "Brett Lawson",
+   "date": "2026-11-10T18:46:12Z",
+   "subject": "solidcore: mass, heal and geom failures carry a typed reason instead of bare statuses (part of #13790) (#14605)",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines",
+    "geom",
+    "heal",
+    "kernel",
+    "mass",
+    "primitive",
+    "sweep",
+    "tests"
+   ],
+   "files": 71,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "150209dab235c70ad888d1df8469f7cb5c9b2b0f",
+   "short": "150209dab",
+   "author": "austin62jake",
+   "date": "2026-11-10T18:42:54Z",
+   "subject": "solidcore: retire five topology UpstreamFixes flags (#14246, batch A16) (#14679)",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "eines",
+    "kernel",
+    "plan",
+    "tests",
+    "topology"
+   ],
+   "files": 23,
+   "watch": [
+    "upstream-fixes",
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "40d52bf4286cc32a4c10db0b694e9171fce33128",
+   "short": "40d52bf42",
+   "author": "bherbruck",
+   "date": "2026-11-10T17:30:50Z",
+   "subject": "ops: a loft guided by rails and a blend through cross-sections reach the kernel (#3140) (#14645)",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines",
+    "plan",
+    "sweep"
+   ],
+   "files": 7,
+   "watch": [
+    "loft-skin"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "f8375faa4dd523631d32dd5c584989cb0dab6807",
+   "short": "f8375faa4",
+   "author": "bherbruck",
+   "date": "2026-11-10T13:27:56-05:00",
+   "subject": "STEP: delete the step-import crate; the goldens and step-export read through the record's Part 21 parser (#14194)",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "altres",
+    "ci",
+    "eines",
+    "plan",
+    "step",
+    "tests"
+   ],
+   "files": 46,
+   "watch": [
+    "hang-cancel",
+    "step",
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "df5930a3706bffc43a98c82c348359ba78c1b1b7",
+   "short": "df5930a37",
+   "author": "bherbruck",
+   "date": "2026-11-10T16:59:20Z",
+   "subject": "solidcore-ops: cancel ops calls with a scoped token (solidcore#3247) (#14660)",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines",
+    "kernel"
+   ],
+   "files": 6,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "ecd20d47c8e6a83fd7531da76f1cb3b7c7c74d34",
+   "short": "ecd20d47c",
+   "author": "bherbruck",
+   "date": "2026-11-10T12:21:45-05:00",
+   "subject": "STEP: one reader: topology-first reading in solidcore-step, step-brep's import deleted (RFC 0003, 1.6) (#14038)",
+   "kind": "altres",
+   "module": "step",
+   "modules": [
+    "altres",
+    "ci",
+    "eines",
+    "kernel",
+    "plan",
+    "step",
+    "tests"
+   ],
+   "files": 40,
+   "watch": [
+    "hang-cancel",
+    "step",
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "1fd7a92d8c373b688c7eb48422dfe474e543b944",
+   "short": "1fd7a92d8",
+   "author": "bherbruck",
+   "date": "2026-11-10T12:05:07-05:00",
+   "subject": "Overlapping cylinders' round builds again: the rail end starts from the round's own section (#13538) (#13898)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "eines",
+    "surface"
+   ],
+   "files": 8,
+   "watch": [
+    "corner-blend"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "a0de16bd36adcd104a22766d6d89ea1fcae79734",
+   "short": "a0de16bd3",
+   "author": "bherbruck",
+   "date": "2026-11-10T16:40:56Z",
+   "subject": "Extruding a long outline: its end faces build about 1.5× faster (a face edit no one listens to skips the edge-use walk) (#14329) (#14454)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "topology"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "3dbe11f7d085f9d61ee9fbb81d4a6846ee3e6ac4",
+   "short": "3dbe11f7d",
+   "author": "Andrzej Błasik",
+   "date": "2026-11-10T16:37:51Z",
+   "subject": "Faster rebuilds: extrusions, revolutions and sweeps name their new faces from exact geometry instead of meshing the body (#14646)",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [
+    "loft-skin"
+   ],
+   "ai": false
+  },
+  {
+   "sha": "e09e5643d8cf407ebc7ed2347b71ed9dad80b29b",
+   "short": "e09e5643d",
+   "author": "austin62jake",
+   "date": "2026-11-10T16:16:19Z",
+   "subject": "sweep: refuse a pipe whose radius reaches past a bend's centre (part of #13766) (#14640)",
+   "kind": "altres",
+   "module": "sweep",
+   "modules": [
+    "plan",
+    "sweep",
+    "tests"
+   ],
+   "files": 3,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "ba55b2f7148b8f262e4d6ae16c2a6dd3c71d44bd",
+   "short": "ba55b2f71",
+   "author": "bherbruck",
+   "date": "2026-11-10T15:36:50Z",
+   "subject": "sweep: a loft guided by rails, its guided edges certified within the caller's tolerance (tangency-labs/solidcore#3140) (#14204)",
+   "kind": "altres",
+   "module": "sweep",
+   "modules": [
+    "kernel",
+    "plan",
+    "sweep",
+    "tests"
+   ],
+   "files": 7,
+   "watch": [
+    "loft-skin"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "15f62dbac87ea6d91438deb59a1d9f5ac00276af",
+   "short": "15f62dbac",
+   "author": "bherbruck",
+   "date": "2026-11-10T15:20:55Z",
+   "subject": "issue_3093: require the defeated body's volume to be proved positive (#14623)",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "tests"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "7f43fa14b433da9d4d6c121420aa84be7579256c",
+   "short": "7f43fa14b",
+   "author": "bherbruck",
+   "date": "2026-11-10T15:20:52Z",
+   "subject": "sweep: a cornered sweep built piece by piece, meeting at its corners' mitres (#3191) (#14621)",
+   "kind": "altres",
+   "module": "sweep",
+   "modules": [
+    "sweep",
+    "tests"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5b9e153d290e4c7a73dd484307199cccc7ceb38d",
+   "short": "5b9e153d2",
+   "author": "bherbruck",
+   "date": "2026-11-10T15:07:44Z",
+   "subject": "STEP reader: move SolidCraft's reader into solidcore with its history (RFC 0003, 1.5) (#13979)",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "altres",
+    "docs",
+    "eines",
+    "kernel"
+   ],
+   "files": 30,
+   "watch": [
+    "hang-cancel",
+    "step",
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "bd11edc13da7a00610213d5803c9c69d64e0b9ed",
+   "short": "bd11edc13",
+   "author": "bherbruck",
+   "date": "2026-11-10T14:59:48Z",
+   "subject": "Booleans skip the curve intersection of straight edges whose boxes are apart: same results, joins of prisms about 1.5× faster (#14329) (#14585)",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "kernel",
+    "topology"
+   ],
+   "files": 3,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "06478b028444cf079e80654d103389a81609dcc2",
+   "short": "06478b028",
+   "author": "ChrisNo",
+   "date": "2026-11-10T14:11:22Z",
+   "subject": "Kernel: all farthest pairs of two identical ellipse arcs are found (#13964)",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "eines"
+   ],
+   "files": 5,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8366fb1631fbeb227e2f599d34c1167f5bdb3e61",
+   "short": "8366fb163",
+   "author": "Brett Lawson",
+   "date": "2026-11-10T14:10:09Z",
+   "subject": "solidcore: the G^n certificate bounds the feet over wide pieces with Taylor models (#14405) (#14535)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "tests"
+   ],
+   "files": 8,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4a4ba64289d9182e0694ea9e44acca89f79b98c1",
+   "short": "4a4ba6428",
+   "author": "Brett Lawson",
+   "date": "2026-11-10T13:25:33Z",
+   "subject": "solidcore: primitive failures carry a typed reason instead of bare statuses (part of #13790) (#14561)",
+   "kind": "altres",
+   "module": "primitive",
+   "modules": [
+    "eines",
+    "kernel",
+    "primitive"
+   ],
+   "files": 29,
+   "watch": [
+    "loft-skin"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "6f7e21766c256973c104491defba4099308e3cb8",
+   "short": "6f7e21766",
+   "author": "Karl Von Richter",
+   "date": "2026-11-10T13:14:16Z",
+   "subject": "Kernel: a circular round's section is the ball's exact circle by default; retire the arc flags (moved from solidcore#2893) (#13946)",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "blend",
+    "eines",
+    "kernel",
+    "nurbs",
+    "plan",
+    "step",
+    "tests"
+   ],
+   "files": 22,
+   "watch": [
+    "corner-blend",
+    "loft-skin",
+    "upstream-fixes"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "13c43af41ba838d4bb513960f6e6cc0e8de918bc",
+   "short": "13c43af41",
+   "author": "ChrisNo",
+   "date": "2026-11-10T12:58:31Z",
+   "subject": "Kernel: projected point/face maxima are measured on the face's own surface (#13729) (#13965)",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "blend",
+    "curve",
+    "eines",
+    "geom",
+    "intersect",
+    "topology"
+   ],
+   "files": 13,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "d06669a49ff3202a18f4794bf238ee6f7de577ed",
+   "short": "d06669a49",
+   "author": "MarkusRe",
+   "date": "2026-11-10T12:48:16Z",
+   "subject": "Setback scale search: each attempt fills degree 9 first, as the corner's fill does (#13739) (#14092)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "plan"
+   ],
+   "files": 6,
+   "watch": [
+    "setback",
+    "platform"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "60f1a0de548d46debf88e6658c26fe2fbd8f35f5",
+   "short": "60f1a0de5",
+   "author": "Brett Lawson",
+   "date": "2026-11-10T11:35:08Z",
+   "subject": "solidcore: retire eight result-changing UpstreamFixes flags (corrected path becomes the only path) (#14486)",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "boolean",
+    "curve",
+    "eines",
+    "geom",
+    "kernel",
+    "mass",
+    "nurbs",
+    "plan",
+    "primitive",
+    "surface",
+    "tests",
+    "topology"
+   ],
+   "files": 47,
+   "watch": [
+    "chamfer",
+    "upstream-fixes"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "4e090e131324dd46c0817b323cf96c7b7c37268b",
+   "short": "4e090e131",
+   "author": "Brett Lawson",
+   "date": "2026-11-10T10:38:41Z",
+   "subject": "solidcore: intersect failures carry a typed reason instead of bare statuses (part of #13790) (#14495)",
+   "kind": "altres",
+   "module": "intersect",
+   "modules": [
+    "eines",
+    "intersect",
+    "kernel"
+   ],
+   "files": 40,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "852ee489402d1eba1ad3ec4683dad36dc1514960",
+   "short": "852ee4894",
+   "author": "MarkusRe",
+   "date": "2026-11-10T10:28:42Z",
+   "subject": "Setback fill: a round's rows in the section's standard form across (#13775) (#14041)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "plan",
+    "tests"
+   ],
+   "files": 4,
+   "watch": [
+    "setback"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "1b179503d7982b59b4eb6989e87a0de6f6691cf5",
+   "short": "1b179503d",
+   "author": "austin62jake",
+   "date": "2026-11-10T10:19:50Z",
+   "subject": "plan: the WR-509 golden moves in curve.ellipse_p2 and query.face_p3, traced and checked (#14536)",
+   "kind": "plan",
+   "module": "plan",
+   "modules": [
+    "plan"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "a628e07d53e0dba780be8eeab7290bd9dec44927",
+   "short": "a628e07d5",
+   "author": "Brett Lawson",
+   "date": "2026-11-10T10:08:53Z",
+   "subject": "solidcore: the G^n certificate bounds the arc's rows over wide pieces with Taylor models (#14458)",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "blend",
+    "eines",
+    "tests"
+   ],
+   "files": 10,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "dffe6108e996c8501312a56f45bd8da7e9b380d5",
+   "short": "dffe6108e",
+   "author": "MarkusRe",
+   "date": "2026-11-10T09:49:32Z",
+   "subject": "Kernel: a circular arc's length is its radius times its angle, not a quadrature estimate (#13642) (#14296)",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "curve",
+    "eines",
+    "mass",
+    "nurbs",
+    "tests"
+   ],
+   "files": 6,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "fbce95da5388a5414ff0499210ef7fa63361e8a2",
+   "short": "fbce95da5",
+   "author": "MarkusRe",
+   "date": "2026-11-10T09:28:22Z",
+   "subject": "solidcore: a failed fillet leaves the body as it was (#13689) (#14228)",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "blend",
+    "eines",
+    "plan",
+    "tests"
+   ],
+   "files": 4,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "94c021e7c44a477825a21f0636de61bf04855b38",
+   "short": "94c021e7c",
+   "author": "MarkusRe",
+   "date": "2026-11-10T09:23:37Z",
+   "subject": "Offset: the certified offset and the fold refusal are the default; shell_one_construction retires (#13827) (#14039)",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "docs",
+    "eines",
+    "kernel",
+    "offset",
+    "plan",
+    "tests"
+   ],
+   "files": 31,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "32c51dce2d74700561b36e997fa8a5bf44c01851",
+   "short": "32c51dce2",
+   "author": "ChrisNo",
+   "date": "2026-11-10T09:05:50Z",
+   "subject": "Kernel: a curve's projected maximum is found with the right derivative, and is a maximum (#14327)",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "curve",
+    "eines",
+    "plan"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2faeb6b334f9abf168d7c6acbc0085c3d5493888",
+   "short": "2faeb6b33",
+   "author": "Brett Lawson",
+   "date": "2026-11-10T08:28:52Z",
+   "subject": "solidcore: retire the crossing-rails refusal (WR-460); the band test (WR-542) refuses its cases with a fit (#14047)",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "blend",
+    "difftest",
+    "eines",
+    "kernel",
+    "plan",
+    "tests"
+   ],
+   "files": 21,
+   "watch": [
+    "upstream-fixes"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "bb836b8183c6810b9f1c17f68059f4b3e1c1f94f",
+   "short": "bb836b818",
+   "author": "MarkusRe",
+   "date": "2026-11-10T07:42:24Z",
+   "subject": "Kernel: joining or matching two surfaces refuses a control net that was mixed after it was built (follow-up to #14292) (#14482)",
+   "kind": "altres",
+   "module": "nurbs",
+   "modules": [
+    "nurbs"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "49badb6aa6ec61c7ff07256cd07391ee8febedcd",
+   "short": "49badb6aa",
+   "author": "Brett Lawson",
+   "date": "2026-11-10T07:40:22Z",
+   "subject": "solidcore: retire the sweep flags that change no result (A14) (#14478)",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "kernel",
+    "plan",
+    "sweep",
+    "tests"
+   ],
+   "files": 18,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2e1f1f9823b0968165033fa3776fb541b0dfb7be",
+   "short": "2e1f1f982",
+   "author": "Karl Von Richter",
+   "date": "2026-11-10T06:42:48Z",
+   "subject": "Kernel: variable rounds are the union of their balls by default; retire fillet_gn_section_generator (moved from solidcore#2936) (#13945)",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "blend",
+    "difftest",
+    "docs",
+    "eines",
+    "kernel",
+    "plan",
+    "query",
+    "surface",
+    "tests"
+   ],
+   "files": 122,
+   "watch": [
+    "setback",
+    "round-larger-than-wall",
+    "corner-blend",
+    "chamfer",
+    "upstream-fixes"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "5f55646015b25a75637ce17e4ebb2aecc2211aad",
+   "short": "5f5564601",
+   "author": "Brett Lawson",
+   "date": "2026-11-10T06:08:25Z",
+   "subject": "solidcore: retire the primitive flags that change no result (A11) (#14448)",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "kernel",
+    "plan",
+    "primitive",
+    "tests"
+   ],
+   "files": 28,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "4d9982a54ea1b08bb689f0c1026985eb661f3436",
+   "short": "4d9982a54",
+   "author": "Brett Lawson",
+   "date": "2026-11-10T06:08:22Z",
+   "subject": "solidcore: the rest of nurbs and every nl_ser collapse carry a typed reason (part of #13790) (#14331)",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "blend",
+    "curve",
+    "eines",
+    "heal",
+    "intersect",
+    "kernel",
+    "mass",
+    "nurbs",
+    "offset",
+    "primitive",
+    "query",
+    "surface",
+    "sweep",
+    "tests",
+    "topology"
+   ],
+   "files": 94,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "2cac3cd9c2bb55cb16e1255d1a812d92cad36742",
+   "short": "2cac3cd9c",
+   "author": "Daniel Amesberger",
+   "date": "2026-11-10T05:39:22Z",
+   "subject": "solidcore: notify record resets visit only what changed; large flat extrusions about 10× faster (#13844) (#14065)",
+   "kind": "altres",
+   "module": "topology",
+   "modules": [
+    "heal",
+    "kernel",
+    "primitive",
+    "topology"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "ff7d7aed21737aa918baf5017f987bade75a7d47",
+   "short": "ff7d7aed2",
+   "author": "Brett Lawson",
+   "date": "2026-11-10T05:37:32Z",
+   "subject": "solidcore: check_brep's per-face cache and loop-intersection test stop growing with the whole body (fixes #14381) (#14408)",
+   "kind": "altres",
+   "module": "query",
+   "modules": [
+    "query",
+    "topology"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "d550f24b612328cd54c0e737b50e60a10f36318a",
+   "short": "d550f24b6",
+   "author": "Brett Lawson",
+   "date": "2026-11-10T05:04:33Z",
+   "subject": "solidcore: retire five flags that no code reads (fillet corner/domain statuses, offset gap, ssi alignment, closed-curve trim arc) (#14091)",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "kernel",
+    "plan",
+    "tests"
+   ],
+   "files": 14,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "90f7f9637d48627e6af82017211dce9060dccb6e",
+   "short": "90f7f9637",
+   "author": "Brett Lawson",
+   "date": "2026-11-10T04:44:44Z",
+   "subject": "solidcore: a twisted side round is its walls' round between sections, not only at them (#13774) (#13984)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "surface",
+    "tests"
+   ],
+   "files": 16,
+   "watch": [
+    "chamfer"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "2dc5ecd51076a2a1ee7237d6890f879ba29bd7ef",
+   "short": "2dc5ecd51",
+   "author": "bherbruck",
+   "date": "2026-11-10T04:29:51Z",
+   "subject": "defeature: a kept feature's refusal names its limit, a typed Reason::Defeature (tangency-labs/solidcore#3218) (#13899)",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "blend",
+    "kernel",
+    "tests"
+   ],
+   "files": 7,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "011ec1759e990594d513a140cf4939abdb4dd6a8",
+   "short": "011ec1759",
+   "author": "Brett Lawson",
+   "date": "2026-11-10T04:09:38Z",
+   "subject": "solidcore: retire the mass flags that change no result (A8) (#14429)",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "eines",
+    "kernel",
+    "mass",
+    "plan",
+    "tests"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "de9a13da6b48e01c4b82bd3c5e8a8e802986c392",
+   "short": "de9a13da6",
+   "author": "Brett Lawson",
+   "date": "2026-11-10T04:00:53Z",
+   "subject": "ci: run the kernel rig's cases 16 at a time (#14403)",
+   "kind": "chore",
+   "module": "ci",
+   "modules": [
+    "ci"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "8d4b6560616b456a9e58f3dca1c0065d427f829c",
+   "short": "8d4b65606",
+   "author": "MarkusRe",
+   "date": "2026-11-10T03:29:47Z",
+   "subject": "Kernel: a B-spline surface that mixes weighted and unweighted control points is refused when it is built (#13751) (#14292)",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines",
+    "nurbs",
+    "plan"
+   ],
+   "files": 12,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "611c1af9a08231064162d8fa04aec9d0e07755b4",
+   "short": "611c1af9a",
+   "author": "Brett Lawson",
+   "date": "2026-11-10T02:39:13Z",
+   "subject": "solidcore: retire the intersect flags that change no result (A7) (#14347)",
+   "kind": "altres",
+   "module": "tests",
+   "modules": [
+    "intersect",
+    "kernel",
+    "plan",
+    "tests"
+   ],
+   "files": 18,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "9c512a6d9760701279045f6a08e74a416f7779c9",
+   "short": "9c512a6d9",
+   "author": "ancient_astronaut_theorist",
+   "date": "2026-11-10T02:21:14Z",
+   "subject": "solidcore: no deprecation warning from fetch_update on Rust 1.99, keeping rust-version 1.85 (#14360) (#14378)",
+   "kind": "altres",
+   "module": "geom",
+   "modules": [
+    "geom"
+   ],
+   "files": 1,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5db790052a8bfe412f9d6cb81ea44db31c16d485",
+   "short": "5db790052",
+   "author": "bherbruck",
+   "date": "2026-11-10T02:07:52Z",
+   "subject": "solidcore-tess: well-shaped flat faces with no size, and the 50k-face plate in under 9 s (#14242)",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 3,
+   "watch": [
+    "chamfer",
+    "step",
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "a7c8554d9b56fde37fa33cbfc8c5a76c6543445b",
+   "short": "a7c8554d9",
+   "author": "bherbruck",
+   "date": "2026-11-10T02:07:49Z",
+   "subject": "Move geom's pcurve, label and record checks into solidcore::eval with their history (RFC 0003, 1.8 slice) (#13997)",
+   "kind": "altres",
+   "module": "kernel",
+   "modules": [
+    "eines",
+    "kernel"
+   ],
+   "files": 11,
+   "watch": [
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "9ac310392808f80832855adc4daed3b99d87a068",
+   "short": "9ac310392",
+   "author": "Brett Lawson",
+   "date": "2026-11-10T01:38:50Z",
+   "subject": "solidcore: retire the curve flags that change no result (A4) (#14288)",
+   "kind": "altres",
+   "module": "curve",
+   "modules": [
+    "curve",
+    "kernel",
+    "plan",
+    "tests"
+   ],
+   "files": 9,
+   "watch": [],
+   "ai": true
+  },
+  {
+   "sha": "5b2507ed4550101242fe6ac831a95356368c4e4d",
+   "short": "5b2507ed4",
+   "author": "Brett Lawson",
+   "date": "2026-11-10T01:38:46Z",
+   "subject": "solidcore: the kernel rig runs one process per case, in parallel, with a CPU-time hang limit (#14277)",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines"
+   ],
+   "files": 1,
+   "watch": [
+    "hang-cancel"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "ca15a7b020cb5f70ff67f0ee888bdba897e41977",
+   "short": "ca15a7b02",
+   "author": "bherbruck",
+   "date": "2026-11-10T00:52:02Z",
+   "subject": "solidcore-tess: a face the moved mesher cannot read is left out, not the body (#14033)",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "eines",
+    "kernel"
+   ],
+   "files": 15,
+   "watch": [
+    "step",
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "541f62c0ee931b0e0e56e4841681200d1fda04dc",
+   "short": "541f62c0e",
+   "author": "Brazz",
+   "date": "2026-11-10T00:16:05Z",
+   "subject": "fillet: a round's rail rolls over a smooth far edge of its face, the whole length (#14136) (#14137)",
+   "kind": "altres",
+   "module": "blend",
+   "modules": [
+    "blend",
+    "eines"
+   ],
+   "files": 10,
+   "watch": [
+    "round-larger-than-wall",
+    "seam"
+   ],
+   "ai": true
+  },
+  {
+   "sha": "d5fa0d04da8cbf4a4b298fbf71bda249c612b7cb",
+   "short": "d5fa0d04d",
+   "author": "JSwetz",
+   "date": "2026-11-10T00:15:48Z",
+   "subject": "Kernel: report knots in correct order and interval for reversed offset curves (#13962) (#14030)",
+   "kind": "altres",
+   "module": "eines",
+   "modules": [
+    "curve",
+    "eines"
+   ],
+   "files": 2,
+   "watch": [],
+   "ai": false
+  }
+ ],
+ "prs": [],
+ "watch": [
+  {
+   "id": "setback",
+   "label": "Cantonades setback",
+   "cases": [
+    "C05",
+    "D01",
+    "D02"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "81a884ad6",
+     "text": "solidcore: the setback fill's convexity products scale shared factors once (#14754)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/81a884ad60a46d5525ef80c9034d35ec0851f1c7"
+    },
+    {
+     "source": "commit",
+     "ref": "7b824d04f",
+     "text": "Fillet: a setback too short for its corner's fill is refused naming the setback, as data (#13913) (#14731)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/7b824d04f5767ae3d81eb156cb612ab9a7fb7228"
+    },
+    {
+     "source": "commit",
+     "ref": "50e53ef0c",
+     "text": "curve: certified length bracket; setbacks build only where certified to fit (#3184) (#14628)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/50e53ef0c7d29662b41babf2409775d53685724a"
+    },
+    {
+     "source": "commit",
+     "ref": "d06669a49",
+     "text": "Setback scale search: each attempt fills degree 9 first, as the corner's fill does (#13739) (#14092)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/d06669a49ff3202a18f4794bf238ee6f7de577ed"
+    },
+    {
+     "source": "commit",
+     "ref": "852ee4894",
+     "text": "Setback fill: a round's rows in the section's standard form across (#13775) (#14041)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/852ee489402d1eba1ad3ec4683dad36dc1514960"
+    },
+    {
+     "source": "commit",
+     "ref": "2e1f1f982",
+     "text": "Kernel: variable rounds are the union of their balls by default; retire fillet_gn_section_generator (moved from solidcore#2936) (#13945)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/2e1f1f9823b0968165033fa3776fb541b0dfb7be",
+     "matched": "of setbacks 1 and 2, was refused with 1001 on main's default kernel; with"
+    }
+   ]
+  },
+  {
+   "id": "mixed-corner",
+   "label": "Cantonades mixtes",
+   "cases": [
+    "D01",
+    "D02"
+   ],
+   "hits": []
+  },
+  {
+   "id": "ball-patch",
+   "label": "Ball patch (cantonades esfèriques)",
+   "cases": [
+    "C05",
+    "D11"
+   ],
+   "hits": []
+  },
+  {
+   "id": "variable-radius",
+   "label": "Radi variable / lleis de radi",
+   "cases": [
+    "D07"
+   ],
+   "hits": []
+  },
+  {
+   "id": "round-larger-than-wall",
+   "label": "Arrodoniment més gran que la paret",
+   "cases": [
+    "D03",
+    "D08"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "2e1f1f982",
+     "text": "Kernel: variable rounds are the union of their balls by default; retire fillet_gn_section_generator (moved from solidcore#2936) (#13945)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/2e1f1f9823b0968165033fa3776fb541b0dfb7be",
+     "matched": "BandCutsThePart and the break-through check ask sm_BlendAddsMaterial,"
+    },
+    {
+     "source": "commit",
+     "ref": "541f62c0e",
+     "text": "fillet: a round's rail rolls over a smooth far edge of its face, the whole length (#14136) (#14137)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/541f62c0ee931b0e0e56e4841681200d1fda04dc",
+     "matched": "A convex round larger than the convex round beyond the face beside it cannot roll onto that"
+    }
+   ]
+  },
+  {
+   "id": "shell-rounded",
+   "label": "Buidat de cossos arrodonits",
+   "cases": [
+    "D11",
+    "D14"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "24ad75e6a",
+     "text": "Pleats join the case walls again: the cylinder recogniser makes its circles from control points (#13536) (#14348)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/24ad75e6a9079fdc05a315ab3a4a192b73f89b79",
+     "matched": "shell through the stitch's glue. In blend.fillet_executive_p3"
+    }
+   ]
+  },
+  {
+   "id": "hang-cancel",
+   "label": "Penjaments, temps límit i cancel·lació",
+   "cases": [
+    "C03",
+    "D02",
+    "D11"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "24ad75e6a",
+     "text": "Pleats join the case walls again: the cylinder recogniser makes its circles from control points (#13536) (#14348)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/24ad75e6a9079fdc05a315ab3a4a192b73f89b79",
+     "matched": "whole gap counts, as on main. Only Unported and cancellation propagate."
+    },
+    {
+     "source": "commit",
+     "ref": "944048311",
+     "text": "Cancel stops SMLib's full check and tight bounding box of a long feature (#14684)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/94404831117e3a8387dfc2a4caca7fd81e76cce3"
+    },
+    {
+     "source": "commit",
+     "ref": "f8375faa4",
+     "text": "STEP: delete the step-import crate; the goldens and step-export read through the record's Part 21 parser (#14194)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/f8375faa4dd523631d32dd5c584989cb0dab6807",
+     "matched": "committed. run.py runs readers in the solidcraft-cli eval shape with a timeout and writes"
+    },
+    {
+     "source": "commit",
+     "ref": "df5930a37",
+     "text": "solidcore-ops: cancel ops calls with a scoped token (solidcore#3247) (#14660)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/df5930a3706bffc43a98c82c348359ba78c1b1b7"
+    },
+    {
+     "source": "commit",
+     "ref": "ecd20d47c",
+     "text": "STEP: one reader: topology-first reading in solidcore-step, step-brep's import deleted (RFC 0003, 1.6) (#14038)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/ecd20d47c8e6a83fd7531da76f1cb3b7c7c74d34",
+     "matched": "committed. run.py runs readers in the solidcraft-cli eval shape with a timeout and writes"
+    },
+    {
+     "source": "commit",
+     "ref": "e09e5643d",
+     "text": "sweep: refuse a pipe whose radius reaches past a bend's centre (part of #13766) (#14640)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/e09e5643d8cf407ebc7ed2347b71ed9dad80b29b",
+     "matched": "silhouette ran past the hang limit."
+    },
+    {
+     "source": "commit",
+     "ref": "5b9e153d2",
+     "text": "STEP reader: move SolidCraft's reader into solidcore with its history (RFC 0003, 1.5) (#13979)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/5b9e153d290e4c7a73dd484307199cccc7ceb38d",
+     "matched": "committed. run.py runs readers in the solidcraft-cli eval shape with a timeout and writes"
+    },
+    {
+     "source": "commit",
+     "ref": "fbce95da5",
+     "text": "solidcore: a failed fillet leaves the body as it was (#13689) (#14228)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/fbce95da5388a5414ff0499210ef7fa63361e8a2",
+     "matched": "* solidcore: test the fillet rollback on a cancel and in surface_surface_fillet; WR-212 addendum (#13689)"
+    },
+    {
+     "source": "commit",
+     "ref": "94c021e7c",
+     "text": "Offset: the certified offset and the fold refusal are the default; shell_one_construction retires (#13827) (#14039)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/94c021e7c44a477825a21f0636de61bf04855b38",
+     "matched": "deletion stays covered by the extrudeHoles1 outset; the HANG-51 bound"
+    },
+    {
+     "source": "commit",
+     "ref": "5b2507ed4",
+     "text": "solidcore: the kernel rig runs one process per case, in parallel, with a CPU-time hang limit (#14277)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/5b2507ed4550101242fe6ac831a95356368c4e4d"
+    },
+    {
+     "source": "upstream-fix",
+     "ref": "split_edge_definition_owns_its_curves",
+     "text": "`SmEdgeDefinition::Split` gives the new upper definition its own copies of the 3D and UV curves and trims both definitions' curves to their intervals before `AddEdgeDefinition` hangs the new one on th",
+     "url": null
+    },
+    {
+     "source": "github",
+     "ref": "#3247",
+     "text": "Cancellable evaluation: a cancel token through solidcore, solidcore-ops and SolidCraft",
+     "url": "https://github.com/tangency-labs/solidcore/issues/3247"
+    }
+   ]
+  },
+  {
+   "id": "corner-blend",
+   "label": "Corner blend (CreateCornerBlend / Coons)",
+   "cases": [
+    "C05",
+    "D02"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "1fd7a92d8",
+     "text": "Overlapping cylinders' round builds again: the rail end starts from the round's own section (#13538) (#13898)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/1fd7a92d8c373b688c7eb48422dfe474e543b944",
+     "matched": "- stubs4-coons_01_03_29-e0-r0.5: refused 1001 -> built (8 vertices, 12"
+    },
+    {
+     "source": "commit",
+     "ref": "6f7e21766",
+     "text": "Kernel: a circular round's section is the ball's exact circle by default; retire the arc flags (moved from solidcore#2893) (#13946)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/6f7e21766c256973c104491defba4099308e3cb8",
+     "matched": "- stubs4-coons_01_03_29-e0-r0.5 builds (1001 before): 8 vertices, 12"
+    },
+    {
+     "source": "commit",
+     "ref": "2e1f1f982",
+     "text": "Kernel: variable rounds are the union of their balls by default; retire fillet_gn_section_generator (moved from solidcore#2936) (#13945)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/2e1f1f9823b0968165033fa3776fb541b0dfb7be",
+     "matched": "coons_01_03_29, test5 and open_shell, which main's default built)."
+    }
+   ]
+  },
+  {
+   "id": "chamfer",
+   "label": "Xamfrans",
+   "cases": [],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "24ad75e6a",
+     "text": "Pleats join the case walls again: the cylinder recogniser makes its circles from control points (#13536) (#14348)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/24ad75e6a9079fdc05a315ab3a4a192b73f89b79",
+     "matched": "known failure report-peg-front-and-concave-chamfers-together-d2 records"
+    },
+    {
+     "source": "commit",
+     "ref": "60f1a0de5",
+     "text": "solidcore: retire eight result-changing UpstreamFixes flags (corrected path becomes the only path) (#14486)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/60f1a0de548d46debf88e6658c26fe2fbd8f35f5",
+     "matched": "picks the chamfer and leaves a box about 30% larger; the restored unit test"
+    },
+    {
+     "source": "commit",
+     "ref": "2e1f1f982",
+     "text": "Kernel: variable rounds are the union of their balls by default; retire fillet_gn_section_generator (moved from solidcore#2936) (#13945)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/2e1f1f9823b0968165033fa3776fb541b0dfb7be",
+     "matched": "* test: one half of #880's rim chamfers to a valid solid on the default kernel (#2273)"
+    },
+    {
+     "source": "commit",
+     "ref": "90f7f9637",
+     "text": "solidcore: a twisted side round is its walls' round between sections, not only at them (#13774) (#13984)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/90f7f9637d48627e6af82017211dce9060dccb6e",
+     "matched": "off by 1.5e-4 at their 90th percentile) and the hull rim chamfer's gain at"
+    },
+    {
+     "source": "commit",
+     "ref": "5db790052",
+     "text": "solidcore-tess: well-shaped flat faces with no size, and the 50k-face plate in under 9 s (#14242)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/5db790052a8bfe412f9d6cb81ea44db31c16d485",
+     "matched": "851-chamfer-arc-top-edge-9-5)."
+    }
+   ]
+  },
+  {
+   "id": "loft-skin",
+   "label": "Loft / skin (superfícies B-spline arrodonides)",
+   "cases": [
+    "D14"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "40d52bf42",
+     "text": "ops: a loft guided by rails and a blend through cross-sections reach the kernel (#3140) (#14645)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/40d52bf4286cc32a4c10db0b694e9171fce33128"
+    },
+    {
+     "source": "commit",
+     "ref": "3dbe11f7d",
+     "text": "Faster rebuilds: extrusions, revolutions and sweeps name their new faces from exact geometry instead of meshing the body (#14646)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/3dbe11f7d085f9d61ee9fbb81d4a6846ee3e6ac4",
+     "matched": "Each new face of an extrusion, revolution, sweep, loft or screw sweep is"
+    },
+    {
+     "source": "commit",
+     "ref": "ba55b2f71",
+     "text": "sweep: a loft guided by rails, its guided edges certified within the caller's tolerance (tangency-labs/solidcore#3140) (#14204)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/ba55b2f7148b8f262e4d6ae16c2a6dd3c71d44bd"
+    },
+    {
+     "source": "commit",
+     "ref": "4a4ba6428",
+     "text": "solidcore: primitive failures carry a typed reason instead of bare statuses (part of #13790) (#14561)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/4a4ba64289d9182e0694ea9e44acca89f79b98c1",
+     "matched": "p2/access, curve_sweeps, planar_path, rotational, skin, taper, taper_walls,"
+    },
+    {
+     "source": "commit",
+     "ref": "6f7e21766",
+     "text": "Kernel: a circular round's section is the ball's exact circle by default; retire the arc flags (moved from solidcore#2893) (#13946)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/6f7e21766c256973c104491defba4099308e3cb8",
+     "matched": "to 5) stays a B-spline on every kernel, and its end sections are stations of its skin: in"
+    }
+   ]
+  },
+  {
+   "id": "step",
+   "label": "STEP (import / export)",
+   "cases": [
+    "anada i tornada STEP"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "ef6083597",
+     "text": "STEP import: a face on a spline closed in v gets its seam, so such parts import as closed solids (#14712)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/ef60835976d08489824648a6fc356f216f77de6d"
+    },
+    {
+     "source": "commit",
+     "ref": "a6fccf7ef",
+     "text": "Boolean: a body minus an exact copy of itself is empty (#14711)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/a6fccf7ef970b9aafb7750925ef320576423c6bc",
+     "matched": "operand (with a STEP file's 0.01 tolerances it was 10 mm)."
+    },
+    {
+     "source": "commit",
+     "ref": "a1ebf72d2",
+     "text": "Panic-site scan: solidcore-step is in it, its sites fixed or proven (tangency-labs/solidcraft#14026) (#14663)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/a1ebf72d202b3d2acf73a5c1e0b245b15a637f91",
+     "matched": "solidcore-step, SolidCraft's STEP reader (moved in by #13979), joins CRATES in check_panic_sites.py. (The scan's clippy run already copes with solidcore-record, a dependency of step's outside CRATES, "
+    },
+    {
+     "source": "commit",
+     "ref": "f8375faa4",
+     "text": "STEP: delete the step-import crate; the goldens and step-export read through the record's Part 21 parser (#14194)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/f8375faa4dd523631d32dd5c584989cb0dab6807"
+    },
+    {
+     "source": "commit",
+     "ref": "ecd20d47c",
+     "text": "STEP: one reader: topology-first reading in solidcore-step, step-brep's import deleted (RFC 0003, 1.6) (#14038)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/ecd20d47c8e6a83fd7531da76f1cb3b7c7c74d34"
+    },
+    {
+     "source": "commit",
+     "ref": "5b9e153d2",
+     "text": "STEP reader: move SolidCraft's reader into solidcore with its history (RFC 0003, 1.5) (#13979)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/5b9e153d290e4c7a73dd484307199cccc7ceb38d"
+    },
+    {
+     "source": "commit",
+     "ref": "5db790052",
+     "text": "solidcore-tess: well-shaped flat faces with no size, and the 50k-face plate in under 9 s (#14242)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/5db790052a8bfe412f9d6cb81ea44db31c16d485",
+     "matched": "the primitives and 26 STEP files the kernel refused no point at either"
+    },
+    {
+     "source": "commit",
+     "ref": "ca15a7b02",
+     "text": "solidcore-tess: a face the moved mesher cannot read is left out, not the body (#14033)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/ca15a7b020cb5f70ff67f0ee888bdba897e41977",
+     "matched": "the primitives and 26 STEP files the kernel refused no point at either"
+    }
+   ]
+  },
+  {
+   "id": "platform",
+   "label": "Plataformes (wasm, iOS, ARM)",
+   "cases": [
+    "iPad"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "d06669a49",
+     "text": "Setback scale search: each attempt fills degree 9 first, as the corner's fill does (#13739) (#14092)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/d06669a49ff3202a18f4794bf238ee6f7de577ed",
+     "matched": "aarch64 the fork's 20b1c01, which counts as main does there, spent 120,513"
+    }
+   ]
+  },
+  {
+   "id": "determinism",
+   "label": "Determinisme",
+   "cases": [
+    "resultats idèntics Mac/iPad"
+   ],
+   "hits": []
+  },
+  {
+   "id": "upstream-fixes",
+   "label": "Flags d'UpstreamFixes",
+   "cases": [
+    "configuració del kernel a l'app"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "a6fccf7ef",
+     "text": "Boolean: a body minus an exact copy of itself is empty (#14711)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/a6fccf7ef970b9aafb7750925ef320576423c6bc",
+     "matched": "opt-in UpstreamFixes flag, turned on in SolidCraft's fix set and the"
+    },
+    {
+     "source": "commit",
+     "ref": "150209dab",
+     "text": "solidcore: retire five topology UpstreamFixes flags (#14246, batch A16) (#14679)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/150209dab235c70ad888d1df8469f7cb5c9b2b0f"
+    },
+    {
+     "source": "commit",
+     "ref": "6f7e21766",
+     "text": "Kernel: a circular round's section is the ball's exact circle by default; retire the arc flags (moved from solidcore#2893) (#13946)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/6f7e21766c256973c104491defba4099308e3cb8",
+     "matched": "`UpstreamFixes::fillet_exact_arc_sections` (WR-708) and `fillet_exact_arc_spans` (WR-711)"
+    },
+    {
+     "source": "commit",
+     "ref": "60f1a0de5",
+     "text": "solidcore: retire eight result-changing UpstreamFixes flags (corrected path becomes the only path) (#14486)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/60f1a0de548d46debf88e6658c26fe2fbd8f35f5"
+    },
+    {
+     "source": "commit",
+     "ref": "2faeb6b33",
+     "text": "solidcore: retire the crossing-rails refusal (WR-460); the band test (WR-542) refuses its cases with a fit (#14047)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/2faeb6b334f9abf168d7c6acbc0085c3d5493888",
+     "matched": "UpstreamFixes field, its fixes.json entry, the goldens case flag arm and"
+    },
+    {
+     "source": "commit",
+     "ref": "2e1f1f982",
+     "text": "Kernel: variable rounds are the union of their balls by default; retire fillet_gn_section_generator (moved from solidcore#2936) (#13945)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/2e1f1f9823b0968165033fa3776fb541b0dfb7be",
+     "matched": "UpstreamFixes no longer has fillet_refuse_ball_not_fitting,"
+    }
+   ]
+  },
+  {
+   "id": "seam",
+   "label": "Costures (seam) i arestes partides",
+   "cases": [
+    "lliçó: no triar arestes en costures"
+   ],
+   "hits": [
+    {
+     "source": "commit",
+     "ref": "ef6083597",
+     "text": "STEP import: a face on a spline closed in v gets its seam, so such parts import as closed solids (#14712)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/ef60835976d08489824648a6fc356f216f77de6d"
+    },
+    {
+     "source": "commit",
+     "ref": "1d9fce32d",
+     "text": "solidcore: the query routines describe their failures (Reason::Query) (#14704)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/1d9fce32de6a044fa7cd8b776b4181fb10152065",
+     "matched": "and the point classification's seam failure in `query/face/p2.rs`, which"
+    },
+    {
+     "source": "commit",
+     "ref": "24ad75e6a",
+     "text": "Pleats join the case walls again: the cylinder recogniser makes its circles from control points (#13536) (#14348)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/24ad75e6a9079fdc05a315ab3a4a192b73f89b79",
+     "matched": "volume but fail face test 36 (\"Face Near missing Seam\") on main: the seams end"
+    },
+    {
+     "source": "commit",
+     "ref": "150209dab",
+     "text": "solidcore: retire five topology UpstreamFixes flags (#14246, batch A16) (#14679)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/150209dab235c70ad888d1df8469f7cb5c9b2b0f",
+     "matched": "consecutive trim curves is a seam crossing;"
+    },
+    {
+     "source": "commit",
+     "ref": "f8375faa4",
+     "text": "STEP: delete the step-import crate; the goldens and step-export read through the record's Part 21 parser (#14194)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/f8375faa4dd523631d32dd5c584989cb0dab6807",
+     "matched": "solidcore-ops becomes a workspace dependency of the four crates (the seam check's public list"
+    },
+    {
+     "source": "commit",
+     "ref": "ecd20d47c",
+     "text": "STEP: one reader: topology-first reading in solidcore-step, step-brep's import deleted (RFC 0003, 1.6) (#14038)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/ecd20d47c8e6a83fd7531da76f1cb3b7c7c74d34",
+     "matched": "solidcore-ops becomes a workspace dependency of the four crates (the seam check's public list"
+    },
+    {
+     "source": "commit",
+     "ref": "5b9e153d2",
+     "text": "STEP reader: move SolidCraft's reader into solidcore with its history (RFC 0003, 1.5) (#13979)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/5b9e153d290e4c7a73dd484307199cccc7ceb38d",
+     "matched": "solidcore-ops becomes a workspace dependency of the four crates (the seam check's public list"
+    },
+    {
+     "source": "commit",
+     "ref": "13c43af41",
+     "text": "Kernel: projected point/face maxima are measured on the face's own surface (#13729) (#13965)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/13c43af41ba838d4bb513960f6e6cc0e8de918bc",
+     "matched": "deferral. It checks two sphere faces in either order and a seam vertex"
+    },
+    {
+     "source": "commit",
+     "ref": "dffe6108e",
+     "text": "Kernel: a circular arc's length is its radius times its angle, not a quadrature estimate (#13642) (#14296)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/dffe6108e996c8501312a56f45bd8da7e9b380d5",
+     "matched": "seam or period to resolve. Each end point about the centre is the"
+    },
+    {
+     "source": "commit",
+     "ref": "5db790052",
+     "text": "solidcore-tess: well-shaped flat faces with no size, and the 50k-face plate in under 9 s (#14242)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/5db790052a8bfe412f9d6cb81ea44db31c16d485",
+     "matched": "in xtask/solidcore-seam.txt (until RFC 0003 item 1.8 moves model-evaluation"
+    },
+    {
+     "source": "commit",
+     "ref": "a7c8554d9",
+     "text": "Move geom's pcurve, label and record checks into solidcore::eval with their history (RFC 0003, 1.8 slice) (#13997)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/a7c8554d9b56fde37fa33cbfc8c5a76c6543445b",
+     "matched": "solidcore-ops becomes a workspace dependency of the four crates (the seam check's public list"
+    },
+    {
+     "source": "commit",
+     "ref": "ca15a7b02",
+     "text": "solidcore-tess: a face the moved mesher cannot read is left out, not the body (#14033)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/ca15a7b020cb5f70ff67f0ee888bdba897e41977",
+     "matched": "in xtask/solidcore-seam.txt (until RFC 0003 item 1.8 moves model-evaluation"
+    },
+    {
+     "source": "commit",
+     "ref": "541f62c0e",
+     "text": "fillet: a round's rail rolls over a smooth far edge of its face, the whole length (#14136) (#14137)",
+     "url": "https://github.com/tangency-labs/solidcore/commit/541f62c0ee931b0e0e56e4841681200d1fda04dc",
+     "matched": "vertex, as a rail continues across a seam's vertex. Before, the ball rolled on the face continued"
+    },
+    {
+     "source": "finding",
+     "ref": "intersect.curve_class_p7",
+     "text": "intersect.curve_class_p7: a vertex is a near miss of a seam only across it (2026-11-10)",
+     "url": "https://github.com/tangency-labs/solidcore/blob/81a884ad60a46d5525ef80c9034d35ec0851f1c7/plan/findings/intersect.curve_class_p7--13713-seam-near-miss-across-the-seam.md"
+    }
+   ]
+  }
+ ],
+ "units": {
+  "total": 282,
+  "counts": {
+   "green": 254,
+   "blocked": 1,
+   "partial": 27
+  },
+  "status_changes": [],
+  "notes_updated": [],
+  "not_green": [
+   "blend.feature_executive",
+   "blend.fillet_corner_p2",
+   "blend.fillet_corner_p3",
+   "blend.fillet_executive_p3",
+   "blend.fillet_geom_p4",
+   "boolean.api_brep",
+   "curve.curve_p3",
+   "curve.curve_p5",
+   "intersect.api_intersectors",
+   "intersect.surface_drop_lib_p1",
+   "intersect.surface_intersector_p2",
+   "mass.integrator",
+   "offset.offset_executive_p1",
+   "offset.offset_executive_p2",
+   "offset.offset_geometry_creation",
+   "primitive.api_trim_ops",
+   "surface.plane_p1",
+   "surface.surface_p2",
+   "surface.torus",
+   "sweep.api_brep",
+   "topology.api_files",
+   "topology.api_projection",
+   "topology.assert_valid",
+   "topology.brep_cutting",
+   "topology.brep_local_operation",
+   "topology.brep_p3",
+   "topology.brep_planar_section",
+   "topology.face_p2"
+  ]
+ },
+ "upstream_issues": {
+  "total": 751,
+  "counts": {
+   "WR": 424,
+   "UB": 257,
+   "HANG": 52,
+   "ND": 11,
+   "DOC": 5,
+   "FAIL": 1,
+   "ISSUE": 1
+  },
+  "new": [
+   {
+    "id": "WR-768",
+    "title": "WR-768. `SmCurvePropertyEFO::Evaluate` negates a projected maximum's equation but not its derivative",
+    "file": "WR-768--projected-maximum-newton-derivative-sign.md"
+   },
+   {
+    "id": "WR-773",
+    "title": "WR-773: N_SrfJoin removes the joint knot on a net that mixes weights with NL_NOW",
+    "file": "WR-773--n-srfjoin-removes-the-joint-knot-on-a-net-mixing-weights.md"
+   },
+   {
+    "id": "WR-774",
+    "title": "WR-774. `SmApiCreatePipeSweep` builds a pipe whose radius reaches past a bend's centre, its wall folded through itself",
+    "file": "WR-774--smapicreatepipesweep-builds-a-pipe-folded-past-a-bend.md"
+   }
+  ],
+  "removed": [],
+  "retitled": [],
+  "new_addenda": [
+   "HANG-52--addendum-2026-11-09-flag-removed-ssi-start-loop-trace-budget.md",
+   "UB-170--addendum-2026-11-09-flag-removed-translation-sweep-regularize.md",
+   "WR-1--addendum-2026-11-10-flag-removed-mark-lock-pair-advances-and-locks-second-context.md",
+   "WR-10--addendum-2026-11-10-flag-removed-best-fit-line-largest-scatter-eigenvector.md",
+   "WR-14--addendum-2026-11-10-flag-retired-on-point-set-tight-pbox-projects-points.md",
+   "WR-156--addendum-2026-11-09-flag-removed-volume-discontinuity-checks-vw-unaligned.md",
+   "WR-19--addendum-2026-11-10-flag-removed-local-solve1d-unbounded-newton-step.md",
+   "WR-212--addendum-2026-11-09-every-failure-restores-body.md",
+   "WR-27--addendum-2026-11-09-flag-removed-conic-evaluate-uses-computed-second-deriv.md",
+   "WR-36--addendum-2026-11-09-flag-removed-curve-max-distance-single-sample-midpoint.md",
+   "WR-400--addendum-2026-11-09-flag-removed-planar-path-uncapped-open-profiles.md",
+   "WR-402--addendum-2026-11-09-flag-removed-taper-pivot-nearest-corner.md",
+   "WR-404--addendum-2026-11-09-flag-removed-curve-sweep-caps-at-sweep-ends.md",
+   "WR-460--addendum-2026-11-09-flag-retired-for-the-band-test.md",
+   "WR-462--addendum-2026-11-06-flag-removed.md",
+   "WR-463--addendum-2026-11-09-flag-removed.md",
+   "WR-471--addendum-2026-11-09-flag-removed-revolve-arc-centre-near-axis-is-sphere.md",
+   "WR-491--addendum-2026-11-10-flag-removed-trim-boundary-seam-wrap.md",
+   "WR-497--addendum-2026-11-10-flag-removed-shell-inner-shell-of-statuses.md",
+   "WR-52--addendum-2026-11-09-flag-removed-is-point-on-curve-propagates-eval-failure.md",
+   "WR-525--addendum-2026-11-06-at-thirds-removed.md",
+   "WR-535--addendum-2026-11-09-flag-removed-brep-area-between-solid-and-void.md",
+   "WR-537--addendum-2026-11-09-flag-removed-seam-point-solutions-are-one.md",
+   "WR-552--addendum-2026-11-09-flag-removed-revolve-arc-touching-axis-is-horn-torus.md",
+   "WR-561--addendum-2026-11-10-flag-removed-loop-orientation-floor-from-loop-box.md",
+   "WR-571--addendum-2026-11-09-flag-removed-taper-wall-closes-at-apex.md",
+   "WR-576--addendum-2026-11-09-flag-removed-linear-sweep-arc-to-cylinder-zero.md",
+   "WR-581--addendum-2026-11-07-flag-removed.md",
+   "WR-6--addendum-2026-11-10-flag-removed-periodic-extent-add-empty-interval.md",
+   "WR-601--addendum-2026-11-10-flag-removed-imprint-extension-keeps-analytic-curve.md",
+   "WR-659--addendum-2026-11-07-flag-removed.md",
+   "WR-660--addendum-2026-11-09-flag-removed-planar-path-profile-in-path-frame.md",
+   "WR-661--addendum-2026-11-09-flag-removed.md",
+   "WR-662--addendum-2026-11-09-flag-removed.md",
+   "WR-682--addendum-2026-11-07-flag-removed.md",
+   "WR-685--addendum-2026-11-06-flag-removed.md",
+   "WR-708--addendum-2026-11-06-flag-removed.md",
+   "WR-711--addendum-2026-11-06-flag-removed.md",
+   "WR-718--addendum-2026-11-07-the-fix-is-the-default.md",
+   "WR-9--addendum-2026-11-10-flag-removed-polar-box-region-to-arc-transposes-domain.md",
+   "WR-94--addendum-2026-11-10-flag-removed-integrator-propagates-failure.md",
+   "WR-97--addendum-2026-11-10-flag-removed-is-iso-curve-at-propagates-canonical-failure.md"
+  ]
+ },
+ "findings": {
+  "total": 787,
+  "new": [
+   {
+    "file": "blend.blend_setback--scale-search-degree-order.md",
+    "title": "blend.blend_setback: the scale search's attempts fill degree 9 first, as the corner's fill does (2026-11-07)"
+   },
+   {
+    "file": "geom.extent1d--wr509-moved-ten-cases-2026-11-08--addendum-2026-11-10-traced.md",
+    "title": "Addendum: the WR-509 cases in curve.ellipse_p2 and query.face_p3, traced and checked"
+   },
+   {
+    "file": "intersect.curve_class_p7--13713-seam-near-miss-across-the-seam.md",
+    "title": "intersect.curve_class_p7: a vertex is a near miss of a seam only across it (2026-11-10)"
+   },
+   {
+    "file": "offset.offset_executive_p1--certified-nets-keep-the-base-domain.md",
+    "title": "The certified nets of the p1 replace cases keep the base's domain"
+   },
+   {
+    "file": "offset.offset_executive_p2--folding-offsets-refused-by-default.md",
+    "title": "Offsets that fold are refused by default; the bodies SMLib built by deleting the face"
+   }
+  ]
+ },
+ "solidcraft": {
+  "total": 125,
+  "counts": {
+   "PASS": 97,
+   "DEFERRED": 23,
+   "ERROR": 1,
+   "FAIL": 4
+  },
+  "changes": [],
+  "new": [],
+  "failing": [
+   "3369-fillet-edge-on-tangent-seam/edge_ends_on_seam",
+   "451-hollow-shell-cut/block_crossing_both_spheres_cut",
+   "451-hollow-shell-cut/block_crossing_inner_sphere_cut",
+   "451-hollow-shell-cut/block_crossing_inner_sphere_join",
+   "451-hollow-shell-cut/block_inside_hollow_cut"
+  ]
+ },
+ "upstream_fixes": {
+  "total": 261,
+  "new": [
+   {
+    "flag": "split_edge_definition_owns_its_curves",
+    "doc": "`SmEdgeDefinition::Split` gives the new upper definition its own copies of the 3D and UV curves and trims both definitions' curves to their intervals before `AddEdgeDefinition` hangs the new one on the upper proto edge."
+   },
+   {
+    "flag": "simple_coincidence_side_across_the_curve",
+    "doc": "With `simple_coincidence_crossing_is_point`, `SimpleCoincidenceChecker` decides on which side of this curve the other lies from the end pairs' separation across this curve (its tangent's component removed)."
+   },
+   {
+    "flag": "boolean_capture_keeps_operand_vertices_apart",
+    "doc": "`SmTopologyIntersector::IntersectInsertRelate` keeps the proto topology's capture distance below half the smallest distance between two vertices of either operand (never below the intersection tolerance), so that no proto vertex captures two distinct vertices of one operand: two points d apart are never both closer than d / 2 to a third."
+   },
+   {
+    "flag": "radial_sector_step_off_coincidence_by_own_face",
+    "doc": "`SmEdge::RadialSectorClassify`, when stepping off the edge leaves a face before the classification is unique, reads a coincident classify face's side against the face it coincides with: the sector edge use's face (`CoincidentSector` or its mate) or the radial partner's (`CoincidentRadial` or its mate), as the coincidence test of the same loop does (with the sector face's normal, and with the classify face's normal from its projected binormal)."
+   }
+  ],
+  "removed": [
+   "fillet_refuse_crossing_rails",
+   "fillet_blend_curve_revolved_on_arc",
+   "fillet_surface_plane_curve_on_plane_equation",
+   "point_set_tight_pbox_projects_points",
+   "fillet_corner_face_curve_halves",
+   "translation_sweep_regularize",
+   "best_fit_line_largest_scatter_eigenvector",
+   "trim_boundary_seam_wrap",
+   "loop_orientation_floor_from_loop_box",
+   "conic_evaluate_uses_computed_second_deriv",
+   "volume_discontinuity_checks_vw_unaligned",
+   "periodic_extent_add_empty_interval",
+   "planar_path_uncapped_open_profiles",
+   "planar_path_profile_in_path_frame",
+   "revolve_arc_centre_near_axis_is_sphere",
+   "revolve_arc_touching_axis_is_horn_torus",
+   "taper_pivot_nearest_corner",
+   "curve_max_distance_single_sample_midpoint",
+   "taper_wall_closes_at_apex",
+   "curve_sweep_caps_at_sweep_ends",
+   "polar_box_region_to_arc_transposes_domain",
+   "local_solve1d_unbounded_newton_step",
+   "mark_lock_pair_advances_and_locks_second_context",
+   "primitive_path_curve_statuses",
+   "fillet_corner_statuses",
+   "fillet_edge_curve_domain_statuses",
+   "offset_tangent_gap_statuses",
+   "ssi_alignment_statuses",
+   "is_iso_curve_at_propagates_canonical_failure",
+   "shell_inner_shell_of_statuses",
+   "linear_sweep_arc_to_cylinder_zero",
+   "seam_point_solutions_are_one",
+   "is_point_on_curve_propagates_eval_failure",
+   "imprint_extension_keeps_analytic_curve",
+   "integrator_propagates_failure",
+   "brep_area_between_solid_and_void",
+   "offset_closed_curve_trim_arc",
+   "fillet_refuse_ball_not_fitting",
+   "ssi_start_loop_trace_budget",
+   "fillet_gn_section_generator",
+   "fillet_exact_arc_sections",
+   "fillet_exact_arc_spans",
+   "shell_one_construction"
+  ],
+  "fillet_total": 68
+ },
+ "gates": {
+  "waivers_before": 35,
+  "waivers_after": 35,
+  "known_mismatches": 0,
+  "mismatches_new": [],
+  "mismatches_removed": []
+ },
+ "pin": {
+  "version": "1.0.1",
+  "commit": "3fd5b9548",
+  "changed": false,
+  "before_version": "1.0.1"
+ },
+ "status_md_changed": false,
+ "tags": [],
+ "github": {
+  "ok": true,
+  "issues_opened": [
+   {
+    "number": 3252,
+    "title": "Fillet: a concave round whose rail runs off a flat face where it turns into a round is refused (ConcaveOverflow); needs a split end patch",
+    "author": "plexi32",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3252"
+   },
+   {
+    "number": 3251,
+    "title": "cylinder_plane_span_bound_is_the_closed_form overflows the stack in a debug build",
+    "author": "bherbruck",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3251"
+   },
+   {
+    "number": 3249,
+    "title": "Extruding a plate with N holes walks every hole placed before each new one: N² loop walks per cap",
+    "author": "liorknafo",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3249"
+   },
+   {
+    "number": 3247,
+    "title": "Cancellable evaluation: a cancel token through solidcore, solidcore-ops and SolidCraft",
+    "author": "bherbruck",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3247"
+   },
+   {
+    "number": 3248,
+    "title": "A boolean of two bodies sharing a long outline: five O(N²) passes (proto edge pairs, proto vertices × edges, edge-definition scans, face vertex lists, coincident-face classification)",
+    "author": "bherbruck",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3248"
+   },
+   {
+    "number": 3246,
+    "title": "Boolean refused by Bad Gap at exactly the WR-469 tolerance: new-edge vertex tolerance is 2×gap with no margin, the gap measured later is 1.00003× (solidcraft#14206)",
+    "author": "Ehuntabi",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3246"
+   },
+   {
+    "number": 3245,
+    "title": "Round at the smallest supported radius is refused: the trim leaks after a one-ulp move of the rail end",
+    "author": "bherbruck",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/issues/3245"
+   }
+  ],
+  "issues_closed": [],
+  "prs_opened": [
+   {
+    "number": 3250,
+    "title": "perf(query): a face's point classification leaves out the inner loops that cannot hold the point (#3249)",
+    "author": "liorknafo",
+    "labels": [],
+    "url": "https://github.com/tangency-labs/solidcore/pull/3250"
+   }
+  ],
+  "prs_closed_unmerged": [],
+  "open_issues": 9,
+  "open_prs": 1
+ },
+ "releases": {
+  "ok": true,
+  "crates_io": {
+   "max_version": "1.0.1",
+   "new_versions": []
+  },
+  "upstream": [],
+  "upstream_latest": "v1.0.1"
+ }
+}
